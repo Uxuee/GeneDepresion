@@ -1,0 +1,16 @@
+# Local input data and generated outputs
+*.tsv
+*.tsv.gz
+*.csv
+*.Rdata
+*.rds
+Step1_GeTMM_log2_outputs/
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
