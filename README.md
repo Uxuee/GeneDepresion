@@ -8,9 +8,25 @@ The current Step 1 script prepares region-specific expression matrices using one
 filtered raw counts -> GeTMM -> log2(GeTMM + 1)
 ```
 
-## Main Script
+## Main Scripts
 
-- `code/Step1.R`
+- `code/Step1_GSE102556_GeTMM_brain_area_groups.R` - recommended Step 1; groups exact GEO tissue labels into broader editable brain areas before GeTMM-log2 normalization.
+- `code/Step1.R` - earlier Step 1 version that normalizes each exact GEO tissue label separately.
+
+## Brain-Area Mapping
+
+The broad grouping is controlled by:
+
+- `GSE102556_brain_area_mapping_template.csv`
+
+Default grouping:
+
+- OFC, dlPFC, Cg25 -> `Frontal_Cortex`
+- aINS -> `Insula`
+- NAc -> `Ventral_Striatum`
+- Subiculum -> `Hippocampal_Formation`
+
+Edit the mapping CSV and rerun the brain-area script if a different anatomical grouping is needed.
 
 ## Documentation
 
@@ -41,7 +57,13 @@ GEOquery::getGEO("GSE102556", GSEMatrix = TRUE)
 
 ## Outputs
 
-Generated outputs are written to:
+The brain-area grouped Step 1 writes outputs to:
+
+```text
+D:/genes/genedata/Step1_GSE102556_GeTMM_brain_area_groups
+```
+
+The earlier exact-region Step 1 writes outputs to:
 
 ```text
 D:/genes/genedata/Step1_GeTMM_log2_outputs

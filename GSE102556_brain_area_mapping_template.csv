@@ -1,0 +1,7 @@
+OriginalRegion,BrainArea,MajorBrainPart,MappingComment
+Orbitofrontal (OFC; BA11),Frontal_Cortex,Cerebral_Cortex,OFC is grouped with frontal cortical samples.
+Dorsolateral prefrontal cortex (dlPFC; BA8/9),Frontal_Cortex,Cerebral_Cortex,dlPFC is grouped with frontal cortical samples.
+Cingulate gyrus 25 (Cg25),Frontal_Cortex,Cerebral_Cortex,Cg25 is treated as medial prefrontal/anterior cingulate cortex for this broad grouping.
+Anterior Insula (aINS),Insula,Cerebral_Cortex,Anterior insula is kept as its own broad cortical area by default.
+Nucleus Accumbens (Nac),Ventral_Striatum,Subcortical_Striatum,Nucleus accumbens is grouped as ventral striatum/subcortical.
+Subiculum (Sub),Hippocampal_Formation,Temporal_Limbic_Hippocampal,Subiculum is grouped as hippocampal formation / temporal-limbic.
