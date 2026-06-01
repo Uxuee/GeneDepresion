@@ -31,6 +31,7 @@ Edit the mapping CSV and rerun the brain-area script if a different anatomical g
 ## Documentation
 
 - `docs/Step1_GSE102556_GeTMM_log2_Notion.md`
+- `docs/Data_Treatment_GSE102556_Notion.md`
 
 ## Inputs
 
