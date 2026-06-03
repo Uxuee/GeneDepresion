@@ -1,0 +1,37 @@
+name: depresion
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - plotly
+  - lxml
+  - scipy
+  - scikit-learn
+  - pandas
+  - jupyterlab
+  - seaborn
+  - matplotlib
+  - ipykernel
+  - numpy
+  - tqdm
+  - statsmodels
+  - requests
+  - beautifulsoup4
+  - notebook
+  - openpyxl
+  - bioconductor-org.hs.eg.db
+  - bioconductor-summarizedexperiment
+  - bioconductor-edger
+  - bioconductor-deseq2
+  - bioconductor-genefilter
+  - bioconductor-biobase
+  - r-tidyverse
+  - r-data.table
+  - bioconductor-geoquery
+  - r-base
+  - r-irkernel
+  - bioconductor-annotationdbi
+  - bioconductor-limma
+  - r-janitor
+prefix: /home/uxue/miniforge3/envs/depresion
