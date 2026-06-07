@@ -64,6 +64,20 @@ The brain-area grouped Step 1 writes outputs to:
 D:/genes/genedata/Step1_GSE102556_GeTMM_brain_area_groups
 ```
 
+Output folders are organized by file type:
+
+```text
+00_config/                 mapping used for the run
+01_metadata/               matched metadata and per-group metadata
+02_normalized_expression/  final log2(GeTMM + 1) matrices
+03_filtered_raw_counts/    raw counts after gene filtering
+04_normalization_factors/  TMM and effective-library-size tables
+05_gene_annotation/        annotation for retained genes
+06_repetition_reports/     repeated donor / gene-entry reports
+07_qc/                     compact QC and model-decision summaries
+08_rds/                    compact R object for later steps
+```
+
 The earlier exact-region Step 1 writes outputs to:
 
 ```text

@@ -79,6 +79,20 @@ The broad brain-area workflow writes outputs to:
 D:/genes/genedata/Step1_GSE102556_GeTMM_brain_area_groups
 ```
 
+Outputs are organized by result type:
+
+```text
+00_config/                 mapping used for the run
+01_metadata/               matched metadata and per-group metadata
+02_normalized_expression/  final log2(GeTMM + 1) matrices
+03_filtered_raw_counts/    raw counts after length/expression filtering
+04_normalization_factors/  TMM factors and effective library sizes
+05_gene_annotation/        annotation for retained genes
+06_repetition_reports/     repeated donor and gene-entry reports
+07_qc/                     compact QC and model-decision summaries
+08_rds/                    compact R object for later steps
+```
+
 Generated outputs are not committed to Git because they are large and reproducible.
 
 ## Raw count treatment
@@ -365,32 +379,29 @@ This is the main normalized expression output.
 At the top level of the output folder, the script writes:
 
 ```text
-brain_area_mapping_used.csv
-metadata_clean_matched_all_samples_with_brain_area.csv
-analysis_group_composition_report.csv
-model_decision_repetition_summary.csv
-Step1_QC_summary_by_analysis_group_all_modes.csv
-Step1_metadata_QC_and_repetition_reports_by_brain_area.rds
+00_config/brain_area_mapping_used.csv
+01_metadata/metadata_clean_matched_all_samples_with_brain_area.csv
+07_qc/analysis_group_composition_report.csv
+07_qc/model_decision_repetition_summary.csv
+07_qc/Step1_QC_summary_by_analysis_group_all_modes.csv
+08_rds/Step1_metadata_QC_and_repetition_reports_by_brain_area.rds
 ```
 
 It also writes donor and gene repetition reports before group-level deduplication:
 
 ```text
-all_matched_samples_before_group_dedup_donor_repetition_overall.csv
-all_matched_samples_before_group_dedup_donor_repetition_by_analysis_group.csv
-all_matched_samples_before_group_dedup_donor_repetition_by_original_region.csv
-all_matched_samples_before_group_dedup_gene_entry_repetition_summary.csv
-all_matched_samples_before_group_dedup_gene_entry_repetition_summary_compact.csv
+06_repetition_reports/all_matched_samples_before_group_dedup/
 ```
 
 For each sample-handling mode and analysis group, the script writes:
 
 ```text
-normalized_GeTMM_log2_<analysis_group>.csv
-filtered_raw_counts_<analysis_group>.csv
-metadata_<analysis_group>.csv
-gene_annotation_<analysis_group>.csv
-GeTMM_normalization_factors_<analysis_group>.csv
+02_normalized_expression/<mode>/normalized_GeTMM_log2_<analysis_group>.csv
+03_filtered_raw_counts/<mode>/filtered_raw_counts_<analysis_group>.csv
+01_metadata/<mode>/metadata_<analysis_group>.csv
+05_gene_annotation/<mode>/gene_annotation_<analysis_group>.csv
+04_normalization_factors/<mode>/GeTMM_normalization_factors_<analysis_group>.csv
+06_repetition_reports/<mode>/<analysis_group>/
 ```
 
 It also writes repetition reports for each group.

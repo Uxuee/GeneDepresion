@@ -49,7 +49,26 @@ repo_dir <- normalizePath(file.path(dirname(script_path), ".."), mustWork = FALS
 data_dir <- "D:/genes/genedata"
 
 output_dir <- file.path(data_dir, "Step1_GSE102556_GeTMM_brain_area_groups")
+clean_output_dir_before_run <- TRUE
+
+if (clean_output_dir_before_run && dir.exists(output_dir)) {
+  message("Cleaning previous Step 1 output folder: ", output_dir)
+  unlink(output_dir, recursive = TRUE, force = TRUE)
+}
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
+
+output_paths <- list(
+  config = file.path(output_dir, "00_config"),
+  metadata = file.path(output_dir, "01_metadata"),
+  normalized = file.path(output_dir, "02_normalized_expression"),
+  filtered_counts = file.path(output_dir, "03_filtered_raw_counts"),
+  normalization_factors = file.path(output_dir, "04_normalization_factors"),
+  gene_annotation = file.path(output_dir, "05_gene_annotation"),
+  repetition_reports = file.path(output_dir, "06_repetition_reports"),
+  qc = file.path(output_dir, "07_qc"),
+  rds = file.path(output_dir, "08_rds")
+)
+invisible(lapply(output_paths, dir.create, recursive = TRUE, showWarnings = FALSE))
 
 raw_counts_path <- file.path(data_dir, "GSE102556_raw_counts_GRCh38.p13_NCBI.tsv")
 annot_path      <- file.path(data_dir, "Human.GRCh38.p13.annot.tsv")
@@ -612,7 +631,7 @@ write_repetition_reports <- function(metadata_subset, genes, out_dir, prefix) {
   ))
 }
 
-process_analysis_group <- function(group_name, mode, raw_counts, metadata, gene_lengths_bp, annotation, mode_dir) {
+process_analysis_group <- function(group_name, mode, raw_counts, metadata, gene_lengths_bp, annotation) {
   message("\nProcessing analysis group: ", group_name, " | mode: ", mode)
 
   group_meta_before <- metadata[metadata$AnalysisGroup == group_name, , drop = FALSE]
@@ -637,29 +656,36 @@ process_analysis_group <- function(group_name, mode, raw_counts, metadata, gene_
   annot_group <- annotation[match(rownames(expr_norm), annotation$GeneID), , drop = FALSE]
 
   tag <- slugify(group_name)
-  group_dir <- file.path(mode_dir, tag)
-  dir.create(group_dir, recursive = TRUE, showWarnings = FALSE)
+  typed_dirs <- list(
+    normalized = file.path(output_paths$normalized, mode),
+    filtered_counts = file.path(output_paths$filtered_counts, mode),
+    metadata = file.path(output_paths$metadata, mode),
+    gene_annotation = file.path(output_paths$gene_annotation, mode),
+    normalization_factors = file.path(output_paths$normalization_factors, mode),
+    repetition_reports = file.path(output_paths$repetition_reports, mode, tag)
+  )
+  invisible(lapply(typed_dirs, dir.create, recursive = TRUE, showWarnings = FALSE))
 
   write.csv(expr_norm,
-            file.path(group_dir, paste0("normalized_GeTMM_log2_", tag, ".csv")),
+            file.path(typed_dirs$normalized, paste0("normalized_GeTMM_log2_", tag, ".csv")),
             row.names = TRUE)
   write.csv(counts_filtered,
-            file.path(group_dir, paste0("filtered_raw_counts_", tag, ".csv")),
+            file.path(typed_dirs$filtered_counts, paste0("filtered_raw_counts_", tag, ".csv")),
             row.names = TRUE)
   write.csv(group_meta,
-            file.path(group_dir, paste0("metadata_", tag, ".csv")),
+            file.path(typed_dirs$metadata, paste0("metadata_", tag, ".csv")),
             row.names = FALSE)
   write.csv(annot_group,
-            file.path(group_dir, paste0("gene_annotation_", tag, ".csv")),
+            file.path(typed_dirs$gene_annotation, paste0("gene_annotation_", tag, ".csv")),
             row.names = FALSE)
   write.csv(norm$norm_factors,
-            file.path(group_dir, paste0("GeTMM_normalization_factors_", tag, ".csv")),
+            file.path(typed_dirs$normalization_factors, paste0("GeTMM_normalization_factors_", tag, ".csv")),
             row.names = FALSE)
 
   write_repetition_reports(
     metadata_subset = group_meta,
     genes = rownames(expr_norm),
-    out_dir = group_dir,
+    out_dir = typed_dirs$repetition_reports,
     prefix = paste0("analysis_group_", tag, "_", mode)
   )
 
@@ -740,7 +766,7 @@ make_model_decision_summary <- function(metadata, out_dir) {
 ############################
 
 raw_counts <- read_expression_matrix(raw_counts_path)
-raw_counts <- collapse_duplicate_gene_ids(raw_counts, output_dir)
+raw_counts <- collapse_duplicate_gene_ids(raw_counts, output_paths$qc)
 
 if (!file.exists(annot_path)) stop("Annotation file not found: ", annot_path)
 annotation <- read.delim(annot_path, header = TRUE, sep = "\t", check.names = FALSE)
@@ -783,8 +809,8 @@ metadata <- metadata[match(common_samples_all, metadata$SampleID), , drop = FALS
 mapping <- load_or_create_brain_area_mapping(metadata$OriginalRegion)
 metadata <- apply_brain_area_mapping(metadata, mapping)
 
-write.csv(mapping, file.path(output_dir, "brain_area_mapping_used.csv"), row.names = FALSE)
-write.csv(metadata, file.path(output_dir, "metadata_clean_matched_all_samples_with_brain_area.csv"), row.names = FALSE)
+write.csv(mapping, file.path(output_paths$config, "brain_area_mapping_used.csv"), row.names = FALSE)
+write.csv(metadata, file.path(output_paths$metadata, "metadata_clean_matched_all_samples_with_brain_area.csv"), row.names = FALSE)
 
 message("After metadata matching: ", nrow(metadata), " samples")
 message("Original fine regions detected:")
@@ -792,16 +818,16 @@ print(sort(table(metadata$OriginalRegion)))
 message("Broad analysis groups detected using column '", analysis_group_column, "':")
 print(sort(table(metadata$AnalysisGroup)))
 
-composition_report <- make_group_composition_report(metadata, output_dir)
+composition_report <- make_group_composition_report(metadata, output_paths$qc)
 
 ## Reports before any group-level deduplication.
 write_repetition_reports(
   metadata_subset = metadata,
   genes = rownames(raw_counts),
-  out_dir = output_dir,
+  out_dir = file.path(output_paths$repetition_reports, "all_matched_samples_before_group_dedup"),
   prefix = "all_matched_samples_before_group_dedup"
 )
-model_summary <- make_model_decision_summary(metadata, output_dir)
+model_summary <- make_model_decision_summary(metadata, output_paths$qc)
 
 ############################
 ## 5. Process both versions by broad analysis group
@@ -816,9 +842,6 @@ if (length(all_groups) == 0) stop("No analysis groups selected/found.")
 all_qc <- list()
 
 for (mode in sample_handling_modes) {
-  mode_dir <- file.path(output_dir, mode)
-  dir.create(mode_dir, recursive = TRUE, showWarnings = FALSE)
-
   qc_mode <- do.call(rbind, lapply(
     all_groups,
     process_analysis_group,
@@ -826,19 +849,18 @@ for (mode in sample_handling_modes) {
     raw_counts = raw_counts,
     metadata = metadata,
     gene_lengths_bp = gene_lengths_bp,
-    annotation = annotation,
-    mode_dir = mode_dir
+    annotation = annotation
   ))
 
   write.csv(qc_mode,
-            file.path(mode_dir, paste0("Step1_QC_summary_by_analysis_group_", mode, ".csv")),
+            file.path(output_paths$qc, paste0("Step1_QC_summary_by_analysis_group_", mode, ".csv")),
             row.names = FALSE)
   all_qc[[mode]] <- qc_mode
 }
 
 qc_summary_all_modes <- do.call(rbind, all_qc)
 write.csv(qc_summary_all_modes,
-          file.path(output_dir, "Step1_QC_summary_by_analysis_group_all_modes.csv"),
+          file.path(output_paths$qc, "Step1_QC_summary_by_analysis_group_all_modes.csv"),
           row.names = FALSE)
 
 ############################
@@ -860,15 +882,16 @@ saveRDS(
     low_expr_exclusion_prop = low_expr_exclusion_prop,
     sample_handling_modes = sample_handling_modes
   ),
-  file = file.path(output_dir, "Step1_metadata_QC_and_repetition_reports_by_brain_area.rds")
+  file = file.path(output_paths$rds, "Step1_metadata_QC_and_repetition_reports_by_brain_area.rds")
 )
 
 message("\nDone. Files saved in: ", normalizePath(output_dir))
 message("Main files to inspect:")
-message("  - brain_area_mapping_used.csv")
-message("  - analysis_group_composition_report.csv")
-message("  - Step1_QC_summary_by_analysis_group_all_modes.csv")
-message("  - model_decision_repetition_summary.csv")
-message("  - all_matched_samples_before_group_dedup_donor_repetition_by_analysis_group.csv")
-message("  - all_matched_samples_before_group_dedup_gene_entry_repetition_summary_compact.csv")
+message("  - 00_config/brain_area_mapping_used.csv")
+message("  - 01_metadata/metadata_clean_matched_all_samples_with_brain_area.csv")
+message("  - 02_normalized_expression/<mode>/normalized_GeTMM_log2_<group>.csv")
+message("  - 06_repetition_reports/<mode>/<group>/")
+message("  - 07_qc/analysis_group_composition_report.csv")
+message("  - 07_qc/Step1_QC_summary_by_analysis_group_all_modes.csv")
+message("  - 07_qc/model_decision_repetition_summary.csv")
 message("\nIf the grouping is not what you want, edit GSE102556_brain_area_mapping_template.csv and rerun.")
