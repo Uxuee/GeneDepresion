@@ -82,13 +82,13 @@ metadata_candidates <- c(
 )
 
 ## Editable mapping file. If it does not exist, the script creates a default one.
-brain_area_mapping_path <- file.path(repo_dir, "GSE102556_brain_area_mapping_template.csv")
+brain_area_mapping_path <- file.path(repo_dir, "config", "GSE102556_brain_area_mapping_template.csv")
 
 ## Choose the grouping used for normalization/output:
 ##   "BrainArea"      = recommended first version, moderately broad
 ##   "MajorBrainPart" = coarser version
 ##
-## You can edit GSE102556_brain_area_mapping_template.csv before running
+## You can edit config/GSE102556_brain_area_mapping_template.csv before running
 ## if you want a different grouping.
 analysis_group_column <- "BrainArea"
 
@@ -894,4 +894,4 @@ message("  - 06_repetition_reports/<mode>/<group>/")
 message("  - 07_qc/analysis_group_composition_report.csv")
 message("  - 07_qc/Step1_QC_summary_by_analysis_group_all_modes.csv")
 message("  - 07_qc/model_decision_repetition_summary.csv")
-message("\nIf the grouping is not what you want, edit GSE102556_brain_area_mapping_template.csv and rerun.")
+message("\nIf the grouping is not what you want, edit config/GSE102556_brain_area_mapping_template.csv and rerun.")

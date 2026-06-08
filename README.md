@@ -10,6 +10,7 @@ filtered raw counts -> GeTMM -> log2(GeTMM + 1)
 
 ## Main Scripts
 
+- `run_step1.R` - easiest entry point; runs the current recommended Step 1 workflow.
 - `code/Step1_GSE102556_GeTMM_brain_area_groups.R` - recommended Step 1; groups exact GEO tissue labels into broader editable brain areas before GeTMM-log2 normalization.
 - `code/Step1.R` - earlier Step 1 version that normalizes each exact GEO tissue label separately.
 
@@ -17,7 +18,7 @@ filtered raw counts -> GeTMM -> log2(GeTMM + 1)
 
 The broad grouping is controlled by:
 
-- `GSE102556_brain_area_mapping_template.csv`
+- `config/GSE102556_brain_area_mapping_template.csv`
 
 Default grouping:
 

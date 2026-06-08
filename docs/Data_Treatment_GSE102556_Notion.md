@@ -221,7 +221,7 @@ This lets the workflow detect repeated donors across brain regions.
 The exact GEO tissue labels are mapped to broader analysis groups using:
 
 ```text
-GSE102556_brain_area_mapping_template.csv
+config/GSE102556_brain_area_mapping_template.csv
 ```
 
 This file is intentionally editable.
@@ -499,7 +499,7 @@ Those analyses belong in later steps after this preprocessing and normalization 
 Edit:
 
 ```text
-GSE102556_brain_area_mapping_template.csv
+config/GSE102556_brain_area_mapping_template.csv
 ```
 
 Then rerun:
