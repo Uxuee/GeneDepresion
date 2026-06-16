@@ -4,6 +4,7 @@
 *.csv
 *.Rdata
 *.rds
+outputs/
 Step1_GeTMM_log2_outputs/
 
 # R session files

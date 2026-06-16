@@ -189,26 +189,66 @@ The key lesson from PCA/QC was:
 
 PCA is not repeated in the current Step 3 regression scripts.
 
-## 11. Current step: differential expression
+## 11. Current step: transcriptomics differential expression
 
 The current step tests whether each gene is associated with depression diagnosis.
 
-This is done one gene at a time.
+The first simple LM/LMM scripts were useful for checking the idea, but they are
+now superseded by transcriptomics-specific Step 3 scripts.
 
-For each gene:
+The current recommended approach uses:
 
-1. take that gene's normalized expression values across samples
-2. combine them with the aligned metadata
-3. fit a regression model
-4. extract the diagnosis effect
-5. save the coefficient and p-value
+- limma-voom for the small groups
+- dream / variancePartition for repeated-donor analyses
+- p-value histograms to inspect whether there is left-skewed signal
 
-## 12. Frontal Cortex model
+## 12. Why use filtered raw counts for Step 3?
 
-Frontal Cortex uses a linear mixed model:
+The Step 1 GeTMM-log2 files are useful normalized expression matrices.
+
+However, limma-voom and dream are designed to start from raw count data so they
+can estimate count-based mean-variance weights.
+
+Therefore the new Step 3 scripts read:
+
+```text
+filtered_raw_counts_<group>.csv
+metadata_<group>.csv
+```
+
+This does not redo the earlier GeTMM-log2 preprocessing. It uses the already
+filtered raw counts in a transcriptomics-appropriate differential expression
+model.
+
+## 13. Small group models
+
+Insula, Ventral Striatum, and Hippocampal Formation use limma-voom:
 
 ```r
-expression_value ~ Diagnosis + Age + Sex + RIN + OriginalRegion + (1 | BrainID)
+~ Diagnosis + Age + Sex + RIN
+```
+
+The script is:
+
+```text
+code/Step3_small_groups_limma_voom_simple.R
+```
+
+limma-voom:
+
+- starts from filtered raw counts
+- estimates voom precision weights
+- fits the linear model
+- uses empirical Bayes moderation
+- saves one result CSV per group
+- saves one diagnosis p-value histogram per group
+
+## 14. Frontal Cortex dream model
+
+Frontal Cortex uses dream because it can contain repeated donors:
+
+```r
+~ Diagnosis + Age + Sex + RIN + OriginalRegion + (1 | BrainID)
 ```
 
 This means:
@@ -221,30 +261,33 @@ This means:
 The script is:
 
 ```text
-code/Step3_LMM_Frontal_Cortex_simple.R
+code/Step3_frontal_dream_simple.R
 ```
 
-## 13. Other group models
+## 15. Combined all-region model
 
-Insula, Ventral Striatum, and Hippocampal Formation use simple linear models:
+The combined model tests whether a shared depression effect across regions is
+easier to detect than separate regional analyses.
+
+It uses dream because donors can repeat across regions:
 
 ```r
-expression_value ~ Diagnosis + Age + Sex + RIN
+~ Diagnosis + BrainArea + Age + Sex + RIN + (1 | BrainID)
 ```
 
 The script is:
 
 ```text
-code/Step3_LM_Small_Groups_simple.R
+code/Step3_all_regions_combined_simple.R
 ```
 
-These groups do not include `(1 | BrainID)` because they do not have the same
-within-group repeated-donor issue.
+`BrainArea` is included so the diagnosis effect is tested while adjusting for
+broad region differences.
 
-## 14. How many genes were tested?
+## 16. How many genes are tested?
 
-The number of tested genes differs by group because each group has its own
-filtered normalized expression matrix.
+The number of tested genes can differ by model because each filtered count
+matrix has its own retained genes.
 
 | Group | Samples used | Genes tested |
 |---|---:|---:|
@@ -253,7 +296,10 @@ filtered normalized expression matrix.
 | Ventral_Striatum | 48 | 24,275 |
 | Hippocampal_Formation | 43 | 24,700 |
 
-## 15. What FDR means
+For the combined all-region model, the script keeps only genes present in all
+four filtered count matrices.
+
+## 17. What FDR means
 
 FDR means false discovery rate.
 
@@ -273,47 +319,32 @@ Simple interpretation:
 - FDR < 0.05: strict significance threshold
 - FDR < 0.10: more exploratory threshold
 
-## 16. Current result summary
+## 18. Why make p-value histograms?
 
-All models completed for all tested genes.
+Each new Step 3 script saves a simple diagnosis p-value histogram.
 
-| Group | Genes tested | FDR < 0.05 | FDR < 0.10 | Best FDR | Top GeneID |
-|---|---:|---:|---:|---:|---:|
-| Frontal_Cortex | 24,287 | 0 | 1 | 0.06553346 | 5147 |
-| Insula | 23,375 | 0 | 0 | 0.9344865 | 10090 |
-| Ventral_Striatum | 24,275 | 0 | 0 | 0.1279001 | 80705 |
-| Hippocampal_Formation | 24,700 | 0 | 0 | 0.9983605 | 65083 |
+The histogram helps answer:
 
-Using FDR < 0.05, no genes are significant.
+- are p-values almost uniform?
+- are many p-values close to zero?
+- is there left-skewed signal that FDR correction may be reducing?
 
-Using FDR < 0.10, one Frontal Cortex gene passes the exploratory threshold.
-
-## 17. Important caution
-
-The Frontal Cortex mixed model completed, but it printed many singular-fit
-messages and two convergence warnings.
-
-This means the output table exists, but the Frontal Cortex mixed-model result
-should be interpreted carefully.
-
-It does not mean the script failed. It means the random donor effect may be weak
-or hard to estimate for many genes.
-
-## 18. Where the current result files are saved
+## 19. Where the new result files are saved
 
 The regression result CSV files are saved locally in:
 
 ```text
-outputs/differential_expression
+outputs/step3_limma_voom_dream
 ```
 
-The output files are:
+Expected output CSV files:
 
 ```text
-LMM_Frontal_Cortex_results.csv
-LM_Insula_results.csv
-LM_Ventral_Striatum_results.csv
-LM_Hippocampal_Formation_results.csv
+limma_voom_Insula_results.csv
+limma_voom_Ventral_Striatum_results.csv
+limma_voom_Hippocampal_Formation_results.csv
+dream_Frontal_Cortex_results.csv
+dream_all_regions_combined_results.csv
 ```
 
 Generated output files are intentionally not committed to GitHub.

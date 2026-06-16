@@ -13,8 +13,9 @@ filtered raw counts -> GeTMM -> log2(GeTMM + 1)
 - `run_step1.R` - easiest entry point; runs the current recommended Step 1 workflow.
 - `code/Step1_GSE102556_GeTMM_brain_area_groups.R` - recommended Step 1; groups exact GEO tissue labels into broader editable brain areas before GeTMM-log2 normalization.
 - `code/Step2_Covariate_Exploration_FrontalCortex.R` - PCA/QC and covariate exploration for Frontal Cortex.
-- `code/Step3_LMM_Frontal_Cortex_simple.R` - simple Frontal Cortex differential expression script using one mixed model per gene.
-- `code/Step3_LM_Small_Groups_simple.R` - simple differential expression script for Insula, Ventral Striatum, and Hippocampal Formation.
+- `code/Step3_small_groups_limma_voom_simple.R` - limma-voom differential expression for Insula, Ventral Striatum, and Hippocampal Formation.
+- `code/Step3_frontal_dream_simple.R` - dream differential expression for Frontal Cortex with repeated donor handling.
+- `code/Step3_all_regions_combined_simple.R` - combined all-region dream model for a shared depression effect.
 
 ## Brain-Area Mapping
 
@@ -48,19 +49,16 @@ raw counts
 -> GeTMM normalization
 -> log2(GeTMM + 1)
 -> PCA/QC inspection
--> regression-based differential expression
+-> transcriptomics differential expression with limma-voom / dream
 ```
 
-The current differential expression step tested:
+The recommended Step 3 differential expression scripts now use:
 
-- 24,287 genes in `Frontal_Cortex`
-- 23,375 genes in `Insula`
-- 24,275 genes in `Ventral_Striatum`
-- 24,700 genes in `Hippocampal_Formation`
+- limma-voom for `Insula`, `Ventral_Striatum`, and `Hippocampal_Formation`
+- dream / variancePartition for `Frontal_Cortex`
+- dream / variancePartition for the combined all-region shared-effect model
 
-Using FDR < 0.05, no genes were significant in the current models.
-
-Using FDR < 0.10, one Frontal Cortex gene passed the exploratory threshold.
+The earlier naive one-gene-at-a-time LM/LMM scripts are superseded.
 
 ## Simple Step-by-Step Explanation
 
@@ -181,19 +179,33 @@ model.
 
 ### 9. Choose the Differential Expression Models
 
-Frontal Cortex uses a mixed model because it can contain repeated donors:
+The current recommended Step 3 uses transcriptomics-specific models.
+
+For Insula, Ventral Striatum, and Hippocampal Formation, the script uses
+limma-voom:
 
 ```r
-expression_value ~ Diagnosis + Age + Sex + RIN + OriginalRegion + (1 | BrainID)
+~ Diagnosis + Age + Sex + RIN
 ```
 
-The other groups use simple linear models:
+limma-voom starts from filtered raw counts, estimates mean-variance weights, and
+uses empirical Bayes moderation.
+
+For Frontal Cortex, the script uses dream because Frontal Cortex can contain
+repeated donors:
 
 ```r
-expression_value ~ Diagnosis + Age + Sex + RIN
+~ Diagnosis + Age + Sex + RIN + OriginalRegion + (1 | BrainID)
 ```
 
-The model is fit once per gene.
+For the combined all-region analysis, the script also uses dream:
+
+```r
+~ Diagnosis + BrainArea + Age + Sex + RIN + (1 | BrainID)
+```
+
+The combined model tests whether a shared depression effect across regions is
+easier to detect than separate regional analyses.
 
 ### 10. Correct for Testing Thousands of Genes
 
@@ -211,9 +223,27 @@ Simple interpretation:
 - FDR < 0.05: strict significance threshold
 - FDR < 0.10: exploratory threshold
 
-### 11. Current Result
+### 11. What the New Result Files Will Mean
 
-The current models tested:
+The new Step 3 scripts save result CSV files and simple p-value histograms under:
+
+```text
+outputs/step3_limma_voom_dream
+```
+
+The CSV files contain:
+
+- gene ID
+- diagnosis coefficient
+- average expression
+- moderated t-statistic
+- raw p-value
+- BH/FDR-corrected p-value
+
+The p-value histograms help show whether the p-values look mostly uniform or
+whether there is a left-skewed signal that is not strong enough to survive FDR.
+
+The previous naive LM/LMM result summary was:
 
 | Group | Samples used | Genes tested | FDR < 0.05 | FDR < 0.10 |
 |---|---:|---:|---:|---:|
@@ -222,18 +252,18 @@ The current models tested:
 | Ventral_Striatum | 48 | 24,275 | 0 | 0 |
 | Hippocampal_Formation | 43 | 24,700 | 0 | 0 |
 
-Using the strict FDR < 0.05 threshold, no genes were significant.
-
-Using the exploratory FDR < 0.10 threshold, one Frontal Cortex gene passed.
+Those older results are kept only as context. They are not the recommended final
+Step 3 workflow.
 
 ### 12. Important Caution
 
-The Frontal Cortex mixed model completed, but it printed many singular-fit
-messages and two convergence warnings.
+The dream scripts require the Bioconductor package `variancePartition`.
 
-This means the output table was created, but the Frontal Cortex mixed-model
-results should be interpreted carefully.
+If it is not installed, install it with:
 
+```r
+BiocManager::install("variancePartition")
+```
 ## Inputs
 
 The script expects local input files under:
