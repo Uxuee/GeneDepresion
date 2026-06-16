@@ -16,6 +16,8 @@ filtered raw counts -> GeTMM -> log2(GeTMM + 1)
 - `code/Step3_small_groups_limma_voom_simple.R` - limma-voom differential expression for Insula, Ventral Striatum, and Hippocampal Formation.
 - `code/Step3_frontal_dream_simple.R` - dream differential expression for Frontal Cortex with repeated donor handling.
 - `code/Step3_all_regions_combined_simple.R` - combined all-region dream model for a shared depression effect.
+- `code/Step1_length_cutoff_sensitivity_GeTMM.R` - reruns Step 1 GeTMM preprocessing for several gene-length cutoffs without overwriting the baseline Step 1 outputs.
+- `code/Step3_run_all_DGE_methods_on_length_cutoffs.R` - runs limma-voom, dream, and normalized-expression comparator models across the length-cutoff outputs.
 
 ## Brain-Area Mapping
 
@@ -77,6 +79,47 @@ Interpretation:
 - The newer models show more raw p-value signal in some groups, but almost nothing survives FDR correction.
 - The only FDR < 0.10 results are two Ventral Striatum genes from the limma-voom small-group analysis.
 - The result CSV files are local outputs and are not committed to GitHub.
+
+## Length-Cutoff Sensitivity Analysis
+
+The baseline gene-length filter is `Length > 20`.
+
+To test whether that cutoff is too permissive, the repository now includes a
+conservative sensitivity analysis for:
+
+```text
+Length > 20
+Length > 50
+Length > 100
+Length > 200
+Length > 500
+```
+
+Run the scripts in this order:
+
+```r
+source("code/Step1_length_cutoff_sensitivity_GeTMM.R")
+source("code/Step3_run_all_DGE_methods_on_length_cutoffs.R")
+```
+
+The Step 1 sensitivity script writes:
+
+```text
+outputs/step1_length_sensitivity
+```
+
+The Step 3 sensitivity script writes:
+
+```text
+outputs/step3_length_sensitivity
+```
+
+Important: the Step 3 sensitivity script can take a long time because it runs
+dream and per-gene LMM comparator models for every length cutoff.
+
+Do not choose a cutoff only because it gives more FDR-significant genes.
+Use the summary, top-gene stability, cross-method overlap, and effect-direction
+correlation tables together.
 
 ## Simple Step-by-Step Explanation
 
