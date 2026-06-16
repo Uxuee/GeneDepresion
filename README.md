@@ -12,7 +12,9 @@ filtered raw counts -> GeTMM -> log2(GeTMM + 1)
 
 - `run_step1.R` - easiest entry point; runs the current recommended Step 1 workflow.
 - `code/Step1_GSE102556_GeTMM_brain_area_groups.R` - recommended Step 1; groups exact GEO tissue labels into broader editable brain areas before GeTMM-log2 normalization.
-- `code/Step1.R` - earlier Step 1 version that normalizes each exact GEO tissue label separately.
+- `code/Step2_Covariate_Exploration_FrontalCortex.R` - PCA/QC and covariate exploration for Frontal Cortex.
+- `code/Step3_LMM_Frontal_Cortex_simple.R` - simple Frontal Cortex differential expression script using one mixed model per gene.
+- `code/Step3_LM_Small_Groups_simple.R` - simple differential expression script for Insula, Ventral Striatum, and Hippocampal Formation.
 
 ## Brain-Area Mapping
 
@@ -33,6 +35,32 @@ Edit the mapping CSV and rerun the brain-area script if a different anatomical g
 
 - `docs/Step1_GSE102556_GeTMM_log2_Notion.md`
 - `docs/Data_Treatment_GSE102556_Notion.md`
+- `docs/Full_Process_Simple_Explanation.md`
+
+## Current Analysis Summary
+
+The current workflow is:
+
+```text
+raw counts
+-> metadata cleaning
+-> brain-area grouping
+-> GeTMM normalization
+-> log2(GeTMM + 1)
+-> PCA/QC inspection
+-> regression-based differential expression
+```
+
+The current differential expression step tested:
+
+- 24,287 genes in `Frontal_Cortex`
+- 23,375 genes in `Insula`
+- 24,275 genes in `Ventral_Striatum`
+- 24,700 genes in `Hippocampal_Formation`
+
+Using FDR < 0.05, no genes were significant in the current models.
+
+Using FDR < 0.10, one Frontal Cortex gene passed the exploratory threshold.
 
 ## Inputs
 
@@ -77,12 +105,6 @@ Output folders are organized by file type:
 06_repetition_reports/     repeated donor / gene-entry reports
 07_qc/                     compact QC and model-decision summaries
 08_rds/                    compact R object for later steps
-```
-
-The earlier exact-region Step 1 writes outputs to:
-
-```text
-D:/genes/genedata/Step1_GeTMM_log2_outputs
 ```
 
 Large input data and generated CSV outputs are intentionally ignored by Git.
