@@ -216,6 +216,10 @@ if (!all(colnames(combined_counts) == combined_metadata$SampleID)) {
   stop("Combined counts and metadata are not aligned after matching.")
 }
 
+## dream checks the row names of metadata.
+## Set them to SampleID so metadata row names match the count matrix columns.
+rownames(combined_metadata) <- combined_metadata$SampleID
+
 ## -------------------------------------------------------------------------
 ## 8. Prepare metadata for the combined dream model
 ## -------------------------------------------------------------------------
@@ -258,6 +262,7 @@ message("Samples after removing missing covariates:  ", sum(complete_rows))
 
 combined_metadata <- combined_metadata[complete_rows, , drop = FALSE]
 combined_counts <- combined_counts[, combined_metadata$SampleID, drop = FALSE]
+rownames(combined_metadata) <- combined_metadata$SampleID
 
 if (nrow(combined_metadata) < 3) {
   stop("Too few samples remain after removing missing covariates.")
@@ -329,8 +334,6 @@ dream_fit <- variancePartition::dream(
   BPPARAM = serial_parameter
 )
 
-dream_fit <- limma::eBayes(dream_fit)
-
 message("Model coefficients available:")
 print(colnames(dream_fit$coefficients))
 
@@ -344,11 +347,10 @@ if (!(diagnosis_coefficient %in% colnames(dream_fit$coefficients))) {
 ## 13. Extract Diagnosis results
 ## -------------------------------------------------------------------------
 
-dream_results <- limma::topTable(
+dream_results <- variancePartition::topTable(
   dream_fit,
   coef = diagnosis_coefficient,
-  number = Inf,
-  sort.by = "P"
+  number = Inf
 )
 
 final_results <- data.frame(
@@ -359,7 +361,7 @@ final_results <- data.frame(
   moderated_t = dream_results$t,
   diagnosis_p_value = dream_results$P.Value,
   diagnosis_FDR_BH = dream_results$adj.P.Val,
-  log_odds_DE = dream_results$B,
+  z_standardized = dream_results$z.std,
   stringsAsFactors = FALSE
 )
 
@@ -381,16 +383,22 @@ message(results_file)
 ## 15. Save a simple p-value histogram
 ## -------------------------------------------------------------------------
 
-png(filename = histogram_file, width = 900, height = 700)
-hist(
-  final_results$diagnosis_p_value,
-  breaks = 50,
-  main = "Diagnosis p-values: all regions combined dream",
-  xlab = "Raw p-value for DiagnosisMDD",
-  col = "gray80",
-  border = "white"
-)
-dev.off()
+valid_p_values <- final_results$diagnosis_p_value[!is.na(final_results$diagnosis_p_value)]
+
+if (length(valid_p_values) == 0) {
+  warning("No valid p-values were available for the p-value histogram.")
+} else {
+  png(filename = histogram_file, width = 900, height = 700)
+  hist(
+    valid_p_values,
+    breaks = 50,
+    main = "Diagnosis p-values: all regions combined dream",
+    xlab = "Raw p-value for DiagnosisMDD",
+    col = "gray80",
+    border = "white"
+  )
+  dev.off()
+}
 
 message("Saved p-value histogram to:")
 message(histogram_file)

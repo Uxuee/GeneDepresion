@@ -299,7 +299,46 @@ matrix has its own retained genes.
 For the combined all-region model, the script keeps only genes present in all
 four filtered count matrices.
 
-## 17. What FDR means
+## 17. Latest Step 3 results
+
+The current Step 3 scripts were run again using limma-voom and dream.
+
+| Analysis | Genes tested | Raw p < 0.05 | FDR < 0.05 | FDR < 0.10 | Minimum FDR | Top gene |
+|---|---:|---:|---:|---:|---:|---|
+| Insula, limma-voom | 23,375 | 941 | 0 | 0 | 0.8351945 | 10090 |
+| Ventral_Striatum, limma-voom | 24,275 | 2,472 | 0 | 2 | 0.09301074 | 107987147 |
+| Hippocampal_Formation, limma-voom | 24,700 | 800 | 0 | 0 | 0.9999502 | 65083 |
+| Frontal_Cortex, dream | 24,286 | 1,490 | 0 | 0 | 0.1265182 | 5147 |
+| All regions combined, dream | 22,575 | 707 | 0 | 0 | 0.9995043 | 5468 |
+
+Simple interpretation:
+
+- There are many genes with raw p-values below 0.05.
+- After FDR correction, most of those are not strong enough to call significant.
+- Ventral Striatum has two exploratory genes at FDR < 0.10 in the limma-voom analysis.
+- Frontal Cortex dream completed, but one gene/model failed, so 24,286 genes are reported.
+- The combined all-region dream model did not improve the FDR result.
+
+The result CSV files are saved locally under:
+
+```text
+outputs/step3_limma_voom_dream
+```
+
+Generated result files are intentionally not committed to GitHub.
+
+The dream scripts worked in this run with:
+
+```text
+variancePartition 1.36.3
+lmerTest 3.2.1
+lme4 1.1.37
+```
+
+The local newer `lme4 2.0.1` caused dream model extraction errors, so `lme4`
+was changed back to `1.1.37` for this analysis.
+
+## 18. What FDR means
 
 FDR means false discovery rate.
 
@@ -319,7 +358,7 @@ Simple interpretation:
 - FDR < 0.05: strict significance threshold
 - FDR < 0.10: more exploratory threshold
 
-## 18. Why make p-value histograms?
+## 19. Why make p-value histograms?
 
 Each new Step 3 script saves a simple diagnosis p-value histogram.
 
@@ -329,7 +368,7 @@ The histogram helps answer:
 - are many p-values close to zero?
 - is there left-skewed signal that FDR correction may be reducing?
 
-## 19. Where the new result files are saved
+## 20. Where the new result files are saved
 
 The regression result CSV files are saved locally in:
 

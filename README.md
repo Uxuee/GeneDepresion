@@ -60,6 +60,24 @@ The recommended Step 3 differential expression scripts now use:
 
 The earlier naive one-gene-at-a-time LM/LMM scripts are superseded.
 
+Latest Step 3 run summary:
+
+| Analysis | Genes tested | Raw p < 0.05 | FDR < 0.05 | FDR < 0.10 | Minimum FDR | Top gene |
+|---|---:|---:|---:|---:|---:|---|
+| Insula, limma-voom | 23,375 | 941 | 0 | 0 | 0.8351945 | 10090 |
+| Ventral_Striatum, limma-voom | 24,275 | 2,472 | 0 | 2 | 0.09301074 | 107987147 |
+| Hippocampal_Formation, limma-voom | 24,700 | 800 | 0 | 0 | 0.9999502 | 65083 |
+| Frontal_Cortex, dream | 24,286 | 1,490 | 0 | 0 | 0.1265182 | 5147 |
+| All regions combined, dream | 22,575 | 707 | 0 | 0 | 0.9995043 | 5468 |
+
+Interpretation:
+
+- The dream models ran successfully after package-version fixes.
+- Frontal Cortex had one gene/model failure, so the final dream result table has 24,286 tested genes instead of 24,287.
+- The newer models show more raw p-value signal in some groups, but almost nothing survives FDR correction.
+- The only FDR < 0.10 results are two Ventral Striatum genes from the limma-voom small-group analysis.
+- The result CSV files are local outputs and are not committed to GitHub.
+
 ## Simple Step-by-Step Explanation
 
 This section explains the whole data process from normalization until the current
@@ -264,6 +282,18 @@ If it is not installed, install it with:
 ```r
 BiocManager::install("variancePartition")
 ```
+
+In this Windows/R 4.4.2 run, dream worked with:
+
+```text
+variancePartition 1.36.3
+lmerTest 3.2.1
+lme4 1.1.37
+```
+
+The local newer `lme4 2.0.1` caused dream model extraction errors, so `lme4`
+was changed back to `1.1.37` for this analysis.
+
 ## Inputs
 
 The script expects local input files under:
