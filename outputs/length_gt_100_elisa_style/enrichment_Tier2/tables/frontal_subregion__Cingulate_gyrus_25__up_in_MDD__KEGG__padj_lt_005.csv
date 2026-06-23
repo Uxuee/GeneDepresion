@@ -1,0 +1,2 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Metabolism","Metabolism of cofactors and vitamins","hsa00860","Porphyrin metabolism","3/37","25/7159",0.12,23.2183783783784,8.0206863724662,0.000270310903274456,0.0313560647798369,0.0295919304637299,"1355/326625/645",3

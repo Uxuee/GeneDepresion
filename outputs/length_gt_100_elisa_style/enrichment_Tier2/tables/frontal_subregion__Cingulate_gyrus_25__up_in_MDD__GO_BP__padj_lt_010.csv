@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0090199","regulation of release of cytochrome c from mitochondria","4/87","38/14872",0.105263157894737,17.9939503932244,8.04592640531972,6.92806258084834e-05,0.0903419360542623,0.0894813977547464,"PPIF/PYCARD/BAX/BCL2L1",4

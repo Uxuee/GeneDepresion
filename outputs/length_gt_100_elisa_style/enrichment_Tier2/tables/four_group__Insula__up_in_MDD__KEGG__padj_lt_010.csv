@@ -1,0 +1,2 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Environmental Information Processing","Signal transduction","hsa04151","PI3K-Akt signaling pathway","3/5","294/7058",0.0102040816326531,14.4040816326531,6.25053294805117,0.000672157068376584,0.0114266701624019,0.0106130063427882,"4602/7010/3909",3

@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0043194","axon initial segment","2/23","23/15369",0.0869565217391304,58.1058601134215,10.6101615187704,0.000531741861548565,0.0414758652007881,0.0324642399682282,"KCNQ3/KCNA1",2

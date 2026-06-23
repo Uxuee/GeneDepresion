@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0120114","Sm-like protein family complex","5/93","110/15620",0.0454545454545455,7.63440860215054,5.40402027033393,0.000502186451277346,0.0919001205837544,0.0909221785470564,"SNRNP40/RNVU1-8/RNVU1-1/LSM1/GEMIN7",5

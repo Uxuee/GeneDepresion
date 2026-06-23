@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0000805","X chromosome","2/58","12/15743",0.166666666666667,45.2385057471264,9.32211800261588,0.000859802086328607,0.0997370420141184,0.0932206472545753,"PCGF3/FIRRE",2
