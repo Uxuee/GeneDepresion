@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-06-26T22:41:02",
+  "scripts_used": [
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\00_pipeline_config.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\01_prepare_length_gt_100_inputs.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\02_run_getmm_log2_normalization.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\03_run_broad_region_LMM.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\04_compute_standardized_effect_sizes.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\05_create_evidence_tiers.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\06_run_frontal_subregion_sensitivity.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\07_package_Tier2_candidate_gene_sets.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\08_run_Tier2_enrichment.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\09_run_ML_v1_Tier2_fixed_only.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\10_extract_Tier2FixedOnly_ML_prioritized_genes.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\11_collect_report_images.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\12_write_integrated_clean_report.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\pipeline_lib.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\run_length_gt_100_clean_pipeline.py"
+  ],
+  "input_files_used": [
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\LMM_all_genes_length_gt_100.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\standardized_effect_size_4groups\\LMM_all_genes_with_standardized_effect_size_4groups.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\frontal_subregion_sensitivity\\frontal_subregion_LMM_all_genes_with_standardized_effect_size.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\ML_pilot_Tier2\\feature_importance\\feature_importance_summary.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\enrichment_Tier2"
+  ],
+  "reused_old_outputs": [
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style"
+  ],
+  "newly_generated_outputs": [
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline",
+    "D:\\genes\\GeneDepresion\\docs\\MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md"
+  ],
+  "skipped_steps": [],
+  "ml_rerun": false,
+  "enrichment_rerun": false,
+  "final_high_moderate_gene_counts": [
+    {
+      "region_or_subregion": "Cingulate gyrus 25",
+      "n_Tier2_genes": 186,
+      "n_high_confidence": 113,
+      "n_moderate_confidence": 45,
+      "median_ML_priority_score": 0.8036405684151988
+    },
+    {
+      "region_or_subregion": "Hippocampal Formation",
+      "n_Tier2_genes": 127,
+      "n_high_confidence": 81,
+      "n_moderate_confidence": 15,
+      "median_ML_priority_score": 0.8207034374770448
+    },
+    {
+      "region_or_subregion": "Insula",
+      "n_Tier2_genes": 70,
+      "n_high_confidence": 56,
+      "n_moderate_confidence": 1,
+      "median_ML_priority_score": 0.8612103644017611
+    },
+    {
+      "region_or_subregion": "OFC BA11",
+      "n_Tier2_genes": 70,
+      "n_high_confidence": 62,
+      "n_moderate_confidence": 0,
+      "median_ML_priority_score": 0.8823130972859721
+    },
+    {
+      "region_or_subregion": "Ventral Striatum",
+      "n_Tier2_genes": 146,
+      "n_high_confidence": 83,
+      "n_moderate_confidence": 15,
+      "median_ML_priority_score": 0.8256525946376422
+    },
+    {
+      "region_or_subregion": "dlPFC BA8/9",
+      "n_Tier2_genes": 72,
+      "n_high_confidence": 47,
+      "n_moderate_confidence": 1,
+      "median_ML_priority_score": 0.8554958551584607
+    }
+  ],
+  "final_report": "D:\\genes\\GeneDepresion\\docs\\MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md"
+}

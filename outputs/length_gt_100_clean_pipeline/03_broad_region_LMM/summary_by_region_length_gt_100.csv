@@ -1,0 +1,5 @@
+brain_region,genes_tested,nominal_p_lt_0.05,nominal_p_lt_0.01,nominal_p_lt_0.001,upregulated_in_MDD_p_lt_0.05,downregulated_in_MDD_p_lt_0.05,FDR_BH_lt_0.05,minimum_raw_p_value,minimum_fdr_BH
+Frontal_Cortex,23941,1886,455,48,802,1084,0,4.1607355752946e-06,0.09961217040812803
+Insula,23090,1016,197,16,608,408,0,0.0001020195076151,0.9336862754678356
+Ventral_Striatum,23917,2518,591,68,1088,1430,0,7.96917062763964e-06,0.12429836808915211
+Hippocampal_Formation,24371,847,142,9,505,342,0,6.03267087467295e-05,0.9969175728014628

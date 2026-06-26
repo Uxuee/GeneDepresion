@@ -1,0 +1,4 @@
+"original_frontal_subregion","n_samples","n_MDD","n_Control","genes_tested","Tier1_Storey_q010_absStdES08","Tier2_nominal_p001_absStdES08","Tier3_current_baseline_p001_absBeta02","BH005_absStdES08","BH010_absStdES08","median_abs_beta","max_abs_beta","median_abs_standardized_effect_size","max_abs_standardized_effect_size","up_in_MDD_Tier2","down_in_MDD_Tier2","up_in_MDD_Tier3","down_in_MDD_Tier3"
+"Cingulate gyrus 25 (Cg25)",27,12,15,23941,0,186,118,0,0,0.0593207216266632,1.28545884062903,0.247366316158444,1.47775739009063,137,49,92,26
+"Dorsolateral prefrontal cortex (dlPFC; BA8/9)",48,26,22,23941,0,72,132,0,0,0.0407570009365817,0.562141255798758,0.203372053613678,1.00108278493613,24,48,9,123
+"Orbitofrontal (OFC; BA11)",47,25,22,23941,0,70,80,0,0,0.0395114042777376,0.681873705844219,0.189522193665273,1.05624541898714,38,32,37,43

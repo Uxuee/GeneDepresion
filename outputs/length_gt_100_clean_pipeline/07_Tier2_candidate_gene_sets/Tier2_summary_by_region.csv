@@ -1,0 +1,7 @@
+region_or_subregion,model_source,Tier2_genes,up_in_MDD,down_in_MDD
+Cingulate gyrus 25,frontal_subregion_fixed_effect_sensitivity,186,137,49
+Hippocampal Formation,grouped_region_LMM,127,80,47
+Insula,grouped_region_LMM,70,37,33
+OFC BA11,frontal_subregion_fixed_effect_sensitivity,70,38,32
+Ventral Striatum,grouped_region_LMM,146,76,70
+dlPFC BA8/9,frontal_subregion_fixed_effect_sensitivity,72,24,48

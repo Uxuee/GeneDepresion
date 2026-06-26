@@ -1,0 +1,5 @@
+brain_region,genes_tested,Tier1_genes,Tier2_genes,Tier3_genes
+Frontal_Cortex,23941,0,1,99
+Hippocampal_Formation,24371,0,127,70
+Insula,23090,0,70,92
+Ventral_Striatum,23917,4,146,167

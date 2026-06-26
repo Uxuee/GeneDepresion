@@ -1,0 +1,7 @@
+region_or_subregion,n_Tier2_genes,n_high_confidence,n_moderate_confidence,median_ML_priority_score
+Cingulate gyrus 25,186,113,45,0.8036405684151988
+Hippocampal Formation,127,81,15,0.8207034374770448
+Insula,70,56,1,0.8612103644017611
+OFC BA11,70,62,0,0.8823130972859721
+Ventral Striatum,146,83,15,0.8256525946376422
+dlPFC BA8/9,72,47,1,0.8554958551584607
