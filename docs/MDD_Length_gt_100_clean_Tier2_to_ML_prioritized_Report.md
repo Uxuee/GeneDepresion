@@ -77,6 +77,8 @@ The final ranked table consists of Tier 2 candidate genes ordered by the composi
 
 These are internally supported exploratory candidates, not validated biomarkers. The full ranked table is available at `D:\genes\GeneDepresion\outputs\length_gt_100_clean_pipeline\10_ML_prioritized_Tier2_extended\final_ranked_ML_prioritized_Tier2_genes.csv`.
 
+Extended ML prioritization identified 35 high-confidence and 130 additional moderate-confidence ML-prioritized Tier 2 gene-region pairs, for a total of 165 high/moderate candidates. Here, moderate-confidence is exclusive of high-confidence; high-confidence rows are not duplicated in the moderate-confidence file.
+
 High/moderate counts by region:
 
 | region_or_subregion   |   total_Tier2_genes_ranked |   high_confidence_count |   moderate_confidence_count |   exploratory_low_priority_count |   median_ML_priority_score |   max_ML_priority_score |   number_up_in_MDD |   number_down_in_MDD |   sign_agreement_rate |
@@ -137,6 +139,8 @@ Top 5 high/moderate-confidence genes per region:
 Recommended Tier 2 figures are in `outputs/length_gt_100_clean_pipeline/images/tier2`.
 Recommended enrichment figures are in `outputs/length_gt_100_clean_pipeline/images/enrichment`.
 Recommended ML figures are in `outputs/length_gt_100_clean_pipeline/images/ml_v1` and `outputs/length_gt_100_clean_pipeline/images/ml_prioritized`, and come from the extended ML v1 prioritization branch.
+
+Corrected count-plot caption: **Extended ML-prioritized Tier 2 candidate genes. Bars show high-confidence genes and additional moderate-confidence genes, excluding high-confidence genes.** Corrected plot path: `D:\genes\GeneDepresion\outputs\length_gt_100_clean_pipeline\10_ML_prioritized_Tier2_extended\plots\Extended_ML_prioritized_Tier2_gene_counts_corrected.png`.
 
 ## 13. Conclusions
 The clean path preserves the exploratory Tier 2 biological signal while using Tier 4 ranked signatures only as ML support for stable prioritization.

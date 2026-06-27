@@ -1,0 +1,166 @@
+region_or_subregion,gene_symbol,ML_priority_score,ML_priority_class,in_high_confidence_file,in_moderate_confidence_file,interpretation
+Cingulate gyrus 25,LOC107985795,0.8311053330159557,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Cingulate gyrus 25,LOC105377644,0.8232151447363487,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Cingulate gyrus 25,NOC2LP2,0.8008126468382148,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Cingulate gyrus 25,GEMIN7,0.7999790330062213,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Cingulate gyrus 25,C1orf174,0.7867827337951383,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Cingulate gyrus 25,EXOC3-AS1,0.7832910848549947,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,PCBD1,0.7767459570102124,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Cingulate gyrus 25,LOC105372507,0.7668719572199664,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Cingulate gyrus 25,MEOX2,0.7538671904186197,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,CD247,0.7528852440384358,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Cingulate gyrus 25,DLGAP4-AS1,0.7493418445568787,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,RILP,0.7474144401685072,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,MISP3,0.744578136283279,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,CLUL1,0.7400520524770912,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,RTL8A,0.7364943643817069,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,FSBP,0.7287897096598267,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,PCED1A,0.726073742141852,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,BLVRB,0.7252129142920648,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,FBXO17,0.7251339720104512,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,BACH2,0.721469766110064,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,C16orf96,0.7211238941358649,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,ANKRD62P1-PARP4P3,0.7203803201073882,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,VPS54,0.7165575206363023,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,PDXP-DT,0.7071334104670784,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,BAX,0.7067460010264556,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,KHDC1,0.7051965064257143,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,ARHGAP9,0.6987644975601426,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,ZASP,0.6984995602940032,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,ARMC5,0.6900504412905764,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,ADIRF,0.6883193634721174,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,MMRN2,0.6796791360609313,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,MAGIX,0.6794211755181089,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,ZNF576,0.6787163251598197,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,LINC00499,0.6783143773763389,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,SPR,0.6765302439857521,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,REX1BD,0.6743139082204551,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Cingulate gyrus 25,MT1L,0.6668110810543254,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,TOR2A,0.8464457315539092,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Hippocampal Formation,IL4I1,0.7933662233146231,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Hippocampal Formation,ZNF663P,0.7865807453594862,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,HLA-F-AS1,0.7818796721091551,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,TRMT2A,0.7577705776743378,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Hippocampal Formation,ARL14EP-DT,0.7563213786647879,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,COQ4,0.7510666591351413,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,CKAP2L,0.7485995492048882,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,ADRA2B,0.7478200125160365,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,TMEM161B-DT,0.7475768667110566,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,NOL6,0.7372096523102537,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,SETD6,0.7310046052416828,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,DIS3L-AS1,0.7227086726578573,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,ZNF787,0.722397560311263,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,PRMT7,0.7036329672465181,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,IFI35,0.7007147409065215,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,LINC01480,0.6940022148343703,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,ZNF738,0.6917394023008471,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,LOC107987272,0.6912392155393347,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,LINC01010,0.6880567868668966,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,LINC02334,0.6860340241916567,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,FAUP4,0.6808447317873905,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,LOC101928283,0.6727021875007925,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,IGFLR1,0.6630945327617371,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,ASB16-AS1,0.6604192620387742,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,LOC107984435,0.6522003697564698,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,SERPINF2,0.6499361486862179,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Hippocampal Formation,C9orf163,0.6442588192339255,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,TMEM161B-DT,0.8895931726066764,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Insula,BMS1P2,0.8735338165328306,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Insula,BMS1P2-AGAP9,0.8459826838470015,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Insula,ARL14EP-DT,0.8017680722961614,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Insula,LOC101929710,0.7996270235524063,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Insula,POU6F2-AS2,0.773825098867224,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,BTN2A3P,0.7603647245421891,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Insula,LOC101928268,0.7391372990707573,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,LINC00242,0.7279544341362699,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,LINC01691,0.7274715739459634,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,SMIM10,0.7272260608235981,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,DNAAF10,0.721479716727524,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,LAMA3,0.7101814344760953,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,LOC102724078,0.7097648078470812,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,KIF26A,0.7060863521531285,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,ZNF324B,0.6992475487817785,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,METTL14-DT,0.6954080456902314,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,TRPM3,0.6925614222534544,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,DPP4,0.6921688656340103,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,DECR2,0.68207928506392,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,LOC105379042,0.6731258026063368,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,LOC107985988,0.6624925774119605,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,PRELID2,0.6558302038360371,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Insula,ZKSCAN2,0.6493619323571475,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,QPRT,0.8325102009777295,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+OFC BA11,LOC105373386,0.7872977405816105,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+OFC BA11,LOC105378913,0.7814352850231107,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+OFC BA11,RAB24,0.7646278997077754,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,MYBPC1,0.7560202426496219,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,POLR3E,0.7550252218879613,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,LOC105377975,0.7516524971340441,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,TRPV3,0.7441352038076612,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,C9orf163,0.7421427350450613,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,NOL6,0.729095068309983,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,GCC1,0.7270937578439542,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,RNF32-DT,0.7258213020127086,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,STAP2,0.7150064491117549,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,PPARG,0.7127344369509622,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,TCN2,0.7081024489490441,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,FHL1,0.7008482379488017,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,TMEM161B-DT,0.7000801559910306,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,LOC105372697,0.6902139975169469,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,GAU1,0.6897566514193836,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,NINJ1,0.6879081541382664,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,ZNF37BP,0.6876840304604944,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,BMS1P2-AGAP9,0.6846062411286167,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,TSPO,0.6837233846800004,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,LOC105371729,0.6825535706211435,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,DEXI,0.6806636264896125,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,LOC107986168,0.6756553683806367,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,LOC105371659,0.6693251684697401,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,LOC101927366,0.6662690147039964,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,RPL23AP87,0.6657155858012855,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,LOC105376380,0.6609451120241647,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+OFC BA11,ZNF461,0.6565379413839341,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,MORN5,0.8713868094644364,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Ventral Striatum,FSHB,0.8367994242873068,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Ventral Striatum,MRPL2,0.8321485491018444,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Ventral Striatum,MOSPD3,0.8247154801305833,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Ventral Striatum,POF1B,0.8205585680750793,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Ventral Striatum,LINC01361,0.7900423325319003,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Ventral Striatum,BMS1P2,0.7839822687403919,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,KRT5,0.7708433838305123,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Ventral Striatum,BMS1P2-AGAP9,0.7613566732401158,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,OR4F3,0.749261581650892,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,LOC105371067,0.7465400192292739,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+Ventral Striatum,LOC107985657,0.745238342730471,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,ZFAT-AS1,0.733971194549394,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,RPGR,0.7302053917735557,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,TSGA10,0.7085769498069499,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,LIMS3,0.6964379921090604,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,NCKAP5-AS2,0.6898866357225607,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,N4BP1,0.6804692098542932,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,LOC101927157,0.6716135145811826,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,LOC105372764,0.6710216247925814,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,ZKSCAN2,0.6516584713204863,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,ADH1B,0.6485519475048023,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,ADRA2B,0.6443085008583826,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,CAPN1-AS1,0.6283634967183758,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,FOSL2,0.6240028598815335,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+Ventral Striatum,GLRA4,0.6128206657465217,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+dlPFC BA8/9,PPT2,0.831353779863213,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+dlPFC BA8/9,NOL6,0.8207722467936125,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+dlPFC BA8/9,LINC00269,0.8090941892116471,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+dlPFC BA8/9,LOC107984015,0.8023906964328354,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+dlPFC BA8/9,LINC02897,0.7876988368872856,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+dlPFC BA8/9,LINC01990,0.779862526752839,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+dlPFC BA8/9,LOC105371009,0.7783739609751145,High-confidence ML-prioritized Tier 2,True,False,high-confidence only; not counted in moderate file
+dlPFC BA8/9,EMC6,0.775586290561144,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+dlPFC BA8/9,CARF,0.7370261531366771,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+dlPFC BA8/9,MSANTD2-AS1,0.7354519418361226,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+dlPFC BA8/9,PPT2-EGFL8,0.732238390122235,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+dlPFC BA8/9,CCL3L3,0.7150604561757172,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+dlPFC BA8/9,LOC105373490,0.70857779472267,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+dlPFC BA8/9,PAXIP1-DT,0.7065447594583135,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+dlPFC BA8/9,PPP1R14B-AS1,0.6961137073319691,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+dlPFC BA8/9,PKIA-AS1,0.6946401957347864,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+dlPFC BA8/9,HNRNPA1,0.6792418020457257,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+dlPFC BA8/9,MCPH1-DT,0.6698979795539022,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair
+dlPFC BA8/9,GPR6,0.6598225915854075,Moderate-confidence ML-prioritized Tier 2,False,True,moderate-confidence only; additional moderate-confidence gene-region pair

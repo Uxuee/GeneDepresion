@@ -1,0 +1,7 @@
+region_or_subregion,n_total_ranked_Tier2,n_high_confidence,n_moderate_confidence_raw,n_moderate_excluding_high,n_high_plus_moderate_if_exclusive,n_high_plus_moderate_if_inclusive,interpretation
+Cingulate gyrus 25,186,8,29,29,37,29,Moderate file is exclusive of high-confidence rows; high + moderate total is high plus raw moderate.
+Hippocampal Formation,127,3,25,25,28,25,Moderate file is exclusive of high-confidence rows; high + moderate total is high plus raw moderate.
+Insula,70,6,18,18,24,18,Moderate file is exclusive of high-confidence rows; high + moderate total is high plus raw moderate.
+OFC BA11,70,3,28,28,31,28,Moderate file is exclusive of high-confidence rows; high + moderate total is high plus raw moderate.
+Ventral Striatum,146,8,18,18,26,18,Moderate file is exclusive of high-confidence rows; high + moderate total is high plus raw moderate.
+dlPFC BA8/9,72,7,12,12,19,12,Moderate file is exclusive of high-confidence rows; high + moderate total is high plus raw moderate.

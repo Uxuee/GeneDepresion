@@ -180,5 +180,15 @@
     "Tier1_status",
     "feature_set_support_count"
   ],
-  "final_ranking_extracted_timestamp": "2026-06-28T01:04:47"
+  "final_ranking_extracted_timestamp": "2026-06-28T01:04:47",
+  "count_definition_audit_done": true,
+  "moderate_confidence_inclusive_or_exclusive": "exclusive",
+  "n_total_ranked_Tier2": 671,
+  "n_high_confidence": 35,
+  "n_moderate_confidence_excluding_high": 130,
+  "n_high_plus_moderate_total": 165,
+  "path_count_audit_report": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\10_ML_prioritized_Tier2_extended\\count_definition_audit\\high_moderate_count_definition_report.md",
+  "path_corrected_count_plot": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\10_ML_prioritized_Tier2_extended\\plots\\Extended_ML_prioritized_Tier2_gene_counts_corrected.png",
+  "existing_count_plot_correct_for_stacked_interpretation": false,
+  "count_definition_audit_timestamp": "2026-06-28T01:55:06"
 }
