@@ -479,43 +479,54 @@ def plot_extended_ml_prioritized(ranked: pd.DataFrame, summary: pd.DataFrame, pl
 
 def run_step_10(skip_existing: bool = False) -> dict:
     out = ensure(step_output(10))
-    gene_lists = ensure(out / "gene_lists")
-    plots = ensure(out / "plots")
-    old = cfg.OLD_ML_PRIORITIZED_DIR
-    copy_file(old / "ML_prioritized_Tier2_genes_all_ranked.csv", out / "ML_prioritized_Tier2_extended_all_ranked.csv", skip_existing=False)
-    copy_file(old / "ML_prioritized_Tier2_genes_high_confidence.csv", out / "ML_prioritized_Tier2_extended_high_confidence.csv", skip_existing=False)
-    copy_file(old / "ML_prioritized_Tier2_genes_moderate_confidence.csv", out / "ML_prioritized_Tier2_extended_moderate_confidence.csv", skip_existing=False)
-    copy_file(old / "ML_prioritized_Tier2_gene_summary_by_region.csv", out / "ML_prioritized_Tier2_extended_summary_by_region.csv", skip_existing=False)
-    copy_file(old / "model_support_summary.csv", out / "model_support_summary.csv", skip_existing=False)
-    if (old / "run_manifest.json").exists():
-        copy_file(old / "run_manifest.json", out / "run_manifest.json", skip_existing=False)
+    stable_script = cfg.PROJECT_ROOT / "code" / "extract_stable_ML_prioritized_Tier2_genes.py"
+    spec = importlib.util.spec_from_file_location("stable_ml_prioritized_tier2", stable_script)
+    stable = importlib.util.module_from_spec(spec)
+    assert spec and spec.loader
+    spec.loader.exec_module(stable)
+    stable.OUT_DIR = out
+    stable.PLOT_DIR = out / "plots"
+    stable.GENE_LIST_DIR = out / "gene_lists"
+    stable.main()
+
+    copy_file(out / "ML_prioritized_Tier2_genes_all_ranked.csv", out / "ML_prioritized_Tier2_extended_all_ranked.csv", skip_existing=False)
+    copy_file(out / "ML_prioritized_Tier2_genes_high_confidence.csv", out / "ML_prioritized_Tier2_extended_high_confidence.csv", skip_existing=False)
+    copy_file(out / "ML_prioritized_Tier2_genes_moderate_confidence.csv", out / "ML_prioritized_Tier2_extended_moderate_confidence.csv", skip_existing=False)
+    copy_file(out / "ML_prioritized_Tier2_gene_summary_by_region.csv", out / "ML_prioritized_Tier2_extended_summary_by_region.csv", skip_existing=False)
+    heatmap = out / "plots" / "heatmap_top_stable_ML_prioritized_genes.png"
+
     ranked = pd.read_csv(out / "ML_prioritized_Tier2_extended_all_ranked.csv")
     high_df = pd.read_csv(out / "ML_prioritized_Tier2_extended_high_confidence.csv")
     moderate_df = pd.read_csv(out / "ML_prioritized_Tier2_extended_moderate_confidence.csv")
     summary = pd.read_csv(out / "ML_prioritized_Tier2_extended_summary_by_region.csv")
     for region, sub in pd.concat([high_df, moderate_df], ignore_index=True).groupby("region_or_subregion"):
-        sub[["gene_symbol"]].dropna().drop_duplicates().to_csv(gene_lists / f"{region.replace('/', '_').replace(' ', '_')}_prioritized_gene_symbols.txt", index=False, header=False)
-    old_plot_dir = old / "plots"
-    plot_map = {
-        "barplot_high_moderate_counts_by_region.png": "MLprioritized_counts_by_region.png",
-        "heatmap_top_stable_ML_prioritized_genes.png": "MLpriority_model_support_heatmap.png",
-        "Cingulate_gyrus_25_top20_ML_priority_genes.png": "MLprioritized_top_genes_Cg25.png",
-    }
-    for src_name, dst_name in plot_map.items():
-        src = old_plot_dir / src_name
-        if src.exists():
-            copy_file(src, plots / dst_name, skip_existing=False)
-    plot_extended_ml_prioritized(ranked, summary, plots)
-    run_manifest = {
-        "source_folder": str(old),
-        "source_strategy": "extended ML v1 using Tier2_fixed plus Tier4_top-k support",
-        "ml_rerun": False,
-        "ranked_count": int(len(ranked)),
-        "high_confidence_count": int(len(high_df)),
-        "moderate_confidence_count": int(len(moderate_df)),
-        "tier4_interpretation": "Tier 4 ranked signatures are support/sensitivity only, not final gene lists.",
-    }
-    (out / "run_manifest.json").write_text(json.dumps(run_manifest, indent=2), encoding="utf-8")
+        sub[["gene_symbol"]].dropna().drop_duplicates().to_csv(
+            out / "gene_lists" / f"{region.replace('/', '_').replace(' ', '_')}_prioritized_gene_symbols.txt",
+            index=False,
+            header=False,
+        )
+    plot_extended_ml_prioritized(ranked, summary, out / "plots")
+    if heatmap.exists():
+        copy_file(heatmap, out / "plots" / "MLpriority_model_support_heatmap.png", skip_existing=False)
+    cg25_plot = out / "plots" / "Cingulate_gyrus_25_top20_ML_priority_genes.png"
+    if cg25_plot.exists():
+        copy_file(cg25_plot, out / "plots" / "MLprioritized_top_genes_Cg25.png", skip_existing=False)
+    manifest_path = out / "run_manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {}
+    manifest.update(
+        {
+            "clean_pipeline_step": "10_extract_extended_ML_prioritized_Tier2_genes",
+            "source_procedure": str(stable_script),
+            "source_strategy": "stable ML-prioritized Tier 2 procedure using Tier2_fixed, Tier4_top-k support, and strict v2 support",
+            "ml_rerun": False,
+            "ranked_count": int(len(ranked)),
+            "high_confidence_count": int(len(high_df)),
+            "moderate_confidence_count": int(len(moderate_df)),
+            "key_heatmap": str(heatmap),
+            "tier4_interpretation": "Tier 4 ranked signatures are support/sensitivity only, not final gene lists.",
+        }
+    )
+    manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
     readme(
         out / "README.md",
         "Step 10: Extended ML-Prioritized Tier 2 Genes",
@@ -526,7 +537,7 @@ def run_step_10(skip_existing: bool = False) -> dict:
             "The final prioritized genes should be interpreted as internally supported candidate genes, not validated biomarkers.",
         ],
     )
-    return {"outputs": [str(out)], "reused": [str(old)], "high_count": int(len(high_df)), "moderate_count": int(len(moderate_df)), "ranked_count": int(len(ranked))}
+    return {"outputs": [str(out)], "reused": [str(stable_script), str(cfg.ML_V1_DIR), str(cfg.OLD_ANALYSIS_DIR / "ML_strict_v2")], "high_count": int(len(high_df)), "moderate_count": int(len(moderate_df)), "ranked_count": int(len(ranked))}
 
 
 def plot_ml_prioritized(priority: pd.DataFrame, summary: pd.DataFrame, plots: Path) -> None:

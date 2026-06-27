@@ -36,7 +36,7 @@ python code/length_gt_100_clean_pipeline/run_length_gt_100_clean_pipeline.py --d
 - `07_package_Tier2_candidate_gene_sets.py`: packages final Tier 2 candidate pools.
 - `08_run_Tier2_enrichment.py`: copies completed Tier 2 enrichment tables and selected report-ready plots.
 - `09_run_ML_v1_extended_prioritization.py`: organizes existing extended ML v1 outputs using `Tier2_fixed` plus `Tier4_top-k` support layers.
-- `10_extract_extended_ML_prioritized_Tier2_genes.py`: restores the stable extended ML-prioritized Tier 2 gene package.
+- `10_extract_extended_ML_prioritized_Tier2_genes.py`: runs the stable ML-prioritized Tier 2 procedure that combines Tier2_fixed, Tier4_top-k support, and strict-v2 support, producing the top-stable heatmap.
 - `09_run_ML_v1_Tier2_fixed_only.py`: archived sensitivity script for the Tier2FixedOnly branch.
 - `10_extract_Tier2FixedOnly_ML_prioritized_genes.py`: archived sensitivity script for Tier2FixedOnly prioritization.
 - `11_collect_report_images.py`: collects report-ready images and writes an image inventory.
