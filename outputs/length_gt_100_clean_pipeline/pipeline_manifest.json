@@ -106,5 +106,10 @@
       "top_10_gene_symbols": "PPT2;NOL6;LINC00269;LOC107984015;LINC02897;LINC01990;LOC105371009;EMC6;CARF;MSANTD2-AS1"
     }
   ],
-  "final_report": "D:\\genes\\GeneDepresion\\docs\\MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md"
+  "final_report": "D:\\genes\\GeneDepresion\\docs\\MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md",
+  "exact_model_settings_extracted": true,
+  "ML_v1_exact_model_settings_csv": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\09_ML_v1_extended_prioritization\\ML_v1_exact_model_settings.csv",
+  "ML_v1_exact_model_settings_md": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\09_ML_v1_extended_prioritization\\ML_v1_exact_model_settings.md",
+  "ML_v1_methods_report_snippet_md": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\09_ML_v1_extended_prioritization\\ML_v1_methods_report_snippet.md",
+  "exact_model_settings_extracted_timestamp": "2026-06-28T00:49:26"
 }
