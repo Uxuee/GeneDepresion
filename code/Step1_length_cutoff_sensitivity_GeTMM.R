@@ -67,9 +67,21 @@ metadata_candidates <- c(
 
 brain_area_mapping_path <- file.path(repo_dir, "config", "GSE102556_brain_area_mapping_template.csv")
 
-output_root <- file.path(repo_dir, "outputs", "step1_length_sensitivity")
+output_root <- Sys.getenv(
+  "STEP1_LENGTH_SENSITIVITY_OUTPUT_ROOT",
+  unset = file.path(repo_dir, "outputs", "step1_length_sensitivity")
+)
 
-length_cutoffs <- c(20, 50, 100, 200, 500)
+length_cutoffs_env <- Sys.getenv("STEP1_LENGTH_CUTOFFS", unset = "")
+if (nzchar(length_cutoffs_env)) {
+  length_cutoffs <- suppressWarnings(as.numeric(strsplit(length_cutoffs_env, ",")[[1]]))
+  length_cutoffs <- length_cutoffs[!is.na(length_cutoffs)]
+  if (length(length_cutoffs) == 0) {
+    stop("STEP1_LENGTH_CUTOFFS was set, but no numeric cutoffs were found.")
+  }
+} else {
+  length_cutoffs <- c(20, 50, 100, 200, 500)
+}
 
 ## Keep the same broad analysis groups used in the current project.
 target_analysis_groups <- c(

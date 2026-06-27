@@ -62,10 +62,25 @@ if (is.na(script_path)) {
 
 repo_dir <- normalizePath(file.path(dirname(script_path), ".."), mustWork = FALSE)
 
-step1_sensitivity_folder <- file.path(repo_dir, "outputs", "step1_length_sensitivity")
-output_root <- file.path(repo_dir, "outputs", "step3_length_sensitivity")
+step1_sensitivity_folder <- Sys.getenv(
+  "STEP3_LENGTH_INPUT_ROOT",
+  unset = file.path(repo_dir, "outputs", "step1_length_sensitivity")
+)
+output_root <- Sys.getenv(
+  "STEP3_LENGTH_OUTPUT_ROOT",
+  unset = file.path(repo_dir, "outputs", "step3_length_sensitivity")
+)
 
-length_cutoffs <- c(20, 50, 100, 200, 500)
+length_cutoffs_env <- Sys.getenv("STEP3_LENGTH_CUTOFFS", unset = "")
+if (nzchar(length_cutoffs_env)) {
+  length_cutoffs <- suppressWarnings(as.numeric(strsplit(length_cutoffs_env, ",")[[1]]))
+  length_cutoffs <- length_cutoffs[!is.na(length_cutoffs)]
+  if (length(length_cutoffs) == 0) {
+    stop("STEP3_LENGTH_CUTOFFS was set, but no numeric cutoffs were found.")
+  }
+} else {
+  length_cutoffs <- c(20, 50, 100, 200, 500)
+}
 
 brain_areas <- data.frame(
   brain_area = c("Frontal_Cortex", "Insula", "Ventral_Striatum", "Hippocampal_Formation"),
