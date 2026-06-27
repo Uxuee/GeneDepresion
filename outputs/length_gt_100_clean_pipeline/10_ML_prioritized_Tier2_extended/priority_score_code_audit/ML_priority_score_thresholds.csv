@@ -1,0 +1,19 @@
+priority_class,criterion_name,operator,threshold_value,source_column,code_source_file,code_line_or_block
+score_formula,selection_frequency_combined_weight,weight,0.30,selection_frequency_combined,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,lines 347-355
+score_formula,model_support_scaled_weight,weight,0.20,model_support_count scaled within region,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,"lines 340-341, 347-355"
+score_formula,sparse_model_support_weight,weight,0.15,sparse_model_support_binary,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,lines 346-355
+score_formula,importance_rank_score_weight,weight,0.15,mean_rank converted to importance_rank_score,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,"lines 342-343, 347-355"
+score_formula,sign_consistency_score_weight,weight,0.10,"sign_consistency, fillna(0.5)",D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,"lines 344, 347-355"
+score_formula,statistical_evidence_weight,weight,0.05,lmm_evidence_score scaled within region,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,"lines 118-121, 345, 347-355"
+score_formula,v2_support_score_weight,weight,0.05,v2_support_score,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,"lines 294-300, 347-355"
+high_confidence,ML_priority_score,>=,0.70,ML_priority_score,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,line 360
+high_confidence,selection_frequency_combined,>=,0.50,selection_frequency_combined,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,line 361
+high_confidence,model_support_count,>=,2,model_support_count,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,line 362
+high_confidence,sparse_model_support,is True,True,sparse_model_support,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,line 363
+high_confidence,sign_consistency,>=,0.70 after fillna(1.0),sign_consistency,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,line 364
+high_confidence,statistical/ML sign agreement,not False,True if missing else bool(lmm_ml_sign_agreement),lmm_ml_sign_agreement via agreement_allowed,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,"lines 357, 365"
+moderate_confidence,ML_priority_score,>=,0.45,ML_priority_score,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,line 368
+moderate_confidence,selection_frequency_combined,>=,0.25,selection_frequency_combined,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,line 369
+moderate_confidence,model_support_count,>=,1,model_support_count,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,line 370
+moderate_confidence,statistical/ML sign agreement,not False,True if missing else bool(lmm_ml_sign_agreement),lmm_ml_sign_agreement via agreement_not_false,D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,"lines 358, 371"
+class_assignment,mutual exclusivity,np.select first-match order,high evaluated before moderate,"high, moderate masks",D:\genes\GeneDepresion\code\extract_stable_ML_prioritized_Tier2_genes.py,lines 373-377
