@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T22:41:02",
+  "timestamp": "2026-06-27T19:28:46",
   "scripts_used": [
     "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\00_pipeline_config.py",
     "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\01_prepare_length_gt_100_inputs.py",
@@ -10,7 +10,9 @@
     "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\06_run_frontal_subregion_sensitivity.py",
     "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\07_package_Tier2_candidate_gene_sets.py",
     "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\08_run_Tier2_enrichment.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\09_run_ML_v1_extended_prioritization.py",
     "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\09_run_ML_v1_Tier2_fixed_only.py",
+    "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\10_extract_extended_ML_prioritized_Tier2_genes.py",
     "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\10_extract_Tier2FixedOnly_ML_prioritized_genes.py",
     "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\11_collect_report_images.py",
     "D:\\genes\\GeneDepresion\\code\\length_gt_100_clean_pipeline\\12_write_integrated_clean_report.py",
@@ -25,7 +27,9 @@
     "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\enrichment_Tier2"
   ],
   "reused_old_outputs": [
-    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style"
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\ML_pilot_Tier2",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\ML_prioritized_Tier2_genes"
   ],
   "newly_generated_outputs": [
     "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline",
@@ -34,48 +38,72 @@
   "skipped_steps": [],
   "ml_rerun": false,
   "enrichment_rerun": false,
+  "main_ml_strategy": "extended ML v1 using Tier2_fixed plus Tier4_top-k feature sets as support",
+  "tier4_role": "Tier 4 is used only as a ranked ML-support layer, not as a separate biological conclusion or final gene list.",
+  "tier2_fixed_only_outputs_retained_as_sensitivity": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\10_ML_prioritized_Tier2FixedOnly",
+  "final_ranked_count": 671,
+  "final_high_confidence_count": 35,
+  "final_moderate_confidence_count": 130,
   "final_high_moderate_gene_counts": [
     {
       "region_or_subregion": "Cingulate gyrus 25",
       "n_Tier2_genes": 186,
-      "n_high_confidence": 113,
-      "n_moderate_confidence": 45,
-      "median_ML_priority_score": 0.8036405684151988
+      "n_high_confidence": 8,
+      "n_moderate_confidence": 29,
+      "n_with_sparse_support": 123,
+      "n_with_v2_support": 162,
+      "median_ML_priority_score": 0.5572383825206455,
+      "top_10_gene_symbols": "LOC107985795;LOC105377644;NOC2LP2;GEMIN7;C1orf174;EXOC3-AS1;PCBD1;LOC105372507;MEOX2;CD247"
     },
     {
       "region_or_subregion": "Hippocampal Formation",
       "n_Tier2_genes": 127,
-      "n_high_confidence": 81,
-      "n_moderate_confidence": 15,
-      "median_ML_priority_score": 0.8207034374770448
+      "n_high_confidence": 3,
+      "n_moderate_confidence": 25,
+      "n_with_sparse_support": 93,
+      "n_with_v2_support": 91,
+      "median_ML_priority_score": 0.5353415239611833,
+      "top_10_gene_symbols": "TOR2A;IL4I1;ZNF663P;HLA-F-AS1;TRMT2A;ARL14EP-DT;COQ4;CKAP2L;ADRA2B;TMEM161B-DT"
     },
     {
       "region_or_subregion": "Insula",
       "n_Tier2_genes": 70,
-      "n_high_confidence": 56,
-      "n_moderate_confidence": 1,
-      "median_ML_priority_score": 0.8612103644017611
+      "n_high_confidence": 6,
+      "n_moderate_confidence": 18,
+      "n_with_sparse_support": 65,
+      "n_with_v2_support": 68,
+      "median_ML_priority_score": 0.611850675141026,
+      "top_10_gene_symbols": "TMEM161B-DT;BMS1P2;BMS1P2-AGAP9;ARL14EP-DT;LOC101929710;POU6F2-AS2;BTN2A3P;LOC101928268;LINC00242;LINC01691"
     },
     {
       "region_or_subregion": "OFC BA11",
       "n_Tier2_genes": 70,
-      "n_high_confidence": 62,
-      "n_moderate_confidence": 0,
-      "median_ML_priority_score": 0.8823130972859721
+      "n_high_confidence": 3,
+      "n_moderate_confidence": 28,
+      "n_with_sparse_support": 69,
+      "n_with_v2_support": 70,
+      "median_ML_priority_score": 0.6384989572675142,
+      "top_10_gene_symbols": "QPRT;LOC105373386;LOC105378913;RAB24;MYBPC1;POLR3E;LOC105377975;TRPV3;C9orf163;NOL6"
     },
     {
       "region_or_subregion": "Ventral Striatum",
       "n_Tier2_genes": 146,
-      "n_high_confidence": 83,
-      "n_moderate_confidence": 15,
-      "median_ML_priority_score": 0.8256525946376422
+      "n_high_confidence": 8,
+      "n_moderate_confidence": 18,
+      "n_with_sparse_support": 97,
+      "n_with_v2_support": 116,
+      "median_ML_priority_score": 0.5311305566006912,
+      "top_10_gene_symbols": "MORN5;FSHB;MRPL2;MOSPD3;POF1B;LINC01361;BMS1P2;KRT5;BMS1P2-AGAP9;OR4F3"
     },
     {
       "region_or_subregion": "dlPFC BA8/9",
       "n_Tier2_genes": 72,
-      "n_high_confidence": 47,
-      "n_moderate_confidence": 1,
-      "median_ML_priority_score": 0.8554958551584607
+      "n_high_confidence": 7,
+      "n_moderate_confidence": 12,
+      "n_with_sparse_support": 58,
+      "n_with_v2_support": 71,
+      "median_ML_priority_score": 0.5985429475774331,
+      "top_10_gene_symbols": "PPT2;NOL6;LINC00269;LOC107984015;LINC02897;LINC01990;LOC105371009;EMC6;CARF;MSANTD2-AS1"
     }
   ],
   "final_report": "D:\\genes\\GeneDepresion\\docs\\MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md"

@@ -46,8 +46,8 @@ STEP_NAMES = {
     6: "Reuse frontal subregion sensitivity outputs",
     7: "Package final Tier 2 candidate gene sets",
     8: "Reuse Tier 2 enrichment outputs",
-    9: "Create ML v1 Tier2_fixed-only branch",
-    10: "Create Tier2FixedOnly ML-prioritized genes",
+    9: "ML v1 extended prioritization",
+    10: "Extended ML-prioritized Tier 2 genes",
     11: "Collect report images",
     12: "Write integrated clean report and manifest",
 }
@@ -121,8 +121,8 @@ def step_output(step: int) -> Path:
         6: "06_frontal_subregion_sensitivity",
         7: "07_Tier2_candidate_gene_sets",
         8: "08_Tier2_enrichment",
-        9: "09_ML_v1_Tier2_fixed_only",
-        10: "10_ML_prioritized_Tier2FixedOnly",
+        9: "09_ML_v1_extended_prioritization",
+        10: "10_ML_prioritized_Tier2_extended",
     }
     return cfg.CLEAN_OUTPUT_DIR / names[step]
 
@@ -347,19 +347,24 @@ def run_step_8(skip_existing: bool = False) -> dict:
 
 def run_step_9(skip_existing: bool = False) -> dict:
     out = ensure(step_output(9))
+    allowed = {"Tier2_fixed", "Tier4_top25", "Tier4_top50", "Tier4_top100", "Tier4_top250", "Tier4_top500", "strict_univariate_top100"}
     perf = pd.read_csv(cfg.ML_V1_DIR / "ML_performance_summary.csv")
-    tier2_perf = perf[perf["feature_set"].eq("Tier2_fixed")].copy()
-    tier2_perf.to_csv(out / "ML_Tier2FixedOnly_performance_summary.csv", index=False)
-    best = tier2_perf.sort_values(["region_or_subregion", "roc_auc_mean", "balanced_accuracy_mean"], ascending=[True, False, False]).groupby("region_or_subregion").head(1)
-    best.to_csv(out / "ML_Tier2FixedOnly_best_model_by_region.csv", index=False)
+    ext_perf = perf[perf["feature_set"].isin(allowed)].copy()
+    ext_perf.to_csv(out / "ML_v1_extended_performance_summary.csv", index=False)
+    best = ext_perf.sort_values(["region_or_subregion", "roc_auc_mean", "balanced_accuracy_mean"], ascending=[True, False, False]).groupby("region_or_subregion").head(1)
+    best.to_csv(out / "ML_v1_extended_best_model_by_region.csv", index=False)
+    feature_set_summary = (
+        ext_perf.groupby(["feature_set", "analysis_level"])
+        .agg(n_rows=("model", "size"), n_regions=("region_or_subregion", "nunique"), median_roc_auc=("roc_auc_mean", "median"), median_balanced_accuracy=("balanced_accuracy_mean", "median"))
+        .reset_index()
+    )
+    feature_set_summary.to_csv(out / "ML_v1_extended_feature_set_summary.csv", index=False)
     fi = pd.read_csv(cfg.ML_V1_DIR / "feature_importance" / "feature_importance_summary.csv")
-    fi_tier2 = fi[fi["feature_set"].eq("Tier2_fixed")].copy()
-    fi_tier2.to_csv(out / "ML_Tier2FixedOnly_feature_importance.csv", index=False)
-    pred = pd.read_csv(cfg.ML_V1_DIR / "cross_validated_predictions.csv")
-    pred[pred["feature_set"].eq("Tier2_fixed")].to_csv(out / "ML_Tier2FixedOnly_cross_validated_predictions.csv", index=False)
+    ext_fi = fi[fi["feature_set"].isin(allowed)].copy()
+    ext_fi.to_csv(out / "ML_v1_extended_feature_importance.csv", index=False)
     plots = ensure(out / "plots")
     old_plot_dir = cfg.ML_V1_DIR / "plots"
-    for src in old_plot_dir.glob("*Tier2*"):
+    for src in old_plot_dir.glob("*.png"):
         if src.is_file():
             copy_file(src, plots / src.name, skip_existing)
     fig, axes = plt.subplots(1, 2, figsize=(11, 5), sharey=True)
@@ -373,20 +378,24 @@ def run_step_9(skip_existing: bool = False) -> dict:
         ax.axvline(0.5, color="#555", linestyle="--", linewidth=1)
         ax.set_xlim(0.45, 1.02)
         ax.grid(axis="x", color="#e5e8eb")
-    fig.suptitle("ML v1 Tier2_fixed only: exploratory performance")
+    fig.suptitle("Extended ML v1: exploratory performance")
     fig.tight_layout()
-    fig.savefig(plots / "MLv1_Tier2FixedOnly_performance_summary_exploratory.png", dpi=200)
+    fig.savefig(plots / "MLv1_extended_performance_summary_exploratory.png", dpi=200)
     plt.close(fig)
     readme(
         out / "README.md",
-        "Step 9: ML v1 Tier2_fixed Only",
+        "Step 9: Extended ML v1 Prioritization",
         [
-            "This clean branch filters existing ML v1 outputs to feature_set == Tier2_fixed.",
-            "Tier4_top25/50/100/250/500 and strict_univariate_top100 are excluded.",
-            "ML v1 uses Tier 2 gene expression features to separate MDD vs Control samples by cross-validation within the same dataset.",
-            "Because Tier 2 genes were selected using the full dataset, performance metrics are exploratory. The main purpose is gene prioritization.",
+            "This clean branch reuses existing ML v1 outputs and keeps Tier2_fixed plus Tier4_top-k feature sets.",
+            "Tier 2 genes define the main exploratory candidate pool. Tier 4 ranked signatures are used only as an additional ML-support layer to test whether candidate-gene prioritization is stable across feature-set definitions.",
+            "strict_univariate_top100 is retained only as a reference/sanity branch, not as the main candidate source.",
+            "ML v1 is interpreted as gene prioritization, not validated diagnostic prediction. Classification performance is descriptive because feature sets were derived from the same dataset.",
         ],
     )
+    archive = cfg.CLEAN_OUTPUT_DIR / "10_ML_prioritized_Tier2FixedOnly" / "README.md"
+    if archive.exists():
+        with archive.open("a", encoding="utf-8") as handle:
+            handle.write("\nArchive note: Tier2-only sensitivity analysis, not the main clean workflow result.\n")
     return {"outputs": [str(out)], "reused": [str(cfg.ML_V1_DIR)], "ml_rerun": False}
 
 
@@ -395,112 +404,129 @@ def compute_lmm_evidence_score(p: pd.Series, effect: pd.Series) -> pd.Series:
     return (-np.log10(p_clip)) * effect.abs()
 
 
+def plot_extended_ml_prioritized(ranked: pd.DataFrame, summary: pd.DataFrame, plots: Path) -> None:
+    """Create clean report-ready plots for the restored extended ML strategy."""
+    fig, ax = plt.subplots(figsize=(8, 4.8))
+    s = summary.sort_values("n_high_confidence")
+    ax.barh(s["region_or_subregion"], s["n_moderate_confidence"], color="#9bc2d1", label="Moderate")
+    ax.barh(s["region_or_subregion"], s["n_high_confidence"], color="#2b6f93", label="High")
+    ax.set_xlabel("ML-prioritized Tier 2 genes")
+    ax.set_title("Extended ML-prioritized Tier 2 genes")
+    ax.legend()
+    ax.grid(axis="x", color="#e5e8eb")
+    fig.tight_layout()
+    fig.savefig(plots / "MLprioritized_counts_by_region.png", dpi=220)
+    plt.close(fig)
+
+    top = ranked.groupby("region_or_subregion").head(8).copy()
+    top = top.sort_values("ML_priority_score")
+    fig, ax = plt.subplots(figsize=(9.5, max(5.5, len(top) * 0.22)))
+    labels = top["region_or_subregion"] + " | " + top["gene_symbol"].fillna(top["gene_id"].astype(str))
+    ax.barh(labels, top["ML_priority_score"], color="#2b6f93")
+    ax.set_xlabel("ML priority score")
+    ax.set_title("Top extended ML-prioritized Tier 2 genes")
+    ax.grid(axis="x", color="#e5e8eb")
+    fig.tight_layout()
+    fig.savefig(plots / "MLprioritized_top_genes_by_region.png", dpi=220)
+    plt.close(fig)
+
+    class_colors = {
+        "High-confidence ML-prioritized Tier 2": "#1b6e8f",
+        "Moderate-confidence ML-prioritized Tier 2": "#d95f02",
+    }
+    for xcol, filename, xlabel in [
+        ("standardized_effect_size_diagnosis", "MLpriority_vs_standardized_effect_size.png", "Standardized effect size"),
+        ("p_value_diagnosis", "MLpriority_vs_neglog10p.png", "-log10(p-value)"),
+    ]:
+        fig, ax = plt.subplots(figsize=(7.7, 5.2))
+        x = -np.log10(ranked[xcol].clip(lower=np.nextafter(0, 1))) if xcol == "p_value_diagnosis" else ranked[xcol]
+        for cls, sub in ranked.assign(_x=x).groupby("ML_priority_class"):
+            ax.scatter(sub["_x"], sub["ML_priority_score"], s=30, alpha=0.75, color=class_colors.get(cls, "#7d8790"), label=cls.replace(" ML-prioritized Tier 2", ""))
+        ax.set_xlabel(xlabel)
+        ax.set_ylabel("ML priority score")
+        ax.set_title("Extended ML support for Tier 2 genes")
+        ax.grid(color="#e5e8eb")
+        ax.legend(fontsize=8)
+        fig.tight_layout()
+        fig.savefig(plots / filename, dpi=220)
+        plt.close(fig)
+
+    support_cols = ["sparse_model_support", "linear_model_support", "rf_support", "v2_support_flag", "lmm_ml_sign_agreement"]
+    heat = ranked.head(30).copy()
+    fig, ax = plt.subplots(figsize=(8.0, 8.8))
+    ax.imshow(heat[support_cols].fillna(False).astype(float), aspect="auto", cmap="Blues", vmin=0, vmax=1)
+    ax.set_yticks(range(len(heat)), heat["gene_symbol"].fillna(heat["gene_id"].astype(str)))
+    ax.set_xticks(range(len(support_cols)), ["Sparse\nmodels", "Linear\nmodels", "Random\nforest", "Strict v2\nsupport", "LMM/ML\nsign agree"])
+    ax.set_title("Model support for top extended ML-prioritized Tier 2 genes")
+    fig.tight_layout()
+    fig.savefig(plots / "MLpriority_model_support_heatmap.png", dpi=220)
+    plt.close(fig)
+
+    agreement = ranked.groupby(["region_or_subregion", "lmm_ml_sign_agreement"]).size().unstack(fill_value=0)
+    agreement = agreement.rename(columns={0.0: "Disagree", 1.0: "Agree", False: "Disagree", True: "Agree"}).reset_index()
+    fig, ax = plt.subplots(figsize=(8, 4.8))
+    agree = agreement.get("Agree", pd.Series([0] * len(agreement)))
+    disagree = agreement.get("Disagree", pd.Series([0] * len(agreement)))
+    ax.barh(agreement["region_or_subregion"], disagree, color="#c55a4d", label="Disagree")
+    ax.barh(agreement["region_or_subregion"], agree, left=disagree, color="#5c8f55", label="Agree")
+    ax.set_xlabel("ML-prioritized Tier 2 genes")
+    ax.set_title("LMM and ML direction agreement")
+    ax.legend()
+    fig.tight_layout()
+    fig.savefig(plots / "MLpriority_sign_agreement.png", dpi=220)
+    plt.close(fig)
+
+
 def run_step_10(skip_existing: bool = False) -> dict:
     out = ensure(step_output(10))
     gene_lists = ensure(out / "gene_lists")
     plots = ensure(out / "plots")
-    fi = pd.read_csv(step_output(9) / "ML_Tier2FixedOnly_feature_importance.csv")
-    tier2 = pd.read_csv(step_output(7) / "Tier2_candidate_genes_all_regions.csv")
-    tier2["gene_id"] = tier2["gene_id"].astype(str)
-    fi["gene_id"] = fi["gene_id"].astype(str)
-    folds = pd.read_csv(cfg.ML_V1_DIR / "feature_importance" / "fold_level_feature_importance.csv", usecols=["region_or_subregion", "feature_set", "model", "repeat", "fold"])
-    folds = folds[folds["feature_set"].eq("Tier2_fixed")]
-    denom = folds.drop_duplicates(["region_or_subregion", "model", "repeat", "fold"]).groupby(["region_or_subregion", "model"]).size().reset_index(name="n_folds")
-    fi = fi.merge(denom, on=["region_or_subregion", "model"], how="left")
-    fi["selection_frequency_model"] = fi["selection_count"] / fi["n_folds"].replace(0, np.nan)
-    fi["abs_importance"] = fi["mean_importance"].abs()
-    fi["rank_within_model"] = fi.groupby(["region_or_subregion", "model"])["abs_importance"].rank(ascending=False, method="average")
-    grouped = fi.groupby(["region_or_subregion", "gene_id", "gene_symbol"], dropna=False)
-    priority = grouped.agg(
-        selection_frequency_Tier2FixedOnly=("selection_frequency_model", "mean"),
-        model_support_count=("model", "nunique"),
-        mean_abs_importance=("abs_importance", "mean"),
-        median_abs_importance=("abs_importance", "median"),
-        mean_rank=("rank_within_model", "mean"),
-        sign_consistency=("sign_consistency", "mean"),
-        positive_count=("positive_count", "sum"),
-        negative_count=("negative_count", "sum"),
-    ).reset_index()
-    model_sets = fi.pivot_table(index=["region_or_subregion", "gene_id"], columns="model", values="selection_count", aggfunc="sum", fill_value=0).reset_index()
-    priority = priority.merge(model_sets, on=["region_or_subregion", "gene_id"], how="left")
-    priority["sparse_model_support"] = (priority.get("logistic_l1", 0) > 0) | (priority.get("elastic_net_logistic", 0) > 0)
-    priority["linear_model_support"] = (
-        (priority.get("logistic_l1", 0) > 0)
-        | (priority.get("elastic_net_logistic", 0) > 0)
-        | (priority.get("logistic_l2", 0) > 0)
-        | (priority.get("linear_svm", 0) > 0)
-    )
-    priority["random_forest_support"] = priority.get("random_forest_exploratory", 0) > 0
-    priority["ml_direction"] = np.where(priority["positive_count"] > priority["negative_count"], "up_in_MDD", np.where(priority["negative_count"] > priority["positive_count"], "down_in_MDD", "mixed"))
-    lmm_cols = [
-        "region_or_subregion",
-        "gene_id",
-        "beta_diagnosis",
-        "p_value_diagnosis",
-        "standardized_effect_size_diagnosis",
-        "direction",
-        "model_source",
-    ]
-    lmm = tier2[lmm_cols].drop_duplicates(["region_or_subregion", "gene_id"])
-    priority = priority.merge(lmm, on=["region_or_subregion", "gene_id"], how="left")
-    priority = priority.rename(columns={"direction": "lmm_direction"})
-    priority["lmm_ml_sign_agreement"] = np.where(priority["ml_direction"].eq("mixed"), np.nan, priority["ml_direction"].eq(priority["lmm_direction"]))
-    priority["lmm_evidence_score"] = compute_lmm_evidence_score(priority["p_value_diagnosis"], priority["standardized_effect_size_diagnosis"])
-    priority["rank_score"] = 1 / (1 + priority["mean_rank"].fillna(priority["mean_rank"].max()))
-    priority["ML_priority_score_Tier2FixedOnly"] = (
-        0.35 * priority["selection_frequency_Tier2FixedOnly"].fillna(0).clip(0, 1)
-        + 0.20 * (priority["model_support_count"].fillna(0) / 5).clip(0, 1)
-        + 0.15 * priority["sparse_model_support"].astype(float)
-        + 0.10 * priority["linear_model_support"].astype(float)
-        + 0.10 * priority["sign_consistency"].fillna(0).clip(0, 1)
-        + 0.10 * (priority["lmm_evidence_score"].fillna(0) / priority["lmm_evidence_score"].quantile(0.95)).clip(0, 1)
-    )
-    high = (
-        (priority["ML_priority_score_Tier2FixedOnly"] >= 0.70)
-        & (priority["selection_frequency_Tier2FixedOnly"] >= 0.50)
-        & (priority["model_support_count"] >= 2)
-        & priority["sparse_model_support"]
-        & (priority["sign_consistency"].fillna(1) >= 0.70)
-        & (priority["lmm_ml_sign_agreement"].isna() | priority["lmm_ml_sign_agreement"])
-    )
-    moderate = (
-        (priority["ML_priority_score_Tier2FixedOnly"] >= 0.45)
-        & (priority["selection_frequency_Tier2FixedOnly"] >= 0.25)
-        & (priority["model_support_count"] >= 1)
-        & (~priority["lmm_ml_sign_agreement"].eq(False))
-    )
-    priority["ML_priority_class_Tier2FixedOnly"] = np.select(
-        [high, moderate],
-        ["High-confidence Tier2FixedOnly ML-prioritized", "Moderate-confidence Tier2FixedOnly ML-prioritized"],
-        default="Not prioritized",
-    )
-    priority["is_high_confidence_Tier2FixedOnly"] = high
-    priority["is_moderate_confidence_Tier2FixedOnly"] = moderate & ~high
-    priority = priority.sort_values(["ML_priority_score_Tier2FixedOnly", "selection_frequency_Tier2FixedOnly"], ascending=False)
-    priority.to_csv(out / "ML_prioritized_Tier2FixedOnly_all_ranked.csv", index=False)
-    priority[priority["is_high_confidence_Tier2FixedOnly"]].to_csv(out / "ML_prioritized_Tier2FixedOnly_high_confidence.csv", index=False)
-    priority[priority["is_moderate_confidence_Tier2FixedOnly"]].to_csv(out / "ML_prioritized_Tier2FixedOnly_moderate_confidence.csv", index=False)
-    summary = priority.groupby("region_or_subregion").agg(
-        n_Tier2_genes=("gene_id", "nunique"),
-        n_high_confidence=("ML_priority_class_Tier2FixedOnly", lambda s: (s == "High-confidence Tier2FixedOnly ML-prioritized").sum()),
-        n_moderate_confidence=("ML_priority_class_Tier2FixedOnly", lambda s: (s == "Moderate-confidence Tier2FixedOnly ML-prioritized").sum()),
-        median_ML_priority_score=("ML_priority_score_Tier2FixedOnly", "median"),
-    ).reset_index()
-    summary.to_csv(out / "ML_prioritized_Tier2FixedOnly_summary_by_region.csv", index=False)
-    prioritized_mask = priority["is_high_confidence_Tier2FixedOnly"] | priority["is_moderate_confidence_Tier2FixedOnly"]
-    for region, sub in priority[prioritized_mask].groupby("region_or_subregion"):
+    old = cfg.OLD_ML_PRIORITIZED_DIR
+    copy_file(old / "ML_prioritized_Tier2_genes_all_ranked.csv", out / "ML_prioritized_Tier2_extended_all_ranked.csv", skip_existing=False)
+    copy_file(old / "ML_prioritized_Tier2_genes_high_confidence.csv", out / "ML_prioritized_Tier2_extended_high_confidence.csv", skip_existing=False)
+    copy_file(old / "ML_prioritized_Tier2_genes_moderate_confidence.csv", out / "ML_prioritized_Tier2_extended_moderate_confidence.csv", skip_existing=False)
+    copy_file(old / "ML_prioritized_Tier2_gene_summary_by_region.csv", out / "ML_prioritized_Tier2_extended_summary_by_region.csv", skip_existing=False)
+    copy_file(old / "model_support_summary.csv", out / "model_support_summary.csv", skip_existing=False)
+    if (old / "run_manifest.json").exists():
+        copy_file(old / "run_manifest.json", out / "run_manifest.json", skip_existing=False)
+    ranked = pd.read_csv(out / "ML_prioritized_Tier2_extended_all_ranked.csv")
+    high_df = pd.read_csv(out / "ML_prioritized_Tier2_extended_high_confidence.csv")
+    moderate_df = pd.read_csv(out / "ML_prioritized_Tier2_extended_moderate_confidence.csv")
+    summary = pd.read_csv(out / "ML_prioritized_Tier2_extended_summary_by_region.csv")
+    for region, sub in pd.concat([high_df, moderate_df], ignore_index=True).groupby("region_or_subregion"):
         sub[["gene_symbol"]].dropna().drop_duplicates().to_csv(gene_lists / f"{region.replace('/', '_').replace(' ', '_')}_prioritized_gene_symbols.txt", index=False, header=False)
-    plot_ml_prioritized(priority, summary, plots)
+    old_plot_dir = old / "plots"
+    plot_map = {
+        "barplot_high_moderate_counts_by_region.png": "MLprioritized_counts_by_region.png",
+        "heatmap_top_stable_ML_prioritized_genes.png": "MLpriority_model_support_heatmap.png",
+        "Cingulate_gyrus_25_top20_ML_priority_genes.png": "MLprioritized_top_genes_Cg25.png",
+    }
+    for src_name, dst_name in plot_map.items():
+        src = old_plot_dir / src_name
+        if src.exists():
+            copy_file(src, plots / dst_name, skip_existing=False)
+    plot_extended_ml_prioritized(ranked, summary, plots)
+    run_manifest = {
+        "source_folder": str(old),
+        "source_strategy": "extended ML v1 using Tier2_fixed plus Tier4_top-k support",
+        "ml_rerun": False,
+        "ranked_count": int(len(ranked)),
+        "high_confidence_count": int(len(high_df)),
+        "moderate_confidence_count": int(len(moderate_df)),
+        "tier4_interpretation": "Tier 4 ranked signatures are support/sensitivity only, not final gene lists.",
+    }
+    (out / "run_manifest.json").write_text(json.dumps(run_manifest, indent=2), encoding="utf-8")
     readme(
         out / "README.md",
-        "Step 10: Tier2FixedOnly ML-Prioritized Genes",
+        "Step 10: Extended ML-Prioritized Tier 2 Genes",
         [
-            "Prioritization uses only Tier2_fixed ML v1 feature-importance outputs.",
-            "Tier4 and strict_univariate feature sets are excluded.",
+            "This step reuses the previous stable ML-prioritized Tier 2 output package.",
+            "Tier 2 genes define the main exploratory candidate pool. Tier 4 ranked signatures are used only as an additional ML-support layer to test whether candidate-gene prioritization is stable across feature-set definitions.",
+            "The final candidates are ML-prioritized Tier 2 genes, not Tier 4 genes.",
             "The final prioritized genes should be interpreted as internally supported candidate genes, not validated biomarkers.",
         ],
     )
-    return {"outputs": [str(out)], "reused": [str(step_output(9) / "ML_Tier2FixedOnly_feature_importance.csv")], "high_count": int(high.sum()), "moderate_count": int((moderate & ~high).sum())}
+    return {"outputs": [str(out)], "reused": [str(old)], "high_count": int(len(high_df)), "moderate_count": int(len(moderate_df)), "ranked_count": int(len(ranked))}
 
 
 def plot_ml_prioritized(priority: pd.DataFrame, summary: pd.DataFrame, plots: Path) -> None:
@@ -554,10 +580,14 @@ def plot_ml_prioritized(priority: pd.DataFrame, summary: pd.DataFrame, plots: Pa
 def run_step_11(skip_existing: bool = False) -> dict:
     out = ensure(cfg.CLEAN_IMAGES_DIR)
     inventory = []
+    archived_ml_image_dir = out / "ml_prioritized"
+    if archived_ml_image_dir.exists():
+        for old_plot in archived_ml_image_dir.glob("*Tier2FixedOnly*"):
+            old_plot.unlink()
     mappings = [
         ("tier2", cfg.OLD_IMAGES_DIR / "tier2", ["Tier2_counts_by_region.png", "Tier2_up_down_by_region.png", "Tier2_volcano_Cg25.png", "Tier2_volcano_VentralStriatum.png"]),
         ("enrichment", cfg.OLD_IMAGES_DIR / "enrichment_report_ready", ["*.png"]),
-        ("ml_v1", step_output(9) / "plots", ["MLv1_Tier2FixedOnly_performance_summary_exploratory.png"]),
+        ("ml_v1", step_output(9) / "plots", ["MLv1_extended_performance_summary_exploratory.png"]),
         ("ml_prioritized", step_output(10) / "plots", ["*.png"]),
     ]
     for category, src_dir, patterns in mappings:
@@ -573,7 +603,7 @@ def run_step_11(skip_existing: bool = False) -> dict:
         inv_dir / "README.md",
         "Clean Pipeline Image Inventory",
         [
-            "Collects Tier 2, report-ready enrichment, Tier2FixedOnly ML v1, and Tier2FixedOnly ML-prioritized figures.",
+            "Collects Tier 2, report-ready enrichment, extended ML v1, and extended ML-prioritized Tier 2 figures.",
             "All ML figures are descriptive and exploratory.",
         ],
     )
@@ -584,7 +614,10 @@ def run_step_12(skip_existing: bool = False) -> dict:
     ensure(cfg.CLEAN_OUTPUT_DIR)
     ensure(cfg.FINAL_REPORT.parent)
     tier2_summary = pd.read_csv(step_output(7) / "Tier2_summary_by_region.csv")
-    ml_summary = pd.read_csv(step_output(10) / "ML_prioritized_Tier2FixedOnly_summary_by_region.csv")
+    ml_summary = pd.read_csv(step_output(10) / "ML_prioritized_Tier2_extended_summary_by_region.csv")
+    ranked_count = len(pd.read_csv(step_output(10) / "ML_prioritized_Tier2_extended_all_ranked.csv"))
+    high_count = len(pd.read_csv(step_output(10) / "ML_prioritized_Tier2_extended_high_confidence.csv"))
+    moderate_count = len(pd.read_csv(step_output(10) / "ML_prioritized_Tier2_extended_moderate_confidence.csv"))
     report = build_report(tier2_summary, ml_summary)
     cfg.FINAL_REPORT.write_text(report, encoding="utf-8")
     cfg.FINAL_REPORT_COPY.write_text(report, encoding="utf-8")
@@ -598,11 +631,17 @@ def run_step_12(skip_existing: bool = False) -> dict:
             str(cfg.ML_V1_DIR / "feature_importance" / "feature_importance_summary.csv"),
             str(cfg.ENRICHMENT_DIR),
         ],
-        "reused_old_outputs": [str(cfg.OLD_ANALYSIS_DIR)],
+        "reused_old_outputs": [str(cfg.OLD_ANALYSIS_DIR), str(cfg.ML_V1_DIR), str(cfg.OLD_ML_PRIORITIZED_DIR)],
         "newly_generated_outputs": [str(cfg.CLEAN_OUTPUT_DIR), str(cfg.FINAL_REPORT)],
         "skipped_steps": [],
         "ml_rerun": False,
         "enrichment_rerun": False,
+        "main_ml_strategy": "extended ML v1 using Tier2_fixed plus Tier4_top-k feature sets as support",
+        "tier4_role": "Tier 4 is used only as a ranked ML-support layer, not as a separate biological conclusion or final gene list.",
+        "tier2_fixed_only_outputs_retained_as_sensitivity": str(cfg.CLEAN_OUTPUT_DIR / "10_ML_prioritized_Tier2FixedOnly"),
+        "final_ranked_count": int(ranked_count),
+        "final_high_confidence_count": int(high_count),
+        "final_moderate_confidence_count": int(moderate_count),
         "final_high_moderate_gene_counts": ml_summary.to_dict(orient="records"),
         "final_report": str(cfg.FINAL_REPORT),
     }
@@ -616,12 +655,14 @@ def build_report(tier2_summary: pd.DataFrame, ml_summary: pd.DataFrame) -> str:
     return f"""# Length > 100 MDD transcriptomics: Tier 2 candidate genes, enrichment, and Tier2-only ML prioritization
 
 ## 1. Executive summary
-This clean pipeline organizes the completed Length > 100 analysis into a reproducible Tier2-only path from filtered/normalized gene expression through LMM-derived Tier 2 candidate genes, enrichment, ML v1 using Tier 2 features only, and final Tier2FixedOnly ML-prioritized genes.
+This clean pipeline organizes the completed Length > 100 analysis into a reproducible path from filtered/normalized gene expression through LMM-derived Tier 2 candidate genes, enrichment, extended ML v1 prioritization, and stable ML-prioritized Tier 2 genes.
 
-Tier 2 genes are exploratory candidate genes, not FDR-significant discoveries. ML was used as a Tier2-guided gene-prioritization tool. Classification performance is reported only descriptively and should not be interpreted as unbiased diagnostic prediction. The final prioritized genes should be interpreted as internally supported candidate genes, not validated biomarkers.
+Tier 2 genes are exploratory candidate genes, not FDR-significant discoveries. Tier 2 genes define the main exploratory candidate pool. Tier 4 ranked signatures are used only as an additional ML-support layer to test whether candidate-gene prioritization is stable across feature-set definitions.
+
+ML v1 is interpreted as gene prioritization, not validated diagnostic prediction. Classification performance is descriptive because feature sets were derived from the same dataset. The final prioritized genes should be interpreted as internally supported candidate genes, not validated biomarkers.
 
 ## 2. Clean pipeline overview
-The clean path is: raw counts/expression inputs -> Length > 100 gene filtering -> GeTMM -> log2(GeTMM + 1) -> broad-region LMM -> standardized effect sizes -> evidence tiers -> frontal subregion fixed-effect sensitivity -> final Tier 2 candidate pools -> Tier 2 enrichment -> ML v1 using Tier2_fixed only -> Tier2FixedOnly ML-prioritized genes -> report-ready images.
+The clean path is: raw counts/expression inputs -> Length > 100 gene filtering -> GeTMM -> log2(GeTMM + 1) -> broad-region LMM -> standardized effect sizes -> evidence tiers -> frontal subregion fixed-effect sensitivity -> final Tier 2 candidate pools -> Tier 2 enrichment -> extended ML v1 using Tier2_fixed plus Tier4_top-k feature sets -> stable ML-prioritized Tier 2 genes -> report-ready images.
 
 ## 3. Input data and normalization
 The clean pipeline reuses completed Length > 100 outputs from `{cfg.OLD_ANALYSIS_DIR}`. Normalized expression uses filtered raw counts, GeTMM normalization, and log2(GeTMM + 1).
@@ -636,7 +677,7 @@ Standardized effect size was defined as `beta_diagnosis / SD(expression of gene)
 Tier 1: Storey q < 0.10 and abs(standardized effect size) > 0.8.
 Tier 2: p_value_diagnosis < 0.01 and abs(standardized effect size) > 0.8.
 Tier 3: p_value_diagnosis < 0.01 and abs(beta_diagnosis) > 0.2.
-Tier 4 was explored previously but is excluded from this clean Tier2-only pipeline and report story.
+Tier 4 is a ranking of all tested genes, not a separate selected gene list or biological conclusion. It helps avoid relying on one hard cutoff by providing ranked-feature support in the ML prioritization stage.
 
 ## 7. Frontal subregion fixed-effect sensitivity analysis
 Frontal subregion Tier 2 candidates come from the frontal fixed-effect sensitivity model because the random effect was not estimable after splitting. The documented model is Diagnosis + Age + Sex + RIN.
@@ -647,27 +688,31 @@ Frontal subregion Tier 2 candidates come from the frontal fixed-effect sensitivi
 ## 9. Tier 2 enrichment
 Tier 2 enrichment was reused from completed outputs. It used Tier 2 gene lists and region/subregion-specific tested-gene backgrounds. Enrichment is exploratory biological interpretation.
 
-## 10. ML v1 using Tier 2 genes only
-In ML, samples are rows and genes are features. ML v1 used Tier 2 genes as features. Training/testing was by cross-validation within the same dataset. Every sample can be held out as test in some fold, but the test data are not external. Because Tier 2 was defined using the full dataset, performance is exploratory.
+## 10. ML v1 extended prioritization
+In ML, samples are rows and genes are features. ML v1 used Tier2_fixed as the main candidate set and Tier4_top-k ranked signatures as additional support/sensitivity. Tier 4 is a ranking of all tested genes, not a separate selected gene list. Training/testing was by cross-validation within the same dataset. Every sample can be held out as test in some fold, but the test data are not external.
 
-## 11. Tier2-only ML-prioritized genes
-The clean prioritization uses only `feature_set == Tier2_fixed` feature-importance outputs. Tier4 and strict-univariate feature sets are excluded.
+Tier 2 defines the main exploratory candidate-gene pool using nominal diagnosis evidence and standardized effect size. Tier 4 is a ranked signature of all tested genes and is used only as an additional ML-support layer. In the extended ML v1 prioritization, models are trained using Tier2_fixed and Tier4_top-k feature sets. The final prioritization remains Tier 2-centered: genes are reported as ML-prioritized Tier 2 candidates when they belong to the Tier 2 pool and receive repeated support from the ML feature-importance outputs.
+
+Tier2FixedOnly was tried as a simplified sensitivity analysis but produced less informative prioritization plots, so the extended ML v1 strategy is used as the main workflow.
+
+## 11. Stable ML-prioritized Tier 2 genes
+The clean prioritization reuses the previous extended ML v1 strategy. The final candidates are ML-prioritized Tier 2 genes. Tier 4 only provides additional ranked-feature support.
 
 {ml_md}
 
 ## 12. Recommended figures
 Recommended Tier 2 figures are in `outputs/length_gt_100_clean_pipeline/images/tier2`.
 Recommended enrichment figures are in `outputs/length_gt_100_clean_pipeline/images/enrichment`.
-Recommended ML figures are in `outputs/length_gt_100_clean_pipeline/images/ml_v1` and `outputs/length_gt_100_clean_pipeline/images/ml_prioritized`.
+Recommended ML figures are in `outputs/length_gt_100_clean_pipeline/images/ml_v1` and `outputs/length_gt_100_clean_pipeline/images/ml_prioritized`, and come from the extended ML v1 prioritization branch.
 
 ## 13. Conclusions
-The clean Tier2-only path preserves the exploratory biological signal while separating candidate-gene discovery, enrichment interpretation, and ML-based prioritization.
+The clean path preserves the exploratory Tier 2 biological signal while using Tier 4 ranked signatures only as ML support for stable prioritization.
 
 ## 14. Limitations
 Tier 2 selection used the full dataset, so downstream ML performance is optimistic. There is no external validation cohort in this clean pipeline. Candidate genes are not validated biomarkers.
 
 ## 15. Next steps
-Use prioritized Tier2FixedOnly genes for enrichment follow-up, AHBA/module mapping, and lower-dimensional pathway or module-level ML. Do not start deep learning until stable lower-dimensional features or external validation data are available.
+Use extended ML-prioritized Tier 2 genes for enrichment follow-up, AHBA/module mapping, and lower-dimensional pathway or module-level ML. Do not start deep learning until stable lower-dimensional features or external validation data are available.
 
 ## 16. Output files
 Primary clean outputs are under `{cfg.CLEAN_OUTPUT_DIR}`. The reproducibility manifest is `{cfg.PIPELINE_MANIFEST}`.
@@ -710,7 +755,7 @@ def runner_main(argv: list[str] | None = None) -> None:
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args(argv)
     selected = [s for s in sorted(STEP_FUNCS) if args.from_step <= s <= args.to_step]
-    print("Clean Length > 100 Tier2-only pipeline steps:")
+    print("Clean Length > 100 MDD pipeline steps:")
     for s in selected:
         print(f"  {s:02d}. {STEP_NAMES[s]}")
     if args.dry_run:

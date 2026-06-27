@@ -1,0 +1,9 @@
+{
+  "source_folder": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\ML_prioritized_Tier2_genes",
+  "source_strategy": "extended ML v1 using Tier2_fixed plus Tier4_top-k support",
+  "ml_rerun": false,
+  "ranked_count": 671,
+  "high_confidence_count": 35,
+  "moderate_confidence_count": 130,
+  "tier4_interpretation": "Tier 4 ranked signatures are support/sensitivity only, not final gene lists."
+}

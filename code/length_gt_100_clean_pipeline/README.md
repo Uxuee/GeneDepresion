@@ -1,6 +1,6 @@
 # Length > 100 Clean Tier2-Only Pipeline
 
-This folder provides a reproducible code path from completed Length > 100 raw/normalized gene-expression outputs through Tier 2 candidates, enrichment, ML v1 using Tier2_fixed features only, and final Tier2FixedOnly ML-prioritized genes.
+This folder provides a reproducible code path from completed Length > 100 raw/normalized gene-expression outputs through Tier 2 candidates, enrichment, extended ML v1 prioritization, and final ML-prioritized Tier 2 candidate genes.
 
 The pipeline reuses completed outputs from `outputs/length_gt_100_elisa_style` and writes clean organized outputs to `outputs/length_gt_100_clean_pipeline`.
 
@@ -12,7 +12,7 @@ Run the full clean pipeline:
 python code/length_gt_100_clean_pipeline/run_length_gt_100_clean_pipeline.py --skip-existing
 ```
 
-Run only the Tier2-only ML prioritization branch:
+Run only the main extended ML prioritization branch:
 
 ```bash
 python code/length_gt_100_clean_pipeline/run_length_gt_100_clean_pipeline.py --from-step 9 --to-step 10 --skip-existing
@@ -35,8 +35,10 @@ python code/length_gt_100_clean_pipeline/run_length_gt_100_clean_pipeline.py --d
 - `06_run_frontal_subregion_sensitivity.py`: reuses fixed-effect frontal subregion sensitivity outputs.
 - `07_package_Tier2_candidate_gene_sets.py`: packages final Tier 2 candidate pools.
 - `08_run_Tier2_enrichment.py`: copies completed Tier 2 enrichment tables and selected report-ready plots.
-- `09_run_ML_v1_Tier2_fixed_only.py`: filters existing ML v1 outputs to `feature_set == "Tier2_fixed"`.
-- `10_extract_Tier2FixedOnly_ML_prioritized_genes.py`: creates final Tier2FixedOnly ML-prioritized genes.
+- `09_run_ML_v1_extended_prioritization.py`: organizes existing extended ML v1 outputs using `Tier2_fixed` plus `Tier4_top-k` support layers.
+- `10_extract_extended_ML_prioritized_Tier2_genes.py`: restores the stable extended ML-prioritized Tier 2 gene package.
+- `09_run_ML_v1_Tier2_fixed_only.py`: archived sensitivity script for the Tier2FixedOnly branch.
+- `10_extract_Tier2FixedOnly_ML_prioritized_genes.py`: archived sensitivity script for Tier2FixedOnly prioritization.
 - `11_collect_report_images.py`: collects report-ready images and writes an image inventory.
 - `12_write_integrated_clean_report.py`: writes the integrated report and reproducibility manifest.
 - `run_length_gt_100_clean_pipeline.py`: ordered runner with `--from-step`, `--to-step`, `--skip-existing`, and `--dry-run`.
@@ -59,5 +61,10 @@ ML was used as a Tier2-guided gene-prioritization tool. Classification performan
 
 The final prioritized genes should be interpreted as internally supported candidate genes, not validated biomarkers.
 
-Tier 4 was explored previously but is excluded from this clean Tier2-only pipeline and report story.
+Main clean ML result = extended ML v1 prioritization.
 
+Tier2FixedOnly = sensitivity/archive.
+
+Tier 4 = ranked support layer, not a final gene list or separate biological conclusion.
+
+Final output = ML-prioritized Tier 2 candidate genes.
