@@ -88,6 +88,43 @@ Planned outputs:
 - `modules/module_parameters.json`
 - `modules/AHBA_module_construction_summary.md`
 
+
+
+## Published AHBA Canonical Modules
+
+De novo AHBA WGCNA was attempted first using the processed AHBA matrix. The memory-safe run and a 72-combination WGCNA parameter sensitivity grid did not produce a useful multi-module structure: every completed setting produced one giant non-grey module containing nearly all 5,000 selected genes, with only three grey/unassigned genes. Because that result is not biologically useful for module enrichment, de novo AHBA modules are documented but not used for biological enrichment.
+
+The primary AHBA module-reference branch now uses published adult human brain canonical coexpression modules from Hawrylycz et al. 2015, *Canonical genetic signatures of the adult human brain*. The expected input is Supplementary Table 6, containing consensus module/signature assignments and eigengene/module-membership correlations for genes assigned to the published network.
+
+Published AHBA canonical modules provide healthy-brain coexpression context for ML-prioritized MDD candidate genes. They do not validate these genes as disease biomarkers.
+
+Scripts:
+
+```text
+code/ahba_modules/04_fetch_or_load_published_ahba_modules.py
+code/ahba_modules/05_test_published_ahba_module_enrichment.py
+```
+
+Manual input folder:
+
+```text
+data/ahba/published_modules/
+```
+
+Standardized published-module output:
+
+```text
+outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/ahba_published_gene_to_module_assignments.csv
+```
+
+The published-module enrichment background is not all human genes. It is:
+
+```text
+unique genes present in both the MDD clean-pipeline tested-gene universe and the published AHBA module assignment table
+```
+
+Gene-region candidate rows are deduplicated to unique gene symbols within each tested candidate set before Fisher/hypergeometric enrichment testing.
+
 ## Candidate Gene Sets
 
 The enrichment script tests:

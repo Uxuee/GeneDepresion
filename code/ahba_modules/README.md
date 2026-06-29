@@ -40,3 +40,23 @@ outputs/length_gt_100_clean_pipeline/ahba_modules/
 Interpretation: AHBA module analysis provides healthy-brain coexpression context
 for ML-prioritized MDD candidate genes. It does not validate them as disease
 biomarkers.
+
+
+## Published AHBA Canonical Module Branch
+
+The de novo WGCNA sensitivity analysis produced one giant module across the tested parameter grid, so biological enrichment should use the published AHBA canonical module branch instead of the one-module de novo result.
+
+Place Hawrylycz et al. 2015 Supplementary Table 6 in:
+
+```text
+data/ahba/published_modules/
+```
+
+Then run:
+
+```bash
+python code/ahba_modules/04_fetch_or_load_published_ahba_modules.py
+python code/ahba_modules/05_test_published_ahba_module_enrichment.py
+```
+
+The published-module enrichment step deduplicates gene-region pairs to unique gene symbols within each candidate set. Its background is the intersection of the clean MDD tested-gene universe and genes present in the published AHBA module assignment table.
