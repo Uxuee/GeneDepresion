@@ -163,40 +163,225 @@ if (file.exists(not_installed_marker)) {
   file.remove(not_installed_marker)
 }
 
-powers <- c(1:10, seq(12, 20, by = 2))
-soft_threshold_status <- "pickSoftThreshold_completed"
-sft <- tryCatch(
-  pickSoftThreshold(datExpr, powerVector = powers, verbose = 0),
-  error = function(e) {
-    soft_threshold_status <<- paste("pickSoftThreshold_failed_using_default_power_6:", conditionMessage(e))
-    message(soft_threshold_status)
-    NULL
+ml_tier2_path <- file.path(clean_dir, "10_ML_prioritized_Tier2_extended", "final_ranked_ML_prioritized_Tier2_genes.csv")
+ml_tier2_genes <- character(0)
+if (file.exists(ml_tier2_path)) {
+  ml_tier2_tbl <- read.csv(ml_tier2_path, check.names = FALSE, stringsAsFactors = FALSE)
+  if ("gene_symbol" %in% names(ml_tier2_tbl)) {
+    ml_tier2_genes <- unique(toupper(trimws(as.character(ml_tier2_tbl$gene_symbol))))
+    ml_tier2_genes <- ml_tier2_genes[!is.na(ml_tier2_genes) & ml_tier2_genes != ""]
   }
-)
-if (is.null(sft)) {
-  fit <- data.frame()
-  soft_power <- 6
-} else {
-  fit <- sft$fitIndices
-  candidate <- fit$Power[which(fit$SFT.R.sq >= 0.80)[1]]
-  soft_power <- ifelse(is.na(candidate), 6, candidate)
 }
 
-net <- blockwiseModules(
-  datExpr,
-  power = soft_power,
-  TOMType = "signed",
-  minModuleSize = 30,
-  reassignThreshold = 0,
-  mergeCutHeight = 0.25,
-  numericLabels = FALSE,
-  pamRespectsDendro = FALSE,
-  verbose = 2
+soft_powers <- c(4, 6, 8, 10)
+deep_splits <- c(2, 3, 4)
+min_module_sizes <- c(30, 50, 100)
+merge_cut_heights <- c(0.15, 0.25)
+grid <- expand.grid(
+  soft_power = soft_powers,
+  deepSplit = deep_splits,
+  minModuleSize = min_module_sizes,
+  mergeCutHeight = merge_cut_heights,
+  KEEP.OUT.ATTRS = FALSE,
+  stringsAsFactors = FALSE
 )
 
+summarize_modules <- function(colors) {
+  color_table <- table(colors)
+  grey_count <- if ("grey" %in% names(color_table)) as.integer(color_table[["grey"]]) else 0L
+  non_grey <- color_table[names(color_table) != "grey"]
+  non_grey_sizes <- as.integer(non_grey)
+  list(
+    n_modules_excluding_grey = length(non_grey_sizes),
+    grey_genes = grey_count,
+    largest_module_size = if (length(non_grey_sizes)) max(non_grey_sizes) else 0L,
+    median_module_size = if (length(non_grey_sizes)) as.numeric(stats::median(non_grey_sizes)) else 0,
+    module_sizes = color_table
+  )
+}
+
+best_solution <- NULL
+audit_rows <- list()
+run_index <- 0L
+
+for (soft_power in soft_powers) {
+  message("Computing signed adjacency/TOM for soft power ", soft_power)
+  power_start <- Sys.time()
+  power_state <- tryCatch(
+    {
+      adjacency_matrix <- adjacency(datExpr, power = soft_power, type = "signed")
+      tom <- TOMsimilarity(adjacency_matrix, TOMType = "signed")
+      diss_tom <- 1 - tom
+      gene_tree <- hclust(as.dist(diss_tom), method = "average")
+      list(diss_tom = diss_tom, gene_tree = gene_tree, error = NA_character_)
+    },
+    error = function(e) {
+      list(diss_tom = NULL, gene_tree = NULL, error = conditionMessage(e))
+    }
+  )
+
+  for (deep_split in deep_splits) {
+    for (min_module_size in min_module_sizes) {
+      for (merge_cut_height in merge_cut_heights) {
+        run_index <- run_index + 1L
+        run_start <- Sys.time()
+        completed <- FALSE
+        error_message <- power_state$error
+        colors <- NULL
+        eigengenes <- NULL
+        module_summary <- list(
+          n_modules_excluding_grey = 0L,
+          grey_genes = NA_integer_,
+          largest_module_size = NA_integer_,
+          median_module_size = NA_real_,
+          module_sizes = table(character(0))
+        )
+
+        if (is.na(error_message)) {
+          result <- tryCatch(
+            {
+              dynamic_mods <- cutreeDynamic(
+                dendro = power_state$gene_tree,
+                distM = power_state$diss_tom,
+                deepSplit = deep_split,
+                pamRespectsDendro = FALSE,
+                minClusterSize = min_module_size,
+                verbose = 0
+                      )
+                      initial_colors <- labels2colors(dynamic_mods)
+                      names(initial_colors) <- colnames(datExpr)
+                      initial_summary <- summarize_modules(initial_colors)
+                      if (initial_summary$n_modules_excluding_grey < 2) {
+                        list(colors = structure(as.character(initial_colors), names = names(initial_colors)))
+                      } else {
+                        merged <- mergeCloseModules(
+                          datExpr,
+                          initial_colors,
+                          cutHeight = merge_cut_height,
+                          verbose = 0
+                        )
+                        names(merged$colors) <- colnames(datExpr)
+                        list(colors = structure(as.character(merged$colors), names = names(merged$colors)))
+                      }
+            },
+            error = function(e) {
+              error_message <<- conditionMessage(e)
+              NULL
+            }
+          )
+          if (!is.null(result)) {
+            colors <- result$colors
+            completed <- TRUE
+            module_summary <- summarize_modules(colors)
+          }
+        }
+
+        runtime_seconds <- as.numeric(difftime(Sys.time(), run_start, units = "secs"))
+        n_candidate_overlap <- if (!is.null(colors)) {
+          sum(toupper(names(colors)) %in% ml_tier2_genes)
+        } else {
+          0L
+        }
+        largest_fraction <- if (!is.na(module_summary$largest_module_size)) {
+          module_summary$largest_module_size / ncol(datExpr)
+        } else {
+          NA_real_
+        }
+        usable <- isTRUE(completed) &&
+          module_summary$n_modules_excluding_grey > 1 &&
+          is.finite(largest_fraction) &&
+          largest_fraction < 0.90 &&
+          n_candidate_overlap > 0
+
+        audit_rows[[length(audit_rows) + 1L]] <- data.frame(
+          run_index = run_index,
+          soft_power = soft_power,
+          deepSplit = deep_split,
+          minModuleSize = min_module_size,
+          mergeCutHeight = merge_cut_height,
+          n_genes_used = ncol(datExpr),
+          n_modules_excluding_grey = module_summary$n_modules_excluding_grey,
+          grey_unassigned_genes = module_summary$grey_genes,
+          largest_module_size = module_summary$largest_module_size,
+          largest_module_fraction = largest_fraction,
+          median_module_size = module_summary$median_module_size,
+          ml_prioritized_tier2_overlap_genes = n_candidate_overlap,
+          completed = completed,
+          usable_solution = usable,
+          runtime_seconds = runtime_seconds,
+          error_message = ifelse(is.na(error_message), "", error_message),
+          stringsAsFactors = FALSE
+        )
+
+        if (usable) {
+          score <- module_summary$n_modules_excluding_grey -
+            largest_fraction -
+            (module_summary$grey_genes / ncol(datExpr))
+          if (is.null(best_solution) || score > best_solution$score) {
+            best_solution <- list(
+              score = score,
+              colors = colors,
+              eigengenes = eigengenes,
+              params = list(
+                soft_power = soft_power,
+                deepSplit = deep_split,
+                minModuleSize = min_module_size,
+                mergeCutHeight = merge_cut_height
+              ),
+              summary = module_summary,
+              ml_prioritized_tier2_overlap_genes = n_candidate_overlap
+            )
+          }
+        }
+      }
+    }
+  }
+
+  rm(power_state)
+  gc()
+  message("Finished soft power ", soft_power, " in ", round(as.numeric(difftime(Sys.time(), power_start, units = "mins")), 2), " minutes")
+}
+
+sensitivity <- do.call(rbind, audit_rows)
+sensitivity_path <- file.path(out_dir, "ahba_wgcna_parameter_sensitivity.csv")
+write.csv(sensitivity, sensitivity_path, row.names = FALSE)
+
+params$method <- "WGCNA lower-level adjacency/TOM + cutreeDynamic + mergeCloseModules"
+params$sensitivity_grid <- list(
+  soft_powers = soft_powers,
+  deep_splits = deep_splits,
+  min_module_sizes = min_module_sizes,
+  merge_cut_heights = merge_cut_heights
+)
+params$parameter_sensitivity_table <- sensitivity_path
+
+if (is.null(best_solution)) {
+  msg <- paste(
+    "No usable multi-module AHBA WGCNA solution was found under the tested settings.",
+    "The prior one-module result was not promoted as a final biological module solution."
+  )
+  writeLines(msg, file.path(out_dir, "AHBA_NO_USABLE_MULTIMODULE_SOLUTION.txt"))
+  params$selected_solution <- NULL
+  params$selection_status <- "no_usable_multi_module_solution"
+  write_params(params, file.path(out_dir, "module_parameters.json"))
+  report <- c(
+    "# AHBA Module Construction Summary",
+    "",
+    msg,
+    "",
+    paste("- Input matrix:", expr_path),
+    paste("- Samples:", nrow(datExpr)),
+    paste("- Genes used:", ncol(datExpr)),
+    paste("- Parameter sensitivity table:", sensitivity_path),
+    "- No final module assignment table was overwritten with a forced/fake solution."
+  )
+  writeLines(report, file.path(out_dir, "AHBA_module_construction_summary.md"))
+  stop(msg)
+}
+
 modules <- data.frame(
-  gene_symbol = names(net$colors),
-  ahba_module = as.character(net$colors),
+  gene_symbol = names(best_solution$colors),
+  ahba_module = as.character(best_solution$colors),
   stringsAsFactors = FALSE
 )
 write.csv(modules, file.path(out_dir, "ahba_gene_to_module_assignments.csv"), row.names = FALSE)
@@ -206,15 +391,14 @@ names(module_sizes) <- c("ahba_module", "n_genes")
 module_sizes <- module_sizes[order(module_sizes$n_genes, decreasing = TRUE), ]
 write.csv(module_sizes, file.path(out_dir, "ahba_module_size_table.csv"), row.names = FALSE)
 
-eigengenes <- as.data.frame(net$MEs)
+final_mEs <- moduleEigengenes(datExpr, best_solution$colors)$eigengenes
+eigengenes <- as.data.frame(final_mEs)
 eigengenes$ahba_sample_id <- rownames(eigengenes)
 write.csv(eigengenes, file.path(out_dir, "ahba_module_eigengenes.csv"), row.names = FALSE)
 
-params$method <- "WGCNA::blockwiseModules"
-params$soft_power <- soft_power
-params$soft_threshold_status <- soft_threshold_status
-params$selected_power_fit_table <- file.path(out_dir, "ahba_wgcna_soft_threshold_fit.csv")
-write.csv(fit, params$selected_power_fit_table, row.names = FALSE)
+params$selected_solution <- best_solution$params
+params$selection_status <- "usable_multi_module_solution_selected"
+params$ml_prioritized_tier2_overlap_genes <- best_solution$ml_prioritized_tier2_overlap_genes
 write_params(params, file.path(out_dir, "module_parameters.json"))
 
 report <- c(
@@ -228,10 +412,14 @@ report <- c(
   paste("- MDD tested-gene source:", mdd_tested_source),
   paste("- Maximum genes for WGCNA:", max_genes_for_wgcna),
   paste("- Gene-selection audit:", params$gene_selection_audit),
-  paste("- Soft threshold power:", soft_power),
-  "- Network type: signed",
-  "- Minimum module size: 30",
-  "- Merge cut height: 0.25",
-  paste("- Modules:", length(unique(modules$ahba_module)))
+  paste("- Parameter sensitivity table:", sensitivity_path),
+  paste("- Selected soft power:", best_solution$params$soft_power),
+  paste("- Selected deepSplit:", best_solution$params$deepSplit),
+  paste("- Selected minimum module size:", best_solution$params$minModuleSize),
+  paste("- Selected merge cut height:", best_solution$params$mergeCutHeight),
+  paste("- Non-grey modules:", best_solution$summary$n_modules_excluding_grey),
+  paste("- Grey/unassigned genes:", best_solution$summary$grey_genes),
+  paste("- Largest module size:", best_solution$summary$largest_module_size),
+  paste("- ML-prioritized Tier 2 genes overlapping module background:", best_solution$ml_prioritized_tier2_overlap_genes)
 )
 writeLines(report, file.path(out_dir, "AHBA_module_construction_summary.md"))
