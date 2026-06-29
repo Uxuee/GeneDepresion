@@ -7,6 +7,12 @@
 outputs/
 Step1_GeTMM_log2_outputs/
 
+# AHBA raw downloads can be large; keep processed summaries/scripts in git instead.
+data/ahba/*
+!data/ahba/README.md
+!data/ahba/.gitkeep
+outputs/length_gt_100_clean_pipeline/ahba_modules/raw_downloads/
+
 # R session files
 .Rhistory
 .RData
