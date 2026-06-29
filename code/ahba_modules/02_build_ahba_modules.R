@@ -158,12 +158,29 @@ if (!requireNamespace("WGCNA", quietly = TRUE)) {
 
 suppressPackageStartupMessages(library(WGCNA))
 allowWGCNAThreads()
+not_installed_marker <- file.path(out_dir, "WGCNA_NOT_INSTALLED.txt")
+if (file.exists(not_installed_marker)) {
+  file.remove(not_installed_marker)
+}
 
 powers <- c(1:10, seq(12, 20, by = 2))
-sft <- pickSoftThreshold(datExpr, powerVector = powers, verbose = 0)
-fit <- sft$fitIndices
-candidate <- fit$Power[which(fit$SFT.R.sq >= 0.80)[1]]
-soft_power <- ifelse(is.na(candidate), 6, candidate)
+soft_threshold_status <- "pickSoftThreshold_completed"
+sft <- tryCatch(
+  pickSoftThreshold(datExpr, powerVector = powers, verbose = 0),
+  error = function(e) {
+    soft_threshold_status <<- paste("pickSoftThreshold_failed_using_default_power_6:", conditionMessage(e))
+    message(soft_threshold_status)
+    NULL
+  }
+)
+if (is.null(sft)) {
+  fit <- data.frame()
+  soft_power <- 6
+} else {
+  fit <- sft$fitIndices
+  candidate <- fit$Power[which(fit$SFT.R.sq >= 0.80)[1]]
+  soft_power <- ifelse(is.na(candidate), 6, candidate)
+}
 
 net <- blockwiseModules(
   datExpr,
@@ -195,6 +212,7 @@ write.csv(eigengenes, file.path(out_dir, "ahba_module_eigengenes.csv"), row.name
 
 params$method <- "WGCNA::blockwiseModules"
 params$soft_power <- soft_power
+params$soft_threshold_status <- soft_threshold_status
 params$selected_power_fit_table <- file.path(out_dir, "ahba_wgcna_soft_threshold_fit.csv")
 write.csv(fit, params$selected_power_fit_table, row.names = FALSE)
 write_params(params, file.path(out_dir, "module_parameters.json"))

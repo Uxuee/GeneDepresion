@@ -1,4 +1,4 @@
 "step","n_genes","details"
 "post_missingness_and_variance_filter",29130,"AHBA genes with no missing values and nonzero variance"
 "restricted_to_mdd_tested_ahba_genes",14254,"Kept 14254 of 29130 AHBA genes using D:\genes\GeneDepresion/outputs/length_gt_100_clean_pipeline/03_broad_region_LMM/LMM_all_genes_length_gt_100.csv"
-"restricted_to_top_variable_genes",10000,"Kept top 10000 variable genes from 14254 MDD-tested AHBA genes"
+"restricted_to_top_variable_genes",5000,"Kept top 5000 variable genes from 14254 MDD-tested AHBA genes"
