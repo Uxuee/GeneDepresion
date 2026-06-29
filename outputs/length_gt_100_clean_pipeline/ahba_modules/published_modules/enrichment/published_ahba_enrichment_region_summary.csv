@@ -1,0 +1,7 @@
+region,best_module_hit,best_candidate_set,best_direction,best_raw_p_value,best_BH_FDR,best_overlap_count,best_candidate_genes_tested,best_module_size,evidence_call,overlapping_gene_symbols
+Ventral Striatum,M26,all_Tier2,up_in_MDD,5.196072408682109e-06,0.0001662743170778,9,30,554,FDR < 0.05,C4ORF47;CDNF;FBXL13;MORN5;MYCBPAP;RPGR;TNFRSF10B;TSGA10;TTC23L
+Insula,M10,all_Tier2,up_in_MDD,0.0091030063382508,0.2912962028240273,2,13,136,nominal only,DCLK3;MYB
+Hippocampal Formation,M7,all_Tier2,down_in_MDD,0.0025505636670527,0.0518940199293012,3,24,139,FDR < 0.10,DUSP14;PRMT7;PRR7
+Cingulate gyrus 25,M2,all_Tier2,down_in_MDD,0.0004053015960978,0.0129696510751309,4,27,159,FDR < 0.05,DUSP4;NR4A3;PTPRE;TG
+dlPFC BA8/9,M27,all_Tier2,all_directions,0.019162786291785,0.6132091613371214,4,18,713,nominal only,BACE2;CCL3L3;PRR13;SLC38A11
+OFC BA11,M28,all_Tier2,down_in_MDD,0.0056230022553014,0.179936072169646,3,9,523,nominal only,ETV3;FAM43B;NOL6

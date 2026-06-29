@@ -164,6 +164,35 @@ All-region candidate overlaps with that background were:
 
 The published-module enrichment produced 41 nominal rows with p < 0.05, 6 rows with BH-FDR < 0.10, and 3 rows with BH-FDR < 0.05. These are healthy-brain module-context findings, not disease-biomarker validation.
 
+
+
+## Published AHBA Enrichment Interpretation By Region
+
+The report-ready enrichment tables are stored in:
+
+```text
+outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/enrichment/
+```
+
+Main corrected result: Ventral Striatum up-in-MDD all Tier 2 genes were enriched in published AHBA module M26 (9 overlapping genes; raw p = 5.2e-06; BH-FDR = 0.000166). Additional BH-FDR < 0.05 results were Cingulate gyrus 25 down-in-MDD all Tier 2 genes in M2 and Ventral Striatum down-in-MDD all Tier 2 genes in M6.
+
+Suggestive BH-FDR < 0.10 results included Hippocampal Formation down-in-MDD all Tier 2 genes in M7 and M28, plus high + moderate Ventral Striatum up-in-MDD genes in M26.
+
+Nominal-only patterns were present in several additional region/module combinations, including OFC BA11, Insula, Cingulate gyrus 25, Hippocampal Formation, and Ventral Striatum. Nominal results are reported as exploratory patterns and should not be interpreted as corrected discoveries.
+
+Region-level calls from the best region-specific hit were:
+
+| region                | best_module_hit   | best_candidate_set   | best_direction   |   best_raw_p_value |   best_BH_FDR | evidence_call   |
+|:----------------------|:------------------|:---------------------|:-----------------|-------------------:|--------------:|:----------------|
+| Ventral Striatum      | M26               | all_Tier2            | up_in_MDD        |        5.19607e-06 |   0.000166274 | FDR < 0.05      |
+| Insula                | M10               | all_Tier2            | up_in_MDD        |        0.00910301  |   0.291296    | nominal only    |
+| Hippocampal Formation | M7                | all_Tier2            | down_in_MDD      |        0.00255056  |   0.051894    | FDR < 0.10      |
+| Cingulate gyrus 25    | M2                | all_Tier2            | down_in_MDD      |        0.000405302 |   0.0129697   | FDR < 0.05      |
+| dlPFC BA8/9           | M27               | all_Tier2            | all_directions   |        0.0191628   |   0.613209    | nominal only    |
+| OFC BA11              | M28               | all_Tier2            | down_in_MDD      |        0.005623    |   0.179936    | nominal only    |
+
+The corrected findings are driven mainly by all Tier 2 direction-specific gene sets. The high + moderate ML-prioritized branch contributes one suggestive corrected result, and the high-confidence-only set does not show corrected enrichment in this AHBA module run.
+
 ## Main Results
 
 Results are produced only after AHBA raw data have been downloaded or placed
