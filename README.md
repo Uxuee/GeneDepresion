@@ -1,5 +1,9 @@
 # GeneDepresion
 
+**Current main report:** [Length > 100 clean MDD transcriptomics workflow](docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md)
+
+**Report-ready images:** [outputs/length_gt_100_clean_pipeline/images/](outputs/length_gt_100_clean_pipeline/images/)
+
 RNA-seq preprocessing and normalization workflow for GSE102556.
 
 The current Step 1 script prepares region-specific expression matrices using one normalization path:
@@ -15,10 +19,10 @@ The current report-ready workflow is the clean `Length > 100` MDD transcriptomic
 
 Start here:
 
-- `docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md` - main clean workflow report.
-- `outputs/length_gt_100_clean_pipeline/images/` - report-ready figures collected from Tier 2, enrichment, and ML-prioritization steps.
-- `outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/` - final high-confidence and moderate-confidence ML-prioritized Tier 2 gene tables.
-- `docs/ahba_modules/AHBA_gene_module_analysis_report.md` - AHBA healthy-brain coexpression module contextualization plan/stage.
+- [Main clean workflow report](docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md) - Length > 100 Tier 2, enrichment, ML-prioritized genes, and report figures.
+- [Report-ready image folder](outputs/length_gt_100_clean_pipeline/images/) - figures collected from Tier 2, enrichment, and ML-prioritization steps.
+- [Final ML-prioritized Tier 2 tables](outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/) - high-confidence and moderate-confidence candidate gene tables.
+- [AHBA module analysis report](docs/ahba_modules/AHBA_gene_module_analysis_report.md) - healthy-brain coexpression contextualization plan/stage.
 
 Important interpretation: Tier 2 and ML-prioritized genes are exploratory candidate signatures, not final FDR-significant disease biomarkers. ML v1 is used for internal prioritization and feature stability, not validated diagnostic classification.
 
@@ -398,3 +402,4 @@ Output folders are organized by file type:
 ```
 
 Large input data and generated CSV outputs are intentionally ignored by Git.
+
