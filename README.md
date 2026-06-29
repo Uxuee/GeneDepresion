@@ -8,6 +8,20 @@ The current Step 1 script prepares region-specific expression matrices using one
 filtered raw counts -> GeTMM -> log2(GeTMM + 1)
 ```
 
+
+## Current Clean Length > 100 Analysis
+
+The current report-ready workflow is the clean `Length > 100` MDD transcriptomics path. It preserves the exploratory interpretation of Tier 2 genes and organizes the analysis from normalization through LMM-derived candidate genes, enrichment, ML-prioritized Tier 2 genes, review figures, and AHBA contextualization.
+
+Start here:
+
+- `docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md` - main clean workflow report.
+- `outputs/length_gt_100_clean_pipeline/images/` - report-ready figures collected from Tier 2, enrichment, and ML-prioritization steps.
+- `outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/` - final high-confidence and moderate-confidence ML-prioritized Tier 2 gene tables.
+- `docs/ahba_modules/AHBA_gene_module_analysis_report.md` - AHBA healthy-brain coexpression module contextualization plan/stage.
+
+Important interpretation: Tier 2 and ML-prioritized genes are exploratory candidate signatures, not final FDR-significant disease biomarkers. ML v1 is used for internal prioritization and feature stability, not validated diagnostic classification.
+
 ## Main Scripts
 
 - `run_step1.R` - easiest entry point; runs the current recommended Step 1 workflow.
