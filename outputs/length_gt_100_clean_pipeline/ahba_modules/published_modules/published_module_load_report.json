@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-06-30T02:11:06",
+  "source_reference": "Hawrylycz et al. 2015, Canonical genetic signatures of the adult human brain, Supplementary Table 6",
+  "input_files": [
+    "D:\\genes\\GeneDepresion\\data\\ahba\\published_modules\\Hawrylycz_2015_Supplementary_Table_6.csv"
+  ],
+  "standardized_table": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\ahba_modules\\published_modules\\ahba_published_gene_to_module_assignments.csv",
+  "rows": 15627,
+  "unique_gene_symbols": 15627,
+  "modules": 32,
+  "module_size_table": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\ahba_modules\\published_modules\\ahba_published_module_size_table.csv",
+  "inspected_tables": [
+    {
+      "file": "D:\\genes\\GeneDepresion\\data\\ahba\\published_modules\\Hawrylycz_2015_Supplementary_Table_6.csv",
+      "source_table": "Hawrylycz_2015_Supplementary_Table_6.csv",
+      "rows": 15627,
+      "columns": [
+        "Probe",
+        "Gene",
+        "Module Color (WGCNA)",
+        "Module Label",
+        "Module Color (Neuron)",
+        "ME correlation",
+        "Pearson DS",
+        "Initial Module Assignment"
+      ],
+      "status": "matched"
+    }
+  ]
+}

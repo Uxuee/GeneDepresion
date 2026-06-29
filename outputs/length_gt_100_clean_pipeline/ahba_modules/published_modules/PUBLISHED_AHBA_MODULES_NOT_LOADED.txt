@@ -1,9 +1,0 @@
-Published AHBA canonical module assignments were not standardized yet.
-
-Reason: No local Supplementary Table 6 file was found and AHBA_PUBLISHED_MODULE_URL was not set.
-
-Manual fallback:
-1. Download Hawrylycz et al. 2015 Supplementary Table 6.
-2. Place the CSV/XLSX/TSV file in: D:\genes\GeneDepresion\data\ahba\published_modules
-3. Run: python code/ahba_modules/04_fetch_or_load_published_ahba_modules.py
-4. Run: python code/ahba_modules/05_test_published_ahba_module_enrichment.py

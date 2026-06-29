@@ -148,6 +148,22 @@ genes present in both the MDD tested-gene universe and the processed AHBA module
 
 BH-FDR correction is applied within each candidate-set/scope family.
 
+
+
+## Published Module Enrichment Run
+
+Hawrylycz et al. 2015 Supplementary Table 6 was loaded from the official Springer/Nature supplementary CSV. The standardized table contains 15,627 unique genes across 32 published modules. The enrichment background contains 12,042 genes, defined as the intersection of the clean MDD tested-gene universe and the published AHBA module-assignment universe.
+
+All-region candidate overlaps with that background were:
+
+| candidate_set      |   original_gene_region_pair_count |   unique_gene_count |   unique_genes_overlapping_published_AHBA_background |   modules_tested |
+|:-------------------|----------------------------------:|--------------------:|-----------------------------------------------------:|-----------------:|
+| all_Tier2          |                               671 |                 640 |                                                  276 |               32 |
+| high_confidence    |                                35 |                  35 |                                                   12 |               32 |
+| high_plus_moderate |                               165 |                 154 |                                                   56 |               32 |
+
+The published-module enrichment produced 41 nominal rows with p < 0.05, 6 rows with BH-FDR < 0.10, and 3 rows with BH-FDR < 0.05. These are healthy-brain module-context findings, not disease-biomarker validation.
+
 ## Main Results
 
 Results are produced only after AHBA raw data have been downloaded or placed

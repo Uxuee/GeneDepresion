@@ -25,3 +25,10 @@ python code/ahba_modules/05_test_published_ahba_module_enrichment.py
 ```
 
 Raw downloaded AHBA data and supplementary module tables are not committed to git. This README is the only file in this folder intended for version control.
+
+
+Official Supplementary Table 6 CSV URL used by the loader:
+
+```text
+https://static-content.springer.com/esm/art%3A10.1038%2Fnn.4171/MediaObjects/41593_2015_BFnn4171_MOESM97_ESM.csv
+```

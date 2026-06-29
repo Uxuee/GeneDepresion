@@ -26,16 +26,19 @@ MANUAL_DIR = PROJECT_ROOT / "data" / "ahba" / "published_modules"
 OUT_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_clean_pipeline" / "ahba_modules" / "published_modules"
 OUT_TABLE = OUT_DIR / "ahba_published_gene_to_module_assignments.csv"
 SOURCE_REFERENCE = "Hawrylycz et al. 2015, Canonical genetic signatures of the adult human brain, Supplementary Table 6"
+DEFAULT_DOWNLOAD_URLS = [
+    "https://static-content.springer.com/esm/art%3A10.1038%2Fnn.4171/MediaObjects/41593_2015_BFnn4171_MOESM97_ESM.csv",
+]
 
 GENE_COLUMN_CANDIDATES = [
     "gene_symbol", "gene symbol", "genesymbol", "symbol", "gene", "gene_name", "gene name", "hgnc_symbol"
 ]
 MODULE_COLUMN_CANDIDATES = [
-    "published_module", "module", "module assignment", "module_assignment", "consensus module",
-    "consensus_module", "module color", "module_color", "module label", "module_label",
-    "signature", "signature module", "eigengene module"
+    "published_module", "module label", "module_label", "module", "module assignment", "module_assignment",
+    "consensus module", "consensus_module", "signature", "signature module", "eigengene module",
+    "module color", "module_color"
 ]
-LABEL_COLUMN_CANDIDATES = ["module_label", "module label", "label", "module name", "module_name", "description"]
+LABEL_COLUMN_CANDIDATES = ["module_label", "module label", "module color", "module_color", "label", "module name", "module_name", "description"]
 
 
 def clean_name(value: object) -> str:
@@ -120,18 +123,28 @@ def candidate_input_files(explicit: str | None) -> list[Path]:
     return [p for p in files if p.name.lower() != "readme.md"]
 
 
-def maybe_download_from_env() -> Path | None:
-    url = os.environ.get("AHBA_PUBLISHED_MODULE_URL", "").strip()
-    if not url:
-        return None
+def maybe_download_module_table() -> Path | None:
+    urls = []
+    env_url = os.environ.get("AHBA_PUBLISHED_MODULE_URL", "").strip()
+    if env_url:
+        urls.append(env_url)
+    urls.extend(DEFAULT_DOWNLOAD_URLS)
+
     MANUAL_DIR.mkdir(parents=True, exist_ok=True)
-    filename = url.split("/")[-1] or "Hawrylycz_2015_Supplementary_Table_6"
-    target = MANUAL_DIR / filename
-    if target.exists():
-        return target
-    print(f"Attempting download from AHBA_PUBLISHED_MODULE_URL: {url}")
-    urllib.request.urlretrieve(url, target)
-    return target
+    for url in urls:
+        filename = url.split("/")[-1] or "Hawrylycz_2015_Supplementary_Table_6.csv"
+        if "MOESM97" in filename:
+            filename = "Hawrylycz_2015_Supplementary_Table_6.csv"
+        target = MANUAL_DIR / filename
+        if target.exists():
+            return target
+        try:
+            print(f"Attempting download of published AHBA module table: {url}")
+            urllib.request.urlretrieve(url, target)
+            return target
+        except Exception as exc:  # noqa: BLE001 - keep fallback graceful for publisher/network issues.
+            print(f"Download failed for {url}: {exc}")
+    return None
 
 
 def write_manual_notice(reason: str) -> None:
@@ -160,10 +173,10 @@ def main() -> None:
 
     files = candidate_input_files(args.input)
     if not files:
-        downloaded = maybe_download_from_env()
+        downloaded = maybe_download_module_table()
         files = [downloaded] if downloaded else []
     if not files:
-        write_manual_notice("No local Supplementary Table 6 file was found and AHBA_PUBLISHED_MODULE_URL was not set.")
+        write_manual_notice("No local Supplementary Table 6 file was found and automatic download did not succeed.")
         return
 
     standardized_parts: list[pd.DataFrame] = []
