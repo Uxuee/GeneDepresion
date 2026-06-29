@@ -34,8 +34,20 @@ if (!file.exists(expr_path)) {
   stop(msg)
 }
 
-expr <- read.csv(expr_path, row.names = 1, check.names = FALSE)
-expr <- as.matrix(expr)
+expr_df <- read.csv(expr_path, check.names = FALSE)
+gene_symbols_raw <- expr_df[[1]]
+keep_gene_symbols <- !is.na(gene_symbols_raw) & trimws(as.character(gene_symbols_raw)) != ""
+removed_blank_gene_symbols <- sum(!keep_gene_symbols)
+message("Removed blank/NA gene-symbol rows: ", removed_blank_gene_symbols)
+
+expr_df <- expr_df[keep_gene_symbols, , drop = FALSE]
+gene_symbols <- trimws(as.character(expr_df[[1]]))
+if (anyDuplicated(gene_symbols) > 0) {
+  stop("Duplicated gene symbols found after filtering blank rows. Please fix preprocessing before WGCNA.")
+}
+
+rownames(expr_df) <- gene_symbols
+expr <- as.matrix(expr_df[, -1, drop = FALSE])
 mode(expr) <- "numeric"
 
 # WGCNA expects samples x genes.

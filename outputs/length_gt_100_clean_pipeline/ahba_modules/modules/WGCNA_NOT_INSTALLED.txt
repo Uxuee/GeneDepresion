@@ -1,0 +1,1 @@
+WGCNA is not installed. Install it with BiocManager::install('WGCNA') and rerun. No fallback modules were generated to avoid changing the intended method.

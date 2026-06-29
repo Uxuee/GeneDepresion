@@ -1,0 +1,13 @@
+{
+  "input_matrix": "D:\\genes\\GeneDepresion/outputs/length_gt_100_clean_pipeline/ahba_modules/processed/ahba_gene_expression_matrix_gene_by_sample.csv",
+  "n_samples": 3708,
+  "n_genes": 10000,
+  "method": null,
+  "soft_power": null,
+  "min_module_size": 30,
+  "merge_cut_height": 0.25,
+  "restrict_to_mdd_tested_genes": true,
+  "mdd_tested_gene_source": "D:\\genes\\GeneDepresion/outputs/length_gt_100_clean_pipeline/03_broad_region_LMM/LMM_all_genes_length_gt_100.csv",
+  "max_genes_for_wgcna": 10000,
+  "gene_selection_audit": "D:\\genes\\GeneDepresion/outputs/length_gt_100_clean_pipeline/ahba_modules/modules/ahba_wgcna_gene_selection_audit.csv"
+}
