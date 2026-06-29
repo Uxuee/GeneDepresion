@@ -1,6 +1,6 @@
 # GeneDepresion
 
-**Current main report:** [Length > 100 clean MDD transcriptomics workflow](docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md)
+**Current main report:** [Step-by-step Length > 100 MDD transcriptomics report](docs/Step_by_step_MDD_Length_gt_100_clean_report.md)
 
 **Report-ready images:** [outputs/length_gt_100_clean_pipeline/images/](outputs/length_gt_100_clean_pipeline/images/)
 
@@ -19,7 +19,8 @@ The current report-ready workflow is the clean `Length > 100` MDD transcriptomic
 
 Start here:
 
-- [Main clean workflow report](docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md) - Length > 100 Tier 2, enrichment, ML-prioritized genes, and report figures.
+- [Step-by-step main report](docs/Step_by_step_MDD_Length_gt_100_clean_report.md) - narrative report from LMM/statistical evidence to Tier 2, enrichment, ML-prioritized genes, figures, interpretation, and next steps.
+- [Technical clean workflow report](docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md) - detailed pipeline/archive-style report.
 - [Report-ready image folder](outputs/length_gt_100_clean_pipeline/images/) - figures collected from Tier 2, enrichment, and ML-prioritization steps.
 - [Final ML-prioritized Tier 2 tables](outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/) - high-confidence and moderate-confidence candidate gene tables.
 - [AHBA module analysis report](docs/ahba_modules/AHBA_gene_module_analysis_report.md) - healthy-brain coexpression contextualization plan/stage.
