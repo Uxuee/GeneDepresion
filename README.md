@@ -1,8 +1,25 @@
 # GeneDepresion
 
-**Current main report:** [Step-by-step Length > 100 MDD transcriptomics report](docs/Step_by_step_MDD_Length_gt_100_clean_report.md)
+## READ THIS FIRST: Current Clean MDD Report
 
-**Report-ready images:** [outputs/length_gt_100_clean_pipeline/images/](outputs/length_gt_100_clean_pipeline/images/)
+The main report for the current Length > 100 MDD transcriptomics workflow is here:
+
+[**Open the step-by-step Length > 100 MDD transcriptomics report**](docs/Step_by_step_MDD_Length_gt_100_clean_report.md)
+
+This is the report-style version with the analysis story, formulas, tables, figures, interpretation, limitations, and next steps. It is the best starting point for reading the project.
+
+| Start here | Link |
+| --- | --- |
+| Main step-by-step report | [docs/Step_by_step_MDD_Length_gt_100_clean_report.md](docs/Step_by_step_MDD_Length_gt_100_clean_report.md) |
+| Report-ready figures | [outputs/length_gt_100_clean_pipeline/images/](outputs/length_gt_100_clean_pipeline/images/) |
+| Final ML-prioritized Tier 2 results | [outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/](outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/) |
+| Technical workflow report | [docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md](docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md) |
+
+Important interpretation: Tier 2 and ML-prioritized genes are exploratory candidate signatures, not final FDR-significant disease biomarkers. ML v1 is used for internal gene prioritization and feature stability, not validated diagnostic classification.
+
+---
+
+## Older Baseline Workflow Notes
 
 RNA-seq preprocessing and normalization workflow for GSE102556.
 
