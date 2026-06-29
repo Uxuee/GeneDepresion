@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-06-30T03:36:41",
+  "n_repeats": 20,
+  "regions": [
+    "Frontal_Cortex",
+    "Hippocampal_Formation",
+    "Insula",
+    "Ventral_Striatum"
+  ],
+  "feature_sets": {
+    "all32_predefined_modules": [
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "M6",
+      "M7",
+      "M8",
+      "M9",
+      "M10",
+      "M11",
+      "M12",
+      "M13",
+      "M14",
+      "M15",
+      "M16",
+      "M17",
+      "M18",
+      "M19",
+      "M20",
+      "M21",
+      "M22",
+      "M23",
+      "M24",
+      "M25",
+      "M26",
+      "M27",
+      "M28",
+      "M29",
+      "M30",
+      "M31",
+      "M32"
+    ],
+    "post_enrichment_FDR005_modules_sensitivity": [
+      "M2",
+      "M26",
+      "M6"
+    ],
+    "post_enrichment_FDR010_modules_sensitivity": [
+      "M2",
+      "M26",
+      "M28",
+      "M6",
+      "M7"
+    ],
+    "post_enrichment_M26_only_sensitivity": [
+      "M26"
+    ]
+  },
+  "main_feature_set": "all32_predefined_modules",
+  "output_dir": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\ahba_modules\\module_score_ml",
+  "interpretation": "Exploratory module-level ML, not validated diagnostic prediction."
+}

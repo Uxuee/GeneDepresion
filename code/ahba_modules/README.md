@@ -60,3 +60,15 @@ python code/ahba_modules/05_test_published_ahba_module_enrichment.py
 ```
 
 The published-module enrichment step deduplicates gene-region pairs to unique gene symbols within each candidate set. Its background is the intersection of the clean MDD tested-gene universe and genes present in the published AHBA module assignment table.
+
+
+## Module Annotation And Module-Score ML
+
+After published-module enrichment has run, annotate the relevant AHBA modules and run exploratory module-score ML:
+
+```bash
+python code/ahba_modules/07_annotate_published_ahba_modules.py
+python code/ahba_modules/06_run_published_ahba_module_score_ml.py
+```
+
+The module-score ML uses all 32 published AHBA modules as the main predefined biological feature set. Gene z-scoring is fit inside each CV training fold and applied to held-out samples to avoid scaling leakage. Post-enrichment module subsets are written only as exploratory sensitivity analyses.
