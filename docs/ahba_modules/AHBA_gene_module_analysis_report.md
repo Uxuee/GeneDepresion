@@ -212,6 +212,35 @@ Planned figures:
 
 
 
+
+
+## AHBA Enrichment Evidence Across Gene-Set Levels
+
+AHBA module enrichment was strongest for broader all-Tier-2 direction-specific candidate sets. The high + moderate ML-prioritized set showed suggestive enrichment for the same Ventral Striatum up-in-MDD M26 module, while the high-confidence-only shortlist did not show corrected enrichment. This suggests that the AHBA module signal reflects a broader coordinated MDD-associated signature, with partial support from the ML-prioritized candidate layer.
+
+Report figures:
+
+```text
+outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/figures/ahba_enrichment_evidence_ladder_by_gene_set.png
+outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/figures/ahba_M26_evidence_across_gene_sets.png
+```
+
+Plot data:
+
+```text
+outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/enrichment/ahba_enrichment_evidence_ladder_plot_data.csv
+```
+
+Evidence ladder values:
+
+| gene_set_level          | best_AHBA_module   | region           | direction      |   best_raw_p_value |   best_BH_FDR | evidence_category       |
+|:------------------------|:-------------------|:-----------------|:---------------|-------------------:|--------------:|:------------------------|
+| High-confidence ML only | M19                | all_regions      | all_directions |        0.0548849   |   1           | no corrected enrichment |
+| High + moderate ML      | M26                | Ventral Striatum | up_in_MDD      |        0.00294979  |   0.0943933   | suggestive FDR < 0.10   |
+| All Tier 2              | M26                | Ventral Striatum | up_in_MDD      |        5.19607e-06 |   0.000166274 | strong FDR < 0.05       |
+
+Nominal or uncorrected rows remain exploratory and should not be interpreted as corrected discoveries.
+
 ## AHBA Module Annotations
 
 Hawrylycz et al. 2015 Supplementary Table 8 / MOESM99 was loaded from the official Springer supplementary material source and used to annotate modules appearing in corrected, suggestive, and top nominal enrichment rows. The full annotation outputs are stored in:
