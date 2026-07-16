@@ -11,6 +11,8 @@ This is the report-style version with the analysis story, formulas, tables, figu
 | Start here | Link |
 | --- | --- |
 | Main step-by-step report | [docs/Step_by_step_MDD_Length_gt_100_clean_report.md](docs/Step_by_step_MDD_Length_gt_100_clean_report.md) |
+| Clear workflow report | [docs/Main_Workflow_Length_gt_100_Report.md](docs/Main_Workflow_Length_gt_100_Report.md) |
+| Clear workflow notebook | [outputs/length_gt_100_clean_pipeline/notebooks/01_clear_length_gt_100_workflow_notebook.md](outputs/length_gt_100_clean_pipeline/notebooks/01_clear_length_gt_100_workflow_notebook.md) |
 | Report-ready figures | [outputs/length_gt_100_clean_pipeline/images/](outputs/length_gt_100_clean_pipeline/images/) |
 | Final ML-prioritized Tier 2 results | [outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/](outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/) |
 | Technical workflow report | [docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md](docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md) |
@@ -37,6 +39,8 @@ The current report-ready workflow is the clean `Length > 100` MDD transcriptomic
 Start here:
 
 - [Step-by-step main report](docs/Step_by_step_MDD_Length_gt_100_clean_report.md) - narrative report from LMM/statistical evidence to Tier 2, enrichment, ML-prioritized genes, figures, interpretation, and next steps.
+- [Clear workflow report](docs/Main_Workflow_Length_gt_100_Report.md) - compact map of the current clean workflow, inputs, methods, result counts, and output locations.
+- [Clear workflow notebook](outputs/length_gt_100_clean_pipeline/notebooks/01_clear_length_gt_100_workflow_notebook.md) - notebook-style walkthrough of the same workflow inside the output folder.
 - [Technical clean workflow report](docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md) - detailed pipeline/archive-style report.
 - [Report-ready image folder](outputs/length_gt_100_clean_pipeline/images/) - figures collected from Tier 2, enrichment, and ML-prioritization steps.
 - [Final ML-prioritized Tier 2 tables](outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/) - high-confidence and moderate-confidence candidate gene tables.
