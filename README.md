@@ -15,6 +15,7 @@ This is the report-style version with the analysis story, formulas, tables, figu
 | Clear workflow notebook | [outputs/length_gt_100_clean_pipeline/notebooks/01_clear_length_gt_100_workflow_notebook.md](outputs/length_gt_100_clean_pipeline/notebooks/01_clear_length_gt_100_workflow_notebook.md) |
 | Report-ready figures | [outputs/length_gt_100_clean_pipeline/images/](outputs/length_gt_100_clean_pipeline/images/) |
 | Final ML-prioritized Tier 2 results | [outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/](outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/) |
+| Current AHBA module enrichment | [docs/ahba_modules/AHBA_gene_module_analysis_report.md](docs/ahba_modules/AHBA_gene_module_analysis_report.md) |
 | Technical workflow report | [docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md](docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md) |
 
 Important interpretation: Tier 2 and ML-prioritized genes are exploratory candidate signatures, not final FDR-significant disease biomarkers. ML v1 is used for internal gene prioritization and feature stability, not validated diagnostic classification.
@@ -44,9 +45,42 @@ Start here:
 - [Technical clean workflow report](docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md) - detailed pipeline/archive-style report.
 - [Report-ready image folder](outputs/length_gt_100_clean_pipeline/images/) - figures collected from Tier 2, enrichment, and ML-prioritization steps.
 - [Final ML-prioritized Tier 2 tables](outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/) - high-confidence and moderate-confidence candidate gene tables.
-- [AHBA module analysis report](docs/ahba_modules/AHBA_gene_module_analysis_report.md) - healthy-brain coexpression contextualization plan/stage.
+- [AHBA module analysis report](docs/ahba_modules/AHBA_gene_module_analysis_report.md) - current healthy-brain published-module enrichment results for MDD candidate genes.
 
 Important interpretation: Tier 2 and ML-prioritized genes are exploratory candidate signatures, not final FDR-significant disease biomarkers. ML v1 is used for internal prioritization and feature stability, not validated diagnostic classification.
+
+## Current AHBA Module Enrichment Status
+
+AHBA module enrichment is now part of the current clean `Length > 100` workflow as a healthy-brain coexpression context step. It tests whether MDD Tier 2 / ML-prioritized candidate genes overlap published adult human brain canonical coexpression modules from Hawrylycz et al. 2015.
+
+Important method note: de novo AHBA WGCNA was attempted first, but the parameter-sensitivity run collapsed into one very large module, so it was not used for biological interpretation. The current reported AHBA enrichment uses the published canonical AHBA modules instead.
+
+Main AHBA locations:
+
+- Report: [docs/ahba_modules/AHBA_gene_module_analysis_report.md](docs/ahba_modules/AHBA_gene_module_analysis_report.md)
+- Output folder: [outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/](outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/)
+- Enrichment results: [outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/enrichment/published_ahba_module_enrichment_results.csv](outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/enrichment/published_ahba_module_enrichment_results.csv)
+- Region summary: [outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/enrichment/published_ahba_enrichment_region_summary.csv](outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/enrichment/published_ahba_enrichment_region_summary.csv)
+- Figures: [outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/figures/](outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/figures/)
+
+Current published-module run:
+
+- Published AHBA table: 15,627 unique genes across 32 modules.
+- Enrichment background: 12,042 genes shared between the clean MDD tested-gene universe and the published AHBA module table.
+- Candidate sets tested: high-confidence ML only, high + moderate ML, all Tier 2, region-specific sets, and direction-specific sets.
+
+Main corrected AHBA enrichment signals:
+
+| Candidate set | Region | Direction | AHBA module | Overlap | BH-FDR | Interpretation |
+| --- | --- | --- | --- | ---: | ---: | --- |
+| all Tier 2 | Ventral Striatum | up in MDD | M26 | 9 | 0.000166 | strongest corrected AHBA signal |
+| all Tier 2 | Cingulate gyrus 25 | down in MDD | M2 | 4 | 0.012970 | corrected AHBA signal |
+| all Tier 2 | Ventral Striatum | down in MDD | M6 | 8 | 0.019053 | corrected AHBA signal |
+| all Tier 2 | Hippocampal Formation | down in MDD | M7 | 3 | 0.051894 | suggestive, FDR < 0.10 |
+| all Tier 2 | Hippocampal Formation | down in MDD | M28 | 5 | 0.051894 | suggestive, FDR < 0.10 |
+| high + moderate ML | Ventral Striatum | up in MDD | M26 | 3 | 0.094393 | suggestive ML-prioritized support |
+
+Conservative interpretation: AHBA enrichment gives healthy-brain module context for the MDD candidate genes. It does not validate the genes as MDD biomarkers, and it should be reported as coexpression-context support rather than disease-specific proof.
 
 ## Main Scripts
 
