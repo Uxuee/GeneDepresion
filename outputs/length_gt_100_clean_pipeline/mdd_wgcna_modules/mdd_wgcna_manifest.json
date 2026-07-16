@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-07-16 19:15:37 KST",
+  "project_root": "D:/genes/GeneDepresion",
+  "inputs": {
+    "metadata_file": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/01_inputs/sample_metadata_used.csv",
+    "expression_files": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/02_normalized_expression/normalized_GeTMM_log2_frontal_cortex.csv",
+    "tier2_file": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/07_Tier2_candidate_gene_sets/Tier2_candidate_genes_all_regions.csv",
+    "ml_file": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/final_ranked_ML_prioritized_Tier2_genes.csv",
+    "ahba_file": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/ahba_published_gene_to_module_assignments.csv",
+    "gene_annotation_folder": "D:/genes/genedata/Step1_GSE102556_GeTMM_brain_area_groups/05_gene_annotation/keep_all_samples"
+  },
+  "outputs": ["D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/mdd_wgcna_parameter_sensitivity.csv", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/best_solution_gene_to_module_assignments.csv", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/best_solution_module_size_table.csv", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/best_solution_module_eigengenes.csv", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/best_solution_sample_metadata_used.csv", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/module_trait_association_results.csv", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/module_enrichment_for_Tier2_and_ML_genes.csv", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/mdd_modules_vs_published_AHBA_modules_enrichment.csv", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/module_hub_genes_top50.csv", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/MDD_WGCNA_Module_Report.md", "D:/genes/GeneDepresion/docs/MDD_WGCNA_Module_Report.md", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/plots/Frontal_Cortex_unadjusted_sample_clustering_dendrogram.png", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/plots/Frontal_Cortex_unadjusted_logGeTMM_top_5000_MAD_soft_threshold_diagnostic.png", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/plots/Frontal_Cortex_best_solution_module_dendrogram_colors.png", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/plots/Frontal_Cortex_best_solution_module_size_barplot.png", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/plots/Frontal_Cortex_best_solution_module_trait_heatmap.png", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/plots/Frontal_Cortex_best_solution_tier2_ml_enrichment_dotplot.png", "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/plots/Frontal_Cortex_best_solution_ahba_highlight_overlap_dotplot.png"],
+  "settings": {
+    "run_control": {
+      "STEP6_MAX_REGIONS": "1",
+      "STEP6_GENE_FILTER_TARGETS": "5000",
+      "STEP6_PARAM_GRID_LIMIT": "1",
+      "STEP6_VARIANTS": "unadjusted_only"
+    },
+    "is_limited_run": true,
+    "networkType": "signed",
+    "TOMType": "signed",
+    "powers_to_test": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+    "target_signed_r2": 0.8,
+    "gene_filter_targets": 5000,
+    "parameter_grid": [
+      {
+        "deepSplit": 2,
+        "minModuleSize": 20,
+        "mergeCutHeight": 0.15
+      }
+    ],
+    "usability_criteria": {
+      "n_non_grey_modules_min": 3,
+      "largest_module_fraction_max": 0.7,
+      "grey_gene_fraction_max": 0.5,
+      "n_samples_min": 15
+    },
+    "ahba_highlight_modules": ["M26", "M28", "M2", "M6", "M7"]
+  },
+  "sessionInfo": ["R version 4.4.2 (2024-10-31 ucrt)", "Platform: x86_64-w64-mingw32/x64", "Running under: Windows 10 x64 (build 19045)", "", "Matrix products: default", "", "", "locale:", "[1] LC_COLLATE=English_United States.utf8 ", "[2] LC_CTYPE=English_United States.utf8   ", "[3] LC_MONETARY=English_United States.utf8", "[4] LC_NUMERIC=C                          ", "[5] LC_TIME=English_United States.utf8    ", "", "time zone: Asia/Pyongyang", "tzcode source: internal", "", "attached base packages:", "[1] stats     graphics  grDevices utils     datasets  methods   base     ", "", "other attached packages:", "[1] limma_3.62.2          stringr_1.5.1         tidyr_1.3.1          ", "[4] dplyr_1.1.4           readr_2.1.5           WGCNA_1.74           ", "[7] fastcluster_1.3.0     dynamicTreeCut_1.63-1", "", "loaded via a namespace (and not attached):", " [1] gtable_0.3.6          impute_1.80.0         xfun_0.50            ", " [4] ggplot2_4.0.3         htmlwidgets_1.6.4     lattice_0.22-6       ", " [7] tzdb_0.4.0            vctrs_0.6.5           tools_4.4.2          ", "[10] generics_0.1.3        parallel_4.4.2        tibble_3.2.1         ", "[13] cluster_2.1.6         pkgconfig_2.0.3       Matrix_1.7-1         ", "[16] data.table_1.16.4     checkmate_2.3.4       RColorBrewer_1.1-3   ", "[19] S7_0.2.2              lifecycle_1.0.4       compiler_4.4.2       ", "[22] farver_2.1.2          textshaping_1.0.0     statmod_1.5.1        ", "[25] codetools_0.2-20      htmltools_0.5.8.1     htmlTable_2.5.0      ", "[28] preprocessCore_1.68.0 Formula_1.2-5         crayon_1.5.3         ", "[31] pillar_1.10.1         Hmisc_5.2-5           iterators_1.0.14     ", "[34] rpart_4.1.23          foreach_1.5.2         tidyselect_1.2.1     ", "[37] digest_0.6.37         stringi_1.8.4         purrr_1.0.2          ", "[40] labeling_0.4.3        splines_4.4.2         fastmap_1.2.0        ", "[43] grid_4.4.2            colorspace_2.1-1      cli_3.6.3            ", "[46] magrittr_2.0.3        base64enc_0.1-3       survival_3.7-0       ", "[49] broom_1.0.7           withr_3.0.2           foreign_0.8-87       ", "[52] scales_1.4.0          backports_1.5.0       bit64_4.6.0-1        ", "[55] rmarkdown_2.29        matrixStats_1.5.0     bit_4.5.0.1          ", "[58] nnet_7.3-19           gridExtra_2.3         ragg_1.3.3           ", "[61] hms_1.1.3             evaluate_1.0.3        knitr_1.49           ", "[64] doParallel_1.0.17     viridisLite_0.4.2     rlang_1.2.0          ", "[67] Rcpp_1.0.14           glue_1.8.0            rstudioapi_0.17.1    ", "[70] vroom_1.6.5           R6_2.5.1              systemfonts_1.2.1    "]
+}

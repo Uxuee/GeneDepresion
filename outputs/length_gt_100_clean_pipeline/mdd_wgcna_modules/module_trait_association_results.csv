@@ -1,0 +1,12 @@
+region,module,n_module_genes,beta_diagnosis,p_diagnosis,fdr_diagnosis_BH,model_formula,n_samples,notes
+Frontal Cortex,MEblue,1175,0.012595772076976555,0.37297344745038263,0.8205415843908419,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,122,full_or_available_covariate_model
+Frontal Cortex,MEred,235,0.0023007992465722367,0.892722719222417,0.892722719222417,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,122,full_or_available_covariate_model
+Frontal Cortex,MEyellow,401,-0.035091960926055425,0.03164703624596934,0.3481173987056627,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,122,full_or_available_covariate_model
+Frontal Cortex,MEmagenta,56,-0.00521137814766261,0.7107205850640352,0.892722719222417,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,122,full_or_available_covariate_model
+Frontal Cortex,MEblack,223,-0.014147865753053494,0.22480427274352355,0.7521337175305515,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,122,full_or_available_covariate_model
+Frontal Cortex,MEturquoise,1389,-0.021872831310713436,0.07562711228010506,0.41594911754057784,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,122,full_or_available_covariate_model
+Frontal Cortex,MEpurple,30,-2.9591475203052497e-4,0.8305050960800089,0.892722719222417,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,122,full_or_available_covariate_model
+Frontal Cortex,MEbrown,563,-0.0028127234045203626,0.8585547506886332,0.892722719222417,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,122,full_or_available_covariate_model
+Frontal Cortex,MEgreen,255,0.011228075713524965,0.4869014868663918,0.8926527259217183,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,122,full_or_available_covariate_model
+Frontal Cortex,MEpink,151,0.017851568106272156,0.27350317001110963,0.7521337175305515,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,122,full_or_available_covariate_model
+Frontal Cortex,MEgrey,522,0.004212412013525285,0.8021505935411417,0.892722719222417,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,122,full_or_available_covariate_model
