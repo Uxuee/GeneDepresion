@@ -1,0 +1,69 @@
+region,module,module_color,n_genes
+Cingulate gyrus 25,MEblue,blue,1386
+Cingulate gyrus 25,MEgreen,green,877
+Cingulate gyrus 25,MEbrown,brown,662
+Cingulate gyrus 25,MEgrey60,grey60,255
+Cingulate gyrus 25,MEred,red,206
+Cingulate gyrus 25,MEfloralwhite,floralwhite,204
+Cingulate gyrus 25,MEdarkred,darkred,195
+Cingulate gyrus 25,MEblack,black,194
+Cingulate gyrus 25,MEdarkgreen,darkgreen,174
+Cingulate gyrus 25,MEdarkmagenta,darkmagenta,168
+Cingulate gyrus 25,MElightgreen,lightgreen,101
+Cingulate gyrus 25,MEdarkgrey,darkgrey,56
+Cingulate gyrus 25,MEorange,orange,54
+Cingulate gyrus 25,MEdarkorange,darkorange,52
+Cingulate gyrus 25,MEwhite,white,50
+Cingulate gyrus 25,MEskyblue,skyblue,44
+Cingulate gyrus 25,MEsaddlebrown,saddlebrown,40
+Cingulate gyrus 25,MEsteelblue,steelblue,36
+Cingulate gyrus 25,MEdarkolivegreen,darkolivegreen,33
+Cingulate gyrus 25,MEyellowgreen,yellowgreen,29
+Cingulate gyrus 25,MEskyblue3,skyblue3,28
+Cingulate gyrus 25,MEplum1,plum1,26
+Cingulate gyrus 25,MEmediumpurple3,mediumpurple3,25
+Cingulate gyrus 25,MEorangered4,orangered4,25
+Cingulate gyrus 25,MElightsteelblue1,lightsteelblue1,24
+Cingulate gyrus 25,MElightcyan1,lightcyan1,23
+Cingulate gyrus 25,MEdarkorange2,darkorange2,21
+Cingulate gyrus 25,MEgrey,grey,12
+dlPFC BA8/9,MEdarkred,darkred,971
+dlPFC BA8/9,MEgreen,green,774
+dlPFC BA8/9,MEturquoise,turquoise,742
+dlPFC BA8/9,MEblue,blue,703
+dlPFC BA8/9,MEbrown,brown,541
+dlPFC BA8/9,MEblack,black,272
+dlPFC BA8/9,MEpurple,purple,203
+dlPFC BA8/9,MEmagenta,magenta,199
+dlPFC BA8/9,MEgreenyellow,greenyellow,91
+dlPFC BA8/9,MEtan,tan,84
+dlPFC BA8/9,MEsalmon,salmon,53
+dlPFC BA8/9,MEcyan,cyan,45
+dlPFC BA8/9,MEmidnightblue,midnightblue,45
+dlPFC BA8/9,MElightcyan,lightcyan,43
+dlPFC BA8/9,MEgrey60,grey60,36
+dlPFC BA8/9,MElightgreen,lightgreen,35
+dlPFC BA8/9,MElightyellow,lightyellow,35
+dlPFC BA8/9,MEgrey,grey,29
+dlPFC BA8/9,MEdarkgreen,darkgreen,26
+dlPFC BA8/9,MEdarkturquoise,darkturquoise,26
+dlPFC BA8/9,MEdarkgrey,darkgrey,24
+dlPFC BA8/9,MEorange,orange,23
+OFC BA11,MEpurple,purple,1129
+OFC BA11,MEblue,blue,693
+OFC BA11,MEbrown,brown,649
+OFC BA11,MEyellow,yellow,579
+OFC BA11,MEgreen,green,544
+OFC BA11,MEred,red,405
+OFC BA11,MEblack,black,308
+OFC BA11,MEpink,pink,278
+OFC BA11,MEmagenta,magenta,116
+OFC BA11,MEgreenyellow,greenyellow,54
+OFC BA11,MEtan,tan,41
+OFC BA11,MEsalmon,salmon,40
+OFC BA11,MEcyan,cyan,36
+OFC BA11,MEmidnightblue,midnightblue,31
+OFC BA11,MElightcyan,lightcyan,29
+OFC BA11,MEgrey60,grey60,25
+OFC BA11,MElightgreen,lightgreen,23
+OFC BA11,MElightyellow,lightyellow,20
