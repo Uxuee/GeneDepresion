@@ -16,7 +16,7 @@ options(stringsAsFactors = FALSE)
 ## 0. Packages
 ## -------------------------------------------------------------------------
 
-required_packages <- c("WGCNA", "readr", "dplyr", "tidyr", "stringr", "limma")
+required_packages <- c("WGCNA", "dynamicTreeCut", "readr", "dplyr", "tidyr", "stringr", "limma")
 missing_required <- required_packages[
   !vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)
 ]
@@ -92,7 +92,9 @@ expression_files <- list.files(
 gene_filter_targets <- c(5000, 10000, 15000)
 gene_filter_targets_env <- Sys.getenv("STEP6_GENE_FILTER_TARGETS", unset = "")
 if (nzchar(gene_filter_targets_env)) {
-  gene_filter_targets <- as.integer(strsplit(gene_filter_targets_env, ",")[[1]])
+  parsed_filter_targets <- strsplit(gene_filter_targets_env, ",")[[1]] %>% trimws()
+  parsed_filter_targets <- parsed_filter_targets[parsed_filter_targets != "all_usable_if_possible"]
+  gene_filter_targets <- as.integer(parsed_filter_targets)
   gene_filter_targets <- gene_filter_targets[!is.na(gene_filter_targets)]
 }
 powers_to_test <- 1:20
@@ -113,6 +115,9 @@ if (!is.na(max_regions) && max_regions > 0) {
   expression_files <- expression_files[seq_len(min(max_regions, length(expression_files)))]
 }
 variant_mode <- Sys.getenv("STEP6_VARIANTS", unset = "all")
+if (variant_mode == "unadjusted_and_residualized_if_covariates_available") {
+  variant_mode <- "all"
+}
 highlight_ahba_modules <- c("M26", "M28", "M2", "M6", "M7")
 
 run_control <- list(
@@ -207,6 +212,27 @@ write_csv_safely <- function(data, path) {
   dir.create(dirname(path), recursive = TRUE, showWarnings = FALSE)
   readr::write_csv(data, path)
   path
+}
+
+is_grey_module <- function(module_name) {
+  !is.na(module_name) & module_name == "MEgrey"
+}
+
+collapse_semicolon <- function(x, max_items = Inf) {
+  x <- unique(na.omit(as.character(x)))
+  x <- x[x != ""]
+  if (length(x) == 0) return("")
+  if (is.finite(max_items)) x <- head(x, max_items)
+  paste(sort(x), collapse = ";")
+}
+
+ensure_columns <- function(data, columns) {
+  for (column in columns) {
+    if (!(column %in% names(data))) {
+      data[[column]] <- NA
+    }
+  }
+  data
 }
 
 make_empty_row <- function(region, expression_file, analysis_variant, gene_filter_version,
@@ -337,7 +363,10 @@ residualize_expression <- function(dat_expr, sample_metadata) {
     paste(technical_covariates, collapse = ", ")
   )
 
-  list(dat_expr = adjusted, metadata = sample_metadata[complete_rows, , drop = FALSE], notes = notes)
+  metadata_complete <- sample_metadata[complete_rows, , drop = FALSE]
+  rownames(metadata_complete) <- rownames(expression_complete)
+
+  list(dat_expr = adjusted, metadata = metadata_complete, notes = notes)
 }
 
 filter_genes_for_wgcna <- function(dat_expr, target_size) {
@@ -427,7 +456,7 @@ choose_soft_power <- function(dat_expr, cor_type = "bicor") {
 }
 
 summarize_modules <- function(colors) {
-  color_names <- WGCNA::labels2colors(colors)
+  color_names <- if (is.character(colors)) colors else WGCNA::labels2colors(colors)
   sizes <- sort(table(color_names), decreasing = TRUE)
   non_grey_sizes <- sizes[names(sizes) != "grey"]
   grey_count <- as.integer(sizes["grey"] %||% 0)
@@ -459,6 +488,49 @@ run_blockwise_modules <- function(dat_expr, power, grid_row, cor_type) {
     saveTOMs = FALSE,
     maxBlockSize = max(5000, ncol(dat_expr) + 100),
     verbose = 3
+  )
+}
+
+prepare_wgcna_network_once <- function(dat_expr, power, cor_type) {
+  cor_function <- if (cor_type == "bicor") "bicor" else "cor"
+  cor_options <- if (cor_type == "bicor") "maxPOutliers = 0.05, use = 'pairwise.complete.obs'" else "use = 'pairwise.complete.obs'"
+
+  message("Preparing adjacency/TOM once for this region/variant/filter.")
+  adjacency_matrix <- WGCNA::adjacency(
+    dat_expr,
+    power = power,
+    type = "signed",
+    corFnc = cor_function,
+    corOptions = cor_options
+  )
+  tom <- WGCNA::TOMsimilarity(adjacency_matrix, TOMType = "signed", verbose = 1)
+  rm(adjacency_matrix)
+  gc()
+  diss_tom <- 1 - tom
+  gene_tree <- hclust(as.dist(diss_tom), method = "average")
+  list(diss_tom = diss_tom, gene_tree = gene_tree)
+}
+
+run_grid_from_prepared_network <- function(dat_expr, prepared_network, grid_row) {
+  dynamic_modules <- dynamicTreeCut::cutreeDynamic(
+    dendro = prepared_network$gene_tree,
+    distM = prepared_network$diss_tom,
+    deepSplit = grid_row$deepSplit,
+    pamRespectsDendro = FALSE,
+    minClusterSize = grid_row$minModuleSize,
+    verbose = 0
+  )
+  dynamic_colors <- WGCNA::labels2colors(dynamic_modules)
+  merged <- WGCNA::mergeCloseModules(
+    dat_expr,
+    dynamic_colors,
+    cutHeight = grid_row$mergeCutHeight,
+    verbose = 0
+  )
+  list(
+    colors = merged$colors,
+    dendrograms = list(prepared_network$gene_tree),
+    blockGenes = list(seq_len(ncol(dat_expr)))
   )
 }
 
@@ -542,16 +614,27 @@ save_trait_heatmap <- function(results, prefix) {
   beta <- matrix(plot_data$beta_diagnosis, ncol = 1)
   rownames(beta) <- plot_data$module
   colnames(beta) <- "Diagnosis beta"
-  WGCNA::labeledHeatmap(
-    Matrix = beta,
-    xLabels = colnames(beta),
-    yLabels = rownames(beta),
-    ySymbols = rownames(beta),
-    colorLabels = FALSE,
-    colors = WGCNA::blueWhiteRed(50),
-    textMatrix = signif(plot_data$p_diagnosis, 2),
-    main = "Module association with Diagnosis"
-  )
+  if (nrow(beta) == 0 || !any(is.finite(beta))) {
+    plot.new()
+    text(0.5, 0.5, "No finite Diagnosis beta values available for module-trait heatmap.")
+  } else {
+    text_matrix <- matrix(
+      ifelse(is.finite(plot_data$p_diagnosis), signif(plot_data$p_diagnosis, 2), "NA"),
+      ncol = 1
+    )
+    rownames(text_matrix) <- rownames(beta)
+    colnames(text_matrix) <- colnames(beta)
+    WGCNA::labeledHeatmap(
+      Matrix = beta,
+      xLabels = colnames(beta),
+      yLabels = rownames(beta),
+      ySymbols = rownames(beta),
+      colorLabels = FALSE,
+      colors = WGCNA::blueWhiteRed(50),
+      textMatrix = text_matrix,
+      main = "Module association with Diagnosis"
+    )
+  }
   dev.off()
   path
 }
@@ -571,11 +654,11 @@ save_dotplot <- function(data, x_col, y_col, size_col, color_col, title, path) {
 }
 
 make_module_tables <- function(region, dat_expr, net, gene_annotation) {
-  colors <- WGCNA::labels2colors(net$colors)
+  colors <- if (is.character(net$colors)) net$colors else WGCNA::labels2colors(net$colors)
   gene_to_module <- tibble(
     region = region,
     gene_id = colnames(dat_expr),
-    module_label_numeric = net$colors,
+    module_label_numeric = match(colors, unique(colors)),
     module_color = colors,
     module = paste0("ME", colors)
   ) %>%
@@ -618,6 +701,7 @@ fit_module_trait_models <- function(region, module_eigengenes, sample_metadata, 
       results[[module_name]] <- tibble(
         region = region,
         module = module_name,
+        module_role = ifelse(is_grey_module(module_name), "unassigned_grey", "coexpression_module"),
         n_module_genes = size_table$n_genes[match(module_name, size_table$module)],
         beta_diagnosis = NA_real_,
         p_diagnosis = NA_real_,
@@ -641,6 +725,7 @@ fit_module_trait_models <- function(region, module_eigengenes, sample_metadata, 
     results[[module_name]] <- tibble(
       region = region,
       module = module_name,
+      module_role = ifelse(is_grey_module(module_name), "unassigned_grey", "coexpression_module"),
       n_module_genes = size_table$n_genes[match(module_name, size_table$module)],
       beta_diagnosis = beta,
       p_diagnosis = pval,
@@ -652,10 +737,19 @@ fit_module_trait_models <- function(region, module_eigengenes, sample_metadata, 
 
   bind_rows(results) %>%
     group_by(region) %>%
-    mutate(fdr_diagnosis_BH = p.adjust(p_diagnosis, method = "BH")) %>%
+    mutate(
+      fdr_diagnosis_BH = ifelse(
+        is_grey_module(module),
+        NA_real_,
+        p.adjust(ifelse(is_grey_module(module), NA_real_, p_diagnosis), method = "BH")
+      ),
+      diagnosis_fdr_lt_0_10 = !is.na(fdr_diagnosis_BH) & fdr_diagnosis_BH < 0.10,
+      diagnosis_raw_p_lt_0_05 = !is.na(p_diagnosis) & p_diagnosis < 0.05 & !is_grey_module(module)
+    ) %>%
     ungroup() %>%
-    select(region, module, n_module_genes, beta_diagnosis, p_diagnosis,
-           fdr_diagnosis_BH, model_formula, n_samples, notes)
+    select(region, module, module_role, n_module_genes, beta_diagnosis, p_diagnosis,
+           fdr_diagnosis_BH, diagnosis_fdr_lt_0_10, diagnosis_raw_p_lt_0_05,
+           model_formula, n_samples, notes)
 }
 
 test_enrichment <- function(region, gene_to_module, tier2_genes, ml_genes) {
@@ -705,7 +799,16 @@ test_enrichment <- function(region, gene_to_module, tier2_genes, ml_genes) {
       rows[[length(rows) + 1]] <- tibble(
         region = region,
         module = module_name,
+        module_role = ifelse(is_grey_module(module_name), "unassigned_grey", "coexpression_module"),
         gene_set = set_name,
+        gene_set_family = case_when(
+          set_name == "all_Tier2_genes" ~ "all_Tier2_across_all_regions",
+          set_name == "same_region_Tier2_genes" ~ "same_region_Tier2",
+          set_name == "high_confidence_ML_genes" ~ "high_confidence_ML",
+          set_name == "high_plus_moderate_ML_genes" ~ "high_plus_moderate_ML",
+          set_name == "same_region_high_plus_moderate_ML_genes" ~ "same_region_high_plus_moderate_ML",
+          TRUE ~ set_name
+        ),
         module_gene_count = length(module_genes),
         gene_set_count_in_background = length(set_genes),
         overlap_count = length(overlap),
@@ -717,7 +820,15 @@ test_enrichment <- function(region, gene_to_module, tier2_genes, ml_genes) {
 
   bind_rows(rows) %>%
     group_by(region, gene_set) %>%
-    mutate(fdr_BH = p.adjust(p_value, method = "BH")) %>%
+    mutate(
+      fdr_BH = ifelse(
+        is_grey_module(module),
+        NA_real_,
+        p.adjust(ifelse(is_grey_module(module), NA_real_, p_value), method = "BH")
+      ),
+      enrichment_fdr_lt_0_10 = !is.na(fdr_BH) & fdr_BH < 0.10,
+      enrichment_raw_p_lt_0_05 = !is.na(p_value) & p_value < 0.05 & !is_grey_module(module)
+    ) %>%
     ungroup()
 }
 
@@ -746,6 +857,7 @@ test_ahba_overlap <- function(region, gene_to_module, ahba_modules) {
       rows[[length(rows) + 1]] <- tibble(
         region = region,
         mdd_module = mdd_module,
+        module_role = ifelse(is_grey_module(mdd_module), "unassigned_grey", "coexpression_module"),
         ahba_module = ahba_module,
         highlighted_ahba_module = ahba_module %in% highlight_ahba_modules,
         mdd_module_gene_count = length(mdd_genes),
@@ -759,7 +871,15 @@ test_ahba_overlap <- function(region, gene_to_module, ahba_modules) {
 
   bind_rows(rows) %>%
     group_by(region) %>%
-    mutate(fdr_BH = p.adjust(p_value, method = "BH")) %>%
+    mutate(
+      fdr_BH = ifelse(
+        is_grey_module(mdd_module),
+        NA_real_,
+        p.adjust(ifelse(is_grey_module(mdd_module), NA_real_, p_value), method = "BH")
+      ),
+      ahba_highlight_fdr_lt_0_10 = highlighted_ahba_module & !is.na(fdr_BH) & fdr_BH < 0.10,
+      ahba_highlight_raw_p_lt_0_05 = highlighted_ahba_module & !is.na(p_value) & p_value < 0.05 & !is_grey_module(mdd_module)
+    ) %>%
     ungroup()
 }
 
@@ -798,27 +918,180 @@ calculate_hub_genes <- function(region, dat_expr, sample_metadata, gene_to_modul
   bind_rows(rows)
 }
 
-write_report <- function(summary_table, trait_results, enrichment_results, ahba_results, output_path) {
+make_important_module_summary <- function(trait_results, enrichment_results, ahba_results, hub_genes) {
+  if (nrow(trait_results) == 0) {
+    return(tibble())
+  }
+
+  enrichment_flags <- enrichment_results %>%
+    filter(!is_grey_module(module)) %>%
+    group_by(region, module) %>%
+    summarise(
+      enriched_for_Tier2 = any(gene_set_family %in% c("all_Tier2_across_all_regions", "same_region_Tier2") & enrichment_fdr_lt_0_10, na.rm = TRUE),
+      enriched_for_Tier2_exploratory = any(gene_set_family %in% c("all_Tier2_across_all_regions", "same_region_Tier2") & enrichment_raw_p_lt_0_05, na.rm = TRUE),
+      enriched_for_high_moderate_ML = any(gene_set_family %in% c("high_plus_moderate_ML", "same_region_high_plus_moderate_ML") & enrichment_fdr_lt_0_10, na.rm = TRUE),
+      enriched_for_high_moderate_ML_exploratory = any(gene_set_family %in% c("high_plus_moderate_ML", "same_region_high_plus_moderate_ML") & enrichment_raw_p_lt_0_05, na.rm = TRUE),
+      enriched_for_high_confidence_ML = any(gene_set_family == "high_confidence_ML" & enrichment_fdr_lt_0_10, na.rm = TRUE),
+      best_Tier2_or_ML_enrichment = collapse_semicolon(
+        paste0(gene_set, " overlap=", overlap_count, " FDR=", signif(fdr_BH, 3))[
+          !is.na(fdr_BH) & fdr_BH < 0.10
+        ],
+        max_items = 4
+      ),
+      exploratory_Tier2_or_ML_enrichment = collapse_semicolon(
+        paste0(gene_set, " overlap=", overlap_count, " p=", signif(p_value, 3))[
+          (is.na(fdr_BH) | fdr_BH >= 0.10) & enrichment_raw_p_lt_0_05
+        ],
+        max_items = 4
+      ),
+      .groups = "drop"
+    )
+
+  ahba_flags <- ahba_results %>%
+    filter(!is_grey_module(mdd_module), highlighted_ahba_module) %>%
+    group_by(region, module = mdd_module) %>%
+    summarise(
+      AHBA_overlap_modules = collapse_semicolon(
+        paste0(ahba_module, " overlap=", overlap_count, " FDR=", signif(fdr_BH, 3))[
+          ahba_highlight_fdr_lt_0_10
+        ],
+        max_items = 5
+      ),
+      AHBA_overlap_modules_exploratory = collapse_semicolon(
+        paste0(ahba_module, " overlap=", overlap_count, " p=", signif(p_value, 3))[
+          ahba_highlight_raw_p_lt_0_05 & !ahba_highlight_fdr_lt_0_10
+        ],
+        max_items = 5
+      ),
+      has_AHBA_highlight_overlap = any(ahba_highlight_fdr_lt_0_10, na.rm = TRUE),
+      has_AHBA_highlight_overlap_exploratory = any(ahba_highlight_raw_p_lt_0_05, na.rm = TRUE),
+      .groups = "drop"
+    )
+
+  hub_summary <- hub_genes %>%
+    group_by(region, module) %>%
+    arrange(desc(abs_kME), .by_group = TRUE) %>%
+    summarise(
+      top_hub_genes = collapse_semicolon(ifelse(!is.na(gene_symbol) & gene_symbol != "", gene_symbol, gene_id), max_items = 10),
+      .groups = "drop"
+    )
+
+  trait_results %>%
+    left_join(enrichment_flags, by = c("region", "module")) %>%
+    left_join(ahba_flags, by = c("region", "module")) %>%
+    left_join(hub_summary, by = c("region", "module")) %>%
+    mutate(
+      across(
+        c(enriched_for_Tier2, enriched_for_Tier2_exploratory,
+          enriched_for_high_moderate_ML, enriched_for_high_moderate_ML_exploratory,
+          enriched_for_high_confidence_ML, has_AHBA_highlight_overlap,
+          has_AHBA_highlight_overlap_exploratory),
+        ~ ifelse(is.na(.x), FALSE, .x)
+      ),
+      AHBA_overlap_modules = ifelse(is.na(AHBA_overlap_modules), "", AHBA_overlap_modules),
+      AHBA_overlap_module_exploratory = ifelse(is.na(AHBA_overlap_modules_exploratory), "", AHBA_overlap_modules_exploratory),
+      top_hub_genes = ifelse(is.na(top_hub_genes), "", top_hub_genes),
+      interpretation = case_when(
+        is_grey_module(module) ~ "Unassigned grey genes; retained in raw files but excluded from biological interpretation.",
+        diagnosis_fdr_lt_0_10 & (enriched_for_Tier2 | enriched_for_high_moderate_ML | has_AHBA_highlight_overlap) ~ "Diagnosis-associated module with candidate-gene or AHBA support.",
+        diagnosis_fdr_lt_0_10 ~ "Diagnosis-associated module eigengene.",
+        diagnosis_raw_p_lt_0_05 & (enriched_for_Tier2 | enriched_for_high_moderate_ML | has_AHBA_highlight_overlap | enriched_for_Tier2_exploratory | enriched_for_high_moderate_ML_exploratory | has_AHBA_highlight_overlap_exploratory) ~ "Exploratory diagnosis signal with candidate-gene or AHBA support.",
+        enriched_for_Tier2 | enriched_for_high_moderate_ML | enriched_for_high_confidence_ML | has_AHBA_highlight_overlap ~ "Candidate-gene or AHBA-supported coexpression module without corrected Diagnosis association.",
+        diagnosis_raw_p_lt_0_05 ~ "Exploratory raw-p Diagnosis association only.",
+        enriched_for_Tier2_exploratory | enriched_for_high_moderate_ML_exploratory | has_AHBA_highlight_overlap_exploratory ~ "Nominal candidate-gene or AHBA context only.",
+        TRUE ~ "No highlighted Diagnosis, candidate-gene, or AHBA signal."
+      ),
+      caution_level = case_when(
+        is_grey_module(module) ~ "unassigned_do_not_interpret",
+        diagnosis_fdr_lt_0_10 & (enriched_for_Tier2 | enriched_for_high_moderate_ML | has_AHBA_highlight_overlap) ~ "strongest_exploratory_module_level_signal",
+        diagnosis_fdr_lt_0_10 ~ "diagnosis_fdr_signal_no_enrichment_context",
+        diagnosis_raw_p_lt_0_05 | enriched_for_Tier2 | enriched_for_high_moderate_ML | enriched_for_high_confidence_ML | has_AHBA_highlight_overlap ~ "exploratory_follow_up",
+        enriched_for_Tier2_exploratory | enriched_for_high_moderate_ML_exploratory | has_AHBA_highlight_overlap_exploratory ~ "nominal_only_context",
+        TRUE ~ "not_highlighted"
+      ),
+      important_module = !is_grey_module(module) & (
+        diagnosis_fdr_lt_0_10 |
+          diagnosis_raw_p_lt_0_05 |
+          enriched_for_Tier2 |
+          enriched_for_high_moderate_ML |
+          enriched_for_high_confidence_ML |
+          has_AHBA_highlight_overlap |
+          enriched_for_Tier2_exploratory |
+          enriched_for_high_moderate_ML_exploratory |
+          has_AHBA_highlight_overlap_exploratory
+      )
+    ) %>%
+    filter(important_module | is_grey_module(module)) %>%
+    select(
+      region,
+      module,
+      module_role,
+      module_size = n_module_genes,
+      diagnosis_beta = beta_diagnosis,
+      diagnosis_p_value = p_diagnosis,
+      diagnosis_BH_FDR = fdr_diagnosis_BH,
+      diagnosis_fdr_lt_0_10,
+      diagnosis_raw_p_lt_0_05,
+      enriched_for_Tier2,
+      enriched_for_high_moderate_ML,
+      AHBA_overlap_modules,
+      AHBA_overlap_module_exploratory,
+      top_hub_genes,
+      interpretation,
+      caution_level,
+      important_module
+    ) %>%
+    arrange(region, is_grey_module(module), caution_level, diagnosis_BH_FDR, diagnosis_p_value)
+}
+
+write_report <- function(summary_table, trait_results, enrichment_results, ahba_results, important_modules, output_path, full_report = FALSE) {
+  trait_results <- ensure_columns(
+    trait_results,
+    c("region", "module", "module_role", "n_module_genes", "beta_diagnosis",
+      "p_diagnosis", "fdr_diagnosis_BH", "diagnosis_fdr_lt_0_10",
+      "diagnosis_raw_p_lt_0_05")
+  )
+  enrichment_results <- ensure_columns(
+    enrichment_results,
+    c("region", "module", "gene_set", "gene_set_family", "overlap_count",
+      "p_value", "fdr_BH", "enrichment_fdr_lt_0_10", "enrichment_raw_p_lt_0_05")
+  )
+  ahba_results <- ensure_columns(
+    ahba_results,
+    c("region", "mdd_module", "ahba_module", "highlighted_ahba_module",
+      "overlap_count", "p_value", "fdr_BH", "ahba_highlight_fdr_lt_0_10",
+      "ahba_highlight_raw_p_lt_0_05")
+  )
+  important_modules <- ensure_columns(
+    important_modules,
+    c("region", "module", "important_module", "interpretation", "top_hub_genes")
+  )
+
   usable <- summary_table %>% filter(usable_solution)
   best_regions <- unique(summary_table$region)
-  diagnosis_hits <- trait_results %>% filter(!is.na(fdr_diagnosis_BH), fdr_diagnosis_BH < 0.10)
-  tier_hits <- enrichment_results %>% filter(!is.na(fdr_BH), fdr_BH < 0.10)
-  ahba_hits <- ahba_results %>% filter(highlighted_ahba_module, !is.na(fdr_BH), fdr_BH < 0.10)
+  diagnosis_hits <- trait_results %>% filter(!is_grey_module(module), !is.na(fdr_diagnosis_BH), fdr_diagnosis_BH < 0.10)
+  diagnosis_nominal <- trait_results %>% filter(!is_grey_module(module), diagnosis_raw_p_lt_0_05, !diagnosis_fdr_lt_0_10)
+  tier_hits <- enrichment_results %>% filter(!is_grey_module(module), !is.na(fdr_BH), fdr_BH < 0.10)
+  ahba_hits <- ahba_results %>% filter(!is_grey_module(mdd_module), highlighted_ahba_module, !is.na(fdr_BH), fdr_BH < 0.10)
   run_scope <- if (is_limited_run) {
     paste0(
       "Limited validation run. Active STEP6 controls: ",
       paste(names(run_control)[nzchar(unlist(run_control))], unlist(run_control)[nzchar(unlist(run_control))], sep = "=", collapse = "; ")
     )
   } else {
-    "Full default run. No STEP6 limiting environment variables were set."
+    "Full default run. No STEP6 limiting environment variables were set; all available normalized region matrices, default gene filters, full parameter grid, and unadjusted plus residualized-if-available variants were attempted."
   }
 
   lines <- c(
-    "# MDD WGCNA Module Report",
+    ifelse(full_report, "# MDD WGCNA Module Report FULL", "# MDD WGCNA Module Report"),
     "",
     paste0("Generated: ", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z")),
     "",
     paste0("Run scope: ", run_scope),
+    "",
+    "## Limited Validation vs Full Run",
+    "",
+    "The earlier Frontal Cortex-only result was a smoke test run with STEP6_MAX_REGIONS=1, STEP6_GENE_FILTER_TARGETS=5000, STEP6_PARAM_GRID_LIMIT=1, and STEP6_VARIANTS=unadjusted_only. That limited run checked that the workflow could execute and should not be interpreted as the final biological result. This full report is the intended biological summary after running without those limiting controls.",
     "",
     "## What was done",
     "",
@@ -827,6 +1100,8 @@ write_report <- function(summary_table, trait_results, enrichment_results, ahba_
     "The modules were not built from DEG-only genes, Tier 2-only genes, or ML-prioritized-only genes. Genes were filtered by expression quality and variability/MAD, then existing Tier 2 and ML-prioritized gene sets were tested for enrichment after module construction.",
     "",
     "Signed WGCNA networks were used as the main analysis. The script tried robust bicor correlation first and used Pearson only if bicor failed.",
+    "",
+    "MEgrey is the WGCNA unassigned module. MEgrey rows are retained in raw output files for auditability, but MEgrey is excluded from the main biological interpretation tables.",
     "",
     "## Sample-size and usability overview",
     "",
@@ -847,6 +1122,19 @@ write_report <- function(summary_table, trait_results, enrichment_results, ahba_
         ": beta=", signif(diagnosis_hits$beta_diagnosis, 3),
         ", p=", signif(diagnosis_hits$p_diagnosis, 3),
         ", FDR=", signif(diagnosis_hits$fdr_diagnosis_BH, 3)
+      )
+    },
+    "",
+    "Exploratory raw-p Diagnosis modules:",
+    "",
+    if (nrow(diagnosis_nominal) == 0) {
+      "No non-grey module eigengene had raw p < 0.05 without also reaching the FDR threshold."
+    } else {
+      paste0(
+        "- ", diagnosis_nominal$region, " ", diagnosis_nominal$module,
+        ": beta=", signif(diagnosis_nominal$beta_diagnosis, 3),
+        ", p=", signif(diagnosis_nominal$p_diagnosis, 3),
+        ", FDR=", signif(diagnosis_nominal$fdr_diagnosis_BH, 3)
       )
     },
     "",
@@ -878,6 +1166,19 @@ write_report <- function(summary_table, trait_results, enrichment_results, ahba_
       )
     },
     "",
+    "## Important Module Summary",
+    "",
+    if (nrow(important_modules %>% filter(important_module)) == 0) {
+      "No non-grey important modules were highlighted by Diagnosis, Tier2/ML enrichment, or highlighted AHBA overlap criteria."
+    } else {
+      paste0(
+        "- ", (important_modules %>% filter(important_module))$region,
+        " ", (important_modules %>% filter(important_module))$module,
+        ": ", (important_modules %>% filter(important_module))$interpretation,
+        " Top hubs: ", (important_modules %>% filter(important_module))$top_hub_genes
+      )
+    },
+    "",
     "## Limitations",
     "",
     "- This is exploratory and should be interpreted as module discovery, not validation.",
@@ -895,6 +1196,7 @@ write_report <- function(summary_table, trait_results, enrichment_results, ahba_
     "- `module_enrichment_for_Tier2_and_ML_genes.csv`",
     "- `mdd_modules_vs_published_AHBA_modules_enrichment.csv`",
     "- `module_hub_genes_top50.csv`",
+    "- `important_modules_summary.csv`",
     "- `mdd_wgcna_manifest.json`"
   )
 
@@ -1042,38 +1344,55 @@ for (expression_file in expression_files) {
 
       prefix <- paste(region_safe, safe_name(analysis_variant), filter_version, sep = "_")
       plot_files <- c(plot_files, save_soft_threshold_plot(soft$fit, prefix))
+      prepared_network <- tryCatch(
+        prepare_wgcna_network_once(dat_filtered, soft$power, soft$corType),
+        error = function(e) e
+      )
+      if (inherits(prepared_network, "error") && soft$corType == "bicor") {
+        warning("bicor adjacency/TOM preparation failed; retrying this filter with Pearson. Error: ", prepared_network$message)
+        soft_pearson <- tryCatch(choose_soft_power(dat_filtered, "pearson"), error = function(e) e)
+        if (!inherits(soft_pearson, "error")) {
+          soft <- soft_pearson
+          prepared_network <- tryCatch(
+            prepare_wgcna_network_once(dat_filtered, soft$power, soft$corType),
+            error = function(e) e
+          )
+        }
+      }
+      if (inherits(prepared_network, "error")) {
+        record_parameter_row(make_empty_row(
+          region, expression_file, analysis_variant, filter_version,
+          nrow(dat_filtered), n_genes_input,
+          paste("Adjacency/TOM preparation failed:", prepared_network$message)
+        ) %>%
+          mutate(
+            n_genes_after_filter = n_genes_after_filter,
+            power = soft$power,
+            power_selection_status = soft$status,
+            corType = soft$corType
+          ))
+        next
+      }
 
       for (grid_i in seq_len(nrow(parameter_grid))) {
         grid_row <- parameter_grid[grid_i, ]
         message(
-          "Running blockwiseModules: power=", soft$power,
+          "Running dynamic tree cut grid: power=", soft$power,
           ", deepSplit=", grid_row$deepSplit,
           ", minModuleSize=", grid_row$minModuleSize,
           ", mergeCutHeight=", grid_row$mergeCutHeight
         )
 
         net <- tryCatch(
-          run_blockwise_modules(dat_filtered, soft$power, grid_row, soft$corType),
+          run_grid_from_prepared_network(dat_filtered, prepared_network, grid_row),
           error = function(e) e
         )
-
-        if (inherits(net, "error") && soft$corType == "bicor") {
-          warning("bicor blockwiseModules failed; retrying this run with Pearson. Error: ", net$message)
-          soft_pearson <- tryCatch(choose_soft_power(dat_filtered, "pearson"), error = function(e) e)
-          if (!inherits(soft_pearson, "error")) {
-            soft <- soft_pearson
-            net <- tryCatch(
-              run_blockwise_modules(dat_filtered, soft$power, grid_row, soft$corType),
-              error = function(e) e
-            )
-          }
-        }
 
         if (inherits(net, "error")) {
           row <- make_empty_row(
             region, expression_file, analysis_variant, filter_version,
             nrow(dat_filtered), n_genes_input,
-            paste("blockwiseModules failed:", net$message)
+            paste("dynamic tree cut grid failed:", net$message)
           ) %>%
             mutate(
               n_genes_after_filter = n_genes_after_filter,
@@ -1132,6 +1451,8 @@ for (expression_file in expression_files) {
           prefix = paste(prefix, "ds", grid_row$deepSplit, "min", grid_row$minModuleSize, "merge", grid_row$mergeCutHeight, sep = "_")
         )
       }
+      rm(prepared_network)
+      gc()
     }
   }
 
@@ -1148,7 +1469,7 @@ for (expression_file in expression_files) {
         TRUE ~ n_genes_after_filter
       )
     ) %>%
-    arrange(desc(usable_rank), desc(n_non_grey_modules), largest_module_fraction, desc(filter_rank))
+    arrange(desc(usable_rank), desc(filter_rank), desc(n_non_grey_modules), largest_module_fraction)
 
   best_index <- which(vapply(region_solution_records, function(x) {
     identical(x$summary$analysis_variant, ranking_table$analysis_variant[1]) &&
@@ -1164,7 +1485,9 @@ for (expression_file in expression_files) {
 
   module_tables <- make_module_tables(region, best$dat_expr, best$net, gene_annotation)
   module_eigengenes <- WGCNA::moduleEigengenes(best$dat_expr, colors = module_tables$gene_to_module$module_color)$eigengenes
+  rownames(module_eigengenes) <- rownames(best$dat_expr)
   module_eigengenes <- WGCNA::orderMEs(module_eigengenes)
+  rownames(module_eigengenes) <- rownames(best$dat_expr)
 
   trait_results <- fit_module_trait_models(region, module_eigengenes, best$metadata, module_tables$size_table)
   enrichment_results <- test_enrichment(region, module_tables$gene_to_module, tier2_genes, ml_genes)
@@ -1212,6 +1535,7 @@ trait_results <- bind_rows(all_trait_results)
 enrichment_results <- bind_rows(all_enrichment_results)
 ahba_results <- bind_rows(all_ahba_results)
 hub_genes <- bind_rows(all_hub_genes)
+important_modules <- make_important_module_summary(trait_results, enrichment_results, ahba_results, hub_genes)
 
 output_files <- c(
   write_csv_safely(parameter_summary, file.path(output_folder, "mdd_wgcna_parameter_sensitivity.csv")),
@@ -1222,15 +1546,20 @@ output_files <- c(
   write_csv_safely(trait_results, file.path(output_folder, "module_trait_association_results.csv")),
   write_csv_safely(enrichment_results, file.path(output_folder, "module_enrichment_for_Tier2_and_ML_genes.csv")),
   write_csv_safely(ahba_results, file.path(output_folder, "mdd_modules_vs_published_AHBA_modules_enrichment.csv")),
-  write_csv_safely(hub_genes, file.path(output_folder, "module_hub_genes_top50.csv"))
+  write_csv_safely(hub_genes, file.path(output_folder, "module_hub_genes_top50.csv")),
+  write_csv_safely(important_modules, file.path(output_folder, "important_modules_summary.csv"))
 )
 
 report_path <- file.path(output_folder, "MDD_WGCNA_Module_Report.md")
-write_report(parameter_summary, trait_results, enrichment_results, ahba_results, report_path)
+write_report(parameter_summary, trait_results, enrichment_results, ahba_results, important_modules, report_path, full_report = FALSE)
 output_files <- c(output_files, report_path)
 
+full_report_path <- file.path(output_folder, "MDD_WGCNA_Module_Report_FULL.md")
+write_report(parameter_summary, trait_results, enrichment_results, ahba_results, important_modules, full_report_path, full_report = TRUE)
+output_files <- c(output_files, full_report_path)
+
 docs_report_path <- file.path(project_root, "docs", "MDD_WGCNA_Module_Report.md")
-file.copy(report_path, docs_report_path, overwrite = TRUE)
+file.copy(full_report_path, docs_report_path, overwrite = TRUE)
 output_files <- c(output_files, docs_report_path)
 
 manifest_path <- file.path(output_folder, "mdd_wgcna_manifest.json")
