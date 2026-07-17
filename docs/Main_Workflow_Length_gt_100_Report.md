@@ -6,7 +6,7 @@ Generated for the current main workflow in:
 
 ## Start Here
 
-This folder is the clean, report-ready workflow for the MDD/control transcriptomics analysis. It starts from Length > 100 filtered gene-expression inputs, keeps one coherent GeTMM-log2 normalization path, runs statistical models, defines exploratory Tier 2 candidate genes, performs enrichment, prioritizes Tier 2 genes with ML support, and now continues into Step 11 AHBA module enrichment and Step 12 full MDD WGCNA module analysis.
+This folder is the clean, report-ready workflow for the MDD/control transcriptomics analysis. It starts from Length > 100 filtered gene-expression inputs, keeps one coherent GeTMM-log2 normalization path, runs statistical models, defines exploratory Tier 2 candidate genes, performs enrichment, prioritizes Tier 2 genes with ML support, and now contains the first MDD WGCNA validation branch.
 
 The main interpretation rule is important: Tier 2 and ML-prioritized genes are exploratory candidate signatures. They are not externally validated biomarkers.
 
@@ -60,7 +60,7 @@ Length > 100 filtered expression
 -> Tier 2 enrichment
 -> extended ML v1 prioritization
 -> ML-prioritized Tier 2 genes
--> Step 11 AHBA module enrichment -> Step 12 full MDD WGCNA modules
+-> AHBA and MDD WGCNA module follow-up
 ```
 
 ## Script Order
@@ -125,25 +125,21 @@ Main tables:
 - `10_ML_prioritized_Tier2_extended/final_moderate_confidence_ML_prioritized_Tier2_genes.csv`
 - `10_ML_prioritized_Tier2_extended/final_top_genes_by_region.csv`
 
-## Step 11 and Step 12 Module Branches
+## Current MDD WGCNA Branch
 
-Step 11 AHBA module enrichment is in:
+The MDD WGCNA module branch is in:
 
-`outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment`
-
-Step 12 full MDD WGCNA module analysis is in:
-
-`outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules`
+`outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules`
 
 Script:
 
 `code/Step6_MDD_WGCNA_modules.R`
 
-Step 12 builds modules from normalized MDD/control expression matrices, not DEG-only or Tier 2-only genes. The full report is saved in:
+This branch builds modules from normalized MDD/control expression matrices, not DEG-only or Tier 2-only genes. The current saved output is a limited validation run for Frontal Cortex, clearly labeled in:
 
-`outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/MDD_WGCNA_Module_Report.md`
+`outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/MDD_WGCNA_Module_Report.md`
 
-The earlier Frontal Cortex-only run was only a smoke test; the current Step 12 report is the full completed run.
+The full WGCNA grid is intentionally separate because it is longer-running.
 
 ## What to Push to GitHub
 
@@ -164,4 +160,4 @@ Avoid pushing large raw/intermediate CSV outputs unless they are intentionally s
 - Tier 2 genes are exploratory candidates, not final FDR-significant discoveries.
 - ML v1 is internal prioritization, not validated diagnostic classification.
 - No external validation cohort is included in this clean workflow.
-- Step 12 MDD WGCNA is exploratory module-level analysis; no module reached Diagnosis BH-FDR < 0.10 in the saved best solutions.
+- The MDD WGCNA branch currently has a saved validation run, not the full completed parameter grid.

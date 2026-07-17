@@ -186,7 +186,7 @@ These are the figures to use in a report, presentation, or GitHub README.
 Published AHBA module work is here:
 
 ```text
-outputs\length_gt_100_clean_pipeline\11_AHBA_modules_enrichment
+outputs\length_gt_100_clean_pipeline\ahba_modules
 ```
 
 This branch asks how MDD candidate genes relate to published healthy adult human brain coexpression modules.
@@ -198,7 +198,7 @@ Do not overwrite these outputs when running MDD-derived WGCNA modules.
 MDD-derived WGCNA work is here:
 
 ```text
-outputs\length_gt_100_clean_pipeline\12_MDD_WGCNA_modules
+outputs\length_gt_100_clean_pipeline\mdd_wgcna_modules
 ```
 
 Script:
