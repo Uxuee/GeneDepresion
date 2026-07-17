@@ -5,10 +5,27 @@ These plots were generated from the saved Step 12 MDD WGCNA outputs. The full WG
 ## What Was Created
 
 - Module eigengene correlation heatmaps: show which modules have similar sample-level eigengene patterns.
-- Sample PCA plots: show whether samples separate in module-eigengene space by Diagnosis. t-SNE was attempted but skipped because scikit-learn failed in this Windows/Anaconda environment.
+- Sample PCA plots: show whether samples separate in module-eigengene space by Diagnosis.
 - Top-module expression heatmaps: show row-standardized expression of top hub genes across samples.
 - Top-module hub networks: show small correlation networks among hub genes, with Tier2/ML overlap genes highlighted when present.
 - Module summary bubbleplots: combine module size, Diagnosis evidence, Tier2/ML enrichment, and highlighted AHBA overlap.
+
+## Generated vs Skipped Plots
+
+The plot audit found 32 PNG plots, 32 matching PDF plots, two CSV summary files, and one README. PCA/module-clustering plots were generated successfully. t-SNE was attempted but skipped because the required sklearn functionality failed in this environment, so no t-SNE plots are included.
+
+Generated:
+
+- Module eigengene correlation heatmaps were generated for each processed region.
+- PCA/module-eigengene sample plots were generated for each processed region.
+- Top-module expression heatmaps were generated for prioritized non-grey modules.
+- Module hub-network plots were generated for selected prioritized modules.
+- Module summary bubbleplots were generated for each processed region.
+
+Skipped:
+
+- t-SNE plots were attempted but skipped because sklearn failed in this environment.
+- No t-SNE image files are included in this folder or listed as generated in the plot audit.
 
 ## Files
 
