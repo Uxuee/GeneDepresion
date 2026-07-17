@@ -12,7 +12,7 @@ These plots were generated from the saved Step 12 MDD WGCNA outputs. The full WG
 
 ## Generated vs Skipped Plots
 
-The plot audit found 32 PNG plots, 32 matching PDF plots, two CSV summary files, and one README. PCA/module-clustering plots were generated successfully. t-SNE was attempted but skipped because the required sklearn functionality failed in this environment, so no t-SNE plots are included.
+An audit confirmed the presence of 32 PNG plots, 32 PDF plots, two CSV summary files, and the README. t-SNE visualization was attempted but not generated in this environment because sklearn support failed, so no t-SNE images are included.
 
 Generated:
 
@@ -39,6 +39,13 @@ Skipped:
 - UMAP was not available in the current Python environment. t-SNE was attempted as a fallback, but scikit-learn failed with a threadpoolctl error, so only PCA sample projections are included.
 - A true cleaned or zoomed WGCNA gene dendrogram cannot be recreated from the saved CSVs alone because the original gene dendrogram/TOM object was not saved. The existing Step6 dendrogram PNGs remain available in the parent `plots/` folder.
 - No module eigengene survived BH-FDR < 0.10 for Diagnosis. Raw Diagnosis p < 0.05 should be treated as exploratory.
+
+
+## Full-Module Network Addendum
+
+Full-module network plots were added for the seven prioritized modules requested in the follow-up analysis. Unlike the earlier hub-only networks, these figures keep every gene in the module as a node and sparsify only the edges. Each module has one unlabeled network and one companion version labeling only Tier2/ML overlap genes. A multi-panel summary figure is also included.
+
+After adding the full-module network figures, the folder contains 47 PNG plots, 47 matching PDF plots, 2 CSV summary/audit files, and 1 README. No t-SNE image files are included.
 
 ## Most Presentation-Friendly Plots
 
