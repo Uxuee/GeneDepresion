@@ -1,0 +1,6 @@
+database,status,note
+org.Hs.eg.db,skipped,Package unavailable; gene descriptions and formal Entrez/Ensembl mapping from org.Hs.eg.db were not run. MSigDB-derived mappings were used when available.
+clusterProfiler,skipped,Package unavailable; GO/KEGG enrichment used custom hypergeometric tests over MSigDB gene sets when available.
+ReactomePA,skipped,Package unavailable; Reactome-like pathway enrichment used MSigDB C2 Reactome gene sets when available.
+REACTOME,skipped,No gene sets available from installed resources.
+KEGG,skipped,No gene sets available from installed resources.
