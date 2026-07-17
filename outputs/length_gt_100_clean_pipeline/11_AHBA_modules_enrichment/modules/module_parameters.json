@@ -1,5 +1,5 @@
 {
-  "input_matrix": "D:\\genes\\GeneDepresion/outputs/length_gt_100_clean_pipeline/ahba_modules/processed/ahba_gene_expression_matrix_gene_by_sample.csv",
+  "input_matrix": "D:\\genes\\GeneDepresion/outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/processed/ahba_gene_expression_matrix_gene_by_sample.csv",
   "n_samples": 3708,
   "n_genes": 5000,
   "method": "WGCNA lower-level adjacency/TOM + cutreeDynamic + mergeCloseModules",
@@ -9,13 +9,13 @@
   "restrict_to_mdd_tested_genes": true,
   "mdd_tested_gene_source": "D:\\genes\\GeneDepresion/outputs/length_gt_100_clean_pipeline/03_broad_region_LMM/LMM_all_genes_length_gt_100.csv",
   "max_genes_for_wgcna": 5000,
-  "gene_selection_audit": "D:\\genes\\GeneDepresion/outputs/length_gt_100_clean_pipeline/ahba_modules/modules/ahba_wgcna_gene_selection_audit.csv",
+  "gene_selection_audit": "D:\\genes\\GeneDepresion/outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/modules/ahba_wgcna_gene_selection_audit.csv",
   "sensitivity_grid": {
     "soft_powers": [4, 6, 8, 10],
     "deep_splits": [2, 3, 4],
     "min_module_sizes": [30, 50, 100],
     "merge_cut_heights": [0.15, 0.25]
   },
-  "parameter_sensitivity_table": "D:\\genes\\GeneDepresion/outputs/length_gt_100_clean_pipeline/ahba_modules/modules/ahba_wgcna_parameter_sensitivity.csv",
+  "parameter_sensitivity_table": "D:\\genes\\GeneDepresion/outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/modules/ahba_wgcna_parameter_sensitivity.csv",
   "selection_status": "no_usable_multi_module_solution"
 }

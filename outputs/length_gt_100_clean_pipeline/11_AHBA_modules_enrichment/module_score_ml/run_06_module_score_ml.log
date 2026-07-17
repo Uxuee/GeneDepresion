@@ -1,3 +1,7 @@
+Loading Frontal_Cortex: D:\genes\GeneDepresion\outputs\length_gt_100_clean_pipeline\02_normalized_expression\normalized_GeTMM_log2_frontal_cortex.csv
+Loading Hippocampal_Formation: D:\genes\GeneDepresion\outputs\length_gt_100_clean_pipeline\02_normalized_expression\normalized_GeTMM_log2_hippocampal_formation.csv
+Loading Insula: D:\genes\GeneDepresion\outputs\length_gt_100_clean_pipeline\02_normalized_expression\normalized_GeTMM_log2_insula.csv
+Loading Ventral_Striatum: D:\genes\GeneDepresion\outputs\length_gt_100_clean_pipeline\02_normalized_expression\normalized_GeTMM_log2_ventral_striatum.csv
 {
   "timestamp": "2026-06-30T03:36:41",
   "n_repeats": 20,
@@ -59,6 +63,6 @@
     ]
   },
   "main_feature_set": "all32_predefined_modules",
-  "output_dir": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\ahba_modules\\module_score_ml",
+  "output_dir": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\11_AHBA_modules_enrichment\\module_score_ml",
   "interpretation": "Exploratory module-level ML, not validated diagnostic prediction."
 }

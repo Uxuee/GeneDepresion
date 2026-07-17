@@ -66,7 +66,7 @@ ml_file <- file.path(
 )
 ahba_file <- file.path(
   pipeline_root,
-  "ahba_modules",
+  "11_AHBA_modules_enrichment",
   "published_modules",
   "ahba_published_gene_to_module_assignments.csv"
 )
@@ -76,7 +76,7 @@ gene_annotation_folder <- file.path(
   "keep_all_samples"
 )
 
-output_folder <- file.path(pipeline_root, "mdd_wgcna_modules")
+output_folder <- file.path(pipeline_root, "12_MDD_WGCNA_modules")
 plot_folder <- file.path(output_folder, "plots")
 best_folder <- file.path(output_folder, "best_solutions")
 dir.create(output_folder, recursive = TRUE, showWarnings = FALSE)

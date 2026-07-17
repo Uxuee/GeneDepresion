@@ -3,7 +3,7 @@
 Input result file:
 
 ```text
-D:\genes\GeneDepresion\outputs\length_gt_100_clean_pipeline\ahba_modules\published_modules\enrichment\published_ahba_module_enrichment_results.csv
+D:\genes\GeneDepresion\outputs\length_gt_100_clean_pipeline\11_AHBA_modules_enrichment\published_modules\enrichment\published_ahba_module_enrichment_results.csv
 ```
 
 The enrichment summary below uses unique gene symbols within each candidate set. Gene-region pairs are not counted more than once inside a tested set. The background is the intersection of genes tested in the clean MDD pipeline and genes present in the published AHBA module table.

@@ -10,8 +10,8 @@ project_root <- normalizePath(file.path(dirname(script_path), "..", ".."), mustW
 
 clean_dir <- file.path(project_root, "outputs", "length_gt_100_clean_pipeline")
 source_length100_dir <- file.path(project_root, "outputs", "length_gt_100_elisa_style")
-processed_dir <- file.path(clean_dir, "ahba_modules", "processed")
-out_dir <- file.path(clean_dir, "ahba_modules", "modules")
+processed_dir <- file.path(clean_dir, "11_AHBA_modules_enrichment", "processed")
+out_dir <- file.path(clean_dir, "11_AHBA_modules_enrichment", "modules")
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
 env_flag <- function(name, default = TRUE) {

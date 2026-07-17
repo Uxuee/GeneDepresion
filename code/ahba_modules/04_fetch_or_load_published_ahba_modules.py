@@ -23,7 +23,7 @@ import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 MANUAL_DIR = PROJECT_ROOT / "data" / "ahba" / "published_modules"
-OUT_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_clean_pipeline" / "ahba_modules" / "published_modules"
+OUT_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_clean_pipeline" / "11_AHBA_modules_enrichment" / "published_modules"
 OUT_TABLE = OUT_DIR / "ahba_published_gene_to_module_assignments.csv"
 SOURCE_REFERENCE = "Hawrylycz et al. 2015, Canonical genetic signatures of the adult human brain, Supplementary Table 6"
 DEFAULT_DOWNLOAD_URLS = [

@@ -322,7 +322,7 @@ Then it was min-max scaled within region/subregion among the Tier 2 rows.
 
 ---
 
-## 11. High- and moderate-confidence thresholds
+### 10a. High- and moderate-confidence thresholds
 
 A gene-region pair was classified as high-confidence if it satisfied:
 
@@ -363,7 +363,7 @@ but weaker or less consistent support than the high-confidence group.
 
 ---
 
-## 12. Top high-confidence ML-prioritized genes
+### 10b. Top high-confidence ML-prioritized genes
 
 The top high-confidence gene-region pairs by ML-priority score were:
 
@@ -406,14 +406,14 @@ Region-specific top-gene plots are below.
 
 ---
 
-## 13. AHBA module-analysis stage
+## 11. AHBA module enrichment stage
 
-The next biological-contextualization stage has been added as a reproducible pipeline branch:
+This biological-contextualization stage is Step 11 of the clean workflow:
 
 ```text
 code/ahba_modules/
 docs/ahba_modules/
-outputs/length_gt_100_clean_pipeline/ahba_modules/
+outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/
 ```
 
 The goal is to use Allen Human Brain Atlas healthy-brain expression data to build or load coexpression modules, then test whether ML-prioritized MDD Tier 2 genes are enriched in those modules.
@@ -424,7 +424,29 @@ Important interpretation:
 
 ---
 
-## 14. Current interpretation
+## 12. MDD WGCNA module-analysis stage
+
+The full MDD/control WGCNA module analysis is Step 12 of the clean workflow:
+
+```text
+code/Step6_MDD_WGCNA_modules.R
+outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/
+docs/MDD_WGCNA_Module_Report.md
+```
+
+It builds modules from broad normalized GeTMM-log2 expression matrices with variance/MAD filtering. It does not build modules from DEG-only, Tier 2-only, or ML-only gene lists. The full report is:
+
+```text
+outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/MDD_WGCNA_Module_Report_FULL.md
+```
+
+Important interpretation:
+
+> MDD WGCNA modules are exploratory coexpression modules. Diagnosis associations, Tier 2/ML enrichment, and AHBA M26/M28/M2/M6/M7 overlaps are follow-up evidence, not externally validated disease biomarkers.
+
+---
+
+## 13. Current interpretation
 
 The project now has a hierarchy of candidate evidence:
 
@@ -452,7 +474,7 @@ But it still does not prove validation. These are internally supported candidate
 
 ---
 
-## 15. Main conclusion
+## 14. Main conclusion
 
 The clean Length > 100 MDD analysis identified exploratory MDD-associated gene sets using standardized-effect evidence tiers. Tier 2 became the main candidate pool. Enrichment gave biological interpretation. ML was then used as a gene-prioritization tool, not as a validated diagnostic classifier.
 

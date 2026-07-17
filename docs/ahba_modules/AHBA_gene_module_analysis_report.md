@@ -114,7 +114,7 @@ data/ahba/published_modules/
 Standardized published-module output:
 
 ```text
-outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/ahba_published_gene_to_module_assignments.csv
+outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/ahba_published_gene_to_module_assignments.csv
 ```
 
 The published-module enrichment background is not all human genes. It is:
@@ -171,7 +171,7 @@ The published-module enrichment produced 41 nominal rows with p < 0.05, 6 rows w
 The report-ready enrichment tables are stored in:
 
 ```text
-outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/enrichment/
+outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/enrichment/
 ```
 
 Main corrected result: Ventral Striatum up-in-MDD all Tier 2 genes were enriched in published AHBA module M26 (9 overlapping genes; raw p = 5.2e-06; BH-FDR = 0.000166). Additional BH-FDR < 0.05 results were Cingulate gyrus 25 down-in-MDD all Tier 2 genes in M2 and Ventral Striatum down-in-MDD all Tier 2 genes in M6.
@@ -199,7 +199,7 @@ Results are produced only after AHBA raw data have been downloaded or placed
 locally and modules have been constructed. The stage writes outputs to:
 
 ```text
-outputs/length_gt_100_clean_pipeline/ahba_modules/
+outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/
 ```
 
 ## Figures
@@ -221,14 +221,14 @@ AHBA module enrichment was strongest for broader all-Tier-2 direction-specific c
 Report figures:
 
 ```text
-outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/figures/ahba_enrichment_evidence_ladder_by_gene_set.png
-outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/figures/ahba_M26_evidence_across_gene_sets.png
+outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/figures/ahba_enrichment_evidence_ladder_by_gene_set.png
+outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/figures/ahba_M26_evidence_across_gene_sets.png
 ```
 
 Plot data:
 
 ```text
-outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/enrichment/ahba_enrichment_evidence_ladder_plot_data.csv
+outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/enrichment/ahba_enrichment_evidence_ladder_plot_data.csv
 ```
 
 Evidence ladder values:
@@ -246,7 +246,7 @@ Nominal or uncorrected rows remain exploratory and should not be interpreted as 
 Hawrylycz et al. 2015 Supplementary Table 8 / MOESM99 was loaded from the official Springer supplementary material source and used to annotate modules appearing in corrected, suggestive, and top nominal enrichment rows. The full annotation outputs are stored in:
 
 ```text
-outputs/length_gt_100_clean_pipeline/ahba_modules/published_modules/annotations/
+outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/annotations/
 ```
 
 Key annotated modules included M26, M2, M6, M7, M28, and additional nominal modules. Selected module annotations:
@@ -290,7 +290,7 @@ Best all-32-module model per broad region:
 Best sensitivity models by region/feature set are stored in:
 
 ```text
-outputs/length_gt_100_clean_pipeline/ahba_modules/module_score_ml/module_score_ml_best_model_by_region_feature_set.csv
+outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/module_score_ml_best_model_by_region_feature_set.csv
 ```
 
 Interpretation: all-32-module performance was modest and should be described as preliminary module-level signal, not diagnostic performance. Insula showed the strongest all-32 balanced accuracy in this pilot, followed by Ventral Striatum and Frontal Cortex; Hippocampal Formation was close to baseline. Post-enrichment module subsets can look stronger in some regions, but they are explicitly exploratory because the module subsets were chosen after enrichment.

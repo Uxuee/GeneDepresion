@@ -34,7 +34,7 @@ deduplicated within each tested set before hypergeometric testing.
 Outputs are written to:
 
 ```text
-outputs/length_gt_100_clean_pipeline/ahba_modules/
+outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/
 ```
 
 Interpretation: AHBA module analysis provides healthy-brain coexpression context

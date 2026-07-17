@@ -20,7 +20,7 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = PROJECT_ROOT / "data" / "ahba"
 CLEAN_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_clean_pipeline"
-OUT_DIR = CLEAN_DIR / "ahba_modules" / "processed"
+OUT_DIR = CLEAN_DIR / "11_AHBA_modules_enrichment" / "processed"
 STEP10_DIR = CLEAN_DIR / "10_ML_prioritized_Tier2_extended"
 
 

@@ -5,7 +5,7 @@
 Hawrylycz et al. 2015 Supplementary Table 6 was downloaded from the official Springer/Nature supplementary materials and standardized into:
 
 ```text
-D:\genes\GeneDepresion\outputs\length_gt_100_clean_pipeline\ahba_modules\published_modules\ahba_published_gene_to_module_assignments.csv
+D:\genes\GeneDepresion\outputs\length_gt_100_clean_pipeline\11_AHBA_modules_enrichment\published_modules\ahba_published_gene_to_module_assignments.csv
 ```
 
 Official source URL:
