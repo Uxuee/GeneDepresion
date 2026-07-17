@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-07-17T20:37:02",
+  "project_root": "D:\\genes\\GeneDepresion",
+  "inputs": {
+    "parameter_sensitivity": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\12_MDD_WGCNA_modules\\mdd_wgcna_parameter_sensitivity.csv",
+    "assignments": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\12_MDD_WGCNA_modules\\best_solution_gene_to_module_assignments.csv",
+    "hubs": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\12_MDD_WGCNA_modules\\module_hub_genes_top50.csv",
+    "top_priority": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\12_MDD_WGCNA_modules\\mdd_wgcna_top_priority_modules_for_report.csv",
+    "trait": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\12_MDD_WGCNA_modules\\module_trait_association_results.csv",
+    "module_enrichment": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\12_MDD_WGCNA_modules\\module_enrichment_for_Tier2_and_ML_genes.csv",
+    "tier2": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\07_Tier2_candidate_gene_sets\\Tier2_candidate_genes_all_regions.csv",
+    "ml": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\10_ML_prioritized_Tier2_extended\\final_ranked_ML_prioritized_Tier2_genes.csv"
+  },
+  "outputs": [
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\12_MDD_WGCNA_modules\\module_level_ml2\\stable_core_genes_by_module.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\12_MDD_WGCNA_modules\\module_level_ml2\\stable_core_gene_summary_by_module.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\12_MDD_WGCNA_modules\\module_level_ml2\\Stable_Core_Genes_for_Module_Level_ML2.md",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\12_MDD_WGCNA_modules\\module_level_ml2\\stable_core_gene_manifest.json"
+  ],
+  "focus_modules": [
+    {
+      "region": "Ventral Striatum",
+      "module": "MElavenderblush3"
+    },
+    {
+      "region": "Ventral Striatum",
+      "module": "MElightcyan1"
+    },
+    {
+      "region": "Ventral Striatum",
+      "module": "MEdarkred"
+    },
+    {
+      "region": "Ventral Striatum",
+      "module": "MElightgreen"
+    },
+    {
+      "region": "Insula",
+      "module": "MEorange"
+    },
+    {
+      "region": "Hippocampal Formation",
+      "module": "MEgreen"
+    },
+    {
+      "region": "Frontal Cortex",
+      "module": "MEdarkgreen"
+    }
+  ],
+  "selection_rules": {
+    "diagnosis_p_values_used_for_selection": false,
+    "tier2_or_ml_status_used_for_selection": false,
+    "stable_core_abs_kME_threshold": 0.6,
+    "minimum_stable_core_fallback_target": 25,
+    "top_hub_cap": 50
+  },
+  "stability_method": "best_solution_kME_hubness_fallback",
+  "run_level_assignment_files_found": [],
+  "limitation_note": "Run-level gene-to-module assignment files were not saved for each parameter-grid run; assignment_stability_frequency is unavailable and stable cores use best-solution kME/hub rank."
+}

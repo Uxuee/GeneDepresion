@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-06-30T02:11:26",
+  "published_module_assignment_table": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\11_AHBA_modules_enrichment\\published_modules\\ahba_published_gene_to_module_assignments.csv",
+  "mdd_tested_universe_source": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\03_broad_region_LMM\\LMM_all_genes_length_gt_100.csv",
+  "background_definition": "unique genes present in both the MDD clean-pipeline tested-gene universe and the published AHBA module assignment table",
+  "background_gene_count": 12042,
+  "published_modules_tested": 32,
+  "candidate_set_audit_file": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\11_AHBA_modules_enrichment\\published_modules\\enrichment\\published_ahba_candidate_set_audit.csv",
+  "results_file": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\11_AHBA_modules_enrichment\\published_modules\\enrichment\\published_ahba_module_enrichment_results.csv",
+  "module_size_table": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\11_AHBA_modules_enrichment\\published_modules\\enrichment\\published_ahba_module_size_table.csv",
+  "plots_created": [
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\11_AHBA_modules_enrichment\\published_modules\\figures\\published_ahba_module_enrichment_dotplot.png",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\11_AHBA_modules_enrichment\\published_modules\\figures\\published_ahba_module_enrichment_barplot.png"
+  ],
+  "interpretation": "Published AHBA canonical modules provide healthy-brain coexpression context for ML-prioritized MDD candidate genes. They do not validate these genes as disease biomarkers."
+}

@@ -1,0 +1,4 @@
+gene_set_level,candidate_set,AHBA_module,region,direction,raw_p_value,BH_FDR,minus_log10_BH_FDR,minus_log10_raw_p,evidence_category,overlap_count,candidate_genes_tested,module_size,overlapping_gene_symbols
+High-confidence ML only,high_confidence,M26,Ventral Striatum,up_in_MDD,,,0.0,0.0,not present,0,0,0,
+High + moderate ML,high_plus_moderate,M26,Ventral Striatum,up_in_MDD,0.0029497905942424,0.0943932990157589,1.0250588351910668,2.5302088135109826,suggestive FDR < 0.10,3,7,554,MORN5;RPGR;TSGA10
+All Tier 2,all_Tier2,M26,Ventral Striatum,up_in_MDD,5.196072408682109e-06,0.0001662743170778,3.7791748272252934,5.284324805545127,strong FDR < 0.05,9,30,554,C4ORF47;CDNF;FBXL13;MORN5;MYCBPAP;RPGR;TNFRSF10B;TSGA10;TTC23L

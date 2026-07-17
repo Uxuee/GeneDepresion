@@ -1,0 +1,341 @@
+region,module,module_role,gene_set,gene_set_family,module_gene_count,gene_set_count_in_background,overlap_count,overlap_genes,p_value,fdr_BH,enrichment_fdr_lt_0_10,enrichment_raw_p_lt_0_05
+Cingulate gyrus 25,MEblue,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,1386,116,28,100130934;100271722;101927789;101928118;101929710;105372697;105376387;105376547;105376607;105377623;105378688;105378715;107984961;107985781;10974;221476;221756;27098;3107;402573;407;4147;4257;4500;6271;684959;6948;84651,0.8356063162647596,1,FALSE,FALSE
+Cingulate gyrus 25,MEblue,coexpression_module,high_confidence_ML_genes,high_confidence_ML,1386,5,2,101929710;105376607,0.42443976834738906,1,FALSE,FALSE
+Cingulate gyrus 25,MEblue,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,1386,19,9,100130934;101927789;101929710;105372697;105376607;10974;27098;4500;6948,0.05324200544612442,0.7187670735226797,FALSE,FALSE
+Cingulate gyrus 25,MEblue,coexpression_module,same_region_Tier2_genes,same_region_Tier2,1386,26,6,10974;221756;27098;3107;4500;6271,0.7685508404997617,1,FALSE,FALSE
+Cingulate gyrus 25,MEblue,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,1386,5,3,10974;27098;4500,0.13414735688203488,1,FALSE,FALSE
+Cingulate gyrus 25,MEgreen,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,877,116,25,100506474;100873984;101928768;101929110;101930048;105369793;105370516;105374681;105375097;105376527;107985988;124044;1392;144920;150538;221150;221303;23349;27012;414062;440279;53358;84539;90632;9764,0.15249605514786102,0.5881990698560354,FALSE,FALSE
+Cingulate gyrus 25,MEgreen,coexpression_module,high_confidence_ML_genes,high_confidence_ML,877,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEgreen,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,877,19,2,107985988;414062,0.8713123702737842,1,FALSE,FALSE
+Cingulate gyrus 25,MEgreen,coexpression_module,same_region_Tier2_genes,same_region_Tier2,877,26,1,105376527,0.9934491250228543,1,FALSE,FALSE
+Cingulate gyrus 25,MEgreen,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,877,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEsaddlebrown,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,40,116,1,105379042,0.6104095702604992,1,FALSE,FALSE
+Cingulate gyrus 25,MEsaddlebrown,coexpression_module,high_confidence_ML_genes,high_confidence_ML,40,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEsaddlebrown,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,40,19,1,105379042,0.14177395087305245,1,FALSE,FALSE
+Cingulate gyrus 25,MEsaddlebrown,coexpression_module,same_region_Tier2_genes,same_region_Tier2,40,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEsaddlebrown,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,40,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEwhite,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,50,116,5,100124536;109616960;116349;677776;9304,0.005681146586889272,0.09039519935702914,TRUE,TRUE
+Cingulate gyrus 25,MEwhite,coexpression_module,high_confidence_ML_genes,high_confidence_ML,50,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEwhite,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,50,19,1,116349,0.17411743986329864,1,FALSE,FALSE
+Cingulate gyrus 25,MEwhite,coexpression_module,same_region_Tier2_genes,same_region_Tier2,50,26,5,100124536;109616960;116349;677776;9304,4.578049194618897e-6,1.2360732825471022e-4,TRUE,TRUE
+Cingulate gyrus 25,MEwhite,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,50,5,1,116349,0.049029173419045335,1,FALSE,TRUE
+Cingulate gyrus 25,MEorange,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,54,116,1,8013,0.7204036278594901,1,FALSE,FALSE
+Cingulate gyrus 25,MEorange,coexpression_module,high_confidence_ML_genes,high_confidence_ML,54,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEorange,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,54,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEorange,coexpression_module,same_region_Tier2_genes,same_region_Tier2,54,26,1,8013,0.24650992018577145,1,FALSE,FALSE
+Cingulate gyrus 25,MEorange,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,54,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEgrey60,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,255,116,1,81848,0.997855901687545,1,FALSE,FALSE
+Cingulate gyrus 25,MEgrey60,coexpression_module,high_confidence_ML_genes,high_confidence_ML,255,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEgrey60,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,255,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEgrey60,coexpression_module,same_region_Tier2_genes,same_region_Tier2,255,26,1,81848,0.744495149277471,1,FALSE,FALSE
+Cingulate gyrus 25,MEgrey60,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,255,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEyellowgreen,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,29,116,3,107987254;51326;644297,0.028677700338217184,0.19357447728296598,FALSE,TRUE
+Cingulate gyrus 25,MEyellowgreen,coexpression_module,high_confidence_ML_genes,high_confidence_ML,29,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEyellowgreen,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,29,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEyellowgreen,coexpression_module,same_region_Tier2_genes,same_region_Tier2,29,26,1,107987254,0.1406848255485802,0.9496225724529164,FALSE,FALSE
+Cingulate gyrus 25,MEyellowgreen,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,29,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEred,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,206,116,1,29108,0.9928359696025926,1,FALSE,FALSE
+Cingulate gyrus 25,MEred,coexpression_module,high_confidence_ML_genes,high_confidence_ML,206,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEred,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,206,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEred,coexpression_module,same_region_Tier2_genes,same_region_Tier2,206,26,1,29108,0.6660269574478503,1,FALSE,FALSE
+Cingulate gyrus 25,MEred,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,206,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkmagenta,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,168,116,1,4604,0.9818974947752517,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkmagenta,coexpression_module,high_confidence_ML_genes,high_confidence_ML,168,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkmagenta,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,168,19,1,4604,0.4782483911983382,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkmagenta,coexpression_module,same_region_Tier2_genes,same_region_Tier2,168,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkmagenta,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,168,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEbrown,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,662,116,17,100131208;10126;101927498;101927659;102191832;10962;2257;255167;25830;2845;389493;4885;54769;5563;5775;728392;84262,0.3649052907158826,1,FALSE,FALSE
+Cingulate gyrus 25,MEbrown,coexpression_module,high_confidence_ML_genes,high_confidence_ML,662,5,1,101927498,0.5085661356074457,1,FALSE,FALSE
+Cingulate gyrus 25,MEbrown,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,662,19,1,101927498,0.9330425867820884,1,FALSE,FALSE
+Cingulate gyrus 25,MEbrown,coexpression_module,same_region_Tier2_genes,same_region_Tier2,662,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEbrown,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,662,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkred,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,195,116,4,101928942;105373894;105374054;105374580,0.6697812410388895,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkred,coexpression_module,high_confidence_ML_genes,high_confidence_ML,195,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkred,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,195,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkred,coexpression_module,same_region_Tier2_genes,same_region_Tier2,195,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkred,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,195,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkorange,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,52,116,1,390616,0.7068167395834933,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkorange,coexpression_module,high_confidence_ML_genes,high_confidence_ML,52,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkorange,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,52,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkorange,coexpression_module,same_region_Tier2_genes,same_region_Tier2,52,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkorange,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,52,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkgrey,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,56,116,3,342538;677766;692148,0.1398399913116812,0.5881990698560354,FALSE,FALSE
+Cingulate gyrus 25,MEdarkgrey,coexpression_module,high_confidence_ML_genes,high_confidence_ML,56,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkgrey,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,56,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkgrey,coexpression_module,same_region_Tier2_genes,same_region_Tier2,56,26,3,342538;677766;692148,0.0028829079736654973,0.025946171762989474,TRUE,TRUE
+Cingulate gyrus 25,MEdarkgrey,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,56,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEblack,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,194,116,6,128153;129852;136288;146802;254956;441054,0.2943665299157365,0.9934870384656106,FALSE,FALSE
+Cingulate gyrus 25,MEblack,coexpression_module,high_confidence_ML_genes,high_confidence_ML,194,5,1,254956,0.1795847442607169,1,FALSE,FALSE
+Cingulate gyrus 25,MEblack,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,194,19,1,254956,0.5291740261452682,1,FALSE,FALSE
+Cingulate gyrus 25,MEblack,coexpression_module,same_region_Tier2_genes,same_region_Tier2,194,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEblack,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,194,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEgrey,unassigned_grey,all_Tier2_genes,all_Tier2_across_all_regions,12,116,0,,1,NA,FALSE,FALSE
+Cingulate gyrus 25,MEgrey,unassigned_grey,high_confidence_ML_genes,high_confidence_ML,12,5,0,,1,NA,FALSE,FALSE
+Cingulate gyrus 25,MEgrey,unassigned_grey,high_plus_moderate_ML_genes,high_plus_moderate_ML,12,19,0,,1,NA,FALSE,FALSE
+Cingulate gyrus 25,MEgrey,unassigned_grey,same_region_Tier2_genes,same_region_Tier2,12,26,0,,1,NA,FALSE,FALSE
+Cingulate gyrus 25,MEgrey,unassigned_grey,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,12,5,0,,1,NA,FALSE,FALSE
+Cingulate gyrus 25,MEdarkgreen,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,174,116,2,100750326;100873982,0.9173228027158049,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkgreen,coexpression_module,high_confidence_ML_genes,high_confidence_ML,174,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkgreen,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,174,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkgreen,coexpression_module,same_region_Tier2_genes,same_region_Tier2,174,26,1,100750326,0.6027820971506843,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkgreen,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,174,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkolivegreen,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,33,116,4,101447996;101954273;105375038;442245,0.00669594069311327,0.09039519935702914,TRUE,TRUE
+Cingulate gyrus 25,MEdarkolivegreen,coexpression_module,high_confidence_ML_genes,high_confidence_ML,33,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkolivegreen,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,33,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkolivegreen,coexpression_module,same_region_Tier2_genes,same_region_Tier2,33,26,3,101447996;101954273;105375038,6.142478643227056e-4,0.008292346168356526,TRUE,TRUE
+Cingulate gyrus 25,MEdarkolivegreen,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,33,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MElightcyan1,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,23,116,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MElightcyan1,coexpression_module,high_confidence_ML_genes,high_confidence_ML,23,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MElightcyan1,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,23,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MElightcyan1,coexpression_module,same_region_Tier2_genes,same_region_Tier2,23,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MElightcyan1,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,23,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEfloralwhite,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,204,116,2,100874047;107984815,0.9544420548083727,1,FALSE,FALSE
+Cingulate gyrus 25,MEfloralwhite,coexpression_module,high_confidence_ML_genes,high_confidence_ML,204,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEfloralwhite,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,204,19,1,100874047,0.5474767868522743,1,FALSE,FALSE
+Cingulate gyrus 25,MEfloralwhite,coexpression_module,same_region_Tier2_genes,same_region_Tier2,204,26,2,100874047;107984815,0.28703348100475834,1,FALSE,FALSE
+Cingulate gyrus 25,MEfloralwhite,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,204,5,1,100874047,0.18808814640604166,1,FALSE,FALSE
+Cingulate gyrus 25,MEskyblue,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,44,116,4,105370015;107984015;2830;85443,0.01828565510774746,0.16457089596972715,FALSE,TRUE
+Cingulate gyrus 25,MEskyblue,coexpression_module,high_confidence_ML_genes,high_confidence_ML,44,5,1,107984015,0.043249383492065974,1,FALSE,TRUE
+Cingulate gyrus 25,MEskyblue,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,44,19,2,107984015;2830,0.011769907008807017,0.3177874892377895,FALSE,TRUE
+Cingulate gyrus 25,MEskyblue,coexpression_module,same_region_Tier2_genes,same_region_Tier2,44,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEskyblue,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,44,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEplum1,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,26,116,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEplum1,coexpression_module,high_confidence_ML_genes,high_confidence_ML,26,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEplum1,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,26,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEplum1,coexpression_module,same_region_Tier2_genes,same_region_Tier2,26,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEplum1,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,26,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkorange2,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,21,116,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkorange2,coexpression_module,high_confidence_ML_genes,high_confidence_ML,21,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkorange2,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,21,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkorange2,coexpression_module,same_region_Tier2_genes,same_region_Tier2,21,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEdarkorange2,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,21,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MElightgreen,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,101,116,5,105369673;105374505;107986295;107986526;219557,0.08447386584723014,0.4561588755750428,FALSE,FALSE
+Cingulate gyrus 25,MElightgreen,coexpression_module,high_confidence_ML_genes,high_confidence_ML,101,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MElightgreen,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,101,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MElightgreen,coexpression_module,same_region_Tier2_genes,same_region_Tier2,101,26,1,107986526,0.4125250925973384,1,FALSE,FALSE
+Cingulate gyrus 25,MElightgreen,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,101,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MElightsteelblue1,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,24,116,1,100873970,0.43145554770963135,1,FALSE,FALSE
+Cingulate gyrus 25,MElightsteelblue1,coexpression_module,high_confidence_ML_genes,high_confidence_ML,24,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MElightsteelblue1,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,24,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MElightsteelblue1,coexpression_module,same_region_Tier2_genes,same_region_Tier2,24,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MElightsteelblue1,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,24,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEsteelblue,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,36,116,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEsteelblue,coexpression_module,high_confidence_ML_genes,high_confidence_ML,36,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEsteelblue,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,36,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEsteelblue,coexpression_module,same_region_Tier2_genes,same_region_Tier2,36,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEsteelblue,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,36,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEskyblue3,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,28,116,1,105374758,0.48266065189678664,1,FALSE,FALSE
+Cingulate gyrus 25,MEskyblue3,coexpression_module,high_confidence_ML_genes,high_confidence_ML,28,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEskyblue3,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,28,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEskyblue3,coexpression_module,same_region_Tier2_genes,same_region_Tier2,28,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEskyblue3,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,28,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEmediumpurple3,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,25,116,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEmediumpurple3,coexpression_module,high_confidence_ML_genes,high_confidence_ML,25,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEmediumpurple3,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,25,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEmediumpurple3,coexpression_module,same_region_Tier2_genes,same_region_Tier2,25,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEmediumpurple3,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,25,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEorangered4,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,25,116,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEorangered4,coexpression_module,high_confidence_ML_genes,high_confidence_ML,25,5,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEorangered4,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,25,19,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEorangered4,coexpression_module,same_region_Tier2_genes,same_region_Tier2,25,26,0,,1,1,FALSE,FALSE
+Cingulate gyrus 25,MEorangered4,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,25,5,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkred,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,971,138,26,100124536;100130934;100507297;100750326;100873982;101926987;101928768;101930048;102724881;105370516;105372697;105376520;105378688;107987147;107987254;109616960;10974;11284;113939912;130872;51326;642517;642826;644297;677776;919,0.6040678131400121,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkred,coexpression_module,high_confidence_ML_genes,high_confidence_ML,971,11,3,113939912;642826;919,0.3633189738230318,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkred,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,971,31,7,100130934;101926987;105372697;10974;113939912;642826;919,0.39659209931914674,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkred,coexpression_module,same_region_Tier2_genes,same_region_Tier2,971,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkred,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,971,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEmagenta,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,199,138,4,105369340;29108;3430;677766,0.8070835321832447,1,FALSE,FALSE
+dlPFC BA8/9,MEmagenta,coexpression_module,high_confidence_ML_genes,high_confidence_ML,199,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEmagenta,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,199,31,2,105369340;3430,0.35145584986346035,1,FALSE,FALSE
+dlPFC BA8/9,MEmagenta,coexpression_module,same_region_Tier2_genes,same_region_Tier2,199,31,1,105369340,0.7171659835190647,1,FALSE,FALSE
+dlPFC BA8/9,MEmagenta,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,199,6,1,105369340,0.2163607772141194,1,FALSE,FALSE
+dlPFC BA8/9,MEgreen,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,774,138,11,100506474;101927972;101929549;105374580;105374758;105378715;107984015;107985988;112268455;414062;677781,0.9973920653554373,1,FALSE,FALSE
+dlPFC BA8/9,MEgreen,coexpression_module,high_confidence_ML_genes,high_confidence_ML,774,11,1,107984015,0.8430800821039837,1,FALSE,FALSE
+dlPFC BA8/9,MEgreen,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,774,31,4,101929549;107984015;107985988;414062,0.729316852202395,1,FALSE,FALSE
+dlPFC BA8/9,MEgreen,coexpression_module,same_region_Tier2_genes,same_region_Tier2,774,31,5,101927972;105374580;107984015;112268455;414062,0.5362219293341904,1,FALSE,FALSE
+dlPFC BA8/9,MEgreen,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,774,6,2,107984015;414062,0.23478847697847788,1,FALSE,FALSE
+dlPFC BA8/9,MEturquoise,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,742,138,16,100873970;100874047;101929270;105372633;105376387;105376547;105377623;107984961;107985781;112268239;441549;442245;4500;4604;84651;9111,0.88960602300054,1,FALSE,FALSE
+dlPFC BA8/9,MEturquoise,coexpression_module,high_confidence_ML_genes,high_confidence_ML,742,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEturquoise,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,742,31,3,100874047;4500;4604,0.8597090737338817,1,FALSE,FALSE
+dlPFC BA8/9,MEturquoise,coexpression_module,same_region_Tier2_genes,same_region_Tier2,742,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEturquoise,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,742,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MElightyellow,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,35,138,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MElightyellow,coexpression_module,high_confidence_ML_genes,high_confidence_ML,35,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MElightyellow,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,35,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MElightyellow,coexpression_module,same_region_Tier2_genes,same_region_Tier2,35,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MElightyellow,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,35,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEpurple,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,203,138,3,101928304;105376380;221476,0.9248348387606554,1,FALSE,FALSE
+dlPFC BA8/9,MEpurple,coexpression_module,high_confidence_ML_genes,high_confidence_ML,203,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEpurple,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,203,31,1,105376380,0.7244027979648668,1,FALSE,FALSE
+dlPFC BA8/9,MEpurple,coexpression_module,same_region_Tier2_genes,same_region_Tier2,203,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEpurple,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,203,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEsalmon,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,53,138,3,100506119;101447996;101954273,0.17922296848675937,1,FALSE,FALSE
+dlPFC BA8/9,MEsalmon,coexpression_module,high_confidence_ML_genes,high_confidence_ML,53,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEsalmon,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,53,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEsalmon,coexpression_module,same_region_Tier2_genes,same_region_Tier2,53,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEsalmon,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,53,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEblue,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,703,138,37,100507098;100873984;100874337;101926953;101927003;101927078;101927351;101927366;101927659;101928937;101928942;101929741;105369673;105369793;105371658;105373769;105373894;105374054;105374505;105374681;105375097;105376998;105377432;105377975;107985188;107986284;107986295;107986526;107986698;112268008;144920;151258;196472;219557;353189;389493;441177,4.807774726651748e-5,0.0010096326925968671,TRUE,TRUE
+dlPFC BA8/9,MEblue,coexpression_module,high_confidence_ML_genes,high_confidence_ML,703,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEblue,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,703,31,4,101927003;101927366;101929741;105377975,0.6522715518370502,1,FALSE,FALSE
+dlPFC BA8/9,MEblue,coexpression_module,same_region_Tier2_genes,same_region_Tier2,703,31,21,100873984;100874337;101926953;101927003;101927078;101927659;101928937;101928942;105369673;105371658;105373769;105373894;105374054;105374505;105375097;105376998;107986698;151258;196472;219557;441177,1.0806821306231802e-11,2.2694324743086785e-10,TRUE,TRUE
+dlPFC BA8/9,MEblue,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,703,6,1,101927003,0.5973211943391321,1,FALSE,FALSE
+dlPFC BA8/9,MEblack,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,272,138,6,10266;105376607;221756;254956;3107;684959,0.7707794784956663,1,FALSE,FALSE
+dlPFC BA8/9,MEblack,coexpression_module,high_confidence_ML_genes,high_confidence_ML,272,11,2,105376607;254956,0.11731994943319883,1,FALSE,FALSE
+dlPFC BA8/9,MEblack,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,272,31,2,105376607;254956,0.5091489429833381,1,FALSE,FALSE
+dlPFC BA8/9,MEblack,coexpression_module,same_region_Tier2_genes,same_region_Tier2,272,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEblack,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,272,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MElightgreen,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,35,138,1,23475,0.6258036959019189,1,FALSE,FALSE
+dlPFC BA8/9,MElightgreen,coexpression_module,high_confidence_ML_genes,high_confidence_ML,35,11,1,23475,0.07443268524507751,1,FALSE,FALSE
+dlPFC BA8/9,MElightgreen,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,35,31,1,23475,0.19621329715558844,1,FALSE,FALSE
+dlPFC BA8/9,MElightgreen,coexpression_module,same_region_Tier2_genes,same_region_Tier2,35,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MElightgreen,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,35,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEbrown,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,541,138,16,100128511;101929607;105370015;1392;1652;171177;255167;27098;2830;2845;286016;408050;4885;692148;84539;85443,0.424103482465922,1,FALSE,FALSE
+dlPFC BA8/9,MEbrown,coexpression_module,high_confidence_ML_genes,high_confidence_ML,541,11,1,101929607,0.7166249075627326,1,FALSE,FALSE
+dlPFC BA8/9,MEbrown,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,541,31,3,101929607;27098;2830,0.6673886889954658,1,FALSE,FALSE
+dlPFC BA8/9,MEbrown,coexpression_module,same_region_Tier2_genes,same_region_Tier2,541,31,3,101929607;1652;2830,0.6673886889954658,1,FALSE,FALSE
+dlPFC BA8/9,MEbrown,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,541,6,2,101929607;2830,0.13066508658207068,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkturquoise,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,26,138,1,9304,0.5178694043757223,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkturquoise,coexpression_module,high_confidence_ML_genes,high_confidence_ML,26,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkturquoise,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,26,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkturquoise,coexpression_module,same_region_Tier2_genes,same_region_Tier2,26,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkturquoise,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,26,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MElightcyan,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,43,138,1,677829,0.7013972730481808,1,FALSE,FALSE
+dlPFC BA8/9,MElightcyan,coexpression_module,high_confidence_ML_genes,high_confidence_ML,43,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MElightcyan,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,43,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MElightcyan,coexpression_module,same_region_Tier2_genes,same_region_Tier2,43,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MElightcyan,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,43,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkgreen,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,26,138,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkgreen,coexpression_module,high_confidence_ML_genes,high_confidence_ML,26,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkgreen,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,26,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkgreen,coexpression_module,same_region_Tier2_genes,same_region_Tier2,26,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkgreen,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,26,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEmidnightblue,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,45,138,1,7010,0.7177933295180696,1,FALSE,FALSE
+dlPFC BA8/9,MEmidnightblue,coexpression_module,high_confidence_ML_genes,high_confidence_ML,45,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEmidnightblue,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,45,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEmidnightblue,coexpression_module,same_region_Tier2_genes,same_region_Tier2,45,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEmidnightblue,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,45,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEgrey60,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,36,138,1,6834,0.6362043182514727,1,FALSE,FALSE
+dlPFC BA8/9,MEgrey60,coexpression_module,high_confidence_ML_genes,high_confidence_ML,36,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEgrey60,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,36,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEgrey60,coexpression_module,same_region_Tier2_genes,same_region_Tier2,36,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEgrey60,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,36,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEgrey,unassigned_grey,all_Tier2_genes,all_Tier2_across_all_regions,29,138,2,100505894;101929710,0.1900693950593785,NA,FALSE,FALSE
+dlPFC BA8/9,MEgrey,unassigned_grey,high_confidence_ML_genes,high_confidence_ML,29,11,2,100505894;101929710,0.0017297388564667846,NA,FALSE,FALSE
+dlPFC BA8/9,MEgrey,unassigned_grey,high_plus_moderate_ML_genes,high_plus_moderate_ML,29,31,2,100505894;101929710,0.013611669658642377,NA,FALSE,FALSE
+dlPFC BA8/9,MEgrey,unassigned_grey,same_region_Tier2_genes,same_region_Tier2,29,31,0,,1,NA,FALSE,FALSE
+dlPFC BA8/9,MEgrey,unassigned_grey,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,29,6,0,,1,NA,FALSE,FALSE
+dlPFC BA8/9,MEgreenyellow,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,91,138,1,100131564,0.9234985643811751,1,FALSE,FALSE
+dlPFC BA8/9,MEgreenyellow,coexpression_module,high_confidence_ML_genes,high_confidence_ML,91,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEgreenyellow,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,91,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEgreenyellow,coexpression_module,same_region_Tier2_genes,same_region_Tier2,91,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEgreenyellow,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,91,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEtan,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,84,138,3,2355;3736;3852,0.41066498107500893,1,FALSE,FALSE
+dlPFC BA8/9,MEtan,coexpression_module,high_confidence_ML_genes,high_confidence_ML,84,11,1,3852,0.1701896941929829,1,FALSE,FALSE
+dlPFC BA8/9,MEtan,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,84,31,2,2355;3852,0.0948233514165906,1,FALSE,FALSE
+dlPFC BA8/9,MEtan,coexpression_module,same_region_Tier2_genes,same_region_Tier2,84,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEtan,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,84,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEcyan,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,45,138,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEcyan,coexpression_module,high_confidence_ML_genes,high_confidence_ML,45,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEcyan,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,45,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEcyan,coexpression_module,same_region_Tier2_genes,same_region_Tier2,45,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEcyan,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,45,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEorange,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,23,138,5,1846;1847;8013;81848;90632,3.356649748442826e-4,0.0035244822358649675,TRUE,TRUE
+dlPFC BA8/9,MEorange,coexpression_module,high_confidence_ML_genes,high_confidence_ML,23,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEorange,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,23,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEorange,coexpression_module,same_region_Tier2_genes,same_region_Tier2,23,31,1,90632,0.13355836227205253,1,FALSE,FALSE
+dlPFC BA8/9,MEorange,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,23,6,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkgrey,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,24,138,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkgrey,coexpression_module,high_confidence_ML_genes,high_confidence_ML,24,11,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkgrey,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,24,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkgrey,coexpression_module,same_region_Tier2_genes,same_region_Tier2,24,31,0,,1,1,FALSE,FALSE
+dlPFC BA8/9,MEdarkgrey,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,24,6,0,,1,1,FALSE,FALSE
+OFC BA11,MEbrown,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,649,147,18,100271722;100506753;101927057;101928161;101928304;105369340;105370868;105371743;105372817;105374758;105376380;105377623;10732;221476;221756;286467;3107;684959,0.643799254403929,1,FALSE,FALSE
+OFC BA11,MEbrown,coexpression_module,high_confidence_ML_genes,high_confidence_ML,649,9,0,,1,1,FALSE,FALSE
+OFC BA11,MEbrown,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,649,40,4,101928161;105369340;105370868;105376380,0.7815908535546023,1,FALSE,FALSE
+OFC BA11,MEbrown,coexpression_module,same_region_Tier2_genes,same_region_Tier2,649,20,1,105376380,0.938352844035155,1,FALSE,FALSE
+OFC BA11,MEbrown,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,649,8,1,105376380,0.6714590760153338,1,FALSE,FALSE
+OFC BA11,MEred,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,405,147,11,101447996;10266;105376607;107984839;11017;147727;23475;27098;29108;389493;6948,0.6545961541012747,1,FALSE,FALSE
+OFC BA11,MEred,coexpression_module,high_confidence_ML_genes,high_confidence_ML,405,9,2,105376607;23475,0.16142812383717509,1,FALSE,FALSE
+OFC BA11,MEred,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,405,40,4,105376607;23475;27098;6948,0.40869526596605266,1,FALSE,FALSE
+OFC BA11,MEred,coexpression_module,same_region_Tier2_genes,same_region_Tier2,405,20,4,10266;23475;389493;6948,0.07286449343815679,0.6557804409434111,FALSE,FALSE
+OFC BA11,MEred,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,405,8,2,23475;6948,0.13236529411664627,1,FALSE,FALSE
+OFC BA11,MEpurple,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,1129,147,30,100506474;100873982;101927003;101927351;101927790;101927972;101928768;101928942;105370516;105372697;105373769;105373894;105374580;105374681;105375097;105376998;107985195;107985930;107986526;107987147;107987254;112268239;1847;23783;414062;51326;55620;644297;8013;90632,0.7677238800909789,1,FALSE,FALSE
+OFC BA11,MEpurple,coexpression_module,high_confidence_ML_genes,high_confidence_ML,1129,9,0,,1,1,FALSE,FALSE
+OFC BA11,MEpurple,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,1129,40,6,101927003;105372697;107985195;23783;414062;55620,0.9158191908975224,1,FALSE,FALSE
+OFC BA11,MEpurple,coexpression_module,same_region_Tier2_genes,same_region_Tier2,1129,20,10,100506474;100873982;101927351;105372697;105374681;105375097;107985930;51326;55620;644297,0.006473199007605098,0.11651758213689176,FALSE,TRUE
+OFC BA11,MEpurple,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,1129,8,2,105372697;55620,0.5699359828225108,1,FALSE,FALSE
+OFC BA11,MEblack,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,308,147,11,100124536;105377975;109616960;116349;26576;342538;6271;677776;677781;677829;9304,0.29503814615190804,1,FALSE,FALSE
+OFC BA11,MEblack,coexpression_module,high_confidence_ML_genes,high_confidence_ML,308,9,0,,1,1,FALSE,FALSE
+OFC BA11,MEblack,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,308,40,2,105377975;116349,0.7161598489727312,1,FALSE,FALSE
+OFC BA11,MEblack,coexpression_module,same_region_Tier2_genes,same_region_Tier2,308,20,1,105377975,0.7203120636183402,1,FALSE,FALSE
+OFC BA11,MEblack,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,308,8,1,105377975,0.39890352769454374,1,FALSE,FALSE
+OFC BA11,MEgreen,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,544,147,15,100128511;100130934;100873970;100874047;101928419;101930048;105377432;107985781;10974;11341;402573;4257;4500;4604;84651,0.6454568208332299,1,FALSE,FALSE
+OFC BA11,MEgreen,coexpression_module,high_confidence_ML_genes,high_confidence_ML,544,9,0,,1,1,FALSE,FALSE
+OFC BA11,MEgreen,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,544,40,5,100130934;100874047;10974;4500;4604,0.4436092872838032,1,FALSE,FALSE
+OFC BA11,MEgreen,coexpression_module,same_region_Tier2_genes,same_region_Tier2,544,20,1,4604,0.9005778320239657,1,FALSE,FALSE
+OFC BA11,MEgreen,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,544,8,1,4604,0.602347061208393,1,FALSE,FALSE
+OFC BA11,MEyellow,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,579,147,12,100750326;105370015;105376520;105376527;163933;1846;3852;387856;4885;642517;81848;919,0.9315704535445104,1,FALSE,FALSE
+OFC BA11,MEyellow,coexpression_module,high_confidence_ML_genes,high_confidence_ML,579,9,2,3852;919,0.2802755324806301,1,FALSE,FALSE
+OFC BA11,MEyellow,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,579,40,2,3852;919,0.955185300581227,1,FALSE,FALSE
+OFC BA11,MEyellow,coexpression_module,same_region_Tier2_genes,same_region_Tier2,579,20,1,163933,0.9151126744635365,1,FALSE,FALSE
+OFC BA11,MEyellow,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,579,8,0,,1,1,FALSE,FALSE
+OFC BA11,MEblue,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,693,147,27,100689074;100874337;101927237;101927659;101928118;101928268;101928283;101928937;101929549;101929710;105369673;105371658;105374054;105374505;105376547;107984015;107984961;107985188;107985726;107985988;107986295;112268455;151258;221150;2355;399888;441549,0.07262592087697407,0.43575552526184447,FALSE,FALSE
+OFC BA11,MEblue,coexpression_module,high_confidence_ML_genes,high_confidence_ML,693,9,2,101929710;107984015,0.3607829027820667,1,FALSE,FALSE
+OFC BA11,MEblue,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,693,40,8,100689074;101928268;101928283;101929549;101929710;107984015;107985988;2355,0.1809465335951902,1,FALSE,FALSE
+OFC BA11,MEblue,coexpression_module,same_region_Tier2_genes,same_region_Tier2,693,20,1,101929549,0.9497154592637526,1,FALSE,FALSE
+OFC BA11,MEblue,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,693,8,1,101929549,0.6971363184024372,1,FALSE,FALSE
+OFC BA11,MElightgreen,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,23,147,0,,1,1,FALSE,FALSE
+OFC BA11,MElightgreen,coexpression_module,high_confidence_ML_genes,high_confidence_ML,23,9,0,,1,1,FALSE,FALSE
+OFC BA11,MElightgreen,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,23,40,0,,1,1,FALSE,FALSE
+OFC BA11,MElightgreen,coexpression_module,same_region_Tier2_genes,same_region_Tier2,23,20,0,,1,1,FALSE,FALSE
+OFC BA11,MElightgreen,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,23,8,0,,1,1,FALSE,FALSE
+OFC BA11,MEmagenta,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,116,147,7,100506119;100529262;26071;3178;53916;54458;58485,0.05366384029976284,0.43575552526184447,FALSE,FALSE
+OFC BA11,MEmagenta,coexpression_module,high_confidence_ML_genes,high_confidence_ML,116,9,0,,1,1,FALSE,FALSE
+OFC BA11,MEmagenta,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,116,40,2,26071;3178,0.23730335891038898,1,FALSE,FALSE
+OFC BA11,MEmagenta,coexpression_module,same_region_Tier2_genes,same_region_Tier2,116,20,0,,1,1,FALSE,FALSE
+OFC BA11,MEmagenta,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,116,8,0,,1,1,FALSE,FALSE
+OFC BA11,MEsalmon,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,40,147,0,,1,1,FALSE,FALSE
+OFC BA11,MEsalmon,coexpression_module,high_confidence_ML_genes,high_confidence_ML,40,9,0,,1,1,FALSE,FALSE
+OFC BA11,MEsalmon,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,40,40,0,,1,1,FALSE,FALSE
+OFC BA11,MEsalmon,coexpression_module,same_region_Tier2_genes,same_region_Tier2,40,20,0,,1,1,FALSE,FALSE
+OFC BA11,MEsalmon,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,40,8,0,,1,1,FALSE,FALSE
+OFC BA11,MElightcyan,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,29,147,2,144920;1803,0.20919938698149715,0.9413972414167372,FALSE,FALSE
+OFC BA11,MElightcyan,coexpression_module,high_confidence_ML_genes,high_confidence_ML,29,9,0,,1,1,FALSE,FALSE
+OFC BA11,MElightcyan,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,29,40,1,1803,0.20831391821413459,1,FALSE,FALSE
+OFC BA11,MElightcyan,coexpression_module,same_region_Tier2_genes,same_region_Tier2,29,20,0,,1,1,FALSE,FALSE
+OFC BA11,MElightcyan,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,29,8,0,,1,1,FALSE,FALSE
+OFC BA11,MEgrey60,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,25,147,1,1392,0.526614178268396,1,FALSE,FALSE
+OFC BA11,MEgrey60,coexpression_module,high_confidence_ML_genes,high_confidence_ML,25,9,0,,1,1,FALSE,FALSE
+OFC BA11,MEgrey60,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,25,40,0,,1,1,FALSE,FALSE
+OFC BA11,MEgrey60,coexpression_module,same_region_Tier2_genes,same_region_Tier2,25,20,0,,1,1,FALSE,FALSE
+OFC BA11,MEgrey60,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,25,8,0,,1,1,FALSE,FALSE
+OFC BA11,MEpink,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,278,147,8,101954273;105369793;105375038;254956;2845;645;6834;83547,0.5778831219121748,1,FALSE,FALSE
+OFC BA11,MEpink,coexpression_module,high_confidence_ML_genes,high_confidence_ML,278,9,1,254956,0.40266288744662126,1,FALSE,FALSE
+OFC BA11,MEpink,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,278,40,3,254956;645;83547,0.3855721643087613,1,FALSE,FALSE
+OFC BA11,MEpink,coexpression_module,same_region_Tier2_genes,same_region_Tier2,278,20,1,6834,0.682206242853231,1,FALSE,FALSE
+OFC BA11,MEpink,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,278,8,0,,1,1,FALSE,FALSE
+OFC BA11,MEtan,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,41,147,5,101927498;107985795;221303;2830;84539,0.006552327934321209,0.11794190281778176,FALSE,TRUE
+OFC BA11,MEtan,coexpression_module,high_confidence_ML_genes,high_confidence_ML,41,9,2,101927498;107985795,0.00227751584715422,0.04099528524877596,TRUE,TRUE
+OFC BA11,MEtan,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,41,40,3,101927498;107985795;2830,0.004097224079609815,0.07375003343297667,TRUE,TRUE
+OFC BA11,MEtan,coexpression_module,same_region_Tier2_genes,same_region_Tier2,41,20,0,,1,1,FALSE,FALSE
+OFC BA11,MEtan,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,41,8,0,,1,1,FALSE,FALSE
+OFC BA11,MEgreenyellow,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,54,147,0,,1,1,FALSE,FALSE
+OFC BA11,MEgreenyellow,coexpression_module,high_confidence_ML_genes,high_confidence_ML,54,9,0,,1,1,FALSE,FALSE
+OFC BA11,MEgreenyellow,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,54,40,0,,1,1,FALSE,FALSE
+OFC BA11,MEgreenyellow,coexpression_module,same_region_Tier2_genes,same_region_Tier2,54,20,0,,1,1,FALSE,FALSE
+OFC BA11,MEgreenyellow,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,54,8,0,,1,1,FALSE,FALSE
+OFC BA11,MEcyan,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,36,147,0,,1,1,FALSE,FALSE
+OFC BA11,MEcyan,coexpression_module,high_confidence_ML_genes,high_confidence_ML,36,9,0,,1,1,FALSE,FALSE
+OFC BA11,MEcyan,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,36,40,0,,1,1,FALSE,FALSE
+OFC BA11,MEcyan,coexpression_module,same_region_Tier2_genes,same_region_Tier2,36,20,0,,1,1,FALSE,FALSE
+OFC BA11,MEcyan,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,36,8,0,,1,1,FALSE,FALSE
+OFC BA11,MEmidnightblue,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,31,147,0,,1,1,FALSE,FALSE
+OFC BA11,MEmidnightblue,coexpression_module,high_confidence_ML_genes,high_confidence_ML,31,9,0,,1,1,FALSE,FALSE
+OFC BA11,MEmidnightblue,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,31,40,0,,1,1,FALSE,FALSE
+OFC BA11,MEmidnightblue,coexpression_module,same_region_Tier2_genes,same_region_Tier2,31,20,0,,1,1,FALSE,FALSE
+OFC BA11,MEmidnightblue,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,31,8,0,,1,1,FALSE,FALSE
+OFC BA11,MElightyellow,coexpression_module,all_Tier2_genes,all_Tier2_across_all_regions,20,147,0,,1,1,FALSE,FALSE
+OFC BA11,MElightyellow,coexpression_module,high_confidence_ML_genes,high_confidence_ML,20,9,0,,1,1,FALSE,FALSE
+OFC BA11,MElightyellow,coexpression_module,high_plus_moderate_ML_genes,high_plus_moderate_ML,20,40,0,,1,1,FALSE,FALSE
+OFC BA11,MElightyellow,coexpression_module,same_region_Tier2_genes,same_region_Tier2,20,20,0,,1,1,FALSE,FALSE
+OFC BA11,MElightyellow,coexpression_module,same_region_high_plus_moderate_ML_genes,same_region_high_plus_moderate_ML,20,8,0,,1,1,FALSE,FALSE

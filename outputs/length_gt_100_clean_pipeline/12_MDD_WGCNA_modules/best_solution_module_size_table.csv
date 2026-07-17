@@ -1,0 +1,175 @@
+region,module,module_color,n_genes
+Frontal Cortex,MEturquoise,turquoise,3443
+Frontal Cortex,MEblue,blue,1681
+Frontal Cortex,MEblack,black,1382
+Frontal Cortex,MEbrown,brown,1281
+Frontal Cortex,MEyellow,yellow,1076
+Frontal Cortex,MEmagenta,magenta,1053
+Frontal Cortex,MEdarkorange,darkorange,989
+Frontal Cortex,MEred,red,622
+Frontal Cortex,MEgreenyellow,greenyellow,595
+Frontal Cortex,MEcyan,cyan,572
+Frontal Cortex,MEdarkgreen,darkgreen,479
+Frontal Cortex,MEtan,tan,459
+Frontal Cortex,MEdarkgrey,darkgrey,380
+Frontal Cortex,MEsalmon,salmon,297
+Frontal Cortex,MEsaddlebrown,saddlebrown,124
+Frontal Cortex,MEbrown4,brown4,114
+Frontal Cortex,MEwhite,white,78
+Frontal Cortex,MEpaleturquoise,paleturquoise,66
+Frontal Cortex,MEdarkmagenta,darkmagenta,50
+Frontal Cortex,MEsienna3,sienna3,50
+Frontal Cortex,MEyellowgreen,yellowgreen,48
+Frontal Cortex,MEskyblue3,skyblue3,43
+Frontal Cortex,MElightcyan1,lightcyan1,34
+Frontal Cortex,MElightsteelblue1,lightsteelblue1,34
+Frontal Cortex,MEivory,ivory,26
+Frontal Cortex,MEfloralwhite,floralwhite,24
+Hippocampal Formation,MEblack,black,2961
+Hippocampal Formation,MEblue,blue,1715
+Hippocampal Formation,MEbrown,brown,1242
+Hippocampal Formation,MEgreen,green,857
+Hippocampal Formation,MEyellow,yellow,786
+Hippocampal Formation,MEdarkviolet,darkviolet,702
+Hippocampal Formation,MEred,red,615
+Hippocampal Formation,MEgreenyellow,greenyellow,421
+Hippocampal Formation,MEmagenta,magenta,389
+Hippocampal Formation,MElightcoral,lightcoral,380
+Hippocampal Formation,MEdarkgreen,darkgreen,305
+Hippocampal Formation,MEcyan,cyan,264
+Hippocampal Formation,MEtan,tan,262
+Hippocampal Formation,MEfirebrick4,firebrick4,244
+Hippocampal Formation,MElightyellow,lightyellow,212
+Hippocampal Formation,MElightcyan,lightcyan,196
+Hippocampal Formation,MEbisque4,bisque4,186
+Hippocampal Formation,MEdarkslateblue,darkslateblue,185
+Hippocampal Formation,MEgrey60,grey60,155
+Hippocampal Formation,MEskyblue3,skyblue3,147
+Hippocampal Formation,MEmediumpurple2,mediumpurple2,144
+Hippocampal Formation,MEdarkred,darkred,141
+Hippocampal Formation,MEplum,plum,137
+Hippocampal Formation,MEdarkolivegreen,darkolivegreen,134
+Hippocampal Formation,MEdarkorange,darkorange,107
+Hippocampal Formation,MEwhite,white,104
+Hippocampal Formation,MEskyblue,skyblue,103
+Hippocampal Formation,MEsteelblue,steelblue,97
+Hippocampal Formation,MEantiquewhite4,antiquewhite4,91
+Hippocampal Formation,MEdarkmagenta,darkmagenta,76
+Hippocampal Formation,MEsienna3,sienna3,76
+Hippocampal Formation,MEyellowgreen,yellowgreen,72
+Hippocampal Formation,MEplum1,plum1,70
+Hippocampal Formation,MEorangered4,orangered4,69
+Hippocampal Formation,MElightcyan1,lightcyan1,64
+Hippocampal Formation,MEdarkorange2,darkorange2,63
+Hippocampal Formation,MEfloralwhite,floralwhite,63
+Hippocampal Formation,MEivory,ivory,63
+Hippocampal Formation,MEbrown4,brown4,62
+Hippocampal Formation,MEthistle1,thistle1,54
+Hippocampal Formation,MEthistle2,thistle2,54
+Hippocampal Formation,MEsalmon4,salmon4,52
+Hippocampal Formation,MEpalevioletred3,palevioletred3,50
+Hippocampal Formation,MEmaroon,maroon,49
+Hippocampal Formation,MElightpink4,lightpink4,48
+Hippocampal Formation,MElavenderblush3,lavenderblush3,47
+Hippocampal Formation,MEdarkseagreen4,darkseagreen4,45
+Hippocampal Formation,MEhoneydew1,honeydew1,45
+Hippocampal Formation,MEcoral1,coral1,43
+Hippocampal Formation,MEcoral2,coral2,40
+Hippocampal Formation,MEskyblue2,skyblue2,39
+Hippocampal Formation,MElightsteelblue,lightsteelblue,34
+Hippocampal Formation,MEindianred4,indianred4,33
+Hippocampal Formation,MEblue2,blue2,31
+Hippocampal Formation,MEbrown2,brown2,31
+Hippocampal Formation,MEdarkolivegreen4,darkolivegreen4,31
+Hippocampal Formation,MEplum3,plum3,30
+Hippocampal Formation,MEthistle3,thistle3,29
+Hippocampal Formation,MEthistle,thistle,28
+Hippocampal Formation,MEpalevioletred2,palevioletred2,26
+Hippocampal Formation,MElightpink3,lightpink3,24
+Hippocampal Formation,MEmagenta4,magenta4,24
+Hippocampal Formation,MEhoneydew,honeydew,23
+Hippocampal Formation,MElavenderblush2,lavenderblush2,23
+Hippocampal Formation,MEantiquewhite2,antiquewhite2,22
+Hippocampal Formation,MEcoral,coral,22
+Hippocampal Formation,MEdarkseagreen3,darkseagreen3,22
+Hippocampal Formation,MEcoral3,coral3,21
+Hippocampal Formation,MEmediumpurple4,mediumpurple4,20
+Insula,MEturquoise,turquoise,2929
+Insula,MEblue,blue,2866
+Insula,MEbrown,brown,1976
+Insula,MEsalmon,salmon,1814
+Insula,MElightgreen,lightgreen,1049
+Insula,MEdarkgrey,darkgrey,849
+Insula,MEcyan,cyan,644
+Insula,MEblack,black,565
+Insula,MEmagenta,magenta,439
+Insula,MEpurple,purple,362
+Insula,MEgreenyellow,greenyellow,345
+Insula,MEmidnightblue,midnightblue,216
+Insula,MEdarkgreen,darkgreen,153
+Insula,MEdarkturquoise,darkturquoise,111
+Insula,MEgrey60,grey60,109
+Insula,MElightyellow,lightyellow,86
+Insula,MEroyalblue,royalblue,80
+Insula,MEorange,orange,53
+Insula,MEdarkorange,darkorange,52
+Insula,MEskyblue,skyblue,43
+Insula,MEsaddlebrown,saddlebrown,40
+Insula,MEviolet,violet,33
+Insula,MEdarkolivegreen,darkolivegreen,31
+Insula,MEdarkmagenta,darkmagenta,30
+Insula,MEsienna3,sienna3,26
+Insula,MEplum1,plum1,25
+Insula,MEskyblue3,skyblue3,25
+Insula,MEyellowgreen,yellowgreen,25
+Insula,MEmediumpurple3,mediumpurple3,24
+Ventral Striatum,MEturquoise,turquoise,2200
+Ventral Striatum,MEmediumpurple2,mediumpurple2,2018
+Ventral Striatum,MEbrown,brown,1888
+Ventral Striatum,MEgreenyellow,greenyellow,1810
+Ventral Striatum,MEgreen,green,933
+Ventral Striatum,MEroyalblue,royalblue,746
+Ventral Striatum,MElightcyan1,lightcyan1,586
+Ventral Striatum,MEblack,black,503
+Ventral Striatum,MEpurple,purple,348
+Ventral Striatum,MEsalmon4,salmon4,347
+Ventral Striatum,MEdarkgreen,darkgreen,329
+Ventral Striatum,MEdarkgrey,darkgrey,300
+Ventral Striatum,MElightgreen,lightgreen,299
+Ventral Striatum,MEskyblue1,skyblue1,270
+Ventral Striatum,MEsalmon,salmon,244
+Ventral Striatum,MEdarkred,darkred,227
+Ventral Striatum,MEdarkturquoise,darkturquoise,173
+Ventral Striatum,MEdarkorange2,darkorange2,145
+Ventral Striatum,MEantiquewhite4,antiquewhite4,135
+Ventral Striatum,MEdarkolivegreen,darkolivegreen,125
+Ventral Striatum,MEcoral1,coral1,124
+Ventral Striatum,MEskyblue,skyblue,98
+Ventral Striatum,MEsteelblue,steelblue,86
+Ventral Striatum,MEpaleturquoise,paleturquoise,81
+Ventral Striatum,MEsienna3,sienna3,60
+Ventral Striatum,MEyellowgreen,yellowgreen,59
+Ventral Striatum,MEskyblue3,skyblue3,57
+Ventral Striatum,MEplum1,plum1,56
+Ventral Striatum,MElightsteelblue1,lightsteelblue1,53
+Ventral Striatum,MEbrown4,brown4,49
+Ventral Striatum,MEivory,ivory,49
+Ventral Striatum,MEbisque4,bisque4,46
+Ventral Striatum,MEdarkslateblue,darkslateblue,45
+Ventral Striatum,MEplum2,plum2,44
+Ventral Striatum,MEthistle1,thistle1,43
+Ventral Striatum,MEpalevioletred3,palevioletred3,40
+Ventral Striatum,MElightpink4,lightpink4,36
+Ventral Striatum,MEhoneydew1,honeydew1,35
+Ventral Striatum,MElavenderblush3,lavenderblush3,35
+Ventral Striatum,MEdarkseagreen4,darkseagreen4,33
+Ventral Striatum,MEmediumorchid,mediumorchid,28
+Ventral Striatum,MEskyblue2,skyblue2,27
+Ventral Striatum,MEyellow4,yellow4,27
+Ventral Striatum,MEorangered3,orangered3,25
+Ventral Striatum,MEplum,plum,25
+Ventral Striatum,MElightsteelblue,lightsteelblue,24
+Ventral Striatum,MEfirebrick4,firebrick4,23
+Ventral Striatum,MElightcoral,lightcoral,23
+Ventral Striatum,MEdarkolivegreen4,darkolivegreen4,22
+Ventral Striatum,MEbrown2,brown2,21

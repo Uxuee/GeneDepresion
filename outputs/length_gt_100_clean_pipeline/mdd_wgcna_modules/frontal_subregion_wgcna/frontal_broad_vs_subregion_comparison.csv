@@ -1,0 +1,5 @@
+analysis_level,n_samples,n_genes_used,n_modules,best_diagnosis_module,best_diagnosis_p,best_diagnosis_FDR,best_Tier2_ML_module,best_Tier2_ML_FDR,best_AHBA_overlap_module,best_AHBA_overlap_FDR,top_biological_theme,interpretation_priority,notes
+broad_frontal,122,15000,26,MEdarkgreen,0.0379940132000646,0.4029147277703365,MEsalmon,1.8794225488772032e-06,MEbrown,3.9541670292178247e-20,,supplementary/exploratory,Broad Frontal Cortex retained; not overwritten.
+OFC_BA11,47,5000,18,MEpurple,0.055211114530089,0.5494934282476813,MEtan,0.0409952852487759,MEyellow,1.96496344280049e-07,,primary frontal subregion,Subregion-specific WGCNA branch.
+dlPFC_BA8_9,48,5000,21,MEorange,0.015407352197724,0.2723941494602627,MEblue,2.2694324743086782e-10,MEbrown,2.594425359640586e-13,,primary frontal subregion,Subregion-specific WGCNA branch.
+CG25,27,5000,27,MEwhite,0.0467459884076952,0.8967327691588726,MEwhite,0.00012360732825471022,MEblack,4.2913823652108445e-64,,primary frontal subregion,Subregion-specific WGCNA branch.

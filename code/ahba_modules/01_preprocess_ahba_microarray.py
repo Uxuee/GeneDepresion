@@ -20,7 +20,7 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = PROJECT_ROOT / "data" / "ahba"
 CLEAN_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_clean_pipeline"
-OUT_DIR = CLEAN_DIR / "ahba_modules" / "processed"
+OUT_DIR = CLEAN_DIR / "11_AHBA_modules_enrichment" / "processed"
 STEP10_DIR = CLEAN_DIR / "10_ML_prioritized_Tier2_extended"
 
 
@@ -113,32 +113,30 @@ def collapse_probes(combined: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]
     combined = combined.copy()
     combined["missing_fraction"] = combined.isna().mean(axis=1)
     expr_only = combined.drop(columns=["missing_fraction"])
-    means = expr_only.mean(axis=1, skipna=True)
+    probe_table = expr_only.reset_index(drop=True)
+    probe_table.insert(0, "gene_symbol", expr_only.index.astype(str))
+    probe_table.insert(1, "probe_id", expr_only.index.astype(str))
+    sample_columns = list(expr_only.columns)
+
     report_rows = []
-    selected = []
-    for gene, idx in expr_only.groupby(expr_only.index).groups.items():
-        idx_list = list(idx)
-        best_idx = means.loc[idx_list].idxmax()
-        selected.append(best_idx)
+    rows = []
+    labels = []
+    for gene, gene_block in probe_table.groupby("gene_symbol", sort=True):
+        gene_block_expr = gene_block[sample_columns]
+        probe_means = gene_block_expr.mean(axis=1, skipna=True)
+        # Gene symbols are duplicated across probes; select by position within the block.
+        best_position = int(probe_means.to_numpy().argmax())
+        selected_expr = gene_block_expr.iloc[best_position]
+        selected_probe = gene_block.iloc[best_position]["probe_id"]
         report_rows.append(
             {
                 "gene_symbol": gene,
-                "n_probes": len(idx_list),
-                "selected_probe_row": str(best_idx),
-                "selected_probe_mean_expression": float(means.loc[best_idx]),
+                "n_probes": int(len(gene_block)),
+                "selected_probe_id": str(selected_probe),
+                "selected_probe_mean_expression": float(probe_means.iloc[best_position]),
             }
         )
-    collapsed = expr_only.loc[selected]
-    collapsed.index = [expr_only.index[i] if isinstance(i, int) else str(i) for i in selected]
-    # idxmax returns labels; duplicated labels can be ambiguous. Rebuild by rows in report order.
-    rows = []
-    labels = []
-    for report in report_rows:
-        gene = report["gene_symbol"]
-        gene_block = expr_only.loc[[gene]] if gene in expr_only.index else expr_only.loc[expr_only.index == gene]
-        row_means = gene_block.mean(axis=1, skipna=True)
-        best_position = row_means.to_numpy().argmax()
-        rows.append(gene_block.iloc[best_position])
+        rows.append(selected_expr)
         labels.append(gene)
     collapsed = pd.DataFrame(rows)
     collapsed.index = labels

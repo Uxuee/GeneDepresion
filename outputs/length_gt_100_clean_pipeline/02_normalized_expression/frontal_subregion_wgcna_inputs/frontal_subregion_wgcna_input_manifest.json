@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-07-17T21:07:21",
+  "source_matrix": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\02_normalized_expression\\normalized_GeTMM_log2_frontal_cortex.csv",
+  "metadata_file": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\01_inputs\\sample_metadata_used.csv",
+  "output_dir": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\02_normalized_expression\\frontal_subregion_wgcna_inputs",
+  "subregions": [
+    {
+      "subregion_key": "OFC_BA11",
+      "subregion_label": "OFC BA11",
+      "patterns": "Orbitofrontal;OFC;BA11",
+      "found": true,
+      "n_samples": 47,
+      "n_genes": 23941,
+      "matrix": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\02_normalized_expression\\frontal_subregion_wgcna_inputs\\normalized_GeTMM_log2_OFC_BA11.csv",
+      "sample_metadata": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\02_normalized_expression\\frontal_subregion_wgcna_inputs\\normalized_GeTMM_log2_OFC_BA11_sample_metadata.csv",
+      "note": "Derived from broad Frontal Cortex normalized GeTMM-log2 matrix using metadata OriginalRegion."
+    },
+    {
+      "subregion_key": "dlPFC_BA8_9",
+      "subregion_label": "dlPFC BA8/9",
+      "patterns": "Dorsolateral prefrontal;dlPFC;BA8;BA9",
+      "found": true,
+      "n_samples": 48,
+      "n_genes": 23941,
+      "matrix": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\02_normalized_expression\\frontal_subregion_wgcna_inputs\\normalized_GeTMM_log2_dlPFC_BA8_9.csv",
+      "sample_metadata": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\02_normalized_expression\\frontal_subregion_wgcna_inputs\\normalized_GeTMM_log2_dlPFC_BA8_9_sample_metadata.csv",
+      "note": "Derived from broad Frontal Cortex normalized GeTMM-log2 matrix using metadata OriginalRegion."
+    },
+    {
+      "subregion_key": "CG25",
+      "subregion_label": "Cingulate gyrus 25 / CG25",
+      "patterns": "Cingulate gyrus 25;Cg25;CG25;BA25",
+      "found": true,
+      "n_samples": 27,
+      "n_genes": 23941,
+      "matrix": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\02_normalized_expression\\frontal_subregion_wgcna_inputs\\normalized_GeTMM_log2_CG25.csv",
+      "sample_metadata": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\02_normalized_expression\\frontal_subregion_wgcna_inputs\\normalized_GeTMM_log2_CG25_sample_metadata.csv",
+      "note": "Derived from broad Frontal Cortex normalized GeTMM-log2 matrix using metadata OriginalRegion."
+    }
+  ]
+}

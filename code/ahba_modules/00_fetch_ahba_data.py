@@ -18,7 +18,7 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = PROJECT_ROOT / "data" / "ahba"
-OUT_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_clean_pipeline" / "ahba_modules"
+OUT_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_clean_pipeline" / "11_AHBA_modules_enrichment"
 LOG_PATH = OUT_DIR / "ahba_data_inventory.json"
 
 EXPECTED_NAMES = {"MicroarrayExpression.csv", "Probes.csv", "SampleAnnot.csv"}

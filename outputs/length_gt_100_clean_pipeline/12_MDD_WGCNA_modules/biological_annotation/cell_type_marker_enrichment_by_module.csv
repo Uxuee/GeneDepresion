@@ -1,0 +1,5 @@
+region,module,module_size,gs_name,gs_description,set_genes,set_size,overlap_genes,overlap_count,p_value,fdr_BH,source,term_label
+Ventral Striatum,MElavenderblush3,35,neuron_synaptic,neuron_synaptic,,6,SYT1,1,0.013920893762907172,0.013920893762907172,built_in_minimal_cell_marker_sanity_list,Neuron synaptic
+Ventral Striatum,MElightcyan1,586,excitatory_neuron,neuron_synaptic,,5,SLC17A7;TBR1,2,0.014084640612300931,0.014084640612300931,built_in_minimal_cell_marker_sanity_list,Excitatory neuron
+Ventral Striatum,MElightgreen,299,inhibitory_neuron,neuron_synaptic,,4,GAD2;GAD1,2,0.002313935763441517,0.004627871526883034,built_in_minimal_cell_marker_sanity_list,Inhibitory neuron
+Ventral Striatum,MElightgreen,299,excitatory_neuron,neuron_synaptic,,5,GRIA2,1,0.09578396829115898,0.09578396829115898,built_in_minimal_cell_marker_sanity_list,Excitatory neuron

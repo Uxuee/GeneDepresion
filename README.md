@@ -35,7 +35,7 @@ filtered raw counts -> GeTMM -> log2(GeTMM + 1)
 
 ## Current Clean Length > 100 Analysis
 
-The current report-ready workflow is the clean `Length > 100` MDD transcriptomics path. It preserves the exploratory interpretation of Tier 2 genes and organizes the analysis from normalization through LMM-derived candidate genes, enrichment, ML-prioritized Tier 2 genes, review figures, and AHBA contextualization.
+The current report-ready workflow is the clean `Length > 100` MDD transcriptomics path. It preserves the exploratory interpretation of Tier 2 genes and organizes the analysis from normalization through LMM-derived candidate genes, enrichment, ML-prioritized Tier 2 genes, review figures, Step 11 AHBA contextualization, and Step 12 MDD WGCNA modules.
 
 Start here:
 

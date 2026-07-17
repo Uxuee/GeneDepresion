@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-07-17 18:38:44.196045",
+  "project_root": "D:/genes/GeneDepresion",
+  "inputs": {
+    "top_priority": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/mdd_wgcna_top_priority_modules_for_report.csv",
+    "triage": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/mdd_wgcna_module_triage_table.csv",
+    "assignments": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/best_solution_gene_to_module_assignments.csv",
+    "hubs": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/module_hub_genes_top50.csv",
+    "trait": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/module_trait_association_results.csv",
+    "enrichment": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/module_enrichment_for_Tier2_and_ML_genes.csv",
+    "ahba_overlap": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/mdd_modules_vs_published_AHBA_modules_enrichment.csv",
+    "tier2": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/07_Tier2_candidate_gene_sets/Tier2_candidate_genes_all_regions.csv",
+    "ml": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/final_ranked_ML_prioritized_Tier2_genes.csv",
+    "ahba_annotation_summary": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/annotations/published_ahba_module_annotation_summary.csv",
+    "ahba_corrected_annotations": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/annotations/published_ahba_corrected_suggestive_hits_with_annotations.csv"
+  },
+  "outputs": [
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/annotation_database_skip_notes.csv",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/cell_type_annotation_notes.md",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/cell_type_marker_enrichment_by_module.csv",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/go_BP_enrichment_by_module.csv",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/go_CC_enrichment_by_module.csv",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/go_MF_enrichment_by_module.csv",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/kegg_enrichment_by_module.csv",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/mdd_modules_with_AHBA_annotation_context.csv",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/mdd_wgcna_biological_annotation_manifest.json",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/MDD_WGCNA_Biological_Annotation_Report.md",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Frontal_Cortex_MEblack.md",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Frontal_Cortex_MEdarkgreen.md",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Frontal_Cortex_MEsalmon.md",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Hippocampal_Formation_MEgreen.md",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Insula_MEdarkorange.md",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Insula_MEorange.md",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Ventral_Striatum_MEdarkred.md",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Ventral_Striatum_MElavenderblush3.md",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Ventral_Striatum_MElightcyan1.md",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Ventral_Striatum_MElightgreen.md",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_gene_id_mapping_report.csv",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/msigdb_c2_cp_enrichment_by_module.csv",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/msigdb_hallmark_enrichment_by_module.csv",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/plots/AHBA_overlap_annotation_summary_plot.pdf",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/plots/AHBA_overlap_annotation_summary_plot.png",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/plots/biological_category_heatmap_prioritized_modules.pdf",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/plots/biological_category_heatmap_prioritized_modules.png",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/plots/cell_type_enrichment_dotplot.pdf",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/plots/cell_type_enrichment_dotplot.png",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/plots/hub_gene_annotation_plot_top_modules.pdf",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/plots/hub_gene_annotation_plot_top_modules.png",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/plots/top_GO_terms_dotplot_by_module.pdf",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/plots/top_GO_terms_dotplot_by_module.png",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/prioritized_module_hub_gene_annotations.csv",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/prioritized_modules_biological_summary.csv",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/reactome_enrichment_by_module.csv",
+    "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/unmapped_module_genes.csv"
+  ],
+  "packages_available": {
+    "AnnotationDbi": true,
+    "org.Hs.eg.db": false,
+    "clusterProfiler": false,
+    "ReactomePA": false,
+    "msigdbr": true,
+    "enrichplot": false
+  },
+  "databases_unavailable_or_skipped": [
+    {
+      "database": "org.Hs.eg.db",
+      "status": "skipped",
+      "note": "Package unavailable; gene descriptions and formal Entrez/Ensembl mapping from org.Hs.eg.db were not run. MSigDB-derived mappings were used when available."
+    },
+    {
+      "database": "clusterProfiler",
+      "status": "skipped",
+      "note": "Package unavailable; GO/KEGG enrichment used custom hypergeometric tests over MSigDB gene sets when available."
+    },
+    {
+      "database": "ReactomePA",
+      "status": "skipped",
+      "note": "Package unavailable; Reactome-like pathway enrichment used MSigDB C2 Reactome gene sets when available."
+    },
+    {
+      "database": "REACTOME",
+      "status": "skipped",
+      "note": "No gene sets available from installed resources."
+    },
+    {
+      "database": "KEGG",
+      "status": "skipped",
+      "note": "No gene sets available from installed resources."
+    }
+  ],
+  "interpretation_caution": "No module eigengene survived Diagnosis BH-FDR < 0.10; annotations are exploratory.",
+  "sessionInfo": "R version 4.4.2 (2024-10-31 ucrt)\nPlatform: x86_64-w64-mingw32/x64\nRunning under: Windows 10 x64 (build 19045)\n\nMatrix products: default\n\n\nlocale:\n[1] LC_COLLATE=English_United States.utf8 \n[2] LC_CTYPE=English_United States.utf8   \n[3] LC_MONETARY=English_United States.utf8\n[4] LC_NUMERIC=C                          \n[5] LC_TIME=English_United States.utf8    \n\ntime zone: Asia/Pyongyang\ntzcode source: internal\n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base     \n\nother attached packages:\n[1] msigdbr_26.1.0 jsonlite_1.8.9 ggplot2_4.0.3  stringr_1.5.1  tidyr_1.3.1   \n[6] readr_2.1.5    dplyr_1.1.4   \n\nloaded via a namespace (and not attached):\n [1] KEGGREST_1.46.0         gtable_0.3.6            babelgene_22.9         \n [4] Biobase_2.66.0          tzdb_0.4.0              vctrs_0.6.5            \n [7] tools_4.4.2             generics_0.1.3          stats4_4.4.2           \n[10] curl_7.1.0              parallel_4.4.2          tibble_3.2.1           \n[13] AnnotationDbi_1.68.0    RSQLite_2.4.6           blob_1.2.4             \n[16] pkgconfig_2.0.3         RColorBrewer_1.1-3      S7_0.2.2               \n[19] S4Vectors_0.44.0        assertthat_0.2.1        lifecycle_1.0.4        \n[22] GenomeInfoDbData_1.2.13 compiler_4.4.2          farver_2.1.2           \n[25] textshaping_1.0.0       Biostrings_2.74.1       codetools_0.2-20       \n[28] GenomeInfoDb_1.42.3     pillar_1.10.1           crayon_1.5.3           \n[31] BiocParallel_1.40.0     cachem_1.1.0            tidyselect_1.2.1       \n[34] stringi_1.8.4           purrr_1.0.2             labeling_0.4.3         \n[37] fastmap_1.2.0           grid_4.4.2              cli_3.6.3              \n[40] magrittr_2.0.3          withr_3.0.2             scales_1.4.0           \n[43] UCSC.utils_1.2.0        bit64_4.6.0-1           XVector_0.46.0         \n[46] httr_1.4.7              bit_4.5.0.1             ragg_1.3.3             \n[49] png_0.1-9               hms_1.1.3               memoise_2.0.1          \n[52] IRanges_2.40.1          viridisLite_0.4.2       rlang_1.2.0            \n[55] glue_1.8.0              DBI_1.2.3               BiocGenerics_0.52.0    \n[58] vroom_1.6.5             R6_2.5.1                systemfonts_1.2.1      \n[61] zlibbioc_1.52.0        "
+}

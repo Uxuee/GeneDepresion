@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-29T19:02:16",
+  "n_donor_sets": 6,
+  "donors": [
+    "normalized_microarray_donor10021",
+    "normalized_microarray_donor12876",
+    "normalized_microarray_donor14380",
+    "normalized_microarray_donor15496",
+    "normalized_microarray_donor15697",
+    "normalized_microarray_donor9861"
+  ],
+  "n_genes_after_missingness_and_probe_collapse": 29131,
+  "n_samples": 3708,
+  "missingness_filter": "genes/probes with >50% missing values removed before probe collapse",
+  "probe_collapse_method": "select one probe per gene symbol by highest mean expression across AHBA samples",
+  "n_unique_mdd_candidate_symbols": 640,
+  "n_mdd_candidate_symbols_present_in_ahba": 332,
+  "mdd_candidate_symbol_overlap_file": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\11_AHBA_modules_enrichment\\processed\\mdd_candidate_symbols_present_in_ahba.txt"
+}

@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-06-30T03:16:56",
+  "supplement_table": "D:\\genes\\GeneDepresion\\data\\ahba\\published_modules\\Hawrylycz_2015_likely_Supplementary_Table_8_MOESM99.csv",
+  "supplement_status": "local",
+  "modules_annotated": [
+    "M10",
+    "M14",
+    "M18",
+    "M19",
+    "M2",
+    "M20",
+    "M24",
+    "M26",
+    "M27",
+    "M28",
+    "M30",
+    "M5",
+    "M6",
+    "M7",
+    "M9"
+  ],
+  "summary_table": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\11_AHBA_modules_enrichment\\published_modules\\annotations\\published_ahba_module_annotation_summary.csv",
+  "term_table": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\11_AHBA_modules_enrichment\\published_modules\\annotations\\published_ahba_module_annotation_terms_relevant.csv"
+}

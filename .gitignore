@@ -11,6 +11,9 @@ Step1_GeTMM_log2_outputs/
 data/ahba/*
 !data/ahba/README.md
 !data/ahba/.gitkeep
+!data/ahba/published_modules/
+data/ahba/published_modules/*
+!data/ahba/published_modules/README.md
 outputs/length_gt_100_clean_pipeline/ahba_modules/raw_downloads/
 
 # R session files

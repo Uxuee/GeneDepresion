@@ -19,9 +19,11 @@ from scipy.stats import hypergeom
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 CLEAN_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_clean_pipeline"
+SOURCE_LENGTH100_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_elisa_style"
 STEP10_DIR = CLEAN_DIR / "10_ML_prioritized_Tier2_extended"
 TIER2_DIR = CLEAN_DIR / "07_Tier2_candidate_gene_sets"
-AHBA_DIR = CLEAN_DIR / "ahba_modules"
+AHBA_DIR = CLEAN_DIR / "11_AHBA_modules_enrichment"
+PROCESSED_DIR = AHBA_DIR / "processed"
 MODULE_DIR = AHBA_DIR / "modules"
 OUT_DIR = AHBA_DIR / "enrichment"
 FIG_DIR = AHBA_DIR / "figures"
@@ -49,11 +51,29 @@ def bh_fdr(pvals: pd.Series) -> pd.Series:
     return pd.Series(out, index=pvals.index)
 
 
+def unique_nonempty_symbols(values: pd.Series) -> set[str]:
+    return {x for x in values.map(norm_symbol) if x}
+
+
+def make_candidate_set(
+    candidate_set: str,
+    scope: str,
+    frame: pd.DataFrame,
+    reason: str,
+) -> dict:
+    """Keep pair count and unique symbols separate for auditability."""
+    return {
+        "candidate_set": candidate_set,
+        "scope": scope,
+        "original_gene_region_pair_count": int(len(frame)),
+        "genes": unique_nonempty_symbols(frame["gene_symbol"]),
+        "reason_included": reason,
+    }
+
+
 def load_candidates() -> tuple[pd.DataFrame, list[dict]]:
     ranked = pd.read_csv(STEP10_DIR / "final_ranked_ML_prioritized_Tier2_genes.csv", dtype={"gene_id": str})
     all_tier2 = pd.read_csv(TIER2_DIR / "Tier2_candidate_genes_all_regions.csv", dtype={"gene_id": str})
-    ranked["gene_symbol_norm"] = ranked["gene_symbol"].map(norm_symbol)
-    all_tier2["gene_symbol_norm"] = all_tier2["gene_symbol"].map(norm_symbol)
 
     high = ranked[ranked["ML_priority_class"].eq("High-confidence ML-prioritized Tier 2")]
     moderate = ranked[ranked["ML_priority_class"].eq("Moderate-confidence ML-prioritized Tier 2")]
@@ -63,35 +83,75 @@ def load_candidates() -> tuple[pd.DataFrame, list[dict]]:
     ])]
 
     sets: list[dict] = [
-        {"candidate_set": "high_confidence", "scope": "all_regions", "genes": set(high["gene_symbol_norm"])},
-        {"candidate_set": "high_plus_moderate", "scope": "all_regions", "genes": set(high_moderate["gene_symbol_norm"])},
-        {"candidate_set": "all_Tier2", "scope": "all_regions", "genes": set(all_tier2["gene_symbol_norm"])},
+        make_candidate_set("high_confidence", "all_regions", high, "all high-confidence ML-prioritized Tier 2 rows"),
+        make_candidate_set(
+            "high_plus_moderate",
+            "all_regions",
+            high_moderate,
+            "all high- or moderate-confidence ML-prioritized Tier 2 rows",
+        ),
+        make_candidate_set("all_Tier2", "all_regions", all_tier2, "all Tier 2 candidate gene-region rows"),
     ]
     for region, sub in ranked.groupby("region_or_subregion"):
+        region_hm = sub[sub["ML_priority_class"].isin([
+            "High-confidence ML-prioritized Tier 2",
+            "Moderate-confidence ML-prioritized Tier 2",
+        ])]
         sets.append(
-            {
-                "candidate_set": "high_plus_moderate",
-                "scope": f"region:{region}",
-                "genes": set(sub[sub["ML_priority_class"].isin([
-                    "High-confidence ML-prioritized Tier 2",
-                    "Moderate-confidence ML-prioritized Tier 2",
-                ])]["gene_symbol_norm"]),
-            }
+            make_candidate_set(
+                "high_plus_moderate",
+                f"region:{region}",
+                region_hm,
+                f"high- or moderate-confidence rows in {region}",
+            )
         )
         for direction, dsub in sub.groupby("statistical_direction"):
-            genes = set(dsub[dsub["ML_priority_class"].isin([
+            direction_hm = dsub[dsub["ML_priority_class"].isin([
                 "High-confidence ML-prioritized Tier 2",
                 "Moderate-confidence ML-prioritized Tier 2",
-            ])]["gene_symbol_norm"])
+            ])]
+            genes = unique_nonempty_symbols(direction_hm["gene_symbol"])
             if len(genes) >= 5:
                 sets.append(
-                    {
-                        "candidate_set": "high_plus_moderate",
-                        "scope": f"region:{region}|direction:{direction}",
-                        "genes": genes,
-                    }
+                    make_candidate_set(
+                        "high_plus_moderate",
+                        f"region:{region}|direction:{direction}",
+                        direction_hm,
+                        f"high- or moderate-confidence rows in {region} with direction {direction}",
+                    )
                 )
     return ranked, sets
+
+
+def load_mdd_tested_universe() -> tuple[set[str], str]:
+    """Load unique MDD-tested gene symbols; never use all human genes."""
+    candidates = [
+        CLEAN_DIR / "01_inputs" / "tested_gene_universe_gene_symbols.csv",
+        CLEAN_DIR / "03_broad_region_LMM" / "LMM_all_genes_length_gt_100.csv",
+        CLEAN_DIR / "04_standardized_effect_size" / "LMM_all_genes_with_standardized_effect_size_4groups.csv",
+        SOURCE_LENGTH100_DIR / "LMM_all_genes_length_gt_100.csv",
+        SOURCE_LENGTH100_DIR / "standardized_effect_size_4groups" / "LMM_all_genes_with_standardized_effect_size_4groups.csv",
+    ]
+    for path in candidates:
+        if not path.exists():
+            continue
+        df = pd.read_csv(path, usecols=lambda c: c in {"gene_symbol", "gene_id"})
+        if "gene_symbol" in df.columns:
+            genes = unique_nonempty_symbols(df["gene_symbol"])
+            if genes:
+                return genes, str(path)
+    raise FileNotFoundError(
+        "Could not find a full MDD tested-gene table with gene_symbol. "
+        "Expected one of: " + "; ".join(str(p) for p in candidates)
+    )
+
+
+def load_processed_ahba_genes() -> tuple[set[str], str]:
+    expr_path = PROCESSED_DIR / "ahba_gene_expression_matrix_gene_by_sample.csv"
+    if not expr_path.exists():
+        raise FileNotFoundError(f"Processed AHBA expression matrix not found: {expr_path}")
+    expr_index = pd.read_csv(expr_path, usecols=[0]).iloc[:, 0]
+    return unique_nonempty_symbols(expr_index), str(expr_path)
 
 
 def main() -> None:
@@ -106,14 +166,41 @@ def main() -> None:
 
     modules = pd.read_csv(module_path)
     modules["gene_symbol_norm"] = modules["gene_symbol"].map(norm_symbol)
-    modules = modules[modules["gene_symbol_norm"].ne("")]
+    modules = modules[modules["gene_symbol_norm"].ne("")].drop_duplicates(["gene_symbol_norm", "ahba_module"])
 
     ranked, candidate_sets = load_candidates()
-    mdd_universe = set(ranked["gene_symbol"].map(norm_symbol))
-    ahba_universe = set(modules["gene_symbol_norm"])
-    background = sorted(mdd_universe & ahba_universe)
+    mdd_universe, mdd_universe_source = load_mdd_tested_universe()
+    ahba_processed_universe, ahba_matrix_source = load_processed_ahba_genes()
+    ahba_module_universe = set(modules["gene_symbol_norm"])
+    background = sorted(mdd_universe & ahba_processed_universe & ahba_module_universe)
     bg_set = set(background)
-    module_groups = {m: set(g["gene_symbol_norm"]) & bg_set for m, g in modules.groupby("ahba_module")}
+    module_groups = {
+        m: set(g["gene_symbol_norm"]) & bg_set
+        for m, g in modules.groupby("ahba_module")
+    }
+    module_groups = {m: genes for m, genes in module_groups.items() if genes}
+    n_modules_tested = len(module_groups)
+
+    audit_rows = []
+    for cset in candidate_sets:
+        unique_genes = set(cset["genes"])
+        overlap = unique_genes & bg_set
+        audit_rows.append(
+            {
+                "candidate_set": cset["candidate_set"],
+                "scope": cset["scope"],
+                "original_gene_region_pair_count": cset["original_gene_region_pair_count"],
+                "unique_gene_count": len(unique_genes),
+                "unique_genes_overlapping_AHBA_module_background": len(overlap),
+                "number_of_modules_tested": n_modules_tested,
+                "reason_included": cset["reason_included"],
+            }
+        )
+    audit = pd.DataFrame(audit_rows).sort_values(["candidate_set", "scope"])
+    audit_path = OUT_DIR / "ahba_candidate_set_audit_before_enrichment.csv"
+    audit.to_csv(audit_path, index=False)
+    print("Candidate-set audit before AHBA module enrichment:")
+    print(audit.to_string(index=False))
 
     rows = []
     M = len(bg_set)
@@ -130,6 +217,8 @@ def main() -> None:
                 {
                     "candidate_set": cset["candidate_set"],
                     "scope": cset["scope"],
+                    "original_gene_region_pair_count": cset["original_gene_region_pair_count"],
+                    "unique_candidate_genes": len(cset["genes"]),
                     "ahba_module": module,
                     "background_genes": M,
                     "candidate_genes_in_background": N,
@@ -183,8 +272,12 @@ def main() -> None:
     report = {
         "timestamp": datetime.now().isoformat(timespec="seconds"),
         "module_assignment_file": str(module_path),
-        "background_definition": "genes present in both final MDD Tier2 tested universe and processed AHBA module universe",
+        "mdd_tested_universe_source": mdd_universe_source,
+        "processed_ahba_matrix_source": ahba_matrix_source,
+        "background_definition": "intersection of genes tested in the MDD clean pipeline, genes present in the processed AHBA matrix, and genes assigned to an AHBA module",
         "background_gene_count": M,
+        "n_modules_tested": n_modules_tested,
+        "candidate_set_audit_file": str(audit_path),
         "n_candidate_sets_tested": len(candidate_sets),
         "n_enrichment_rows": len(res),
         "results_file": str(OUT_DIR / "ahba_module_enrichment_results.csv"),
