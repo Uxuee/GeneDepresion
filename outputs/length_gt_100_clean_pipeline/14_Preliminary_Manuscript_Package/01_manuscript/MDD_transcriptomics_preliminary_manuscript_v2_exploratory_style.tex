@@ -1,0 +1,104 @@
+
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+\title{A Region-Aware Transcriptomic Module-Prioritization Framework for Major Depressive Disorder}
+\author{Preliminary exploratory draft for supervisor review}
+\date{2026-07-18}
+\begin{document}
+\maketitle
+
+\section{Abstract}
+
+We developed a preliminary, region-aware transcriptomic prioritization framework for MDD/control postmortem brain data. The discovery dataset was GSE102556 from Labonte et al., a multi-region study of sex-specific transcriptional signatures in human depression \citep{Labonte2017}. The workflow combined GeTMM-log2 normalized expression, region-specific diagnosis models, exploratory Tier2 candidate genes, ML \#1 gene-level prioritization, AHBA healthy-brain coexpression context \citep{Hawrylycz2015,Markello2021}, MDD WGCNA modules \citep{Langfelder2008}, frontal subregion WGCNA, biological annotation, orange-overlap module networks, and exploratory module-level ML \#2. The strongest biological convergence was observed in Ventral Striatum, while the clearest module-level ML \#2 signals were observed in Insula and dlPFC BA8/9. No WGCNA module eigengene survived Diagnosis BH-FDR $<0.10$ \citep{Benjamini1995}, and all findings should be interpreted as exploratory prioritization rather than clinical validation.
+
+\section{Introduction}
+
+MDD is biologically heterogeneous, and transcriptomic signatures may differ across brain regions and frontal subregions. We therefore used a layered framework designed to prioritize genes and modules while preserving anatomical context. The discovery analysis uses GSE102556, originally reported by \citet{Labonte2017}. Independent postmortem datasets, including GSE80655 \citep{Ramaker2017}, GSE101521 \citep{Pantazatos2017}, and GSE53987 \citep{Lanz2019}, are treated as future validation candidates rather than as analyzed validation cohorts in this preliminary version.
+
+\section{Methods}
+
+Expression was analyzed through one GeTMM-log2 workflow. Gene-wise diagnosis models were run by region, with mixed-effect structure when supported by sample design and fixed-effect sensitivity models for frontal subregions. Tier2 genes were defined from statistical evidence and standardized effect sizes. ML \#1 prioritized Tier2 candidates using internal model support. AHBA published modules were used for healthy-brain coexpression context, based on the Allen Human Brain Atlas transcriptional architecture resource \citep{Hawrylycz2015}; AHBA fetching/processing in this project used abagen functionality, so the abagen workflow standardization reference is also cited \citep{Markello2021}. WGCNA modules were built from broad normalized expression matrices, not DEG/Tier2/ML-only gene sets \citep{Langfelder2008}. Module-level ML \#2 used fixed WGCNA gene sets with train-fold-only scaling and PCA.
+
+\section{Results}
+
+\subsection{Tier2 and ML \#1 candidate genes}
+
+\begin{center}
+\begin{tabular}{lrrrr}
+\toprule
+Region/subregion & Tier2 genes & High ML \#1 & High+moderate ML \#1 \\
+\midrule
+Cingulate gyrus 25 & 186 & 8 & 37 \\
+Hippocampal Formation & 127 & 3 & 28 \\
+Insula & 70 & 6 & 24 \\
+OFC BA11 & 70 & 3 & 31 \\
+Ventral Striatum & 146 & 8 & 26 \\
+dlPFC BA8/9 & 72 & 7 & 19 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{WGCNA and AHBA context}
+
+Ventral Striatum showed the clearest AHBA/MDD WGCNA convergence, especially among prioritized modules with Tier2/ML enrichment and AHBA overlap. Hippocampal Formation MEgreen showed strong Tier2 enrichment but mixed biological context. No WGCNA module eigengene survived Diagnosis BH-FDR $<0.10$.
+
+\subsection{Frontal subregion WGCNA}
+
+OFC BA11, dlPFC BA8/9, and CG25 were analyzed separately and are treated as the cleaner frontal analysis. Broad Frontal Cortex is retained as supplementary because anatomical pooling may dilute subregion-specific signal.
+
+\subsection{Module-level ML \#2}
+
+\begin{center}
+\begin{tabular}{lllrrr}
+\toprule
+Analysis level & Region/subregion & Best model & Balanced accuracy & ROC-AUC & Samples \\
+\midrule
+Broad region & Insula & Linear SVM & 0.627 & 0.671 & 48 \\
+Broad region & Frontal Cortex & L1 logistic regression & 0.562 & 0.625 & 122 \\
+Broad region & Hippocampal Formation & Random forest exploratory & 0.520 & 0.571 & 43 \\
+Broad region & Ventral Striatum & Random forest exploratory & 0.506 & 0.529 & 48 \\
+Frontal subregion & dlPFC BA8/9 & Random forest exploratory & 0.639 & 0.644 & 48 \\
+Frontal subregion & OFC BA11 & Random forest exploratory & 0.591 & 0.626 & 47 \\
+Frontal subregion & Cingulate gyrus 25 & Random forest exploratory & 0.583 & 0.619 & 27 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Insula showed the strongest broad-region module-level ML \#2 signal with linear SVM balanced accuracy 0.627 and ROC-AUC 0.671. dlPFC BA8/9 showed the strongest frontal subregion module-level ML \#2 signal with balanced accuracy 0.639 and ROC-AUC 0.644. Random forest-driven results are interpreted more cautiously than signals supported by linear/logistic/SVM models.
+
+\subsection{External validation plan}
+
+External validation will project fixed prioritized module gene sets into independent postmortem MDD datasets. The primary validation target is GSE80655 \citep{Ramaker2017}, which includes RNA-seq profiles from anterior cingulate cortex, dorsolateral prefrontal cortex, and nucleus accumbens across MDD, schizophrenia, bipolar disorder, and controls. The dlPFC-specific validation target is GSE101521 \citep{Pantazatos2017}, an RNA-seq dataset from dorsolateral prefrontal cortex/Brodmann area 9 that includes MDD and control samples. GSE53987 \citep{Lanz2019} is a cross-platform exploratory validation candidate because it is an Affymetrix microarray study spanning prefrontal cortex/BA46, hippocampus, and associative striatum across MDD, schizophrenia, bipolar disorder, and controls. Validation will focus on module-score MDD vs Control effect direction, effect size, and enrichment. It will not retrain a large classifier in the validation datasets.
+
+\subsection{Transdiagnostic specificity analysis}
+
+Because GSE80655 and GSE53987 include schizophrenia and bipolar disorder in addition to MDD, future analyses can test whether prioritized module scores are MDD-enriched or instead reflect broader transdiagnostic psychiatric variation. These analyses should be reported separately from MDD-vs-control validation and should remain exploratory unless supported by independent replication.
+
+\section{Discussion}
+
+The main integrated result is a layered exploratory prioritization pattern rather than a single definitive marker. Ventral Striatum is strongest for biological/AHBA/WGCNA convergence, while Insula and dlPFC BA8/9 are strongest for module-level ML \#2 signal. AHBA overlap provides healthy-brain coexpression context and does not validate disease mechanisms.
+
+\section{Limitations}
+
+This preliminary package does not claim validated biomarkers, diagnostic classifiers, or validated disease modules. WGCNA modules were derived from the same dataset used for module-level ML \#2. External validation was not performed in the current analysis. Frontal stable-core selection used kME/hubness fallback because run-level assignment stability was unavailable. The validation datasets listed above are planned external-comparison resources only and were not downloaded or analyzed for this manuscript version.
+
+\section{Conclusion}
+
+The clean pipeline supports a cautious exploratory/preprint-style manuscript focused on region-aware gene and module prioritization in MDD transcriptomics. The next validation stage should project fixed module scores into GSE80655, GSE101521, and GSE53987 without retraining a large classifier.
+
+\section{Data and Code Availability}
+
+Code repository: \url{https://github.com/Uxuee/GeneDepresion.git}. Raw data access follows source dataset terms, and large generated outputs may not all be committed. The discovery dataset is GSE102556 \citep{Labonte2017}. Candidate validation datasets are GSE80655 \citep{Ramaker2017}, GSE101521 \citep{Pantazatos2017}, and GSE53987 \citep{Lanz2019}.
+
+\section{Acknowledgements}
+
+To be completed by the authors.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
