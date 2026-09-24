@@ -517,7 +517,7 @@ def run_step_10(skip_existing: bool = False) -> dict:
         {
             "clean_pipeline_step": "10_extract_extended_ML_prioritized_Tier2_genes",
             "source_procedure": str(stable_script),
-            "source_strategy": "stable ML-prioritized Tier 2 procedure using Tier2_fixed, Tier4_top-k support, and strict v2 support",
+            "source_strategy": "ML-prioritized Tier 2 procedure using v1 Tier2_fixed and nested train-only strict-v2 support; Tier4 v1 sets do not enter the final score",
             "ml_rerun": False,
             "ranked_count": int(len(ranked)),
             "high_confidence_count": int(len(high_df)),

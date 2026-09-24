@@ -1,0 +1,7 @@
+scenario,high,moderate,low
+legacy_reconstructed,35,130,506
+verified_weights_only,34,131,506
+RF_sign_fix_only,35,130,506
+baseline_removal_only,31,118,522
+missing_sign_gate_only,35,130,506
+fully_corrected,30,119,522

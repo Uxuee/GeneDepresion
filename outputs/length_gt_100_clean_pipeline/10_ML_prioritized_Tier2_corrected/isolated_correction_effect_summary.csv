@@ -1,0 +1,6 @@
+scenario,n_scores_changed,maximum_absolute_score_change,n_confidence_labels_changed
+verified_weights_only,644,0.0971200000000001,1
+RF_sign_fix_only,253,0.0500000000000001,0
+baseline_removal_only,644,0.026065295403808086,20
+missing_sign_gate_only,0,0.0,0
+fully_corrected,644,0.10746199623046837,21

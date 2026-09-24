@@ -1,0 +1,31 @@
+region_or_subregion,model_family,n_Tier2_genes_supported
+Cingulate gyrus 25,logistic_l1,76
+Cingulate gyrus 25,elastic_net_logistic,123
+Cingulate gyrus 25,logistic_l2,100
+Cingulate gyrus 25,linear_svm,104
+Cingulate gyrus 25,random_forest_exploratory,171
+Hippocampal Formation,logistic_l1,62
+Hippocampal Formation,elastic_net_logistic,93
+Hippocampal Formation,logistic_l2,87
+Hippocampal Formation,linear_svm,87
+Hippocampal Formation,random_forest_exploratory,110
+Insula,logistic_l1,61
+Insula,elastic_net_logistic,65
+Insula,logistic_l2,51
+Insula,linear_svm,42
+Insula,random_forest_exploratory,70
+OFC BA11,logistic_l1,64
+OFC BA11,elastic_net_logistic,69
+OFC BA11,logistic_l2,52
+OFC BA11,linear_svm,52
+OFC BA11,random_forest_exploratory,70
+Ventral Striatum,logistic_l1,75
+Ventral Striatum,elastic_net_logistic,95
+Ventral Striatum,logistic_l2,89
+Ventral Striatum,linear_svm,85
+Ventral Striatum,random_forest_exploratory,133
+dlPFC BA8/9,logistic_l1,49
+dlPFC BA8/9,elastic_net_logistic,57
+dlPFC BA8/9,logistic_l2,41
+dlPFC BA8/9,linear_svm,48
+dlPFC BA8/9,random_forest_exploratory,72

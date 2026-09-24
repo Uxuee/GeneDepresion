@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "status": "authoritative_corrected_exploratory_result",
+  "candidate_population": {"description": "Tier 2 gene-region pairs", "total": 671, "high_confidence": 30, "moderate_confidence": 119, "exploratory_low_confidence": 522},
+  "authoritative_ranking": {"path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/ML_prioritized_Tier2_genes_all_ranked.csv", "sha256": "6f59e2ed6f652061fcb81a7c5eccbc1211a8dcb9d0bafcc85a1f9fc3edf280f1"},
+  "implementation": {
+    "scoring_script": "code/extract_stable_ML_prioritized_Tier2_genes.py",
+    "execution_wrapper": "code/run_corrected_ml_priority_scoring.py",
+    "comparison_reconstruction_script": "code/analyze_corrected_ml_priority_results.py",
+    "tests": ["tests/test_ml_priority_scoring.py", "tests/test_canonical_ml_priority_result.py"]
+  },
+  "raw_event_provenance": {
+    "v1": {"path": "outputs/length_gt_100_elisa_style/ML_pilot_Tier2/feature_importance/fold_level_feature_importance.csv", "git_blob": "8e753431b47173c37736d84c6c1fb4160f2251fc", "sha256": "406ba687a9f3f4244de0d296550e1b2fcfb043f504c175c56328b447133cde1e", "feature_set": "Tier2_fixed", "denominator_per_region": 125, "seeds": [2026, 2027, 2028, 2029, 2030]},
+    "v2": {"path": "outputs/length_gt_100_elisa_style/ML_strict_v2/feature_stability/selected_genes_per_fold_all_models.csv", "git_blob": "cd320246c2c17006992736c7e3710155cadb8888", "sha256": "7b33e7d0a6eb2ff2efaffdc223aced7f4722f18236a2902cc9102257b2215ef8", "denominator_per_region": 150, "outer_seed": 31001, "majority_baseline_gene_evidence": false}
+  },
+  "score": {
+    "combined_selection_frequency": "0.60*v2_selection_frequency + 0.40*v1_selection_frequency",
+    "weights": {"combined_selection_frequency": 0.40, "model_support_scaled": 0.15, "sparse_model_support_binary": 0.10, "importance_rank_score": 0.15, "sign_consistency_score": 0.10, "lmm_evidence_scaled": 0.05, "v2_support_score": 0.05},
+    "directional_models": ["logistic_l1", "logistic_l2", "elastic_net_logistic", "linear_svm"],
+    "random_forest_is_nondirectional": true,
+    "missing_sign_weighted_imputation": 0.5,
+    "missing_sign_can_pass_high_gate": false,
+    "predictive_performance_enters_score": false
+  },
+  "confidence_thresholds": {
+    "high": {"minimum_score": 0.70, "minimum_combined_selection_frequency": 0.50, "minimum_model_families": 2, "requires_sparse_support": true, "minimum_observed_sign_consistency": 0.70, "requires_no_observed_direction_disagreement": true},
+    "moderate": {"minimum_score": 0.45, "minimum_combined_selection_frequency": 0.25, "minimum_model_families": 1, "requires_no_observed_direction_disagreement": true}
+  },
+  "legacy_result": {"path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended", "status": "provenance_only", "counts": {"high": 35, "moderate": 130, "low": 506}},
+  "git": {"audit_start_branch": "codex/clean-work-path-review-images", "audit_start_head": "f4f60c2d12cae1e9ee600fc3ef0e6c74bfb450ef", "publication_commit": null, "note": "Populate after user-approved commit."},
+  "interpretation": "Exploratory within-study gene prioritisation; not validated biomarkers or externally validated prediction."
+}
