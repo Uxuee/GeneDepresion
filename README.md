@@ -1,5 +1,46 @@
 # GeneDepresion
 
+## START HERE — canonical publication workflow
+
+The authoritative pipeline definition is
+[`provenance/canonical_pipeline.json`](provenance/canonical_pipeline.json), with a
+plain-language map in
+[`docs/CANONICAL_PIPELINE_MAP.md`](docs/CANONICAL_PIPELINE_MAP.md). Validate the
+state with:
+
+1. [Canonical pipeline map](docs/CANONICAL_PIPELINE_MAP.md)
+2. [Machine-readable registry](provenance/canonical_pipeline.json)
+3. [Local path configuration example](config/project_paths.example.yaml)
+4. [External data instructions](data/README.md)
+5. [Environment status](environment/README.md)
+
+```text
+python code/run_canonical_pipeline.py --validate
+python code/run_canonical_pipeline.py --dry-run
+```
+
+The canonical corrected ML result contains **671 gene-region pairs: 30 high,
+119 moderate, and 522 low confidence** (149 high+moderate). The v1 and v2 event
+denominators are 125 and 150. The historical
+`10_ML_prioritized_Tier2_extended` directory is superseded and must not be used
+as the current result.
+
+Scientific baseline: `ca25ec35af359a4d409abf0f728833d2ff54761c`.
+The canonical output tree is `outputs/length_gt_100_clean_pipeline`, but only
+artifacts named by the registry are canonical. Other folders may be historical
+and must be used only for explicit provenance investigation.
+
+Publication guardrails: there are no validated biomarkers; no MDD WGCNA module
+survived Diagnosis BH-FDR; AHBA provides context only; module-level ML is
+exploratory; external validation is incomplete. Tier4 GSEA and historical MDD
+module-level ML2 are excluded until their exact generators are recovered.
+
+> Historical navigation and workflow notes follow. They are retained for
+> provenance and may contain superseded paths; use the canonical map above for
+> current work.
+
+<!-- HISTORICAL_CONTENT_START -->
+
 ## READ THIS FIRST: Current Clean MDD Report
 
 The main report for the current Length > 100 MDD transcriptomics workflow is here:

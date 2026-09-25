@@ -24,3 +24,9 @@ outputs/length_gt_100_clean_pipeline/ahba_modules/raw_downloads/
 # OS/editor noise
 .DS_Store
 Thumbs.db
+
+# Canonical-control files that are intentionally versioned.
+!provenance/*.csv
+config/project_paths.local.yaml
+__pycache__/
+*.pyc
