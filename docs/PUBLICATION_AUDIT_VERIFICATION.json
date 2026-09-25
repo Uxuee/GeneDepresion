@@ -1,0 +1,428 @@
+{
+  "baseline": "ca25ec35af359a4d409abf0f728833d2ff54761c",
+  "canonical_ranking_sha256": "6f59e2ed6f652061fcb81a7c5eccbc1211a8dcb9d0bafcc85a1f9fc3edf280f1",
+  "sample_accounting": [
+    {
+      "region": "Ventral Striatum",
+      "n_samples": 48,
+      "n_MDD": 26,
+      "n_Control": 22,
+      "n_donors": 48,
+      "repeated_donors": 0,
+      "max_samples_per_donor": 1,
+      "duplicate_sample_ids": 0,
+      "missing_Age": 0,
+      "missing_Sex": 0,
+      "missing_RIN": 0,
+      "missing_PMI": 0,
+      "missing_pH": 0
+    },
+    {
+      "region": "Insula",
+      "n_samples": 48,
+      "n_MDD": 26,
+      "n_Control": 22,
+      "n_donors": 48,
+      "repeated_donors": 0,
+      "max_samples_per_donor": 1,
+      "duplicate_sample_ids": 0,
+      "missing_Age": 0,
+      "missing_Sex": 0,
+      "missing_RIN": 0,
+      "missing_PMI": 0,
+      "missing_pH": 0
+    },
+    {
+      "region": "Hippocampal Formation",
+      "n_samples": 43,
+      "n_MDD": 24,
+      "n_Control": 19,
+      "n_donors": 43,
+      "repeated_donors": 0,
+      "max_samples_per_donor": 1,
+      "duplicate_sample_ids": 0,
+      "missing_Age": 0,
+      "missing_Sex": 0,
+      "missing_RIN": 0,
+      "missing_PMI": 0,
+      "missing_pH": 0
+    },
+    {
+      "region": "pooled Frontal Cortex",
+      "n_samples": 122,
+      "n_MDD": 63,
+      "n_Control": 59,
+      "n_donors": 48,
+      "repeated_donors": 47,
+      "max_samples_per_donor": 3,
+      "duplicate_sample_ids": 0,
+      "missing_Age": 0,
+      "missing_Sex": 0,
+      "missing_RIN": 0,
+      "missing_PMI": 0,
+      "missing_pH": 0
+    },
+    {
+      "region": "Cingulate gyrus 25",
+      "n_samples": 27,
+      "n_MDD": 12,
+      "n_Control": 15,
+      "n_donors": 27,
+      "repeated_donors": 0,
+      "max_samples_per_donor": 1,
+      "duplicate_sample_ids": 0,
+      "missing_Age": 0,
+      "missing_Sex": 0,
+      "missing_RIN": 0,
+      "missing_PMI": 0,
+      "missing_pH": 0
+    },
+    {
+      "region": "dlPFC BA8/9",
+      "n_samples": 48,
+      "n_MDD": 26,
+      "n_Control": 22,
+      "n_donors": 48,
+      "repeated_donors": 0,
+      "max_samples_per_donor": 1,
+      "duplicate_sample_ids": 0,
+      "missing_Age": 0,
+      "missing_Sex": 0,
+      "missing_RIN": 0,
+      "missing_PMI": 0,
+      "missing_pH": 0
+    },
+    {
+      "region": "OFC BA11",
+      "n_samples": 47,
+      "n_MDD": 25,
+      "n_Control": 22,
+      "n_donors": 47,
+      "repeated_donors": 0,
+      "max_samples_per_donor": 1,
+      "duplicate_sample_ids": 0,
+      "missing_Age": 0,
+      "missing_Sex": 0,
+      "missing_RIN": 0,
+      "missing_PMI": 0,
+      "missing_pH": 0
+    }
+  ],
+  "normalization": {
+    "region": "Ventral Striatum",
+    "gene_id": "100287102",
+    "sample_id": "GSM2740799",
+    "raw_count": 5.0,
+    "length_bp": 1652.0,
+    "rpk": 3.026634382566586,
+    "rpk_library_size": 4778316.68550817,
+    "TMM_factor": 1.04369398492787,
+    "effective_library_size": 4987100.38274535,
+    "GeTMM": 0.6068926129977864,
+    "reconstructed_log2_GeTMM_plus_1": 0.6842735183893409,
+    "canonical_value": 0.684273518389341,
+    "absolute_difference": 1.1102230246251565e-16
+  },
+  "gene_models": [
+    {
+      "gene_id": "113939912",
+      "gene_symbol": "BMS1P2-AGAP9",
+      "n": 48,
+      "design_columns": [
+        "Intercept",
+        "DiagnosisMDD",
+        "Age",
+        "SexMale",
+        "RIN"
+      ],
+      "df_residual": 43,
+      "reconstructed_beta": 0.3437465610993611,
+      "canonical_beta": 0.343746561099362,
+      "beta_abs_difference": 9.43689570931383e-16,
+      "reconstructed_se": 0.08483504429774674,
+      "canonical_se": 0.0848350442977468,
+      "se_abs_difference": 5.551115123125783e-17,
+      "reconstructed_t": 4.051940609506951,
+      "reconstructed_p": 0.00020883885361576781,
+      "canonical_p": 0.0002088388536157,
+      "p_abs_difference": 6.78168458889683e-17
+    },
+    {
+      "gene_id": "10090",
+      "gene_symbol": "UST",
+      "n": 48,
+      "design_columns": [
+        "Intercept",
+        "DiagnosisMDD",
+        "Age",
+        "SexMale",
+        "RIN"
+      ],
+      "df_residual": 43,
+      "reconstructed_beta": -0.3161932734289576,
+      "canonical_beta": -0.316193273428957,
+      "beta_abs_difference": 6.106226635438361e-16,
+      "reconstructed_se": 0.07384704966852153,
+      "canonical_se": 0.0738470496685216,
+      "se_abs_difference": 6.938893903907228e-17,
+      "reconstructed_t": -4.2817319696353415,
+      "reconstructed_p": 0.00010201950761515645,
+      "canonical_p": 0.0001020195076151,
+      "p_abs_difference": 5.644627560502657e-17
+    }
+  ],
+  "multiple_testing": {
+    "region": "Insula",
+    "n_tests": 23090,
+    "max_absolute_difference": 1.1102230246251565e-16,
+    "minimum_canonical_BH": 0.9336862754678356
+  },
+  "tiers_and_effects": {
+    "standardized_effect": {
+      "region": "Frontal_Cortex",
+      "gene_id": "5147",
+      "beta": 0.0968409325231598,
+      "sd": 0.1381361153705227,
+      "reconstructed": 0.701054407555933,
+      "canonical": 0.7010544075559327,
+      "absolute_difference": 2.220446049250313e-16,
+      "tier2_p_check": true,
+      "tier2_effect_check": false
+    },
+    "tier_rows": 95319,
+    "tier1_mismatches": 0,
+    "tier2_mismatches": 0,
+    "tier3_mismatches": 0,
+    "counts": [
+      {
+        "grouped_region": "Frontal_Cortex",
+        "t1": 0,
+        "t2": 1,
+        "t3": 99
+      },
+      {
+        "grouped_region": "Hippocampal_Formation",
+        "t1": 0,
+        "t2": 127,
+        "t3": 70
+      },
+      {
+        "grouped_region": "Insula",
+        "t1": 0,
+        "t2": 70,
+        "t3": 92
+      },
+      {
+        "grouped_region": "Ventral_Striatum",
+        "t1": 4,
+        "t2": 146,
+        "t3": 167
+      }
+    ],
+    "tier4_example": {
+      "gene_id": "5147",
+      "formula": "sign(standardized_effect_size_diagnosis) * -log10(p_value_diagnosis)",
+      "reconstructed": 5.380829883783952,
+      "stored_in_effect_table": 5.380829883783952,
+      "canonical_rank_file_present": false
+    }
+  },
+  "tier2_enrichment": {
+    "source": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\08_Tier2_enrichment\\tables\\four_group__Hippocampal_Formation__down_in_MDD__GO_MF__full.csv",
+    "term": "GO:0017017",
+    "N": 15343,
+    "K": 12,
+    "n": 30,
+    "k": 2,
+    "reconstructed_p": 0.00024098263715062357,
+    "canonical_p": 0.0002409826371506,
+    "p_absolute_difference": 2.3554292197247584e-17,
+    "BH_over_saved_rows": 0.0265974725010149,
+    "canonical_p_adjust": 0.0265974725010151,
+    "saved_rows_in_family": 122
+  },
+  "ml": {
+    "rebuilt_rows": 671,
+    "matched_rows": 671,
+    "max_score_absolute_difference": 9.71445146547012e-17,
+    "counts": {
+      "Exploratory ML-prioritized Tier 2": 522,
+      "Moderate-confidence ML-prioritized Tier 2": 119,
+      "High-confidence ML-prioritized Tier 2": 30
+    },
+    "examples": [
+      {
+        "region": "Cingulate gyrus 25",
+        "gene_id": "107985795",
+        "gene_symbol": "LOC107985795",
+        "v1_selected": 108,
+        "v1_denominator": 125,
+        "v2_selected": 70,
+        "v2_denominator": 150,
+        "selection_frequency_v1": 0.864,
+        "selection_frequency_v2": 0.4666666666666667,
+        "combined_selection_frequency": 0.6255999999999999,
+        "model_support_scaled": 1.0,
+        "sparse_model_support_binary": 1.0,
+        "importance_rank_score": 0.7992512728361785,
+        "sign_consistency_score": 1.0,
+        "observed_sign_consistency": 1.0,
+        "lmm_evidence_scaled": 0.493570482665677,
+        "v2_support_score": 1.0,
+        "reconstructed_score": 0.7948062150587105,
+        "canonical_score": 0.7948062150587105,
+        "absolute_difference": 0.0,
+        "class": "High-confidence ML-prioritized Tier 2"
+      },
+      {
+        "region": "Insula",
+        "gene_id": "153768",
+        "gene_symbol": "PRELID2",
+        "v1_selected": 34,
+        "v1_denominator": 125,
+        "v2_selected": 30,
+        "v2_denominator": 150,
+        "selection_frequency_v1": 0.272,
+        "selection_frequency_v2": 0.2,
+        "combined_selection_frequency": 0.2288,
+        "model_support_scaled": 1.0,
+        "sparse_model_support_binary": 1.0,
+        "importance_rank_score": 0.3482697705507936,
+        "sign_consistency_score": 1.0,
+        "observed_sign_consistency": 1.0,
+        "lmm_evidence_scaled": 0.376898395978649,
+        "v2_support_score": 1.0,
+        "reconstructed_score": 0.5626053853815516,
+        "canonical_score": 0.5626053853815516,
+        "absolute_difference": 0.0,
+        "class": "Exploratory ML-prioritized Tier 2"
+      },
+      {
+        "region": "Insula",
+        "gene_id": "100505894",
+        "gene_symbol": "TMEM161B-DT",
+        "v1_selected": 116,
+        "v1_denominator": 125,
+        "v2_selected": 90,
+        "v2_denominator": 150,
+        "selection_frequency_v1": 0.928,
+        "selection_frequency_v2": 0.6,
+        "combined_selection_frequency": 0.7312000000000001,
+        "model_support_scaled": 1.0,
+        "sparse_model_support_binary": 1.0,
+        "importance_rank_score": 0.8602141430032559,
+        "sign_consistency_score": 1.0,
+        "observed_sign_consistency": 1.0,
+        "lmm_evidence_scaled": 0.8390006562354937,
+        "v2_support_score": 1.0,
+        "reconstructed_score": 0.863462154262263,
+        "canonical_score": 0.863462154262263,
+        "absolute_difference": 0.0,
+        "class": "High-confidence ML-prioritized Tier 2"
+      },
+      {
+        "region": "Cingulate gyrus 25",
+        "gene_id": "105372507",
+        "gene_symbol": "LOC105372507",
+        "v1_selected": 95,
+        "v1_denominator": 125,
+        "v2_selected": 51,
+        "v2_denominator": 150,
+        "selection_frequency_v1": 0.76,
+        "selection_frequency_v2": 0.34,
+        "combined_selection_frequency": 0.508,
+        "model_support_scaled": 1.0,
+        "sparse_model_support_binary": 1.0,
+        "importance_rank_score": 0.6855008405215778,
+        "sign_consistency_score": 1.0,
+        "observed_sign_consistency": 1.0,
+        "lmm_evidence_scaled": 0.1918203200104205,
+        "v2_support_score": 1.0,
+        "reconstructed_score": 0.7156161420787578,
+        "canonical_score": 0.7156161420787578,
+        "absolute_difference": 0.0,
+        "class": "High-confidence ML-prioritized Tier 2"
+      },
+      {
+        "region": "Ventral Striatum",
+        "gene_id": "441509",
+        "gene_symbol": "GLRA4",
+        "v1_selected": 85,
+        "v1_denominator": 125,
+        "v2_selected": 0,
+        "v2_denominator": 150,
+        "selection_frequency_v1": 0.68,
+        "selection_frequency_v2": 0.0,
+        "combined_selection_frequency": 0.272,
+        "model_support_scaled": 1.0,
+        "sparse_model_support_binary": 1.0,
+        "importance_rank_score": 0.5633790358248563,
+        "sign_consistency_score": 1.0,
+        "observed_sign_consistency": 1.0,
+        "lmm_evidence_scaled": 0.1798754998043849,
+        "v2_support_score": 0.0,
+        "reconstructed_score": 0.5523006303639477,
+        "canonical_score": 0.5523006303639477,
+        "absolute_difference": 0.0,
+        "class": "Moderate-confidence ML-prioritized Tier 2"
+      }
+    ],
+    "v1_denominators": [
+      125
+    ],
+    "v2_denominators": [
+      150
+    ]
+  },
+  "downstream": {
+    "AHBA_M26": {
+      "N": 12042,
+      "K": 554,
+      "n": 6,
+      "k": 2,
+      "genes": "MORN5;RPGR",
+      "reconstructed_p": 0.02801303788284664,
+      "canonical_p": 0.0280130378828466,
+      "q": 0.8822833419054857,
+      "difference": 4.163336342344337e-17
+    },
+    "AHBA_results_q_lt_0_10": 0,
+    "WGCNA_VS_MEdarkred": {
+      "N": 15000,
+      "K_module": 227,
+      "n_set": 88,
+      "k": 6,
+      "genes": "10974;125;1803;64333;644538;6948",
+      "reconstructed_p": 0.0021701362897413525,
+      "canonical_p": 0.0021701362897413,
+      "q": 0.1085068144870676,
+      "difference": 5.2475385148298415e-17
+    },
+    "OFC_MEtan_high": {
+      "overlap": 2,
+      "p": 0.001780636064698,
+      "q": 0.0320514491645654
+    },
+    "stable_core": [
+      {
+        "original": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\12_MDD_WGCNA_modules\\module_level_ml2\\stable_core_genes_by_module.csv",
+        "corrected": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\16_corrected_ML_downstream\\stable_core_annotations_corrected\\broad_structural_core_with_corrected_ML_annotations.csv",
+        "rows_original": 3200,
+        "rows_corrected": 3200,
+        "shared_columns_exact": true
+      },
+      {
+        "original": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\12_MDD_WGCNA_modules\\frontal_subregion_wgcna\\module_level_ml2\\frontal_subregion_stable_core_genes_by_module.csv",
+        "corrected": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\16_corrected_ML_downstream\\stable_core_annotations_corrected\\frontal_structural_core_with_corrected_ML_annotations.csv",
+        "rows_original": 20154,
+        "rows_corrected": 20154,
+        "shared_columns_exact": true
+      }
+    ],
+    "frontal_network_regions": [
+      "Cingulate gyrus 25",
+      "OFC BA11",
+      "dlPFC BA8/9"
+    ]
+  }
+}
