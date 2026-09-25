@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-26 06:34:02 JST",
+  "r_validation": {
+    "command": "Rscript audit/validate_phase3b_wgcna.R",
+    "checks": 38,
+    "status": "PASS"
+  },
+  "python_validation": {
+    "command": "D:/codex_phase3b_python/python.exe -m unittest discover -s tests -p test_*.py -v",
+    "tests": 36,
+    "status": "PASS",
+    "runtime": "temporary copied Python 3.12.14 outside repository; native package DLLs installed/copied to bypass source ACL"
+  },
+  "canonical_registry_validator": {
+    "command": "python audit/validate_canonical_pipeline.py",
+    "status": "PASS",
+    "stage_count": 22,
+    "canonical_ranking_sha256": "6f59e2ed6f652061fcb81a7c5eccbc1211a8dcb9d0bafcc85a1f9fc3edf280f1"
+  }
+}

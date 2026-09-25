@@ -1,0 +1,19 @@
+region,analysis_variant,gene_filter_version,n_samples,n_genes_after_filter,power,power_selection_status,deepSplit,minModuleSize,mergeCutHeight,corType,networkType,TOMType,n_non_grey_modules,largest_module_size,largest_module_fraction,grey_gene_count,grey_gene_fraction,median_module_size,usable_solution
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,2,20,0.15,bicor,signed,signed,20,1108,0.2216,15,0.003,71,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,3,20,0.15,bicor,signed,signed,25,1390,0.278,12,0.0024,53,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,4,20,0.15,bicor,signed,signed,27,1386,0.2772,12,0.0024,52,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,2,30,0.15,bicor,signed,signed,14,993,0.1986,26,0.0052,248.5,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,3,30,0.15,bicor,signed,signed,16,1276,0.2552,23,0.0046,179,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,4,30,0.15,bicor,signed,signed,18,1269,0.2538,23,0.0046,175.5,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,2,50,0.15,bicor,signed,signed,13,870,0.174,27,0.0054,295,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,3,50,0.15,bicor,signed,signed,14,860,0.172,28,0.0056,253,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,4,50,0.15,bicor,signed,signed,14,873,0.1746,28,0.0056,259,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,2,20,0.25,bicor,signed,signed,16,1786,0.3572,15,0.003,70,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,3,20,0.25,bicor,signed,signed,19,1584,0.3168,12,0.0024,47,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,4,20,0.25,bicor,signed,signed,21,1554,0.3108,12,0.0024,52,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,2,30,0.25,bicor,signed,signed,9,1849,0.3698,26,0.0052,486,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,3,30,0.25,bicor,signed,signed,14,1470,0.294,23,0.0046,189.5,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,4,30,0.25,bicor,signed,signed,14,1463,0.2926,23,0.0046,159.5,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,2,50,0.25,bicor,signed,signed,9,1843,0.3686,27,0.0054,238,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,3,50,0.25,bicor,signed,signed,10,1832,0.3664,28,0.0056,211,TRUE
+Cingulate gyrus 25,unadjusted_logGeTMM,top_5000_MAD,27,5000,17,no_power_reached_0.8,4,50,0.25,bicor,signed,signed,10,1826,0.3652,28,0.0056,212,TRUE

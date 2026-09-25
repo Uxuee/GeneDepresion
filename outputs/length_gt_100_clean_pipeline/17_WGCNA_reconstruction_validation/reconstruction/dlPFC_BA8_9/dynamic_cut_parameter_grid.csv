@@ -1,0 +1,19 @@
+region,analysis_variant,gene_filter_version,n_samples,n_genes_after_filter,power,power_selection_status,deepSplit,minModuleSize,mergeCutHeight,corType,networkType,TOMType,n_non_grey_modules,largest_module_size,largest_module_fraction,grey_gene_count,grey_gene_fraction,median_module_size,usable_solution
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,2,20,0.15,bicor,signed,signed,19,967,0.1934,56,0.0112,104,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,3,20,0.15,bicor,signed,signed,21,971,0.1942,29,0.0058,53,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,4,20,0.15,bicor,signed,signed,21,978,0.1956,29,0.0058,53,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,2,30,0.15,bicor,signed,signed,13,996,0.1992,71,0.0142,244,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,3,30,0.15,bicor,signed,signed,14,1018,0.2036,48,0.0096,223.5,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,4,30,0.15,bicor,signed,signed,14,1020,0.204,48,0.0096,219.5,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,2,50,0.15,bicor,signed,signed,13,996,0.1992,71,0.0142,244,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,3,50,0.15,bicor,signed,signed,13,1009,0.2018,71,0.0142,244,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,4,50,0.15,bicor,signed,signed,13,991,0.1982,71,0.0142,242,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,2,20,0.25,bicor,signed,signed,14,1238,0.2476,56,0.0112,119.5,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,3,20,0.25,bicor,signed,signed,17,1322,0.2644,29,0.0058,80,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,4,20,0.25,bicor,signed,signed,17,1325,0.265,29,0.0058,78,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,2,30,0.25,bicor,signed,signed,10,1300,0.26,71,0.0142,377,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,3,30,0.25,bicor,signed,signed,11,1443,0.2886,48,0.0096,238,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,4,30,0.25,bicor,signed,signed,11,1450,0.29,48,0.0096,236,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,2,50,0.25,bicor,signed,signed,10,1300,0.26,71,0.0142,377,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,3,50,0.25,bicor,signed,signed,10,1294,0.2588,71,0.0142,378.5,TRUE
+dlPFC BA8/9,residualized_technical_covariates,top_5000_MAD,48,5000,15,first_power_reached_0.8,4,50,0.25,bicor,signed,signed,11,1299,0.2598,71,0.0142,242,TRUE

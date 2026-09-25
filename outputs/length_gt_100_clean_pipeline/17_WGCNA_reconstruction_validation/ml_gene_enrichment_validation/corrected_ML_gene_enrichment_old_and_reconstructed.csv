@@ -1,0 +1,1729 @@
+region,assignment_version,module,gene_set,network_universe_size,module_gene_count,gene_set_count_in_background,overlap_count,overlap_genes,p_value,fdr_BH
+Ventral Striatum,canonical_old,MEivory,global_high,15000,49,18,0,,1,1
+Ventral Striatum,canonical_old,MEivory,global_high_plus_moderate,15000,49,88,0,,1,1
+Ventral Striatum,canonical_old,MEivory,same_region_high,15000,49,4,0,,1,1
+Ventral Striatum,canonical_old,MEivory,same_region_high_plus_moderate,15000,49,12,0,,1,1
+Ventral Striatum,canonical_old,MEturquoise,global_high,15000,2200,18,1,101929710,0.9425387890108281,1
+Ventral Striatum,canonical_old,MEturquoise,global_high_plus_moderate,15000,2200,88,12,100874047;101927931;101928161;101929549;101929710;105376380;148203;154092;27098;3430;4814;54718,0.6536593982633969,1
+Ventral Striatum,canonical_old,MEturquoise,same_region_high,15000,2200,4,0,,1,1
+Ventral Striatum,canonical_old,MEturquoise,same_region_high_plus_moderate,15000,2200,12,1,101928161,0.8510309975796808,1
+Ventral Striatum,canonical_old,MEbrown,global_high,15000,1888,18,3,105378913;113939912;642826,0.39940095086494476,1
+Ventral Striatum,canonical_old,MEbrown,global_high_plus_moderate,15000,1888,88,8,101929741;105371067;105378913;107985657;113939912;115290;285830;642826,0.8791614996967247,1
+Ventral Striatum,canonical_old,MEbrown,same_region_high,15000,1888,4,0,,1,1
+Ventral Striatum,canonical_old,MEbrown,same_region_high_plus_moderate,15000,1888,12,4,105371067;107985657;113939912;642826,0.05389702246589846,1
+Ventral Striatum,canonical_old,MEblack,global_high,15000,503,18,0,,1,1
+Ventral Striatum,canonical_old,MEblack,global_high_plus_moderate,15000,503,88,4,105370868;2273;4223;6697,0.34150947106844415,1
+Ventral Striatum,canonical_old,MEblack,same_region_high,15000,503,4,0,,1,1
+Ventral Striatum,canonical_old,MEblack,same_region_high_plus_moderate,15000,503,12,0,,1,1
+Ventral Striatum,canonical_old,MEantiquewhite4,global_high,15000,135,18,0,,1,1
+Ventral Striatum,canonical_old,MEantiquewhite4,global_high_plus_moderate,15000,135,88,1,80036,0.5497319839738888,1
+Ventral Striatum,canonical_old,MEantiquewhite4,same_region_high,15000,135,4,0,,1,1
+Ventral Striatum,canonical_old,MEantiquewhite4,same_region_high_plus_moderate,15000,135,12,0,,1,1
+Ventral Striatum,canonical_old,MEmediumpurple2,global_high,15000,2018,18,2,100996279;105372507,0.7182950124117362,1
+Ventral Striatum,canonical_old,MEmediumpurple2,global_high_plus_moderate,15000,2018,88,14,100130934;100996279;101926987;101927051;101927655;101928268;105372507;105372697;107987272;339201;342346;55620;581;79713,0.2919400964095735,1
+Ventral Striatum,canonical_old,MEmediumpurple2,same_region_high,15000,2018,4,0,,1,1
+Ventral Striatum,canonical_old,MEmediumpurple2,same_region_high_plus_moderate,15000,2018,12,0,,1,1
+Ventral Striatum,canonical_old,MElightcoral,global_high,15000,23,18,0,,1,1
+Ventral Striatum,canonical_old,MElightcoral,global_high_plus_moderate,15000,23,88,0,,1,1
+Ventral Striatum,canonical_old,MElightcoral,same_region_high,15000,23,4,0,,1,1
+Ventral Striatum,canonical_old,MElightcoral,same_region_high_plus_moderate,15000,23,12,0,,1,1
+Ventral Striatum,canonical_old,MEplum2,global_high,15000,44,18,0,,1,1
+Ventral Striatum,canonical_old,MEplum2,global_high_plus_moderate,15000,44,88,0,,1,1
+Ventral Striatum,canonical_old,MEplum2,same_region_high,15000,44,4,0,,1,1
+Ventral Striatum,canonical_old,MEplum2,same_region_high_plus_moderate,15000,44,12,0,,1,1
+Ventral Striatum,canonical_old,MEsalmon,global_high,15000,244,18,1,254956,0.2557485870492432,1
+Ventral Striatum,canonical_old,MEsalmon,global_high_plus_moderate,15000,244,88,1,254956,0.7648363436174521,1
+Ventral Striatum,canonical_old,MEsalmon,same_region_high,15000,244,4,1,254956,0.0635023821432763,1
+Ventral Striatum,canonical_old,MEsalmon,same_region_high_plus_moderate,15000,244,12,1,254956,0.17870905276060756,1
+Ventral Striatum,canonical_old,MEmediumorchid,global_high,15000,28,18,0,,1,1
+Ventral Striatum,canonical_old,MEmediumorchid,global_high_plus_moderate,15000,28,88,0,,1,1
+Ventral Striatum,canonical_old,MEmediumorchid,same_region_high,15000,28,4,0,,1,1
+Ventral Striatum,canonical_old,MEmediumorchid,same_region_high_plus_moderate,15000,28,12,0,,1,1
+Ventral Striatum,canonical_old,MEdarkgreen,global_high,15000,329,18,0,,1,1
+Ventral Striatum,canonical_old,MEdarkgreen,global_high_plus_moderate,15000,329,88,1,23783,0.8587693161222221,1
+Ventral Striatum,canonical_old,MEdarkgreen,same_region_high,15000,329,4,0,,1,1
+Ventral Striatum,canonical_old,MEdarkgreen,same_region_high_plus_moderate,15000,329,12,0,,1,1
+Ventral Striatum,canonical_old,MEsalmon4,global_high,15000,347,18,0,,1,1
+Ventral Striatum,canonical_old,MEsalmon4,global_high_plus_moderate,15000,347,88,3,101928283;116143;919,0.33310562853814885,1
+Ventral Striatum,canonical_old,MEsalmon4,same_region_high,15000,347,4,0,,1,1
+Ventral Striatum,canonical_old,MEsalmon4,same_region_high_plus_moderate,15000,347,12,0,,1,1
+Ventral Striatum,canonical_old,MEpaleturquoise,global_high,15000,81,18,0,,1,1
+Ventral Striatum,canonical_old,MEpaleturquoise,global_high_plus_moderate,15000,81,88,0,,1,1
+Ventral Striatum,canonical_old,MEpaleturquoise,same_region_high,15000,81,4,0,,1,1
+Ventral Striatum,canonical_old,MEpaleturquoise,same_region_high_plus_moderate,15000,81,12,0,,1,1
+Ventral Striatum,canonical_old,MEroyalblue,global_high,15000,746,18,0,,1,1
+Ventral Striatum,canonical_old,MEroyalblue,global_high_plus_moderate,15000,746,88,2,113230;79800,0.9375709903155538,1
+Ventral Striatum,canonical_old,MEroyalblue,same_region_high,15000,746,4,0,,1,1
+Ventral Striatum,canonical_old,MEroyalblue,same_region_high_plus_moderate,15000,746,12,0,,1,1
+Ventral Striatum,canonical_old,MEgreenyellow,global_high,15000,1810,18,4,100505894;101929607;105376607;2488,0.16405185513616585,1
+Ventral Striatum,canonical_old,MEgreenyellow,global_high_plus_moderate,15000,1810,88,15,100287015;100505894;101929607;105376607;105377975;107985195;107985988;116349;2488;26063;5092;51117;645;83460;83547,0.10479567903286806,1
+Ventral Striatum,canonical_old,MEgreenyellow,same_region_high,15000,1810,4,1,2488,0.4021526568811111,1
+Ventral Striatum,canonical_old,MEgreenyellow,same_region_high_plus_moderate,15000,1810,12,1,2488,0.7864104151621556,1
+Ventral Striatum,canonical_old,MEdarkturquoise,global_high,15000,173,18,0,,1,1
+Ventral Striatum,canonical_old,MEdarkturquoise,global_high_plus_moderate,15000,173,88,1,4604,0.6407802129094282,1
+Ventral Striatum,canonical_old,MEdarkturquoise,same_region_high,15000,173,4,0,,1,1
+Ventral Striatum,canonical_old,MEdarkturquoise,same_region_high_plus_moderate,15000,173,12,0,,1,1
+Ventral Striatum,canonical_old,MEthistle1,global_high,15000,43,18,0,,1,1
+Ventral Striatum,canonical_old,MEthistle1,global_high_plus_moderate,15000,43,88,0,,1,1
+Ventral Striatum,canonical_old,MEthistle1,same_region_high,15000,43,4,0,,1,1
+Ventral Striatum,canonical_old,MEthistle1,same_region_high_plus_moderate,15000,43,12,0,,1,1
+Ventral Striatum,canonical_old,MElightcyan1,global_high,15000,586,18,1,101927498,0.5121363960751573,1
+Ventral Striatum,canonical_old,MElightcyan1,global_high_plus_moderate,15000,586,88,3,100861412;101927498;5468,0.6737413066671585,1
+Ventral Striatum,canonical_old,MElightcyan1,same_region_high,15000,586,4,1,101927498,0.14735947350761625,1
+Ventral Striatum,canonical_old,MElightcyan1,same_region_high_plus_moderate,15000,586,12,1,101927498,0.3802145505982729,1
+Ventral Striatum,canonical_old,MElightsteelblue1,global_high,15000,53,18,0,,1,1
+Ventral Striatum,canonical_old,MElightsteelblue1,global_high_plus_moderate,15000,53,88,0,,1,1
+Ventral Striatum,canonical_old,MElightsteelblue1,same_region_high,15000,53,4,0,,1,1
+Ventral Striatum,canonical_old,MElightsteelblue1,same_region_high_plus_moderate,15000,53,12,0,,1,1
+Ventral Striatum,canonical_old,MEbrown4,global_high,15000,49,18,0,,1,1
+Ventral Striatum,canonical_old,MEbrown4,global_high_plus_moderate,15000,49,88,0,,1,1
+Ventral Striatum,canonical_old,MEbrown4,same_region_high,15000,49,4,0,,1,1
+Ventral Striatum,canonical_old,MEbrown4,same_region_high_plus_moderate,15000,49,12,0,,1,1
+Ventral Striatum,canonical_old,MEplum1,global_high,15000,56,18,0,,1,1
+Ventral Striatum,canonical_old,MEplum1,global_high_plus_moderate,15000,56,88,0,,1,1
+Ventral Striatum,canonical_old,MEplum1,same_region_high,15000,56,4,0,,1,1
+Ventral Striatum,canonical_old,MEplum1,same_region_high_plus_moderate,15000,56,12,0,,1,1
+Ventral Striatum,canonical_old,MEgreen,global_high,15000,933,18,2,27433;79760,0.30946700242126945,1
+Ventral Striatum,canonical_old,MEgreen,global_high_plus_moderate,15000,933,88,6,107984435;27433;401288;441509;53917;79760,0.46936410769511727,1
+Ventral Striatum,canonical_old,MEgreen,same_region_high,15000,933,4,0,,1,1
+Ventral Striatum,canonical_old,MEgreen,same_region_high_plus_moderate,15000,933,12,1,441509,0.537410327373582,1
+Ventral Striatum,canonical_old,MElightpink4,global_high,15000,36,18,0,,1,1
+Ventral Striatum,canonical_old,MElightpink4,global_high_plus_moderate,15000,36,88,0,,1,1
+Ventral Striatum,canonical_old,MElightpink4,same_region_high,15000,36,4,0,,1,1
+Ventral Striatum,canonical_old,MElightpink4,same_region_high_plus_moderate,15000,36,12,0,,1,1
+Ventral Striatum,canonical_old,MEpurple,global_high,15000,348,18,0,,1,1
+Ventral Striatum,canonical_old,MEpurple,global_high_plus_moderate,15000,348,88,0,,1,1
+Ventral Striatum,canonical_old,MEpurple,same_region_high,15000,348,4,0,,1,1
+Ventral Striatum,canonical_old,MEpurple,same_region_high_plus_moderate,15000,348,12,0,,1,1
+Ventral Striatum,canonical_old,MEcoral1,global_high,15000,124,18,0,,1,1
+Ventral Striatum,canonical_old,MEcoral1,global_high_plus_moderate,15000,124,88,0,,1,1
+Ventral Striatum,canonical_old,MEcoral1,same_region_high,15000,124,4,0,,1,1
+Ventral Striatum,canonical_old,MEcoral1,same_region_high_plus_moderate,15000,124,12,0,,1,1
+Ventral Striatum,canonical_old,MEplum,global_high,15000,25,18,0,,1,1
+Ventral Striatum,canonical_old,MEplum,global_high_plus_moderate,15000,25,88,1,4500,0.13689310727621062,1
+Ventral Striatum,canonical_old,MEplum,same_region_high,15000,25,4,0,,1,1
+Ventral Striatum,canonical_old,MEplum,same_region_high_plus_moderate,15000,25,12,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue1,global_high,15000,270,18,1,107984015,0.2790161803977267,1
+Ventral Striatum,canonical_old,MEskyblue1,global_high_plus_moderate,15000,270,88,2,107984015;2355,0.47215493681721366,1
+Ventral Striatum,canonical_old,MEskyblue1,same_region_high,15000,270,4,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue1,same_region_high_plus_moderate,15000,270,12,1,2355,0.19591342953110324,1
+Ventral Striatum,canonical_old,MEdarkgrey,global_high,15000,300,18,1,64598,0.3050094694944947,1
+Ventral Striatum,canonical_old,MEdarkgrey,global_high_plus_moderate,15000,300,88,2,414062;64598,0.5281477691188063,1
+Ventral Striatum,canonical_old,MEdarkgrey,same_region_high,15000,300,4,1,64598,0.07763937068867532,1
+Ventral Striatum,canonical_old,MEdarkgrey,same_region_high_plus_moderate,15000,300,12,1,64598,0.2153537738609106,1
+Ventral Striatum,canonical_old,MEdarkred,global_high,15000,227,18,0,,1,1
+Ventral Striatum,canonical_old,MEdarkred,global_high_plus_moderate,15000,227,88,6,10974;125;1803;64333;644538;6948,0.0021701362897413564,0.10850681448706782
+Ventral Striatum,canonical_old,MEdarkred,same_region_high,15000,227,4,0,,1,1
+Ventral Striatum,canonical_old,MEdarkred,same_region_high_plus_moderate,15000,227,12,1,125,0.1672782896317201,1
+Ventral Striatum,canonical_old,MEdarkorange2,global_high,15000,145,18,0,,1,1
+Ventral Striatum,canonical_old,MEdarkorange2,global_high_plus_moderate,15000,145,88,0,,1,1
+Ventral Striatum,canonical_old,MEdarkorange2,same_region_high,15000,145,4,0,,1,1
+Ventral Striatum,canonical_old,MEdarkorange2,same_region_high_plus_moderate,15000,145,12,0,,1,1
+Ventral Striatum,canonical_old,MEdarkseagreen4,global_high,15000,33,18,0,,1,1
+Ventral Striatum,canonical_old,MEdarkseagreen4,global_high_plus_moderate,15000,33,88,0,,1,1
+Ventral Striatum,canonical_old,MEdarkseagreen4,same_region_high,15000,33,4,0,,1,1
+Ventral Striatum,canonical_old,MEdarkseagreen4,same_region_high_plus_moderate,15000,33,12,0,,1,1
+Ventral Striatum,canonical_old,MEdarkolivegreen4,global_high,15000,22,18,0,,1,1
+Ventral Striatum,canonical_old,MEdarkolivegreen4,global_high_plus_moderate,15000,22,88,0,,1,1
+Ventral Striatum,canonical_old,MEdarkolivegreen4,same_region_high,15000,22,4,0,,1,1
+Ventral Striatum,canonical_old,MEdarkolivegreen4,same_region_high_plus_moderate,15000,22,12,0,,1,1
+Ventral Striatum,canonical_old,MEbisque4,global_high,15000,46,18,0,,1,1
+Ventral Striatum,canonical_old,MEbisque4,global_high_plus_moderate,15000,46,88,0,,1,1
+Ventral Striatum,canonical_old,MEbisque4,same_region_high,15000,46,4,0,,1,1
+Ventral Striatum,canonical_old,MEbisque4,same_region_high_plus_moderate,15000,46,12,0,,1,1
+Ventral Striatum,canonical_old,MElightsteelblue,global_high,15000,24,18,0,,1,1
+Ventral Striatum,canonical_old,MElightsteelblue,global_high_plus_moderate,15000,24,88,0,,1,1
+Ventral Striatum,canonical_old,MElightsteelblue,same_region_high,15000,24,4,0,,1,1
+Ventral Striatum,canonical_old,MElightsteelblue,same_region_high_plus_moderate,15000,24,12,0,,1,1
+Ventral Striatum,canonical_old,MEsteelblue,global_high,15000,86,18,0,,1,1
+Ventral Striatum,canonical_old,MEsteelblue,global_high_plus_moderate,15000,86,88,0,,1,1
+Ventral Striatum,canonical_old,MEsteelblue,same_region_high,15000,86,4,0,,1,1
+Ventral Striatum,canonical_old,MEsteelblue,same_region_high_plus_moderate,15000,86,12,0,,1,1
+Ventral Striatum,canonical_old,MEyellowgreen,global_high,15000,59,18,0,,1,1
+Ventral Striatum,canonical_old,MEyellowgreen,global_high_plus_moderate,15000,59,88,0,,1,1
+Ventral Striatum,canonical_old,MEyellowgreen,same_region_high,15000,59,4,0,,1,1
+Ventral Striatum,canonical_old,MEyellowgreen,same_region_high_plus_moderate,15000,59,12,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue,global_high,15000,98,18,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue,global_high_plus_moderate,15000,98,88,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue,same_region_high,15000,98,4,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue,same_region_high_plus_moderate,15000,98,12,0,,1,1
+Ventral Striatum,canonical_old,MEdarkslateblue,global_high,15000,45,18,0,,1,1
+Ventral Striatum,canonical_old,MEdarkslateblue,global_high_plus_moderate,15000,45,88,0,,1,1
+Ventral Striatum,canonical_old,MEdarkslateblue,same_region_high,15000,45,4,0,,1,1
+Ventral Striatum,canonical_old,MEdarkslateblue,same_region_high_plus_moderate,15000,45,12,0,,1,1
+Ventral Striatum,canonical_old,MElightgreen,global_high,15000,299,18,0,,1,1
+Ventral Striatum,canonical_old,MElightgreen,global_high_plus_moderate,15000,299,88,0,,1,1
+Ventral Striatum,canonical_old,MElightgreen,same_region_high,15000,299,4,0,,1,1
+Ventral Striatum,canonical_old,MElightgreen,same_region_high_plus_moderate,15000,299,12,0,,1,1
+Ventral Striatum,canonical_old,MEbrown2,global_high,15000,21,18,0,,1,1
+Ventral Striatum,canonical_old,MEbrown2,global_high_plus_moderate,15000,21,88,1,26071,0.11630694539518338,1
+Ventral Striatum,canonical_old,MEbrown2,same_region_high,15000,21,4,0,,1,1
+Ventral Striatum,canonical_old,MEbrown2,same_region_high_plus_moderate,15000,21,12,0,,1,1
+Ventral Striatum,canonical_old,MEdarkolivegreen,global_high,15000,125,18,0,,1,1
+Ventral Striatum,canonical_old,MEdarkolivegreen,global_high_plus_moderate,15000,125,88,2,105379042;2830,0.16678677261878377,1
+Ventral Striatum,canonical_old,MEdarkolivegreen,same_region_high,15000,125,4,0,,1,1
+Ventral Striatum,canonical_old,MEdarkolivegreen,same_region_high_plus_moderate,15000,125,12,0,,1,1
+Ventral Striatum,canonical_old,MEsienna3,global_high,15000,60,18,1,105377644,0.0696415909147966,1
+Ventral Striatum,canonical_old,MEsienna3,global_high_plus_moderate,15000,60,88,2,105377644;126208,0.04836754850221369,1
+Ventral Striatum,canonical_old,MEsienna3,same_region_high,15000,60,4,0,,1,1
+Ventral Striatum,canonical_old,MEsienna3,same_region_high_plus_moderate,15000,60,12,0,,1,1
+Ventral Striatum,canonical_old,MEfirebrick4,global_high,15000,23,18,0,,1,1
+Ventral Striatum,canonical_old,MEfirebrick4,global_high_plus_moderate,15000,23,88,0,,1,1
+Ventral Striatum,canonical_old,MEfirebrick4,same_region_high,15000,23,4,0,,1,1
+Ventral Striatum,canonical_old,MEfirebrick4,same_region_high_plus_moderate,15000,23,12,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue3,global_high,15000,57,18,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue3,global_high_plus_moderate,15000,57,88,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue3,same_region_high,15000,57,4,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue3,same_region_high_plus_moderate,15000,57,12,0,,1,1
+Ventral Striatum,canonical_old,MEyellow4,global_high,15000,27,18,0,,1,1
+Ventral Striatum,canonical_old,MEyellow4,global_high_plus_moderate,15000,27,88,0,,1,1
+Ventral Striatum,canonical_old,MEyellow4,same_region_high,15000,27,4,0,,1,1
+Ventral Striatum,canonical_old,MEyellow4,same_region_high_plus_moderate,15000,27,12,0,,1,1
+Ventral Striatum,canonical_old,MEhoneydew1,global_high,15000,35,18,1,23475,0.04120016701292062,1
+Ventral Striatum,canonical_old,MEhoneydew1,global_high_plus_moderate,15000,35,88,1,23475,0.18630726167312284,1
+Ventral Striatum,canonical_old,MEhoneydew1,same_region_high,15000,35,4,0,,1,1
+Ventral Striatum,canonical_old,MEhoneydew1,same_region_high_plus_moderate,15000,35,12,0,,1,1
+Ventral Striatum,canonical_old,MEorangered3,global_high,15000,25,18,0,,1,1
+Ventral Striatum,canonical_old,MEorangered3,global_high_plus_moderate,15000,25,88,0,,1,1
+Ventral Striatum,canonical_old,MEorangered3,same_region_high,15000,25,4,0,,1,1
+Ventral Striatum,canonical_old,MEorangered3,same_region_high_plus_moderate,15000,25,12,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue2,global_high,15000,27,18,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue2,global_high_plus_moderate,15000,27,88,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue2,same_region_high,15000,27,4,0,,1,1
+Ventral Striatum,canonical_old,MEskyblue2,same_region_high_plus_moderate,15000,27,12,0,,1,1
+Ventral Striatum,canonical_old,MEpalevioletred3,global_high,15000,40,18,0,,1,1
+Ventral Striatum,canonical_old,MEpalevioletred3,global_high_plus_moderate,15000,40,88,0,,1,1
+Ventral Striatum,canonical_old,MEpalevioletred3,same_region_high,15000,40,4,0,,1,1
+Ventral Striatum,canonical_old,MEpalevioletred3,same_region_high_plus_moderate,15000,40,12,0,,1,1
+Ventral Striatum,canonical_old,MElavenderblush3,global_high,15000,35,18,0,,1,1
+Ventral Striatum,canonical_old,MElavenderblush3,global_high_plus_moderate,15000,35,88,0,,1,1
+Ventral Striatum,canonical_old,MElavenderblush3,same_region_high,15000,35,4,0,,1,1
+Ventral Striatum,canonical_old,MElavenderblush3,same_region_high_plus_moderate,15000,35,12,0,,1,1
+Ventral Striatum,reconstructed,MEivory,global_high,15000,49,18,0,,1,1
+Ventral Striatum,reconstructed,MEivory,global_high_plus_moderate,15000,49,88,0,,1,1
+Ventral Striatum,reconstructed,MEivory,same_region_high,15000,49,4,0,,1,1
+Ventral Striatum,reconstructed,MEivory,same_region_high_plus_moderate,15000,49,12,0,,1,1
+Ventral Striatum,reconstructed,MEturquoise,global_high,15000,2200,18,1,101929710,0.9425387890108281,1
+Ventral Striatum,reconstructed,MEturquoise,global_high_plus_moderate,15000,2200,88,12,100874047;101927931;101928161;101929549;101929710;105376380;148203;154092;27098;3430;4814;54718,0.6536593982633969,1
+Ventral Striatum,reconstructed,MEturquoise,same_region_high,15000,2200,4,0,,1,1
+Ventral Striatum,reconstructed,MEturquoise,same_region_high_plus_moderate,15000,2200,12,1,101928161,0.8510309975796808,1
+Ventral Striatum,reconstructed,MEbrown,global_high,15000,1888,18,3,105378913;113939912;642826,0.39940095086494476,1
+Ventral Striatum,reconstructed,MEbrown,global_high_plus_moderate,15000,1888,88,8,101929741;105371067;105378913;107985657;113939912;115290;285830;642826,0.8791614996967247,1
+Ventral Striatum,reconstructed,MEbrown,same_region_high,15000,1888,4,0,,1,1
+Ventral Striatum,reconstructed,MEbrown,same_region_high_plus_moderate,15000,1888,12,4,105371067;107985657;113939912;642826,0.05389702246589846,1
+Ventral Striatum,reconstructed,MEblack,global_high,15000,503,18,0,,1,1
+Ventral Striatum,reconstructed,MEblack,global_high_plus_moderate,15000,503,88,4,105370868;2273;4223;6697,0.34150947106844415,1
+Ventral Striatum,reconstructed,MEblack,same_region_high,15000,503,4,0,,1,1
+Ventral Striatum,reconstructed,MEblack,same_region_high_plus_moderate,15000,503,12,0,,1,1
+Ventral Striatum,reconstructed,MEantiquewhite4,global_high,15000,135,18,0,,1,1
+Ventral Striatum,reconstructed,MEantiquewhite4,global_high_plus_moderate,15000,135,88,1,80036,0.5497319839738888,1
+Ventral Striatum,reconstructed,MEantiquewhite4,same_region_high,15000,135,4,0,,1,1
+Ventral Striatum,reconstructed,MEantiquewhite4,same_region_high_plus_moderate,15000,135,12,0,,1,1
+Ventral Striatum,reconstructed,MEmediumpurple2,global_high,15000,2018,18,2,100996279;105372507,0.7182950124117362,1
+Ventral Striatum,reconstructed,MEmediumpurple2,global_high_plus_moderate,15000,2018,88,14,100130934;100996279;101926987;101927051;101927655;101928268;105372507;105372697;107987272;339201;342346;55620;581;79713,0.2919400964095735,1
+Ventral Striatum,reconstructed,MEmediumpurple2,same_region_high,15000,2018,4,0,,1,1
+Ventral Striatum,reconstructed,MEmediumpurple2,same_region_high_plus_moderate,15000,2018,12,0,,1,1
+Ventral Striatum,reconstructed,MElightcoral,global_high,15000,23,18,0,,1,1
+Ventral Striatum,reconstructed,MElightcoral,global_high_plus_moderate,15000,23,88,0,,1,1
+Ventral Striatum,reconstructed,MElightcoral,same_region_high,15000,23,4,0,,1,1
+Ventral Striatum,reconstructed,MElightcoral,same_region_high_plus_moderate,15000,23,12,0,,1,1
+Ventral Striatum,reconstructed,MEplum2,global_high,15000,44,18,0,,1,1
+Ventral Striatum,reconstructed,MEplum2,global_high_plus_moderate,15000,44,88,0,,1,1
+Ventral Striatum,reconstructed,MEplum2,same_region_high,15000,44,4,0,,1,1
+Ventral Striatum,reconstructed,MEplum2,same_region_high_plus_moderate,15000,44,12,0,,1,1
+Ventral Striatum,reconstructed,MEsalmon,global_high,15000,244,18,1,254956,0.2557485870492432,1
+Ventral Striatum,reconstructed,MEsalmon,global_high_plus_moderate,15000,244,88,1,254956,0.7648363436174521,1
+Ventral Striatum,reconstructed,MEsalmon,same_region_high,15000,244,4,1,254956,0.0635023821432763,1
+Ventral Striatum,reconstructed,MEsalmon,same_region_high_plus_moderate,15000,244,12,1,254956,0.17870905276060756,1
+Ventral Striatum,reconstructed,MEmediumorchid,global_high,15000,28,18,0,,1,1
+Ventral Striatum,reconstructed,MEmediumorchid,global_high_plus_moderate,15000,28,88,0,,1,1
+Ventral Striatum,reconstructed,MEmediumorchid,same_region_high,15000,28,4,0,,1,1
+Ventral Striatum,reconstructed,MEmediumorchid,same_region_high_plus_moderate,15000,28,12,0,,1,1
+Ventral Striatum,reconstructed,MEdarkgreen,global_high,15000,329,18,0,,1,1
+Ventral Striatum,reconstructed,MEdarkgreen,global_high_plus_moderate,15000,329,88,1,23783,0.8587693161222221,1
+Ventral Striatum,reconstructed,MEdarkgreen,same_region_high,15000,329,4,0,,1,1
+Ventral Striatum,reconstructed,MEdarkgreen,same_region_high_plus_moderate,15000,329,12,0,,1,1
+Ventral Striatum,reconstructed,MEsalmon4,global_high,15000,347,18,0,,1,1
+Ventral Striatum,reconstructed,MEsalmon4,global_high_plus_moderate,15000,347,88,3,101928283;116143;919,0.33310562853814885,1
+Ventral Striatum,reconstructed,MEsalmon4,same_region_high,15000,347,4,0,,1,1
+Ventral Striatum,reconstructed,MEsalmon4,same_region_high_plus_moderate,15000,347,12,0,,1,1
+Ventral Striatum,reconstructed,MEpaleturquoise,global_high,15000,81,18,0,,1,1
+Ventral Striatum,reconstructed,MEpaleturquoise,global_high_plus_moderate,15000,81,88,0,,1,1
+Ventral Striatum,reconstructed,MEpaleturquoise,same_region_high,15000,81,4,0,,1,1
+Ventral Striatum,reconstructed,MEpaleturquoise,same_region_high_plus_moderate,15000,81,12,0,,1,1
+Ventral Striatum,reconstructed,MEroyalblue,global_high,15000,746,18,0,,1,1
+Ventral Striatum,reconstructed,MEroyalblue,global_high_plus_moderate,15000,746,88,2,113230;79800,0.9375709903155538,1
+Ventral Striatum,reconstructed,MEroyalblue,same_region_high,15000,746,4,0,,1,1
+Ventral Striatum,reconstructed,MEroyalblue,same_region_high_plus_moderate,15000,746,12,0,,1,1
+Ventral Striatum,reconstructed,MEgreenyellow,global_high,15000,1810,18,4,100505894;101929607;105376607;2488,0.16405185513616585,1
+Ventral Striatum,reconstructed,MEgreenyellow,global_high_plus_moderate,15000,1810,88,15,100287015;100505894;101929607;105376607;105377975;107985195;107985988;116349;2488;26063;5092;51117;645;83460;83547,0.10479567903286806,1
+Ventral Striatum,reconstructed,MEgreenyellow,same_region_high,15000,1810,4,1,2488,0.4021526568811111,1
+Ventral Striatum,reconstructed,MEgreenyellow,same_region_high_plus_moderate,15000,1810,12,1,2488,0.7864104151621556,1
+Ventral Striatum,reconstructed,MEdarkturquoise,global_high,15000,173,18,0,,1,1
+Ventral Striatum,reconstructed,MEdarkturquoise,global_high_plus_moderate,15000,173,88,1,4604,0.6407802129094282,1
+Ventral Striatum,reconstructed,MEdarkturquoise,same_region_high,15000,173,4,0,,1,1
+Ventral Striatum,reconstructed,MEdarkturquoise,same_region_high_plus_moderate,15000,173,12,0,,1,1
+Ventral Striatum,reconstructed,MEthistle1,global_high,15000,43,18,0,,1,1
+Ventral Striatum,reconstructed,MEthistle1,global_high_plus_moderate,15000,43,88,0,,1,1
+Ventral Striatum,reconstructed,MEthistle1,same_region_high,15000,43,4,0,,1,1
+Ventral Striatum,reconstructed,MEthistle1,same_region_high_plus_moderate,15000,43,12,0,,1,1
+Ventral Striatum,reconstructed,MElightcyan1,global_high,15000,586,18,1,101927498,0.5121363960751573,1
+Ventral Striatum,reconstructed,MElightcyan1,global_high_plus_moderate,15000,586,88,3,100861412;101927498;5468,0.6737413066671585,1
+Ventral Striatum,reconstructed,MElightcyan1,same_region_high,15000,586,4,1,101927498,0.14735947350761625,1
+Ventral Striatum,reconstructed,MElightcyan1,same_region_high_plus_moderate,15000,586,12,1,101927498,0.3802145505982729,1
+Ventral Striatum,reconstructed,MElightsteelblue1,global_high,15000,53,18,0,,1,1
+Ventral Striatum,reconstructed,MElightsteelblue1,global_high_plus_moderate,15000,53,88,0,,1,1
+Ventral Striatum,reconstructed,MElightsteelblue1,same_region_high,15000,53,4,0,,1,1
+Ventral Striatum,reconstructed,MElightsteelblue1,same_region_high_plus_moderate,15000,53,12,0,,1,1
+Ventral Striatum,reconstructed,MEbrown4,global_high,15000,49,18,0,,1,1
+Ventral Striatum,reconstructed,MEbrown4,global_high_plus_moderate,15000,49,88,0,,1,1
+Ventral Striatum,reconstructed,MEbrown4,same_region_high,15000,49,4,0,,1,1
+Ventral Striatum,reconstructed,MEbrown4,same_region_high_plus_moderate,15000,49,12,0,,1,1
+Ventral Striatum,reconstructed,MEplum1,global_high,15000,56,18,0,,1,1
+Ventral Striatum,reconstructed,MEplum1,global_high_plus_moderate,15000,56,88,0,,1,1
+Ventral Striatum,reconstructed,MEplum1,same_region_high,15000,56,4,0,,1,1
+Ventral Striatum,reconstructed,MEplum1,same_region_high_plus_moderate,15000,56,12,0,,1,1
+Ventral Striatum,reconstructed,MEgreen,global_high,15000,933,18,2,27433;79760,0.30946700242126945,1
+Ventral Striatum,reconstructed,MEgreen,global_high_plus_moderate,15000,933,88,6,107984435;27433;401288;441509;53917;79760,0.46936410769511727,1
+Ventral Striatum,reconstructed,MEgreen,same_region_high,15000,933,4,0,,1,1
+Ventral Striatum,reconstructed,MEgreen,same_region_high_plus_moderate,15000,933,12,1,441509,0.537410327373582,1
+Ventral Striatum,reconstructed,MElightpink4,global_high,15000,36,18,0,,1,1
+Ventral Striatum,reconstructed,MElightpink4,global_high_plus_moderate,15000,36,88,0,,1,1
+Ventral Striatum,reconstructed,MElightpink4,same_region_high,15000,36,4,0,,1,1
+Ventral Striatum,reconstructed,MElightpink4,same_region_high_plus_moderate,15000,36,12,0,,1,1
+Ventral Striatum,reconstructed,MEpurple,global_high,15000,348,18,0,,1,1
+Ventral Striatum,reconstructed,MEpurple,global_high_plus_moderate,15000,348,88,0,,1,1
+Ventral Striatum,reconstructed,MEpurple,same_region_high,15000,348,4,0,,1,1
+Ventral Striatum,reconstructed,MEpurple,same_region_high_plus_moderate,15000,348,12,0,,1,1
+Ventral Striatum,reconstructed,MEcoral1,global_high,15000,124,18,0,,1,1
+Ventral Striatum,reconstructed,MEcoral1,global_high_plus_moderate,15000,124,88,0,,1,1
+Ventral Striatum,reconstructed,MEcoral1,same_region_high,15000,124,4,0,,1,1
+Ventral Striatum,reconstructed,MEcoral1,same_region_high_plus_moderate,15000,124,12,0,,1,1
+Ventral Striatum,reconstructed,MEplum,global_high,15000,25,18,0,,1,1
+Ventral Striatum,reconstructed,MEplum,global_high_plus_moderate,15000,25,88,1,4500,0.13689310727621062,1
+Ventral Striatum,reconstructed,MEplum,same_region_high,15000,25,4,0,,1,1
+Ventral Striatum,reconstructed,MEplum,same_region_high_plus_moderate,15000,25,12,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue1,global_high,15000,270,18,1,107984015,0.2790161803977267,1
+Ventral Striatum,reconstructed,MEskyblue1,global_high_plus_moderate,15000,270,88,2,107984015;2355,0.47215493681721366,1
+Ventral Striatum,reconstructed,MEskyblue1,same_region_high,15000,270,4,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue1,same_region_high_plus_moderate,15000,270,12,1,2355,0.19591342953110324,1
+Ventral Striatum,reconstructed,MEdarkgrey,global_high,15000,300,18,1,64598,0.3050094694944947,1
+Ventral Striatum,reconstructed,MEdarkgrey,global_high_plus_moderate,15000,300,88,2,414062;64598,0.5281477691188063,1
+Ventral Striatum,reconstructed,MEdarkgrey,same_region_high,15000,300,4,1,64598,0.07763937068867532,1
+Ventral Striatum,reconstructed,MEdarkgrey,same_region_high_plus_moderate,15000,300,12,1,64598,0.2153537738609106,1
+Ventral Striatum,reconstructed,MEdarkred,global_high,15000,227,18,0,,1,1
+Ventral Striatum,reconstructed,MEdarkred,global_high_plus_moderate,15000,227,88,6,10974;125;1803;64333;644538;6948,0.0021701362897413564,0.10850681448706782
+Ventral Striatum,reconstructed,MEdarkred,same_region_high,15000,227,4,0,,1,1
+Ventral Striatum,reconstructed,MEdarkred,same_region_high_plus_moderate,15000,227,12,1,125,0.1672782896317201,1
+Ventral Striatum,reconstructed,MEdarkorange2,global_high,15000,145,18,0,,1,1
+Ventral Striatum,reconstructed,MEdarkorange2,global_high_plus_moderate,15000,145,88,0,,1,1
+Ventral Striatum,reconstructed,MEdarkorange2,same_region_high,15000,145,4,0,,1,1
+Ventral Striatum,reconstructed,MEdarkorange2,same_region_high_plus_moderate,15000,145,12,0,,1,1
+Ventral Striatum,reconstructed,MEdarkseagreen4,global_high,15000,33,18,0,,1,1
+Ventral Striatum,reconstructed,MEdarkseagreen4,global_high_plus_moderate,15000,33,88,0,,1,1
+Ventral Striatum,reconstructed,MEdarkseagreen4,same_region_high,15000,33,4,0,,1,1
+Ventral Striatum,reconstructed,MEdarkseagreen4,same_region_high_plus_moderate,15000,33,12,0,,1,1
+Ventral Striatum,reconstructed,MEdarkolivegreen4,global_high,15000,22,18,0,,1,1
+Ventral Striatum,reconstructed,MEdarkolivegreen4,global_high_plus_moderate,15000,22,88,0,,1,1
+Ventral Striatum,reconstructed,MEdarkolivegreen4,same_region_high,15000,22,4,0,,1,1
+Ventral Striatum,reconstructed,MEdarkolivegreen4,same_region_high_plus_moderate,15000,22,12,0,,1,1
+Ventral Striatum,reconstructed,MEbisque4,global_high,15000,46,18,0,,1,1
+Ventral Striatum,reconstructed,MEbisque4,global_high_plus_moderate,15000,46,88,0,,1,1
+Ventral Striatum,reconstructed,MEbisque4,same_region_high,15000,46,4,0,,1,1
+Ventral Striatum,reconstructed,MEbisque4,same_region_high_plus_moderate,15000,46,12,0,,1,1
+Ventral Striatum,reconstructed,MElightsteelblue,global_high,15000,24,18,0,,1,1
+Ventral Striatum,reconstructed,MElightsteelblue,global_high_plus_moderate,15000,24,88,0,,1,1
+Ventral Striatum,reconstructed,MElightsteelblue,same_region_high,15000,24,4,0,,1,1
+Ventral Striatum,reconstructed,MElightsteelblue,same_region_high_plus_moderate,15000,24,12,0,,1,1
+Ventral Striatum,reconstructed,MEsteelblue,global_high,15000,86,18,0,,1,1
+Ventral Striatum,reconstructed,MEsteelblue,global_high_plus_moderate,15000,86,88,0,,1,1
+Ventral Striatum,reconstructed,MEsteelblue,same_region_high,15000,86,4,0,,1,1
+Ventral Striatum,reconstructed,MEsteelblue,same_region_high_plus_moderate,15000,86,12,0,,1,1
+Ventral Striatum,reconstructed,MEyellowgreen,global_high,15000,59,18,0,,1,1
+Ventral Striatum,reconstructed,MEyellowgreen,global_high_plus_moderate,15000,59,88,0,,1,1
+Ventral Striatum,reconstructed,MEyellowgreen,same_region_high,15000,59,4,0,,1,1
+Ventral Striatum,reconstructed,MEyellowgreen,same_region_high_plus_moderate,15000,59,12,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue,global_high,15000,98,18,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue,global_high_plus_moderate,15000,98,88,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue,same_region_high,15000,98,4,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue,same_region_high_plus_moderate,15000,98,12,0,,1,1
+Ventral Striatum,reconstructed,MEdarkslateblue,global_high,15000,45,18,0,,1,1
+Ventral Striatum,reconstructed,MEdarkslateblue,global_high_plus_moderate,15000,45,88,0,,1,1
+Ventral Striatum,reconstructed,MEdarkslateblue,same_region_high,15000,45,4,0,,1,1
+Ventral Striatum,reconstructed,MEdarkslateblue,same_region_high_plus_moderate,15000,45,12,0,,1,1
+Ventral Striatum,reconstructed,MElightgreen,global_high,15000,299,18,0,,1,1
+Ventral Striatum,reconstructed,MElightgreen,global_high_plus_moderate,15000,299,88,0,,1,1
+Ventral Striatum,reconstructed,MElightgreen,same_region_high,15000,299,4,0,,1,1
+Ventral Striatum,reconstructed,MElightgreen,same_region_high_plus_moderate,15000,299,12,0,,1,1
+Ventral Striatum,reconstructed,MEbrown2,global_high,15000,21,18,0,,1,1
+Ventral Striatum,reconstructed,MEbrown2,global_high_plus_moderate,15000,21,88,1,26071,0.11630694539518338,1
+Ventral Striatum,reconstructed,MEbrown2,same_region_high,15000,21,4,0,,1,1
+Ventral Striatum,reconstructed,MEbrown2,same_region_high_plus_moderate,15000,21,12,0,,1,1
+Ventral Striatum,reconstructed,MEdarkolivegreen,global_high,15000,125,18,0,,1,1
+Ventral Striatum,reconstructed,MEdarkolivegreen,global_high_plus_moderate,15000,125,88,2,105379042;2830,0.16678677261878377,1
+Ventral Striatum,reconstructed,MEdarkolivegreen,same_region_high,15000,125,4,0,,1,1
+Ventral Striatum,reconstructed,MEdarkolivegreen,same_region_high_plus_moderate,15000,125,12,0,,1,1
+Ventral Striatum,reconstructed,MEsienna3,global_high,15000,60,18,1,105377644,0.0696415909147966,1
+Ventral Striatum,reconstructed,MEsienna3,global_high_plus_moderate,15000,60,88,2,105377644;126208,0.04836754850221369,1
+Ventral Striatum,reconstructed,MEsienna3,same_region_high,15000,60,4,0,,1,1
+Ventral Striatum,reconstructed,MEsienna3,same_region_high_plus_moderate,15000,60,12,0,,1,1
+Ventral Striatum,reconstructed,MEfirebrick4,global_high,15000,23,18,0,,1,1
+Ventral Striatum,reconstructed,MEfirebrick4,global_high_plus_moderate,15000,23,88,0,,1,1
+Ventral Striatum,reconstructed,MEfirebrick4,same_region_high,15000,23,4,0,,1,1
+Ventral Striatum,reconstructed,MEfirebrick4,same_region_high_plus_moderate,15000,23,12,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue3,global_high,15000,57,18,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue3,global_high_plus_moderate,15000,57,88,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue3,same_region_high,15000,57,4,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue3,same_region_high_plus_moderate,15000,57,12,0,,1,1
+Ventral Striatum,reconstructed,MEyellow4,global_high,15000,27,18,0,,1,1
+Ventral Striatum,reconstructed,MEyellow4,global_high_plus_moderate,15000,27,88,0,,1,1
+Ventral Striatum,reconstructed,MEyellow4,same_region_high,15000,27,4,0,,1,1
+Ventral Striatum,reconstructed,MEyellow4,same_region_high_plus_moderate,15000,27,12,0,,1,1
+Ventral Striatum,reconstructed,MEhoneydew1,global_high,15000,35,18,1,23475,0.04120016701292062,1
+Ventral Striatum,reconstructed,MEhoneydew1,global_high_plus_moderate,15000,35,88,1,23475,0.18630726167312284,1
+Ventral Striatum,reconstructed,MEhoneydew1,same_region_high,15000,35,4,0,,1,1
+Ventral Striatum,reconstructed,MEhoneydew1,same_region_high_plus_moderate,15000,35,12,0,,1,1
+Ventral Striatum,reconstructed,MEorangered3,global_high,15000,25,18,0,,1,1
+Ventral Striatum,reconstructed,MEorangered3,global_high_plus_moderate,15000,25,88,0,,1,1
+Ventral Striatum,reconstructed,MEorangered3,same_region_high,15000,25,4,0,,1,1
+Ventral Striatum,reconstructed,MEorangered3,same_region_high_plus_moderate,15000,25,12,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue2,global_high,15000,27,18,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue2,global_high_plus_moderate,15000,27,88,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue2,same_region_high,15000,27,4,0,,1,1
+Ventral Striatum,reconstructed,MEskyblue2,same_region_high_plus_moderate,15000,27,12,0,,1,1
+Ventral Striatum,reconstructed,MEpalevioletred3,global_high,15000,40,18,0,,1,1
+Ventral Striatum,reconstructed,MEpalevioletred3,global_high_plus_moderate,15000,40,88,0,,1,1
+Ventral Striatum,reconstructed,MEpalevioletred3,same_region_high,15000,40,4,0,,1,1
+Ventral Striatum,reconstructed,MEpalevioletred3,same_region_high_plus_moderate,15000,40,12,0,,1,1
+Ventral Striatum,reconstructed,MElavenderblush3,global_high,15000,35,18,0,,1,1
+Ventral Striatum,reconstructed,MElavenderblush3,global_high_plus_moderate,15000,35,88,0,,1,1
+Ventral Striatum,reconstructed,MElavenderblush3,same_region_high,15000,35,4,0,,1,1
+Ventral Striatum,reconstructed,MElavenderblush3,same_region_high_plus_moderate,15000,35,12,0,,1,1
+Insula,canonical_old,MEdarkorange,global_high,15000,52,15,0,,1,1
+Insula,canonical_old,MEdarkorange,global_high_plus_moderate,15000,52,77,0,,1,1
+Insula,canonical_old,MEdarkorange,same_region_high,15000,52,5,0,,1,1
+Insula,canonical_old,MEdarkorange,same_region_high_plus_moderate,15000,52,17,0,,1,1
+Insula,canonical_old,MElightgreen,global_high,15000,1049,15,1,105378913,0.663114394785038,1
+Insula,canonical_old,MElightgreen,global_high_plus_moderate,15000,1049,77,6,100287015;100507283;105376380;105378913;148203;80036,0.4537820760647784,1
+Insula,canonical_old,MElightgreen,same_region_high,15000,1049,5,0,,1,1
+Insula,canonical_old,MElightgreen,same_region_high_plus_moderate,15000,1049,17,1,80036,0.7086311945366259,1
+Insula,canonical_old,MEbrown,global_high,15000,1976,15,2,105376607;64598,0.6064706679383609,1
+Insula,canonical_old,MEbrown,global_high_plus_moderate,15000,1976,77,16,100130934;101927655;101929741;105372697;105376607;10974;125;285830;3430;51117;54718;55620;581;64333;64598;919,0.04120365909773882,1
+Insula,canonical_old,MEbrown,same_region_high,15000,1976,5,1,105376607,0.5065743685332471,1
+Insula,canonical_old,MEbrown,same_region_high_plus_moderate,15000,1976,17,3,101929741;105376607;54718,0.3921435780470398,1
+Insula,canonical_old,MEmagenta,global_high,15000,439,15,1,101927498,0.359664724580703,1
+Insula,canonical_old,MEmagenta,global_high_plus_moderate,15000,439,77,3,101927498;105379042;113230,0.3927531068469594,1
+Insula,canonical_old,MEmagenta,same_region_high,15000,439,5,0,,1,1
+Insula,canonical_old,MEmagenta,same_region_high_plus_moderate,15000,439,17,1,105379042,0.39663484650853464,1
+Insula,canonical_old,MEturquoise,global_high,15000,2929,15,2,101929607;254956,0.8217915120678715,1
+Insula,canonical_old,MEturquoise,global_high_plus_moderate,15000,2929,77,15,100506380;101928161;101929607;105371729;105377975;116349;202781;254956;26063;27098;2830;5092;645;6697;83547,0.5499328972326669,1
+Insula,canonical_old,MEturquoise,same_region_high,15000,2929,5,0,,1,1
+Insula,canonical_old,MEturquoise,same_region_high_plus_moderate,15000,2929,17,1,26063,0.9751613717231697,1
+Insula,canonical_old,MEblue,global_high,15000,2866,15,3,101929710;113939912;642826,0.5678185476441404,1
+Insula,canonical_old,MEblue,global_high_plus_moderate,15000,2866,77,17,101926987;101928268;101928283;101929549;101929710;107984435;107985988;107987272;113939912;23783;339201;401288;414062;4223;594840;60468;642826,0.29428678345218595,1
+Insula,canonical_old,MEblue,same_region_high,15000,2866,5,3,101929710;113939912;642826,0.05125916941498196,1
+Insula,canonical_old,MEblue,same_region_high_plus_moderate,15000,2866,17,6,101928268;101929710;107985988;113939912;401288;642826,0.08826704952929168,1
+Insula,canonical_old,MEdarkgrey,global_high,15000,849,15,0,,1,1
+Insula,canonical_old,MEdarkgrey,global_high_plus_moderate,15000,849,77,2,100689074;107985195,0.9371773561804934,1
+Insula,canonical_old,MEdarkgrey,same_region_high,15000,849,5,0,,1,1
+Insula,canonical_old,MEdarkgrey,same_region_high_plus_moderate,15000,849,17,2,100689074;107985195,0.2497993627354476,1
+Insula,canonical_old,MEgreenyellow,global_high,15000,345,15,0,,1,1
+Insula,canonical_old,MEgreenyellow,global_high_plus_moderate,15000,345,77,0,,1,1
+Insula,canonical_old,MEgreenyellow,same_region_high,15000,345,5,0,,1,1
+Insula,canonical_old,MEgreenyellow,same_region_high_plus_moderate,15000,345,17,0,,1,1
+Insula,canonical_old,MEsalmon,global_high,15000,1814,15,2,23475;79760,0.5569581236509313,1
+Insula,canonical_old,MEsalmon,global_high_plus_moderate,15000,1814,77,6,101927051;23475;2355;26071;388574;79760,0.9165769137202588,1
+Insula,canonical_old,MEsalmon,same_region_high,15000,1814,5,0,,1,1
+Insula,canonical_old,MEsalmon,same_region_high_plus_moderate,15000,1814,17,0,,1,1
+Insula,canonical_old,MEpurple,global_high,15000,362,15,0,,1,1
+Insula,canonical_old,MEpurple,global_high_plus_moderate,15000,362,77,0,,1,1
+Insula,canonical_old,MEpurple,same_region_high,15000,362,5,0,,1,1
+Insula,canonical_old,MEpurple,same_region_high_plus_moderate,15000,362,17,0,,1,1
+Insula,canonical_old,MEblack,global_high,15000,565,15,0,,1,1
+Insula,canonical_old,MEblack,global_high_plus_moderate,15000,565,77,3,100874047;4500;644538,0.5586406320438613,1
+Insula,canonical_old,MEblack,same_region_high,15000,565,5,0,,1,1
+Insula,canonical_old,MEblack,same_region_high_plus_moderate,15000,565,17,1,644538,0.4795491061334052,1
+Insula,canonical_old,MEcyan,global_high,15000,644,15,2,51069;65083,0.13376823101773555,1
+Insula,canonical_old,MEcyan,global_high_plus_moderate,15000,644,77,2,51069;65083,0.8488910435723644,1
+Insula,canonical_old,MEcyan,same_region_high,15000,644,5,0,,1,1
+Insula,canonical_old,MEcyan,same_region_high_plus_moderate,15000,644,17,0,,1,1
+Insula,canonical_old,MEdarkgreen,global_high,15000,153,15,0,,1,1
+Insula,canonical_old,MEdarkgreen,global_high_plus_moderate,15000,153,77,0,,1,1
+Insula,canonical_old,MEdarkgreen,same_region_high,15000,153,5,0,,1,1
+Insula,canonical_old,MEdarkgreen,same_region_high_plus_moderate,15000,153,17,0,,1,1
+Insula,canonical_old,MElightyellow,global_high,15000,86,15,0,,1,1
+Insula,canonical_old,MElightyellow,global_high_plus_moderate,15000,86,77,0,,1,1
+Insula,canonical_old,MElightyellow,same_region_high,15000,86,5,0,,1,1
+Insula,canonical_old,MElightyellow,same_region_high_plus_moderate,15000,86,17,0,,1,1
+Insula,canonical_old,MEdarkmagenta,global_high,15000,30,15,0,,1,1
+Insula,canonical_old,MEdarkmagenta,global_high_plus_moderate,15000,30,77,0,,1,1
+Insula,canonical_old,MEdarkmagenta,same_region_high,15000,30,5,0,,1,1
+Insula,canonical_old,MEdarkmagenta,same_region_high_plus_moderate,15000,30,17,0,,1,1
+Insula,canonical_old,MEorange,global_high,15000,53,15,0,,1,1
+Insula,canonical_old,MEorange,global_high_plus_moderate,15000,53,77,1,1803,0.2390917530324822,1
+Insula,canonical_old,MEorange,same_region_high,15000,53,5,0,,1,1
+Insula,canonical_old,MEorange,same_region_high_plus_moderate,15000,53,17,1,1803,0.058428704074225846,1
+Insula,canonical_old,MEviolet,global_high,15000,33,15,0,,1,1
+Insula,canonical_old,MEviolet,global_high_plus_moderate,15000,33,77,0,,1,1
+Insula,canonical_old,MEviolet,same_region_high,15000,33,5,0,,1,1
+Insula,canonical_old,MEviolet,same_region_high_plus_moderate,15000,33,17,0,,1,1
+Insula,canonical_old,MEskyblue,global_high,15000,43,15,0,,1,1
+Insula,canonical_old,MEskyblue,global_high_plus_moderate,15000,43,77,0,,1,1
+Insula,canonical_old,MEskyblue,same_region_high,15000,43,5,0,,1,1
+Insula,canonical_old,MEskyblue,same_region_high_plus_moderate,15000,43,17,0,,1,1
+Insula,canonical_old,MEgrey60,global_high,15000,109,15,0,,1,1
+Insula,canonical_old,MEgrey60,global_high_plus_moderate,15000,109,77,0,,1,1
+Insula,canonical_old,MEgrey60,same_region_high,15000,109,5,0,,1,1
+Insula,canonical_old,MEgrey60,same_region_high_plus_moderate,15000,109,17,0,,1,1
+Insula,canonical_old,MEroyalblue,global_high,15000,80,15,0,,1,1
+Insula,canonical_old,MEroyalblue,global_high_plus_moderate,15000,80,77,0,,1,1
+Insula,canonical_old,MEroyalblue,same_region_high,15000,80,5,0,,1,1
+Insula,canonical_old,MEroyalblue,same_region_high_plus_moderate,15000,80,17,0,,1,1
+Insula,canonical_old,MEdarkturquoise,global_high,15000,111,15,0,,1,1
+Insula,canonical_old,MEdarkturquoise,global_high_plus_moderate,15000,111,77,1,6948,0.436381658301896,1
+Insula,canonical_old,MEdarkturquoise,same_region_high,15000,111,5,0,,1,1
+Insula,canonical_old,MEdarkturquoise,same_region_high_plus_moderate,15000,111,17,0,,1,1
+Insula,canonical_old,MEsaddlebrown,global_high,15000,40,15,1,3852,0.03927988603237198,1
+Insula,canonical_old,MEsaddlebrown,global_high_plus_moderate,15000,40,77,1,3852,0.18627348815084088,1
+Insula,canonical_old,MEsaddlebrown,same_region_high,15000,40,5,0,,1,1
+Insula,canonical_old,MEsaddlebrown,same_region_high_plus_moderate,15000,40,17,0,,1,1
+Insula,canonical_old,MEmidnightblue,global_high,15000,216,15,1,100505894,0.1956112704707127,1
+Insula,canonical_old,MEmidnightblue,global_high_plus_moderate,15000,216,77,3,100505894;4604;4814,0.09957040963639593,1
+Insula,canonical_old,MEmidnightblue,same_region_high,15000,216,5,1,100505894,0.06996510611929507,1
+Insula,canonical_old,MEmidnightblue,same_region_high_plus_moderate,15000,216,17,1,100505894,0.21863448597956547,1
+Insula,canonical_old,MEsienna3,global_high,15000,26,15,0,,1,1
+Insula,canonical_old,MEsienna3,global_high_plus_moderate,15000,26,77,1,55049,0.1253420044638226,1
+Insula,canonical_old,MEsienna3,same_region_high,15000,26,5,0,,1,1
+Insula,canonical_old,MEsienna3,same_region_high_plus_moderate,15000,26,17,0,,1,1
+Insula,canonical_old,MEdarkolivegreen,global_high,15000,31,15,0,,1,1
+Insula,canonical_old,MEdarkolivegreen,global_high_plus_moderate,15000,31,77,0,,1,1
+Insula,canonical_old,MEdarkolivegreen,same_region_high,15000,31,5,0,,1,1
+Insula,canonical_old,MEdarkolivegreen,same_region_high_plus_moderate,15000,31,17,0,,1,1
+Insula,canonical_old,MEplum1,global_high,15000,25,15,0,,1,1
+Insula,canonical_old,MEplum1,global_high_plus_moderate,15000,25,77,0,,1,1
+Insula,canonical_old,MEplum1,same_region_high,15000,25,5,0,,1,1
+Insula,canonical_old,MEplum1,same_region_high_plus_moderate,15000,25,17,0,,1,1
+Insula,canonical_old,MEyellowgreen,global_high,15000,25,15,0,,1,1
+Insula,canonical_old,MEyellowgreen,global_high_plus_moderate,15000,25,77,0,,1,1
+Insula,canonical_old,MEyellowgreen,same_region_high,15000,25,5,0,,1,1
+Insula,canonical_old,MEyellowgreen,same_region_high_plus_moderate,15000,25,17,0,,1,1
+Insula,canonical_old,MEmediumpurple3,global_high,15000,24,15,0,,1,1
+Insula,canonical_old,MEmediumpurple3,global_high_plus_moderate,15000,24,77,0,,1,1
+Insula,canonical_old,MEmediumpurple3,same_region_high,15000,24,5,0,,1,1
+Insula,canonical_old,MEmediumpurple3,same_region_high_plus_moderate,15000,24,17,0,,1,1
+Insula,canonical_old,MEskyblue3,global_high,15000,25,15,0,,1,1
+Insula,canonical_old,MEskyblue3,global_high_plus_moderate,15000,25,77,0,,1,1
+Insula,canonical_old,MEskyblue3,same_region_high,15000,25,5,0,,1,1
+Insula,canonical_old,MEskyblue3,same_region_high_plus_moderate,15000,25,17,0,,1,1
+Insula,reconstructed,MEdarkorange,global_high,15000,52,15,0,,1,1
+Insula,reconstructed,MEdarkorange,global_high_plus_moderate,15000,52,77,0,,1,1
+Insula,reconstructed,MEdarkorange,same_region_high,15000,52,5,0,,1,1
+Insula,reconstructed,MEdarkorange,same_region_high_plus_moderate,15000,52,17,0,,1,1
+Insula,reconstructed,MElightgreen,global_high,15000,1049,15,1,105378913,0.663114394785038,1
+Insula,reconstructed,MElightgreen,global_high_plus_moderate,15000,1049,77,6,100287015;100507283;105376380;105378913;148203;80036,0.4537820760647784,1
+Insula,reconstructed,MElightgreen,same_region_high,15000,1049,5,0,,1,1
+Insula,reconstructed,MElightgreen,same_region_high_plus_moderate,15000,1049,17,1,80036,0.7086311945366259,1
+Insula,reconstructed,MEbrown,global_high,15000,1976,15,2,105376607;64598,0.6064706679383609,1
+Insula,reconstructed,MEbrown,global_high_plus_moderate,15000,1976,77,16,100130934;101927655;101929741;105372697;105376607;10974;125;285830;3430;51117;54718;55620;581;64333;64598;919,0.04120365909773882,1
+Insula,reconstructed,MEbrown,same_region_high,15000,1976,5,1,105376607,0.5065743685332471,1
+Insula,reconstructed,MEbrown,same_region_high_plus_moderate,15000,1976,17,3,101929741;105376607;54718,0.3921435780470398,1
+Insula,reconstructed,MEmagenta,global_high,15000,439,15,1,101927498,0.359664724580703,1
+Insula,reconstructed,MEmagenta,global_high_plus_moderate,15000,439,77,3,101927498;105379042;113230,0.3927531068469594,1
+Insula,reconstructed,MEmagenta,same_region_high,15000,439,5,0,,1,1
+Insula,reconstructed,MEmagenta,same_region_high_plus_moderate,15000,439,17,1,105379042,0.39663484650853464,1
+Insula,reconstructed,MEturquoise,global_high,15000,2929,15,2,101929607;254956,0.8217915120678715,1
+Insula,reconstructed,MEturquoise,global_high_plus_moderate,15000,2929,77,15,100506380;101928161;101929607;105371729;105377975;116349;202781;254956;26063;27098;2830;5092;645;6697;83547,0.5499328972326669,1
+Insula,reconstructed,MEturquoise,same_region_high,15000,2929,5,0,,1,1
+Insula,reconstructed,MEturquoise,same_region_high_plus_moderate,15000,2929,17,1,26063,0.9751613717231697,1
+Insula,reconstructed,MEblue,global_high,15000,2866,15,3,101929710;113939912;642826,0.5678185476441404,1
+Insula,reconstructed,MEblue,global_high_plus_moderate,15000,2866,77,17,101926987;101928268;101928283;101929549;101929710;107984435;107985988;107987272;113939912;23783;339201;401288;414062;4223;594840;60468;642826,0.29428678345218595,1
+Insula,reconstructed,MEblue,same_region_high,15000,2866,5,3,101929710;113939912;642826,0.05125916941498196,1
+Insula,reconstructed,MEblue,same_region_high_plus_moderate,15000,2866,17,6,101928268;101929710;107985988;113939912;401288;642826,0.08826704952929168,1
+Insula,reconstructed,MEdarkgrey,global_high,15000,849,15,0,,1,1
+Insula,reconstructed,MEdarkgrey,global_high_plus_moderate,15000,849,77,2,100689074;107985195,0.9371773561804934,1
+Insula,reconstructed,MEdarkgrey,same_region_high,15000,849,5,0,,1,1
+Insula,reconstructed,MEdarkgrey,same_region_high_plus_moderate,15000,849,17,2,100689074;107985195,0.2497993627354476,1
+Insula,reconstructed,MEgreenyellow,global_high,15000,345,15,0,,1,1
+Insula,reconstructed,MEgreenyellow,global_high_plus_moderate,15000,345,77,0,,1,1
+Insula,reconstructed,MEgreenyellow,same_region_high,15000,345,5,0,,1,1
+Insula,reconstructed,MEgreenyellow,same_region_high_plus_moderate,15000,345,17,0,,1,1
+Insula,reconstructed,MEsalmon,global_high,15000,1814,15,2,23475;79760,0.5569581236509313,1
+Insula,reconstructed,MEsalmon,global_high_plus_moderate,15000,1814,77,6,101927051;23475;2355;26071;388574;79760,0.9165769137202588,1
+Insula,reconstructed,MEsalmon,same_region_high,15000,1814,5,0,,1,1
+Insula,reconstructed,MEsalmon,same_region_high_plus_moderate,15000,1814,17,0,,1,1
+Insula,reconstructed,MEpurple,global_high,15000,362,15,0,,1,1
+Insula,reconstructed,MEpurple,global_high_plus_moderate,15000,362,77,0,,1,1
+Insula,reconstructed,MEpurple,same_region_high,15000,362,5,0,,1,1
+Insula,reconstructed,MEpurple,same_region_high_plus_moderate,15000,362,17,0,,1,1
+Insula,reconstructed,MEblack,global_high,15000,565,15,0,,1,1
+Insula,reconstructed,MEblack,global_high_plus_moderate,15000,565,77,3,100874047;4500;644538,0.5586406320438613,1
+Insula,reconstructed,MEblack,same_region_high,15000,565,5,0,,1,1
+Insula,reconstructed,MEblack,same_region_high_plus_moderate,15000,565,17,1,644538,0.4795491061334052,1
+Insula,reconstructed,MEcyan,global_high,15000,644,15,2,51069;65083,0.13376823101773555,1
+Insula,reconstructed,MEcyan,global_high_plus_moderate,15000,644,77,2,51069;65083,0.8488910435723644,1
+Insula,reconstructed,MEcyan,same_region_high,15000,644,5,0,,1,1
+Insula,reconstructed,MEcyan,same_region_high_plus_moderate,15000,644,17,0,,1,1
+Insula,reconstructed,MEdarkgreen,global_high,15000,153,15,0,,1,1
+Insula,reconstructed,MEdarkgreen,global_high_plus_moderate,15000,153,77,0,,1,1
+Insula,reconstructed,MEdarkgreen,same_region_high,15000,153,5,0,,1,1
+Insula,reconstructed,MEdarkgreen,same_region_high_plus_moderate,15000,153,17,0,,1,1
+Insula,reconstructed,MElightyellow,global_high,15000,86,15,0,,1,1
+Insula,reconstructed,MElightyellow,global_high_plus_moderate,15000,86,77,0,,1,1
+Insula,reconstructed,MElightyellow,same_region_high,15000,86,5,0,,1,1
+Insula,reconstructed,MElightyellow,same_region_high_plus_moderate,15000,86,17,0,,1,1
+Insula,reconstructed,MEdarkmagenta,global_high,15000,30,15,0,,1,1
+Insula,reconstructed,MEdarkmagenta,global_high_plus_moderate,15000,30,77,0,,1,1
+Insula,reconstructed,MEdarkmagenta,same_region_high,15000,30,5,0,,1,1
+Insula,reconstructed,MEdarkmagenta,same_region_high_plus_moderate,15000,30,17,0,,1,1
+Insula,reconstructed,MEorange,global_high,15000,53,15,0,,1,1
+Insula,reconstructed,MEorange,global_high_plus_moderate,15000,53,77,1,1803,0.2390917530324822,1
+Insula,reconstructed,MEorange,same_region_high,15000,53,5,0,,1,1
+Insula,reconstructed,MEorange,same_region_high_plus_moderate,15000,53,17,1,1803,0.058428704074225846,1
+Insula,reconstructed,MEviolet,global_high,15000,33,15,0,,1,1
+Insula,reconstructed,MEviolet,global_high_plus_moderate,15000,33,77,0,,1,1
+Insula,reconstructed,MEviolet,same_region_high,15000,33,5,0,,1,1
+Insula,reconstructed,MEviolet,same_region_high_plus_moderate,15000,33,17,0,,1,1
+Insula,reconstructed,MEskyblue,global_high,15000,43,15,0,,1,1
+Insula,reconstructed,MEskyblue,global_high_plus_moderate,15000,43,77,0,,1,1
+Insula,reconstructed,MEskyblue,same_region_high,15000,43,5,0,,1,1
+Insula,reconstructed,MEskyblue,same_region_high_plus_moderate,15000,43,17,0,,1,1
+Insula,reconstructed,MEgrey60,global_high,15000,109,15,0,,1,1
+Insula,reconstructed,MEgrey60,global_high_plus_moderate,15000,109,77,0,,1,1
+Insula,reconstructed,MEgrey60,same_region_high,15000,109,5,0,,1,1
+Insula,reconstructed,MEgrey60,same_region_high_plus_moderate,15000,109,17,0,,1,1
+Insula,reconstructed,MEroyalblue,global_high,15000,80,15,0,,1,1
+Insula,reconstructed,MEroyalblue,global_high_plus_moderate,15000,80,77,0,,1,1
+Insula,reconstructed,MEroyalblue,same_region_high,15000,80,5,0,,1,1
+Insula,reconstructed,MEroyalblue,same_region_high_plus_moderate,15000,80,17,0,,1,1
+Insula,reconstructed,MEdarkturquoise,global_high,15000,111,15,0,,1,1
+Insula,reconstructed,MEdarkturquoise,global_high_plus_moderate,15000,111,77,1,6948,0.436381658301896,1
+Insula,reconstructed,MEdarkturquoise,same_region_high,15000,111,5,0,,1,1
+Insula,reconstructed,MEdarkturquoise,same_region_high_plus_moderate,15000,111,17,0,,1,1
+Insula,reconstructed,MEsaddlebrown,global_high,15000,40,15,1,3852,0.03927988603237198,1
+Insula,reconstructed,MEsaddlebrown,global_high_plus_moderate,15000,40,77,1,3852,0.18627348815084088,1
+Insula,reconstructed,MEsaddlebrown,same_region_high,15000,40,5,0,,1,1
+Insula,reconstructed,MEsaddlebrown,same_region_high_plus_moderate,15000,40,17,0,,1,1
+Insula,reconstructed,MEmidnightblue,global_high,15000,216,15,1,100505894,0.1956112704707127,1
+Insula,reconstructed,MEmidnightblue,global_high_plus_moderate,15000,216,77,3,100505894;4604;4814,0.09957040963639593,1
+Insula,reconstructed,MEmidnightblue,same_region_high,15000,216,5,1,100505894,0.06996510611929507,1
+Insula,reconstructed,MEmidnightblue,same_region_high_plus_moderate,15000,216,17,1,100505894,0.21863448597956547,1
+Insula,reconstructed,MEsienna3,global_high,15000,26,15,0,,1,1
+Insula,reconstructed,MEsienna3,global_high_plus_moderate,15000,26,77,1,55049,0.1253420044638226,1
+Insula,reconstructed,MEsienna3,same_region_high,15000,26,5,0,,1,1
+Insula,reconstructed,MEsienna3,same_region_high_plus_moderate,15000,26,17,0,,1,1
+Insula,reconstructed,MEdarkolivegreen,global_high,15000,31,15,0,,1,1
+Insula,reconstructed,MEdarkolivegreen,global_high_plus_moderate,15000,31,77,0,,1,1
+Insula,reconstructed,MEdarkolivegreen,same_region_high,15000,31,5,0,,1,1
+Insula,reconstructed,MEdarkolivegreen,same_region_high_plus_moderate,15000,31,17,0,,1,1
+Insula,reconstructed,MEplum1,global_high,15000,25,15,0,,1,1
+Insula,reconstructed,MEplum1,global_high_plus_moderate,15000,25,77,0,,1,1
+Insula,reconstructed,MEplum1,same_region_high,15000,25,5,0,,1,1
+Insula,reconstructed,MEplum1,same_region_high_plus_moderate,15000,25,17,0,,1,1
+Insula,reconstructed,MEyellowgreen,global_high,15000,25,15,0,,1,1
+Insula,reconstructed,MEyellowgreen,global_high_plus_moderate,15000,25,77,0,,1,1
+Insula,reconstructed,MEyellowgreen,same_region_high,15000,25,5,0,,1,1
+Insula,reconstructed,MEyellowgreen,same_region_high_plus_moderate,15000,25,17,0,,1,1
+Insula,reconstructed,MEmediumpurple3,global_high,15000,24,15,0,,1,1
+Insula,reconstructed,MEmediumpurple3,global_high_plus_moderate,15000,24,77,0,,1,1
+Insula,reconstructed,MEmediumpurple3,same_region_high,15000,24,5,0,,1,1
+Insula,reconstructed,MEmediumpurple3,same_region_high_plus_moderate,15000,24,17,0,,1,1
+Insula,reconstructed,MEskyblue3,global_high,15000,25,15,0,,1,1
+Insula,reconstructed,MEskyblue3,global_high_plus_moderate,15000,25,77,0,,1,1
+Insula,reconstructed,MEskyblue3,same_region_high,15000,25,5,0,,1,1
+Insula,reconstructed,MEskyblue3,same_region_high_plus_moderate,15000,25,17,0,,1,1
+Hippocampal Formation,canonical_old,MEmaroon,global_high,15000,49,17,0,,1,1
+Hippocampal Formation,canonical_old,MEmaroon,global_high_plus_moderate,15000,49,80,0,,1,1
+Hippocampal Formation,canonical_old,MEmaroon,same_region_high,15000,49,0,0,,1,1
+Hippocampal Formation,canonical_old,MEmaroon,same_region_high_plus_moderate,15000,49,12,0,,1,1
+Hippocampal Formation,canonical_old,MEyellowgreen,global_high,15000,72,17,0,,1,1
+Hippocampal Formation,canonical_old,MEyellowgreen,global_high_plus_moderate,15000,72,80,0,,1,1
+Hippocampal Formation,canonical_old,MEyellowgreen,same_region_high,15000,72,0,0,,1,1
+Hippocampal Formation,canonical_old,MEyellowgreen,same_region_high_plus_moderate,15000,72,12,0,,1,1
+Hippocampal Formation,canonical_old,MEtan,global_high,15000,262,17,0,,1,1
+Hippocampal Formation,canonical_old,MEtan,global_high_plus_moderate,15000,262,80,0,,1,1
+Hippocampal Formation,canonical_old,MEtan,same_region_high,15000,262,0,0,,1,1
+Hippocampal Formation,canonical_old,MEtan,same_region_high_plus_moderate,15000,262,12,0,,1,1
+Hippocampal Formation,canonical_old,MEblue,global_high,15000,1715,17,6,100996279;101929607;105376607;105377644;2488;254956,0.008977816603061801,0.6194693456112643
+Hippocampal Formation,canonical_old,MEblue,global_high_plus_moderate,15000,1715,80,18,100287015;100996279;101929607;101929741;105369340;105376607;105377644;107985195;116349;2488;254956;26063;27098;388574;6697;79177;83460;83547,0.003488247762502317,0.24068909561265986
+Hippocampal Formation,canonical_old,MEblue,same_region_high,15000,1715,0,0,,1,1
+Hippocampal Formation,canonical_old,MEblue,same_region_high_plus_moderate,15000,1715,12,1,105376607,0.7671926009948408,1
+Hippocampal Formation,canonical_old,MEfirebrick4,global_high,15000,244,17,0,,1,1
+Hippocampal Formation,canonical_old,MEfirebrick4,global_high_plus_moderate,15000,244,80,3,2273;23783;80036,0.1414199737092327,1
+Hippocampal Formation,canonical_old,MEfirebrick4,same_region_high,15000,244,0,0,,1,1
+Hippocampal Formation,canonical_old,MEfirebrick4,same_region_high_plus_moderate,15000,244,12,0,,1,1
+Hippocampal Formation,canonical_old,MEblack,global_high,15000,2961,17,2,3852;64598,0.8768570234984128,1
+Hippocampal Formation,canonical_old,MEblack,global_high_plus_moderate,15000,2961,80,15,101927051;101927655;105377975;107985988;10974;115290;2355;2830;3852;441509;5468;55620;64598;79713;919,0.6325716458041575,1
+Hippocampal Formation,canonical_old,MEblack,same_region_high,15000,2961,0,0,,1,1
+Hippocampal Formation,canonical_old,MEblack,same_region_high_plus_moderate,15000,2961,12,1,79713,0.9286293571129687,1
+Hippocampal Formation,canonical_old,MEgreen,global_high,15000,857,17,0,,1,1
+Hippocampal Formation,canonical_old,MEgreen,global_high_plus_moderate,15000,857,80,3,101929549;105376380;162514,0.8430283854535013,1
+Hippocampal Formation,canonical_old,MEgreen,same_region_high,15000,857,0,0,,1,1
+Hippocampal Formation,canonical_old,MEgreen,same_region_high_plus_moderate,15000,857,12,0,,1,1
+Hippocampal Formation,canonical_old,MEmediumpurple2,global_high,15000,144,17,0,,1,1
+Hippocampal Formation,canonical_old,MEmediumpurple2,global_high_plus_moderate,15000,144,80,0,,1,1
+Hippocampal Formation,canonical_old,MEmediumpurple2,same_region_high,15000,144,0,0,,1,1
+Hippocampal Formation,canonical_old,MEmediumpurple2,same_region_high_plus_moderate,15000,144,12,0,,1,1
+Hippocampal Formation,canonical_old,MEyellow,global_high,15000,786,17,0,,1,1
+Hippocampal Formation,canonical_old,MEyellow,global_high_plus_moderate,15000,786,80,4,100506380;148203;154092;202781,0.6096605941823552,1
+Hippocampal Formation,canonical_old,MEyellow,same_region_high,15000,786,0,0,,1,1
+Hippocampal Formation,canonical_old,MEyellow,same_region_high_plus_moderate,15000,786,12,2,148203;154092,0.12789169805674244,1
+Hippocampal Formation,canonical_old,MEplum1,global_high,15000,70,17,0,,1,1
+Hippocampal Formation,canonical_old,MEplum1,global_high_plus_moderate,15000,70,80,1,4500,0.31284706359879566,1
+Hippocampal Formation,canonical_old,MEplum1,same_region_high,15000,70,0,0,,1,1
+Hippocampal Formation,canonical_old,MEplum1,same_region_high_plus_moderate,15000,70,12,0,,1,1
+Hippocampal Formation,canonical_old,MEskyblue,global_high,15000,103,17,0,,1,1
+Hippocampal Formation,canonical_old,MEskyblue,global_high_plus_moderate,15000,103,80,0,,1,1
+Hippocampal Formation,canonical_old,MEskyblue,same_region_high,15000,103,0,0,,1,1
+Hippocampal Formation,canonical_old,MEskyblue,same_region_high_plus_moderate,15000,103,12,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkorange2,global_high,15000,63,17,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkorange2,global_high_plus_moderate,15000,63,80,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkorange2,same_region_high,15000,63,0,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkorange2,same_region_high_plus_moderate,15000,63,12,0,,1,1
+Hippocampal Formation,canonical_old,MEsalmon4,global_high,15000,52,17,0,,1,1
+Hippocampal Formation,canonical_old,MEsalmon4,global_high_plus_moderate,15000,52,80,0,,1,1
+Hippocampal Formation,canonical_old,MEsalmon4,same_region_high,15000,52,0,0,,1,1
+Hippocampal Formation,canonical_old,MEsalmon4,same_region_high_plus_moderate,15000,52,12,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkorange,global_high,15000,107,17,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkorange,global_high_plus_moderate,15000,107,80,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkorange,same_region_high,15000,107,0,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkorange,same_region_high_plus_moderate,15000,107,12,0,,1,1
+Hippocampal Formation,canonical_old,MEmediumpurple4,global_high,15000,20,17,0,,1,1
+Hippocampal Formation,canonical_old,MEmediumpurple4,global_high_plus_moderate,15000,20,80,0,,1,1
+Hippocampal Formation,canonical_old,MEmediumpurple4,same_region_high,15000,20,0,0,,1,1
+Hippocampal Formation,canonical_old,MEmediumpurple4,same_region_high_plus_moderate,15000,20,12,0,,1,1
+Hippocampal Formation,canonical_old,MEred,global_high,15000,615,17,1,101929710,0.5093770585658997,1
+Hippocampal Formation,canonical_old,MEred,global_high_plus_moderate,15000,615,80,6,101927931;101928161;101929710;105370868;4814;54718,0.1098503818714254,1
+Hippocampal Formation,canonical_old,MEred,same_region_high,15000,615,0,0,,1,1
+Hippocampal Formation,canonical_old,MEred,same_region_high_plus_moderate,15000,615,12,2,101927931;105370868,0.08440580445699797,1
+Hippocampal Formation,canonical_old,MElightcyan,global_high,15000,196,17,0,,1,1
+Hippocampal Formation,canonical_old,MElightcyan,global_high_plus_moderate,15000,196,80,0,,1,1
+Hippocampal Formation,canonical_old,MElightcyan,same_region_high,15000,196,0,0,,1,1
+Hippocampal Formation,canonical_old,MElightcyan,same_region_high_plus_moderate,15000,196,12,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkgreen,global_high,15000,305,17,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkgreen,global_high_plus_moderate,15000,305,80,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkgreen,same_region_high,15000,305,0,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkgreen,same_region_high_plus_moderate,15000,305,12,0,,1,1
+Hippocampal Formation,canonical_old,MEgreenyellow,global_high,15000,421,17,1,23475,0.38382181881244204,1
+Hippocampal Formation,canonical_old,MEgreenyellow,global_high_plus_moderate,15000,421,80,2,125;23475,0.661338812235809,1
+Hippocampal Formation,canonical_old,MEgreenyellow,same_region_high,15000,421,0,0,,1,1
+Hippocampal Formation,canonical_old,MEgreenyellow,same_region_high_plus_moderate,15000,421,12,0,,1,1
+Hippocampal Formation,canonical_old,MElightsteelblue,global_high,15000,34,17,0,,1,1
+Hippocampal Formation,canonical_old,MElightsteelblue,global_high_plus_moderate,15000,34,80,0,,1,1
+Hippocampal Formation,canonical_old,MElightsteelblue,same_region_high,15000,34,0,0,,1,1
+Hippocampal Formation,canonical_old,MElightsteelblue,same_region_high_plus_moderate,15000,34,12,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkolivegreen,global_high,15000,134,17,1,105372507,0.14155344754199517,1
+Hippocampal Formation,canonical_old,MEdarkolivegreen,global_high_plus_moderate,15000,134,80,1,105372507,0.5131424335058288,1
+Hippocampal Formation,canonical_old,MEdarkolivegreen,same_region_high,15000,134,0,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkolivegreen,same_region_high_plus_moderate,15000,134,12,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkred,global_high,15000,141,17,1,101927498,0.14840302569291208,1
+Hippocampal Formation,canonical_old,MEdarkred,global_high_plus_moderate,15000,141,80,2,101927498;113230,0.17340153440243855,1
+Hippocampal Formation,canonical_old,MEdarkred,same_region_high,15000,141,0,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkred,same_region_high_plus_moderate,15000,141,12,0,,1,1
+Hippocampal Formation,canonical_old,MEwhite,global_high,15000,104,17,0,,1,1
+Hippocampal Formation,canonical_old,MEwhite,global_high_plus_moderate,15000,104,80,0,,1,1
+Hippocampal Formation,canonical_old,MEwhite,same_region_high,15000,104,0,0,,1,1
+Hippocampal Formation,canonical_old,MEwhite,same_region_high_plus_moderate,15000,104,12,0,,1,1
+Hippocampal Formation,canonical_old,MEfloralwhite,global_high,15000,63,17,0,,1,1
+Hippocampal Formation,canonical_old,MEfloralwhite,global_high_plus_moderate,15000,63,80,0,,1,1
+Hippocampal Formation,canonical_old,MEfloralwhite,same_region_high,15000,63,0,0,,1,1
+Hippocampal Formation,canonical_old,MEfloralwhite,same_region_high_plus_moderate,15000,63,12,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkviolet,global_high,15000,702,17,2,105371009;107984015,0.1877073956281103,1
+Hippocampal Formation,canonical_old,MEdarkviolet,global_high_plus_moderate,15000,702,80,2,105371009;107984015,0.8941262293224255,1
+Hippocampal Formation,canonical_old,MEdarkviolet,same_region_high,15000,702,0,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkviolet,same_region_high_plus_moderate,15000,702,12,0,,1,1
+Hippocampal Formation,canonical_old,MEbrown,global_high,15000,1242,17,2,113939912;642826,0.4168763617738529,1
+Hippocampal Formation,canonical_old,MEbrown,global_high_plus_moderate,15000,1242,80,11,100874047;101926987;101928268;101928283;105372697;107984435;113939912;285830;414062;4223;642826,0.06484456974285253,1
+Hippocampal Formation,canonical_old,MEbrown,same_region_high,15000,1242,0,0,,1,1
+Hippocampal Formation,canonical_old,MEbrown,same_region_high_plus_moderate,15000,1242,12,3,101928283;107984435;285830,0.07082316587943524,1
+Hippocampal Formation,canonical_old,MEgrey60,global_high,15000,155,17,0,,1,1
+Hippocampal Formation,canonical_old,MEgrey60,global_high_plus_moderate,15000,155,80,1,60468,0.5653329281985575,1
+Hippocampal Formation,canonical_old,MEgrey60,same_region_high,15000,155,0,0,,1,1
+Hippocampal Formation,canonical_old,MEgrey60,same_region_high_plus_moderate,15000,155,12,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkslateblue,global_high,15000,185,17,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkslateblue,global_high_plus_moderate,15000,185,80,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkslateblue,same_region_high,15000,185,0,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkslateblue,same_region_high_plus_moderate,15000,185,12,0,,1,1
+Hippocampal Formation,canonical_old,MEmagenta,global_high,15000,389,17,0,,1,1
+Hippocampal Formation,canonical_old,MEmagenta,global_high_plus_moderate,15000,389,80,0,,1,1
+Hippocampal Formation,canonical_old,MEmagenta,same_region_high,15000,389,0,0,,1,1
+Hippocampal Formation,canonical_old,MEmagenta,same_region_high_plus_moderate,15000,389,12,0,,1,1
+Hippocampal Formation,canonical_old,MElightcyan1,global_high,15000,64,17,0,,1,1
+Hippocampal Formation,canonical_old,MElightcyan1,global_high_plus_moderate,15000,64,80,0,,1,1
+Hippocampal Formation,canonical_old,MElightcyan1,same_region_high,15000,64,0,0,,1,1
+Hippocampal Formation,canonical_old,MElightcyan1,same_region_high_plus_moderate,15000,64,12,0,,1,1
+Hippocampal Formation,canonical_old,MEcyan,global_high,15000,264,17,1,100505894,0.26068176347769123,1
+Hippocampal Formation,canonical_old,MEcyan,global_high_plus_moderate,15000,264,80,2,100505894;645,0.41253476129414224,1
+Hippocampal Formation,canonical_old,MEcyan,same_region_high,15000,264,0,0,,1,1
+Hippocampal Formation,canonical_old,MEcyan,same_region_high_plus_moderate,15000,264,12,1,100505894,0.19197277531102142,1
+Hippocampal Formation,canonical_old,MElightcoral,global_high,15000,380,17,0,,1,1
+Hippocampal Formation,canonical_old,MElightcoral,global_high_plus_moderate,15000,380,80,1,105379042,0.8723259853943471,1
+Hippocampal Formation,canonical_old,MElightcoral,same_region_high,15000,380,0,0,,1,1
+Hippocampal Formation,canonical_old,MElightcoral,same_region_high_plus_moderate,15000,380,12,0,,1,1
+Hippocampal Formation,canonical_old,MEbrown4,global_high,15000,62,17,0,,1,1
+Hippocampal Formation,canonical_old,MEbrown4,global_high_plus_moderate,15000,62,80,1,6948,0.28267725792133613,1
+Hippocampal Formation,canonical_old,MEbrown4,same_region_high,15000,62,0,0,,1,1
+Hippocampal Formation,canonical_old,MEbrown4,same_region_high_plus_moderate,15000,62,12,0,,1,1
+Hippocampal Formation,canonical_old,MEorangered4,global_high,15000,69,17,0,,1,1
+Hippocampal Formation,canonical_old,MEorangered4,global_high_plus_moderate,15000,69,80,0,,1,1
+Hippocampal Formation,canonical_old,MEorangered4,same_region_high,15000,69,0,0,,1,1
+Hippocampal Formation,canonical_old,MEorangered4,same_region_high_plus_moderate,15000,69,12,0,,1,1
+Hippocampal Formation,canonical_old,MEsienna3,global_high,15000,76,17,0,,1,1
+Hippocampal Formation,canonical_old,MEsienna3,global_high_plus_moderate,15000,76,80,0,,1,1
+Hippocampal Formation,canonical_old,MEsienna3,same_region_high,15000,76,0,0,,1,1
+Hippocampal Formation,canonical_old,MEsienna3,same_region_high_plus_moderate,15000,76,12,0,,1,1
+Hippocampal Formation,canonical_old,MEplum3,global_high,15000,30,17,0,,1,1
+Hippocampal Formation,canonical_old,MEplum3,global_high_plus_moderate,15000,30,80,0,,1,1
+Hippocampal Formation,canonical_old,MEplum3,same_region_high,15000,30,0,0,,1,1
+Hippocampal Formation,canonical_old,MEplum3,same_region_high_plus_moderate,15000,30,12,0,,1,1
+Hippocampal Formation,canonical_old,MEsteelblue,global_high,15000,97,17,0,,1,1
+Hippocampal Formation,canonical_old,MEsteelblue,global_high_plus_moderate,15000,97,80,0,,1,1
+Hippocampal Formation,canonical_old,MEsteelblue,same_region_high,15000,97,0,0,,1,1
+Hippocampal Formation,canonical_old,MEsteelblue,same_region_high_plus_moderate,15000,97,12,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral,global_high,15000,22,17,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral,global_high_plus_moderate,15000,22,80,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral,same_region_high,15000,22,0,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral,same_region_high_plus_moderate,15000,22,12,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle1,global_high,15000,54,17,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle1,global_high_plus_moderate,15000,54,80,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle1,same_region_high,15000,54,0,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle1,same_region_high_plus_moderate,15000,54,12,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle2,global_high,15000,54,17,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle2,global_high_plus_moderate,15000,54,80,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle2,same_region_high,15000,54,0,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle2,same_region_high_plus_moderate,15000,54,12,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral1,global_high,15000,43,17,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral1,global_high_plus_moderate,15000,43,80,1,1803,0.20568126824334287,1
+Hippocampal Formation,canonical_old,MEcoral1,same_region_high,15000,43,0,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral1,same_region_high_plus_moderate,15000,43,12,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkseagreen3,global_high,15000,22,17,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkseagreen3,global_high_plus_moderate,15000,22,80,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkseagreen3,same_region_high,15000,22,0,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkseagreen3,same_region_high_plus_moderate,15000,22,12,0,,1,1
+Hippocampal Formation,canonical_old,MElightpink4,global_high,15000,48,17,0,,1,1
+Hippocampal Formation,canonical_old,MElightpink4,global_high_plus_moderate,15000,48,80,0,,1,1
+Hippocampal Formation,canonical_old,MElightpink4,same_region_high,15000,48,0,0,,1,1
+Hippocampal Formation,canonical_old,MElightpink4,same_region_high_plus_moderate,15000,48,12,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle,global_high,15000,28,17,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle,global_high_plus_moderate,15000,28,80,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle,same_region_high,15000,28,0,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle,same_region_high_plus_moderate,15000,28,12,0,,1,1
+Hippocampal Formation,canonical_old,MEplum,global_high,15000,137,17,0,,1,1
+Hippocampal Formation,canonical_old,MEplum,global_high_plus_moderate,15000,137,80,0,,1,1
+Hippocampal Formation,canonical_old,MEplum,same_region_high,15000,137,0,0,,1,1
+Hippocampal Formation,canonical_old,MEplum,same_region_high_plus_moderate,15000,137,12,0,,1,1
+Hippocampal Formation,canonical_old,MEantiquewhite2,global_high,15000,22,17,0,,1,1
+Hippocampal Formation,canonical_old,MEantiquewhite2,global_high_plus_moderate,15000,22,80,0,,1,1
+Hippocampal Formation,canonical_old,MEantiquewhite2,same_region_high,15000,22,0,0,,1,1
+Hippocampal Formation,canonical_old,MEantiquewhite2,same_region_high_plus_moderate,15000,22,12,0,,1,1
+Hippocampal Formation,canonical_old,MEblue2,global_high,15000,31,17,0,,1,1
+Hippocampal Formation,canonical_old,MEblue2,global_high_plus_moderate,15000,31,80,0,,1,1
+Hippocampal Formation,canonical_old,MEblue2,same_region_high,15000,31,0,0,,1,1
+Hippocampal Formation,canonical_old,MEblue2,same_region_high_plus_moderate,15000,31,12,0,,1,1
+Hippocampal Formation,canonical_old,MEbrown2,global_high,15000,31,17,0,,1,1
+Hippocampal Formation,canonical_old,MEbrown2,global_high_plus_moderate,15000,31,80,0,,1,1
+Hippocampal Formation,canonical_old,MEbrown2,same_region_high,15000,31,0,0,,1,1
+Hippocampal Formation,canonical_old,MEbrown2,same_region_high_plus_moderate,15000,31,12,0,,1,1
+Hippocampal Formation,canonical_old,MEbisque4,global_high,15000,186,17,0,,1,1
+Hippocampal Formation,canonical_old,MEbisque4,global_high_plus_moderate,15000,186,80,1,100130934,0.6324354129572314,1
+Hippocampal Formation,canonical_old,MEbisque4,same_region_high,15000,186,0,0,,1,1
+Hippocampal Formation,canonical_old,MEbisque4,same_region_high_plus_moderate,15000,186,12,1,100130934,0.1391074091176998,1
+Hippocampal Formation,canonical_old,MElightyellow,global_high,15000,212,17,0,,1,1
+Hippocampal Formation,canonical_old,MElightyellow,global_high_plus_moderate,15000,212,80,4,3430;4604;5092;64333,0.026653317272067538,0.9195394458863301
+Hippocampal Formation,canonical_old,MElightyellow,same_region_high,15000,212,0,0,,1,1
+Hippocampal Formation,canonical_old,MElightyellow,same_region_high_plus_moderate,15000,212,12,1,3430,0.1570714075180808,1
+Hippocampal Formation,canonical_old,MEindianred4,global_high,15000,33,17,0,,1,1
+Hippocampal Formation,canonical_old,MEindianred4,global_high_plus_moderate,15000,33,80,0,,1,1
+Hippocampal Formation,canonical_old,MEindianred4,same_region_high,15000,33,0,0,,1,1
+Hippocampal Formation,canonical_old,MEindianred4,same_region_high_plus_moderate,15000,33,12,0,,1,1
+Hippocampal Formation,canonical_old,MEmagenta4,global_high,15000,24,17,0,,1,1
+Hippocampal Formation,canonical_old,MEmagenta4,global_high_plus_moderate,15000,24,80,0,,1,1
+Hippocampal Formation,canonical_old,MEmagenta4,same_region_high,15000,24,0,0,,1,1
+Hippocampal Formation,canonical_old,MEmagenta4,same_region_high_plus_moderate,15000,24,12,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkmagenta,global_high,15000,76,17,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkmagenta,global_high_plus_moderate,15000,76,80,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkmagenta,same_region_high,15000,76,0,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkmagenta,same_region_high_plus_moderate,15000,76,12,0,,1,1
+Hippocampal Formation,canonical_old,MEskyblue3,global_high,15000,147,17,0,,1,1
+Hippocampal Formation,canonical_old,MEskyblue3,global_high_plus_moderate,15000,147,80,0,,1,1
+Hippocampal Formation,canonical_old,MEskyblue3,same_region_high,15000,147,0,0,,1,1
+Hippocampal Formation,canonical_old,MEskyblue3,same_region_high_plus_moderate,15000,147,12,0,,1,1
+Hippocampal Formation,canonical_old,MEivory,global_high,15000,63,17,0,,1,1
+Hippocampal Formation,canonical_old,MEivory,global_high_plus_moderate,15000,63,80,1,26071,0.286518857825359,1
+Hippocampal Formation,canonical_old,MEivory,same_region_high,15000,63,0,0,,1,1
+Hippocampal Formation,canonical_old,MEivory,same_region_high_plus_moderate,15000,63,12,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkolivegreen4,global_high,15000,31,17,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkolivegreen4,global_high_plus_moderate,15000,31,80,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkolivegreen4,same_region_high,15000,31,0,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkolivegreen4,same_region_high_plus_moderate,15000,31,12,0,,1,1
+Hippocampal Formation,canonical_old,MEantiquewhite4,global_high,15000,91,17,0,,1,1
+Hippocampal Formation,canonical_old,MEantiquewhite4,global_high_plus_moderate,15000,91,80,0,,1,1
+Hippocampal Formation,canonical_old,MEantiquewhite4,same_region_high,15000,91,0,0,,1,1
+Hippocampal Formation,canonical_old,MEantiquewhite4,same_region_high_plus_moderate,15000,91,12,0,,1,1
+Hippocampal Formation,canonical_old,MEpalevioletred2,global_high,15000,26,17,0,,1,1
+Hippocampal Formation,canonical_old,MEpalevioletred2,global_high_plus_moderate,15000,26,80,0,,1,1
+Hippocampal Formation,canonical_old,MEpalevioletred2,same_region_high,15000,26,0,0,,1,1
+Hippocampal Formation,canonical_old,MEpalevioletred2,same_region_high_plus_moderate,15000,26,12,0,,1,1
+Hippocampal Formation,canonical_old,MEhoneydew1,global_high,15000,45,17,0,,1,1
+Hippocampal Formation,canonical_old,MEhoneydew1,global_high_plus_moderate,15000,45,80,0,,1,1
+Hippocampal Formation,canonical_old,MEhoneydew1,same_region_high,15000,45,0,0,,1,1
+Hippocampal Formation,canonical_old,MEhoneydew1,same_region_high_plus_moderate,15000,45,12,0,,1,1
+Hippocampal Formation,canonical_old,MElavenderblush3,global_high,15000,47,17,0,,1,1
+Hippocampal Formation,canonical_old,MElavenderblush3,global_high_plus_moderate,15000,47,80,0,,1,1
+Hippocampal Formation,canonical_old,MElavenderblush3,same_region_high,15000,47,0,0,,1,1
+Hippocampal Formation,canonical_old,MElavenderblush3,same_region_high_plus_moderate,15000,47,12,0,,1,1
+Hippocampal Formation,canonical_old,MElightpink3,global_high,15000,24,17,0,,1,1
+Hippocampal Formation,canonical_old,MElightpink3,global_high_plus_moderate,15000,24,80,0,,1,1
+Hippocampal Formation,canonical_old,MElightpink3,same_region_high,15000,24,0,0,,1,1
+Hippocampal Formation,canonical_old,MElightpink3,same_region_high_plus_moderate,15000,24,12,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle3,global_high,15000,29,17,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle3,global_high_plus_moderate,15000,29,80,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle3,same_region_high,15000,29,0,0,,1,1
+Hippocampal Formation,canonical_old,MEthistle3,same_region_high_plus_moderate,15000,29,12,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkseagreen4,global_high,15000,45,17,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkseagreen4,global_high_plus_moderate,15000,45,80,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkseagreen4,same_region_high,15000,45,0,0,,1,1
+Hippocampal Formation,canonical_old,MEdarkseagreen4,same_region_high_plus_moderate,15000,45,12,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral2,global_high,15000,40,17,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral2,global_high_plus_moderate,15000,40,80,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral2,same_region_high,15000,40,0,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral2,same_region_high_plus_moderate,15000,40,12,0,,1,1
+Hippocampal Formation,canonical_old,MEhoneydew,global_high,15000,23,17,0,,1,1
+Hippocampal Formation,canonical_old,MEhoneydew,global_high_plus_moderate,15000,23,80,0,,1,1
+Hippocampal Formation,canonical_old,MEhoneydew,same_region_high,15000,23,0,0,,1,1
+Hippocampal Formation,canonical_old,MEhoneydew,same_region_high_plus_moderate,15000,23,12,0,,1,1
+Hippocampal Formation,canonical_old,MElavenderblush2,global_high,15000,23,17,0,,1,1
+Hippocampal Formation,canonical_old,MElavenderblush2,global_high_plus_moderate,15000,23,80,0,,1,1
+Hippocampal Formation,canonical_old,MElavenderblush2,same_region_high,15000,23,0,0,,1,1
+Hippocampal Formation,canonical_old,MElavenderblush2,same_region_high_plus_moderate,15000,23,12,0,,1,1
+Hippocampal Formation,canonical_old,MEskyblue2,global_high,15000,39,17,0,,1,1
+Hippocampal Formation,canonical_old,MEskyblue2,global_high_plus_moderate,15000,39,80,0,,1,1
+Hippocampal Formation,canonical_old,MEskyblue2,same_region_high,15000,39,0,0,,1,1
+Hippocampal Formation,canonical_old,MEskyblue2,same_region_high_plus_moderate,15000,39,12,0,,1,1
+Hippocampal Formation,canonical_old,MEpalevioletred3,global_high,15000,50,17,0,,1,1
+Hippocampal Formation,canonical_old,MEpalevioletred3,global_high_plus_moderate,15000,50,80,0,,1,1
+Hippocampal Formation,canonical_old,MEpalevioletred3,same_region_high,15000,50,0,0,,1,1
+Hippocampal Formation,canonical_old,MEpalevioletred3,same_region_high_plus_moderate,15000,50,12,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral3,global_high,15000,21,17,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral3,global_high_plus_moderate,15000,21,80,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral3,same_region_high,15000,21,0,0,,1,1
+Hippocampal Formation,canonical_old,MEcoral3,same_region_high_plus_moderate,15000,21,12,0,,1,1
+Hippocampal Formation,reconstructed,MEmaroon,global_high,15000,49,17,0,,1,1
+Hippocampal Formation,reconstructed,MEmaroon,global_high_plus_moderate,15000,49,80,0,,1,1
+Hippocampal Formation,reconstructed,MEmaroon,same_region_high,15000,49,0,0,,1,1
+Hippocampal Formation,reconstructed,MEmaroon,same_region_high_plus_moderate,15000,49,12,0,,1,1
+Hippocampal Formation,reconstructed,MEyellowgreen,global_high,15000,72,17,0,,1,1
+Hippocampal Formation,reconstructed,MEyellowgreen,global_high_plus_moderate,15000,72,80,0,,1,1
+Hippocampal Formation,reconstructed,MEyellowgreen,same_region_high,15000,72,0,0,,1,1
+Hippocampal Formation,reconstructed,MEyellowgreen,same_region_high_plus_moderate,15000,72,12,0,,1,1
+Hippocampal Formation,reconstructed,MEtan,global_high,15000,262,17,0,,1,1
+Hippocampal Formation,reconstructed,MEtan,global_high_plus_moderate,15000,262,80,0,,1,1
+Hippocampal Formation,reconstructed,MEtan,same_region_high,15000,262,0,0,,1,1
+Hippocampal Formation,reconstructed,MEtan,same_region_high_plus_moderate,15000,262,12,0,,1,1
+Hippocampal Formation,reconstructed,MEblue,global_high,15000,1715,17,6,100996279;101929607;105376607;105377644;2488;254956,0.008977816603061801,0.6194693456112643
+Hippocampal Formation,reconstructed,MEblue,global_high_plus_moderate,15000,1715,80,18,100287015;100996279;101929607;101929741;105369340;105376607;105377644;107985195;116349;2488;254956;26063;27098;388574;6697;79177;83460;83547,0.003488247762502317,0.24068909561265986
+Hippocampal Formation,reconstructed,MEblue,same_region_high,15000,1715,0,0,,1,1
+Hippocampal Formation,reconstructed,MEblue,same_region_high_plus_moderate,15000,1715,12,1,105376607,0.7671926009948408,1
+Hippocampal Formation,reconstructed,MEfirebrick4,global_high,15000,244,17,0,,1,1
+Hippocampal Formation,reconstructed,MEfirebrick4,global_high_plus_moderate,15000,244,80,3,2273;23783;80036,0.1414199737092327,1
+Hippocampal Formation,reconstructed,MEfirebrick4,same_region_high,15000,244,0,0,,1,1
+Hippocampal Formation,reconstructed,MEfirebrick4,same_region_high_plus_moderate,15000,244,12,0,,1,1
+Hippocampal Formation,reconstructed,MEblack,global_high,15000,2961,17,2,3852;64598,0.8768570234984128,1
+Hippocampal Formation,reconstructed,MEblack,global_high_plus_moderate,15000,2961,80,15,101927051;101927655;105377975;107985988;10974;115290;2355;2830;3852;441509;5468;55620;64598;79713;919,0.6325716458041575,1
+Hippocampal Formation,reconstructed,MEblack,same_region_high,15000,2961,0,0,,1,1
+Hippocampal Formation,reconstructed,MEblack,same_region_high_plus_moderate,15000,2961,12,1,79713,0.9286293571129687,1
+Hippocampal Formation,reconstructed,MEgreen,global_high,15000,857,17,0,,1,1
+Hippocampal Formation,reconstructed,MEgreen,global_high_plus_moderate,15000,857,80,3,101929549;105376380;162514,0.8430283854535013,1
+Hippocampal Formation,reconstructed,MEgreen,same_region_high,15000,857,0,0,,1,1
+Hippocampal Formation,reconstructed,MEgreen,same_region_high_plus_moderate,15000,857,12,0,,1,1
+Hippocampal Formation,reconstructed,MEmediumpurple2,global_high,15000,144,17,0,,1,1
+Hippocampal Formation,reconstructed,MEmediumpurple2,global_high_plus_moderate,15000,144,80,0,,1,1
+Hippocampal Formation,reconstructed,MEmediumpurple2,same_region_high,15000,144,0,0,,1,1
+Hippocampal Formation,reconstructed,MEmediumpurple2,same_region_high_plus_moderate,15000,144,12,0,,1,1
+Hippocampal Formation,reconstructed,MEyellow,global_high,15000,786,17,0,,1,1
+Hippocampal Formation,reconstructed,MEyellow,global_high_plus_moderate,15000,786,80,4,100506380;148203;154092;202781,0.6096605941823552,1
+Hippocampal Formation,reconstructed,MEyellow,same_region_high,15000,786,0,0,,1,1
+Hippocampal Formation,reconstructed,MEyellow,same_region_high_plus_moderate,15000,786,12,2,148203;154092,0.12789169805674244,1
+Hippocampal Formation,reconstructed,MEplum1,global_high,15000,70,17,0,,1,1
+Hippocampal Formation,reconstructed,MEplum1,global_high_plus_moderate,15000,70,80,1,4500,0.31284706359879566,1
+Hippocampal Formation,reconstructed,MEplum1,same_region_high,15000,70,0,0,,1,1
+Hippocampal Formation,reconstructed,MEplum1,same_region_high_plus_moderate,15000,70,12,0,,1,1
+Hippocampal Formation,reconstructed,MEskyblue,global_high,15000,103,17,0,,1,1
+Hippocampal Formation,reconstructed,MEskyblue,global_high_plus_moderate,15000,103,80,0,,1,1
+Hippocampal Formation,reconstructed,MEskyblue,same_region_high,15000,103,0,0,,1,1
+Hippocampal Formation,reconstructed,MEskyblue,same_region_high_plus_moderate,15000,103,12,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkorange2,global_high,15000,63,17,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkorange2,global_high_plus_moderate,15000,63,80,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkorange2,same_region_high,15000,63,0,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkorange2,same_region_high_plus_moderate,15000,63,12,0,,1,1
+Hippocampal Formation,reconstructed,MEsalmon4,global_high,15000,52,17,0,,1,1
+Hippocampal Formation,reconstructed,MEsalmon4,global_high_plus_moderate,15000,52,80,0,,1,1
+Hippocampal Formation,reconstructed,MEsalmon4,same_region_high,15000,52,0,0,,1,1
+Hippocampal Formation,reconstructed,MEsalmon4,same_region_high_plus_moderate,15000,52,12,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkorange,global_high,15000,107,17,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkorange,global_high_plus_moderate,15000,107,80,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkorange,same_region_high,15000,107,0,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkorange,same_region_high_plus_moderate,15000,107,12,0,,1,1
+Hippocampal Formation,reconstructed,MEmediumpurple4,global_high,15000,20,17,0,,1,1
+Hippocampal Formation,reconstructed,MEmediumpurple4,global_high_plus_moderate,15000,20,80,0,,1,1
+Hippocampal Formation,reconstructed,MEmediumpurple4,same_region_high,15000,20,0,0,,1,1
+Hippocampal Formation,reconstructed,MEmediumpurple4,same_region_high_plus_moderate,15000,20,12,0,,1,1
+Hippocampal Formation,reconstructed,MEred,global_high,15000,615,17,1,101929710,0.5093770585658997,1
+Hippocampal Formation,reconstructed,MEred,global_high_plus_moderate,15000,615,80,6,101927931;101928161;101929710;105370868;4814;54718,0.1098503818714254,1
+Hippocampal Formation,reconstructed,MEred,same_region_high,15000,615,0,0,,1,1
+Hippocampal Formation,reconstructed,MEred,same_region_high_plus_moderate,15000,615,12,2,101927931;105370868,0.08440580445699797,1
+Hippocampal Formation,reconstructed,MElightcyan,global_high,15000,196,17,0,,1,1
+Hippocampal Formation,reconstructed,MElightcyan,global_high_plus_moderate,15000,196,80,0,,1,1
+Hippocampal Formation,reconstructed,MElightcyan,same_region_high,15000,196,0,0,,1,1
+Hippocampal Formation,reconstructed,MElightcyan,same_region_high_plus_moderate,15000,196,12,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkgreen,global_high,15000,305,17,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkgreen,global_high_plus_moderate,15000,305,80,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkgreen,same_region_high,15000,305,0,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkgreen,same_region_high_plus_moderate,15000,305,12,0,,1,1
+Hippocampal Formation,reconstructed,MEgreenyellow,global_high,15000,421,17,1,23475,0.38382181881244204,1
+Hippocampal Formation,reconstructed,MEgreenyellow,global_high_plus_moderate,15000,421,80,2,125;23475,0.661338812235809,1
+Hippocampal Formation,reconstructed,MEgreenyellow,same_region_high,15000,421,0,0,,1,1
+Hippocampal Formation,reconstructed,MEgreenyellow,same_region_high_plus_moderate,15000,421,12,0,,1,1
+Hippocampal Formation,reconstructed,MElightsteelblue,global_high,15000,34,17,0,,1,1
+Hippocampal Formation,reconstructed,MElightsteelblue,global_high_plus_moderate,15000,34,80,0,,1,1
+Hippocampal Formation,reconstructed,MElightsteelblue,same_region_high,15000,34,0,0,,1,1
+Hippocampal Formation,reconstructed,MElightsteelblue,same_region_high_plus_moderate,15000,34,12,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkolivegreen,global_high,15000,134,17,1,105372507,0.14155344754199517,1
+Hippocampal Formation,reconstructed,MEdarkolivegreen,global_high_plus_moderate,15000,134,80,1,105372507,0.5131424335058288,1
+Hippocampal Formation,reconstructed,MEdarkolivegreen,same_region_high,15000,134,0,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkolivegreen,same_region_high_plus_moderate,15000,134,12,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkred,global_high,15000,141,17,1,101927498,0.14840302569291208,1
+Hippocampal Formation,reconstructed,MEdarkred,global_high_plus_moderate,15000,141,80,2,101927498;113230,0.17340153440243855,1
+Hippocampal Formation,reconstructed,MEdarkred,same_region_high,15000,141,0,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkred,same_region_high_plus_moderate,15000,141,12,0,,1,1
+Hippocampal Formation,reconstructed,MEwhite,global_high,15000,104,17,0,,1,1
+Hippocampal Formation,reconstructed,MEwhite,global_high_plus_moderate,15000,104,80,0,,1,1
+Hippocampal Formation,reconstructed,MEwhite,same_region_high,15000,104,0,0,,1,1
+Hippocampal Formation,reconstructed,MEwhite,same_region_high_plus_moderate,15000,104,12,0,,1,1
+Hippocampal Formation,reconstructed,MEfloralwhite,global_high,15000,63,17,0,,1,1
+Hippocampal Formation,reconstructed,MEfloralwhite,global_high_plus_moderate,15000,63,80,0,,1,1
+Hippocampal Formation,reconstructed,MEfloralwhite,same_region_high,15000,63,0,0,,1,1
+Hippocampal Formation,reconstructed,MEfloralwhite,same_region_high_plus_moderate,15000,63,12,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkviolet,global_high,15000,702,17,2,105371009;107984015,0.1877073956281103,1
+Hippocampal Formation,reconstructed,MEdarkviolet,global_high_plus_moderate,15000,702,80,2,105371009;107984015,0.8941262293224255,1
+Hippocampal Formation,reconstructed,MEdarkviolet,same_region_high,15000,702,0,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkviolet,same_region_high_plus_moderate,15000,702,12,0,,1,1
+Hippocampal Formation,reconstructed,MEbrown,global_high,15000,1242,17,2,113939912;642826,0.4168763617738529,1
+Hippocampal Formation,reconstructed,MEbrown,global_high_plus_moderate,15000,1242,80,11,100874047;101926987;101928268;101928283;105372697;107984435;113939912;285830;414062;4223;642826,0.06484456974285253,1
+Hippocampal Formation,reconstructed,MEbrown,same_region_high,15000,1242,0,0,,1,1
+Hippocampal Formation,reconstructed,MEbrown,same_region_high_plus_moderate,15000,1242,12,3,101928283;107984435;285830,0.07082316587943524,1
+Hippocampal Formation,reconstructed,MEgrey60,global_high,15000,155,17,0,,1,1
+Hippocampal Formation,reconstructed,MEgrey60,global_high_plus_moderate,15000,155,80,1,60468,0.5653329281985575,1
+Hippocampal Formation,reconstructed,MEgrey60,same_region_high,15000,155,0,0,,1,1
+Hippocampal Formation,reconstructed,MEgrey60,same_region_high_plus_moderate,15000,155,12,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkslateblue,global_high,15000,185,17,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkslateblue,global_high_plus_moderate,15000,185,80,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkslateblue,same_region_high,15000,185,0,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkslateblue,same_region_high_plus_moderate,15000,185,12,0,,1,1
+Hippocampal Formation,reconstructed,MEmagenta,global_high,15000,389,17,0,,1,1
+Hippocampal Formation,reconstructed,MEmagenta,global_high_plus_moderate,15000,389,80,0,,1,1
+Hippocampal Formation,reconstructed,MEmagenta,same_region_high,15000,389,0,0,,1,1
+Hippocampal Formation,reconstructed,MEmagenta,same_region_high_plus_moderate,15000,389,12,0,,1,1
+Hippocampal Formation,reconstructed,MElightcyan1,global_high,15000,64,17,0,,1,1
+Hippocampal Formation,reconstructed,MElightcyan1,global_high_plus_moderate,15000,64,80,0,,1,1
+Hippocampal Formation,reconstructed,MElightcyan1,same_region_high,15000,64,0,0,,1,1
+Hippocampal Formation,reconstructed,MElightcyan1,same_region_high_plus_moderate,15000,64,12,0,,1,1
+Hippocampal Formation,reconstructed,MEcyan,global_high,15000,264,17,1,100505894,0.26068176347769123,1
+Hippocampal Formation,reconstructed,MEcyan,global_high_plus_moderate,15000,264,80,2,100505894;645,0.41253476129414224,1
+Hippocampal Formation,reconstructed,MEcyan,same_region_high,15000,264,0,0,,1,1
+Hippocampal Formation,reconstructed,MEcyan,same_region_high_plus_moderate,15000,264,12,1,100505894,0.19197277531102142,1
+Hippocampal Formation,reconstructed,MElightcoral,global_high,15000,380,17,0,,1,1
+Hippocampal Formation,reconstructed,MElightcoral,global_high_plus_moderate,15000,380,80,1,105379042,0.8723259853943471,1
+Hippocampal Formation,reconstructed,MElightcoral,same_region_high,15000,380,0,0,,1,1
+Hippocampal Formation,reconstructed,MElightcoral,same_region_high_plus_moderate,15000,380,12,0,,1,1
+Hippocampal Formation,reconstructed,MEbrown4,global_high,15000,62,17,0,,1,1
+Hippocampal Formation,reconstructed,MEbrown4,global_high_plus_moderate,15000,62,80,1,6948,0.28267725792133613,1
+Hippocampal Formation,reconstructed,MEbrown4,same_region_high,15000,62,0,0,,1,1
+Hippocampal Formation,reconstructed,MEbrown4,same_region_high_plus_moderate,15000,62,12,0,,1,1
+Hippocampal Formation,reconstructed,MEorangered4,global_high,15000,69,17,0,,1,1
+Hippocampal Formation,reconstructed,MEorangered4,global_high_plus_moderate,15000,69,80,0,,1,1
+Hippocampal Formation,reconstructed,MEorangered4,same_region_high,15000,69,0,0,,1,1
+Hippocampal Formation,reconstructed,MEorangered4,same_region_high_plus_moderate,15000,69,12,0,,1,1
+Hippocampal Formation,reconstructed,MEsienna3,global_high,15000,76,17,0,,1,1
+Hippocampal Formation,reconstructed,MEsienna3,global_high_plus_moderate,15000,76,80,0,,1,1
+Hippocampal Formation,reconstructed,MEsienna3,same_region_high,15000,76,0,0,,1,1
+Hippocampal Formation,reconstructed,MEsienna3,same_region_high_plus_moderate,15000,76,12,0,,1,1
+Hippocampal Formation,reconstructed,MEplum3,global_high,15000,30,17,0,,1,1
+Hippocampal Formation,reconstructed,MEplum3,global_high_plus_moderate,15000,30,80,0,,1,1
+Hippocampal Formation,reconstructed,MEplum3,same_region_high,15000,30,0,0,,1,1
+Hippocampal Formation,reconstructed,MEplum3,same_region_high_plus_moderate,15000,30,12,0,,1,1
+Hippocampal Formation,reconstructed,MEsteelblue,global_high,15000,97,17,0,,1,1
+Hippocampal Formation,reconstructed,MEsteelblue,global_high_plus_moderate,15000,97,80,0,,1,1
+Hippocampal Formation,reconstructed,MEsteelblue,same_region_high,15000,97,0,0,,1,1
+Hippocampal Formation,reconstructed,MEsteelblue,same_region_high_plus_moderate,15000,97,12,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral,global_high,15000,22,17,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral,global_high_plus_moderate,15000,22,80,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral,same_region_high,15000,22,0,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral,same_region_high_plus_moderate,15000,22,12,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle1,global_high,15000,54,17,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle1,global_high_plus_moderate,15000,54,80,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle1,same_region_high,15000,54,0,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle1,same_region_high_plus_moderate,15000,54,12,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle2,global_high,15000,54,17,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle2,global_high_plus_moderate,15000,54,80,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle2,same_region_high,15000,54,0,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle2,same_region_high_plus_moderate,15000,54,12,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral1,global_high,15000,43,17,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral1,global_high_plus_moderate,15000,43,80,1,1803,0.20568126824334287,1
+Hippocampal Formation,reconstructed,MEcoral1,same_region_high,15000,43,0,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral1,same_region_high_plus_moderate,15000,43,12,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkseagreen3,global_high,15000,22,17,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkseagreen3,global_high_plus_moderate,15000,22,80,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkseagreen3,same_region_high,15000,22,0,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkseagreen3,same_region_high_plus_moderate,15000,22,12,0,,1,1
+Hippocampal Formation,reconstructed,MElightpink4,global_high,15000,48,17,0,,1,1
+Hippocampal Formation,reconstructed,MElightpink4,global_high_plus_moderate,15000,48,80,0,,1,1
+Hippocampal Formation,reconstructed,MElightpink4,same_region_high,15000,48,0,0,,1,1
+Hippocampal Formation,reconstructed,MElightpink4,same_region_high_plus_moderate,15000,48,12,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle,global_high,15000,28,17,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle,global_high_plus_moderate,15000,28,80,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle,same_region_high,15000,28,0,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle,same_region_high_plus_moderate,15000,28,12,0,,1,1
+Hippocampal Formation,reconstructed,MEplum,global_high,15000,137,17,0,,1,1
+Hippocampal Formation,reconstructed,MEplum,global_high_plus_moderate,15000,137,80,0,,1,1
+Hippocampal Formation,reconstructed,MEplum,same_region_high,15000,137,0,0,,1,1
+Hippocampal Formation,reconstructed,MEplum,same_region_high_plus_moderate,15000,137,12,0,,1,1
+Hippocampal Formation,reconstructed,MEantiquewhite2,global_high,15000,22,17,0,,1,1
+Hippocampal Formation,reconstructed,MEantiquewhite2,global_high_plus_moderate,15000,22,80,0,,1,1
+Hippocampal Formation,reconstructed,MEantiquewhite2,same_region_high,15000,22,0,0,,1,1
+Hippocampal Formation,reconstructed,MEantiquewhite2,same_region_high_plus_moderate,15000,22,12,0,,1,1
+Hippocampal Formation,reconstructed,MEblue2,global_high,15000,31,17,0,,1,1
+Hippocampal Formation,reconstructed,MEblue2,global_high_plus_moderate,15000,31,80,0,,1,1
+Hippocampal Formation,reconstructed,MEblue2,same_region_high,15000,31,0,0,,1,1
+Hippocampal Formation,reconstructed,MEblue2,same_region_high_plus_moderate,15000,31,12,0,,1,1
+Hippocampal Formation,reconstructed,MEbrown2,global_high,15000,31,17,0,,1,1
+Hippocampal Formation,reconstructed,MEbrown2,global_high_plus_moderate,15000,31,80,0,,1,1
+Hippocampal Formation,reconstructed,MEbrown2,same_region_high,15000,31,0,0,,1,1
+Hippocampal Formation,reconstructed,MEbrown2,same_region_high_plus_moderate,15000,31,12,0,,1,1
+Hippocampal Formation,reconstructed,MEbisque4,global_high,15000,186,17,0,,1,1
+Hippocampal Formation,reconstructed,MEbisque4,global_high_plus_moderate,15000,186,80,1,100130934,0.6324354129572314,1
+Hippocampal Formation,reconstructed,MEbisque4,same_region_high,15000,186,0,0,,1,1
+Hippocampal Formation,reconstructed,MEbisque4,same_region_high_plus_moderate,15000,186,12,1,100130934,0.1391074091176998,1
+Hippocampal Formation,reconstructed,MElightyellow,global_high,15000,212,17,0,,1,1
+Hippocampal Formation,reconstructed,MElightyellow,global_high_plus_moderate,15000,212,80,4,3430;4604;5092;64333,0.026653317272067538,0.9195394458863301
+Hippocampal Formation,reconstructed,MElightyellow,same_region_high,15000,212,0,0,,1,1
+Hippocampal Formation,reconstructed,MElightyellow,same_region_high_plus_moderate,15000,212,12,1,3430,0.1570714075180808,1
+Hippocampal Formation,reconstructed,MEindianred4,global_high,15000,33,17,0,,1,1
+Hippocampal Formation,reconstructed,MEindianred4,global_high_plus_moderate,15000,33,80,0,,1,1
+Hippocampal Formation,reconstructed,MEindianred4,same_region_high,15000,33,0,0,,1,1
+Hippocampal Formation,reconstructed,MEindianred4,same_region_high_plus_moderate,15000,33,12,0,,1,1
+Hippocampal Formation,reconstructed,MEmagenta4,global_high,15000,24,17,0,,1,1
+Hippocampal Formation,reconstructed,MEmagenta4,global_high_plus_moderate,15000,24,80,0,,1,1
+Hippocampal Formation,reconstructed,MEmagenta4,same_region_high,15000,24,0,0,,1,1
+Hippocampal Formation,reconstructed,MEmagenta4,same_region_high_plus_moderate,15000,24,12,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkmagenta,global_high,15000,76,17,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkmagenta,global_high_plus_moderate,15000,76,80,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkmagenta,same_region_high,15000,76,0,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkmagenta,same_region_high_plus_moderate,15000,76,12,0,,1,1
+Hippocampal Formation,reconstructed,MEskyblue3,global_high,15000,147,17,0,,1,1
+Hippocampal Formation,reconstructed,MEskyblue3,global_high_plus_moderate,15000,147,80,0,,1,1
+Hippocampal Formation,reconstructed,MEskyblue3,same_region_high,15000,147,0,0,,1,1
+Hippocampal Formation,reconstructed,MEskyblue3,same_region_high_plus_moderate,15000,147,12,0,,1,1
+Hippocampal Formation,reconstructed,MEivory,global_high,15000,63,17,0,,1,1
+Hippocampal Formation,reconstructed,MEivory,global_high_plus_moderate,15000,63,80,1,26071,0.286518857825359,1
+Hippocampal Formation,reconstructed,MEivory,same_region_high,15000,63,0,0,,1,1
+Hippocampal Formation,reconstructed,MEivory,same_region_high_plus_moderate,15000,63,12,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkolivegreen4,global_high,15000,31,17,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkolivegreen4,global_high_plus_moderate,15000,31,80,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkolivegreen4,same_region_high,15000,31,0,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkolivegreen4,same_region_high_plus_moderate,15000,31,12,0,,1,1
+Hippocampal Formation,reconstructed,MEantiquewhite4,global_high,15000,91,17,0,,1,1
+Hippocampal Formation,reconstructed,MEantiquewhite4,global_high_plus_moderate,15000,91,80,0,,1,1
+Hippocampal Formation,reconstructed,MEantiquewhite4,same_region_high,15000,91,0,0,,1,1
+Hippocampal Formation,reconstructed,MEantiquewhite4,same_region_high_plus_moderate,15000,91,12,0,,1,1
+Hippocampal Formation,reconstructed,MEpalevioletred2,global_high,15000,26,17,0,,1,1
+Hippocampal Formation,reconstructed,MEpalevioletred2,global_high_plus_moderate,15000,26,80,0,,1,1
+Hippocampal Formation,reconstructed,MEpalevioletred2,same_region_high,15000,26,0,0,,1,1
+Hippocampal Formation,reconstructed,MEpalevioletred2,same_region_high_plus_moderate,15000,26,12,0,,1,1
+Hippocampal Formation,reconstructed,MEhoneydew1,global_high,15000,45,17,0,,1,1
+Hippocampal Formation,reconstructed,MEhoneydew1,global_high_plus_moderate,15000,45,80,0,,1,1
+Hippocampal Formation,reconstructed,MEhoneydew1,same_region_high,15000,45,0,0,,1,1
+Hippocampal Formation,reconstructed,MEhoneydew1,same_region_high_plus_moderate,15000,45,12,0,,1,1
+Hippocampal Formation,reconstructed,MElavenderblush3,global_high,15000,47,17,0,,1,1
+Hippocampal Formation,reconstructed,MElavenderblush3,global_high_plus_moderate,15000,47,80,0,,1,1
+Hippocampal Formation,reconstructed,MElavenderblush3,same_region_high,15000,47,0,0,,1,1
+Hippocampal Formation,reconstructed,MElavenderblush3,same_region_high_plus_moderate,15000,47,12,0,,1,1
+Hippocampal Formation,reconstructed,MElightpink3,global_high,15000,24,17,0,,1,1
+Hippocampal Formation,reconstructed,MElightpink3,global_high_plus_moderate,15000,24,80,0,,1,1
+Hippocampal Formation,reconstructed,MElightpink3,same_region_high,15000,24,0,0,,1,1
+Hippocampal Formation,reconstructed,MElightpink3,same_region_high_plus_moderate,15000,24,12,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle3,global_high,15000,29,17,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle3,global_high_plus_moderate,15000,29,80,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle3,same_region_high,15000,29,0,0,,1,1
+Hippocampal Formation,reconstructed,MEthistle3,same_region_high_plus_moderate,15000,29,12,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkseagreen4,global_high,15000,45,17,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkseagreen4,global_high_plus_moderate,15000,45,80,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkseagreen4,same_region_high,15000,45,0,0,,1,1
+Hippocampal Formation,reconstructed,MEdarkseagreen4,same_region_high_plus_moderate,15000,45,12,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral2,global_high,15000,40,17,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral2,global_high_plus_moderate,15000,40,80,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral2,same_region_high,15000,40,0,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral2,same_region_high_plus_moderate,15000,40,12,0,,1,1
+Hippocampal Formation,reconstructed,MEhoneydew,global_high,15000,23,17,0,,1,1
+Hippocampal Formation,reconstructed,MEhoneydew,global_high_plus_moderate,15000,23,80,0,,1,1
+Hippocampal Formation,reconstructed,MEhoneydew,same_region_high,15000,23,0,0,,1,1
+Hippocampal Formation,reconstructed,MEhoneydew,same_region_high_plus_moderate,15000,23,12,0,,1,1
+Hippocampal Formation,reconstructed,MElavenderblush2,global_high,15000,23,17,0,,1,1
+Hippocampal Formation,reconstructed,MElavenderblush2,global_high_plus_moderate,15000,23,80,0,,1,1
+Hippocampal Formation,reconstructed,MElavenderblush2,same_region_high,15000,23,0,0,,1,1
+Hippocampal Formation,reconstructed,MElavenderblush2,same_region_high_plus_moderate,15000,23,12,0,,1,1
+Hippocampal Formation,reconstructed,MEskyblue2,global_high,15000,39,17,0,,1,1
+Hippocampal Formation,reconstructed,MEskyblue2,global_high_plus_moderate,15000,39,80,0,,1,1
+Hippocampal Formation,reconstructed,MEskyblue2,same_region_high,15000,39,0,0,,1,1
+Hippocampal Formation,reconstructed,MEskyblue2,same_region_high_plus_moderate,15000,39,12,0,,1,1
+Hippocampal Formation,reconstructed,MEpalevioletred3,global_high,15000,50,17,0,,1,1
+Hippocampal Formation,reconstructed,MEpalevioletred3,global_high_plus_moderate,15000,50,80,0,,1,1
+Hippocampal Formation,reconstructed,MEpalevioletred3,same_region_high,15000,50,0,0,,1,1
+Hippocampal Formation,reconstructed,MEpalevioletred3,same_region_high_plus_moderate,15000,50,12,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral3,global_high,15000,21,17,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral3,global_high_plus_moderate,15000,21,80,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral3,same_region_high,15000,21,0,0,,1,1
+Hippocampal Formation,reconstructed,MEcoral3,same_region_high_plus_moderate,15000,21,12,0,,1,1
+Cingulate gyrus 25,canonical_old,MEblue,global_high,5000,1386,5,2,101929710;105376607,0.42443976834738906,1
+Cingulate gyrus 25,canonical_old,MEblue,global_high_plus_moderate,5000,1386,18,8,100130934;101929710;105372697;105376607;10974;27098;4500;6948,0.09610364918716383,1
+Cingulate gyrus 25,canonical_old,MEblue,same_region_high,5000,1386,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEblue,same_region_high_plus_moderate,5000,1386,5,3,10974;27098;4500,0.13414735688203488,1
+Cingulate gyrus 25,canonical_old,MEgreen,global_high,5000,877,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEgreen,global_high_plus_moderate,5000,877,18,2,107985988;414062,0.8504434785270905,1
+Cingulate gyrus 25,canonical_old,MEgreen,same_region_high,5000,877,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEgreen,same_region_high_plus_moderate,5000,877,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEsaddlebrown,global_high,5000,40,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEsaddlebrown,global_high_plus_moderate,5000,40,18,1,105379042,0.13482756439691412,1
+Cingulate gyrus 25,canonical_old,MEsaddlebrown,same_region_high,5000,40,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEsaddlebrown,same_region_high_plus_moderate,5000,40,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEwhite,global_high,5000,50,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEwhite,global_high_plus_moderate,5000,50,18,1,116349,0.16574474562022545,1
+Cingulate gyrus 25,canonical_old,MEwhite,same_region_high,5000,50,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEwhite,same_region_high_plus_moderate,5000,50,5,1,116349,0.049029173419045335,1
+Cingulate gyrus 25,canonical_old,MEorange,global_high,5000,54,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEorange,global_high_plus_moderate,5000,54,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEorange,same_region_high,5000,54,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEorange,same_region_high_plus_moderate,5000,54,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEgrey60,global_high,5000,255,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEgrey60,global_high_plus_moderate,5000,255,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEgrey60,same_region_high,5000,255,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEgrey60,same_region_high_plus_moderate,5000,255,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEyellowgreen,global_high,5000,29,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEyellowgreen,global_high_plus_moderate,5000,29,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEyellowgreen,same_region_high,5000,29,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEyellowgreen,same_region_high_plus_moderate,5000,29,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEred,global_high,5000,206,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEred,global_high_plus_moderate,5000,206,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEred,same_region_high,5000,206,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEred,same_region_high_plus_moderate,5000,206,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkmagenta,global_high,5000,168,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkmagenta,global_high_plus_moderate,5000,168,18,1,4604,0.4600401921375409,1
+Cingulate gyrus 25,canonical_old,MEdarkmagenta,same_region_high,5000,168,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkmagenta,same_region_high_plus_moderate,5000,168,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEbrown,global_high,5000,662,5,1,101927498,0.5085661356074457,1
+Cingulate gyrus 25,canonical_old,MEbrown,global_high_plus_moderate,5000,662,18,1,101927498,0.9227819831824917,1
+Cingulate gyrus 25,canonical_old,MEbrown,same_region_high,5000,662,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEbrown,same_region_high_plus_moderate,5000,662,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkred,global_high,5000,195,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkred,global_high_plus_moderate,5000,195,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkred,same_region_high,5000,195,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkred,same_region_high_plus_moderate,5000,195,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkorange,global_high,5000,52,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkorange,global_high_plus_moderate,5000,52,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkorange,same_region_high,5000,52,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkorange,same_region_high_plus_moderate,5000,52,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkgrey,global_high,5000,56,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkgrey,global_high_plus_moderate,5000,56,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkgrey,same_region_high,5000,56,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkgrey,same_region_high_plus_moderate,5000,56,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEblack,global_high,5000,194,5,1,254956,0.1795847442607169,1
+Cingulate gyrus 25,canonical_old,MEblack,global_high_plus_moderate,5000,194,18,1,254956,0.5100971174301849,1
+Cingulate gyrus 25,canonical_old,MEblack,same_region_high,5000,194,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEblack,same_region_high_plus_moderate,5000,194,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEgrey,global_high,5000,12,5,0,,1,NA
+Cingulate gyrus 25,canonical_old,MEgrey,global_high_plus_moderate,5000,12,18,0,,1,NA
+Cingulate gyrus 25,canonical_old,MEgrey,same_region_high,5000,12,0,0,,1,NA
+Cingulate gyrus 25,canonical_old,MEgrey,same_region_high_plus_moderate,5000,12,5,0,,1,NA
+Cingulate gyrus 25,canonical_old,MEdarkgreen,global_high,5000,174,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkgreen,global_high_plus_moderate,5000,174,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkgreen,same_region_high,5000,174,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkgreen,same_region_high_plus_moderate,5000,174,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkolivegreen,global_high,5000,33,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkolivegreen,global_high_plus_moderate,5000,33,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkolivegreen,same_region_high,5000,33,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkolivegreen,same_region_high_plus_moderate,5000,33,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MElightcyan1,global_high,5000,23,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MElightcyan1,global_high_plus_moderate,5000,23,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MElightcyan1,same_region_high,5000,23,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MElightcyan1,same_region_high_plus_moderate,5000,23,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEfloralwhite,global_high,5000,204,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEfloralwhite,global_high_plus_moderate,5000,204,18,1,100874047,0.5281559966718357,1
+Cingulate gyrus 25,canonical_old,MEfloralwhite,same_region_high,5000,204,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEfloralwhite,same_region_high_plus_moderate,5000,204,5,1,100874047,0.18808814640604166,1
+Cingulate gyrus 25,canonical_old,MEskyblue,global_high,5000,44,5,1,107984015,0.043249383492065974,1
+Cingulate gyrus 25,canonical_old,MEskyblue,global_high_plus_moderate,5000,44,18,2,107984015;2830,0.010589760553997782,0.2859235349579401
+Cingulate gyrus 25,canonical_old,MEskyblue,same_region_high,5000,44,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEskyblue,same_region_high_plus_moderate,5000,44,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEplum1,global_high,5000,26,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEplum1,global_high_plus_moderate,5000,26,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEplum1,same_region_high,5000,26,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEplum1,same_region_high_plus_moderate,5000,26,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkorange2,global_high,5000,21,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkorange2,global_high_plus_moderate,5000,21,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkorange2,same_region_high,5000,21,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEdarkorange2,same_region_high_plus_moderate,5000,21,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MElightgreen,global_high,5000,101,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MElightgreen,global_high_plus_moderate,5000,101,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MElightgreen,same_region_high,5000,101,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MElightgreen,same_region_high_plus_moderate,5000,101,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MElightsteelblue1,global_high,5000,24,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MElightsteelblue1,global_high_plus_moderate,5000,24,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MElightsteelblue1,same_region_high,5000,24,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MElightsteelblue1,same_region_high_plus_moderate,5000,24,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEsteelblue,global_high,5000,36,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEsteelblue,global_high_plus_moderate,5000,36,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEsteelblue,same_region_high,5000,36,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEsteelblue,same_region_high_plus_moderate,5000,36,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEskyblue3,global_high,5000,28,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEskyblue3,global_high_plus_moderate,5000,28,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEskyblue3,same_region_high,5000,28,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEskyblue3,same_region_high_plus_moderate,5000,28,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEmediumpurple3,global_high,5000,25,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEmediumpurple3,global_high_plus_moderate,5000,25,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEmediumpurple3,same_region_high,5000,25,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEmediumpurple3,same_region_high_plus_moderate,5000,25,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEorangered4,global_high,5000,25,5,0,,1,1
+Cingulate gyrus 25,canonical_old,MEorangered4,global_high_plus_moderate,5000,25,18,0,,1,1
+Cingulate gyrus 25,canonical_old,MEorangered4,same_region_high,5000,25,0,0,,1,1
+Cingulate gyrus 25,canonical_old,MEorangered4,same_region_high_plus_moderate,5000,25,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEblue,global_high,5000,1386,5,2,101929710;105376607,0.42443976834738906,1
+Cingulate gyrus 25,reconstructed,MEblue,global_high_plus_moderate,5000,1386,18,8,100130934;101929710;105372697;105376607;10974;27098;4500;6948,0.09610364918716383,1
+Cingulate gyrus 25,reconstructed,MEblue,same_region_high,5000,1386,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEblue,same_region_high_plus_moderate,5000,1386,5,3,10974;27098;4500,0.13414735688203488,1
+Cingulate gyrus 25,reconstructed,MEgreen,global_high,5000,877,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEgreen,global_high_plus_moderate,5000,877,18,2,107985988;414062,0.8504434785270905,1
+Cingulate gyrus 25,reconstructed,MEgreen,same_region_high,5000,877,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEgreen,same_region_high_plus_moderate,5000,877,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEsaddlebrown,global_high,5000,40,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEsaddlebrown,global_high_plus_moderate,5000,40,18,1,105379042,0.13482756439691412,1
+Cingulate gyrus 25,reconstructed,MEsaddlebrown,same_region_high,5000,40,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEsaddlebrown,same_region_high_plus_moderate,5000,40,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEwhite,global_high,5000,50,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEwhite,global_high_plus_moderate,5000,50,18,1,116349,0.16574474562022545,1
+Cingulate gyrus 25,reconstructed,MEwhite,same_region_high,5000,50,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEwhite,same_region_high_plus_moderate,5000,50,5,1,116349,0.049029173419045335,1
+Cingulate gyrus 25,reconstructed,MEorange,global_high,5000,54,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEorange,global_high_plus_moderate,5000,54,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEorange,same_region_high,5000,54,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEorange,same_region_high_plus_moderate,5000,54,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEgrey60,global_high,5000,255,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEgrey60,global_high_plus_moderate,5000,255,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEgrey60,same_region_high,5000,255,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEgrey60,same_region_high_plus_moderate,5000,255,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEyellowgreen,global_high,5000,29,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEyellowgreen,global_high_plus_moderate,5000,29,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEyellowgreen,same_region_high,5000,29,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEyellowgreen,same_region_high_plus_moderate,5000,29,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEred,global_high,5000,206,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEred,global_high_plus_moderate,5000,206,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEred,same_region_high,5000,206,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEred,same_region_high_plus_moderate,5000,206,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkmagenta,global_high,5000,168,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkmagenta,global_high_plus_moderate,5000,168,18,1,4604,0.4600401921375409,1
+Cingulate gyrus 25,reconstructed,MEdarkmagenta,same_region_high,5000,168,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkmagenta,same_region_high_plus_moderate,5000,168,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEbrown,global_high,5000,662,5,1,101927498,0.5085661356074457,1
+Cingulate gyrus 25,reconstructed,MEbrown,global_high_plus_moderate,5000,662,18,1,101927498,0.9227819831824917,1
+Cingulate gyrus 25,reconstructed,MEbrown,same_region_high,5000,662,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEbrown,same_region_high_plus_moderate,5000,662,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkred,global_high,5000,195,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkred,global_high_plus_moderate,5000,195,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkred,same_region_high,5000,195,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkred,same_region_high_plus_moderate,5000,195,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkorange,global_high,5000,52,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkorange,global_high_plus_moderate,5000,52,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkorange,same_region_high,5000,52,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkorange,same_region_high_plus_moderate,5000,52,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkgrey,global_high,5000,56,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkgrey,global_high_plus_moderate,5000,56,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkgrey,same_region_high,5000,56,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkgrey,same_region_high_plus_moderate,5000,56,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEblack,global_high,5000,194,5,1,254956,0.1795847442607169,1
+Cingulate gyrus 25,reconstructed,MEblack,global_high_plus_moderate,5000,194,18,1,254956,0.5100971174301849,1
+Cingulate gyrus 25,reconstructed,MEblack,same_region_high,5000,194,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEblack,same_region_high_plus_moderate,5000,194,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEgrey,global_high,5000,12,5,0,,1,NA
+Cingulate gyrus 25,reconstructed,MEgrey,global_high_plus_moderate,5000,12,18,0,,1,NA
+Cingulate gyrus 25,reconstructed,MEgrey,same_region_high,5000,12,0,0,,1,NA
+Cingulate gyrus 25,reconstructed,MEgrey,same_region_high_plus_moderate,5000,12,5,0,,1,NA
+Cingulate gyrus 25,reconstructed,MEdarkgreen,global_high,5000,174,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkgreen,global_high_plus_moderate,5000,174,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkgreen,same_region_high,5000,174,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkgreen,same_region_high_plus_moderate,5000,174,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkolivegreen,global_high,5000,33,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkolivegreen,global_high_plus_moderate,5000,33,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkolivegreen,same_region_high,5000,33,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkolivegreen,same_region_high_plus_moderate,5000,33,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MElightcyan1,global_high,5000,23,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MElightcyan1,global_high_plus_moderate,5000,23,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MElightcyan1,same_region_high,5000,23,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MElightcyan1,same_region_high_plus_moderate,5000,23,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEfloralwhite,global_high,5000,204,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEfloralwhite,global_high_plus_moderate,5000,204,18,1,100874047,0.5281559966718357,1
+Cingulate gyrus 25,reconstructed,MEfloralwhite,same_region_high,5000,204,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEfloralwhite,same_region_high_plus_moderate,5000,204,5,1,100874047,0.18808814640604166,1
+Cingulate gyrus 25,reconstructed,MEskyblue,global_high,5000,44,5,1,107984015,0.043249383492065974,1
+Cingulate gyrus 25,reconstructed,MEskyblue,global_high_plus_moderate,5000,44,18,2,107984015;2830,0.010589760553997782,0.2859235349579401
+Cingulate gyrus 25,reconstructed,MEskyblue,same_region_high,5000,44,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEskyblue,same_region_high_plus_moderate,5000,44,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEplum1,global_high,5000,26,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEplum1,global_high_plus_moderate,5000,26,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEplum1,same_region_high,5000,26,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEplum1,same_region_high_plus_moderate,5000,26,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkorange2,global_high,5000,21,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkorange2,global_high_plus_moderate,5000,21,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkorange2,same_region_high,5000,21,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEdarkorange2,same_region_high_plus_moderate,5000,21,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MElightgreen,global_high,5000,101,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MElightgreen,global_high_plus_moderate,5000,101,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MElightgreen,same_region_high,5000,101,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MElightgreen,same_region_high_plus_moderate,5000,101,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MElightsteelblue1,global_high,5000,24,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MElightsteelblue1,global_high_plus_moderate,5000,24,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MElightsteelblue1,same_region_high,5000,24,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MElightsteelblue1,same_region_high_plus_moderate,5000,24,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEsteelblue,global_high,5000,36,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEsteelblue,global_high_plus_moderate,5000,36,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEsteelblue,same_region_high,5000,36,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEsteelblue,same_region_high_plus_moderate,5000,36,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEskyblue3,global_high,5000,28,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEskyblue3,global_high_plus_moderate,5000,28,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEskyblue3,same_region_high,5000,28,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEskyblue3,same_region_high_plus_moderate,5000,28,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEmediumpurple3,global_high,5000,25,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEmediumpurple3,global_high_plus_moderate,5000,25,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEmediumpurple3,same_region_high,5000,25,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEmediumpurple3,same_region_high_plus_moderate,5000,25,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEorangered4,global_high,5000,25,5,0,,1,1
+Cingulate gyrus 25,reconstructed,MEorangered4,global_high_plus_moderate,5000,25,18,0,,1,1
+Cingulate gyrus 25,reconstructed,MEorangered4,same_region_high,5000,25,0,0,,1,1
+Cingulate gyrus 25,reconstructed,MEorangered4,same_region_high_plus_moderate,5000,25,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEdarkred,global_high,5000,971,10,2,113939912;642826,0.6066548676346104,1
+dlPFC BA8/9,canonical_old,MEdarkred,global_high_plus_moderate,5000,971,29,7,100130934;101926987;105372697;10974;113939912;642826;919,0.3271742576296553,1
+dlPFC BA8/9,canonical_old,MEdarkred,same_region_high,5000,971,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEdarkred,same_region_high_plus_moderate,5000,971,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEmagenta,global_high,5000,199,10,0,,1,1
+dlPFC BA8/9,canonical_old,MEmagenta,global_high_plus_moderate,5000,199,29,2,105369340;3430,0.32199030478677004,1
+dlPFC BA8/9,canonical_old,MEmagenta,same_region_high,5000,199,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEmagenta,same_region_high_plus_moderate,5000,199,5,1,105369340,0.1838453048758395,1
+dlPFC BA8/9,canonical_old,MEgreen,global_high,5000,774,10,1,107984015,0.8142717290557112,1
+dlPFC BA8/9,canonical_old,MEgreen,global_high_plus_moderate,5000,774,29,4,101929549;107984015;107985988;414062,0.6778663985607377,1
+dlPFC BA8/9,canonical_old,MEgreen,same_region_high,5000,774,2,1,107984015,0.2856631326265253,1
+dlPFC BA8/9,canonical_old,MEgreen,same_region_high_plus_moderate,5000,774,5,2,107984015;414062,0.1736274187225633,1
+dlPFC BA8/9,canonical_old,MEturquoise,global_high,5000,742,10,0,,1,1
+dlPFC BA8/9,canonical_old,MEturquoise,global_high_plus_moderate,5000,742,29,3,100874047;4500;4604,0.826524974553638,1
+dlPFC BA8/9,canonical_old,MEturquoise,same_region_high,5000,742,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEturquoise,same_region_high_plus_moderate,5000,742,5,0,,1,1
+dlPFC BA8/9,canonical_old,MElightyellow,global_high,5000,35,10,0,,1,1
+dlPFC BA8/9,canonical_old,MElightyellow,global_high_plus_moderate,5000,35,29,0,,1,1
+dlPFC BA8/9,canonical_old,MElightyellow,same_region_high,5000,35,2,0,,1,1
+dlPFC BA8/9,canonical_old,MElightyellow,same_region_high_plus_moderate,5000,35,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEpurple,global_high,5000,203,10,0,,1,1
+dlPFC BA8/9,canonical_old,MEpurple,global_high_plus_moderate,5000,203,29,1,105376380,0.7004332847856183,1
+dlPFC BA8/9,canonical_old,MEpurple,same_region_high,5000,203,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEpurple,same_region_high_plus_moderate,5000,203,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEsalmon,global_high,5000,53,10,0,,1,1
+dlPFC BA8/9,canonical_old,MEsalmon,global_high_plus_moderate,5000,53,29,0,,1,1
+dlPFC BA8/9,canonical_old,MEsalmon,same_region_high,5000,53,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEsalmon,same_region_high_plus_moderate,5000,53,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEblue,global_high,5000,703,10,0,,1,1
+dlPFC BA8/9,canonical_old,MEblue,global_high_plus_moderate,5000,703,29,2,101929741;105377975,0.9296169026930217,1
+dlPFC BA8/9,canonical_old,MEblue,same_region_high,5000,703,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEblue,same_region_high_plus_moderate,5000,703,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEblack,global_high,5000,272,10,2,105376607;254956,0.09943708226257272,1
+dlPFC BA8/9,canonical_old,MEblack,global_high_plus_moderate,5000,272,29,2,105376607;254956,0.4735724765416265,1
+dlPFC BA8/9,canonical_old,MEblack,same_region_high,5000,272,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEblack,same_region_high_plus_moderate,5000,272,5,0,,1,1
+dlPFC BA8/9,canonical_old,MElightgreen,global_high,5000,35,10,1,23475,0.06789487373823122,1
+dlPFC BA8/9,canonical_old,MElightgreen,global_high_plus_moderate,5000,35,29,1,23475,0.18477280053160094,1
+dlPFC BA8/9,canonical_old,MElightgreen,same_region_high,5000,35,2,0,,1,1
+dlPFC BA8/9,canonical_old,MElightgreen,same_region_high_plus_moderate,5000,35,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEbrown,global_high,5000,541,10,1,101929607,0.682166394411786,1
+dlPFC BA8/9,canonical_old,MEbrown,global_high_plus_moderate,5000,541,29,3,101929607;27098;2830,0.6215885005259318,1
+dlPFC BA8/9,canonical_old,MEbrown,same_region_high,5000,541,2,1,101929607,0.2047120624124824,1
+dlPFC BA8/9,canonical_old,MEbrown,same_region_high_plus_moderate,5000,541,5,2,101929607;2830,0.09364736220906023,1
+dlPFC BA8/9,canonical_old,MEdarkturquoise,global_high,5000,26,10,0,,1,1
+dlPFC BA8/9,canonical_old,MEdarkturquoise,global_high_plus_moderate,5000,26,29,0,,1,1
+dlPFC BA8/9,canonical_old,MEdarkturquoise,same_region_high,5000,26,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEdarkturquoise,same_region_high_plus_moderate,5000,26,5,0,,1,1
+dlPFC BA8/9,canonical_old,MElightcyan,global_high,5000,43,10,0,,1,1
+dlPFC BA8/9,canonical_old,MElightcyan,global_high_plus_moderate,5000,43,29,0,,1,1
+dlPFC BA8/9,canonical_old,MElightcyan,same_region_high,5000,43,2,0,,1,1
+dlPFC BA8/9,canonical_old,MElightcyan,same_region_high_plus_moderate,5000,43,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEdarkgreen,global_high,5000,26,10,0,,1,1
+dlPFC BA8/9,canonical_old,MEdarkgreen,global_high_plus_moderate,5000,26,29,0,,1,1
+dlPFC BA8/9,canonical_old,MEdarkgreen,same_region_high,5000,26,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEdarkgreen,same_region_high_plus_moderate,5000,26,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEmidnightblue,global_high,5000,45,10,0,,1,1
+dlPFC BA8/9,canonical_old,MEmidnightblue,global_high_plus_moderate,5000,45,29,0,,1,1
+dlPFC BA8/9,canonical_old,MEmidnightblue,same_region_high,5000,45,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEmidnightblue,same_region_high_plus_moderate,5000,45,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEgrey60,global_high,5000,36,10,0,,1,1
+dlPFC BA8/9,canonical_old,MEgrey60,global_high_plus_moderate,5000,36,29,0,,1,1
+dlPFC BA8/9,canonical_old,MEgrey60,same_region_high,5000,36,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEgrey60,same_region_high_plus_moderate,5000,36,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEgrey,global_high,5000,29,10,2,100505894;101929710,0.0014203437216052644,NA
+dlPFC BA8/9,canonical_old,MEgrey,global_high_plus_moderate,5000,29,29,2,100505894;101929710,0.01196992795997867,NA
+dlPFC BA8/9,canonical_old,MEgrey,same_region_high,5000,29,2,0,,1,NA
+dlPFC BA8/9,canonical_old,MEgrey,same_region_high_plus_moderate,5000,29,5,0,,1,NA
+dlPFC BA8/9,canonical_old,MEgreenyellow,global_high,5000,91,10,0,,1,1
+dlPFC BA8/9,canonical_old,MEgreenyellow,global_high_plus_moderate,5000,91,29,0,,1,1
+dlPFC BA8/9,canonical_old,MEgreenyellow,same_region_high,5000,91,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEgreenyellow,same_region_high_plus_moderate,5000,91,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEtan,global_high,5000,84,10,1,3852,0.1559817721204616,1
+dlPFC BA8/9,canonical_old,MEtan,global_high_plus_moderate,5000,84,29,2,2355;3852,0.08456718727907907,1
+dlPFC BA8/9,canonical_old,MEtan,same_region_high,5000,84,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEtan,same_region_high_plus_moderate,5000,84,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEcyan,global_high,5000,45,10,0,,1,1
+dlPFC BA8/9,canonical_old,MEcyan,global_high_plus_moderate,5000,45,29,0,,1,1
+dlPFC BA8/9,canonical_old,MEcyan,same_region_high,5000,45,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEcyan,same_region_high_plus_moderate,5000,45,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEorange,global_high,5000,23,10,0,,1,1
+dlPFC BA8/9,canonical_old,MEorange,global_high_plus_moderate,5000,23,29,0,,1,1
+dlPFC BA8/9,canonical_old,MEorange,same_region_high,5000,23,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEorange,same_region_high_plus_moderate,5000,23,5,0,,1,1
+dlPFC BA8/9,canonical_old,MEdarkgrey,global_high,5000,24,10,0,,1,1
+dlPFC BA8/9,canonical_old,MEdarkgrey,global_high_plus_moderate,5000,24,29,0,,1,1
+dlPFC BA8/9,canonical_old,MEdarkgrey,same_region_high,5000,24,2,0,,1,1
+dlPFC BA8/9,canonical_old,MEdarkgrey,same_region_high_plus_moderate,5000,24,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEdarkred,global_high,5000,971,10,2,113939912;642826,0.6066548676346104,1
+dlPFC BA8/9,reconstructed,MEdarkred,global_high_plus_moderate,5000,971,29,7,100130934;101926987;105372697;10974;113939912;642826;919,0.3271742576296553,1
+dlPFC BA8/9,reconstructed,MEdarkred,same_region_high,5000,971,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEdarkred,same_region_high_plus_moderate,5000,971,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEmagenta,global_high,5000,199,10,0,,1,1
+dlPFC BA8/9,reconstructed,MEmagenta,global_high_plus_moderate,5000,199,29,2,105369340;3430,0.32199030478677004,1
+dlPFC BA8/9,reconstructed,MEmagenta,same_region_high,5000,199,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEmagenta,same_region_high_plus_moderate,5000,199,5,1,105369340,0.1838453048758395,1
+dlPFC BA8/9,reconstructed,MEgreen,global_high,5000,774,10,1,107984015,0.8142717290557112,1
+dlPFC BA8/9,reconstructed,MEgreen,global_high_plus_moderate,5000,774,29,4,101929549;107984015;107985988;414062,0.6778663985607377,1
+dlPFC BA8/9,reconstructed,MEgreen,same_region_high,5000,774,2,1,107984015,0.2856631326265253,1
+dlPFC BA8/9,reconstructed,MEgreen,same_region_high_plus_moderate,5000,774,5,2,107984015;414062,0.1736274187225633,1
+dlPFC BA8/9,reconstructed,MEturquoise,global_high,5000,742,10,0,,1,1
+dlPFC BA8/9,reconstructed,MEturquoise,global_high_plus_moderate,5000,742,29,3,100874047;4500;4604,0.826524974553638,1
+dlPFC BA8/9,reconstructed,MEturquoise,same_region_high,5000,742,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEturquoise,same_region_high_plus_moderate,5000,742,5,0,,1,1
+dlPFC BA8/9,reconstructed,MElightyellow,global_high,5000,35,10,0,,1,1
+dlPFC BA8/9,reconstructed,MElightyellow,global_high_plus_moderate,5000,35,29,0,,1,1
+dlPFC BA8/9,reconstructed,MElightyellow,same_region_high,5000,35,2,0,,1,1
+dlPFC BA8/9,reconstructed,MElightyellow,same_region_high_plus_moderate,5000,35,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEpurple,global_high,5000,203,10,0,,1,1
+dlPFC BA8/9,reconstructed,MEpurple,global_high_plus_moderate,5000,203,29,1,105376380,0.7004332847856183,1
+dlPFC BA8/9,reconstructed,MEpurple,same_region_high,5000,203,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEpurple,same_region_high_plus_moderate,5000,203,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEsalmon,global_high,5000,53,10,0,,1,1
+dlPFC BA8/9,reconstructed,MEsalmon,global_high_plus_moderate,5000,53,29,0,,1,1
+dlPFC BA8/9,reconstructed,MEsalmon,same_region_high,5000,53,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEsalmon,same_region_high_plus_moderate,5000,53,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEblue,global_high,5000,703,10,0,,1,1
+dlPFC BA8/9,reconstructed,MEblue,global_high_plus_moderate,5000,703,29,2,101929741;105377975,0.9296169026930217,1
+dlPFC BA8/9,reconstructed,MEblue,same_region_high,5000,703,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEblue,same_region_high_plus_moderate,5000,703,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEblack,global_high,5000,272,10,2,105376607;254956,0.09943708226257272,1
+dlPFC BA8/9,reconstructed,MEblack,global_high_plus_moderate,5000,272,29,2,105376607;254956,0.4735724765416265,1
+dlPFC BA8/9,reconstructed,MEblack,same_region_high,5000,272,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEblack,same_region_high_plus_moderate,5000,272,5,0,,1,1
+dlPFC BA8/9,reconstructed,MElightgreen,global_high,5000,35,10,1,23475,0.06789487373823122,1
+dlPFC BA8/9,reconstructed,MElightgreen,global_high_plus_moderate,5000,35,29,1,23475,0.18477280053160094,1
+dlPFC BA8/9,reconstructed,MElightgreen,same_region_high,5000,35,2,0,,1,1
+dlPFC BA8/9,reconstructed,MElightgreen,same_region_high_plus_moderate,5000,35,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEbrown,global_high,5000,541,10,1,101929607,0.682166394411786,1
+dlPFC BA8/9,reconstructed,MEbrown,global_high_plus_moderate,5000,541,29,3,101929607;27098;2830,0.6215885005259318,1
+dlPFC BA8/9,reconstructed,MEbrown,same_region_high,5000,541,2,1,101929607,0.2047120624124824,1
+dlPFC BA8/9,reconstructed,MEbrown,same_region_high_plus_moderate,5000,541,5,2,101929607;2830,0.09364736220906023,1
+dlPFC BA8/9,reconstructed,MEdarkturquoise,global_high,5000,26,10,0,,1,1
+dlPFC BA8/9,reconstructed,MEdarkturquoise,global_high_plus_moderate,5000,26,29,0,,1,1
+dlPFC BA8/9,reconstructed,MEdarkturquoise,same_region_high,5000,26,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEdarkturquoise,same_region_high_plus_moderate,5000,26,5,0,,1,1
+dlPFC BA8/9,reconstructed,MElightcyan,global_high,5000,43,10,0,,1,1
+dlPFC BA8/9,reconstructed,MElightcyan,global_high_plus_moderate,5000,43,29,0,,1,1
+dlPFC BA8/9,reconstructed,MElightcyan,same_region_high,5000,43,2,0,,1,1
+dlPFC BA8/9,reconstructed,MElightcyan,same_region_high_plus_moderate,5000,43,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEdarkgreen,global_high,5000,26,10,0,,1,1
+dlPFC BA8/9,reconstructed,MEdarkgreen,global_high_plus_moderate,5000,26,29,0,,1,1
+dlPFC BA8/9,reconstructed,MEdarkgreen,same_region_high,5000,26,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEdarkgreen,same_region_high_plus_moderate,5000,26,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEmidnightblue,global_high,5000,45,10,0,,1,1
+dlPFC BA8/9,reconstructed,MEmidnightblue,global_high_plus_moderate,5000,45,29,0,,1,1
+dlPFC BA8/9,reconstructed,MEmidnightblue,same_region_high,5000,45,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEmidnightblue,same_region_high_plus_moderate,5000,45,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEgrey60,global_high,5000,36,10,0,,1,1
+dlPFC BA8/9,reconstructed,MEgrey60,global_high_plus_moderate,5000,36,29,0,,1,1
+dlPFC BA8/9,reconstructed,MEgrey60,same_region_high,5000,36,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEgrey60,same_region_high_plus_moderate,5000,36,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEgrey,global_high,5000,29,10,2,100505894;101929710,0.0014203437216052644,NA
+dlPFC BA8/9,reconstructed,MEgrey,global_high_plus_moderate,5000,29,29,2,100505894;101929710,0.01196992795997867,NA
+dlPFC BA8/9,reconstructed,MEgrey,same_region_high,5000,29,2,0,,1,NA
+dlPFC BA8/9,reconstructed,MEgrey,same_region_high_plus_moderate,5000,29,5,0,,1,NA
+dlPFC BA8/9,reconstructed,MEgreenyellow,global_high,5000,91,10,0,,1,1
+dlPFC BA8/9,reconstructed,MEgreenyellow,global_high_plus_moderate,5000,91,29,0,,1,1
+dlPFC BA8/9,reconstructed,MEgreenyellow,same_region_high,5000,91,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEgreenyellow,same_region_high_plus_moderate,5000,91,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEtan,global_high,5000,84,10,1,3852,0.1559817721204616,1
+dlPFC BA8/9,reconstructed,MEtan,global_high_plus_moderate,5000,84,29,2,2355;3852,0.08456718727907907,1
+dlPFC BA8/9,reconstructed,MEtan,same_region_high,5000,84,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEtan,same_region_high_plus_moderate,5000,84,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEcyan,global_high,5000,45,10,0,,1,1
+dlPFC BA8/9,reconstructed,MEcyan,global_high_plus_moderate,5000,45,29,0,,1,1
+dlPFC BA8/9,reconstructed,MEcyan,same_region_high,5000,45,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEcyan,same_region_high_plus_moderate,5000,45,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEorange,global_high,5000,23,10,0,,1,1
+dlPFC BA8/9,reconstructed,MEorange,global_high_plus_moderate,5000,23,29,0,,1,1
+dlPFC BA8/9,reconstructed,MEorange,same_region_high,5000,23,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEorange,same_region_high_plus_moderate,5000,23,5,0,,1,1
+dlPFC BA8/9,reconstructed,MEdarkgrey,global_high,5000,24,10,0,,1,1
+dlPFC BA8/9,reconstructed,MEdarkgrey,global_high_plus_moderate,5000,24,29,0,,1,1
+dlPFC BA8/9,reconstructed,MEdarkgrey,same_region_high,5000,24,2,0,,1,1
+dlPFC BA8/9,reconstructed,MEdarkgrey,same_region_high_plus_moderate,5000,24,5,0,,1,1
+OFC BA11,canonical_old,MEbrown,global_high,5000,649,8,0,,1,1
+OFC BA11,canonical_old,MEbrown,global_high_plus_moderate,5000,649,39,4,101928161;105369340;105370868;105376380,0.7641673306827261,1
+OFC BA11,canonical_old,MEbrown,same_region_high,5000,649,1,0,,1,1
+OFC BA11,canonical_old,MEbrown,same_region_high_plus_moderate,5000,649,8,1,105376380,0.6714590760153338,1
+OFC BA11,canonical_old,MEred,global_high,5000,405,8,2,105376607;23475,0.13236529411664627,1
+OFC BA11,canonical_old,MEred,global_high_plus_moderate,5000,405,39,4,105376607;23475;27098;6948,0.38981641786155297,1
+OFC BA11,canonical_old,MEred,same_region_high,5000,405,1,1,23475,0.08099999999999985,1
+OFC BA11,canonical_old,MEred,same_region_high_plus_moderate,5000,405,8,2,23475;6948,0.13236529411664627,1
+OFC BA11,canonical_old,MEpurple,global_high,5000,1129,8,0,,1,1
+OFC BA11,canonical_old,MEpurple,global_high_plus_moderate,5000,1129,39,5,105372697;107985195;23783;414062;55620,0.9590550057756827,1
+OFC BA11,canonical_old,MEpurple,same_region_high,5000,1129,1,0,,1,1
+OFC BA11,canonical_old,MEpurple,same_region_high_plus_moderate,5000,1129,8,2,105372697;55620,0.5699359828225108,1
+OFC BA11,canonical_old,MEblack,global_high,5000,308,8,0,,1,1
+OFC BA11,canonical_old,MEblack,global_high_plus_moderate,5000,308,39,2,105377975;116349,0.7029090355774174,1
+OFC BA11,canonical_old,MEblack,same_region_high,5000,308,1,0,,1,1
+OFC BA11,canonical_old,MEblack,same_region_high_plus_moderate,5000,308,8,1,105377975,0.39890352769454374,1
+OFC BA11,canonical_old,MEgreen,global_high,5000,544,8,0,,1,1
+OFC BA11,canonical_old,MEgreen,global_high_plus_moderate,5000,544,39,5,100130934;100874047;10974;4500;4604,0.42126328476047326,1
+OFC BA11,canonical_old,MEgreen,same_region_high,5000,544,1,0,,1,1
+OFC BA11,canonical_old,MEgreen,same_region_high_plus_moderate,5000,544,8,1,4604,0.602347061208393,1
+OFC BA11,canonical_old,MEyellow,global_high,5000,579,8,1,3852,0.6266765854263616,1
+OFC BA11,canonical_old,MEyellow,global_high_plus_moderate,5000,579,39,2,3852;919,0.9503399572864909,1
+OFC BA11,canonical_old,MEyellow,same_region_high,5000,579,1,0,,1,1
+OFC BA11,canonical_old,MEyellow,same_region_high_plus_moderate,5000,579,8,0,,1,1
+OFC BA11,canonical_old,MEblue,global_high,5000,693,8,2,101929710;107984015,0.3066534693845563,1
+OFC BA11,canonical_old,MEblue,global_high_plus_moderate,5000,693,39,8,100689074;101928268;101928283;101929549;101929710;107984015;107985988;2355,0.16325252516288902,1
+OFC BA11,canonical_old,MEblue,same_region_high,5000,693,1,0,,1,1
+OFC BA11,canonical_old,MEblue,same_region_high_plus_moderate,5000,693,8,1,101929549,0.6971363184024372,1
+OFC BA11,canonical_old,MElightgreen,global_high,5000,23,8,0,,1,1
+OFC BA11,canonical_old,MElightgreen,global_high_plus_moderate,5000,23,39,0,,1,1
+OFC BA11,canonical_old,MElightgreen,same_region_high,5000,23,1,0,,1,1
+OFC BA11,canonical_old,MElightgreen,same_region_high_plus_moderate,5000,23,8,0,,1,1
+OFC BA11,canonical_old,MEmagenta,global_high,5000,116,8,0,,1,1
+OFC BA11,canonical_old,MEmagenta,global_high_plus_moderate,5000,116,39,2,26071;3178,0.22867056197526078,1
+OFC BA11,canonical_old,MEmagenta,same_region_high,5000,116,1,0,,1,1
+OFC BA11,canonical_old,MEmagenta,same_region_high_plus_moderate,5000,116,8,0,,1,1
+OFC BA11,canonical_old,MEsalmon,global_high,5000,40,8,0,,1,1
+OFC BA11,canonical_old,MEsalmon,global_high_plus_moderate,5000,40,39,0,,1,1
+OFC BA11,canonical_old,MEsalmon,same_region_high,5000,40,1,0,,1,1
+OFC BA11,canonical_old,MEsalmon,same_region_high_plus_moderate,5000,40,8,0,,1,1
+OFC BA11,canonical_old,MElightcyan,global_high,5000,29,8,0,,1,1
+OFC BA11,canonical_old,MElightcyan,global_high_plus_moderate,5000,29,39,1,1803,0.20365882973648008,1
+OFC BA11,canonical_old,MElightcyan,same_region_high,5000,29,1,0,,1,1
+OFC BA11,canonical_old,MElightcyan,same_region_high_plus_moderate,5000,29,8,0,,1,1
+OFC BA11,canonical_old,MEgrey60,global_high,5000,25,8,0,,1,1
+OFC BA11,canonical_old,MEgrey60,global_high_plus_moderate,5000,25,39,0,,1,1
+OFC BA11,canonical_old,MEgrey60,same_region_high,5000,25,1,0,,1,1
+OFC BA11,canonical_old,MEgrey60,same_region_high_plus_moderate,5000,25,8,0,,1,1
+OFC BA11,canonical_old,MEpink,global_high,5000,278,8,1,254956,0.36743596396553524,1
+OFC BA11,canonical_old,MEpink,global_high_plus_moderate,5000,278,39,3,254956;645;83547,0.37016829138203455,1
+OFC BA11,canonical_old,MEpink,same_region_high,5000,278,1,0,,1,1
+OFC BA11,canonical_old,MEpink,same_region_high_plus_moderate,5000,278,8,0,,1,1
+OFC BA11,canonical_old,MEtan,global_high,5000,41,8,2,101927498;107985795,0.001780636064698079,0.032051449164565426
+OFC BA11,canonical_old,MEtan,global_high_plus_moderate,5000,41,39,3,101927498;107985795;2830,0.0038114863290938422,0.06860675392368916
+OFC BA11,canonical_old,MEtan,same_region_high,5000,41,1,0,,1,1
+OFC BA11,canonical_old,MEtan,same_region_high_plus_moderate,5000,41,8,0,,1,1
+OFC BA11,canonical_old,MEgreenyellow,global_high,5000,54,8,0,,1,1
+OFC BA11,canonical_old,MEgreenyellow,global_high_plus_moderate,5000,54,39,0,,1,1
+OFC BA11,canonical_old,MEgreenyellow,same_region_high,5000,54,1,0,,1,1
+OFC BA11,canonical_old,MEgreenyellow,same_region_high_plus_moderate,5000,54,8,0,,1,1
+OFC BA11,canonical_old,MEcyan,global_high,5000,36,8,0,,1,1
+OFC BA11,canonical_old,MEcyan,global_high_plus_moderate,5000,36,39,0,,1,1
+OFC BA11,canonical_old,MEcyan,same_region_high,5000,36,1,0,,1,1
+OFC BA11,canonical_old,MEcyan,same_region_high_plus_moderate,5000,36,8,0,,1,1
+OFC BA11,canonical_old,MEmidnightblue,global_high,5000,31,8,0,,1,1
+OFC BA11,canonical_old,MEmidnightblue,global_high_plus_moderate,5000,31,39,0,,1,1
+OFC BA11,canonical_old,MEmidnightblue,same_region_high,5000,31,1,0,,1,1
+OFC BA11,canonical_old,MEmidnightblue,same_region_high_plus_moderate,5000,31,8,0,,1,1
+OFC BA11,canonical_old,MElightyellow,global_high,5000,20,8,0,,1,1
+OFC BA11,canonical_old,MElightyellow,global_high_plus_moderate,5000,20,39,0,,1,1
+OFC BA11,canonical_old,MElightyellow,same_region_high,5000,20,1,0,,1,1
+OFC BA11,canonical_old,MElightyellow,same_region_high_plus_moderate,5000,20,8,0,,1,1
+OFC BA11,reconstructed,MEbrown,global_high,5000,649,8,0,,1,1
+OFC BA11,reconstructed,MEbrown,global_high_plus_moderate,5000,649,39,4,101928161;105369340;105370868;105376380,0.7641673306827261,1
+OFC BA11,reconstructed,MEbrown,same_region_high,5000,649,1,0,,1,1
+OFC BA11,reconstructed,MEbrown,same_region_high_plus_moderate,5000,649,8,1,105376380,0.6714590760153338,1
+OFC BA11,reconstructed,MEred,global_high,5000,405,8,2,105376607;23475,0.13236529411664627,1
+OFC BA11,reconstructed,MEred,global_high_plus_moderate,5000,405,39,4,105376607;23475;27098;6948,0.38981641786155297,1
+OFC BA11,reconstructed,MEred,same_region_high,5000,405,1,1,23475,0.08099999999999985,1
+OFC BA11,reconstructed,MEred,same_region_high_plus_moderate,5000,405,8,2,23475;6948,0.13236529411664627,1
+OFC BA11,reconstructed,MEpurple,global_high,5000,1129,8,0,,1,1
+OFC BA11,reconstructed,MEpurple,global_high_plus_moderate,5000,1129,39,5,105372697;107985195;23783;414062;55620,0.9590550057756827,1
+OFC BA11,reconstructed,MEpurple,same_region_high,5000,1129,1,0,,1,1
+OFC BA11,reconstructed,MEpurple,same_region_high_plus_moderate,5000,1129,8,2,105372697;55620,0.5699359828225108,1
+OFC BA11,reconstructed,MEblack,global_high,5000,308,8,0,,1,1
+OFC BA11,reconstructed,MEblack,global_high_plus_moderate,5000,308,39,2,105377975;116349,0.7029090355774174,1
+OFC BA11,reconstructed,MEblack,same_region_high,5000,308,1,0,,1,1
+OFC BA11,reconstructed,MEblack,same_region_high_plus_moderate,5000,308,8,1,105377975,0.39890352769454374,1
+OFC BA11,reconstructed,MEgreen,global_high,5000,544,8,0,,1,1
+OFC BA11,reconstructed,MEgreen,global_high_plus_moderate,5000,544,39,5,100130934;100874047;10974;4500;4604,0.42126328476047326,1
+OFC BA11,reconstructed,MEgreen,same_region_high,5000,544,1,0,,1,1
+OFC BA11,reconstructed,MEgreen,same_region_high_plus_moderate,5000,544,8,1,4604,0.602347061208393,1
+OFC BA11,reconstructed,MEyellow,global_high,5000,579,8,1,3852,0.6266765854263616,1
+OFC BA11,reconstructed,MEyellow,global_high_plus_moderate,5000,579,39,2,3852;919,0.9503399572864909,1
+OFC BA11,reconstructed,MEyellow,same_region_high,5000,579,1,0,,1,1
+OFC BA11,reconstructed,MEyellow,same_region_high_plus_moderate,5000,579,8,0,,1,1
+OFC BA11,reconstructed,MEblue,global_high,5000,693,8,2,101929710;107984015,0.3066534693845563,1
+OFC BA11,reconstructed,MEblue,global_high_plus_moderate,5000,693,39,8,100689074;101928268;101928283;101929549;101929710;107984015;107985988;2355,0.16325252516288902,1
+OFC BA11,reconstructed,MEblue,same_region_high,5000,693,1,0,,1,1
+OFC BA11,reconstructed,MEblue,same_region_high_plus_moderate,5000,693,8,1,101929549,0.6971363184024372,1
+OFC BA11,reconstructed,MElightgreen,global_high,5000,23,8,0,,1,1
+OFC BA11,reconstructed,MElightgreen,global_high_plus_moderate,5000,23,39,0,,1,1
+OFC BA11,reconstructed,MElightgreen,same_region_high,5000,23,1,0,,1,1
+OFC BA11,reconstructed,MElightgreen,same_region_high_plus_moderate,5000,23,8,0,,1,1
+OFC BA11,reconstructed,MEmagenta,global_high,5000,116,8,0,,1,1
+OFC BA11,reconstructed,MEmagenta,global_high_plus_moderate,5000,116,39,2,26071;3178,0.22867056197526078,1
+OFC BA11,reconstructed,MEmagenta,same_region_high,5000,116,1,0,,1,1
+OFC BA11,reconstructed,MEmagenta,same_region_high_plus_moderate,5000,116,8,0,,1,1
+OFC BA11,reconstructed,MEsalmon,global_high,5000,40,8,0,,1,1
+OFC BA11,reconstructed,MEsalmon,global_high_plus_moderate,5000,40,39,0,,1,1
+OFC BA11,reconstructed,MEsalmon,same_region_high,5000,40,1,0,,1,1
+OFC BA11,reconstructed,MEsalmon,same_region_high_plus_moderate,5000,40,8,0,,1,1
+OFC BA11,reconstructed,MElightcyan,global_high,5000,29,8,0,,1,1
+OFC BA11,reconstructed,MElightcyan,global_high_plus_moderate,5000,29,39,1,1803,0.20365882973648008,1
+OFC BA11,reconstructed,MElightcyan,same_region_high,5000,29,1,0,,1,1
+OFC BA11,reconstructed,MElightcyan,same_region_high_plus_moderate,5000,29,8,0,,1,1
+OFC BA11,reconstructed,MEgrey60,global_high,5000,25,8,0,,1,1
+OFC BA11,reconstructed,MEgrey60,global_high_plus_moderate,5000,25,39,0,,1,1
+OFC BA11,reconstructed,MEgrey60,same_region_high,5000,25,1,0,,1,1
+OFC BA11,reconstructed,MEgrey60,same_region_high_plus_moderate,5000,25,8,0,,1,1
+OFC BA11,reconstructed,MEpink,global_high,5000,278,8,1,254956,0.36743596396553524,1
+OFC BA11,reconstructed,MEpink,global_high_plus_moderate,5000,278,39,3,254956;645;83547,0.37016829138203455,1
+OFC BA11,reconstructed,MEpink,same_region_high,5000,278,1,0,,1,1
+OFC BA11,reconstructed,MEpink,same_region_high_plus_moderate,5000,278,8,0,,1,1
+OFC BA11,reconstructed,MEtan,global_high,5000,41,8,2,101927498;107985795,0.001780636064698079,0.032051449164565426
+OFC BA11,reconstructed,MEtan,global_high_plus_moderate,5000,41,39,3,101927498;107985795;2830,0.0038114863290938422,0.06860675392368916
+OFC BA11,reconstructed,MEtan,same_region_high,5000,41,1,0,,1,1
+OFC BA11,reconstructed,MEtan,same_region_high_plus_moderate,5000,41,8,0,,1,1
+OFC BA11,reconstructed,MEgreenyellow,global_high,5000,54,8,0,,1,1
+OFC BA11,reconstructed,MEgreenyellow,global_high_plus_moderate,5000,54,39,0,,1,1
+OFC BA11,reconstructed,MEgreenyellow,same_region_high,5000,54,1,0,,1,1
+OFC BA11,reconstructed,MEgreenyellow,same_region_high_plus_moderate,5000,54,8,0,,1,1
+OFC BA11,reconstructed,MEcyan,global_high,5000,36,8,0,,1,1
+OFC BA11,reconstructed,MEcyan,global_high_plus_moderate,5000,36,39,0,,1,1
+OFC BA11,reconstructed,MEcyan,same_region_high,5000,36,1,0,,1,1
+OFC BA11,reconstructed,MEcyan,same_region_high_plus_moderate,5000,36,8,0,,1,1
+OFC BA11,reconstructed,MEmidnightblue,global_high,5000,31,8,0,,1,1
+OFC BA11,reconstructed,MEmidnightblue,global_high_plus_moderate,5000,31,39,0,,1,1
+OFC BA11,reconstructed,MEmidnightblue,same_region_high,5000,31,1,0,,1,1
+OFC BA11,reconstructed,MEmidnightblue,same_region_high_plus_moderate,5000,31,8,0,,1,1
+OFC BA11,reconstructed,MElightyellow,global_high,5000,20,8,0,,1,1
+OFC BA11,reconstructed,MElightyellow,global_high_plus_moderate,5000,20,39,0,,1,1
+OFC BA11,reconstructed,MElightyellow,same_region_high,5000,20,1,0,,1,1
+OFC BA11,reconstructed,MElightyellow,same_region_high_plus_moderate,5000,20,8,0,,1,1

@@ -1,0 +1,47 @@
+{
+  "stage": "corrected_ml_gene_enrichment_validation",
+  "status": "validation_candidate",
+  "generated_at": "2026-09-26 06:33:57 JST",
+  "git_baseline_requested": "a483b4f6267befbb98ef49f23a27ffe6fa48ed69",
+  "git_head_at_start": "df46778d1b62d92c8ba2b0a3b9002e3c3f7bdadc",
+  "script": "code/phase3b_compare_annotate_wgcna.R",
+  "script_sha256": "1374c24e17e2acbdc43390c153ba5cf5b7a6d39c155ec95f9351109b7ad4683b",
+  "input_references": ["canonical corrected ML ranking", "canonical and reconstructed WGCNA assignments"],
+  "inputs": [
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/ML_prioritized_Tier2_genes_all_ranked.csv",
+      "sha256": "6f59e2ed6f652061fcb81a7c5eccbc1211a8dcb9d0bafcc85a1f9fc3edf280f1"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/best_solution_gene_to_module_assignments.csv",
+      "sha256": "b7c0a1bd65c07be12f1cca561ad6f6e07eb0619cc2e69067a2a1936390b8b92a"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/frontal_subregion_wgcna/frontal_subregion_best_solution_gene_to_module_assignments.csv",
+      "sha256": "22d6f32b32458d4260c1d2059a857f2c2e6fc148d87b6d466acd2c4b4750c7db"
+    }
+  ],
+  "parameters": {
+    "test": "one-sided Fisher exact",
+    "background": "region-specific WGCNA network",
+    "BH_family": "region x gene set"
+  },
+  "random_seed": null,
+  "environment": {
+    "r_version": "R version 4.6.1 (2026-06-24 ucrt)",
+    "bioconductor_version": "3.23",
+    "renv_lock": "environment/phase3b/renv.lock",
+    "package_versions": "environment/phase3b/package_versions.csv"
+  },
+  "database_versions": [],
+  "outputs": [
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/ml_gene_enrichment_validation/aligned_corrected_ML_enrichment_comparison.csv",
+      "sha256": "d99c193c1c3989518ef88c6ba63ec3091694302ead59ee74c65fa590a2a6aa2b"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/ml_gene_enrichment_validation/corrected_ML_gene_enrichment_old_and_reconstructed.csv",
+      "sha256": "9ccc3fd6a1cfcf7cb1f5de42b98d84c73d8e431b627cd93408db7345787e49e7"
+    }
+  ]
+}

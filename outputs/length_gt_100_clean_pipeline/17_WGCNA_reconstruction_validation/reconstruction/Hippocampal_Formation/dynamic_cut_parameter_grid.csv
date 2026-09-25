@@ -1,0 +1,19 @@
+region,analysis_variant,gene_filter_version,n_samples,n_genes_after_filter,power,power_selection_status,deepSplit,minModuleSize,mergeCutHeight,corType,networkType,TOMType,n_non_grey_modules,largest_module_size,largest_module_fraction,grey_gene_count,grey_gene_fraction,median_module_size,usable_solution
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,2,20,0.15,bicor,signed,signed,38,1865,0.12433333333333334,0,0,220.5,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,3,20,0.15,bicor,signed,signed,60,3000,0.2,0,0,89,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,4,20,0.15,bicor,signed,signed,69,2961,0.1974,0,0,64,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,2,30,0.15,bicor,signed,signed,33,2251,0.15006666666666665,0,0,229,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,3,30,0.15,bicor,signed,signed,48,1936,0.12906666666666666,0,0,107,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,4,30,0.15,bicor,signed,signed,55,1945,0.12966666666666668,0,0,91,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,2,50,0.15,bicor,signed,signed,28,2337,0.1558,0,0,257,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,3,50,0.15,bicor,signed,signed,39,2145,0.143,0,0,178,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,4,50,0.15,bicor,signed,signed,41,2116,0.14106666666666667,0,0,151,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,2,20,0.25,bicor,signed,signed,27,1865,0.12433333333333334,0,0,394,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,3,20,0.25,bicor,signed,signed,38,3000,0.2,0,0,131,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,4,20,0.25,bicor,signed,signed,43,2961,0.1974,0,0,130,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,2,30,0.25,bicor,signed,signed,23,2613,0.1742,0,0,340,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,3,30,0.25,bicor,signed,signed,31,1936,0.12906666666666666,0,0,221,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,4,30,0.25,bicor,signed,signed,37,1945,0.12966666666666668,0,0,126,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,2,50,0.25,bicor,signed,signed,21,2702,0.18013333333333334,0,0,453,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,3,50,0.25,bicor,signed,signed,28,2480,0.16533333333333333,0,0,252.5,TRUE
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,4,50,0.25,bicor,signed,signed,30,2440,0.16266666666666665,0,0,223,TRUE

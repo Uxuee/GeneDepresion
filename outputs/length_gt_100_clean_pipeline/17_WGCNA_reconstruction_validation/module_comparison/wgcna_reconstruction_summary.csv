@@ -1,0 +1,7 @@
+region,reconstruction_status,n_common_genes,old_modules,reconstructed_modules,old_grey_genes,reconstructed_grey_genes,adjusted_rand_index,median_best_jaccard,gene_assignment_agreement_from_best_mapping,median_abs_eigengene_correlation,reconstructed_power,reconstructed_deepSplit,reconstructed_minModuleSize,reconstructed_mergeCutHeight
+Ventral Striatum,EXACT,15000,50,50,0,0,1,1,1,1,11,4,20,0.15
+Insula,EXACT,15000,29,29,0,0,1,1,1,1,14,4,20,0.15
+Hippocampal Formation,EXACT,15000,69,69,0,0,1,1,1,1,10,4,20,0.15
+Cingulate gyrus 25,EXACT,5000,27,27,12,12,1,1,1,1,17,4,20,0.15
+dlPFC BA8/9,EXACT,5000,21,21,29,29,1,1,1,1,15,3,20,0.15
+OFC BA11,EXACT,5000,18,18,0,0,1,1,1,1,9,4,20,0.15

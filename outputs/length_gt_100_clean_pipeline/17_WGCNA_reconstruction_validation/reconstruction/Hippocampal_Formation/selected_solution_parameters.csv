@@ -1,0 +1,2 @@
+region,analysis_variant,gene_filter_version,n_samples,n_genes_after_filter,power,power_selection_status,deepSplit,minModuleSize,mergeCutHeight,corType,networkType,TOMType,n_non_grey_modules,largest_module_size,largest_module_fraction,grey_gene_count,grey_gene_fraction,median_module_size,usable_solution
+Hippocampal Formation,unadjusted_logGeTMM,top_15000_MAD,43,15000,10,first_power_reached_0.8,4,20,0.15,bicor,signed,signed,69,2961,0.1974,0,0,64,TRUE
