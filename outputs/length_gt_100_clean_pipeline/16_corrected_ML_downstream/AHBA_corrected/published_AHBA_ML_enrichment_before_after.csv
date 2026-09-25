@@ -1,0 +1,641 @@
+candidate_set,scope,published_module,original_gene_region_pair_count_old,unique_candidate_genes_old,candidate_genes_in_background_old,overlap_genes_old,overlap_gene_symbols_old,p_value_hypergeometric_old,odds_ratio_approx_old,fdr_BH_old,original_gene_region_pair_count_corrected,unique_candidate_genes_corrected,candidate_genes_in_background_corrected,overlap_genes_corrected,overlap_gene_symbols_corrected,p_value_hypergeometric_corrected,odds_ratio_approx_corrected,fdr_BH_corrected,genes_lost,genes_gained,old_significance,corrected_significance,significance_changed
+high_confidence,all_regions,M1,35,35,12,0,,1.0,1.302370990237099,1.0,30,30,9,0,,1.0,1.714086471408647,1.0,,,none,none,False
+high_confidence,all_regions,M10,35,35,12,0,,1.0,3.4855677655677657,1.0,30,30,9,0,,1.0,4.587430113745903,1.0,,,none,none,False
+high_confidence,all_regions,M11,35,35,12,1,CD247,0.2186852684891717,6.287810082688717,1.0,30,30,9,0,,1.0,2.5272805231000106,1.0,CD247,,none,none,False
+high_confidence,all_regions,M12,35,35,12,0,,1.0,10.536703296703298,1.0,30,30,9,0,,1.0,13.867553499132447,1.0,,,none,none,False
+high_confidence,all_regions,M13,35,35,12,0,,1.0,5.864785276073619,1.0,30,30,9,0,,1.0,7.718760090410074,1.0,,,none,none,False
+high_confidence,all_regions,M14,35,35,12,0,,1.0,3.705058365758755,1.0,30,30,9,0,,1.0,4.876305549866885,1.0,,,none,none,False
+high_confidence,all_regions,M15,35,35,12,1,QPRT,0.15862299257066978,9.019774369375078,1.0,30,30,9,1,QPRT,0.12148325764421139,12.20631109586692,1.0,,,none,none,False
+high_confidence,all_regions,M16,35,35,12,0,,1.0,4.748457711442787,1.0,30,30,9,0,,1.0,6.24954176485991,1.0,,,none,none,False
+high_confidence,all_regions,M17,35,35,12,0,,1.0,0.9512255406797117,1.0,30,30,9,0,,1.0,1.2519377744051168,1.0,,,none,none,False
+high_confidence,all_regions,M18,35,35,12,1,PCBD1,0.1763207536514495,8.021569734613212,1.0,30,30,9,0,,1.0,3.2205902352781175,1.0,PCBD1,,none,none,False
+high_confidence,all_regions,M19,35,35,12,3,C1ORF174;GEMIN7;MRPL2,0.054884929613820625,4.575777145037719,1.0,30,30,9,3,C1ORF174;GEMIN7;MRPL2,0.024772577845158898,6.689476168003774,0.5003567835524572,,,none,nominal_p<0.05,True
+high_confidence,all_regions,M2,35,35,12,0,,1.0,2.97717868338558,1.0,30,30,9,0,,1.0,3.9183303085299452,1.0,,,none,none,False
+high_confidence,all_regions,M20,35,35,12,1,TRMT2A,0.5049644670632127,2.16213040302347,1.0,30,30,9,0,,1.0,0.8713194364466966,1.0,TRMT2A,,none,none,False
+high_confidence,all_regions,M21,35,35,12,0,,1.0,2.103608017817372,1.0,30,30,9,0,,1.0,2.768608603915133,1.0,,,none,none,False
+high_confidence,all_regions,M22,35,35,12,0,,1.0,3.267491408934708,1.0,30,30,9,0,,1.0,4.300415988424669,1.0,,,none,none,False
+high_confidence,all_regions,M23,35,35,12,0,,1.0,0.5339296362552177,1.0,30,30,9,0,,1.0,0.702727301258513,1.0,,,none,none,False
+high_confidence,all_regions,M24,35,35,12,3,MOSPD3;PPT2;TOR2A,0.06822592299810389,4.156820074689019,1.0,30,30,9,3,MOSPD3;PPT2;TOR2A,0.03127229897202857,6.077001609926572,0.5003567835524572,,,none,nominal_p<0.05,True
+high_confidence,all_regions,M25,35,35,12,0,,1.0,2.958380062305296,1.0,30,30,9,0,,1.0,3.8935891129693387,1.0,,,none,none,False
+high_confidence,all_regions,M26,35,35,12,1,MORN5,0.4318869233715025,2.7047248733356897,1.0,30,30,9,1,MORN5,0.34559050102893046,3.660290132313088,1.0,,,none,none,False
+high_confidence,all_regions,M27,35,35,12,0,,1.0,0.6344779257182901,1.0,30,30,9,0,,1.0,0.8350606720023604,1.0,,,none,none,False
+high_confidence,all_regions,M28,35,35,12,1,NOL6,0.4132059228364241,2.872935302683586,1.0,30,30,9,1,NOL6,0.32951908326363616,3.887925696594427,1.0,,,none,none,False
+high_confidence,all_regions,M29,35,35,12,0,,1.0,1.037805151175812,1.0,30,30,9,0,,1.0,1.3658867212824894,1.0,,,none,none,False
+high_confidence,all_regions,M3,35,35,12,0,,1.0,2.1624713958810067,1.0,30,30,9,0,,1.0,2.846079730217993,1.0,,,none,none,False
+high_confidence,all_regions,M30,35,35,12,0,,1.0,0.294542926659715,1.0,30,30,9,0,,1.0,0.38766624590673765,1.0,,,none,none,False
+high_confidence,all_regions,M31,35,35,12,0,,1.0,0.9915969989281886,1.0,30,30,9,0,,1.0,1.3050713600722061,1.0,,,none,none,False
+high_confidence,all_regions,M32,35,35,12,0,,1.0,3.267491408934708,1.0,30,30,9,0,,1.0,4.300415988424669,1.0,,,none,none,False
+high_confidence,all_regions,M4,35,35,12,0,,1.0,1.109916367980884,1.0,30,30,9,0,,1.0,1.4607935609633402,1.0,,,none,none,False
+high_confidence,all_regions,M5,35,35,12,0,,1.0,3.178996655518395,1.0,30,30,9,0,,1.0,4.183946488294314,1.0,,,none,none,False
+high_confidence,all_regions,M6,35,35,12,0,,1.0,1.0165093304061472,1.0,30,30,9,0,,1.0,1.3378589173262465,1.0,,,none,none,False
+high_confidence,all_regions,M7,35,35,12,0,,1.0,3.4097491039426524,1.0,30,30,9,0,,1.0,4.487643840784758,1.0,,,none,none,False
+high_confidence,all_regions,M8,35,35,12,0,,1.0,2.6261495844875347,1.0,30,30,9,0,,1.0,3.456334742673859,1.0,,,none,none,False
+high_confidence,all_regions,M9,35,35,12,0,,1.0,2.903363914373089,1.0,30,30,9,0,,1.0,3.8211813938516013,1.0,,,none,none,False
+high_plus_moderate,all_regions,M1,165,154,56,0,,1.0,0.28704903666950543,1.0,149,139,49,0,,1.0,0.3278390600566333,1.0,,,none,none,False
+high_plus_moderate,all_regions,M10,165,154,56,2,ADRA2B;GPR6,0.1316917267543794,4.0423246137580575,0.9520083791362374,149,139,49,2,ADRA2B;GPR6,0.10569395890188538,4.640774799452162,0.9905822928092167,,,none,none,False
+high_plus_moderate,all_regions,M11,165,154,56,1,CD247,0.6845514630925287,1.2980158072182613,1.0,149,139,49,1,CD247,0.635504934622232,1.4862437543482385,1.0,,,none,none,False
+high_plus_moderate,all_regions,M12,165,154,56,0,,1.0,2.322571234075659,1.0,149,139,49,0,,1.0,2.6525696525696527,1.0,,,none,none,False
+high_plus_moderate,all_regions,M13,165,154,56,0,,1.0,1.2927411911613007,1.0,149,139,49,0,,1.0,1.4764206481997895,1.0,,,none,none,False
+high_plus_moderate,all_regions,M14,165,154,56,0,,1.0,0.8166729795805929,1.0,149,139,49,0,,1.0,0.9327123373815981,1.0,,,none,none,False
+high_plus_moderate,all_regions,M15,165,154,56,2,LIMS3;QPRT,0.1904514221643027,3.179127767763459,0.9520083791362374,149,139,49,2,LIMS3;QPRT,0.1547784832514401,3.6497916345114985,0.9905822928092167,,,none,none,False
+high_plus_moderate,all_regions,M16,165,154,56,0,,1.0,1.0466693083256284,1.0,149,139,49,0,,1.0,1.1953867028493894,1.0,,,none,none,False
+high_plus_moderate,all_regions,M17,165,154,56,3,ARHGAP9;FBXO17;SETD6,0.3936281309505091,1.5598566655367778,1.0,149,139,49,3,ARHGAP9;FBXO17;SETD6,0.3159282737720074,1.7957657808234442,1.0,,,none,none,False
+high_plus_moderate,all_regions,M18,165,154,56,2,PCBD1;ZKSCAN2,0.22619670981288167,2.825472489041129,0.9520083791362374,149,139,49,1,PCBD1,0.5476463988802615,1.8960771187575314,1.0,ZKSCAN2,,none,none,False
+high_plus_moderate,all_regions,M19,165,154,56,6,BLVRB;C1ORF174;DEXI;GEMIN7;MRPL2;RILP,0.23800209478405934,1.598070775180484,0.9520083791362374,149,139,49,5,BLVRB;C1ORF174;GEMIN7;MRPL2;RILP,0.30183149580330554,1.5336481996721536,1.0,DEXI,,none,none,False
+high_plus_moderate,all_regions,M2,165,154,56,0,,1.0,0.6562265930590617,1.0,149,139,49,0,,1.0,0.7494696178081758,1.0,,,none,none,False
+high_plus_moderate,all_regions,M20,165,154,56,6,ARMC5;DECR2;KHDC1;TRMT2A;ZNF324B;ZNF787,0.09721159913806425,2.141899620425619,0.9520083791362374,149,139,49,6,ARMC5;DECR2;KHDC1;TRMT2A;ZNF324B;ZNF787,0.05803594089759486,2.4881124559133236,0.9905822928092167,,,none,none,False
+high_plus_moderate,all_regions,M21,165,154,56,2,KIF26A;TCN2,0.2797262482456054,2.425420059787651,0.9945822159843747,149,139,49,1,TCN2,0.6022440366904206,1.628796789593856,1.0,KIF26A,,none,none,False
+high_plus_moderate,all_regions,M22,165,154,56,1,MAGIX,0.4933641136518271,2.2150004675956234,1.0,149,139,49,1,MAGIX,0.4483231296372797,2.5361894909570863,1.0,,,none,none,False
+high_plus_moderate,all_regions,M23,165,154,56,0,,1.0,0.11766164822349222,1.0,149,139,49,0,,1.0,0.13438499485011116,1.0,,,none,none,False
+high_plus_moderate,all_regions,M24,165,154,56,7,BACH2;MOSPD3;PPT2;TOR2A;VPS54;ZNF576;ZNF738,0.16892543969073168,1.7103117282512466,0.9520083791362374,149,139,49,7,BACH2;MOSPD3;PPT2;TOR2A;VPS54;ZNF576;ZNF738,0.10082967461612635,1.9932764494829198,0.9905822928092167,,,none,none,False
+high_plus_moderate,all_regions,M25,165,154,56,0,,1.0,0.6520828164199266,1.0,149,139,49,0,,1.0,0.7447370905314831,1.0,,,none,none,False
+high_plus_moderate,all_regions,M26,165,154,56,3,MORN5;RPGR;TSGA10,0.47935039273876107,1.356512823988951,1.0,149,139,49,2,MORN5;RPGR,0.6660378987211756,1.0899261728983092,1.0,TSGA10,,none,none,False
+high_plus_moderate,all_regions,M27,165,154,56,3,CCL3L3;SPR;STAP2,0.6523410858340051,1.0383039454905392,1.0,149,139,49,3,CCL3L3;SPR;STAP2,0.5611105975524224,1.1953493299433233,1.0,,,none,none,False
+high_plus_moderate,all_regions,M28,165,154,56,4,C9ORF163;MMRN2;NOL6;PRELID2,0.22499278260492658,1.8920665475044685,0.9520083791362374,149,139,49,2,C9ORF163;NOL6,0.6344810761858197,1.1578442751173235,1.0,MMRN2;PRELID2,,none,none,False
+high_plus_moderate,all_regions,M29,165,154,56,1,HNRNPA1,0.8797752663487817,0.7001850335183669,1.0,149,139,49,1,HNRNPA1,0.8432404955088358,0.8017286264708946,1.0,,,none,none,False
+high_plus_moderate,all_regions,M3,165,154,56,0,,1.0,0.4766408132682611,1.0,149,139,49,0,,1.0,0.5443681667937961,1.0,,,none,none,False
+high_plus_moderate,all_regions,M30,165,154,56,4,BAX;GCC1;TRPV3;TSPO,0.9148602662272873,0.6305332868595329,1.0,149,139,49,3,BAX;GCC1;TRPV3,0.9427778634815582,0.5536229930000787,1.0,TSPO,,none,none,False
+high_plus_moderate,all_regions,M31,165,154,56,3,MT1L;MYBPC1;NINJ1,0.3693915779970436,1.626480758955126,1.0,149,139,49,3,MT1L;MYBPC1;NINJ1,0.29457718480178074,1.8724640707102342,1.0,,,none,none,False
+high_plus_moderate,all_regions,M32,165,154,56,0,,1.0,0.7202201745582824,1.0,149,139,49,0,,1.0,0.8225554514214308,1.0,,,none,none,False
+high_plus_moderate,all_regions,M4,165,154,56,0,,1.0,0.2446262991509923,1.0,149,139,49,0,,1.0,0.27938887078672026,1.0,,,none,none,False
+high_plus_moderate,all_regions,M5,165,154,56,1,N4BP1,0.5028372394457867,2.1546091546091546,1.0,149,139,49,1,N4BP1,0.4573569990991512,2.4670415495157765,1.0,,,none,none,False
+high_plus_moderate,all_regions,M6,165,154,56,1,DPP4,0.8849025513290507,0.6857847946956858,1.0,149,139,49,1,DPP4,0.8491043257515586,0.7852403797080739,1.0,,,none,none,False
+high_plus_moderate,all_regions,M7,165,154,56,1,PRMT7,0.4788211210008482,2.3121280124890236,1.0,149,139,49,1,PRMT7,0.43449545041536414,2.647400349845547,1.0,,,none,none,False
+high_plus_moderate,all_regions,M8,165,154,56,1,RAB24,0.5705869775320527,1.777836332153881,1.0,149,139,49,1,RAB24,0.5226244074018388,2.0356373661086065,1.0,,,none,none,False
+high_plus_moderate,all_regions,M9,165,154,56,2,FHL1;ZNF461,0.17539279630757781,3.3588490925100123,0.9520083791362374,149,139,49,2,FHL1;ZNF461,0.14210026243048302,3.8561186247352124,0.9905822928092167,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M1,37,37,18,0,,1.0,0.8795280636284821,1.0,36,36,17,0,,1.0,0.929866507272365,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M10,37,37,18,0,,1.0,2.353925353925354,1.0,36,36,17,0,,1.0,2.4886446886446882,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M11,37,37,18,1,CD247,0.3094446266492016,4.1298860648553894,1.0,36,36,17,1,CD247,0.2950824817874911,4.380554006320878,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M12,37,37,18,0,,1.0,7.115830115830116,1.0,36,36,17,0,,1.0,7.523076923076923,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M13,37,37,18,0,,1.0,3.960703034322666,1.0,36,36,17,0,,1.0,4.18737949167397,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M14,37,37,18,0,,1.0,2.502155852350405,1.0,36,36,17,0,,1.0,2.6453585325180655,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M15,37,37,18,0,,1.0,1.8570309439874657,1.0,36,36,17,0,,1.0,1.963312629399586,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M16,37,37,18,0,,1.0,3.2068038187441172,1.0,36,36,17,0,,1.0,3.3903340440653875,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M17,37,37,18,2,ARHGAP9;FBXO17,0.16236855524355362,3.6167779135721227,1.0,36,36,17,2,ARHGAP9;FBXO17,0.1480798853055821,3.850452013210128,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M18,37,37,18,1,PCBD1,0.2525099549890822,5.268645640074212,1.0,36,36,17,1,PCBD1,0.24031712379510745,5.588429752066116,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M19,37,37,18,4,BLVRB;C1ORF174;GEMIN7;RILP,0.04066471755225515,3.857043839889101,1.0,36,36,17,4,BLVRB;C1ORF174;GEMIN7;RILP,0.03355139503195453,4.143123022520007,1.0,,,nominal_p<0.05,nominal_p<0.05,False
+high_plus_moderate,region:Cingulate gyrus 25,M2,37,37,18,0,,1.0,2.010590527831907,1.0,36,36,17,0,,1.0,2.1256605463502014,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M20,37,37,18,2,ARMC5;KHDC1,0.2731879694213685,2.5141318082064243,1.0,36,36,17,2,ARMC5;KHDC1,0.25162204426932605,2.6765698374118037,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M21,37,37,18,0,,1.0,1.4206344429061577,1.0,36,36,17,0,,1.0,1.5019408208717786,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M22,37,37,18,1,MAGIX,0.19604492907397267,7.047256549678695,1.0,36,36,17,1,MAGIX,0.18623234613758602,7.474992135891791,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M23,37,37,18,0,,1.0,0.3605698721977792,1.0,36,36,17,0,,1.0,0.3812079393474742,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M24,37,37,18,3,BACH2;VPS54;ZNF576,0.17707795844403013,2.5463452386833305,1.0,36,36,17,3,BACH2;VPS54;ZNF576,0.15648622361391307,2.7222016862931473,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M25,37,37,18,0,,1.0,1.9978950913530356,1.0,36,36,17,0,,1.0,2.1122385402759236,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M26,37,37,18,0,,1.0,0.5590865888431263,1.0,36,36,17,0,,1.0,0.5910859203916011,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M27,37,37,18,1,SPR,0.6669376461726172,1.360902255639098,1.0,36,36,17,1,SPR,0.6459445893940702,1.4435087719298245,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M28,37,37,18,1,MMRN2,0.550592810033179,1.8869446343130554,1.0,36,36,17,0,,1.0,0.6277800518488197,1.0,MMRN2,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M29,37,37,18,0,,1.0,0.7008565116067916,1.0,36,36,17,0,,1.0,0.7409694448888178,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M3,37,37,18,0,,1.0,1.4603871606159937,1.0,36,36,17,0,,1.0,1.5439686171951619,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M30,37,37,18,1,BAX,0.8988116130855563,0.6313043478260869,1.0,36,36,17,1,BAX,0.8850675023475786,0.6696284584980238,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M31,37,37,18,1,MT1L,0.5088029318652705,2.128494706153138,1.0,36,36,17,1,MT1L,0.48900036817024645,2.2576896787423104,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M32,37,37,18,0,,1.0,2.20664994891799,1.0,36,36,17,0,,1.0,2.33294059891998,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M4,37,37,18,0,,1.0,0.7495560076205239,1.0,36,36,17,0,,1.0,0.7924560505205666,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M5,37,37,18,0,,1.0,2.146886016451234,1.0,36,36,17,0,,1.0,2.2697563306258957,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M6,37,37,18,0,,1.0,0.6864746195152344,1.0,36,36,17,0,,1.0,0.7257644660498667,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M7,37,37,18,0,,1.0,2.3027220769156256,1.0,36,36,17,0,,1.0,2.4345110087045567,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M8,37,37,18,0,,1.0,1.7735269895934718,1.0,36,36,17,0,,1.0,1.8750296794618124,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25,M9,37,37,18,0,,1.0,1.9607405570708323,1.0,36,36,17,0,,1.0,2.072957623416339,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M1,7,7,2,0,,1.0,6.517433751743376,1.0,7,7,2,0,,1.0,6.517433751743376,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M10,7,7,2,0,,1.0,17.442490842490844,1.0,7,7,2,0,,1.0,17.442490842490844,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M11,7,7,2,0,,1.0,9.609368635437882,1.0,7,7,2,0,,1.0,9.609368635437882,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M12,7,7,2,0,,1.0,52.72747252747253,1.0,7,7,2,0,,1.0,52.72747252747253,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M13,7,7,2,0,,1.0,29.348466257668715,1.0,7,7,2,0,,1.0,29.348466257668715,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M14,7,7,2,0,,1.0,18.540856031128406,1.0,7,7,2,0,,1.0,18.540856031128406,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M15,7,7,2,0,,1.0,13.760579710144928,1.0,7,7,2,0,,1.0,13.760579710144928,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M16,7,7,2,0,,1.0,23.76218905472637,1.0,7,7,2,0,,1.0,23.76218905472637,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M17,7,7,2,0,,1.0,4.760247167868178,1.0,7,7,2,0,,1.0,4.760247167868178,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M18,7,7,2,0,,1.0,12.245478036175712,1.0,7,7,2,0,,1.0,12.245478036175712,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M19,7,7,2,0,,1.0,2.477265147304058,1.0,7,7,2,0,,1.0,2.477265147304058,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M2,7,7,2,0,,1.0,14.898432601880879,1.0,7,7,2,0,,1.0,14.898432601880879,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M20,7,7,2,0,,1.0,3.3130561633843914,1.0,7,7,2,0,,1.0,3.3130561633843914,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M21,7,7,2,0,,1.0,10.526948775055681,1.0,7,7,2,0,,1.0,10.526948775055681,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M22,7,7,2,0,,1.0,16.351202749140892,1.0,7,7,2,0,,1.0,16.351202749140892,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M23,7,7,2,0,,1.0,2.6720333929636255,1.0,7,7,2,0,,1.0,2.6720333929636255,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M24,7,7,2,2,BACH2;VPS54,0.006643842308088122,56.40234574196838,0.21260295385881992,7,7,2,2,BACH2;VPS54,0.006643842308088122,56.40234574196838,0.21260295385881992,,,nominal_p<0.05,nominal_p<0.05,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M25,7,7,2,0,,1.0,14.804361370716512,1.0,7,7,2,0,,1.0,14.804361370716512,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M26,7,7,2,0,,1.0,4.143011722272317,1.0,7,7,2,0,,1.0,4.143011722272317,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M27,7,7,2,0,,1.0,3.1751927119831818,1.0,7,7,2,0,,1.0,3.1751927119831818,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M28,7,7,2,0,,1.0,4.400191021967527,1.0,7,7,2,0,,1.0,4.400191021967527,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M29,7,7,2,0,,1.0,5.193505039193729,1.0,7,7,2,0,,1.0,5.193505039193729,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M3,7,7,2,0,,1.0,10.821510297482838,1.0,7,7,2,0,,1.0,10.821510297482838,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M30,7,7,2,0,,1.0,1.4741049704553355,1.0,7,7,2,0,,1.0,1.4741049704553355,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M31,7,7,2,0,,1.0,4.9622722400857455,1.0,7,7,2,0,,1.0,4.9622722400857455,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M32,7,7,2,0,,1.0,16.351202749140892,1.0,7,7,2,0,,1.0,16.351202749140892,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M4,7,7,2,0,,1.0,5.554360812425329,1.0,7,7,2,0,,1.0,5.554360812425329,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M5,7,7,2,0,,1.0,15.90836120401338,1.0,7,7,2,0,,1.0,15.90836120401338,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M6,7,7,2,0,,1.0,5.086937431394072,1.0,7,7,2,0,,1.0,5.086937431394072,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M7,7,7,2,0,,1.0,17.063082437275988,1.0,7,7,2,0,,1.0,17.063082437275988,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M8,7,7,2,0,,1.0,13.141828254847647,1.0,7,7,2,0,,1.0,13.141828254847647,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,M9,7,7,2,0,,1.0,14.529051987767586,1.0,7,7,2,0,,1.0,14.529051987767586,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M1,30,30,16,0,,1.0,0.9863065804488399,1.0,29,29,15,0,,1.0,1.0500292437126018,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M10,30,30,16,0,,1.0,2.6396936396936397,1.0,29,29,15,0,,1.0,2.810232777974713,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M11,30,30,16,1,CD247,0.28042287802193105,4.6635661982980405,1.0,29,29,15,1,CD247,0.2654596803573045,4.9856145546858475,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M12,30,30,16,0,,1.0,7.9796869796869805,1.0,29,29,15,0,,1.0,8.495214462956397,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M13,30,30,16,0,,1.0,4.441531883249675,1.0,29,29,15,0,,1.0,4.7284781318028895,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M14,30,30,16,0,,1.0,2.8059191133121097,1.0,29,29,15,0,,1.0,2.987197188402159,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M15,30,30,16,0,,1.0,2.0824769433465087,1.0,29,29,15,0,,1.0,2.2170172978027116,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M16,30,30,16,0,,1.0,3.5961103573043873,1.0,29,29,15,0,,1.0,3.8284384528968065,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M17,30,30,16,2,ARHGAP9;FBXO17,0.13406895797080629,4.11635702314303,1.0,29,29,15,2,ARHGAP9;FBXO17,0.12038408845074965,4.421655367880807,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M18,30,30,16,1,PCBD1,0.22792645404884326,5.949476330121491,1.0,29,29,15,1,PCBD1,0.21533475264876112,6.3603224361845045,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M19,30,30,16,4,BLVRB;C1ORF174;GEMIN7;RILP,0.027222301187587918,4.474974874371859,0.8711136380028134,29,29,15,4,BLVRB;C1ORF174;GEMIN7;RILP,0.021666433153266038,4.864540091763164,0.6933258609045132,,,nominal_p<0.05,nominal_p<0.05,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M2,30,30,16,0,,1.0,2.2546784459010163,1.0,29,29,15,0,,1.0,2.4003438163616138,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M20,30,30,16,2,ARMC5;KHDC1,0.23010242432859043,2.8614131120248216,1.0,29,29,15,2,ARMC5;KHDC1,0.20871299780392044,3.0736405754693976,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M21,30,30,16,0,,1.0,1.5931025173786868,1.0,29,29,15,0,,1.0,1.6960270134348734,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M22,30,30,16,1,MAGIX,0.17630083281294587,7.957919410648509,1.0,29,29,15,1,MAGIX,0.16624895777152834,8.507457343992364,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M23,30,30,16,0,,1.0,0.40434759039410206,1.0,29,29,15,0,,1.0,0.43047300286610113,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M24,30,30,16,1,ZNF576,0.7438351940592006,1.0890670961168718,1.0,29,29,15,1,ZNF576,0.7210598351244912,1.1642805698526182,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M25,30,30,16,0,,1.0,2.2404418011894647,1.0,29,29,15,0,,1.0,2.3851874183499144,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M26,30,30,16,0,,1.0,0.6269639587944368,1.0,29,29,15,0,,1.0,0.6674714215073155,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M27,30,30,16,1,SPR,0.6236303042564384,1.536774193548387,1.0,29,29,15,1,SPR,0.5999117614718208,1.6429038112522687,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M28,30,30,16,1,MMRN2,0.5087960869721526,2.130791788856305,1.0,29,29,15,0,,1.0,0.7089071694857811,1.0,MMRN2,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M29,30,30,16,0,,1.0,0.7859445519019987,1.0,29,29,15,0,,1.0,0.8367228985297837,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M3,30,30,16,0,,1.0,1.6376811594202898,1.0,29,29,15,0,,1.0,1.7434856425776923,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M30,30,30,16,1,BAX,0.869458045261804,0.7128976157082749,1.0,29,29,15,1,BAX,0.8517302776809629,0.7621349325337331,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M31,30,30,16,1,MT1L,0.4684012480636142,2.4035549703752466,1.0,29,29,15,1,MT1L,0.44697360180443657,2.5695396125782435,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M32,30,30,16,0,,1.0,2.4745392064979694,1.0,29,29,15,0,,1.0,2.6344086021505375,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M4,30,30,16,0,,1.0,0.8405560986206148,1.0,29,29,15,0,,1.0,0.8948626045400239,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M5,30,30,16,0,,1.0,2.4075200162156682,1.0,29,29,15,0,,1.0,2.5630596612363794,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M6,30,30,16,0,,1.0,0.7698167182250607,1.0,29,29,15,0,,1.0,0.8195531319712475,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M7,30,30,16,0,,1.0,2.582274356467905,1.0,29,29,15,0,,1.0,2.74910394265233,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M8,30,30,16,0,,1.0,1.988835725677831,1.0,29,29,15,0,,1.0,2.117326423018497,1.0,,,none,none,False
+high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,M9,30,30,16,0,,1.0,2.198776758409786,1.0,29,29,15,0,,1.0,2.3408306204991614,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M1,28,28,9,0,,1.0,1.714086471408647,1.0,26,26,9,0,,1.0,1.714086471408647,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M10,28,28,9,1,ADRA2B,0.09720226588579707,15.496201432602561,0.7939857817124738,26,26,9,1,ADRA2B,0.09720226588579707,15.496201432602561,0.7939857817124738,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M11,28,28,9,0,,1.0,2.5272805231000106,1.0,26,26,9,0,,1.0,2.5272805231000106,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M12,28,28,9,0,,1.0,13.867553499132447,1.0,26,26,9,0,,1.0,13.867553499132447,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M13,28,28,9,0,,1.0,7.718760090410074,1.0,26,26,9,0,,1.0,7.718760090410074,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M14,28,28,9,0,,1.0,4.876305549866885,1.0,26,26,9,0,,1.0,4.876305549866885,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M15,28,28,9,0,,1.0,3.6190694126620895,1.0,26,26,9,0,,1.0,3.6190694126620895,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M16,28,28,9,0,,1.0,6.24954176485991,1.0,26,26,9,0,,1.0,6.24954176485991,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M17,28,28,9,1,SETD6,0.3093406406155863,4.2067018757967585,1.0,26,26,9,1,SETD6,0.3093406406155863,4.2067018757967585,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M18,28,28,9,0,,1.0,3.2205902352781175,1.0,26,26,9,0,,1.0,3.2205902352781175,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M19,28,28,9,0,,1.0,0.6515022965975249,1.0,26,26,9,0,,1.0,0.6515022965975249,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M2,28,28,9,0,,1.0,3.9183303085299452,1.0,26,26,9,0,,1.0,3.9183303085299452,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M20,28,28,9,2,TRMT2A;ZNF787,0.08917607902710484,5.535479151426482,0.7939857817124738,26,26,9,2,TRMT2A;ZNF787,0.08917607902710484,5.535479151426482,0.7939857817124738,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M21,28,28,9,0,,1.0,2.768608603915133,1.0,26,26,9,0,,1.0,2.768608603915133,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M22,28,28,9,0,,1.0,4.300415988424669,1.0,26,26,9,0,,1.0,4.300415988424669,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M23,28,28,9,0,,1.0,0.702727301258513,1.0,26,26,9,0,,1.0,0.702727301258513,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M24,28,28,9,2,TOR2A;ZNF738,0.16326659142949354,3.7577766445690974,1.0,26,26,9,2,TOR2A;ZNF738,0.16326659142949354,3.7577766445690974,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M25,28,28,9,0,,1.0,3.8935891129693387,1.0,26,26,9,0,,1.0,3.8935891129693387,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M26,28,28,9,0,,1.0,1.0896018224099473,1.0,26,26,9,0,,1.0,1.0896018224099473,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M27,28,28,9,0,,1.0,0.8350606720023604,1.0,26,26,9,0,,1.0,0.8350606720023604,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M28,28,28,9,2,C9ORF163;NOL6,0.05535057704540461,7.358581016299136,0.7939857817124738,26,26,9,2,C9ORF163;NOL6,0.05535057704540461,7.358581016299136,0.7939857817124738,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M29,28,28,9,0,,1.0,1.3658867212824894,1.0,26,26,9,0,,1.0,1.3658867212824894,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M3,28,28,9,0,,1.0,2.846079730217993,1.0,26,26,9,0,,1.0,2.846079730217993,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M30,28,28,9,0,,1.0,0.38766624590673765,1.0,26,26,9,0,,1.0,0.38766624590673765,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M31,28,28,9,0,,1.0,1.3050713600722061,1.0,26,26,9,0,,1.0,1.3050713600722061,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M32,28,28,9,0,,1.0,4.300415988424669,1.0,26,26,9,0,,1.0,4.300415988424669,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M4,28,28,9,0,,1.0,1.4607935609633402,1.0,26,26,9,0,,1.0,1.4607935609633402,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M5,28,28,9,0,,1.0,4.183946488294314,1.0,26,26,9,0,,1.0,4.183946488294314,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M6,28,28,9,0,,1.0,1.3378589173262465,1.0,26,26,9,0,,1.0,1.3378589173262465,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M7,28,28,9,1,PRMT7,0.09924822271405923,15.156721172223403,0.7939857817124738,26,26,9,1,PRMT7,0.09924822271405923,15.156721172223403,0.7939857817124738,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M8,28,28,9,0,,1.0,3.456334742673859,1.0,26,26,9,0,,1.0,3.456334742673859,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation,M9,28,28,9,0,,1.0,3.8211813938516013,1.0,26,26,9,0,,1.0,3.8211813938516013,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M1,14,14,7,0,,1.0,2.1715481171548117,1.0,12,12,7,0,,1.0,2.1715481171548117,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M10,14,14,7,1,ADRA2B,0.07644634147237138,20.267669599772923,0.6245959987040153,12,12,7,1,ADRA2B,0.07644634147237138,20.267669599772923,0.6245959987040153,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M11,14,14,7,0,,1.0,3.2017651052274267,1.0,12,12,7,0,,1.0,3.2017651052274267,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M12,14,14,7,0,,1.0,17.568498168498166,1.0,12,12,7,0,,1.0,17.568498168498166,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M13,14,14,7,0,,1.0,9.778732106339469,1.0,12,12,7,0,,1.0,9.778732106339469,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M14,14,14,7,0,,1.0,6.17769130998703,1.0,12,12,7,0,,1.0,6.17769130998703,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M15,14,14,7,0,,1.0,4.584927536231884,1.0,12,12,7,0,,1.0,4.584927536231884,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M16,14,14,7,0,,1.0,7.917412935323384,1.0,12,12,7,0,,1.0,7.917412935323384,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M17,14,14,7,1,SETD6,0.2501167763962731,5.5020242914979764,1.0,12,12,7,1,SETD6,0.2501167763962731,5.5020242914979764,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M18,14,14,7,0,,1.0,4.080103359173127,1.0,12,12,7,0,,1.0,4.080103359173127,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M19,14,14,7,0,,1.0,0.82538447285529,1.0,12,12,7,0,,1.0,0.82538447285529,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M2,14,14,7,0,,1.0,4.96405433646813,1.0,12,12,7,0,,1.0,4.96405433646813,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M20,14,14,7,2,TRMT2A;ZNF787,0.056069221360487975,7.549710713573186,0.6245959987040153,12,12,7,2,TRMT2A;ZNF787,0.056069221360487975,7.549710713573186,0.6245959987040153,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M21,14,14,7,0,,1.0,3.507498144023756,1.0,12,12,7,0,,1.0,3.507498144023756,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M22,14,14,7,0,,1.0,5.448109965635739,1.0,12,12,7,0,,1.0,5.448109965635739,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M23,14,14,7,0,,1.0,0.8902802623732856,1.0,12,12,7,0,,1.0,0.8902802623732856,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M24,14,14,7,0,,1.0,0.7500254452926208,1.0,12,12,7,0,,1.0,0.7500254452926208,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M25,14,14,7,0,,1.0,4.932710280373832,1.0,12,12,7,0,,1.0,4.932710280373832,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M26,14,14,7,0,,1.0,1.3804027652539825,1.0,12,12,7,0,,1.0,1.3804027652539825,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M27,14,14,7,0,,1.0,1.057930390095772,1.0,12,12,7,0,,1.0,1.057930390095772,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M28,14,14,7,2,C9ORF163;NOL6,0.034193189759446754,10.036171881809464,0.6245959987040153,12,12,7,2,C9ORF163;NOL6,0.034193189759446754,10.036171881809464,0.6245959987040153,,,nominal_p<0.05,nominal_p<0.05,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M29,14,14,7,0,,1.0,1.730421799178798,1.0,12,12,7,0,,1.0,1.730421799178798,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M3,14,14,7,0,,1.0,3.6056445461479787,1.0,12,12,7,0,,1.0,3.6056445461479787,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M30,14,14,7,0,,1.0,0.49113660062565173,1.0,12,12,7,0,,1.0,0.49113660062565173,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M31,14,14,7,0,,1.0,1.6533762057877812,1.0,12,12,7,0,,1.0,1.6533762057877812,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M32,14,14,7,0,,1.0,5.448109965635739,1.0,12,12,7,0,,1.0,5.448109965635739,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M4,14,14,7,0,,1.0,1.8506571087216248,1.0,12,12,7,0,,1.0,1.8506571087216248,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M5,14,14,7,0,,1.0,5.300557413600892,1.0,12,12,7,0,,1.0,5.300557413600892,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M6,14,14,7,0,,1.0,1.6949140139041348,1.0,12,12,7,0,,1.0,1.6949140139041348,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M7,14,14,7,1,PRMT7,0.07807449983800191,19.82366009441822,0.6245959987040153,12,12,7,1,PRMT7,0.07807449983800191,19.82366009441822,0.6245959987040153,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M8,14,14,7,0,,1.0,4.37876269621422,1.0,12,12,7,0,,1.0,4.37876269621422,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,M9,14,14,7,0,,1.0,4.840978593272172,1.0,12,12,7,0,,1.0,4.840978593272172,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M1,14,14,2,0,,1.0,6.517433751743376,1.0,14,14,2,0,,1.0,6.517433751743376,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M10,14,14,2,0,,1.0,17.442490842490844,1.0,14,14,2,0,,1.0,17.442490842490844,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M11,14,14,2,0,,1.0,9.609368635437882,1.0,14,14,2,0,,1.0,9.609368635437882,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M12,14,14,2,0,,1.0,52.72747252747253,1.0,14,14,2,0,,1.0,52.72747252747253,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M13,14,14,2,0,,1.0,29.348466257668715,1.0,14,14,2,0,,1.0,29.348466257668715,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M14,14,14,2,0,,1.0,18.540856031128406,1.0,14,14,2,0,,1.0,18.540856031128406,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M15,14,14,2,0,,1.0,13.760579710144928,1.0,14,14,2,0,,1.0,13.760579710144928,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M16,14,14,2,0,,1.0,23.76218905472637,1.0,14,14,2,0,,1.0,23.76218905472637,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M17,14,14,2,0,,1.0,4.760247167868178,1.0,14,14,2,0,,1.0,4.760247167868178,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M18,14,14,2,0,,1.0,12.245478036175712,1.0,14,14,2,0,,1.0,12.245478036175712,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M19,14,14,2,0,,1.0,2.477265147304058,1.0,14,14,2,0,,1.0,2.477265147304058,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M2,14,14,2,0,,1.0,14.898432601880879,1.0,14,14,2,0,,1.0,14.898432601880879,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M20,14,14,2,0,,1.0,3.3130561633843914,1.0,14,14,2,0,,1.0,3.3130561633843914,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M21,14,14,2,0,,1.0,10.526948775055681,1.0,14,14,2,0,,1.0,10.526948775055681,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M22,14,14,2,0,,1.0,16.351202749140892,1.0,14,14,2,0,,1.0,16.351202749140892,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M23,14,14,2,0,,1.0,2.6720333929636255,1.0,14,14,2,0,,1.0,2.6720333929636255,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M24,14,14,2,2,TOR2A;ZNF738,0.006643842308088122,56.40234574196838,0.21260295385881992,14,14,2,2,TOR2A;ZNF738,0.006643842308088122,56.40234574196838,0.21260295385881992,,,nominal_p<0.05,nominal_p<0.05,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M25,14,14,2,0,,1.0,14.804361370716512,1.0,14,14,2,0,,1.0,14.804361370716512,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M26,14,14,2,0,,1.0,4.143011722272317,1.0,14,14,2,0,,1.0,4.143011722272317,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M27,14,14,2,0,,1.0,3.1751927119831818,1.0,14,14,2,0,,1.0,3.1751927119831818,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M28,14,14,2,0,,1.0,4.400191021967527,1.0,14,14,2,0,,1.0,4.400191021967527,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M29,14,14,2,0,,1.0,5.193505039193729,1.0,14,14,2,0,,1.0,5.193505039193729,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M3,14,14,2,0,,1.0,10.821510297482838,1.0,14,14,2,0,,1.0,10.821510297482838,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M30,14,14,2,0,,1.0,1.4741049704553355,1.0,14,14,2,0,,1.0,1.4741049704553355,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M31,14,14,2,0,,1.0,4.9622722400857455,1.0,14,14,2,0,,1.0,4.9622722400857455,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M32,14,14,2,0,,1.0,16.351202749140892,1.0,14,14,2,0,,1.0,16.351202749140892,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M4,14,14,2,0,,1.0,5.554360812425329,1.0,14,14,2,0,,1.0,5.554360812425329,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M5,14,14,2,0,,1.0,15.90836120401338,1.0,14,14,2,0,,1.0,15.90836120401338,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M6,14,14,2,0,,1.0,5.086937431394072,1.0,14,14,2,0,,1.0,5.086937431394072,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M7,14,14,2,0,,1.0,17.063082437275988,1.0,14,14,2,0,,1.0,17.063082437275988,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M8,14,14,2,0,,1.0,13.141828254847647,1.0,14,14,2,0,,1.0,13.141828254847647,1.0,,,none,none,False
+high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,M9,14,14,2,0,,1.0,14.529051987767586,1.0,14,14,2,0,,1.0,14.529051987767586,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M1,24,24,6,0,,1.0,2.505847012123163,1.0,20,20,3,0,,1.0,4.654911336919705,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M10,24,24,6,0,,1.0,6.7063961679346304,1.0,20,20,3,0,,1.0,12.457875457875458,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M11,24,24,6,0,,1.0,3.6946576844743855,1.0,20,20,3,0,,1.0,6.863252836776258,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M12,24,24,6,0,,1.0,20.273034657650044,1.0,20,20,3,0,,1.0,37.65934065934066,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M13,24,24,6,0,,1.0,11.284096271826334,1.0,20,20,3,0,,1.0,20.961437335670464,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M14,24,24,6,0,,1.0,7.128703980844059,1.0,20,20,3,0,,1.0,13.242356864924957,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M15,24,24,6,0,,1.0,5.290746934225195,1.0,20,20,3,0,,1.0,9.82815734989648,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M16,24,24,6,0,,1.0,9.136241867585152,1.0,20,20,3,0,,1.0,16.971570717839374,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M17,24,24,6,0,,1.0,1.8302305315693577,1.0,20,20,3,0,,1.0,3.3998823010151535,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M18,24,24,6,1,ZKSCAN2,0.0924101185536688,16.78087367178276,1.0,20,20,3,0,,1.0,8.746031746031747,1.0,ZKSCAN2,,none,none,False
+high_plus_moderate,region:Insula,M19,24,24,6,0,,1.0,0.9524522170436568,1.0,20,20,3,0,,1.0,1.7693162868260144,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M2,24,24,6,0,,1.0,5.7282372799614185,1.0,20,20,3,0,,1.0,10.640841916703986,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M20,24,24,6,2,DECR2;ZNF324B,0.041591482451612434,9.228237015362108,1.0,20,20,3,2,DECR2;ZNF324B,0.009327468773974888,27.692026335040232,0.2984790007671964,,,nominal_p<0.05,nominal_p<0.05,False
+high_plus_moderate,region:Insula,M21,24,24,6,1,KIF26A,0.10656714366850271,14.415497254423428,1.0,20,20,3,0,,1.0,7.518612790327713,1.0,KIF26A,,none,none,False
+high_plus_moderate,region:Insula,M22,24,24,6,0,,1.0,6.286809410520751,1.0,20,20,3,0,,1.0,11.678448699067255,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M23,24,24,6,0,,1.0,1.0273381954956196,1.0,20,20,3,0,,1.0,1.9084249084249085,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M24,24,24,6,0,,1.0,0.8654922685457037,1.0,20,20,3,0,,1.0,1.6077789894583787,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M25,24,24,6,0,,1.0,5.692068056554038,1.0,20,20,3,0,,1.0,10.573653760569648,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M26,24,24,6,0,,1.0,1.5929111465630854,1.0,20,20,3,0,,1.0,2.959036454978745,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M27,24,24,6,0,,1.0,1.2207967225486496,1.0,20,20,3,0,,1.0,2.2677945740314347,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M28,24,24,6,1,PRELID2,0.23392310741694347,6.010178338408003,1.0,20,20,3,0,,1.0,3.1427206985946237,1.0,PRELID2,,none,none,False
+high_plus_moderate,region:Insula,M29,24,24,6,0,,1.0,1.9968128176414852,1.0,20,20,3,0,,1.0,3.7093265077587585,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M3,24,24,6,0,,1.0,4.160711142404507,1.0,20,20,3,0,,1.0,7.728996404053612,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M30,24,24,6,0,,1.0,0.5667495521510121,1.0,20,20,3,0,,1.0,1.0528328119568995,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M31,24,24,6,0,,1.0,1.907906669964548,1.0,20,20,3,0,,1.0,3.5441739396723317,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M32,24,24,6,0,,1.0,6.286809410520751,1.0,20,20,3,0,,1.0,11.678448699067255,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M4,24,24,6,0,,1.0,2.1355573936219097,1.0,20,20,3,0,,1.0,3.967059225123741,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M5,24,24,6,0,,1.0,6.116542320555698,1.0,20,20,3,0,,1.0,11.362159579550882,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M6,24,24,6,1,DPP4,0.20637917592209387,6.95019501950195,1.0,20,20,3,1,DPP4,0.10913293596753966,15.294389438943893,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M7,24,24,6,0,,1.0,6.560518334711883,1.0,20,20,3,0,,1.0,12.186891961085509,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M8,24,24,6,0,,1.0,5.052844662262945,1.0,20,20,3,0,,1.0,9.386228729719035,1.0,,,none,none,False
+high_plus_moderate,region:Insula,M9,24,24,6,0,,1.0,5.586215008233357,1.0,20,20,3,0,,1.0,10.377020532983835,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M1,7,7,2,0,,1.0,6.517433751743376,1.0,6,6,1,0,,1.0,10.863319386331938,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M10,7,7,2,0,,1.0,17.442490842490844,1.0,6,6,1,0,,1.0,29.073260073260073,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M11,7,7,2,0,,1.0,9.609368635437882,1.0,6,6,1,0,,1.0,16.016972165648337,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M12,7,7,2,0,,1.0,52.72747252747253,1.0,6,6,1,0,,1.0,87.88644688644688,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M13,7,7,2,0,,1.0,29.348466257668715,1.0,6,6,1,0,,1.0,48.918200408997954,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M14,7,7,2,0,,1.0,18.540856031128406,1.0,6,6,1,0,,1.0,30.904020752269776,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M15,7,7,2,0,,1.0,13.760579710144928,1.0,6,6,1,0,,1.0,22.93623188405797,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M16,7,7,2,0,,1.0,23.76218905472637,1.0,6,6,1,0,,1.0,39.60696517412935,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M17,7,7,2,0,,1.0,4.760247167868178,1.0,6,6,1,0,,1.0,7.934431857191899,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M18,7,7,2,1,ZKSCAN2,0.031798913364997544,61.55064935064935,1.0,6,6,1,0,,1.0,20.41085271317829,1.0,ZKSCAN2,,nominal_p<0.05,none,True
+high_plus_moderate,region:Insula|direction:down_in_MDD,M19,7,7,2,0,,1.0,2.477265147304058,1.0,6,6,1,0,,1.0,4.129145821752826,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M2,7,7,2,0,,1.0,14.898432601880879,1.0,6,6,1,0,,1.0,24.832810867293624,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M20,7,7,2,0,,1.0,3.3130561633843914,1.0,6,6,1,0,,1.0,5.522246535375638,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M21,7,7,2,0,,1.0,10.526948775055681,1.0,6,6,1,0,,1.0,17.546399406087602,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M22,7,7,2,0,,1.0,16.351202749140892,1.0,6,6,1,0,,1.0,27.254295532646047,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M23,7,7,2,0,,1.0,2.6720333929636255,1.0,6,6,1,0,,1.0,4.453786523553965,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M24,7,7,2,0,,1.0,2.2510941475826973,1.0,6,6,1,0,,1.0,3.7521628498727733,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M25,7,7,2,0,,1.0,14.804361370716512,1.0,6,6,1,0,,1.0,24.67601246105919,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M26,7,7,2,0,,1.0,4.143011722272317,1.0,6,6,1,0,,1.0,6.905620679290652,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M27,7,7,2,0,,1.0,3.1751927119831818,1.0,6,6,1,0,,1.0,5.292455033870591,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M28,7,7,2,0,,1.0,4.400191021967527,1.0,6,6,1,0,,1.0,7.334288443170965,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M29,7,7,2,0,,1.0,5.193505039193729,1.0,6,6,1,0,,1.0,8.656588279208659,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M3,7,7,2,0,,1.0,10.821510297482838,1.0,6,6,1,0,,1.0,18.037376048817695,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M30,7,7,2,0,,1.0,1.4741049704553355,1.0,6,6,1,0,,1.0,2.4570733402850187,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M31,7,7,2,0,,1.0,4.9622722400857455,1.0,6,6,1,0,,1.0,8.271168274383708,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M32,7,7,2,0,,1.0,16.351202749140892,1.0,6,6,1,0,,1.0,27.254295532646047,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M4,7,7,2,0,,1.0,5.554360812425329,1.0,6,6,1,0,,1.0,9.25806451612903,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M5,7,7,2,0,,1.0,15.90836120401338,1.0,6,6,1,0,,1.0,26.516164994425864,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M6,7,7,2,1,DPP4,0.07414419931369678,25.492849284928493,1.0,6,6,1,1,DPP4,0.03778442119249294,76.48514851485149,1.0,,,none,nominal_p<0.05,True
+high_plus_moderate,region:Insula|direction:down_in_MDD,M7,7,7,2,0,,1.0,17.063082437275988,1.0,6,6,1,0,,1.0,28.440860215053764,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M8,7,7,2,0,,1.0,13.141828254847647,1.0,6,6,1,0,,1.0,21.904893813481067,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:down_in_MDD,M9,7,7,2,0,,1.0,14.529051987767586,1.0,6,6,1,0,,1.0,24.217125382262996,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M1,17,17,4,0,,1.0,3.620176662017666,1.0,14,14,2,0,,1.0,6.517433751743376,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M10,17,17,4,0,,1.0,9.688644688644688,1.0,14,14,2,0,,1.0,17.442490842490844,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M11,17,17,4,0,,1.0,5.337632948630912,1.0,14,14,2,0,,1.0,9.609368635437882,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M12,17,17,4,0,,1.0,29.288156288156284,1.0,14,14,2,0,,1.0,52.72747252747253,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M13,17,17,4,0,,1.0,16.301976823449216,1.0,14,14,2,0,,1.0,29.348466257668715,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M14,17,17,4,0,,1.0,10.298746217034154,1.0,14,14,2,0,,1.0,18.540856031128406,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M15,17,17,4,0,,1.0,7.643478260869565,1.0,14,14,2,0,,1.0,13.760579710144928,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M16,17,17,4,0,,1.0,13.199004975124376,1.0,14,14,2,0,,1.0,23.76218905472637,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M17,17,17,4,0,,1.0,2.6441240416523626,1.0,14,14,2,0,,1.0,4.760247167868178,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M18,17,17,4,0,,1.0,6.801894918173987,1.0,14,14,2,0,,1.0,12.245478036175712,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M19,17,17,4,0,,1.0,1.3760113643382126,1.0,14,14,2,0,,1.0,2.477265147304058,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M2,17,17,4,0,,1.0,8.275513758272378,1.0,14,14,2,0,,1.0,14.898432601880879,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M20,17,17,4,2,DECR2;ZNF324B,0.017952861077115,16.61375274323336,0.57449155446768,14,14,2,2,DECR2;ZNF324B,0.0032313611106248963,83.08339429407461,0.10340355553999668,,,nominal_p<0.05,nominal_p<0.05,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M21,17,17,4,1,KIF26A,0.07236452487074614,22.656759348034516,1.0,14,14,2,0,,1.0,10.526948775055681,1.0,KIF26A,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M22,17,17,4,0,,1.0,9.082474226804123,1.0,14,14,2,0,,1.0,16.351202749140892,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M23,17,17,4,0,,1.0,1.4841979725700656,1.0,14,14,2,0,,1.0,2.6720333929636255,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M24,17,17,4,0,,1.0,1.250381679389313,1.0,14,14,2,0,,1.0,2.2510941475826973,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M25,17,17,4,0,,1.0,8.22326064382139,1.0,14,14,2,0,,1.0,14.804361370716512,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M26,17,17,4,0,,1.0,2.3012724175934274,1.0,14,14,2,0,,1.0,4.143011722272317,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M27,17,17,4,0,,1.0,1.763684497391575,1.0,14,14,2,0,,1.0,3.1751927119831818,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M28,17,17,4,1,PRELID2,0.1627506966022006,9.446206425153793,1.0,14,14,2,0,,1.0,4.400191021967527,1.0,PRELID2,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M29,17,17,4,0,,1.0,2.884782879183775,1.0,14,14,2,0,,1.0,5.193505039193729,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M3,17,17,4,0,,1.0,6.010933129926264,1.0,14,14,2,0,,1.0,10.821510297482838,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M30,17,17,4,0,,1.0,0.8187927239022129,1.0,14,14,2,0,,1.0,1.4741049704553355,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M31,17,17,4,0,,1.0,2.756341550553769,1.0,14,14,2,0,,1.0,4.9622722400857455,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M32,17,17,4,0,,1.0,9.082474226804123,1.0,14,14,2,0,,1.0,16.351202749140892,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M4,17,17,4,0,,1.0,3.085225009956193,1.0,14,14,2,0,,1.0,5.554360812425329,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M5,17,17,4,0,,1.0,8.836492010405054,1.0,14,14,2,0,,1.0,15.90836120401338,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M6,17,17,4,0,,1.0,2.8255884864007803,1.0,14,14,2,0,,1.0,5.086937431394072,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M7,17,17,4,0,,1.0,9.4778972520908,1.0,14,14,2,0,,1.0,17.063082437275988,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M8,17,17,4,0,,1.0,7.299784549092028,1.0,14,14,2,0,,1.0,13.141828254847647,1.0,,,none,none,False
+high_plus_moderate,region:Insula|direction:up_in_MDD,M9,17,17,4,0,,1.0,8.070336391437309,1.0,14,14,2,0,,1.0,14.529051987767586,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M1,31,31,14,0,,1.0,1.122541239840331,1.0,27,27,12,0,,1.0,1.302370990237099,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M10,31,31,14,0,,1.0,3.004294556018694,1.0,27,27,12,0,,1.0,3.4855677655677657,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M11,31,31,14,0,,1.0,1.6551021841421447,1.0,27,27,12,0,,1.0,1.920244399185336,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M12,31,31,14,0,,1.0,9.081849185297461,1.0,27,27,12,0,,1.0,10.536703296703298,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M13,31,31,14,0,,1.0,5.055003173259996,1.0,27,27,12,0,,1.0,5.864785276073619,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M14,31,31,14,0,,1.0,3.1934791359184223,1.0,27,27,12,0,,1.0,3.705058365758755,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M15,31,31,14,1,QPRT,0.18251130904464877,7.682215743440233,1.0,27,27,12,1,QPRT,0.15862299257066978,9.019774369375078,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M16,31,31,14,0,,1.0,4.0928118030536975,1.0,27,27,12,0,,1.0,4.748457711442787,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M17,31,31,14,0,,1.0,0.8198799673283852,1.0,27,27,12,0,,1.0,0.9512255406797117,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M18,31,31,14,0,,1.0,2.1091508509311234,1.0,27,27,12,0,,1.0,2.44702842377261,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M19,31,31,14,1,DEXI,0.66272502300668,1.3764298522228406,1.0,27,27,12,0,,1.0,0.4950083379655364,1.0,DEXI,,none,none,False
+high_plus_moderate,region:OFC BA11,M2,31,31,14,0,,1.0,2.566100962058156,1.0,27,27,12,0,,1.0,2.97717868338558,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M20,31,31,14,0,,1.0,0.5706129429814633,1.0,27,27,12,0,,1.0,0.6620277169948943,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M21,31,31,14,1,TCN2,0.23127177698259846,5.869003231419338,1.0,27,27,12,1,TCN2,0.2018230022239665,6.890866647213306,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M22,31,31,14,0,,1.0,2.8163289489275978,1.0,27,27,12,0,,1.0,3.267491408934708,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M23,31,31,14,0,,1.0,0.4602019205066518,1.0,27,27,12,0,,1.0,0.5339296362552177,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M24,31,31,14,0,,1.0,0.3876985171536369,1.0,27,27,12,0,,1.0,0.4498117048346056,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M25,31,31,14,0,,1.0,2.5498979482221507,1.0,27,27,12,0,,1.0,2.958380062305296,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M26,31,31,14,0,,1.0,0.7135661204564534,1.0,27,27,12,0,,1.0,0.8278809738503156,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M27,31,31,14,1,STAP2,0.5747007217837441,1.764756335282651,1.0,27,27,12,1,STAP2,0.5194201658343275,2.0720366132723114,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M28,31,31,14,2,C9ORF163;NOL6,0.1214694421440396,4.413231064237776,1.0,27,27,12,2,C9ORF163;NOL6,0.09319205176598577,5.254759621969593,0.9940485521705149,,,none,none,False
+high_plus_moderate,region:OFC BA11,M29,31,31,14,0,,1.0,0.894505155037263,1.0,27,27,12,0,,1.0,1.037805151175812,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M3,31,31,14,0,,1.0,1.8638838475499093,1.0,27,27,12,0,,1.0,2.1624713958810067,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M30,31,31,14,3,GCC1;TRPV3;TSPO,0.22919872644596592,2.245983069071525,1.0,27,27,12,2,GCC1;TRPV3,0.42888866670610637,1.7560041768186565,1.0,TSPO,,none,none,False
+high_plus_moderate,region:OFC BA11,M31,31,31,14,2,MYBPC1;NINJ1,0.10008326154521512,4.979332615715824,1.0,27,27,12,2,MYBPC1;NINJ1,0.07632630733563384,5.928802091342457,0.9940485521705149,,,none,none,False
+high_plus_moderate,region:OFC BA11,M32,31,31,14,0,,1.0,2.8163289489275978,1.0,27,27,12,0,,1.0,3.267491408934708,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M4,31,31,14,0,,1.0,0.9566596630000411,1.0,27,27,12,0,,1.0,1.109916367980884,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M5,31,31,14,0,,1.0,2.740053050397878,1.0,27,27,12,0,,1.0,3.178996655518395,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M6,31,31,14,0,,1.0,0.8761497407169082,1.0,27,27,12,0,,1.0,1.0165093304061472,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M7,31,31,14,0,,1.0,2.9389445062415027,1.0,27,27,12,0,,1.0,3.4097491039426524,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M8,31,31,14,1,RAB24,0.19019525601162518,7.33488084184463,1.0,27,27,12,1,RAB24,0.16540569092731208,8.611965604941261,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11,M9,31,31,14,2,FHL1;ZNF461,0.014893301305381444,14.696594427244582,0.4765856417722062,27,27,12,2,FHL1;ZNF461,0.010994701085948948,17.49889429455993,0.35183043475036635,,,nominal_p<0.05,nominal_p<0.05,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M1,14,14,4,0,,1.0,3.620176662017666,1.0,12,12,4,0,,1.0,3.620176662017666,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M10,14,14,4,0,,1.0,9.688644688644688,1.0,12,12,4,0,,1.0,9.688644688644688,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M11,14,14,4,0,,1.0,5.337632948630912,1.0,12,12,4,0,,1.0,5.337632948630912,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M12,14,14,4,0,,1.0,29.288156288156284,1.0,12,12,4,0,,1.0,29.288156288156284,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M13,14,14,4,0,,1.0,16.301976823449216,1.0,12,12,4,0,,1.0,16.301976823449216,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M14,14,14,4,0,,1.0,10.298746217034154,1.0,12,12,4,0,,1.0,10.298746217034154,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M15,14,14,4,0,,1.0,7.643478260869565,1.0,12,12,4,0,,1.0,7.643478260869565,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M16,14,14,4,0,,1.0,13.199004975124376,1.0,12,12,4,0,,1.0,13.199004975124376,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M17,14,14,4,0,,1.0,2.6441240416523626,1.0,12,12,4,0,,1.0,2.6441240416523626,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M18,14,14,4,0,,1.0,6.801894918173987,1.0,12,12,4,0,,1.0,6.801894918173987,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M19,14,14,4,0,,1.0,1.3760113643382126,1.0,12,12,4,0,,1.0,1.3760113643382126,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M2,14,14,4,0,,1.0,8.275513758272378,1.0,12,12,4,0,,1.0,8.275513758272378,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M20,14,14,4,0,,1.0,1.8402625820568927,1.0,12,12,4,0,,1.0,1.8402625820568927,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M21,14,14,4,0,,1.0,5.8473150210343965,1.0,12,12,4,0,,1.0,5.8473150210343965,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M22,14,14,4,0,,1.0,9.082474226804123,1.0,12,12,4,0,,1.0,9.082474226804123,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M23,14,14,4,0,,1.0,1.4841979725700656,1.0,12,12,4,0,,1.0,1.4841979725700656,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M24,14,14,4,0,,1.0,1.250381679389313,1.0,12,12,4,0,,1.0,1.250381679389313,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M25,14,14,4,0,,1.0,8.22326064382139,1.0,12,12,4,0,,1.0,8.22326064382139,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M26,14,14,4,0,,1.0,2.3012724175934274,1.0,12,12,4,0,,1.0,2.3012724175934274,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M27,14,14,4,0,,1.0,1.763684497391575,1.0,12,12,4,0,,1.0,1.763684497391575,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M28,14,14,4,1,NOL6,0.1627506966022006,9.446206425153793,1.0,12,12,4,1,NOL6,0.1627506966022006,9.446206425153793,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M29,14,14,4,0,,1.0,2.884782879183775,1.0,12,12,4,0,,1.0,2.884782879183775,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M3,14,14,4,0,,1.0,6.010933129926264,1.0,12,12,4,0,,1.0,6.010933129926264,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M30,14,14,4,2,GCC1;TRPV3,0.07251768688447505,7.3807866341803,1.0,12,12,4,2,GCC1;TRPV3,0.07251768688447505,7.3807866341803,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M31,14,14,4,0,,1.0,2.756341550553769,1.0,12,12,4,0,,1.0,2.756341550553769,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M32,14,14,4,0,,1.0,9.082474226804123,1.0,12,12,4,0,,1.0,9.082474226804123,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M4,14,14,4,0,,1.0,3.085225009956193,1.0,12,12,4,0,,1.0,3.085225009956193,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M5,14,14,4,0,,1.0,8.836492010405054,1.0,12,12,4,0,,1.0,8.836492010405054,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M6,14,14,4,0,,1.0,2.8255884864007803,1.0,12,12,4,0,,1.0,2.8255884864007803,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M7,14,14,4,0,,1.0,9.4778972520908,1.0,12,12,4,0,,1.0,9.4778972520908,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M8,14,14,4,0,,1.0,7.299784549092028,1.0,12,12,4,0,,1.0,7.299784549092028,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:down_in_MDD,M9,14,14,4,1,ZNF461,0.0530608592675584,31.322637362637362,1.0,12,12,4,1,ZNF461,0.0530608592675584,31.322637362637362,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M1,17,17,10,0,,1.0,1.5507073122135884,1.0,15,15,8,0,,1.0,1.9159077857084255,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M10,17,17,10,0,,1.0,4.15018315018315,1.0,15,15,8,0,,1.0,5.1275587157940095,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M11,17,17,10,0,,1.0,2.286393172340219,1.0,15,15,8,0,,1.0,2.824847250509165,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M12,17,17,10,0,,1.0,12.545787545787546,1.0,15,15,8,0,,1.0,15.50032320620556,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M13,17,17,10,0,,1.0,6.98305579900672,1.0,15,15,8,0,,1.0,8.627571273908336,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M14,17,17,10,0,,1.0,4.411524921252547,1.0,15,15,8,0,,1.0,5.4504463263904785,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M15,17,17,10,1,QPRT,0.13404079771611332,10.920515574650912,1.0,15,15,8,1,QPRT,0.10874469081861746,13.834985422740527,0.8928902962485227,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M16,17,17,10,0,,1.0,5.6538734896943845,1.0,15,15,8,0,,1.0,6.985367281240855,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M17,17,17,10,0,,1.0,1.1326075229267814,1.0,15,15,8,0,,1.0,1.3993457321136489,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M18,17,17,10,0,,1.0,2.913621262458472,1.0,15,15,8,0,,1.0,3.5997872017023864,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M19,17,17,10,1,DEXI,0.5398450801073096,1.9566821896142694,1.0,15,15,8,0,,1.0,0.7282150214171271,1.0,DEXI,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M2,17,17,10,0,,1.0,3.544857441409165,1.0,15,15,8,0,,1.0,4.379679144385026,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M20,17,17,10,0,,1.0,0.7882671668229655,1.0,15,15,8,0,,1.0,0.9739134165701291,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M21,17,17,10,1,TCN2,0.17125131890857537,8.342988343341576,1.0,15,15,8,1,TCN2,0.13951410878883166,10.56957494407159,0.8928902962485227,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M22,17,17,10,0,,1.0,3.8905252822778595,1.0,15,15,8,0,,1.0,4.806751566606024,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M23,17,17,10,0,,1.0,0.6357441008603799,1.0,15,15,8,0,,1.0,0.7854712546915009,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M24,17,17,10,0,,1.0,0.5355870592511813,1.0,15,15,8,0,,1.0,0.661727286334381,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M25,17,17,10,0,,1.0,3.522474410324877,1.0,15,15,8,0,,1.0,4.35202492211838,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M26,17,17,10,0,,1.0,0.9857443428227918,1.0,15,15,8,0,,1.0,1.21789635601761,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M27,17,17,10,1,STAP2,0.4569655978668324,2.5086980609418283,1.0,15,15,8,1,STAP2,0.38640748898205673,3.178245614035088,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M28,17,17,10,1,C9ORF163,0.35866073700361106,3.478368169226895,1.0,15,15,8,1,C9ORF163,0.2990559159060549,4.4066985645933014,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M29,17,17,10,0,,1.0,1.2356956220338078,1.0,15,15,8,0,,1.0,1.5267110203543905,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M3,17,17,10,0,,1.0,2.57480658167157,1.0,15,15,8,0,,1.0,3.181181854892987,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M30,17,17,10,1,TSPO,0.7197854030780835,1.1638077803203661,1.0,15,15,8,0,,1.0,0.43331493181214087,1.0,TSPO,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M31,17,17,10,2,MYBPC1;NINJ1,0.05474042343629702,7.3250807319698605,1.0,15,15,8,2,MYBPC1;NINJ1,0.03584037891272462,9.58060776682951,0.8928902962485227,,,none,nominal_p<0.05,True
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M32,17,17,10,0,,1.0,3.8905252822778595,1.0,15,15,8,0,,1.0,4.806751566606024,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M4,17,17,10,0,,1.0,1.3215565796210957,1.0,15,15,8,0,,1.0,1.632792184974348,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M5,17,17,10,0,,1.0,3.7851568721133937,1.0,15,15,8,0,,1.0,4.676568955341334,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M6,17,17,10,0,,1.0,1.2103392399770005,1.0,15,15,8,0,,1.0,1.4953832246400207,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M7,17,17,10,0,,1.0,4.059907834101383,1.0,15,15,8,0,,1.0,5.016023613746574,1.0,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M8,17,17,10,1,RAB24,0.1398616170350945,10.426770268289106,1.0,15,15,8,1,RAB24,0.11354020185979768,13.209470752089137,0.8928902962485227,,,none,none,False
+high_plus_moderate,region:OFC BA11|direction:up_in_MDD,M9,17,17,10,1,FHL1,0.12745001871036196,11.53408906882591,1.0,15,15,8,1,FHL1,0.10332262149656293,14.612307692307693,0.8928902962485227,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M1,26,26,9,0,,1.0,1.714086471408647,1.0,23,23,7,0,,1.0,2.1715481171548117,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M10,26,26,9,1,ADRA2B,0.09720226588579707,15.496201432602561,0.8664160162810981,23,23,7,1,ADRA2B,0.07644634147237138,20.267669599772923,0.766580024615737,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M11,26,26,9,0,,1.0,2.5272805231000106,1.0,23,23,7,0,,1.0,3.2017651052274267,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M12,26,26,9,0,,1.0,13.867553499132447,1.0,23,23,7,0,,1.0,17.568498168498166,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M13,26,26,9,0,,1.0,7.718760090410074,1.0,23,23,7,0,,1.0,9.778732106339469,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M14,26,26,9,0,,1.0,4.876305549866885,1.0,23,23,7,0,,1.0,6.17769130998703,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M15,26,26,9,1,LIMS3,0.12148325764421139,12.20631109586692,0.8664160162810981,23,23,7,1,LIMS3,0.09582250307696713,15.964790311729088,0.766580024615737,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M16,26,26,9,0,,1.0,6.24954176485991,1.0,23,23,7,0,,1.0,7.917412935323384,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M17,26,26,9,0,,1.0,1.2519377744051168,1.0,23,23,7,0,,1.0,1.586062478544456,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M18,26,26,9,1,ZKSCAN2,0.13537750254392159,10.855462184873952,0.8664160162810981,23,23,7,0,,1.0,4.080103359173127,1.0,ZKSCAN2,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M19,26,26,9,1,MRPL2,0.5026904840067592,2.1870765000491015,1.0,23,23,7,1,MRPL2,0.4191507570636404,2.86053679208938,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M2,26,26,9,0,,1.0,3.9183303085299452,1.0,23,23,7,0,,1.0,4.96405433646813,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M20,26,26,9,0,,1.0,0.8713194364466966,1.0,23,23,7,0,,1.0,1.1038657913931438,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M21,26,26,9,0,,1.0,2.768608603915133,1.0,23,23,7,0,,1.0,3.507498144023756,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M22,26,26,9,0,,1.0,4.300415988424669,1.0,23,23,7,0,,1.0,5.448109965635739,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M23,26,26,9,0,,1.0,0.702727301258513,1.0,23,23,7,0,,1.0,0.8902802623732856,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M24,26,26,9,1,MOSPD3,0.5350639702603701,1.9872044589613738,1.0,23,23,7,1,MOSPD3,0.448775822396357,2.599122222657628,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M25,26,26,9,0,,1.0,3.8935891129693387,1.0,23,23,7,0,,1.0,4.932710280373832,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M26,26,26,9,3,MORN5;RPGR;TSGA10,0.006606757115091591,11.211032847478904,0.21141622768293092,23,23,7,2,MORN5;RPGR,0.03803833679828832,9.447552447552447,0.766580024615737,TSGA10,,nominal_p<0.05,nominal_p<0.05,False
+high_plus_moderate,region:Ventral Striatum,M27,26,26,9,0,,1.0,0.8350606720023604,1.0,23,23,7,0,,1.0,1.057930390095772,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M28,26,26,9,0,,1.0,1.15724124063741,1.0,23,23,7,0,,1.0,1.466093600764088,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M29,26,26,9,0,,1.0,1.3658867212824894,1.0,23,23,7,0,,1.0,1.730421799178798,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M3,26,26,9,0,,1.0,2.846079730217993,1.0,23,23,7,0,,1.0,3.6056445461479787,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M30,26,26,9,0,,1.0,0.38766624590673765,1.0,23,23,7,0,,1.0,0.49113660062565173,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M31,26,26,9,0,,1.0,1.3050713600722061,1.0,23,23,7,0,,1.0,1.6533762057877812,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M32,26,26,9,0,,1.0,4.300415988424669,1.0,23,23,7,0,,1.0,5.448109965635739,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M4,26,26,9,0,,1.0,1.4607935609633402,1.0,23,23,7,0,,1.0,1.8506571087216248,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M5,26,26,9,1,N4BP1,0.10603834610555,14.124183006535949,0.8664160162810981,23,23,7,1,N4BP1,0.08348393864137046,18.473193473193476,0.766580024615737,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M6,26,26,9,0,,1.0,1.3378589173262465,1.0,23,23,7,0,,1.0,1.6949140139041348,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M7,26,26,9,0,,1.0,4.487643840784758,1.0,23,23,7,0,,1.0,5.6853046594982075,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M8,26,26,9,0,,1.0,3.456334742673859,1.0,23,23,7,0,,1.0,4.37876269621422,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum,M9,26,26,9,0,,1.0,3.8211813938516013,1.0,23,23,7,0,,1.0,4.840978593272172,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M1,7,7,2,0,,1.0,6.517433751743376,1.0,6,6,1,0,,1.0,10.863319386331938,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M10,7,7,2,0,,1.0,17.442490842490844,1.0,6,6,1,0,,1.0,29.073260073260073,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M11,7,7,2,0,,1.0,9.609368635437882,1.0,6,6,1,0,,1.0,16.016972165648337,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M12,7,7,2,0,,1.0,52.72747252747253,1.0,6,6,1,0,,1.0,87.88644688644688,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M13,7,7,2,0,,1.0,29.348466257668715,1.0,6,6,1,0,,1.0,48.918200408997954,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M14,7,7,2,0,,1.0,18.540856031128406,1.0,6,6,1,0,,1.0,30.904020752269776,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M15,7,7,2,0,,1.0,13.760579710144928,1.0,6,6,1,0,,1.0,22.93623188405797,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M16,7,7,2,0,,1.0,23.76218905472637,1.0,6,6,1,0,,1.0,39.60696517412935,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M17,7,7,2,0,,1.0,4.760247167868178,1.0,6,6,1,0,,1.0,7.934431857191899,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M18,7,7,2,1,ZKSCAN2,0.031798913364997544,61.55064935064935,0.5087826138399607,6,6,1,0,,1.0,20.41085271317829,1.0,ZKSCAN2,,nominal_p<0.05,none,True
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M19,7,7,2,0,,1.0,2.477265147304058,1.0,6,6,1,0,,1.0,4.129145821752826,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M2,7,7,2,0,,1.0,14.898432601880879,1.0,6,6,1,0,,1.0,24.832810867293624,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M20,7,7,2,0,,1.0,3.3130561633843914,1.0,6,6,1,0,,1.0,5.522246535375638,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M21,7,7,2,0,,1.0,10.526948775055681,1.0,6,6,1,0,,1.0,17.546399406087602,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M22,7,7,2,0,,1.0,16.351202749140892,1.0,6,6,1,0,,1.0,27.254295532646047,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M23,7,7,2,0,,1.0,2.6720333929636255,1.0,6,6,1,0,,1.0,4.453786523553965,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M24,7,7,2,0,,1.0,2.2510941475826973,1.0,6,6,1,0,,1.0,3.7521628498727733,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M25,7,7,2,0,,1.0,14.804361370716512,1.0,6,6,1,0,,1.0,24.67601246105919,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M26,7,7,2,0,,1.0,4.143011722272317,1.0,6,6,1,0,,1.0,6.905620679290652,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M27,7,7,2,0,,1.0,3.1751927119831818,1.0,6,6,1,0,,1.0,5.292455033870591,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M28,7,7,2,0,,1.0,4.400191021967527,1.0,6,6,1,0,,1.0,7.334288443170965,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M29,7,7,2,0,,1.0,5.193505039193729,1.0,6,6,1,0,,1.0,8.656588279208659,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M3,7,7,2,0,,1.0,10.821510297482838,1.0,6,6,1,0,,1.0,18.037376048817695,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M30,7,7,2,0,,1.0,1.4741049704553355,1.0,6,6,1,0,,1.0,2.4570733402850187,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M31,7,7,2,0,,1.0,4.9622722400857455,1.0,6,6,1,0,,1.0,8.271168274383708,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M32,7,7,2,0,,1.0,16.351202749140892,1.0,6,6,1,0,,1.0,27.254295532646047,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M4,7,7,2,0,,1.0,5.554360812425329,1.0,6,6,1,0,,1.0,9.25806451612903,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M5,7,7,2,1,N4BP1,0.024594634666053578,80.08417508417509,0.5087826138399607,6,6,1,1,N4BP1,0.012373359906992194,240.27272727272728,0.3959475170237502,,,nominal_p<0.05,nominal_p<0.05,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M6,7,7,2,0,,1.0,5.086937431394072,1.0,6,6,1,0,,1.0,8.478960848884011,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M7,7,7,2,0,,1.0,17.063082437275988,1.0,6,6,1,0,,1.0,28.440860215053764,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M8,7,7,2,0,,1.0,13.141828254847647,1.0,6,6,1,0,,1.0,21.904893813481067,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,M9,7,7,2,0,,1.0,14.529051987767586,1.0,6,6,1,0,,1.0,24.217125382262996,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M1,19,19,7,0,,1.0,2.1715481171548117,1.0,17,17,6,0,,1.0,2.505847012123163,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M10,19,19,7,1,ADRA2B,0.07644634147237138,20.267669599772923,1.0,17,17,6,1,ADRA2B,0.06589144251776988,23.954713183495468,0.8822833419054857,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M11,19,19,7,0,,1.0,3.2017651052274267,1.0,17,17,6,0,,1.0,3.6946576844743855,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M12,19,19,7,0,,1.0,17.568498168498166,1.0,17,17,6,0,,1.0,20.273034657650044,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M13,19,19,7,0,,1.0,9.778732106339469,1.0,17,17,6,0,,1.0,11.284096271826334,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M14,19,19,7,0,,1.0,6.17769130998703,1.0,17,17,6,0,,1.0,7.128703980844059,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M15,19,19,7,1,LIMS3,0.09582250307696713,15.964790311729088,1.0,17,17,6,1,LIMS3,0.08271406330363928,18.8690697058044,0.8822833419054857,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M16,19,19,7,0,,1.0,7.917412935323384,1.0,17,17,6,0,,1.0,9.136241867585152,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M17,19,19,7,0,,1.0,1.586062478544456,1.0,17,17,6,0,,1.0,1.8302305315693577,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M18,19,19,7,0,,1.0,4.080103359173127,1.0,17,17,6,0,,1.0,4.708209103557941,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M19,19,19,7,1,MRPL2,0.4191507570636404,2.86053679208938,1.0,17,17,6,1,MRPL2,0.37226349214492027,3.380937926847776,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M2,19,19,7,0,,1.0,4.96405433646813,1.0,17,17,6,0,,1.0,5.7282372799614185,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M20,19,19,7,0,,1.0,1.1038657913931438,1.0,17,17,6,0,,1.0,1.2738035123155473,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M21,19,19,7,0,,1.0,3.507498144023756,1.0,17,17,6,0,,1.0,4.047455884872367,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M22,19,19,7,0,,1.0,5.448109965635739,1.0,17,17,6,0,,1.0,6.286809410520751,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M23,19,19,7,0,,1.0,0.8902802623732856,1.0,17,17,6,0,,1.0,1.0273381954956196,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M24,19,19,7,1,MOSPD3,0.448775822396357,2.599122222657628,1.0,17,17,6,1,MOSPD3,0.39980692947010593,3.0719677673320054,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M25,19,19,7,0,,1.0,4.932710280373832,1.0,17,17,6,0,,1.0,5.692068056554038,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M26,19,19,7,3,MORN5;RPGR;TSGA10,0.0029497905942424685,16.19653470333434,0.09439329901575899,17,17,6,2,MORN5;RPGR,0.02801303788284664,11.548014077425842,0.8822833419054857,TSGA10,,FDR<0.10,nominal_p<0.05,True
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M27,19,19,7,0,,1.0,1.057930390095772,1.0,17,17,6,0,,1.0,1.2207967225486496,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M28,19,19,7,0,,1.0,1.466093600764088,1.0,17,17,6,0,,1.0,1.6917934023951215,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M29,19,19,7,0,,1.0,1.730421799178798,1.0,17,17,6,0,,1.0,1.9968128176414852,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M3,19,19,7,0,,1.0,3.6056445461479787,1.0,17,17,6,0,,1.0,4.160711142404507,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M30,19,19,7,0,,1.0,0.49113660062565173,1.0,17,17,6,0,,1.0,0.5667495521510121,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M31,19,19,7,0,,1.0,1.6533762057877812,1.0,17,17,6,0,,1.0,1.907906669964548,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M32,19,19,7,0,,1.0,5.448109965635739,1.0,17,17,6,0,,1.0,6.286809410520751,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M4,19,19,7,0,,1.0,1.8506571087216248,1.0,17,17,6,0,,1.0,2.1355573936219097,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M5,19,19,7,0,,1.0,5.300557413600892,1.0,17,17,6,0,,1.0,6.116542320555698,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M6,19,19,7,0,,1.0,1.6949140139041348,1.0,17,17,6,0,,1.0,1.9558388921725915,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M7,19,19,7,0,,1.0,5.6853046594982075,1.0,17,17,6,0,,1.0,6.560518334711883,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M8,19,19,7,0,,1.0,4.37876269621422,1.0,17,17,6,0,,1.0,5.052844662262945,1.0,,,none,none,False
+high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,M9,19,19,7,0,,1.0,4.840978593272172,1.0,17,17,6,0,,1.0,5.586215008233357,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M1,19,19,5,0,,1.0,2.9617091416254597,1.0,17,17,5,0,,1.0,2.9617091416254597,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M10,19,19,5,1,GPR6,0.05521681317422033,29.28044280442804,1.0,17,17,5,1,GPR6,0.05521681317422033,29.28044280442804,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M11,19,19,5,0,,1.0,4.366783928902056,1.0,17,17,5,0,,1.0,4.366783928902056,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M12,19,19,5,0,,1.0,23.961038961038962,1.0,17,17,5,0,,1.0,23.961038961038962,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M13,19,19,5,0,,1.0,13.336865588399332,1.0,17,17,5,0,,1.0,13.336865588399332,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M14,19,19,5,0,,1.0,8.425539441103643,1.0,17,17,5,0,,1.0,8.425539441103643,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M15,19,19,5,0,,1.0,6.2532279314888015,1.0,17,17,5,0,,1.0,6.2532279314888015,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M16,19,19,5,0,,1.0,10.79828132066938,1.0,17,17,5,0,,1.0,10.79828132066938,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M17,19,19,5,0,,1.0,2.1631869675124054,1.0,17,17,5,0,,1.0,2.1631869675124054,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M18,19,19,5,0,,1.0,5.56471693680996,1.0,17,17,5,0,,1.0,5.56471693680996,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M19,19,19,5,0,,1.0,1.125726413664157,1.0,17,17,5,0,,1.0,1.125726413664157,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M2,19,19,5,0,,1.0,6.770304930179538,1.0,17,17,5,0,,1.0,6.770304930179538,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M20,19,19,5,0,,1.0,1.505536768118825,1.0,17,17,5,0,,1.0,1.505536768118825,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M21,19,19,5,0,,1.0,4.78376189512047,1.0,17,17,5,0,,1.0,4.78376189512047,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M22,19,19,5,0,,1.0,7.430490471727586,1.0,17,17,5,0,,1.0,7.430490471727586,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M23,19,19,5,0,,1.0,1.2142353770260748,1.0,17,17,5,0,,1.0,1.2142353770260748,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M24,19,19,5,1,PPT2,0.3464926286776721,3.754966887417218,1.0,17,17,5,1,PPT2,0.3464926286776721,3.754966887417218,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M25,19,19,5,0,,1.0,6.727555933163409,1.0,17,17,5,0,,1.0,6.727555933163409,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M26,19,19,5,0,,1.0,1.88269530289368,1.0,17,17,5,0,,1.0,1.88269530289368,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M27,19,19,5,1,CCL3L3,0.26304313976692484,5.298479532163743,1.0,17,17,5,1,CCL3L3,0.26304313976692484,5.298479532163743,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M28,19,19,5,1,NOL6,0.19912562480265317,7.346411483253588,1.0,17,17,5,1,NOL6,0.19912562480265317,7.346411483253588,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M29,19,19,5,1,HNRNPA1,0.17199293127049595,8.673774784885895,1.0,17,17,5,1,HNRNPA1,0.17199293127049595,8.673774784885895,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M3,19,19,5,0,,1.0,4.917620137299771,1.0,17,17,5,0,,1.0,4.917620137299771,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M30,19,19,5,0,,1.0,0.6698581224128669,1.0,17,17,5,0,,1.0,0.6698581224128669,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M31,19,19,5,0,,1.0,2.2549936665692294,1.0,17,17,5,0,,1.0,2.2549936665692294,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M32,19,19,5,0,,1.0,7.430490471727586,1.0,17,17,5,0,,1.0,7.430490471727586,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M4,19,19,5,0,,1.0,2.5240577821222985,1.0,17,17,5,0,,1.0,2.5240577821222985,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M5,19,19,5,0,,1.0,7.229249011857708,1.0,17,17,5,0,,1.0,7.229249011857708,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M6,19,19,5,0,,1.0,2.3116455443568507,1.0,17,17,5,0,,1.0,2.3116455443568507,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M7,19,19,5,0,,1.0,7.753991528185077,1.0,17,17,5,0,,1.0,7.753991528185077,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M8,19,19,5,0,,1.0,5.972047343238479,1.0,17,17,5,0,,1.0,5.972047343238479,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9,M9,19,19,5,0,,1.0,6.602446483180429,1.0,17,17,5,0,,1.0,6.602446483180429,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M1,6,6,2,0,,1.0,6.517433751743376,1.0,5,5,2,0,,1.0,6.517433751743376,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M10,6,6,2,0,,1.0,17.442490842490844,1.0,5,5,2,0,,1.0,17.442490842490844,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M11,6,6,2,0,,1.0,9.609368635437882,1.0,5,5,2,0,,1.0,9.609368635437882,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M12,6,6,2,0,,1.0,52.72747252747253,1.0,5,5,2,0,,1.0,52.72747252747253,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M13,6,6,2,0,,1.0,29.348466257668715,1.0,5,5,2,0,,1.0,29.348466257668715,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M14,6,6,2,0,,1.0,18.540856031128406,1.0,5,5,2,0,,1.0,18.540856031128406,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M15,6,6,2,0,,1.0,13.760579710144928,1.0,5,5,2,0,,1.0,13.760579710144928,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M16,6,6,2,0,,1.0,23.76218905472637,1.0,5,5,2,0,,1.0,23.76218905472637,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M17,6,6,2,0,,1.0,4.760247167868178,1.0,5,5,2,0,,1.0,4.760247167868178,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M18,6,6,2,0,,1.0,12.245478036175712,1.0,5,5,2,0,,1.0,12.245478036175712,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M19,6,6,2,0,,1.0,2.477265147304058,1.0,5,5,2,0,,1.0,2.477265147304058,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M2,6,6,2,0,,1.0,14.898432601880879,1.0,5,5,2,0,,1.0,14.898432601880879,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M20,6,6,2,0,,1.0,3.3130561633843914,1.0,5,5,2,0,,1.0,3.3130561633843914,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M21,6,6,2,0,,1.0,10.526948775055681,1.0,5,5,2,0,,1.0,10.526948775055681,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M22,6,6,2,0,,1.0,16.351202749140892,1.0,5,5,2,0,,1.0,16.351202749140892,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M23,6,6,2,0,,1.0,2.6720333929636255,1.0,5,5,2,0,,1.0,2.6720333929636255,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M24,6,6,2,0,,1.0,2.2510941475826973,1.0,5,5,2,0,,1.0,2.2510941475826973,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M25,6,6,2,0,,1.0,14.804361370716512,1.0,5,5,2,0,,1.0,14.804361370716512,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M26,6,6,2,0,,1.0,4.143011722272317,1.0,5,5,2,0,,1.0,4.143011722272317,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M27,6,6,2,1,CCL3L3,0.11491773643174891,15.899649122807016,1.0,5,5,2,1,CCL3L3,0.11491773643174891,15.899649122807016,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M28,6,6,2,1,NOL6,0.08497981782086202,22.044976076555024,1.0,5,5,2,1,NOL6,0.08497981782086202,22.044976076555024,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M29,6,6,2,0,,1.0,5.193505039193729,1.0,5,5,2,0,,1.0,5.193505039193729,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M3,6,6,2,0,,1.0,10.821510297482838,1.0,5,5,2,0,,1.0,10.821510297482838,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M30,6,6,2,0,,1.0,1.4741049704553355,1.0,5,5,2,0,,1.0,1.4741049704553355,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M31,6,6,2,0,,1.0,4.9622722400857455,1.0,5,5,2,0,,1.0,4.9622722400857455,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M32,6,6,2,0,,1.0,16.351202749140892,1.0,5,5,2,0,,1.0,16.351202749140892,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M4,6,6,2,0,,1.0,5.554360812425329,1.0,5,5,2,0,,1.0,5.554360812425329,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M5,6,6,2,0,,1.0,15.90836120401338,1.0,5,5,2,0,,1.0,15.90836120401338,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M6,6,6,2,0,,1.0,5.086937431394072,1.0,5,5,2,0,,1.0,5.086937431394072,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M7,6,6,2,0,,1.0,17.063082437275988,1.0,5,5,2,0,,1.0,17.063082437275988,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M8,6,6,2,0,,1.0,13.141828254847647,1.0,5,5,2,0,,1.0,13.141828254847647,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,M9,6,6,2,0,,1.0,14.529051987767586,1.0,5,5,2,0,,1.0,14.529051987767586,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M1,13,13,3,0,,1.0,4.654911336919705,1.0,12,12,3,0,,1.0,4.654911336919705,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M10,13,13,3,1,GPR6,0.033502956266240044,52.71365313653136,1.0,12,12,3,1,GPR6,0.033502956266240044,52.71365313653136,1.0,,,nominal_p<0.05,nominal_p<0.05,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M11,13,13,3,0,,1.0,6.863252836776258,1.0,12,12,3,0,,1.0,6.863252836776258,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M12,13,13,3,0,,1.0,37.65934065934066,1.0,12,12,3,0,,1.0,37.65934065934066,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M13,13,13,3,0,,1.0,20.961437335670464,1.0,12,12,3,0,,1.0,20.961437335670464,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M14,13,13,3,0,,1.0,13.242356864924957,1.0,12,12,3,0,,1.0,13.242356864924957,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M15,13,13,3,0,,1.0,9.82815734989648,1.0,12,12,3,0,,1.0,9.82815734989648,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M16,13,13,3,0,,1.0,16.971570717839374,1.0,12,12,3,0,,1.0,16.971570717839374,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M17,13,13,3,0,,1.0,3.3998823010151535,1.0,12,12,3,0,,1.0,3.3998823010151535,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M18,13,13,3,0,,1.0,8.746031746031747,1.0,12,12,3,0,,1.0,8.746031746031747,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M19,13,13,3,0,,1.0,1.7693162868260144,1.0,12,12,3,0,,1.0,1.7693162868260144,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M2,13,13,3,0,,1.0,10.640841916703986,1.0,12,12,3,0,,1.0,10.640841916703986,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M20,13,13,3,0,,1.0,2.3662602896738565,1.0,12,12,3,0,,1.0,2.3662602896738565,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M21,13,13,3,0,,1.0,7.518612790327713,1.0,12,12,3,0,,1.0,7.518612790327713,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M22,13,13,3,0,,1.0,11.678448699067255,1.0,12,12,3,0,,1.0,11.678448699067255,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M23,13,13,3,0,,1.0,1.9084249084249085,1.0,12,12,3,0,,1.0,1.9084249084249085,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M24,13,13,3,1,PPT2,0.22525299782392116,6.760163015792155,1.0,12,12,3,1,PPT2,0.22525299782392116,6.760163015792155,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M25,13,13,3,0,,1.0,10.573653760569648,1.0,12,12,3,0,,1.0,10.573653760569648,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M26,13,13,3,0,,1.0,2.959036454978745,1.0,12,12,3,0,,1.0,2.959036454978745,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M27,13,13,3,0,,1.0,2.2677945740314347,1.0,12,12,3,0,,1.0,2.2677945740314347,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M28,13,13,3,0,,1.0,3.1427206985946237,1.0,12,12,3,0,,1.0,3.1427206985946237,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M29,13,13,3,1,HNRNPA1,0.10705524734626855,15.615488215488215,1.0,12,12,3,1,HNRNPA1,0.10705524734626855,15.615488215488215,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M3,13,13,3,0,,1.0,7.728996404053612,1.0,12,12,3,0,,1.0,7.728996404053612,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M30,13,13,3,0,,1.0,1.0528328119568995,1.0,12,12,3,0,,1.0,1.0528328119568995,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M31,13,13,3,0,,1.0,3.5441739396723317,1.0,12,12,3,0,,1.0,3.5441739396723317,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M32,13,13,3,0,,1.0,11.678448699067255,1.0,12,12,3,0,,1.0,11.678448699067255,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M4,13,13,3,0,,1.0,3.967059225123741,1.0,12,12,3,0,,1.0,3.967059225123741,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M5,13,13,3,0,,1.0,11.362159579550882,1.0,12,12,3,0,,1.0,11.362159579550882,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M6,13,13,3,0,,1.0,3.6332131096126705,1.0,12,12,3,0,,1.0,3.6332131096126705,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M7,13,13,3,0,,1.0,12.186891961085509,1.0,12,12,3,0,,1.0,12.186891961085509,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M8,13,13,3,0,,1.0,9.386228729719035,1.0,12,12,3,0,,1.0,9.386228729719035,1.0,,,none,none,False
+high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,M9,13,13,3,0,,1.0,10.377020532983835,1.0,12,12,3,0,,1.0,10.377020532983835,1.0,,,none,none,False

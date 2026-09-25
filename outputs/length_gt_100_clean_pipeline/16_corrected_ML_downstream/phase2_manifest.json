@@ -1,0 +1,47 @@
+{
+  "upstream_canonical_commit": "fa3b53f71a9373cd9856df127991abce89bf52df",
+  "canonical_ranking": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\10_ML_prioritized_Tier2_corrected\\ML_prioritized_Tier2_genes_all_ranked.csv",
+  "canonical_ranking_sha256": "6f59e2ed6f652061fcb81a7c5eccbc1211a8dcb9d0bafcc85a1f9fc3edf280f1",
+  "counts": {
+    "total": 671,
+    "high": 30,
+    "moderate": 119,
+    "high_plus_moderate": 149
+  },
+  "assignment_input_sha256": {
+    "broad_regions": "b7c0a1bd65c07be12f1cca561ad6f6e07eb0619cc2e69067a2a1936390b8b92a",
+    "frontal_subregions": "22d6f32b32458d4260c1d2059a857f2c2e6fc148d87b6d466acd2c4b4750c7db"
+  },
+  "script": "D:\\genes\\GeneDepresion\\code\\regenerate_corrected_ml_downstream.py",
+  "random_seed": null,
+  "methods": {
+    "AHBA": "hypergeometric over preserved published-AHBA/MDD background; BH within candidate set/scope",
+    "WGCNA": "one-sided Fisher exact over preserved region network background; BH within region/gene set",
+    "stable_core": "structural core preserved; corrected ML flags reannotated only"
+  },
+  "interpretation": "Corrected-list-dependent downstream annotation only; no modules, tiers, expression models, or ML models rebuilt.",
+  "key_output_sha256": {
+    "outputs\\length_gt_100_clean_pipeline\\16_corrected_ML_downstream\\AHBA_corrected\\published_AHBA_ML_enrichment_corrected.csv": "1c4d24563919f17021a6f83c4b39db09fd48060956022d8bdc08308167248b5f",
+    "outputs\\length_gt_100_clean_pipeline\\16_corrected_ML_downstream\\WGCNA_ML_annotations_corrected\\broad_regions_ML_module_enrichment_corrected.csv": "3afb2038d62a4127e9cac050545de4be82b29950a4d459ed28d0feb492d49a80",
+    "outputs\\length_gt_100_clean_pipeline\\16_corrected_ML_downstream\\WGCNA_ML_annotations_corrected\\frontal_subregions_ML_module_enrichment_corrected.csv": "79cde0cd2e9cded9223e090973be07e8a49abfd64080c58d30ec38343943296d",
+    "outputs\\length_gt_100_clean_pipeline\\16_corrected_ML_downstream\\stable_core_annotations_corrected\\structural_core_corrected_ML_annotation_summary.csv": "b7a02a5c43bc60bd29d788afe0bbf7c7e900c217949038b6b7773e3053449be0",
+    "outputs\\length_gt_100_clean_pipeline\\16_corrected_ML_downstream\\WGCNA_ML_annotations_corrected\\network_figures_broad\\full_module_network_summary_top_modules.png": "b4ef9d274e5765170fd5fb2492746bfd397984ebb45d8b033698732ce99a1c81",
+    "outputs\\length_gt_100_clean_pipeline\\16_corrected_ML_downstream\\WGCNA_ML_annotations_corrected\\network_figures_frontal_subregions\\frontal_subregion_network_summary_corrected_ML.png": "b9aa314208a160817206a63a6b05b63a5145f296ab97471b0a9744adf4cc928c",
+    "outputs\\length_gt_100_clean_pipeline\\16_corrected_ML_downstream\\WGCNA_ML_annotations_corrected\\network_figures_frontal_subregions\\frontal_subregion_network_inventory.csv": "c262d781da978d1e74aee7765fdc9ec2d2737f4f075aa933c4c329570df5bff7",
+    "outputs\\length_gt_100_clean_pipeline\\16_corrected_ML_downstream\\phase2_file_inventory.csv": "08cd02764f49ecd9fc32a4134c5d089e9efa5dde6005c06df71c69a2ad0c9539",
+    "docs\\DOWNSTREAM_CORRECTED_RESULT_COMPARISON.md": "ce3437502e88ae3ab8cb1a1740adeb41c95236eb76e825446ef245b3ad5f1e5e"
+  },
+  "commands": [
+    "python code/regenerate_corrected_ml_downstream.py",
+    "python code/create_mdd_wgcna_full_module_networks.py (with versioned output/enrichment environment variables)",
+    "python code/render_corrected_frontal_wgcna_networks.py",
+    "python code/summarize_corrected_ml_downstream.py"
+  ],
+  "environment": {
+    "python": "3.12 ACL-safe temporary runtime",
+    "pandas": "3.0.1",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  }
+}

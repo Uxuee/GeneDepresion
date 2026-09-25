@@ -1,0 +1,727 @@
+analysis_unit,region,module,gene_set,gene_set_count_in_background_old,overlap_count_old,overlap_genes_old,odds_ratio_old,p_value_old,fdr_BH_old,significance_category_old,gene_set_count_in_background_corrected,overlap_count_corrected,overlap_genes_corrected,odds_ratio_corrected,p_value_corrected,fdr_BH_corrected,significance_category_corrected,genes_lost,genes_gained,significance_changed
+broad_regions,Frontal Cortex,MEblack,high_confidence_ML_genes,16,1,107984015,0.6566739077962829,0.787185954297955,1.0,none,13,1,107984015,0.8210234129857591,0.7155161587701075,1.0,none,,,False
+broad_regions,Frontal Cortex,MEblack,high_plus_moderate_ML_genes,83,4,101927003;107984015;414062;594840,0.4974738659954805,0.9543414274680435,1.0,none,75,3,107984015;414062;594840,0.4092941745226009,0.9738324734858473,1.0,none,101927003,,False
+broad_regions,Frontal Cortex,MEblack,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEblue,high_confidence_ML_genes,16,2,642826;919,1.1320513911341785,0.5492966849043117,1.0,none,13,1,642826,0.6600694444444445,0.7868626880379023,1.0,none,919,,False
+broad_regions,Frontal Cortex,MEblue,high_plus_moderate_ML_genes,83,12,101926987;101928268;101928283;101929549;101929741;105372697;4223;441509;55620;60468;642826;919,1.3415809416113216,0.21586922915128018,0.8017999939904693,none,75,12,101926987;101928268;101928283;101929549;101929741;105372697;4223;441509;55620;60468;642826;919,1.5128534337641588,0.12978117885914053,0.562385108389609,none,,,False
+broad_regions,Frontal Cortex,MEblue,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEbrown,high_confidence_ML_genes,16,1,3852,0.71375,0.7604619534279516,1.0,none,13,1,3852,0.8923828125,0.6868196038618641,1.0,none,,,False
+broad_regions,Frontal Cortex,MEbrown,high_plus_moderate_ML_genes,83,8,107985195;107987272;1803;2355;23783;3852;64333;80036,1.1432521602513748,0.41492852572015837,1.0,none,75,8,107985195;107987272;1803;2355;23783;3852;64333;80036,1.2805102531333903,0.3091036346681164,1.0,none,,,False
+broad_regions,Frontal Cortex,MEbrown,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEbrown4,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEbrown4,high_plus_moderate_ML_genes,83,0,,0.0,1.0,1.0,none,75,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEbrown4,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEcyan,high_confidence_ML_genes,16,2,105376607;23475,3.612531328320802,0.12256851790333483,1.0,none,13,2,105376607;23475,4.598724082934609,0.08578107916830989,1.0,none,,,False
+broad_regions,Frontal Cortex,MEcyan,high_plus_moderate_ML_genes,83,7,101928161;105376607;23475;3430;4814;644538;79812,2.3396367023754077,0.03885996183680087,0.33678633591894086,nominal_p<0.05,75,6,101928161;105376607;23475;3430;4814;644538,2.2060224304808727,0.06617650577135133,0.4301472875137836,none,79812,,True
+broad_regions,Frontal Cortex,MEcyan,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEdarkgreen,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEdarkgreen,high_plus_moderate_ML_genes,83,1,101927366,0.368379426472089,0.9328764581647243,1.0,none,75,0,,0.0,1.0,1.0,none,101927366,,False
+broad_regions,Frontal Cortex,MEdarkgreen,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEdarkgrey,high_confidence_ML_genes,16,1,254956,2.569041336851363,0.336856603616894,1.0,none,13,1,254956,3.211961301671064,0.2837399227388401,1.0,none,,,False
+broad_regions,Frontal Cortex,MEdarkgrey,high_plus_moderate_ML_genes,83,2,202781;254956,0.949702789208962,0.6254792035985769,1.0,none,75,2,202781;254956,1.0543596434007394,0.5701643746052885,1.0,none,,,False
+broad_regions,Frontal Cortex,MEdarkgrey,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEdarkmagenta,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEdarkmagenta,high_plus_moderate_ML_genes,83,0,,0.0,1.0,1.0,none,75,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEdarkmagenta,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEdarkorange,high_confidence_ML_genes,16,2,101929710;54718,2.0259082356346796,0.28500291899832847,1.0,none,13,1,101929710,1.1807523616734144,0.5881369220662634,1.0,none,54718,,False
+broad_regions,Frontal Cortex,MEdarkorange,high_plus_moderate_ML_genes,83,6,100130934;101929710;105377975;10974;339201;54718,1.1045434728039,0.469309183327586,1.0,none,75,6,100130934;101929710;105377975;10974;339201;54718,1.233314166924676,0.3739307214471316,1.0,none,,,False
+broad_regions,Frontal Cortex,MEdarkorange,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEfloralwhite,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEfloralwhite,high_plus_moderate_ML_genes,83,0,,0.0,1.0,1.0,none,75,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEfloralwhite,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEgreenyellow,high_confidence_ML_genes,16,1,64598,1.6150392817059485,0.47687142006254085,1.0,none,13,1,64598,2.019219977553311,0.40926498645186066,1.0,none,,,False
+broad_regions,Frontal Cortex,MEgreenyellow,high_plus_moderate_ML_genes,83,2,26071;64598,0.5964232923198635,0.8468555315118185,1.0,none,75,2,26071;64598,0.6621543579200259,0.8038574188316543,1.0,none,,,False
+broad_regions,Frontal Cortex,MEgreenyellow,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEivory,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEivory,high_plus_moderate_ML_genes,83,0,,0.0,1.0,1.0,none,75,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEivory,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MElightcyan1,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MElightcyan1,high_plus_moderate_ML_genes,83,2,113230;83460,11.48533950617284,0.015131764961152988,0.33678633591894086,nominal_p<0.05,75,2,113230;83460,12.750856164383562,0.01247918890354787,0.31188304920187604,nominal_p<0.05,,,False
+broad_regions,Frontal Cortex,MElightcyan1,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MElightsteelblue1,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MElightsteelblue1,high_plus_moderate_ML_genes,83,0,,0.0,1.0,1.0,none,75,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MElightsteelblue1,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEmagenta,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEmagenta,high_plus_moderate_ML_genes,83,5,105370868;105376380;154092;6948;706,0.8483191426893717,0.7011944915722357,1.0,none,75,4,105370868;105376380;154092;6948,0.7452301991165295,0.7812336673478137,1.0,none,706,,False
+broad_regions,Frontal Cortex,MEmagenta,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEpaleturquoise,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEpaleturquoise,high_plus_moderate_ML_genes,83,0,,0.0,1.0,1.0,none,75,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEpaleturquoise,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEred,high_confidence_ML_genes,16,1,113939912,1.5419216317767042,0.49234915297128157,1.0,none,13,1,113939912,1.9278046162104132,0.42350424896546257,1.0,none,,,False
+broad_regions,Frontal Cortex,MEred,high_plus_moderate_ML_genes,83,6,101927655;107984435;113939912;3909;581;64773,1.8090318772136953,0.1299142394612886,0.6510163713794409,none,75,5,101927655;107984435;113939912;581;64773,1.6564019448946516,0.19979688706169565,0.7421027233720124,none,3909,,False
+broad_regions,Frontal Cortex,MEred,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEsaddlebrown,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEsaddlebrown,high_plus_moderate_ML_genes,83,2,100689074;107985988,2.9943331309451526,0.15023454724140944,0.6510163713794409,none,75,2,100689074;107985988,3.324275769144397,0.1276735779150069,0.562385108389609,none,,,False
+broad_regions,Frontal Cortex,MEsaddlebrown,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEsalmon,high_confidence_ML_genes,16,2,107985795;5092,7.113317191283293,0.039054987953028523,1.0,nominal_p<0.05,13,1,107985795,4.13597972972973,0.22901588084661448,1.0,none,5092,,True
+broad_regions,Frontal Cortex,MEsalmon,high_plus_moderate_ML_genes,83,4,107985795;5092;51117;55049,2.5271525467663194,0.08241653838734592,0.5357074995177484,none,75,4,107985795;5092;51117;55049,2.8134403691775223,0.06142668760045585,0.4301472875137836,none,,,False
+broad_regions,Frontal Cortex,MEsalmon,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEsienna3,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEsienna3,high_plus_moderate_ML_genes,83,0,,0.0,1.0,1.0,none,75,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEsienna3,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEskyblue3,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEskyblue3,high_plus_moderate_ML_genes,83,0,,0.0,1.0,1.0,none,75,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEskyblue3,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEtan,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEtan,high_plus_moderate_ML_genes,83,1,2830,0.3849984023857706,0.9247288499753099,1.0,none,75,1,2830,0.4268558951965066,0.9033545429090895,1.0,none,,,False
+broad_regions,Frontal Cortex,MEtan,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEturquoise,high_confidence_ML_genes,16,3,100505894;101927498;101929607,0.7744186046511627,0.7470064848491745,1.0,none,13,3,100505894;101927498;101929607,1.0070058139534883,0.6024150364672071,1.0,none,,,False
+broad_regions,Frontal Cortex,MEturquoise,high_plus_moderate_ML_genes,83,14,100505894;101927498;101929607;105369340;105379042;116349;26063;27098;28955;388574;645;6697;728975;83547,0.6797604405729477,0.9311901765822321,1.0,none,75,12,100505894;101927498;101929607;105369340;105379042;116349;26063;27098;388574;645;6697;83547,0.6381035655299718,0.9472146153102591,1.0,none,28955;728975,,False
+broad_regions,Frontal Cortex,MEturquoise,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEwhite,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEwhite,high_plus_moderate_ML_genes,83,0,,0.0,1.0,1.0,none,75,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEwhite,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEyellow,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEyellow,high_plus_moderate_ML_genes,83,5,100874047;101927789;162514;4500;4604,0.828724652254064,0.7193343183485961,1.0,none,75,4,100874047;162514;4500;4604,0.7280323733445448,0.7955488227579195,1.0,none,101927789,,False
+broad_regions,Frontal Cortex,MEyellow,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEyellowgreen,high_confidence_ML_genes,16,0,,0.0,1.0,1.0,none,13,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Frontal Cortex,MEyellowgreen,high_plus_moderate_ML_genes,83,2,3178;342346,7.982286634460547,0.02895020128852188,0.33678633591894086,nominal_p<0.05,75,2,3178;342346,8.861822513400833,0.023991003784759695,0.31188304920187604,nominal_p<0.05,,,False
+broad_regions,Frontal Cortex,MEyellowgreen,same_region_high_plus_moderate_ML_genes,0,0,,,1.0,1.0,none,0,0,,,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEantiquewhite2,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEantiquewhite2,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEantiquewhite2,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEantiquewhite4,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEantiquewhite4,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEantiquewhite4,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEbisque4,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEbisque4,high_plus_moderate_ML_genes,89,1,100130934,0.9045454545454545,0.6716878081056964,1.0,none,80,1,100130934,1.0082107423879576,0.6324354129572316,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEbisque4,same_region_high_plus_moderate_ML_genes,13,1,100130934,6.667567567567567,0.14979102413665582,1.0,none,12,1,100130934,7.274201474201474,0.1391074091177001,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEblack,high_confidence_ML_genes,20,3,3852;64598;919,0.7172175158095693,0.7859736525684756,1.0,none,17,2,3852;64598,0.5418046637377493,0.8768570234984127,1.0,none,919,,False
+broad_regions,Hippocampal Formation,MEblack,high_plus_moderate_ML_genes,89,16,101927051;101927655;105377975;107985988;10974;115290;153768;2355;2830;3852;441509;5468;55620;64598;79713;919,0.8905551550108147,0.7030892441796315,1.0,none,80,15,101927051;101927655;105377975;107985988;10974;115290;2355;2830;3852;441509;5468;55620;64598;79713;919,0.9379602067993107,0.6325716458041574,1.0,none,153768,,False
+broad_regions,Hippocampal Formation,MEblack,same_region_high_plus_moderate_ML_genes,13,1,79713,0.33859797297297295,0.9427292018946941,1.0,none,12,1,79713,0.36941031941031943,0.9286293571129688,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEblue,high_confidence_ML_genes,20,6,100996279;101929607;105376607;105377644;2488;254956,3.3280113683858565,0.020854163798454426,1.0,nominal_p<0.05,17,6,100996279;101929607;105376607;105377644;2488;254956,4.2366083302303315,0.008977816603061808,0.6194693456112648,nominal_p<0.05,,,False
+broad_regions,Hippocampal Formation,MEblue,high_plus_moderate_ML_genes,89,19,100287015;100996279;101929607;101929741;105369340;105376607;105377644;107985195;116349;2488;254956;26063;27098;388574;6697;728975;79177;83460;83547,2.1149342991913747,0.005057828252486003,0.29513122536439684,nominal_p<0.05,80,18,100287015;100996279;101929607;101929741;105369340;105376607;105377644;107985195;116349;2488;254956;26063;27098;388574;6697;79177;83460;83547,2.262189442469633,0.0034882477625023107,0.24068909561265944,nominal_p<0.05,728975,,False
+broad_regions,Hippocampal Formation,MEblue,same_region_high_plus_moderate_ML_genes,13,1,105376607,0.6453228315830416,0.793831558113459,1.0,none,12,1,105376607,0.7040415826880237,0.7671926009948409,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEblue2,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEblue2,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEblue2,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEbrown,high_confidence_ML_genes,20,2,113939912;642826,1.2311827956989247,0.5020569141325837,1.0,none,17,2,113939912;642826,1.477741935483871,0.41687636177385273,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEbrown,high_plus_moderate_ML_genes,89,12,100874047;101926987;101928268;101928283;105372697;107984435;113939912;285830;3909;414062;4223;642826,1.7334178017104847,0.06270335089521321,1.0,none,80,11,100874047;101926987;101928268;101928283;105372697;107984435;113939912;285830;414062;4223;642826,1.772789884505351,0.06484456974285248,1.0,none,3909,,False
+broad_regions,Hippocampal Formation,MEbrown,same_region_high_plus_moderate_ML_genes,13,3,101928283;107984435;285830,3.328813559322034,0.08660159678394694,1.0,none,12,3,101928283;107984435;285830,3.698950766747377,0.07082316587943518,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEbrown2,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEbrown2,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEbrown2,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEbrown4,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEbrown4,high_plus_moderate_ML_genes,89,1,6948,2.7663934426229506,0.3090700740572536,1.0,none,80,1,6948,3.0834197966383066,0.2826772579213361,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEbrown4,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcoral,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcoral,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcoral,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcoral1,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcoral1,high_plus_moderate_ML_genes,89,2,105371659;1803,8.337538547799271,0.026854965211949983,0.6176641998748497,nominal_p<0.05,80,1,1803,4.484026522001206,0.20568126824334249,1.0,none,105371659,,True
+broad_regions,Hippocampal Formation,MEcoral1,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcoral2,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcoral2,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcoral2,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcoral3,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcoral3,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcoral3,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcyan,high_confidence_ML_genes,20,1,100505894,2.9451671002601563,0.2990800256000682,1.0,none,17,1,100505894,3.4980988593155895,0.2606817634776907,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcyan,high_plus_moderate_ML_genes,89,2,100505894;645,1.2853382469070809,0.46633089844669523,1.0,none,80,2,100505894;645,1.4345273047563123,0.4125347612941421,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEcyan,same_region_high_plus_moderate_ML_genes,13,1,100505894,4.665399239543726,0.2062054405977769,1.0,none,12,1,100505894,5.089872105081231,0.1919727753110215,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkgreen,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkgreen,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkgreen,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkmagenta,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkmagenta,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkmagenta,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkolivegreen,high_confidence_ML_genes,20,1,105372507,5.875346260387811,0.16438205254102115,1.0,none,17,1,105372507,6.978383458646617,0.14155344754199525,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkolivegreen,high_plus_moderate_ML_genes,89,1,105372507,1.2626452494873548,0.551120954516888,1.0,none,80,1,105372507,1.4073474826306271,0.5131424335058284,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkolivegreen,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkolivegreen4,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkolivegreen4,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkolivegreen4,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkorange,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkorange,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkorange,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkorange2,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkorange2,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkorange2,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkred,high_confidence_ML_genes,20,1,101927498,5.578947368421052,0.17222133889699795,1.0,none,17,1,101927498,6.626339285714286,0.1484030256929121,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkred,high_plus_moderate_ML_genes,89,2,101927498;113230,2.4430662366658398,0.2039479831935292,1.0,none,80,2,101927498;113230,2.726618705035971,0.17340153440243847,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkred,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkseagreen3,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkseagreen3,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkseagreen3,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkseagreen4,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkseagreen4,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkseagreen4,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkslateblue,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkslateblue,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkslateblue,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkviolet,high_confidence_ML_genes,20,2,105371009;107984015,2.2666666666666666,0.24004047375527277,1.0,none,17,2,105371009;107984015,2.7205714285714286,0.18770739562811029,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEdarkviolet,high_plus_moderate_ML_genes,89,3,101927003;105371009;107984015,0.7092524204012376,0.7929240102852457,1.0,none,80,2,105371009;107984015,0.5208791208791209,0.8941262293224256,1.0,none,101927003,,False
+broad_regions,Hippocampal Formation,MEdarkviolet,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEfirebrick4,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEfirebrick4,high_plus_moderate_ML_genes,89,3,2273;23783;80036,2.123419859114156,0.1766047698512641,1.0,none,80,3,2273;23783;80036,2.3730667672576384,0.14141997370923265,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEfirebrick4,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEfloralwhite,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEfloralwhite,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEfloralwhite,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEgreen,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEgreen,high_plus_moderate_ML_genes,89,4,101927789;101929549;105376380;162514,0.7755603061857803,0.7558114706843311,1.0,none,80,3,101929549;105376380;162514,0.6417165972201101,0.8430283854535016,1.0,none,101927789,,False
+broad_regions,Hippocampal Formation,MEgreen,same_region_high_plus_moderate_ML_genes,13,1,101927789,1.3756814641744548,0.5347174688853107,1.0,none,12,0,,0.0,1.0,1.0,none,101927789,,False
+broad_regions,Hippocampal Formation,MEgreenyellow,high_confidence_ML_genes,20,1,23475,1.8245614035087718,0.4343203660322825,1.0,none,17,1,23475,2.1671130952380953,0.38382181881244176,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEgreenyellow,high_plus_moderate_ML_genes,89,2,125;23475,0.795106026938798,0.7175575166706721,1.0,none,80,2,125;23475,0.8873997919343981,0.6613388122358089,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEgreenyellow,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEgrey60,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEgrey60,high_plus_moderate_ML_genes,89,1,60468,1.0889167650531286,0.6043352229406587,1.0,none,80,1,60468,1.2137103402926188,0.5653329281985572,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEgrey60,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEhoneydew,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEhoneydew,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEhoneydew,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEhoneydew1,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEhoneydew1,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEhoneydew1,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEindianred4,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEindianred4,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEindianred4,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEivory,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEivory,high_plus_moderate_ML_genes,89,1,26071,2.721590909090909,0.3131866066191028,1.0,none,80,1,26071,3.033483054307881,0.2865188578253593,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEivory,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElavenderblush2,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElavenderblush2,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElavenderblush2,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElavenderblush3,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElavenderblush3,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElavenderblush3,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightcoral,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightcoral,high_plus_moderate_ML_genes,89,2,105379042;28955,0.8838411482089643,0.6632369598417286,1.0,none,80,1,105379042,0.4856551217394209,0.8723259853943471,1.0,none,28955,,False
+broad_regions,Hippocampal Formation,MElightcoral,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightcyan,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightcyan,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightcyan,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightcyan1,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightcyan1,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightcyan1,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightpink3,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightpink3,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightpink3,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightpink4,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightpink4,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightpink4,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightsteelblue,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightsteelblue,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightsteelblue,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MElightyellow,high_confidence_ML_genes,20,1,5092,3.6839610875530058,0.24788417771247173,1.0,none,17,0,,0.0,1.0,1.0,none,5092,,False
+broad_regions,Hippocampal Formation,MElightyellow,high_plus_moderate_ML_genes,89,5,3430;4604;5092;64333;706,4.228203358638141,0.008554528271431792,0.29513122536439684,nominal_p<0.05,80,4,3430;4604;5092;64333,3.722672064777328,0.02665331727206753,0.9195394458863299,nominal_p<0.05,706,,False
+broad_regions,Hippocampal Formation,MElightyellow,same_region_high_plus_moderate_ML_genes,13,1,3430,5.835703001579779,0.16899433663511904,1.0,none,12,1,3430,6.3666523050409305,0.15707140751808094,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmagenta,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmagenta,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmagenta,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmagenta4,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmagenta4,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmagenta4,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmaroon,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmaroon,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmaroon,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmediumpurple2,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmediumpurple2,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmediumpurple2,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmediumpurple4,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmediumpurple4,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEmediumpurple4,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEorangered4,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEorangered4,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEorangered4,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEpalevioletred2,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEpalevioletred2,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEpalevioletred2,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEpalevioletred3,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEpalevioletred3,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEpalevioletred3,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEplum,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEplum,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEplum,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEplum1,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEplum1,high_plus_moderate_ML_genes,89,1,4500,2.44433465085639,0.3413311275926164,1.0,none,80,1,4500,2.7244542285819118,0.31284706359879516,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEplum1,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEplum3,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEplum3,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEplum3,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEred,high_confidence_ML_genes,20,2,101929710;54718,2.6041326808047853,0.19692009034718985,1.0,none,17,1,101929710,1.4626425081433225,0.5093770585658993,1.0,none,54718,,False
+broad_regions,Hippocampal Formation,MEred,high_plus_moderate_ML_genes,89,6,101927931;101928161;101929710;105370868;4814;54718,1.6976675173600808,0.15808785421067803,1.0,none,80,6,101927931;101928161;101929710;105370868;4814;54718,1.905338836373319,0.10985038187142546,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEred,same_region_high_plus_moderate_ML_genes,13,2,101927931;105370868,4.263384250333679,0.09713042836607251,1.0,none,12,2,101927931;105370868,4.690048939641109,0.08440580445699791,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEsalmon4,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEsalmon4,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEsalmon4,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEsienna3,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEsienna3,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEsienna3,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEskyblue,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEskyblue,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEskyblue,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEskyblue2,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEskyblue2,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEskyblue2,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEskyblue3,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEskyblue3,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEskyblue3,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEsteelblue,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEsteelblue,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEsteelblue,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEtan,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEtan,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEtan,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEthistle,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEthistle,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEthistle,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEthistle1,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEthistle1,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEthistle1,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEthistle2,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEthistle2,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEthistle2,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEthistle3,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEthistle3,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEthistle3,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEwhite,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEwhite,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEwhite,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEyellow,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEyellow,high_plus_moderate_ML_genes,89,5,100506380;101927366;148203;154092;202781,1.076916041704774,0.5023099668185451,1.0,none,80,4,100506380;148203;154092;202781,0.9515412572351595,0.609660594182355,1.0,none,101927366,,False
+broad_regions,Hippocampal Formation,MEyellow,same_region_high_plus_moderate_ML_genes,13,2,148203;154092,3.293831168831169,0.14611993136077964,1.0,none,12,2,148203;154092,3.623469387755102,0.1278916980567423,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEyellowgreen,high_confidence_ML_genes,20,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEyellowgreen,high_plus_moderate_ML_genes,89,0,,0.0,1.0,1.0,none,80,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Hippocampal Formation,MEyellowgreen,same_region_high_plus_moderate_ML_genes,13,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEblack,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEblack,high_plus_moderate_ML_genes,86,4,100874047;101927789;4500;644538,1.2480326942306856,0.4073603818253109,1.0,none,77,3,100874047;4500;644538,1.0359478695777629,0.5586406320438613,1.0,none,101927789,,False
+broad_regions,Insula,MEblack,same_region_high_plus_moderate_ML_genes,19,1,644538,1.4201142631993695,0.5180620720006529,1.0,none,17,1,644538,1.5978501773049645,0.47954910613340485,1.0,none,,,False
+broad_regions,Insula,MEblue,high_confidence_ML_genes,18,3,101929710;113939912;642826,0.8465944813133077,0.6968325889619102,1.0,none,15,3,101929710;113939912;642826,1.058505064617534,0.5678185476441404,1.0,none,,,False
+broad_regions,Insula,MEblue,high_plus_moderate_ML_genes,86,20,101926987;101928268;101928283;101929549;101929710;107984435;107985988;107987272;113939912;153768;23783;339201;3909;401288;414062;4223;594840;60468;642826;80705,1.28495070167593,0.19698026281324205,1.0,none,77,17,101926987;101928268;101928283;101929549;101929710;107984435;107985988;107987272;113939912;23783;339201;401288;414062;4223;594840;60468;642826,1.2007605007605007,0.2942867834521863,1.0,none,153768;3909;80705,,False
+broad_regions,Insula,MEblue,same_region_high_plus_moderate_ML_genes,19,8,101928268;101929710;107985988;113939912;153768;3909;401288;642826,3.0849290667345253,0.01781755372844105,0.5167090581247905,nominal_p<0.05,17,6,101928268;101929710;107985988;113939912;401288;642826,2.3120788302606483,0.08826704952929175,1.0,none,153768;3909,,True
+broad_regions,Insula,MEbrown,high_confidence_ML_genes,18,4,105376607;54718;64598;919,1.8849608809040859,0.2052208203631575,1.0,none,15,2,105376607;64598,1.0140285246668226,0.6064706679383611,1.0,none,54718;919,,False
+broad_regions,Insula,MEbrown,high_plus_moderate_ML_genes,86,17,100130934;101927655;101929741;105372697;105376607;10974;125;285830;3430;51117;54718;55620;581;64333;64598;79812;919,1.6293065820331285,0.054778053468622426,1.0,none,77,16,100130934;101927655;101929741;105372697;105376607;10974;125;285830;3430;51117;54718;55620;581;64333;64598;919,1.7347607895617263,0.04120365909773882,1.0,nominal_p<0.05,79812,,True
+broad_regions,Insula,MEbrown,same_region_high_plus_moderate_ML_genes,19,3,101929741;105376607;54718,1.2361885453623922,0.4660471246985981,1.0,none,17,3,101929741;105376607;54718,1.4130041271450293,0.39214357804703964,1.0,none,,,False
+broad_regions,Insula,MEcyan,high_confidence_ML_genes,18,2,51069;65083,2.792056074766355,0.17953330734250122,1.0,none,15,2,51069;65083,3.4370956146657083,0.13376823101773552,1.0,none,,,False
+broad_regions,Insula,MEcyan,high_plus_moderate_ML_genes,86,2,51069;65083,0.5292983236908471,0.8891436413944989,1.0,none,77,2,51069;65083,0.5931879543094496,0.8488910435723643,1.0,none,,,False
+broad_regions,Insula,MEcyan,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkgreen,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkgreen,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkgreen,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkgrey,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkgrey,high_plus_moderate_ML_genes,86,5,100689074;101927003;101927366;105371659;107985195,1.0290503773916095,0.540966251172809,1.0,none,77,2,100689074;107985195,0.4431641086186541,0.9371773561804934,1.0,none,101927003;101927366;105371659,,False
+broad_regions,Insula,MEdarkgrey,same_region_high_plus_moderate_ML_genes,19,2,100689074;107985195,1.9631918883255781,0.2926794965391383,1.0,none,17,2,100689074;107985195,2.225265643447462,0.2497993627354475,1.0,none,,,False
+broad_regions,Insula,MEdarkmagenta,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkmagenta,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkmagenta,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkolivegreen,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkolivegreen,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkolivegreen,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkorange,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkorange,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkorange,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkturquoise,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEdarkturquoise,high_plus_moderate_ML_genes,86,1,6948,1.5833155080213903,0.4730185318495613,1.0,none,77,1,6948,1.77188995215311,0.4363816583018959,1.0,none,,,False
+broad_regions,Insula,MEdarkturquoise,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEgreenyellow,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEgreenyellow,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEgreenyellow,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEgrey60,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEgrey60,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEgrey60,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MElightgreen,high_confidence_ML_genes,18,1,105378913,0.7821059721598563,0.7290307057781048,1.0,none,15,1,105378913,0.9499045801526718,0.6631143947850381,1.0,none,,,False
+broad_regions,Insula,MElightgreen,high_plus_moderate_ML_genes,86,6,100287015;100507283;105376380;105378913;148203;80036,0.9974352828379675,0.5629768366864546,1.0,none,77,6,100287015;100507283;105376380;105378913;148203;80036,1.124599948685401,0.45378207606477794,1.0,none,,,False
+broad_regions,Insula,MElightgreen,same_region_high_plus_moderate_ML_genes,19,1,80036,0.7386026293469041,0.7480032588176702,1.0,none,17,1,80036,0.8310472328244275,0.7086311945366259,1.0,none,,,False
+broad_regions,Insula,MElightyellow,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MElightyellow,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MElightyellow,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEmagenta,high_confidence_ML_genes,18,1,101927498,1.9532634971796938,0.4143133689928668,1.0,none,15,1,101927498,2.3723091976516635,0.3596647245807031,1.0,none,,,False
+broad_regions,Insula,MEmagenta,high_plus_moderate_ML_genes,86,3,101927498;105379042;113230,1.200232121145131,0.46284712629757735,1.0,none,77,3,101927498;105379042;113230,1.3470431440614927,0.39275310684695913,1.0,none,,,False
+broad_regions,Insula,MEmagenta,same_region_high_plus_moderate_ML_genes,19,1,105379042,1.8446220192795535,0.4314750584209896,1.0,none,17,1,105379042,2.0754851598173514,0.39663484650853437,1.0,none,,,False
+broad_regions,Insula,MEmediumpurple3,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEmediumpurple3,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEmediumpurple3,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEmidnightblue,high_confidence_ML_genes,18,1,100505894,4.040218878248974,0.22989891573518267,1.0,none,15,1,100505894,4.906976744186046,0.19561127047071267,1.0,none,,,False
+broad_regions,Insula,MEmidnightblue,high_plus_moderate_ML_genes,86,3,100505894;4604;4814,2.494654675038181,0.1272108154443174,1.0,none,77,3,100505894;4604;4814,2.799771602588504,0.09957040963639582,1.0,none,,,False
+broad_regions,Insula,MEmidnightblue,same_region_high_plus_moderate_ML_genes,19,1,100505894,3.815503875968992,0.2410016946833337,1.0,none,17,1,100505894,4.293023255813954,0.21863448597956525,1.0,none,,,False
+broad_regions,Insula,MEorange,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEorange,high_plus_moderate_ML_genes,86,1,1803,3.362443438914027,0.2630771528368537,1.0,none,77,1,1803,3.762904858299595,0.23909175303248223,1.0,none,,,False
+broad_regions,Insula,MEorange,same_region_high_plus_moderate_ML_genes,19,1,1803,15.949786324786325,0.06507846390125012,0.9436377265681267,none,17,1,1803,17.94591346153846,0.058428704074225866,1.0,none,,,False
+broad_regions,Insula,MEplum1,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEplum1,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEplum1,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEpurple,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEpurple,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEpurple,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEroyalblue,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEroyalblue,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEroyalblue,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEsaddlebrown,high_confidence_ML_genes,18,1,3852,22.53846153846154,0.04695333298645971,1.0,nominal_p<0.05,15,1,3852,27.373626373626372,0.039279886032372126,1.0,nominal_p<0.05,,,False
+broad_regions,Insula,MEsaddlebrown,high_plus_moderate_ML_genes,86,1,3852,4.487179487179487,0.20569968652306458,1.0,none,77,1,3852,5.021592442645074,0.1862734881508406,1.0,none,,,False
+broad_regions,Insula,MEsaddlebrown,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEsalmon,high_confidence_ML_genes,18,2,23475;79760,0.9085264900662252,0.6585756652583452,1.0,none,15,2,23475;79760,1.1184411614875192,0.5569581236509313,1.0,none,,,False
+broad_regions,Insula,MEsalmon,high_plus_moderate_ML_genes,86,6,101927051;23475;2355;26071;388574;79760,0.5436670353982301,0.9570845660674249,1.0,none,77,6,101927051;23475;2355;26071;388574;79760,0.6130032406830362,0.916576913720259,1.0,none,,,False
+broad_regions,Insula,MEsalmon,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEsienna3,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEsienna3,high_plus_moderate_ML_genes,86,1,55049,7.006588235294117,0.13896550563851343,1.0,none,77,1,55049,7.841052631578948,0.12534200446382254,1.0,none,,,False
+broad_regions,Insula,MEsienna3,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEskyblue,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEskyblue,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEskyblue,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEskyblue3,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEskyblue3,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEskyblue3,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEturquoise,high_confidence_ML_genes,18,3,101929607;254956;5092,0.8240601503759398,0.7121707314983872,1.0,none,15,2,101929607;254956,0.6337809781608893,0.8217915120678716,1.0,none,5092,,False
+broad_regions,Insula,MEturquoise,high_plus_moderate_ML_genes,86,16,100506380;101928161;101929607;105371729;105377975;116349;202781;254956;26063;27098;2830;5092;645;6697;728975;83547,0.9416703447599432,0.6285382368288838,1.0,none,77,15,100506380;101928161;101929607;105371729;105377975;116349;202781;254956;26063;27098;2830;5092;645;6697;83547,0.9970498372705736,0.5499328972326665,1.0,none,728975,,False
+broad_regions,Insula,MEturquoise,same_region_high_plus_moderate_ML_genes,19,1,26063,0.22869231936854886,0.983923726742909,1.0,none,17,1,26063,0.25732155054644806,0.9751613717231697,1.0,none,,,False
+broad_regions,Insula,MEviolet,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEviolet,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEviolet,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEyellowgreen,high_confidence_ML_genes,18,0,,0.0,1.0,1.0,none,15,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEyellowgreen,high_plus_moderate_ML_genes,86,0,,0.0,1.0,1.0,none,77,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Insula,MEyellowgreen,same_region_high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,17,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEantiquewhite4,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEantiquewhite4,high_plus_moderate_ML_genes,99,1,80036,1.1245050258909535,0.5926097607696806,1.0,none,88,1,80036,1.267627380339681,0.5497319839738886,1.0,none,,,False
+broad_regions,Ventral Striatum,MEantiquewhite4,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEbisque4,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEbisque4,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEbisque4,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEblack,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEblack,high_plus_moderate_ML_genes,99,4,105370868;2273;4223;6697,1.2152304609218436,0.42543728717656776,1.0,none,88,4,105370868;2273;4223;6697,1.3754175016700068,0.34150947106844404,1.0,none,,,False
+broad_regions,Ventral Striatum,MEblack,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEbrown,high_confidence_ML_genes,22,4,105371067;105378913;113939912;642826,1.5444680349138948,0.29719496323706507,1.0,none,18,3,105378913;113939912;642826,1.3896021220159152,0.3994009508649447,1.0,none,105371067,,False
+broad_regions,Ventral Striatum,MEbrown,high_plus_moderate_ML_genes,99,9,101927789;101929741;105371067;105378913;107985657;113939912;115290;285830;642826,0.6930282064928154,0.8899776750577568,1.0,none,88,8,101929741;105371067;105378913;107985657;113939912;115290;285830;642826,0.6931914893617022,0.8791614996967247,1.0,none,101927789,,False
+broad_regions,Ventral Striatum,MEbrown,same_region_high_plus_moderate_ML_genes,14,4,105371067;107985657;113939912;642826,2.7817409766454353,0.08902627026567099,1.0,none,12,4,105371067;107985657;113939912;642826,3.477707006369427,0.053897022465898496,1.0,none,,,False
+broad_regions,Ventral Striatum,MEbrown2,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEbrown2,high_plus_moderate_ML_genes,99,1,26071,7.59234693877551,0.12990467249680213,1.0,none,88,1,26071,8.558620689655172,0.11630694539518344,1.0,none,,,False
+broad_regions,Ventral Striatum,MEbrown2,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEbrown4,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEbrown4,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEbrown4,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEcoral1,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEcoral1,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEcoral1,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkgreen,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkgreen,high_plus_moderate_ML_genes,99,1,23783,0.4533661025385764,0.8895123603357691,1.0,none,88,1,23783,0.5110737314269694,0.858769316122222,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkgreen,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkgrey,high_confidence_ML_genes,22,1,64598,2.3377926421404682,0.359030977723696,1.0,none,18,1,64598,2.888648435963014,0.3050094694944946,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkgrey,high_plus_moderate_ML_genes,99,3,3909;414062;64598,1.5366161616161615,0.31780886867019753,1.0,none,88,2,414062;64598,1.1404713594506009,0.5281477691188065,1.0,none,3909,,False
+broad_regions,Ventral Striatum,MEdarkgrey,same_region_high_plus_moderate_ML_genes,14,1,64598,3.778492410599434,0.24645141738665702,1.0,none,12,1,64598,4.466099118273031,0.21535377386091037,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkolivegreen,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkolivegreen,high_plus_moderate_ML_genes,99,3,101927003;105379042;2830,3.7856045081967213,0.04976912329737935,0.9936851777837977,nominal_p<0.05,88,2,105379042;2830,2.7961807525051996,0.16678677261878366,1.0,none,101927003,,True
+broad_regions,Ventral Striatum,MEdarkolivegreen,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkolivegreen4,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkolivegreen4,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkolivegreen4,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkorange2,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkorange2,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkorange2,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkred,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkred,high_plus_moderate_ML_genes,99,8,10974;125;153768;1803;64333;644538;6948;728975,5.893722715640524,0.00012759391909243363,0.0063796959546216815,FDR<0.10,88,6,10974;125;1803;64333;644538;6948,4.864032667475996,0.0021701362897413525,0.10850681448706763,nominal_p<0.05,153768;728975,,True
+broad_regions,Ventral Striatum,MEdarkred,same_region_high_plus_moderate_ML_genes,14,2,125;728975,10.934074074074074,0.018407354690527396,0.9203677345263698,nominal_p<0.05,12,1,125,5.938053097345133,0.16727828963172015,1.0,none,728975,,True
+broad_regions,Ventral Striatum,MEdarkseagreen4,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkseagreen4,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkseagreen4,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkslateblue,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkslateblue,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkslateblue,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkturquoise,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkturquoise,high_plus_moderate_ML_genes,99,1,4604,0.8738134788799241,0.6840671369489324,1.0,none,88,1,4604,0.9850307404437316,0.6407802129094284,1.0,none,,,False
+broad_regions,Ventral Striatum,MEdarkturquoise,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEfirebrick4,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEfirebrick4,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEfirebrick4,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEgreen,high_confidence_ML_genes,22,2,27433;79760,1.5088077336197636,0.4013777800274539,1.0,none,18,2,27433;79760,1.886546723952739,0.3094670024212695,1.0,none,,,False
+broad_regions,Ventral Striatum,MEgreen,high_plus_moderate_ML_genes,99,6,107984435;27433;401288;441509;53917;79760,0.9725441069005115,0.5857373320317849,1.0,none,88,6,107984435;27433;401288;441509;53917;79760,1.1038756018628146,0.469364107695117,1.0,none,,,False
+broad_regions,Ventral Striatum,MEgreen,same_region_high_plus_moderate_ML_genes,14,1,441509,1.159953780125454,0.5932118058649959,1.0,none,12,1,441509,1.371049551307062,0.5374103273735822,1.0,none,,,False
+broad_regions,Ventral Striatum,MEgreenyellow,high_confidence_ML_genes,22,5,100505894;101929607;105376607;2488;5092,2.1464885123024278,0.11719030291705307,1.0,none,18,4,100505894;101929607;105376607;2488,2.0844803037494066,0.16405185513616585,1.0,none,5092,,False
+broad_regions,Ventral Striatum,MEgreenyellow,high_plus_moderate_ML_genes,99,15,100287015;100505894;101929607;105376607;105377975;107985195;107985988;116349;2488;26063;5092;51117;645;83460;83547,1.3038201352964585,0.2101944505239503,1.0,none,88,15,100287015;100505894;101929607;105376607;105377975;107985195;107985988;116349;2488;26063;5092;51117;645;83460;83547,1.501545388636624,0.10479567903286802,1.0,none,,,False
+broad_regions,Ventral Striatum,MEgreenyellow,same_region_high_plus_moderate_ML_genes,14,1,2488,0.5603180677807543,0.8348845437192163,1.0,none,12,1,2488,0.662294587667722,0.7864104151621557,1.0,none,,,False
+broad_regions,Ventral Striatum,MEhoneydew1,high_confidence_ML_genes,22,1,23475,20.92997198879552,0.05012926058037388,1.0,none,18,1,23475,25.86159169550173,0.04120016701292039,1.0,nominal_p<0.05,,,True
+broad_regions,Ventral Striatum,MEhoneydew1,high_plus_moderate_ML_genes,99,1,23475,4.46188475390156,0.20707736048354475,1.0,none,88,1,23475,5.029749830966869,0.1863072616731223,1.0,none,,,False
+broad_regions,Ventral Striatum,MEhoneydew1,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEivory,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEivory,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEivory,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElavenderblush3,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElavenderblush3,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElavenderblush3,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightcoral,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightcoral,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightcoral,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightcyan1,high_confidence_ML_genes,22,1,101927498,1.1715913715913715,0.5841090023935734,1.0,none,18,1,101927498,1.4476621417797888,0.5121363960751574,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightcyan1,high_plus_moderate_ML_genes,99,4,100861412;101927498;105373490;5468,1.0359196961475854,0.5442998039711201,1.0,none,88,3,100861412;101927498;5468,0.867460397538089,0.673741306667158,1.0,none,105373490,,False
+broad_regions,Ventral Striatum,MElightcyan1,same_region_high_plus_moderate_ML_genes,14,1,101927498,1.8936226166995398,0.42773334452830747,1.0,none,12,1,101927498,2.2382284382284383,0.3802145505982729,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightgreen,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightgreen,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightgreen,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightpink4,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightpink4,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightpink4,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightsteelblue,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightsteelblue,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightsteelblue,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightsteelblue1,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightsteelblue1,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MElightsteelblue1,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEmediumorchid,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEmediumorchid,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEmediumorchid,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEmediumpurple2,high_confidence_ML_genes,22,2,100996279;105372507,0.6429563492063493,0.816170668523416,1.0,none,18,2,100996279;105372507,0.8039434523809523,0.7182950124117364,1.0,none,,,False
+broad_regions,Ventral Striatum,MEmediumpurple2,high_plus_moderate_ML_genes,99,14,100130934;100996279;101926987;101927051;101927655;101928268;105372507;105372697;107987272;339201;342346;55620;581;79713,1.0599859105318774,0.4644593605152318,1.0,none,88,14,100130934;100996279;101926987;101927051;101927655;101928268;105372507;105372697;107987272;339201;342346;55620;581;79713,1.2185898473323622,0.29194009640957347,1.0,none,,,False
+broad_regions,Ventral Striatum,MEmediumpurple2,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEorangered3,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEorangered3,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEorangered3,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEpaleturquoise,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEpaleturquoise,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEpaleturquoise,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEpalevioletred3,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEpalevioletred3,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEpalevioletred3,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEplum,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEplum,high_plus_moderate_ML_genes,99,1,4500,6.325255102040816,0.15268260837902334,1.0,none,88,1,4500,7.130268199233717,0.1368931072762101,1.0,none,,,False
+broad_regions,Ventral Striatum,MEplum,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEplum1,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEplum1,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEplum1,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEplum2,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEplum2,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEplum2,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEpurple,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEpurple,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEpurple,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEroyalblue,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEroyalblue,high_plus_moderate_ML_genes,99,2,113230;79800,0.3923345527103425,0.9608337797714565,1.0,none,88,2,113230;79800,0.4428607151787947,0.9375709903155537,1.0,none,,,False
+broad_regions,Ventral Striatum,MEroyalblue,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEsalmon,high_confidence_ML_genes,22,1,254956,2.887517146776406,0.3030657215165364,1.0,none,18,1,254956,3.567901234567901,0.2557485870492433,1.0,none,,,False
+broad_regions,Ventral Striatum,MEsalmon,high_plus_moderate_ML_genes,99,1,254956,0.6155202821869489,0.8038769607860005,1.0,none,88,1,254956,0.6938650016555509,0.7648363436174523,1.0,none,,,False
+broad_regions,Ventral Striatum,MEsalmon,same_region_high_plus_moderate_ML_genes,14,1,254956,4.666983222538778,0.2052329897375479,1.0,none,12,1,254956,5.516273849607183,0.17870905276060767,1.0,none,,,False
+broad_regions,Ventral Striatum,MEsalmon4,high_confidence_ML_genes,22,1,919,2.013762730525736,0.40266514616451565,1.0,none,18,0,,0.0,1.0,1.0,none,919,,False
+broad_regions,Ventral Striatum,MEsalmon4,high_plus_moderate_ML_genes,99,4,101928283;105371659;116143;919,1.7870799447598589,0.19646278690600524,1.0,none,88,3,101928283;116143;919,1.4946648426812585,0.33310562853814935,1.0,none,105371659,,False
+broad_regions,Ventral Striatum,MEsalmon4,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEsienna3,high_confidence_ML_genes,22,1,105377644,12.041162227602905,0.08445739397218752,1.0,none,18,1,105377644,14.878364905284148,0.06964159091479687,1.0,none,,,False
+broad_regions,Ventral Striatum,MEsienna3,high_plus_moderate_ML_genes,99,2,105377644;126208,5.276573053679346,0.05962111066702786,0.9936851777837977,none,88,2,105377644;126208,5.955894145950281,0.048367548502213684,1.0,nominal_p<0.05,,,True
+broad_regions,Ventral Striatum,MEsienna3,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEskyblue,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEskyblue,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEskyblue,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEskyblue1,high_confidence_ML_genes,22,1,107984015,2.6038236856080723,0.32960615260558396,1.0,none,18,1,107984015,3.2173627815438444,0.27901618039772674,1.0,none,,,False
+broad_regions,Ventral Striatum,MEskyblue1,high_plus_moderate_ML_genes,99,2,107984015;2355,1.1257885828589014,0.5346826533587092,1.0,none,88,2,107984015;2355,1.2707393266227005,0.4721549368172133,1.0,none,,,False
+broad_regions,Ventral Striatum,MEskyblue1,same_region_high_plus_moderate_ML_genes,14,1,2355,4.208464398055476,0.22462373001703903,1.0,none,12,1,2355,4.974315647178101,0.19591342953110308,1.0,none,,,False
+broad_regions,Ventral Striatum,MEskyblue2,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEskyblue2,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEskyblue2,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEskyblue3,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEskyblue3,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEskyblue3,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEsteelblue,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEsteelblue,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEsteelblue,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEthistle1,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEthistle1,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEthistle1,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEturquoise,high_confidence_ML_genes,22,2,101929710;54718,0.5814376706096451,0.8542641429215234,1.0,none,18,1,101929710,0.3419468742476527,0.9425387890108281,1.0,none,54718,,False
+broad_regions,Ventral Striatum,MEturquoise,high_plus_moderate_ML_genes,99,16,100874047;101927366;101927931;101928161;101929549;101929710;105376380;148203;154092;27098;3430;4814;54718;706;79812;80705,1.122467893552231,0.37839478644130786,1.0,none,88,12,100874047;101927931;101928161;101929549;101929710;105376380;148203;154092;27098;3430;4814;54718,0.9182141826229193,0.6536593982633967,1.0,none,101927366;706;79812;80705,,False
+broad_regions,Ventral Striatum,MEturquoise,same_region_high_plus_moderate_ML_genes,14,2,101928161;80705,0.9696693964209888,0.6303445412595419,1.0,none,12,1,101928161,0.5287113977427756,0.8510309975796809,1.0,none,80705,,False
+broad_regions,Ventral Striatum,MEyellow4,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEyellow4,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEyellow4,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEyellowgreen,high_confidence_ML_genes,22,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEyellowgreen,high_plus_moderate_ML_genes,99,0,,0.0,1.0,1.0,none,88,0,,0.0,1.0,1.0,none,,,False
+broad_regions,Ventral Striatum,MEyellowgreen,same_region_high_plus_moderate_ML_genes,14,0,,0.0,1.0,1.0,none,12,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEblack,high_confidence_ML_genes,5,1,254956,6.22020725388601,0.17958474426071702,1.0,none,5,1,254956,6.22020725388601,0.17958474426071702,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEblack,high_plus_moderate_ML_genes,19,1,254956,1.378238341968912,0.5291740261452681,1.0,none,18,1,254956,1.4596159707406278,0.5100971174301848,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEblack,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEblue,high_confidence_ML_genes,5,2,101929710;105376607,1.739402697495183,0.4244397683473888,1.0,none,5,2,101929710;105376607,1.739402697495183,0.4244397683473888,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEblue,high_plus_moderate_ML_genes,19,9,100130934;101927789;101929710;105372697;105376607;10974;27098;4500;6948,2.3555555555555556,0.05324200544612447,0.7187670735226804,none,18,8,100130934;101929710;105372697;105376607;10974;27098;4500;6948,2.0923076923076924,0.09610364918716367,1.0,none,101927789,,False
+frontal_subregions,Cingulate gyrus 25,MEblue,same_region_high_plus_moderate_ML_genes,5,3,10974;27098;4500,3.9175704989154014,0.13414735688203483,1.0,none,5,3,10974;27098;4500,3.9175704989154014,0.13414735688203483,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEbrown,high_confidence_ML_genes,5,1,101927498,1.6391830559757943,0.5085661356074457,1.0,none,5,1,101927498,1.6391830559757943,0.5085661356074457,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEbrown,high_plus_moderate_ML_genes,19,1,101927498,0.3630862329803328,0.9330425867820884,1.0,none,18,1,101927498,0.38453323840882797,0.9227819831824917,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEbrown,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkgreen,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkgreen,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkgreen,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkgrey,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkgrey,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkgrey,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkmagenta,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkmagenta,high_plus_moderate_ML_genes,19,1,4604,1.60146373918829,0.4782483911983382,1.0,none,18,1,4604,1.6960197252553717,0.4600401921375409,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkmagenta,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkolivegreen,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkolivegreen,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkolivegreen,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkorange,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkorange,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkorange,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkorange2,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkorange2,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkorange2,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkred,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkred,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEdarkred,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEfloralwhite,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEfloralwhite,high_plus_moderate_ML_genes,19,1,100874047,1.307608100711549,0.5474767868522745,1.0,none,18,1,100874047,1.3848159953636627,0.5281559966718355,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEfloralwhite,same_region_high_plus_moderate_ML_genes,5,1,100874047,5.901477832512315,0.1880881464060417,1.0,none,5,1,100874047,5.901477832512315,0.1880881464060417,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEgreen,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEgreen,high_plus_moderate_ML_genes,19,2,107985988;414062,0.5520672268907563,0.8713123702737842,1.0,none,18,2,107985988;414062,0.5867142857142857,0.8504434785270905,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEgreen,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEgrey,high_confidence_ML_genes,5,0,,0.0,1.0,,none,5,0,,0.0,1.0,,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEgrey,high_plus_moderate_ML_genes,19,0,,0.0,1.0,,none,18,0,,0.0,1.0,,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEgrey,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,,none,5,0,,0.0,1.0,,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEgrey60,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEgrey60,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEgrey60,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MElightcyan1,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MElightcyan1,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MElightcyan1,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MElightgreen,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MElightgreen,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MElightgreen,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MElightsteelblue1,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MElightsteelblue1,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MElightsteelblue1,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEmediumpurple3,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEmediumpurple3,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEmediumpurple3,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEorange,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEorange,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEorange,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEorangered4,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEorangered4,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEorangered4,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEplum1,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEplum1,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEplum1,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEred,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEred,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEred,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEsaddlebrown,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEsaddlebrown,high_plus_moderate_ML_genes,19,1,105379042,7.0398860398860394,0.14177395087305253,1.0,none,18,1,105379042,7.455505279034691,0.13482756439691382,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEsaddlebrown,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEskyblue,high_confidence_ML_genes,5,1,107984015,28.790697674418606,0.043249383492065786,1.0,nominal_p<0.05,5,1,107984015,28.790697674418606,0.043249383492065786,1.0,nominal_p<0.05,,,False
+frontal_subregions,Cingulate gyrus 25,MEskyblue,high_plus_moderate_ML_genes,19,2,107984015;2830,13.834733893557424,0.011769907008807009,0.3177874892377892,nominal_p<0.05,18,2,107984015;2830,14.702380952380953,0.010589760553997792,0.2859235349579404,nominal_p<0.05,,,False
+frontal_subregions,Cingulate gyrus 25,MEskyblue,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEskyblue3,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEskyblue3,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEskyblue3,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEsteelblue,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEsteelblue,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEsteelblue,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEwhite,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEwhite,high_plus_moderate_ML_genes,19,1,116349,5.591836734693878,0.17411743986329833,1.0,none,18,1,116349,5.921968787515006,0.16574474562022554,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEwhite,same_region_high_plus_moderate_ML_genes,5,1,116349,25.23469387755102,0.04902917341904547,1.0,nominal_p<0.05,5,1,116349,25.23469387755102,0.04902917341904547,1.0,nominal_p<0.05,,,False
+frontal_subregions,Cingulate gyrus 25,MEyellowgreen,high_confidence_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEyellowgreen,high_plus_moderate_ML_genes,19,0,,0.0,1.0,1.0,none,18,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,Cingulate gyrus 25,MEyellowgreen,same_region_high_plus_moderate_ML_genes,5,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEblack,high_confidence_ML_genes,9,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEblack,high_plus_moderate_ML_genes,40,2,105377975;116349,0.8004815961472308,0.7161598489727317,1.0,none,39,2,105377975;116349,0.8222928811164105,0.7029090355774175,1.0,none,,,False
+frontal_subregions,OFC BA11,MEblack,same_region_high_plus_moderate_ML_genes,8,1,105377975,2.18008375988832,0.3989035276945439,1.0,none,8,1,105377975,2.18008375988832,0.3989035276945439,1.0,none,,,False
+frontal_subregions,OFC BA11,MEblue,high_confidence_ML_genes,9,2,101929710;107984015,1.777961546413066,0.360782902782067,1.0,none,8,2,101929710;107984015,2.074770863482875,0.3066534693845563,1.0,none,,,False
+frontal_subregions,OFC BA11,MEblue,high_plus_moderate_ML_genes,40,8,100689074;101928268;101928283;101929549;101929710;107984015;107985988;2355,1.5602189781021898,0.18094653359519,1.0,none,39,8,100689074;101928268;101928283;101929549;101929710;107984015;107985988;2355,1.6109253590769956,0.16325252516288927,1.0,none,,,False
+frontal_subregions,OFC BA11,MEblue,same_region_high_plus_moderate_ML_genes,8,1,101929549,0.8876961189099918,0.6971363184024372,1.0,none,8,1,101929549,0.8876961189099918,0.6971363184024372,1.0,none,,,False
+frontal_subregions,OFC BA11,MEbrown,high_confidence_ML_genes,9,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEbrown,high_plus_moderate_ML_genes,40,4,101928161;105369340;105370868;105376380,0.7433247200689062,0.7815908535546022,1.0,none,39,4,101928161;105369340;105370868;105376380,0.7647397563676633,0.764167330682726,1.0,none,,,False
+frontal_subregions,OFC BA11,MEbrown,same_region_high_plus_moderate_ML_genes,8,1,105376380,0.9576719576719577,0.6714590760153339,1.0,none,8,1,105376380,0.9576719576719577,0.6714590760153339,1.0,none,,,False
+frontal_subregions,OFC BA11,MEcyan,high_confidence_ML_genes,9,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEcyan,high_plus_moderate_ML_genes,40,0,,0.0,1.0,1.0,none,39,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEcyan,same_region_high_plus_moderate_ML_genes,8,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEgreen,high_confidence_ML_genes,9,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEgreen,high_plus_moderate_ML_genes,40,5,100130934;100874047;10974;4500;4604,1.1717466207262126,0.4436092872838033,1.0,none,39,5,100130934;100874047;10974;4500;4604,1.206482593037215,0.421263284760473,1.0,none,,,False
+frontal_subregions,OFC BA11,MEgreen,same_region_high_plus_moderate_ML_genes,8,1,4604,1.170481452249408,0.6023470612083927,1.0,none,8,1,4604,1.170481452249408,0.6023470612083927,1.0,none,,,False
+frontal_subregions,OFC BA11,MEgreenyellow,high_confidence_ML_genes,9,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEgreenyellow,high_plus_moderate_ML_genes,40,0,,0.0,1.0,1.0,none,39,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEgreenyellow,same_region_high_plus_moderate_ML_genes,8,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEgrey60,high_confidence_ML_genes,9,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEgrey60,high_plus_moderate_ML_genes,40,0,,0.0,1.0,1.0,none,39,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEgrey60,same_region_high_plus_moderate_ML_genes,8,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MElightcyan,high_confidence_ML_genes,9,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MElightcyan,high_plus_moderate_ML_genes,40,1,1803,4.516483516483516,0.2083139182141343,1.0,none,39,1,1803,4.636278195488722,0.20365882973648022,1.0,none,,,False
+frontal_subregions,OFC BA11,MElightcyan,same_region_high_plus_moderate_ML_genes,8,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MElightgreen,high_confidence_ML_genes,9,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MElightgreen,high_plus_moderate_ML_genes,40,0,,0.0,1.0,1.0,none,39,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MElightgreen,same_region_high_plus_moderate_ML_genes,8,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MElightyellow,high_confidence_ML_genes,9,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MElightyellow,high_plus_moderate_ML_genes,40,0,,0.0,1.0,1.0,none,39,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MElightyellow,same_region_high_plus_moderate_ML_genes,8,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEmagenta,high_confidence_ML_genes,9,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEmagenta,high_plus_moderate_ML_genes,40,2,26071;3178,2.2373037857802403,0.23730335891038898,1.0,none,39,2,26071;3178,2.2982456140350878,0.2286705619752608,1.0,none,,,False
+frontal_subregions,OFC BA11,MEmagenta,same_region_high_plus_moderate_ML_genes,8,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEmidnightblue,high_confidence_ML_genes,9,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEmidnightblue,high_plus_moderate_ML_genes,40,0,,0.0,1.0,1.0,none,39,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEmidnightblue,same_region_high_plus_moderate_ML_genes,8,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEpink,high_confidence_ML_genes,9,1,254956,2.1272563176895307,0.4026628874466214,1.0,none,8,1,254956,2.4316658071170707,0.36743596396553513,1.0,none,,,False
+frontal_subregions,OFC BA11,MEpink,high_plus_moderate_ML_genes,40,3,254956;645;83547,1.3813267813267813,0.3855721643087618,1.0,none,39,3,254956;645;83547,1.42,0.3701682913820345,1.0,none,,,False
+frontal_subregions,OFC BA11,MEpink,same_region_high_plus_moderate_ML_genes,8,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEpurple,high_confidence_ML_genes,9,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEpurple,high_plus_moderate_ML_genes,40,6,101927003;105372697;107985195;23783;414062;55620,0.6029542716463255,0.9158191908975223,1.0,none,39,5,105372697;107985195;23783;414062;55620,0.5020148628846557,0.9590550057756827,1.0,none,101927003,,False
+frontal_subregions,OFC BA11,MEpurple,same_region_high_plus_moderate_ML_genes,8,2,105372697;55620,1.1431529133392488,0.5699359828225109,1.0,none,8,2,105372697;55620,1.1431529133392488,0.5699359828225109,1.0,none,,,False
+frontal_subregions,OFC BA11,MEred,high_confidence_ML_genes,9,2,105376607;23475,3.2527472527472527,0.16142812383717495,1.0,none,8,2,105376607;23475,3.795698924731183,0.13236529411664624,1.0,none,,,False
+frontal_subregions,OFC BA11,MEred,high_plus_moderate_ML_genes,40,4,105376607;23475;27098;6948,1.2632308118592408,0.4086952659660524,1.0,none,39,4,105376607;23475;27098;6948,1.2996081225507659,0.3898164178615525,1.0,none,,,False
+frontal_subregions,OFC BA11,MEred,same_region_high_plus_moderate_ML_genes,8,2,23475;6948,3.795698924731183,0.13236529411664624,1.0,none,8,2,23475;6948,3.795698924731183,0.13236529411664624,1.0,none,,,False
+frontal_subregions,OFC BA11,MEsalmon,high_confidence_ML_genes,9,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEsalmon,high_plus_moderate_ML_genes,40,0,,0.0,1.0,1.0,none,39,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEsalmon,same_region_high_plus_moderate_ML_genes,8,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEtan,high_confidence_ML_genes,9,2,101927498;107985795,36.27838827838828,0.002277515847154221,0.04099528524877598,FDR<0.10,8,2,101927498;107985795,42.333333333333336,0.001780636064698082,0.032051449164565475,FDR<0.10,,,False
+frontal_subregions,OFC BA11,MEtan,high_plus_moderate_ML_genes,40,3,101927498;107985795;2830,10.502133712660028,0.004097224079609821,0.07375003343297679,FDR<0.10,39,3,101927498;107985795;2830,10.796052631578947,0.003811486329093842,0.06860675392368915,FDR<0.10,,,False
+frontal_subregions,OFC BA11,MEtan,same_region_high_plus_moderate_ML_genes,8,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,OFC BA11,MEyellow,high_confidence_ML_genes,9,2,3852;919,2.185689527110671,0.28027553248063025,1.0,none,8,1,3852,1.0909540286702917,0.626676585426362,1.0,none,919,,False
+frontal_subregions,OFC BA11,MEyellow,high_plus_moderate_ML_genes,40,2,3852;919,0.3997993250022804,0.955185300581227,1.0,none,39,2,3852;919,0.41069839336737085,0.9503399572864909,1.0,none,,,False
+frontal_subregions,OFC BA11,MEyellow,same_region_high_plus_moderate_ML_genes,8,0,,0.0,1.0,1.0,none,8,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEblack,high_confidence_ML_genes,11,2,105376607;254956,3.8839506172839506,0.11731994943319876,1.0,none,10,2,105376607;254956,4.37037037037037,0.09943708226257275,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEblack,high_plus_moderate_ML_genes,31,2,105376607;254956,1.2002554278416346,0.5091489429833378,1.0,none,29,2,105376607;254956,1.2897119341563785,0.47357247654162643,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEblack,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEblue,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEblue,high_plus_moderate_ML_genes,31,4,101927003;101927366;101929741;105377975,0.9049965559264558,0.6522715518370501,1.0,none,29,2,101929741;105377975,0.45120727003751254,0.9296169026930217,1.0,none,101927003;101927366,,False
+frontal_subregions,dlPFC BA8/9,MEblue,same_region_high_plus_moderate_ML_genes,6,1,101927003,1.2227920227920228,0.597321194339132,1.0,none,5,0,,0.0,1.0,1.0,none,101927003,,False
+frontal_subregions,dlPFC BA8/9,MEbrown,high_confidence_ML_genes,11,1,101929607,0.8238888888888889,0.7166249075627326,1.0,none,10,1,101929607,0.9156378600823045,0.6821663944117857,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEbrown,high_plus_moderate_ML_genes,31,3,101929607;27098;2830,0.8824349442379182,0.6673886889954657,1.0,none,29,3,101929607;27098;2830,0.9507434944237918,0.6215885005259322,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEbrown,same_region_high_plus_moderate_ML_genes,6,2,101929607;2830,4.13265306122449,0.1306650865820708,1.0,none,5,2,101929607;2830,5.511440940012369,0.09364736220906018,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEcyan,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEcyan,high_plus_moderate_ML_genes,31,0,,0.0,1.0,1.0,none,29,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEcyan,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEdarkgreen,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEdarkgreen,high_plus_moderate_ML_genes,31,0,,0.0,1.0,1.0,none,29,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEdarkgreen,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEdarkgrey,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEdarkgrey,high_plus_moderate_ML_genes,31,0,,0.0,1.0,1.0,none,29,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEdarkgrey,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEdarkred,high_confidence_ML_genes,11,3,113939912;642826;919,1.5577221074380165,0.36331897382303174,1.0,none,10,2,113939912;642826,1.0374097007223941,0.6066548676346104,1.0,none,919,,False
+frontal_subregions,dlPFC BA8/9,MEdarkred,high_plus_moderate_ML_genes,31,7,100130934;101926987;105372697;10974;113939912;642826;919,1.2117479253112033,0.3965920993191467,1.0,none,29,7,100130934;101926987;105372697;10974;113939912;642826;919,1.3225669558657112,0.3271742576296552,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEdarkred,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEdarkturquoise,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEdarkturquoise,high_plus_moderate_ML_genes,31,0,,0.0,1.0,1.0,none,29,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEdarkturquoise,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEgreen,high_confidence_ML_genes,11,1,107984015,0.5454075032341527,0.8430800821039837,1.0,none,10,1,107984015,0.6061520770447032,0.8142717290557112,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEgreen,high_plus_moderate_ML_genes,31,4,101929549;107984015;107985988;414062,0.8078884078884079,0.729316852202395,1.0,none,29,4,101929549;107984015;107985988;414062,0.8729350649350649,0.677866398560738,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEgreen,same_region_high_plus_moderate_ML_genes,6,2,107984015;414062,2.7344559585492227,0.23478847697847763,1.0,none,5,2,107984015;414062,3.646804835924007,0.17362741872256324,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEgreenyellow,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEgreenyellow,high_plus_moderate_ML_genes,31,0,,0.0,1.0,1.0,none,29,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEgreenyellow,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEgrey,high_confidence_ML_genes,11,2,100505894;101929710,40.839506172839506,0.0017297388564667846,,nominal_p<0.05,10,2,100505894;101929710,45.9537037037037,0.0014203437216052657,,nominal_p<0.05,,,False
+frontal_subregions,dlPFC BA8/9,MEgrey,high_plus_moderate_ML_genes,31,2,100505894;101929710,12.62324393358876,0.013611669658642385,,nominal_p<0.05,29,2,100505894;101929710,13.563786008230453,0.01196992795997867,,nominal_p<0.05,,,False
+frontal_subregions,dlPFC BA8/9,MEgrey,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,,none,5,0,,0.0,1.0,,none,,,False
+frontal_subregions,dlPFC BA8/9,MEgrey60,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEgrey60,high_plus_moderate_ML_genes,31,0,,0.0,1.0,1.0,none,29,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEgrey60,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MElightcyan,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MElightcyan,high_plus_moderate_ML_genes,31,0,,0.0,1.0,1.0,none,29,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MElightcyan,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MElightgreen,high_confidence_ML_genes,11,1,23475,14.573529411764707,0.07443268524507736,1.0,none,10,1,23475,16.19607843137255,0.06789487373823126,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MElightgreen,high_plus_moderate_ML_genes,31,1,23475,4.838235294117647,0.19621329715558908,1.0,none,29,1,23475,5.185924369747899,0.18477280053160086,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MElightgreen,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MElightyellow,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MElightyellow,high_plus_moderate_ML_genes,31,0,,0.0,1.0,1.0,none,29,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MElightyellow,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEmagenta,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEmagenta,high_plus_moderate_ML_genes,31,2,105369340;3430,1.670575879572904,0.35145584986345996,1.0,none,29,2,105369340;3430,1.7950742620793383,0.3219903047867698,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEmagenta,same_region_high_plus_moderate_ML_genes,6,1,105369340,4.844444444444444,0.21636077721411942,1.0,none,5,1,105369340,6.056818181818182,0.1838453048758395,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEmidnightblue,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEmidnightblue,high_plus_moderate_ML_genes,31,0,,0.0,1.0,1.0,none,29,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEmidnightblue,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEorange,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEorange,high_plus_moderate_ML_genes,31,0,,0.0,1.0,1.0,none,29,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEorange,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEpurple,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEpurple,high_plus_moderate_ML_genes,31,1,105376380,0.7866336633663367,0.7244027979648668,1.0,none,29,1,105376380,0.8431753889674681,0.7004332847856183,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEpurple,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEsalmon,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEsalmon,high_plus_moderate_ML_genes,31,0,,0.0,1.0,1.0,none,29,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEsalmon,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEtan,high_confidence_ML_genes,11,1,3852,5.910843373493976,0.17018969419298302,1.0,none,10,1,3852,6.568942436412316,0.1559817721204617,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEtan,high_plus_moderate_ML_genes,31,2,2355;3852,4.11017661900757,0.09482335141659066,1.0,none,29,2,2355;3852,4.416440831074977,0.084567187279079,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEtan,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEturquoise,high_confidence_ML_genes,11,0,,0.0,1.0,1.0,none,10,0,,0.0,1.0,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEturquoise,high_plus_moderate_ML_genes,31,3,100874047;4500;4604,0.6132804948772472,0.8597090737338817,1.0,none,29,3,100874047;4500;4604,0.6607681898615593,0.826524974553638,1.0,none,,,False
+frontal_subregions,dlPFC BA8/9,MEturquoise,same_region_high_plus_moderate_ML_genes,6,0,,0.0,1.0,1.0,none,5,0,,0.0,1.0,1.0,none,,,False

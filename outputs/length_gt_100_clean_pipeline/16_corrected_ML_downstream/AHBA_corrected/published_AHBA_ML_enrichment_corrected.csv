@@ -1,0 +1,641 @@
+version,candidate_set,scope,original_gene_region_pair_count,unique_candidate_genes,published_module,background_genes,candidate_genes_in_background,module_genes_in_background,overlap_genes,overlap_gene_symbols,p_value_hypergeometric,odds_ratio_approx,fdr_BH
+corrected,high_confidence,all_regions,30,30,M1,12042,9,358,0,,1.0,1.714086471408647,1.0
+corrected,high_confidence,all_regions,30,30,M10,12042,9,136,0,,1.0,4.587430113745903,1.0
+corrected,high_confidence,all_regions,30,30,M11,12042,9,245,0,,1.0,2.5272805231000106,1.0
+corrected,high_confidence,all_regions,30,30,M12,12042,9,45,0,,1.0,13.867553499132447,1.0
+corrected,high_confidence,all_regions,30,30,M13,12042,9,81,0,,1.0,7.718760090410074,1.0
+corrected,high_confidence,all_regions,30,30,M14,12042,9,128,0,,1.0,4.876305549866885,1.0
+corrected,high_confidence,all_regions,30,30,M15,12042,9,172,1,QPRT,0.12148325764421139,12.20631109586692,1.0
+corrected,high_confidence,all_regions,30,30,M16,12042,9,100,0,,1.0,6.24954176485991,1.0
+corrected,high_confidence,all_regions,30,30,M17,12042,9,485,0,,1.0,1.2519377744051168,1.0
+corrected,high_confidence,all_regions,30,30,M18,12042,9,193,0,,1.0,3.2205902352781175,1.0
+corrected,high_confidence,all_regions,30,30,M19,12042,9,899,3,C1ORF174;GEMIN7;MRPL2,0.024772577845158898,6.689476168003774,0.5003567835524572
+corrected,high_confidence,all_regions,30,30,M2,12042,9,159,0,,1.0,3.9183303085299452,1.0
+corrected,high_confidence,all_regions,30,30,M20,12042,9,685,0,,1.0,0.8713194364466966,1.0
+corrected,high_confidence,all_regions,30,30,M21,12042,9,224,0,,1.0,2.768608603915133,1.0
+corrected,high_confidence,all_regions,30,30,M22,12042,9,145,0,,1.0,4.300415988424669,1.0
+corrected,high_confidence,all_regions,30,30,M23,12042,9,838,0,,1.0,0.702727301258513,1.0
+corrected,high_confidence,all_regions,30,30,M24,12042,9,982,3,MOSPD3;PPT2;TOR2A,0.03127229897202857,6.077001609926572,0.5003567835524572
+corrected,high_confidence,all_regions,30,30,M25,12042,9,160,0,,1.0,3.8935891129693387,1.0
+corrected,high_confidence,all_regions,30,30,M26,12042,9,554,1,MORN5,0.34559050102893046,3.660290132313088,1.0
+corrected,high_confidence,all_regions,30,30,M27,12042,9,713,0,,1.0,0.8350606720023604,1.0
+corrected,high_confidence,all_regions,30,30,M28,12042,9,523,1,NOL6,0.32951908326363616,3.887925696594427,1.0
+corrected,high_confidence,all_regions,30,30,M29,12042,9,446,0,,1.0,1.3658867212824894,1.0
+corrected,high_confidence,all_regions,30,30,M3,12042,9,218,0,,1.0,2.846079730217993,1.0
+corrected,high_confidence,all_regions,30,30,M30,12042,9,1438,0,,1.0,0.38766624590673765,1.0
+corrected,high_confidence,all_regions,30,30,M31,12042,9,466,0,,1.0,1.3050713600722061,1.0
+corrected,high_confidence,all_regions,30,30,M32,12042,9,145,0,,1.0,4.300415988424669,1.0
+corrected,high_confidence,all_regions,30,30,M4,12042,9,418,0,,1.0,1.4607935609633402,1.0
+corrected,high_confidence,all_regions,30,30,M5,12042,9,149,0,,1.0,4.183946488294314,1.0
+corrected,high_confidence,all_regions,30,30,M6,12042,9,455,0,,1.0,1.3378589173262465,1.0
+corrected,high_confidence,all_regions,30,30,M7,12042,9,139,0,,1.0,4.487643840784758,1.0
+corrected,high_confidence,all_regions,30,30,M8,12042,9,180,0,,1.0,3.456334742673859,1.0
+corrected,high_confidence,all_regions,30,30,M9,12042,9,163,0,,1.0,3.8211813938516013,1.0
+corrected,high_plus_moderate,all_regions,149,139,M1,12042,49,358,0,,1.0,0.3278390600566333,1.0
+corrected,high_plus_moderate,all_regions,149,139,M10,12042,49,136,2,ADRA2B;GPR6,0.10569395890188538,4.640774799452162,0.9905822928092167
+corrected,high_plus_moderate,all_regions,149,139,M11,12042,49,245,1,CD247,0.635504934622232,1.4862437543482385,1.0
+corrected,high_plus_moderate,all_regions,149,139,M12,12042,49,45,0,,1.0,2.6525696525696527,1.0
+corrected,high_plus_moderate,all_regions,149,139,M13,12042,49,81,0,,1.0,1.4764206481997895,1.0
+corrected,high_plus_moderate,all_regions,149,139,M14,12042,49,128,0,,1.0,0.9327123373815981,1.0
+corrected,high_plus_moderate,all_regions,149,139,M15,12042,49,172,2,LIMS3;QPRT,0.1547784832514401,3.6497916345114985,0.9905822928092167
+corrected,high_plus_moderate,all_regions,149,139,M16,12042,49,100,0,,1.0,1.1953867028493894,1.0
+corrected,high_plus_moderate,all_regions,149,139,M17,12042,49,485,3,ARHGAP9;FBXO17;SETD6,0.3159282737720074,1.7957657808234442,1.0
+corrected,high_plus_moderate,all_regions,149,139,M18,12042,49,193,1,PCBD1,0.5476463988802615,1.8960771187575314,1.0
+corrected,high_plus_moderate,all_regions,149,139,M19,12042,49,899,5,BLVRB;C1ORF174;GEMIN7;MRPL2;RILP,0.30183149580330554,1.5336481996721536,1.0
+corrected,high_plus_moderate,all_regions,149,139,M2,12042,49,159,0,,1.0,0.7494696178081758,1.0
+corrected,high_plus_moderate,all_regions,149,139,M20,12042,49,685,6,ARMC5;DECR2;KHDC1;TRMT2A;ZNF324B;ZNF787,0.05803594089759486,2.4881124559133236,0.9905822928092167
+corrected,high_plus_moderate,all_regions,149,139,M21,12042,49,224,1,TCN2,0.6022440366904206,1.628796789593856,1.0
+corrected,high_plus_moderate,all_regions,149,139,M22,12042,49,145,1,MAGIX,0.4483231296372797,2.5361894909570863,1.0
+corrected,high_plus_moderate,all_regions,149,139,M23,12042,49,838,0,,1.0,0.13438499485011116,1.0
+corrected,high_plus_moderate,all_regions,149,139,M24,12042,49,982,7,BACH2;MOSPD3;PPT2;TOR2A;VPS54;ZNF576;ZNF738,0.10082967461612635,1.9932764494829198,0.9905822928092167
+corrected,high_plus_moderate,all_regions,149,139,M25,12042,49,160,0,,1.0,0.7447370905314831,1.0
+corrected,high_plus_moderate,all_regions,149,139,M26,12042,49,554,2,MORN5;RPGR,0.6660378987211756,1.0899261728983092,1.0
+corrected,high_plus_moderate,all_regions,149,139,M27,12042,49,713,3,CCL3L3;SPR;STAP2,0.5611105975524224,1.1953493299433233,1.0
+corrected,high_plus_moderate,all_regions,149,139,M28,12042,49,523,2,C9ORF163;NOL6,0.6344810761858197,1.1578442751173235,1.0
+corrected,high_plus_moderate,all_regions,149,139,M29,12042,49,446,1,HNRNPA1,0.8432404955088358,0.8017286264708946,1.0
+corrected,high_plus_moderate,all_regions,149,139,M3,12042,49,218,0,,1.0,0.5443681667937961,1.0
+corrected,high_plus_moderate,all_regions,149,139,M30,12042,49,1438,3,BAX;GCC1;TRPV3,0.9427778634815582,0.5536229930000787,1.0
+corrected,high_plus_moderate,all_regions,149,139,M31,12042,49,466,3,MT1L;MYBPC1;NINJ1,0.29457718480178074,1.8724640707102342,1.0
+corrected,high_plus_moderate,all_regions,149,139,M32,12042,49,145,0,,1.0,0.8225554514214308,1.0
+corrected,high_plus_moderate,all_regions,149,139,M4,12042,49,418,0,,1.0,0.27938887078672026,1.0
+corrected,high_plus_moderate,all_regions,149,139,M5,12042,49,149,1,N4BP1,0.4573569990991512,2.4670415495157765,1.0
+corrected,high_plus_moderate,all_regions,149,139,M6,12042,49,455,1,DPP4,0.8491043257515586,0.7852403797080739,1.0
+corrected,high_plus_moderate,all_regions,149,139,M7,12042,49,139,1,PRMT7,0.43449545041536414,2.647400349845547,1.0
+corrected,high_plus_moderate,all_regions,149,139,M8,12042,49,180,1,RAB24,0.5226244074018388,2.0356373661086065,1.0
+corrected,high_plus_moderate,all_regions,149,139,M9,12042,49,163,2,FHL1;ZNF461,0.14210026243048302,3.8561186247352124,0.9905822928092167
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M1,12042,17,358,0,,1.0,0.929866507272365,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M10,12042,17,136,0,,1.0,2.4886446886446882,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M11,12042,17,245,1,CD247,0.2950824817874911,4.380554006320878,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M12,12042,17,45,0,,1.0,7.523076923076923,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M13,12042,17,81,0,,1.0,4.18737949167397,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M14,12042,17,128,0,,1.0,2.6453585325180655,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M15,12042,17,172,0,,1.0,1.963312629399586,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M16,12042,17,100,0,,1.0,3.3903340440653875,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M17,12042,17,485,2,ARHGAP9;FBXO17,0.1480798853055821,3.850452013210128,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M18,12042,17,193,1,PCBD1,0.24031712379510745,5.588429752066116,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M19,12042,17,899,4,BLVRB;C1ORF174;GEMIN7;RILP,0.03355139503195453,4.143123022520007,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M2,12042,17,159,0,,1.0,2.1256605463502014,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M20,12042,17,685,2,ARMC5;KHDC1,0.25162204426932605,2.6765698374118037,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M21,12042,17,224,0,,1.0,1.5019408208717786,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M22,12042,17,145,1,MAGIX,0.18623234613758602,7.474992135891791,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M23,12042,17,838,0,,1.0,0.3812079393474742,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M24,12042,17,982,3,BACH2;VPS54;ZNF576,0.15648622361391307,2.7222016862931473,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M25,12042,17,160,0,,1.0,2.1122385402759236,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M26,12042,17,554,0,,1.0,0.5910859203916011,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M27,12042,17,713,1,SPR,0.6459445893940702,1.4435087719298245,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M28,12042,17,523,0,,1.0,0.6277800518488197,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M29,12042,17,446,0,,1.0,0.7409694448888178,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M3,12042,17,218,0,,1.0,1.5439686171951619,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M30,12042,17,1438,1,BAX,0.8850675023475786,0.6696284584980238,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M31,12042,17,466,1,MT1L,0.48900036817024645,2.2576896787423104,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M32,12042,17,145,0,,1.0,2.33294059891998,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M4,12042,17,418,0,,1.0,0.7924560505205666,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M5,12042,17,149,0,,1.0,2.2697563306258957,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M6,12042,17,455,0,,1.0,0.7257644660498667,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M7,12042,17,139,0,,1.0,2.4345110087045567,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M8,12042,17,180,0,,1.0,1.8750296794618124,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25,36,36,M9,12042,17,163,0,,1.0,2.072957623416339,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M1,12042,2,358,0,,1.0,6.517433751743376,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M10,12042,2,136,0,,1.0,17.442490842490844,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M11,12042,2,245,0,,1.0,9.609368635437882,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M12,12042,2,45,0,,1.0,52.72747252747253,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M13,12042,2,81,0,,1.0,29.348466257668715,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M14,12042,2,128,0,,1.0,18.540856031128406,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M15,12042,2,172,0,,1.0,13.760579710144928,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M16,12042,2,100,0,,1.0,23.76218905472637,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M17,12042,2,485,0,,1.0,4.760247167868178,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M18,12042,2,193,0,,1.0,12.245478036175712,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M19,12042,2,899,0,,1.0,2.477265147304058,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M2,12042,2,159,0,,1.0,14.898432601880879,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M20,12042,2,685,0,,1.0,3.3130561633843914,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M21,12042,2,224,0,,1.0,10.526948775055681,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M22,12042,2,145,0,,1.0,16.351202749140892,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M23,12042,2,838,0,,1.0,2.6720333929636255,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M24,12042,2,982,2,BACH2;VPS54,0.006643842308088122,56.40234574196838,0.21260295385881992
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M25,12042,2,160,0,,1.0,14.804361370716512,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M26,12042,2,554,0,,1.0,4.143011722272317,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M27,12042,2,713,0,,1.0,3.1751927119831818,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M28,12042,2,523,0,,1.0,4.400191021967527,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M29,12042,2,446,0,,1.0,5.193505039193729,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M3,12042,2,218,0,,1.0,10.821510297482838,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M30,12042,2,1438,0,,1.0,1.4741049704553355,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M31,12042,2,466,0,,1.0,4.9622722400857455,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M32,12042,2,145,0,,1.0,16.351202749140892,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M4,12042,2,418,0,,1.0,5.554360812425329,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M5,12042,2,149,0,,1.0,15.90836120401338,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M6,12042,2,455,0,,1.0,5.086937431394072,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M7,12042,2,139,0,,1.0,17.063082437275988,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M8,12042,2,180,0,,1.0,13.141828254847647,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:down_in_MDD,7,7,M9,12042,2,163,0,,1.0,14.529051987767586,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M1,12042,15,358,0,,1.0,1.0500292437126018,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M10,12042,15,136,0,,1.0,2.810232777974713,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M11,12042,15,245,1,CD247,0.2654596803573045,4.9856145546858475,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M12,12042,15,45,0,,1.0,8.495214462956397,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M13,12042,15,81,0,,1.0,4.7284781318028895,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M14,12042,15,128,0,,1.0,2.987197188402159,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M15,12042,15,172,0,,1.0,2.2170172978027116,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M16,12042,15,100,0,,1.0,3.8284384528968065,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M17,12042,15,485,2,ARHGAP9;FBXO17,0.12038408845074965,4.421655367880807,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M18,12042,15,193,1,PCBD1,0.21533475264876112,6.3603224361845045,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M19,12042,15,899,4,BLVRB;C1ORF174;GEMIN7;RILP,0.021666433153266038,4.864540091763164,0.6933258609045132
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M2,12042,15,159,0,,1.0,2.4003438163616138,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M20,12042,15,685,2,ARMC5;KHDC1,0.20871299780392044,3.0736405754693976,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M21,12042,15,224,0,,1.0,1.6960270134348734,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M22,12042,15,145,1,MAGIX,0.16624895777152834,8.507457343992364,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M23,12042,15,838,0,,1.0,0.43047300286610113,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M24,12042,15,982,1,ZNF576,0.7210598351244912,1.1642805698526182,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M25,12042,15,160,0,,1.0,2.3851874183499144,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M26,12042,15,554,0,,1.0,0.6674714215073155,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M27,12042,15,713,1,SPR,0.5999117614718208,1.6429038112522687,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M28,12042,15,523,0,,1.0,0.7089071694857811,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M29,12042,15,446,0,,1.0,0.8367228985297837,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M3,12042,15,218,0,,1.0,1.7434856425776923,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M30,12042,15,1438,1,BAX,0.8517302776809629,0.7621349325337331,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M31,12042,15,466,1,MT1L,0.44697360180443657,2.5695396125782435,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M32,12042,15,145,0,,1.0,2.6344086021505375,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M4,12042,15,418,0,,1.0,0.8948626045400239,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M5,12042,15,149,0,,1.0,2.5630596612363794,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M6,12042,15,455,0,,1.0,0.8195531319712475,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M7,12042,15,139,0,,1.0,2.74910394265233,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M8,12042,15,180,0,,1.0,2.117326423018497,1.0
+corrected,high_plus_moderate,region:Cingulate gyrus 25|direction:up_in_MDD,29,29,M9,12042,15,163,0,,1.0,2.3408306204991614,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M1,12042,9,358,0,,1.0,1.714086471408647,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M10,12042,9,136,1,ADRA2B,0.09720226588579707,15.496201432602561,0.7939857817124738
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M11,12042,9,245,0,,1.0,2.5272805231000106,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M12,12042,9,45,0,,1.0,13.867553499132447,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M13,12042,9,81,0,,1.0,7.718760090410074,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M14,12042,9,128,0,,1.0,4.876305549866885,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M15,12042,9,172,0,,1.0,3.6190694126620895,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M16,12042,9,100,0,,1.0,6.24954176485991,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M17,12042,9,485,1,SETD6,0.3093406406155863,4.2067018757967585,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M18,12042,9,193,0,,1.0,3.2205902352781175,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M19,12042,9,899,0,,1.0,0.6515022965975249,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M2,12042,9,159,0,,1.0,3.9183303085299452,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M20,12042,9,685,2,TRMT2A;ZNF787,0.08917607902710484,5.535479151426482,0.7939857817124738
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M21,12042,9,224,0,,1.0,2.768608603915133,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M22,12042,9,145,0,,1.0,4.300415988424669,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M23,12042,9,838,0,,1.0,0.702727301258513,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M24,12042,9,982,2,TOR2A;ZNF738,0.16326659142949354,3.7577766445690974,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M25,12042,9,160,0,,1.0,3.8935891129693387,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M26,12042,9,554,0,,1.0,1.0896018224099473,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M27,12042,9,713,0,,1.0,0.8350606720023604,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M28,12042,9,523,2,C9ORF163;NOL6,0.05535057704540461,7.358581016299136,0.7939857817124738
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M29,12042,9,446,0,,1.0,1.3658867212824894,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M3,12042,9,218,0,,1.0,2.846079730217993,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M30,12042,9,1438,0,,1.0,0.38766624590673765,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M31,12042,9,466,0,,1.0,1.3050713600722061,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M32,12042,9,145,0,,1.0,4.300415988424669,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M4,12042,9,418,0,,1.0,1.4607935609633402,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M5,12042,9,149,0,,1.0,4.183946488294314,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M6,12042,9,455,0,,1.0,1.3378589173262465,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M7,12042,9,139,1,PRMT7,0.09924822271405923,15.156721172223403,0.7939857817124738
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M8,12042,9,180,0,,1.0,3.456334742673859,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation,26,26,M9,12042,9,163,0,,1.0,3.8211813938516013,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M1,12042,7,358,0,,1.0,2.1715481171548117,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M10,12042,7,136,1,ADRA2B,0.07644634147237138,20.267669599772923,0.6245959987040153
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M11,12042,7,245,0,,1.0,3.2017651052274267,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M12,12042,7,45,0,,1.0,17.568498168498166,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M13,12042,7,81,0,,1.0,9.778732106339469,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M14,12042,7,128,0,,1.0,6.17769130998703,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M15,12042,7,172,0,,1.0,4.584927536231884,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M16,12042,7,100,0,,1.0,7.917412935323384,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M17,12042,7,485,1,SETD6,0.2501167763962731,5.5020242914979764,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M18,12042,7,193,0,,1.0,4.080103359173127,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M19,12042,7,899,0,,1.0,0.82538447285529,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M2,12042,7,159,0,,1.0,4.96405433646813,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M20,12042,7,685,2,TRMT2A;ZNF787,0.056069221360487975,7.549710713573186,0.6245959987040153
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M21,12042,7,224,0,,1.0,3.507498144023756,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M22,12042,7,145,0,,1.0,5.448109965635739,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M23,12042,7,838,0,,1.0,0.8902802623732856,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M24,12042,7,982,0,,1.0,0.7500254452926208,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M25,12042,7,160,0,,1.0,4.932710280373832,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M26,12042,7,554,0,,1.0,1.3804027652539825,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M27,12042,7,713,0,,1.0,1.057930390095772,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M28,12042,7,523,2,C9ORF163;NOL6,0.034193189759446754,10.036171881809464,0.6245959987040153
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M29,12042,7,446,0,,1.0,1.730421799178798,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M3,12042,7,218,0,,1.0,3.6056445461479787,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M30,12042,7,1438,0,,1.0,0.49113660062565173,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M31,12042,7,466,0,,1.0,1.6533762057877812,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M32,12042,7,145,0,,1.0,5.448109965635739,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M4,12042,7,418,0,,1.0,1.8506571087216248,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M5,12042,7,149,0,,1.0,5.300557413600892,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M6,12042,7,455,0,,1.0,1.6949140139041348,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M7,12042,7,139,1,PRMT7,0.07807449983800191,19.82366009441822,0.6245959987040153
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M8,12042,7,180,0,,1.0,4.37876269621422,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:down_in_MDD,12,12,M9,12042,7,163,0,,1.0,4.840978593272172,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M1,12042,2,358,0,,1.0,6.517433751743376,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M10,12042,2,136,0,,1.0,17.442490842490844,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M11,12042,2,245,0,,1.0,9.609368635437882,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M12,12042,2,45,0,,1.0,52.72747252747253,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M13,12042,2,81,0,,1.0,29.348466257668715,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M14,12042,2,128,0,,1.0,18.540856031128406,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M15,12042,2,172,0,,1.0,13.760579710144928,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M16,12042,2,100,0,,1.0,23.76218905472637,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M17,12042,2,485,0,,1.0,4.760247167868178,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M18,12042,2,193,0,,1.0,12.245478036175712,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M19,12042,2,899,0,,1.0,2.477265147304058,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M2,12042,2,159,0,,1.0,14.898432601880879,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M20,12042,2,685,0,,1.0,3.3130561633843914,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M21,12042,2,224,0,,1.0,10.526948775055681,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M22,12042,2,145,0,,1.0,16.351202749140892,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M23,12042,2,838,0,,1.0,2.6720333929636255,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M24,12042,2,982,2,TOR2A;ZNF738,0.006643842308088122,56.40234574196838,0.21260295385881992
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M25,12042,2,160,0,,1.0,14.804361370716512,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M26,12042,2,554,0,,1.0,4.143011722272317,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M27,12042,2,713,0,,1.0,3.1751927119831818,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M28,12042,2,523,0,,1.0,4.400191021967527,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M29,12042,2,446,0,,1.0,5.193505039193729,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M3,12042,2,218,0,,1.0,10.821510297482838,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M30,12042,2,1438,0,,1.0,1.4741049704553355,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M31,12042,2,466,0,,1.0,4.9622722400857455,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M32,12042,2,145,0,,1.0,16.351202749140892,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M4,12042,2,418,0,,1.0,5.554360812425329,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M5,12042,2,149,0,,1.0,15.90836120401338,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M6,12042,2,455,0,,1.0,5.086937431394072,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M7,12042,2,139,0,,1.0,17.063082437275988,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M8,12042,2,180,0,,1.0,13.141828254847647,1.0
+corrected,high_plus_moderate,region:Hippocampal Formation|direction:up_in_MDD,14,14,M9,12042,2,163,0,,1.0,14.529051987767586,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M1,12042,3,358,0,,1.0,4.654911336919705,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M10,12042,3,136,0,,1.0,12.457875457875458,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M11,12042,3,245,0,,1.0,6.863252836776258,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M12,12042,3,45,0,,1.0,37.65934065934066,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M13,12042,3,81,0,,1.0,20.961437335670464,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M14,12042,3,128,0,,1.0,13.242356864924957,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M15,12042,3,172,0,,1.0,9.82815734989648,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M16,12042,3,100,0,,1.0,16.971570717839374,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M17,12042,3,485,0,,1.0,3.3998823010151535,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M18,12042,3,193,0,,1.0,8.746031746031747,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M19,12042,3,899,0,,1.0,1.7693162868260144,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M2,12042,3,159,0,,1.0,10.640841916703986,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M20,12042,3,685,2,DECR2;ZNF324B,0.009327468773974888,27.692026335040232,0.2984790007671964
+corrected,high_plus_moderate,region:Insula,20,20,M21,12042,3,224,0,,1.0,7.518612790327713,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M22,12042,3,145,0,,1.0,11.678448699067255,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M23,12042,3,838,0,,1.0,1.9084249084249085,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M24,12042,3,982,0,,1.0,1.6077789894583787,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M25,12042,3,160,0,,1.0,10.573653760569648,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M26,12042,3,554,0,,1.0,2.959036454978745,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M27,12042,3,713,0,,1.0,2.2677945740314347,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M28,12042,3,523,0,,1.0,3.1427206985946237,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M29,12042,3,446,0,,1.0,3.7093265077587585,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M3,12042,3,218,0,,1.0,7.728996404053612,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M30,12042,3,1438,0,,1.0,1.0528328119568995,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M31,12042,3,466,0,,1.0,3.5441739396723317,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M32,12042,3,145,0,,1.0,11.678448699067255,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M4,12042,3,418,0,,1.0,3.967059225123741,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M5,12042,3,149,0,,1.0,11.362159579550882,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M6,12042,3,455,1,DPP4,0.10913293596753966,15.294389438943893,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M7,12042,3,139,0,,1.0,12.186891961085509,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M8,12042,3,180,0,,1.0,9.386228729719035,1.0
+corrected,high_plus_moderate,region:Insula,20,20,M9,12042,3,163,0,,1.0,10.377020532983835,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M1,12042,1,358,0,,1.0,10.863319386331938,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M10,12042,1,136,0,,1.0,29.073260073260073,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M11,12042,1,245,0,,1.0,16.016972165648337,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M12,12042,1,45,0,,1.0,87.88644688644688,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M13,12042,1,81,0,,1.0,48.918200408997954,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M14,12042,1,128,0,,1.0,30.904020752269776,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M15,12042,1,172,0,,1.0,22.93623188405797,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M16,12042,1,100,0,,1.0,39.60696517412935,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M17,12042,1,485,0,,1.0,7.934431857191899,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M18,12042,1,193,0,,1.0,20.41085271317829,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M19,12042,1,899,0,,1.0,4.129145821752826,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M2,12042,1,159,0,,1.0,24.832810867293624,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M20,12042,1,685,0,,1.0,5.522246535375638,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M21,12042,1,224,0,,1.0,17.546399406087602,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M22,12042,1,145,0,,1.0,27.254295532646047,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M23,12042,1,838,0,,1.0,4.453786523553965,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M24,12042,1,982,0,,1.0,3.7521628498727733,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M25,12042,1,160,0,,1.0,24.67601246105919,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M26,12042,1,554,0,,1.0,6.905620679290652,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M27,12042,1,713,0,,1.0,5.292455033870591,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M28,12042,1,523,0,,1.0,7.334288443170965,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M29,12042,1,446,0,,1.0,8.656588279208659,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M3,12042,1,218,0,,1.0,18.037376048817695,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M30,12042,1,1438,0,,1.0,2.4570733402850187,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M31,12042,1,466,0,,1.0,8.271168274383708,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M32,12042,1,145,0,,1.0,27.254295532646047,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M4,12042,1,418,0,,1.0,9.25806451612903,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M5,12042,1,149,0,,1.0,26.516164994425864,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M6,12042,1,455,1,DPP4,0.03778442119249294,76.48514851485149,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M7,12042,1,139,0,,1.0,28.440860215053764,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M8,12042,1,180,0,,1.0,21.904893813481067,1.0
+corrected,high_plus_moderate,region:Insula|direction:down_in_MDD,6,6,M9,12042,1,163,0,,1.0,24.217125382262996,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M1,12042,2,358,0,,1.0,6.517433751743376,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M10,12042,2,136,0,,1.0,17.442490842490844,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M11,12042,2,245,0,,1.0,9.609368635437882,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M12,12042,2,45,0,,1.0,52.72747252747253,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M13,12042,2,81,0,,1.0,29.348466257668715,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M14,12042,2,128,0,,1.0,18.540856031128406,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M15,12042,2,172,0,,1.0,13.760579710144928,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M16,12042,2,100,0,,1.0,23.76218905472637,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M17,12042,2,485,0,,1.0,4.760247167868178,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M18,12042,2,193,0,,1.0,12.245478036175712,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M19,12042,2,899,0,,1.0,2.477265147304058,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M2,12042,2,159,0,,1.0,14.898432601880879,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M20,12042,2,685,2,DECR2;ZNF324B,0.0032313611106248963,83.08339429407461,0.10340355553999668
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M21,12042,2,224,0,,1.0,10.526948775055681,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M22,12042,2,145,0,,1.0,16.351202749140892,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M23,12042,2,838,0,,1.0,2.6720333929636255,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M24,12042,2,982,0,,1.0,2.2510941475826973,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M25,12042,2,160,0,,1.0,14.804361370716512,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M26,12042,2,554,0,,1.0,4.143011722272317,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M27,12042,2,713,0,,1.0,3.1751927119831818,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M28,12042,2,523,0,,1.0,4.400191021967527,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M29,12042,2,446,0,,1.0,5.193505039193729,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M3,12042,2,218,0,,1.0,10.821510297482838,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M30,12042,2,1438,0,,1.0,1.4741049704553355,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M31,12042,2,466,0,,1.0,4.9622722400857455,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M32,12042,2,145,0,,1.0,16.351202749140892,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M4,12042,2,418,0,,1.0,5.554360812425329,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M5,12042,2,149,0,,1.0,15.90836120401338,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M6,12042,2,455,0,,1.0,5.086937431394072,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M7,12042,2,139,0,,1.0,17.063082437275988,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M8,12042,2,180,0,,1.0,13.141828254847647,1.0
+corrected,high_plus_moderate,region:Insula|direction:up_in_MDD,14,14,M9,12042,2,163,0,,1.0,14.529051987767586,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M1,12042,12,358,0,,1.0,1.302370990237099,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M10,12042,12,136,0,,1.0,3.4855677655677657,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M11,12042,12,245,0,,1.0,1.920244399185336,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M12,12042,12,45,0,,1.0,10.536703296703298,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M13,12042,12,81,0,,1.0,5.864785276073619,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M14,12042,12,128,0,,1.0,3.705058365758755,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M15,12042,12,172,1,QPRT,0.15862299257066978,9.019774369375078,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M16,12042,12,100,0,,1.0,4.748457711442787,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M17,12042,12,485,0,,1.0,0.9512255406797117,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M18,12042,12,193,0,,1.0,2.44702842377261,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M19,12042,12,899,0,,1.0,0.4950083379655364,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M2,12042,12,159,0,,1.0,2.97717868338558,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M20,12042,12,685,0,,1.0,0.6620277169948943,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M21,12042,12,224,1,TCN2,0.2018230022239665,6.890866647213306,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M22,12042,12,145,0,,1.0,3.267491408934708,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M23,12042,12,838,0,,1.0,0.5339296362552177,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M24,12042,12,982,0,,1.0,0.4498117048346056,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M25,12042,12,160,0,,1.0,2.958380062305296,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M26,12042,12,554,0,,1.0,0.8278809738503156,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M27,12042,12,713,1,STAP2,0.5194201658343275,2.0720366132723114,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M28,12042,12,523,2,C9ORF163;NOL6,0.09319205176598577,5.254759621969593,0.9940485521705149
+corrected,high_plus_moderate,region:OFC BA11,27,27,M29,12042,12,446,0,,1.0,1.037805151175812,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M3,12042,12,218,0,,1.0,2.1624713958810067,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M30,12042,12,1438,2,GCC1;TRPV3,0.42888866670610637,1.7560041768186565,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M31,12042,12,466,2,MYBPC1;NINJ1,0.07632630733563384,5.928802091342457,0.9940485521705149
+corrected,high_plus_moderate,region:OFC BA11,27,27,M32,12042,12,145,0,,1.0,3.267491408934708,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M4,12042,12,418,0,,1.0,1.109916367980884,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M5,12042,12,149,0,,1.0,3.178996655518395,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M6,12042,12,455,0,,1.0,1.0165093304061472,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M7,12042,12,139,0,,1.0,3.4097491039426524,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M8,12042,12,180,1,RAB24,0.16540569092731208,8.611965604941261,1.0
+corrected,high_plus_moderate,region:OFC BA11,27,27,M9,12042,12,163,2,FHL1;ZNF461,0.010994701085948948,17.49889429455993,0.35183043475036635
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M1,12042,4,358,0,,1.0,3.620176662017666,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M10,12042,4,136,0,,1.0,9.688644688644688,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M11,12042,4,245,0,,1.0,5.337632948630912,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M12,12042,4,45,0,,1.0,29.288156288156284,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M13,12042,4,81,0,,1.0,16.301976823449216,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M14,12042,4,128,0,,1.0,10.298746217034154,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M15,12042,4,172,0,,1.0,7.643478260869565,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M16,12042,4,100,0,,1.0,13.199004975124376,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M17,12042,4,485,0,,1.0,2.6441240416523626,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M18,12042,4,193,0,,1.0,6.801894918173987,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M19,12042,4,899,0,,1.0,1.3760113643382126,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M2,12042,4,159,0,,1.0,8.275513758272378,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M20,12042,4,685,0,,1.0,1.8402625820568927,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M21,12042,4,224,0,,1.0,5.8473150210343965,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M22,12042,4,145,0,,1.0,9.082474226804123,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M23,12042,4,838,0,,1.0,1.4841979725700656,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M24,12042,4,982,0,,1.0,1.250381679389313,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M25,12042,4,160,0,,1.0,8.22326064382139,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M26,12042,4,554,0,,1.0,2.3012724175934274,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M27,12042,4,713,0,,1.0,1.763684497391575,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M28,12042,4,523,1,NOL6,0.1627506966022006,9.446206425153793,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M29,12042,4,446,0,,1.0,2.884782879183775,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M3,12042,4,218,0,,1.0,6.010933129926264,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M30,12042,4,1438,2,GCC1;TRPV3,0.07251768688447505,7.3807866341803,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M31,12042,4,466,0,,1.0,2.756341550553769,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M32,12042,4,145,0,,1.0,9.082474226804123,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M4,12042,4,418,0,,1.0,3.085225009956193,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M5,12042,4,149,0,,1.0,8.836492010405054,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M6,12042,4,455,0,,1.0,2.8255884864007803,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M7,12042,4,139,0,,1.0,9.4778972520908,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M8,12042,4,180,0,,1.0,7.299784549092028,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:down_in_MDD,12,12,M9,12042,4,163,1,ZNF461,0.0530608592675584,31.322637362637362,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M1,12042,8,358,0,,1.0,1.9159077857084255,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M10,12042,8,136,0,,1.0,5.1275587157940095,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M11,12042,8,245,0,,1.0,2.824847250509165,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M12,12042,8,45,0,,1.0,15.50032320620556,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M13,12042,8,81,0,,1.0,8.627571273908336,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M14,12042,8,128,0,,1.0,5.4504463263904785,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M15,12042,8,172,1,QPRT,0.10874469081861746,13.834985422740527,0.8928902962485227
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M16,12042,8,100,0,,1.0,6.985367281240855,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M17,12042,8,485,0,,1.0,1.3993457321136489,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M18,12042,8,193,0,,1.0,3.5997872017023864,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M19,12042,8,899,0,,1.0,0.7282150214171271,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M2,12042,8,159,0,,1.0,4.379679144385026,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M20,12042,8,685,0,,1.0,0.9739134165701291,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M21,12042,8,224,1,TCN2,0.13951410878883166,10.56957494407159,0.8928902962485227
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M22,12042,8,145,0,,1.0,4.806751566606024,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M23,12042,8,838,0,,1.0,0.7854712546915009,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M24,12042,8,982,0,,1.0,0.661727286334381,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M25,12042,8,160,0,,1.0,4.35202492211838,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M26,12042,8,554,0,,1.0,1.21789635601761,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M27,12042,8,713,1,STAP2,0.38640748898205673,3.178245614035088,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M28,12042,8,523,1,C9ORF163,0.2990559159060549,4.4066985645933014,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M29,12042,8,446,0,,1.0,1.5267110203543905,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M3,12042,8,218,0,,1.0,3.181181854892987,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M30,12042,8,1438,0,,1.0,0.43331493181214087,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M31,12042,8,466,2,MYBPC1;NINJ1,0.03584037891272462,9.58060776682951,0.8928902962485227
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M32,12042,8,145,0,,1.0,4.806751566606024,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M4,12042,8,418,0,,1.0,1.632792184974348,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M5,12042,8,149,0,,1.0,4.676568955341334,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M6,12042,8,455,0,,1.0,1.4953832246400207,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M7,12042,8,139,0,,1.0,5.016023613746574,1.0
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M8,12042,8,180,1,RAB24,0.11354020185979768,13.209470752089137,0.8928902962485227
+corrected,high_plus_moderate,region:OFC BA11|direction:up_in_MDD,15,15,M9,12042,8,163,1,FHL1,0.10332262149656293,14.612307692307693,0.8928902962485227
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M1,12042,7,358,0,,1.0,2.1715481171548117,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M10,12042,7,136,1,ADRA2B,0.07644634147237138,20.267669599772923,0.766580024615737
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M11,12042,7,245,0,,1.0,3.2017651052274267,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M12,12042,7,45,0,,1.0,17.568498168498166,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M13,12042,7,81,0,,1.0,9.778732106339469,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M14,12042,7,128,0,,1.0,6.17769130998703,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M15,12042,7,172,1,LIMS3,0.09582250307696713,15.964790311729088,0.766580024615737
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M16,12042,7,100,0,,1.0,7.917412935323384,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M17,12042,7,485,0,,1.0,1.586062478544456,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M18,12042,7,193,0,,1.0,4.080103359173127,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M19,12042,7,899,1,MRPL2,0.4191507570636404,2.86053679208938,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M2,12042,7,159,0,,1.0,4.96405433646813,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M20,12042,7,685,0,,1.0,1.1038657913931438,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M21,12042,7,224,0,,1.0,3.507498144023756,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M22,12042,7,145,0,,1.0,5.448109965635739,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M23,12042,7,838,0,,1.0,0.8902802623732856,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M24,12042,7,982,1,MOSPD3,0.448775822396357,2.599122222657628,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M25,12042,7,160,0,,1.0,4.932710280373832,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M26,12042,7,554,2,MORN5;RPGR,0.03803833679828832,9.447552447552447,0.766580024615737
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M27,12042,7,713,0,,1.0,1.057930390095772,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M28,12042,7,523,0,,1.0,1.466093600764088,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M29,12042,7,446,0,,1.0,1.730421799178798,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M3,12042,7,218,0,,1.0,3.6056445461479787,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M30,12042,7,1438,0,,1.0,0.49113660062565173,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M31,12042,7,466,0,,1.0,1.6533762057877812,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M32,12042,7,145,0,,1.0,5.448109965635739,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M4,12042,7,418,0,,1.0,1.8506571087216248,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M5,12042,7,149,1,N4BP1,0.08348393864137046,18.473193473193476,0.766580024615737
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M6,12042,7,455,0,,1.0,1.6949140139041348,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M7,12042,7,139,0,,1.0,5.6853046594982075,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M8,12042,7,180,0,,1.0,4.37876269621422,1.0
+corrected,high_plus_moderate,region:Ventral Striatum,23,23,M9,12042,7,163,0,,1.0,4.840978593272172,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M1,12042,1,358,0,,1.0,10.863319386331938,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M10,12042,1,136,0,,1.0,29.073260073260073,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M11,12042,1,245,0,,1.0,16.016972165648337,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M12,12042,1,45,0,,1.0,87.88644688644688,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M13,12042,1,81,0,,1.0,48.918200408997954,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M14,12042,1,128,0,,1.0,30.904020752269776,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M15,12042,1,172,0,,1.0,22.93623188405797,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M16,12042,1,100,0,,1.0,39.60696517412935,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M17,12042,1,485,0,,1.0,7.934431857191899,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M18,12042,1,193,0,,1.0,20.41085271317829,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M19,12042,1,899,0,,1.0,4.129145821752826,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M2,12042,1,159,0,,1.0,24.832810867293624,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M20,12042,1,685,0,,1.0,5.522246535375638,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M21,12042,1,224,0,,1.0,17.546399406087602,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M22,12042,1,145,0,,1.0,27.254295532646047,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M23,12042,1,838,0,,1.0,4.453786523553965,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M24,12042,1,982,0,,1.0,3.7521628498727733,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M25,12042,1,160,0,,1.0,24.67601246105919,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M26,12042,1,554,0,,1.0,6.905620679290652,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M27,12042,1,713,0,,1.0,5.292455033870591,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M28,12042,1,523,0,,1.0,7.334288443170965,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M29,12042,1,446,0,,1.0,8.656588279208659,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M3,12042,1,218,0,,1.0,18.037376048817695,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M30,12042,1,1438,0,,1.0,2.4570733402850187,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M31,12042,1,466,0,,1.0,8.271168274383708,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M32,12042,1,145,0,,1.0,27.254295532646047,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M4,12042,1,418,0,,1.0,9.25806451612903,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M5,12042,1,149,1,N4BP1,0.012373359906992194,240.27272727272728,0.3959475170237502
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M6,12042,1,455,0,,1.0,8.478960848884011,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M7,12042,1,139,0,,1.0,28.440860215053764,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M8,12042,1,180,0,,1.0,21.904893813481067,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:down_in_MDD,6,6,M9,12042,1,163,0,,1.0,24.217125382262996,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M1,12042,6,358,0,,1.0,2.505847012123163,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M10,12042,6,136,1,ADRA2B,0.06589144251776988,23.954713183495468,0.8822833419054857
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M11,12042,6,245,0,,1.0,3.6946576844743855,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M12,12042,6,45,0,,1.0,20.273034657650044,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M13,12042,6,81,0,,1.0,11.284096271826334,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M14,12042,6,128,0,,1.0,7.128703980844059,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M15,12042,6,172,1,LIMS3,0.08271406330363928,18.8690697058044,0.8822833419054857
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M16,12042,6,100,0,,1.0,9.136241867585152,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M17,12042,6,485,0,,1.0,1.8302305315693577,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M18,12042,6,193,0,,1.0,4.708209103557941,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M19,12042,6,899,1,MRPL2,0.37226349214492027,3.380937926847776,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M2,12042,6,159,0,,1.0,5.7282372799614185,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M20,12042,6,685,0,,1.0,1.2738035123155473,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M21,12042,6,224,0,,1.0,4.047455884872367,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M22,12042,6,145,0,,1.0,6.286809410520751,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M23,12042,6,838,0,,1.0,1.0273381954956196,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M24,12042,6,982,1,MOSPD3,0.39980692947010593,3.0719677673320054,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M25,12042,6,160,0,,1.0,5.692068056554038,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M26,12042,6,554,2,MORN5;RPGR,0.02801303788284664,11.548014077425842,0.8822833419054857
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M27,12042,6,713,0,,1.0,1.2207967225486496,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M28,12042,6,523,0,,1.0,1.6917934023951215,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M29,12042,6,446,0,,1.0,1.9968128176414852,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M3,12042,6,218,0,,1.0,4.160711142404507,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M30,12042,6,1438,0,,1.0,0.5667495521510121,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M31,12042,6,466,0,,1.0,1.907906669964548,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M32,12042,6,145,0,,1.0,6.286809410520751,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M4,12042,6,418,0,,1.0,2.1355573936219097,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M5,12042,6,149,0,,1.0,6.116542320555698,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M6,12042,6,455,0,,1.0,1.9558388921725915,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M7,12042,6,139,0,,1.0,6.560518334711883,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M8,12042,6,180,0,,1.0,5.052844662262945,1.0
+corrected,high_plus_moderate,region:Ventral Striatum|direction:up_in_MDD,17,17,M9,12042,6,163,0,,1.0,5.586215008233357,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M1,12042,5,358,0,,1.0,2.9617091416254597,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M10,12042,5,136,1,GPR6,0.05521681317422033,29.28044280442804,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M11,12042,5,245,0,,1.0,4.366783928902056,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M12,12042,5,45,0,,1.0,23.961038961038962,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M13,12042,5,81,0,,1.0,13.336865588399332,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M14,12042,5,128,0,,1.0,8.425539441103643,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M15,12042,5,172,0,,1.0,6.2532279314888015,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M16,12042,5,100,0,,1.0,10.79828132066938,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M17,12042,5,485,0,,1.0,2.1631869675124054,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M18,12042,5,193,0,,1.0,5.56471693680996,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M19,12042,5,899,0,,1.0,1.125726413664157,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M2,12042,5,159,0,,1.0,6.770304930179538,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M20,12042,5,685,0,,1.0,1.505536768118825,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M21,12042,5,224,0,,1.0,4.78376189512047,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M22,12042,5,145,0,,1.0,7.430490471727586,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M23,12042,5,838,0,,1.0,1.2142353770260748,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M24,12042,5,982,1,PPT2,0.3464926286776721,3.754966887417218,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M25,12042,5,160,0,,1.0,6.727555933163409,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M26,12042,5,554,0,,1.0,1.88269530289368,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M27,12042,5,713,1,CCL3L3,0.26304313976692484,5.298479532163743,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M28,12042,5,523,1,NOL6,0.19912562480265317,7.346411483253588,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M29,12042,5,446,1,HNRNPA1,0.17199293127049595,8.673774784885895,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M3,12042,5,218,0,,1.0,4.917620137299771,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M30,12042,5,1438,0,,1.0,0.6698581224128669,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M31,12042,5,466,0,,1.0,2.2549936665692294,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M32,12042,5,145,0,,1.0,7.430490471727586,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M4,12042,5,418,0,,1.0,2.5240577821222985,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M5,12042,5,149,0,,1.0,7.229249011857708,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M6,12042,5,455,0,,1.0,2.3116455443568507,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M7,12042,5,139,0,,1.0,7.753991528185077,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M8,12042,5,180,0,,1.0,5.972047343238479,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9,17,17,M9,12042,5,163,0,,1.0,6.602446483180429,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M1,12042,2,358,0,,1.0,6.517433751743376,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M10,12042,2,136,0,,1.0,17.442490842490844,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M11,12042,2,245,0,,1.0,9.609368635437882,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M12,12042,2,45,0,,1.0,52.72747252747253,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M13,12042,2,81,0,,1.0,29.348466257668715,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M14,12042,2,128,0,,1.0,18.540856031128406,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M15,12042,2,172,0,,1.0,13.760579710144928,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M16,12042,2,100,0,,1.0,23.76218905472637,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M17,12042,2,485,0,,1.0,4.760247167868178,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M18,12042,2,193,0,,1.0,12.245478036175712,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M19,12042,2,899,0,,1.0,2.477265147304058,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M2,12042,2,159,0,,1.0,14.898432601880879,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M20,12042,2,685,0,,1.0,3.3130561633843914,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M21,12042,2,224,0,,1.0,10.526948775055681,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M22,12042,2,145,0,,1.0,16.351202749140892,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M23,12042,2,838,0,,1.0,2.6720333929636255,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M24,12042,2,982,0,,1.0,2.2510941475826973,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M25,12042,2,160,0,,1.0,14.804361370716512,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M26,12042,2,554,0,,1.0,4.143011722272317,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M27,12042,2,713,1,CCL3L3,0.11491773643174891,15.899649122807016,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M28,12042,2,523,1,NOL6,0.08497981782086202,22.044976076555024,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M29,12042,2,446,0,,1.0,5.193505039193729,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M3,12042,2,218,0,,1.0,10.821510297482838,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M30,12042,2,1438,0,,1.0,1.4741049704553355,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M31,12042,2,466,0,,1.0,4.9622722400857455,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M32,12042,2,145,0,,1.0,16.351202749140892,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M4,12042,2,418,0,,1.0,5.554360812425329,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M5,12042,2,149,0,,1.0,15.90836120401338,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M6,12042,2,455,0,,1.0,5.086937431394072,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M7,12042,2,139,0,,1.0,17.063082437275988,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M8,12042,2,180,0,,1.0,13.141828254847647,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:down_in_MDD,5,5,M9,12042,2,163,0,,1.0,14.529051987767586,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M1,12042,3,358,0,,1.0,4.654911336919705,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M10,12042,3,136,1,GPR6,0.033502956266240044,52.71365313653136,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M11,12042,3,245,0,,1.0,6.863252836776258,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M12,12042,3,45,0,,1.0,37.65934065934066,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M13,12042,3,81,0,,1.0,20.961437335670464,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M14,12042,3,128,0,,1.0,13.242356864924957,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M15,12042,3,172,0,,1.0,9.82815734989648,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M16,12042,3,100,0,,1.0,16.971570717839374,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M17,12042,3,485,0,,1.0,3.3998823010151535,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M18,12042,3,193,0,,1.0,8.746031746031747,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M19,12042,3,899,0,,1.0,1.7693162868260144,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M2,12042,3,159,0,,1.0,10.640841916703986,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M20,12042,3,685,0,,1.0,2.3662602896738565,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M21,12042,3,224,0,,1.0,7.518612790327713,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M22,12042,3,145,0,,1.0,11.678448699067255,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M23,12042,3,838,0,,1.0,1.9084249084249085,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M24,12042,3,982,1,PPT2,0.22525299782392116,6.760163015792155,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M25,12042,3,160,0,,1.0,10.573653760569648,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M26,12042,3,554,0,,1.0,2.959036454978745,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M27,12042,3,713,0,,1.0,2.2677945740314347,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M28,12042,3,523,0,,1.0,3.1427206985946237,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M29,12042,3,446,1,HNRNPA1,0.10705524734626855,15.615488215488215,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M3,12042,3,218,0,,1.0,7.728996404053612,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M30,12042,3,1438,0,,1.0,1.0528328119568995,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M31,12042,3,466,0,,1.0,3.5441739396723317,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M32,12042,3,145,0,,1.0,11.678448699067255,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M4,12042,3,418,0,,1.0,3.967059225123741,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M5,12042,3,149,0,,1.0,11.362159579550882,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M6,12042,3,455,0,,1.0,3.6332131096126705,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M7,12042,3,139,0,,1.0,12.186891961085509,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M8,12042,3,180,0,,1.0,9.386228729719035,1.0
+corrected,high_plus_moderate,region:dlPFC BA8/9|direction:up_in_MDD,12,12,M9,12042,3,163,0,,1.0,10.377020532983835,1.0

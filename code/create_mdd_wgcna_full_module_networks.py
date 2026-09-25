@@ -9,6 +9,7 @@ from __future__ import annotations
 
 from pathlib import Path
 from typing import Dict, Iterable, Tuple
+import os
 
 import matplotlib
 matplotlib.use("Agg")
@@ -23,13 +24,21 @@ from sklearn.preprocessing import MinMaxScaler
 PROJECT_ROOT = Path(r"D:/genes/GeneDepresion")
 PIPELINE_ROOT = PROJECT_ROOT / "outputs" / "length_gt_100_clean_pipeline"
 WGCNA_ROOT = PIPELINE_ROOT / "12_MDD_WGCNA_modules"
-OUT_DIR = WGCNA_ROOT / "plots_cluster_visualization"
+OUT_DIR = Path(os.environ.get(
+    "MDD_WGCNA_NETWORK_OUTPUT_DIR",
+    str(WGCNA_ROOT / "plots_cluster_visualization"),
+))
+ENRICHMENT_FILE = Path(os.environ.get(
+    "MDD_WGCNA_ENRICHMENT_FILE",
+    str(WGCNA_ROOT / "module_enrichment_for_Tier2_and_ML_genes.csv"),
+))
 
+EXPR_ROOT = PROJECT_ROOT / "outputs" / "step1_length_sensitivity" / "Length_gt_100" / "02_normalized_expression" / "keep_all_samples"
 EXPR_FILES = {
-    "Frontal Cortex": PIPELINE_ROOT / "02_normalized_expression" / "normalized_GeTMM_log2_frontal_cortex.csv",
-    "Hippocampal Formation": PIPELINE_ROOT / "02_normalized_expression" / "normalized_GeTMM_log2_hippocampal_formation.csv",
-    "Insula": PIPELINE_ROOT / "02_normalized_expression" / "normalized_GeTMM_log2_insula.csv",
-    "Ventral Striatum": PIPELINE_ROOT / "02_normalized_expression" / "normalized_GeTMM_log2_ventral_striatum.csv",
+    "Frontal Cortex": EXPR_ROOT / "normalized_GeTMM_log2_frontal_cortex.csv",
+    "Hippocampal Formation": EXPR_ROOT / "normalized_GeTMM_log2_hippocampal_formation.csv",
+    "Insula": EXPR_ROOT / "normalized_GeTMM_log2_insula.csv",
+    "Ventral Striatum": EXPR_ROOT / "normalized_GeTMM_log2_ventral_striatum.csv",
 }
 
 FOCUS_MODULES = [
@@ -82,7 +91,7 @@ def load_expression(region: str) -> pd.DataFrame:
 
 def build_gene_sets() -> tuple[set[str], set[str], set[str]]:
     tier2 = read_csv(PIPELINE_ROOT / "07_Tier2_candidate_gene_sets" / "Tier2_candidate_genes_all_regions.csv")
-    ml = read_csv(PIPELINE_ROOT / "10_ML_prioritized_Tier2_extended" / "final_ranked_ML_prioritized_Tier2_genes.csv")
+    ml = read_csv(PIPELINE_ROOT / "10_ML_prioritized_Tier2_corrected" / "ML_prioritized_Tier2_genes_all_ranked.csv")
     tier2_ids = set(tier2["gene_id"].dropna().astype(str))
     cls = ml["ML_priority_class"].fillna("").astype(str).str.lower()
     high_ids = set(ml.loc[cls.str.contains("high-confidence"), "gene_id"].dropna().astype(str))
@@ -283,7 +292,7 @@ def update_readme_and_audit(new_rows: list[dict]) -> None:
     readme_path = OUT_DIR / "README_cluster_plots.md"
     audit_path = OUT_DIR / "cluster_visualization_plot_inventory.csv"
     # Update audit CSV in the current explicit generated/skipped schema.
-    audit = pd.read_csv(audit_path)
+    audit = pd.read_csv(audit_path) if audit_path.exists() else pd.DataFrame()
     for row in new_rows:
         audit = pd.concat([audit, pd.DataFrame([row])], ignore_index=True)
     audit.to_csv(audit_path, index=False)
@@ -292,7 +301,7 @@ def update_readme_and_audit(new_rows: list[dict]) -> None:
     pdf_count = len(list(OUT_DIR.glob("*.pdf")))
     csv_count = len(list(OUT_DIR.glob("*.csv")))
     readme_count = len(list(OUT_DIR.glob("README*.md")))
-    text = readme_path.read_text(encoding="utf-8")
+    text = readme_path.read_text(encoding="utf-8") if readme_path.exists() else "# Corrected ML-Annotated WGCNA Network Figures\n\n"
     text = text.replace(
         "The plot audit found 32 PNG plots, 32 matching PDF plots, two CSV summary files, and one README. PCA/module-clustering plots were generated successfully. t-SNE was attempted but skipped because the required sklearn functionality failed in this environment, so no t-SNE plots are included.",
         README_AUDIT_SENTENCE,
@@ -307,7 +316,7 @@ def update_readme_and_audit(new_rows: list[dict]) -> None:
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     assignments = read_csv(WGCNA_ROOT / "best_solution_gene_to_module_assignments.csv")
-    enrich = to_num(read_csv(WGCNA_ROOT / "module_enrichment_for_Tier2_and_ML_genes.csv"), ["overlap_count", "p_value", "fdr_BH"])
+    enrich = to_num(read_csv(ENRICHMENT_FILE), ["overlap_count", "p_value", "fdr_BH"])
     tier2, high, high_mod = build_gene_sets()
     expr_cache: dict[str, pd.DataFrame] = {}
     graphs = {}

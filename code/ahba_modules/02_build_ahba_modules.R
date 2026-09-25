@@ -163,7 +163,7 @@ if (file.exists(not_installed_marker)) {
   file.remove(not_installed_marker)
 }
 
-ml_tier2_path <- file.path(clean_dir, "10_ML_prioritized_Tier2_extended", "final_ranked_ML_prioritized_Tier2_genes.csv")
+ml_tier2_path <- file.path(clean_dir, "10_ML_prioritized_Tier2_corrected", "ML_prioritized_Tier2_genes_all_ranked.csv")
 ml_tier2_genes <- character(0)
 if (file.exists(ml_tier2_path)) {
   ml_tier2_tbl <- read.csv(ml_tier2_path, check.names = FALSE, stringsAsFactors = FALSE)
