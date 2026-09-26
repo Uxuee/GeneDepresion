@@ -59,7 +59,7 @@ def load_inputs() -> dict[str, pd.DataFrame]:
         "hubs": num(read_csv(SUB_ROOT / "frontal_subregion_hub_genes_top50.csv"), ["kME", "abs_kME"]),
         "important": num(read_csv(SUB_ROOT / "frontal_subregion_important_modules_summary.csv"), ["module_size", "diagnosis_p_value", "diagnosis_BH_FDR"]),
         "tier2": read_csv(PIPELINE_ROOT / "07_Tier2_candidate_gene_sets" / "Tier2_candidate_genes_all_regions.csv"),
-        "ml": read_csv(PIPELINE_ROOT / "10_ML_prioritized_Tier2_extended" / "final_ranked_ML_prioritized_Tier2_genes.csv"),
+        "ml": read_csv(PIPELINE_ROOT / "10_ML_prioritized_Tier2_corrected" / "ML_prioritized_Tier2_genes_all_ranked.csv"),
     }
 
 

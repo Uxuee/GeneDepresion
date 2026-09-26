@@ -1,4 +1,4 @@
-"""Shared helpers for the clean Length > 100 Tier2-only pipeline.
+"""Historical helpers for the superseded Length > 100 Tier2-only pipeline.
 
 Each step below is intentionally lightweight: completed old outputs are reused,
 copied, filtered, or summarized. The library avoids rerunning LMM, enrichment,
@@ -517,7 +517,7 @@ def run_step_10(skip_existing: bool = False) -> dict:
         {
             "clean_pipeline_step": "10_extract_extended_ML_prioritized_Tier2_genes",
             "source_procedure": str(stable_script),
-            "source_strategy": "stable ML-prioritized Tier 2 procedure using Tier2_fixed, Tier4_top-k support, and strict v2 support",
+            "source_strategy": "ML-prioritized Tier 2 procedure using v1 Tier2_fixed and nested train-only strict-v2 support; Tier4 v1 sets do not enter the final score",
             "ml_rerun": False,
             "ranked_count": int(len(ranked)),
             "high_confidence_count": int(len(high_df)),
@@ -760,13 +760,25 @@ def run_numbered_step(step: int, skip_existing: bool = False) -> dict:
 
 
 def runner_main(argv: list[str] | None = None) -> None:
-    parser = argparse.ArgumentParser(description="Run the clean Length > 100 Tier2-only pipeline.")
+    parser = argparse.ArgumentParser(description="Run the historical Length > 100 pipeline (legacy outputs).")
     parser.add_argument("--from-step", type=int, default=1)
     parser.add_argument("--to-step", type=int, default=12)
     parser.add_argument("--skip-existing", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--allow-legacy",
+        action="store_true",
+        help="Explicitly permit legacy steps 9-12, which target superseded ML outputs.",
+    )
     args = parser.parse_args(argv)
     selected = [s for s in sorted(STEP_FUNCS) if args.from_step <= s <= args.to_step]
+    legacy_selected = sorted(set(selected).intersection({9, 10, 11, 12}))
+    if legacy_selected and not args.allow_legacy:
+        parser.error(
+            "steps 9-12 are historical and write/read superseded ML products; "
+            "use code/run_canonical_pipeline.py for the canonical workflow or "
+            "repeat with --allow-legacy only for an intentional historical reproduction"
+        )
     print("Clean Length > 100 MDD pipeline steps:")
     for s in selected:
         print(f"  {s:02d}. {STEP_NAMES[s]}")

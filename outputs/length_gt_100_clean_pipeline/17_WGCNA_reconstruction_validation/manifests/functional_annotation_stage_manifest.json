@@ -1,0 +1,84 @@
+{
+  "stage": "reproducible_functional_annotation",
+  "status": "validation_candidate",
+  "generated_at": "2026-09-26 06:33:58 JST",
+  "git_baseline_requested": "a483b4f6267befbb98ef49f23a27ffe6fa48ed69",
+  "git_head_at_start": "df46778d1b62d92c8ba2b0a3b9002e3c3f7bdadc",
+  "script": "code/phase3b_compare_annotate_wgcna.R",
+  "script_sha256": "1374c24e17e2acbdc43390c153ba5cf5b7a6d39c155ec95f9351109b7ad4683b",
+  "input_references": ["ten pre-specified prioritized module alignments", "reconstructed assignments"],
+  "inputs": [
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/prioritized_module_alignment.csv",
+      "sha256": "cbb2cbab25553fb9ad8f42c929cb816c9a587d7a2e525cec1d94426473f1af04"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/best_solution_gene_to_module_assignments.csv",
+      "sha256": "b7c0a1bd65c07be12f1cca561ad6f6e07eb0619cc2e69067a2a1936390b8b92a"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/frontal_subregion_wgcna/frontal_subregion_best_solution_gene_to_module_assignments.csv",
+      "sha256": "22d6f32b32458d4260c1d2059a857f2c2e6fc148d87b6d466acd2c4b4750c7db"
+    }
+  ],
+  "parameters": {
+    "resources": ["GO BP", "GO MF", "GO CC", "Reactome", "MSigDB Hallmark"],
+    "background": "mapped region-specific network genes",
+    "mapping": "org.Hs.eg.db ENTREZID"
+  },
+  "random_seed": null,
+  "environment": {
+    "r_version": "R version 4.6.1 (2026-06-24 ucrt)",
+    "bioconductor_version": "3.23",
+    "renv_lock": "environment/phase3b/renv.lock",
+    "package_versions": "environment/phase3b/package_versions.csv"
+  },
+  "database_versions": {
+    "org_Hs_eg_db": "3.23.1",
+    "GO_source": "org.Hs.eg.db 3.23.1",
+    "ReactomePA": "1.56.0",
+    "msigdbr": "26.1.1"
+  },
+  "outputs": [
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/annotation_mapping_coverage_by_module.csv",
+      "sha256": "63ad75d539ed489ac93820e24310d193d977c421f9f20ddf490430aba3f52365"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/functional_enrichment_GO_Reactome_Hallmark.csv",
+      "sha256": "9ee35040483204f46e17a0947d3b624e5114d756db0cce72a907648490bd4708"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/historical_vs_phase3b_mapping_coverage.csv",
+      "sha256": "6d2f2d53703fa73ab5773b007cf5a3caa16875345267c6627401f8f140113e64"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/old_vs_new_gene_mapping_status.csv",
+      "sha256": "142ba5b1793042c1f17278de207af7c245df537df97536bb1e7c5226fae863a5"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/old_vs_new_gene_mapping_status_summary.csv",
+      "sha256": "08e5d988d92c1921783006e997c11a2f1914db29bffc28046685a7b2b5d402ad"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/prioritized_module_alignment.csv",
+      "sha256": "cbb2cbab25553fb9ad8f42c929cb816c9a587d7a2e525cec1d94426473f1af04"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/prioritized_module_evidence_table.csv",
+      "sha256": "a3de7ca83777b103fb4f4a05df36c7abf6f89f3c6fb5a48f48295b6db1117a66"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/prioritized_module_gene_id_mapping.csv",
+      "sha256": "78e2a87844b8d92632f8f11fdf0b648b97925d89f6416f5587b686e98deddf44"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/still_unmapped_prioritized_module_genes.csv",
+      "sha256": "8a325d6723f5edbf86c7acda56b0519192f87bbe731de694732110a49ea276c0"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/top_functional_terms_by_prioritized_module.csv",
+      "sha256": "4bf3ebf6fe0cfb65f5da6d3005228257c1b86bc98a7ffd6619185ad1741b4817"
+    }
+  ]
+}

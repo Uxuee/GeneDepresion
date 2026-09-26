@@ -1,0 +1,69 @@
+{
+  "stage": "label_invariant_module_comparison",
+  "status": "validation_candidate",
+  "generated_at": "2026-09-26 06:33:54 JST",
+  "git_baseline_requested": "a483b4f6267befbb98ef49f23a27ffe6fa48ed69",
+  "git_head_at_start": "df46778d1b62d92c8ba2b0a3b9002e3c3f7bdadc",
+  "script": "code/phase3b_compare_annotate_wgcna.R",
+  "script_sha256": "1374c24e17e2acbdc43390c153ba5cf5b7a6d39c155ec95f9351109b7ad4683b",
+  "input_references": ["canonical WGCNA assignments", "reconstruction"],
+  "inputs": [
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/best_solution_gene_to_module_assignments.csv",
+      "sha256": "b7c0a1bd65c07be12f1cca561ad6f6e07eb0619cc2e69067a2a1936390b8b92a"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/frontal_subregion_wgcna/frontal_subregion_best_solution_gene_to_module_assignments.csv",
+      "sha256": "22d6f32b32458d4260c1d2059a857f2c2e6fc148d87b6d466acd2c4b4750c7db"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/inputs_manifest/canonical_reference_file_manifest.csv",
+      "sha256": "03cae2986acfa82cd8629ebb1cb1c90adf7ba9b3ccf24d3d95725e26166cb678"
+    }
+  ],
+  "parameters": {
+    "predeclared_thresholds": "module_comparison/predeclared_equivalence_thresholds.json"
+  },
+  "random_seed": null,
+  "environment": {
+    "r_version": "R version 4.6.1 (2026-06-24 ucrt)",
+    "bioconductor_version": "3.23",
+    "renv_lock": "environment/phase3b/renv.lock",
+    "package_versions": "environment/phase3b/package_versions.csv"
+  },
+  "database_versions": [],
+  "outputs": [
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/module_comparison/WGCNA_reconstruction_validation_summary_table.csv",
+      "sha256": "471d2f99041a3bb43d1b25fd5f33878ab431bc8e91a304e5979dd5cb0735679b"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/module_comparison/aligned_top50_hub_kME_comparison.csv",
+      "sha256": "00d2832b9739744e6fcac9249dddb1944fbdac704e0c1ad0a37b257e315c8d00"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/module_comparison/old_by_reconstructed_module_overlap_and_jaccard.csv",
+      "sha256": "362fbbe32acfc2d13efcabb4d6dfc76c1623594bd80717943c3d5c02fb12051b"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/module_comparison/old_to_reconstructed_module_mapping.csv",
+      "sha256": "f5fcbb377b74c4290716fe6963c320660ee73a0e8483a81582ff098692d46c13"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/module_comparison/predeclared_equivalence_thresholds.json",
+      "sha256": "510f57c375df980947561510491a66abb7f9da653e9bce8843d6505404d19dfc"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/module_comparison/wgcna_reconstruction_summary.csv",
+      "sha256": "02ea292cc40f30bf5b6829e64564dc6ddb4e66f6c01d6fb65b60bbf212aa9b1f"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/eigengene_validation/aligned_diagnosis_association_comparison.csv",
+      "sha256": "bda0fab17f4b1341604438bbb13220372f3148406a0200f504624937e0b6eabe"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/eigengene_validation/aligned_module_eigengene_correlations.csv",
+      "sha256": "d85dabf2495747f432a2d8527c8a587038e2f0b17beda5f863a35d70328a3816"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+layer,genes_total,genes_mapped,mapping_fraction,method
+historical_incomplete_mapping,4267,1796,0.4209046168268104,historical annotation layer without org.Hs.eg.db
+phase3b_prioritized_module_mapping,2783,2611,0.938196191160618,org.Hs.eg.db ENTREZID->SYMBOL; Phase-3B reconstructed prioritized modules

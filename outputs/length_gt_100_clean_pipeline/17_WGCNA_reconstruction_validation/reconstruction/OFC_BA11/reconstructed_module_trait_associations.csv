@@ -1,0 +1,19 @@
+region,reconstructed_module,n_module_genes,beta_diagnosis,p_diagnosis,model_formula,n_samples,notes,fdr_diagnosis_BH
+OFC BA11,MElightyellow,20,-0.02878831543944263,0.5341332696572535,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.6867427752736117
+OFC BA11,MEblack,308,0.004970243730613642,0.9143536567343395,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.9549970667084182
+OFC BA11,MEyellow,579,-0.0451841926814673,0.3279903358087829,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.5494934282476818
+OFC BA11,MEmagenta,116,-0.05377930619762744,0.24312512898826338,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.5494934282476818
+OFC BA11,MEsalmon,40,0.012484646853332405,0.7885232584931945,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.9229793812606556
+OFC BA11,MEtan,41,0.054010149472759984,0.2355236279078876,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.5494934282476818
+OFC BA11,MEgrey60,25,0.037348589663230236,0.391470292530387,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.5872054387955805
+OFC BA11,MEgreenyellow,54,-0.0026117062202436763,0.9549970667084182,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.9549970667084182
+OFC BA11,MEpink,278,0.0795412836612151,0.0638187123982645,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.5494934282476818
+OFC BA11,MEgreen,544,0.0449427059909483,0.30677036922733425,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.5494934282476818
+OFC BA11,MEbrown,649,-0.01041151971818429,0.8204261166761383,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.9229793812606556
+OFC BA11,MEred,405,0.04903686026755453,0.28237881769110135,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.5494934282476818
+OFC BA11,MEblue,693,-0.05441320102489636,0.23839083244936682,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.5494934282476818
+OFC BA11,MEmidnightblue,31,-0.03423445125804266,0.4601574684881825,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.6371411102144066
+OFC BA11,MEcyan,36,-0.050965546813568144,0.26861281588857583,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.5494934282476818
+OFC BA11,MEpurple,1129,-0.08730236902310906,0.0552111145300891,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.5494934282476818
+OFC BA11,MElightcyan,29,-0.058661902606133055,0.20228475290437822,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.5494934282476818
+OFC BA11,MElightgreen,23,-0.04429394286508294,0.3358015394846944,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,47,full_or_available_covariate_model,0.5494934282476818

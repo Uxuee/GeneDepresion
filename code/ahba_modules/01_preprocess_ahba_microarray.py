@@ -21,7 +21,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = PROJECT_ROOT / "data" / "ahba"
 CLEAN_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_clean_pipeline"
 OUT_DIR = CLEAN_DIR / "11_AHBA_modules_enrichment" / "processed"
-STEP10_DIR = CLEAN_DIR / "10_ML_prioritized_Tier2_extended"
+CANONICAL_ML_RANKING = CLEAN_DIR / "10_ML_prioritized_Tier2_corrected" / "ML_prioritized_Tier2_genes_all_ranked.csv"
 
 
 def normalize_gene_symbol(value: object) -> str:
@@ -170,7 +170,7 @@ def main() -> None:
     collapsed, collapse_report = collapse_probes(filtered)
     collapsed = collapsed.sort_index()
 
-    final_ranked = pd.read_csv(STEP10_DIR / "final_ranked_ML_prioritized_Tier2_genes.csv", dtype={"gene_id": str})
+    final_ranked = pd.read_csv(CANONICAL_ML_RANKING, dtype={"gene_id": str})
     mdd_symbols = set(final_ranked["gene_symbol"].dropna().map(normalize_gene_symbol))
     ahba_symbols = set(collapsed.index)
     overlap = sorted(mdd_symbols & ahba_symbols)

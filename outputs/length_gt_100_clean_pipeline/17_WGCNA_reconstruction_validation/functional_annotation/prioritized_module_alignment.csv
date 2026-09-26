@@ -1,0 +1,11 @@
+region,old_module,reconstructed_module,jaccard
+Ventral Striatum,MElavenderblush3,MElavenderblush3,1
+Ventral Striatum,MEdarkred,MEdarkred,1
+Ventral Striatum,MElightgreen,MElightgreen,1
+Ventral Striatum,MElightcyan1,MElightcyan1,1
+Insula,MEorange,MEorange,1
+Hippocampal Formation,MEgreen,MEgreen,1
+dlPFC BA8/9,MEblue,MEblue,1
+dlPFC BA8/9,MEorange,MEorange,1
+Cingulate gyrus 25,MEwhite,MEwhite,1
+OFC BA11,MEtan,MEtan,1

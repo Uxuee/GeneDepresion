@@ -1,5 +1,7 @@
 # Step-by-step report: Length > 100 MDD transcriptomics to ML-prioritized Tier 2 genes
 
+> **Superseded ML counts:** this report documents the legacy 35/130 result. Use `ML_PRIORITY_SCORE_FINAL.md` for the canonical 30/119 result.
+
 ## 1. Goal of this report
 
 This report tells the clean analysis story from the Length > 100 gene-filtered expression data to the current ML-prioritized Tier 2 candidate genes.

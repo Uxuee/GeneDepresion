@@ -1,0 +1,19 @@
+region,analysis_variant,gene_filter_version,n_samples,n_genes_after_filter,power,power_selection_status,deepSplit,minModuleSize,mergeCutHeight,corType,networkType,TOMType,n_non_grey_modules,largest_module_size,largest_module_fraction,grey_gene_count,grey_gene_fraction,median_module_size,usable_solution
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,2,20,0.15,bicor,signed,signed,36,2426,0.16173333333333334,0,0,186,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,3,20,0.15,bicor,signed,signed,40,2205,0.147,0,0,132.5,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,4,20,0.15,bicor,signed,signed,50,2200,0.14666666666666667,0,0,59.5,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,2,30,0.15,bicor,signed,signed,29,2483,0.16553333333333334,0,0,290,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,3,30,0.15,bicor,signed,signed,33,2526,0.1684,0,0,172,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,4,30,0.15,bicor,signed,signed,38,2537,0.16913333333333333,0,0,148,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,2,50,0.15,bicor,signed,signed,20,2997,0.1998,0,0,541.5,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,3,50,0.15,bicor,signed,signed,23,2954,0.19693333333333332,0,0,437,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,4,50,0.15,bicor,signed,signed,25,2930,0.19533333333333333,0,0,394,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,2,20,0.25,bicor,signed,signed,24,3085,0.20566666666666666,0,0,228,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,3,20,0.25,bicor,signed,signed,22,2620,0.17466666666666666,0,0,275,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,4,20,0.25,bicor,signed,signed,31,2487,0.1658,0,0,81,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,2,30,0.25,bicor,signed,signed,18,3156,0.2104,0,0,404,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,3,30,0.25,bicor,signed,signed,20,3104,0.20693333333333333,0,0,295.5,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,4,30,0.25,bicor,signed,signed,24,3051,0.2034,0,0,202,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,2,50,0.25,bicor,signed,signed,16,3114,0.2076,0,0,638,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,3,50,0.25,bicor,signed,signed,17,2954,0.19693333333333332,0,0,540,TRUE
+Ventral Striatum,residualized_technical_covariates,top_15000_MAD,48,15000,11,first_power_reached_0.8,4,50,0.25,bicor,signed,signed,19,2945,0.19633333333333333,0,0,451,TRUE

@@ -1,0 +1,196 @@
+{
+  "generated_at": "2026-09-26 06:35:01 JST",
+  "passed": true,
+  "checks": [
+    {
+      "check": "six frozen expression inputs",
+      "passed": true,
+      "detail": "Ventral Striatum; Insula; Hippocampal Formation; CG25; dlPFC BA8/9; OFC BA11"
+    },
+    {
+      "check": "frozen expression SHA-256",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "construction manifest declares no Diagnosis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no Tier2 or corrected ML construction input",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Ventral Striatum complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Ventral Striatum selected parameters",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Ventral Striatum unique assignment per gene",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Ventral Striatum noncanonical manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Insula complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Insula selected parameters",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Insula unique assignment per gene",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Insula noncanonical manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Hippocampal Formation complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Hippocampal Formation selected parameters",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Hippocampal Formation unique assignment per gene",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Hippocampal Formation noncanonical manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cingulate gyrus 25 complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cingulate gyrus 25 selected parameters",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cingulate gyrus 25 unique assignment per gene",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cingulate gyrus 25 noncanonical manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "dlPFC BA8/9 complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "dlPFC BA8/9 selected parameters",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "dlPFC BA8/9 unique assignment per gene",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "dlPFC BA8/9 noncanonical manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OFC BA11 complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OFC BA11 selected parameters",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OFC BA11 unique assignment per gene",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "OFC BA11 noncanonical manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "six label-invariant comparisons",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ARI bounded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Jaccard bounded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "corrected ML 671/30/119/522",
+      "passed": true,
+      "detail": "671/30/119/522"
+    },
+    {
+      "check": "enrichment accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ten prioritized modules annotated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mapping accounting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "output manifest has records",
+      "passed": true,
+      "detail": "115 files"
+    },
+    {
+      "check": "output manifest files exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "output manifest SHA-256",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

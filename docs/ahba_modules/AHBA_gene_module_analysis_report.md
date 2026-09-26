@@ -1,5 +1,7 @@
 # AHBA Gene Module Analysis Report
 
+> **Legacy-input report:** this analysis used the pre-correction 35-high/130-moderate ML lists. AHBA is contextual only, and this report requires regeneration before publication use.
+
 ## Aim
 
 The AHBA module-analysis stage adds healthy-brain coexpression context to the

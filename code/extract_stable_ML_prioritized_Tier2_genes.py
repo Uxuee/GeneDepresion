@@ -57,6 +57,18 @@ SPARSE_MODELS = {"logistic_l1", "elastic_net_logistic"}
 LINEAR_MODELS = {"logistic_l1", "elastic_net_logistic", "logistic_l2", "linear_svm"}
 TOP_MODELS = {"logistic_l2", "linear_svm", "random_forest_exploratory"}
 RF_MODELS = {"random_forest_exploratory"}
+SIGNED_MODELS = LINEAR_MODELS
+BASELINE_MODELS = {"majority_class_baseline"}
+
+SCORE_WEIGHTS = {
+    "selection_frequency_combined": 0.40,
+    "model_support_scaled": 0.15,
+    "sparse_model_support_binary": 0.10,
+    "importance_rank_score": 0.15,
+    "sign_consistency_score": 0.10,
+    "lmm_evidence_scaled": 0.05,
+    "v2_support_score": 0.05,
+}
 
 
 def safe_name(value: str) -> str:
@@ -127,11 +139,20 @@ def annotate_importance_events(df: pd.DataFrame, source: str) -> pd.DataFrame:
     if df is None or df.empty:
         return pd.DataFrame()
     df = df.copy()
+    # A majority-class baseline does not use gene features. Its feature rows are
+    # bookkeeping from the upstream selector, not gene-level model evidence.
+    if source == "v2" and "model" in df.columns:
+        df = df[~df["model"].isin(BASELINE_MODELS)].copy()
+    if df.empty:
+        return pd.DataFrame()
     df["gene_id"] = df["gene_id"].astype(str)
     if "importance_value" not in df.columns and "coefficient" in df.columns:
         df["importance_value"] = pd.to_numeric(df["coefficient"], errors="coerce")
     df["importance_value"] = pd.to_numeric(df["importance_value"], errors="coerce")
     df["abs_importance"] = df["importance_value"].abs()
+    # Only genuinely signed linear coefficients may inform direction. Random-
+    # forest importance remains available for selection, support, and ranking.
+    df["signed_importance_value"] = df["importance_value"].where(df["model"].isin(SIGNED_MODELS))
     if "feature_set" not in df.columns:
         df["feature_set"] = (
             df.get("feature_selection_method", "strict_v2").astype(str)
@@ -168,7 +189,6 @@ def summarize_events(events: pd.DataFrame, tier2: pd.DataFrame, source: str) -> 
         out[f"v2_support_flag"] = np.nan if source == "v2" else False
         return out
 
-    events = events.merge(keys, on=["analysis_level", "region_or_subregion", "gene_id"], how="inner")
     event_cols = [c for c in ["feature_set", "model", "repeat", "fold", "outer_repeat", "outer_fold"] if c in events.columns]
     denom = (
         events[["analysis_level", "region_or_subregion"] + event_cols]
@@ -178,6 +198,9 @@ def summarize_events(events: pd.DataFrame, tier2: pd.DataFrame, source: str) -> 
         .rename("n_events_region")
         .reset_index()
     )
+    # Denominator is the complete non-baseline event grid for the region, not
+    # the subset of events in which a particular Tier2 gene was eligible.
+    events = events.merge(keys, on=["analysis_level", "region_or_subregion", "gene_id"], how="inner")
     selected = events[events["selected_conservative"]].copy()
     if selected.empty:
         out = keys.copy()
@@ -220,8 +243,8 @@ def summarize_events(events: pd.DataFrame, tier2: pd.DataFrame, source: str) -> 
             top25_count_source=("top25", "sum"),
             top50_count_source=("top50", "sum"),
             near_top_count_source=("top20pct", "sum"),
-            sign_consistency_source=("importance_value", sign_consistency),
-            ml_direction_source=("importance_value", dominant_direction),
+            sign_consistency_source=("signed_importance_value", sign_consistency),
+            ml_direction_source=("signed_importance_value", dominant_direction),
         )
     )
     grouped = grouped.merge(denom, on=["analysis_level", "region_or_subregion"], how="left")
@@ -240,6 +263,7 @@ def summarize_events(events: pd.DataFrame, tier2: pd.DataFrame, source: str) -> 
         "top50_count_source": f"top50_count_{source}",
         "sign_consistency_source": f"sign_consistency_{source}",
         "ml_direction_source": f"ml_direction_{source}",
+        "n_events_region": f"n_events_{source}",
     }
     grouped = grouped.rename(columns=rename)
     out = keys.merge(grouped, on=["analysis_level", "region_or_subregion", "gene_id"], how="left")
@@ -283,6 +307,7 @@ def build_priority_table(tier2: pd.DataFrame, v1_summary: pd.DataFrame, v2_summa
             f"mean_rank_{source}",
             f"rank_stability_{source}",
             f"sign_consistency_{source}",
+            f"n_events_{source}",
         ]:
             if col not in result.columns:
                 result[col] = np.nan
@@ -344,14 +369,8 @@ def build_priority_table(tier2: pd.DataFrame, v1_summary: pd.DataFrame, v2_summa
     result["sign_consistency_score"] = result["sign_consistency"].fillna(0.5)
     result["lmm_evidence_scaled"] = minmax_by_region(result["lmm_evidence_score"], result["region_or_subregion"])
     result["sparse_model_support_binary"] = result["sparse_model_support"].astype(float)
-    result["ML_priority_score"] = (
-        0.30 * result["selection_frequency_combined"]
-        + 0.20 * result["model_support_scaled"]
-        + 0.15 * result["sparse_model_support_binary"]
-        + 0.15 * result["importance_rank_score"]
-        + 0.10 * result["sign_consistency_score"]
-        + 0.05 * result["lmm_evidence_scaled"]
-        + 0.05 * result["v2_support_score"]
+    result["ML_priority_score"] = sum(
+        weight * result[component] for component, weight in SCORE_WEIGHTS.items()
     ).clip(0, 1)
 
     agreement_allowed = result["lmm_ml_sign_agreement"].map(lambda x: True if pd.isna(x) else bool(x))
@@ -361,7 +380,8 @@ def build_priority_table(tier2: pd.DataFrame, v1_summary: pd.DataFrame, v2_summa
         & (result["selection_frequency_combined"] >= 0.50)
         & (result["model_support_count"] >= 2)
         & result["sparse_model_support"]
-        & (result["sign_consistency"].fillna(1.0) >= 0.70)
+        & result["sign_consistency"].notna()
+        & (result["sign_consistency"] >= 0.70)
         & agreement_allowed
     )
     moderate = (
@@ -499,7 +519,7 @@ def write_report(result: pd.DataFrame, summary: pd.DataFrame, used: list[str], m
         "",
         "## Methods",
         "",
-        "The candidate pool was restricted to existing Tier 2 genes. The script extracted ML feature-importance events, recomputed conservative selected flags, summarized selection frequency, model support, sparse-model support, random-forest support, rank stability, sign consistency, LMM/ML sign agreement, and an ML priority score scaled from 0 to 1.",
+        "The candidate pool was restricted to existing Tier 2 genes. Final v1 scoring used Tier2_fixed only; historical Tier4 v1 sets did not enter the final score. Strict v2 used nested train-only feature-selection/top-k evidence. Random forest was retained as non-directional selection/rank evidence, the majority-class baseline was excluded from gene-level evidence, and missing sign consistency could not satisfy the high-confidence sign gate. Predictive-performance metrics such as ROC-AUC did not enter the gene score. The component weights were 0.40/0.15/0.10/0.15/0.10/0.05/0.05.",
         "",
         "## Results By Region/Subregion",
         "",
@@ -526,7 +546,6 @@ def write_report(result: pd.DataFrame, summary: pd.DataFrame, used: list[str], m
 
 
 def main() -> None:
-    reset_output()
     used: list[str] = []
     missing: list[str] = []
     tier2 = load_tier2_tables(used, missing)
@@ -539,6 +558,21 @@ def main() -> None:
     _ = load_optional_csv(V2_STABILITY_DIR / "selection_frequency_all_models.csv", used, missing, dtype={"gene_id": str})
     _ = load_optional_csv(V2_PERFORMANCE, used, missing)
     _ = load_optional_csv(V2_BEST, used, missing)
+
+    required_missing = []
+    if v1_fold is None:
+        required_missing.append(str(V1_IMPORTANCE_DIR / "fold_level_feature_importance.csv"))
+    if v2_fold is None:
+        required_missing.append(str(V2_STABILITY_DIR / "selected_genes_per_fold_all_models.csv"))
+    if required_missing:
+        raise FileNotFoundError(
+            "Cannot regenerate corrected ML-priority results without required event-level inputs: "
+            + "; ".join(required_missing)
+        )
+
+    # Do not clear retained results until every required scoring input has been
+    # loaded successfully.
+    reset_output()
 
     if v1_fold is not None and "feature_set" in v1_fold.columns:
         v1_fold = v1_fold[v1_fold["feature_set"].eq("Tier2_fixed")].copy()
@@ -574,6 +608,8 @@ def main() -> None:
         "selection_frequency_v1",
         "selection_frequency_v2",
         "selection_frequency_combined",
+        "n_events_v1",
+        "n_events_v2",
         "model_support_count",
         "sparse_model_support",
         "linear_model_support",
@@ -583,10 +619,18 @@ def main() -> None:
         "mean_rank",
         "rank_stability",
         "sign_consistency",
+        "sign_consistency_v1",
+        "sign_consistency_v2",
         "ml_direction",
         "lmm_ml_sign_agreement",
         "lmm_evidence_score",
         "v2_support_flag",
+        "model_support_scaled",
+        "sparse_model_support_binary",
+        "importance_rank_score",
+        "sign_consistency_score",
+        "lmm_evidence_scaled",
+        "v2_support_score",
         "ML_priority_score",
         "ML_priority_class",
         "enrichment_ready_flag",

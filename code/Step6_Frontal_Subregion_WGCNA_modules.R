@@ -65,8 +65,8 @@ tier2_file <- file.path(
 )
 ml_file <- file.path(
   pipeline_root,
-  "10_ML_prioritized_Tier2_extended",
-  "final_ranked_ML_prioritized_Tier2_genes.csv"
+  "10_ML_prioritized_Tier2_corrected",
+  "ML_prioritized_Tier2_genes_all_ranked.csv"
 )
 ahba_file <- file.path(
   pipeline_root,

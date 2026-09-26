@@ -7,6 +7,11 @@
 outputs/
 Step1_GeTMM_log2_outputs/
 
+# Generated full-detail p-value sensitivity tables are reproducible from the
+# committed R workflow and compact summaries; never add these large artifacts.
+outputs/length_gt_100_elisa_style/pvalue_correction_sensitivity/four_group_pvalue_correction_sensitivity_full.csv
+outputs/length_gt_100_elisa_style/pvalue_correction_sensitivity/frontal_subregion_pvalue_correction_sensitivity_full.csv
+
 # AHBA raw downloads can be large; keep processed summaries/scripts in git instead.
 data/ahba/*
 !data/ahba/README.md
@@ -24,3 +29,22 @@ outputs/length_gt_100_clean_pipeline/ahba_modules/raw_downloads/
 # OS/editor noise
 .DS_Store
 Thumbs.db
+
+# Canonical-control files that are intentionally versioned.
+!provenance/*.csv
+config/project_paths.local.yaml
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.Renviron
+.Rprofile
+.pytest_cache/
+.coverage
+
+# Phase-3B uses a recorded private R installation/library; binaries are local.
+environment/phase3b/R-*/
+environment/phase3b/library/

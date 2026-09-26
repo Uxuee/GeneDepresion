@@ -1,0 +1,11 @@
+region,old_module,reconstructed_module,module_genes_total,module_genes_mapped,module_genes_unmapped,mapping_fraction,universe_genes,universe_mapped,universe_mapping_fraction,mapping_method
+Ventral Striatum,MElavenderblush3,MElavenderblush3,35,34,1,0.9714285714285714,15000,14286,0.9524,org.Hs.eg.db ENTREZID->SYMBOL
+Ventral Striatum,MEdarkred,MEdarkred,227,217,10,0.9559471365638766,15000,14286,0.9524,org.Hs.eg.db ENTREZID->SYMBOL
+Ventral Striatum,MElightgreen,MElightgreen,299,296,3,0.9899665551839465,15000,14286,0.9524,org.Hs.eg.db ENTREZID->SYMBOL
+Ventral Striatum,MElightcyan1,MElightcyan1,586,576,10,0.9829351535836177,15000,14286,0.9524,org.Hs.eg.db ENTREZID->SYMBOL
+Insula,MEorange,MEorange,53,53,0,1,15000,14307,0.9538,org.Hs.eg.db ENTREZID->SYMBOL
+Hippocampal Formation,MEgreen,MEgreen,857,796,61,0.9288214702450408,15000,14288,0.9525333333333333,org.Hs.eg.db ENTREZID->SYMBOL
+dlPFC BA8/9,MEblue,MEblue,703,611,92,0.8691322901849218,5000,4672,0.9344,org.Hs.eg.db ENTREZID->SYMBOL
+dlPFC BA8/9,MEorange,MEorange,23,23,0,1,5000,4672,0.9344,org.Hs.eg.db ENTREZID->SYMBOL
+Cingulate gyrus 25,MEwhite,MEwhite,50,50,0,1,5000,4767,0.9534,org.Hs.eg.db ENTREZID->SYMBOL
+OFC BA11,MEtan,MEtan,41,39,2,0.9512195121951219,5000,4682,0.9364,org.Hs.eg.db ENTREZID->SYMBOL

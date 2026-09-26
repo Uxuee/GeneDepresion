@@ -21,7 +21,7 @@ from scipy.stats import hypergeom
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 CLEAN_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_clean_pipeline"
 SOURCE_LENGTH100_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_elisa_style"
-STEP10_DIR = CLEAN_DIR / "10_ML_prioritized_Tier2_extended"
+CANONICAL_ML_RANKING = CLEAN_DIR / "10_ML_prioritized_Tier2_corrected" / "ML_prioritized_Tier2_genes_all_ranked.csv"
 TIER2_DIR = CLEAN_DIR / "07_Tier2_candidate_gene_sets"
 AHBA_DIR = CLEAN_DIR / "11_AHBA_modules_enrichment"
 PUBLISHED_DIR = AHBA_DIR / "published_modules"
@@ -79,7 +79,7 @@ def make_candidate_set(candidate_set: str, scope: str, frame: pd.DataFrame, reas
 
 
 def load_candidates() -> list[dict]:
-    ranked_path = STEP10_DIR / "final_ranked_ML_prioritized_Tier2_genes.csv"
+    ranked_path = CANONICAL_ML_RANKING
     all_tier2_path = TIER2_DIR / "Tier2_candidate_genes_all_regions.csv"
     if not ranked_path.exists():
         raise FileNotFoundError(f"Missing ML-prioritized Tier 2 table: {ranked_path}")

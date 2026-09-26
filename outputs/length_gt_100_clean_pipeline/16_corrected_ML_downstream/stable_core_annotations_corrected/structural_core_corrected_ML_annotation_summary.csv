@@ -1,0 +1,74 @@
+analysis_unit,region,module,n_structural_core,n_corrected_ML_high,n_corrected_ML_high_plus_moderate
+broad,Frontal Cortex,MEdarkgreen,50,0,0
+broad,Hippocampal Formation,MEgreen,50,0,0
+broad,Insula,MEorange,44,0,1
+broad,Ventral Striatum,MEdarkred,50,0,0
+broad,Ventral Striatum,MElavenderblush3,35,0,0
+broad,Ventral Striatum,MElightcyan1,50,0,0
+broad,Ventral Striatum,MElightgreen,50,0,0
+frontal,Cingulate gyrus 25,MEblack,50,1,1
+frontal,Cingulate gyrus 25,MEblue,50,0,0
+frontal,Cingulate gyrus 25,MEbrown,50,0,0
+frontal,Cingulate gyrus 25,MEdarkgreen,50,0,0
+frontal,Cingulate gyrus 25,MEdarkgrey,50,0,0
+frontal,Cingulate gyrus 25,MEdarkmagenta,50,0,0
+frontal,Cingulate gyrus 25,MEdarkolivegreen,30,0,0
+frontal,Cingulate gyrus 25,MEdarkorange,42,0,0
+frontal,Cingulate gyrus 25,MEdarkorange2,12,0,0
+frontal,Cingulate gyrus 25,MEdarkred,50,0,0
+frontal,Cingulate gyrus 25,MEfloralwhite,50,0,0
+frontal,Cingulate gyrus 25,MEgreen,50,0,0
+frontal,Cingulate gyrus 25,MEgrey60,50,0,0
+frontal,Cingulate gyrus 25,MElightcyan1,18,0,0
+frontal,Cingulate gyrus 25,MElightgreen,50,0,0
+frontal,Cingulate gyrus 25,MElightsteelblue1,23,0,0
+frontal,Cingulate gyrus 25,MEmediumpurple3,24,0,0
+frontal,Cingulate gyrus 25,MEorange,42,0,0
+frontal,Cingulate gyrus 25,MEorangered4,25,0,0
+frontal,Cingulate gyrus 25,MEplum1,26,0,0
+frontal,Cingulate gyrus 25,MEred,50,0,0
+frontal,Cingulate gyrus 25,MEsaddlebrown,38,0,1
+frontal,Cingulate gyrus 25,MEskyblue,38,0,1
+frontal,Cingulate gyrus 25,MEskyblue3,18,0,0
+frontal,Cingulate gyrus 25,MEsteelblue,29,0,0
+frontal,Cingulate gyrus 25,MEwhite,47,0,0
+frontal,Cingulate gyrus 25,MEyellowgreen,22,0,0
+frontal,OFC BA11,MEblack,50,0,0
+frontal,OFC BA11,MEblue,50,0,0
+frontal,OFC BA11,MEbrown,50,0,0
+frontal,OFC BA11,MEcyan,32,0,0
+frontal,OFC BA11,MEgreen,50,0,0
+frontal,OFC BA11,MEgreenyellow,40,0,0
+frontal,OFC BA11,MEgrey60,13,0,0
+frontal,OFC BA11,MElightcyan,16,0,1
+frontal,OFC BA11,MElightgreen,15,0,0
+frontal,OFC BA11,MElightyellow,14,0,0
+frontal,OFC BA11,MEmagenta,50,0,2
+frontal,OFC BA11,MEmidnightblue,28,0,0
+frontal,OFC BA11,MEpink,50,0,0
+frontal,OFC BA11,MEpurple,50,0,0
+frontal,OFC BA11,MEred,50,0,0
+frontal,OFC BA11,MEsalmon,22,0,0
+frontal,OFC BA11,MEtan,11,0,1
+frontal,OFC BA11,MEyellow,50,0,0
+frontal,dlPFC BA8/9,MEblack,50,0,0
+frontal,dlPFC BA8/9,MEblue,50,0,0
+frontal,dlPFC BA8/9,MEbrown,50,0,0
+frontal,dlPFC BA8/9,MEcyan,31,0,0
+frontal,dlPFC BA8/9,MEdarkgreen,15,0,0
+frontal,dlPFC BA8/9,MEdarkgrey,23,0,0
+frontal,dlPFC BA8/9,MEdarkred,50,0,0
+frontal,dlPFC BA8/9,MEdarkturquoise,20,0,0
+frontal,dlPFC BA8/9,MEgreen,50,0,0
+frontal,dlPFC BA8/9,MEgreenyellow,50,0,0
+frontal,dlPFC BA8/9,MEgrey60,25,0,0
+frontal,dlPFC BA8/9,MElightcyan,38,0,0
+frontal,dlPFC BA8/9,MElightgreen,29,0,0
+frontal,dlPFC BA8/9,MElightyellow,21,0,0
+frontal,dlPFC BA8/9,MEmagenta,50,0,0
+frontal,dlPFC BA8/9,MEmidnightblue,36,0,0
+frontal,dlPFC BA8/9,MEorange,22,0,0
+frontal,dlPFC BA8/9,MEpurple,50,0,0
+frontal,dlPFC BA8/9,MEsalmon,23,0,0
+frontal,dlPFC BA8/9,MEtan,50,1,1
+frontal,dlPFC BA8/9,MEturquoise,50,0,0

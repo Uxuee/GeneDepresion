@@ -20,7 +20,7 @@ from scipy.stats import hypergeom
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 CLEAN_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_clean_pipeline"
 SOURCE_LENGTH100_DIR = PROJECT_ROOT / "outputs" / "length_gt_100_elisa_style"
-STEP10_DIR = CLEAN_DIR / "10_ML_prioritized_Tier2_extended"
+CANONICAL_ML_RANKING = CLEAN_DIR / "10_ML_prioritized_Tier2_corrected" / "ML_prioritized_Tier2_genes_all_ranked.csv"
 TIER2_DIR = CLEAN_DIR / "07_Tier2_candidate_gene_sets"
 AHBA_DIR = CLEAN_DIR / "11_AHBA_modules_enrichment"
 PROCESSED_DIR = AHBA_DIR / "processed"
@@ -72,7 +72,7 @@ def make_candidate_set(
 
 
 def load_candidates() -> tuple[pd.DataFrame, list[dict]]:
-    ranked = pd.read_csv(STEP10_DIR / "final_ranked_ML_prioritized_Tier2_genes.csv", dtype={"gene_id": str})
+    ranked = pd.read_csv(CANONICAL_ML_RANKING, dtype={"gene_id": str})
     all_tier2 = pd.read_csv(TIER2_DIR / "Tier2_candidate_genes_all_regions.csv", dtype={"gene_id": str})
 
     high = ranked[ranked["ML_priority_class"].eq("High-confidence ML-prioritized Tier 2")]
@@ -105,7 +105,8 @@ def load_candidates() -> tuple[pd.DataFrame, list[dict]]:
                 f"high- or moderate-confidence rows in {region}",
             )
         )
-        for direction, dsub in sub.groupby("statistical_direction"):
+        direction_col = "statistical_direction" if "statistical_direction" in sub.columns else "direction"
+        for direction, dsub in sub.groupby(direction_col):
             direction_hm = dsub[dsub["ML_priority_class"].isin([
                 "High-confidence ML-prioritized Tier 2",
                 "Moderate-confidence ML-prioritized Tier 2",

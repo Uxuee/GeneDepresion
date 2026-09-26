@@ -1,0 +1,33 @@
+{
+  "script_path": "D:\\genes\\GeneDepresion\\code\\extract_stable_ML_prioritized_Tier2_genes.py",
+  "output_path": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\10_ML_prioritized_Tier2_corrected",
+  "timestamp": "2026-09-25T00:02:38",
+  "input_files_used": [
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\DE_candidate_gene_sets\\Tier2_working_exploratory\\Ventral_Striatum__Tier2_all.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\DE_candidate_gene_sets\\Tier2_working_exploratory\\Insula__Tier2_all.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\DE_candidate_gene_sets\\Tier2_working_exploratory\\Hippocampal_Formation__Tier2_all.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\DE_candidate_gene_sets\\Tier2_working_exploratory\\Cingulate_gyrus_25__Tier2_all.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\DE_candidate_gene_sets\\Tier2_working_exploratory\\dlPFC_BA8_9__Tier2_all.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\DE_candidate_gene_sets\\Tier2_working_exploratory\\OFC_BA11__Tier2_all.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\ML_pilot_Tier2\\feature_importance\\fold_level_feature_importance.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\ML_strict_v2\\feature_stability\\selected_genes_per_fold_all_models.csv"
+  ],
+  "files_missing": [
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\ML_pilot_Tier2\\feature_importance\\feature_importance_summary.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\ML_pilot_Tier2\\ML_performance_summary.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\ML_pilot_Tier2\\best_model_by_region.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\ML_strict_v2\\feature_stability\\selection_frequency_all_models.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\ML_strict_v2\\ML_strict_v2_performance_summary.csv",
+    "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_elisa_style\\ML_strict_v2\\best_strict_model_by_region.csv"
+  ],
+  "number_of_rows_produced": 671,
+  "regions_analyzed": [
+    "Ventral Striatum",
+    "Insula",
+    "Hippocampal Formation",
+    "Cingulate gyrus 25",
+    "dlPFC BA8/9",
+    "OFC BA11"
+  ],
+  "interpretation": "Gene prioritization only; not diagnostic classifier validation."
+}

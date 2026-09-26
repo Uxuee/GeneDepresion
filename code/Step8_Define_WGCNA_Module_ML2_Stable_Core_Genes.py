@@ -47,7 +47,7 @@ INPUTS = {
     "trait": WGCNA_ROOT / "module_trait_association_results.csv",
     "module_enrichment": WGCNA_ROOT / "module_enrichment_for_Tier2_and_ML_genes.csv",
     "tier2": PIPELINE_ROOT / "07_Tier2_candidate_gene_sets" / "Tier2_candidate_genes_all_regions.csv",
-    "ml": PIPELINE_ROOT / "10_ML_prioritized_Tier2_extended" / "final_ranked_ML_prioritized_Tier2_genes.csv",
+    "ml": PIPELINE_ROOT / "10_ML_prioritized_Tier2_corrected" / "ML_prioritized_Tier2_genes_all_ranked.csv",
 }
 
 CORE_KME_THRESHOLD = 0.60

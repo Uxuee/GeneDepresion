@@ -1,0 +1,13 @@
+version,region,high,moderate,high_plus_moderate
+legacy,Cingulate gyrus 25,8,29,37
+corrected,Cingulate gyrus 25,6,30,36
+legacy,Hippocampal Formation,3,25,28
+corrected,Hippocampal Formation,2,24,26
+legacy,Insula,6,18,24
+corrected,Insula,5,15,20
+legacy,OFC BA11,3,28,31
+corrected,OFC BA11,3,24,27
+legacy,Ventral Striatum,8,18,26
+corrected,Ventral Striatum,7,16,23
+legacy,dlPFC BA8/9,7,12,19
+corrected,dlPFC BA8/9,7,10,17

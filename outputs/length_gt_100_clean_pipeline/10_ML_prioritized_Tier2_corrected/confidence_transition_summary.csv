@@ -1,0 +1,6 @@
+transition,n_gene_region_rows
+high_to_high,30
+high_to_moderate,5
+low_to_low,506
+moderate_to_low,16
+moderate_to_moderate,114

@@ -1,0 +1,294 @@
+region,module,gene_id,gene_symbol,fdr05_term_count,q_lt_0_10_term_count,databases,themes,ml_priority,same_region_ml_priority,ML_priority_regions,region_specific_Tier2,abs_kME,hub_rank,top50_hub,structural_core_member,gene_family
+dlPFC BA8/9,MEorange,2353,FOS,73,83,GO;MSigDB Hallmark;Reactome,NTRK_TRKA_SIGNALING;OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY;SIGNALING_IMMEDIATE_EARLY,absent,absent,,False,0.6426844739291775,22.0,True,True,other
+dlPFC BA8/9,MEorange,1958,EGR1,59,71,GO;MSigDB Hallmark;Reactome,NTRK_TRKA_SIGNALING;OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY;SIGNALING_IMMEDIATE_EARLY,absent,absent,,False,0.9616205891433952,1.0,True,True,other
+dlPFC BA8/9,MEorange,1959,EGR2,54,58,GO;MSigDB Hallmark;Reactome,NTRK_TRKA_SIGNALING;OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY;SIGNALING_IMMEDIATE_EARLY;UBIQUITINATION,absent,absent,,False,0.9230464411431922,2.0,True,True,other
+dlPFC BA8/9,MEorange,3726,JUNB,52,57,GO;MSigDB Hallmark;Reactome,NTRK_TRKA_SIGNALING;OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY;SIGNALING_IMMEDIATE_EARLY,absent,absent,,False,0.707689597088589,17.0,True,True,other
+dlPFC BA8/9,MEorange,1960,EGR3,52,54,GO;MSigDB Hallmark;Reactome,NTRK_TRKA_SIGNALING;OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY;SIGNALING_IMMEDIATE_EARLY,absent,absent,,False,0.774129838102431,11.0,True,True,other
+dlPFC BA8/9,MEorange,8013,NR4A3,51,58,GO;MSigDB Hallmark,OTHER_ANNOTATION;SIGNALING_IMMEDIATE_EARLY,absent,absent,Cingulate gyrus 25,True,0.911218448200012,3.0,True,True,other
+dlPFC BA8/9,MEorange,1846,DUSP4,46,50,GO;MSigDB Hallmark;Reactome,ACTIN_CELL_CORTEX;NTRK_TRKA_SIGNALING;OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY;SIGNALING_IMMEDIATE_EARLY,absent,absent,Cingulate gyrus 25;Ventral Striatum,True,0.7726888295262608,12.0,True,True,other
+dlPFC BA8/9,MEorange,1848,DUSP6,44,49,GO;Reactome,ACTIN_CELL_CORTEX;NTRK_TRKA_SIGNALING;OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY;SIGNALING_IMMEDIATE_EARLY,absent,absent,,False,0.8158600773042447,8.0,True,True,other
+dlPFC BA8/9,MEorange,8864,PER2,40,46,GO,OTHER_ANNOTATION;SIGNALING_IMMEDIATE_EARLY,absent,absent,,False,0.6858539810153859,19.0,True,True,other
+dlPFC BA8/9,MEorange,8553,BHLHE40,38,40,GO;MSigDB Hallmark,OTHER_ANNOTATION;SIGNALING_IMMEDIATE_EARLY,absent,absent,,False,0.6443816815867981,21.0,True,True,other
+dlPFC BA8/9,MEorange,2119,ETV5,38,38,GO,OTHER_ANNOTATION;SIGNALING_IMMEDIATE_EARLY,absent,absent,,False,0.7543629561611355,13.0,True,True,other
+dlPFC BA8/9,MEorange,1843,DUSP1,37,43,GO;MSigDB Hallmark;Reactome,ACTIN_CELL_CORTEX;OTHER_ANNOTATION;SIGNALING_IMMEDIATE_EARLY,absent,absent,,False,0.6531895986854251,20.0,True,True,other
+dlPFC BA8/9,MEorange,64651,CSRNP1,33,33,GO,OTHER_ANNOTATION;SIGNALING_IMMEDIATE_EARLY,absent,absent,,False,0.7519222641725282,14.0,True,True,other
+dlPFC BA8/9,MEorange,3491,CCN1,29,34,GO;MSigDB Hallmark,OTHER_ANNOTATION;SIGNALING_IMMEDIATE_EARLY,absent,absent,,False,0.7208484710818905,16.0,True,True,other
+dlPFC BA8/9,MEorange,1847,DUSP5,28,32,GO;MSigDB Hallmark;Reactome,ACTIN_CELL_CORTEX;OTHER_ANNOTATION;SIGNALING_IMMEDIATE_EARLY,absent,absent,Hippocampal Formation,True,0.8876474250542857,6.0,True,True,other
+dlPFC BA8/9,MEblue,259289,TAS2R43,27,27,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,taste_receptor
+dlPFC BA8/9,MEblue,259290,TAS2R31,27,27,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,taste_receptor
+dlPFC BA8/9,MEblue,259292,TAS2R46,27,27,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,taste_receptor
+dlPFC BA8/9,MEblue,259296,TAS2R50,27,27,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,taste_receptor
+dlPFC BA8/9,MEblue,50831,TAS2R3,27,27,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,taste_receptor
+dlPFC BA8/9,MEblue,50837,TAS2R7,27,27,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,taste_receptor
+dlPFC BA8/9,MEblue,50838,TAS2R13,27,27,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,taste_receptor
+dlPFC BA8/9,MEblue,50839,TAS2R10,27,27,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,taste_receptor
+dlPFC BA8/9,MEblue,50840,TAS2R14,27,27,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,taste_receptor
+dlPFC BA8/9,MEblue,54429,TAS2R5,27,27,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,taste_receptor
+dlPFC BA8/9,MEblue,50835,TAS2R9,24,24,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,taste_receptor
+Cingulate gyrus 25,MEwhite,100151684,RNU6ATAC,18,18,GO,OTHER_ANNOTATION;RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.804605173371272,29.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,101954271,RNU6-9,18,18,GO,OTHER_ANNOTATION;RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.7821384087474437,33.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,101954275,RNU6-7,18,18,GO,OTHER_ANNOTATION;RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.8049025726867547,28.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,26835,RNU4-1,18,18,GO,OTHER_ANNOTATION;RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.8860685255151224,10.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,26831,RNU5A-1,17,17,GO,OTHER_ANNOTATION;RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.8779273106902555,14.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,26832,RNU5B-1,17,17,GO,OTHER_ANNOTATION;RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.9164875118922876,6.0,True,True,small_nuclear_nucleolar_RNA
+dlPFC BA8/9,MEblue,259294,TAS2R19,15,15,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,taste_receptor
+Ventral Striatum,MElightgreen,10159,ATP6AP2,14,16,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEorange,81848,SPRY4,13,18,GO,OTHER_ANNOTATION;SIGNALING_IMMEDIATE_EARLY,absent,absent,Cingulate gyrus 25,True,0.8189926237128357,7.0,True,True,other
+dlPFC BA8/9,MEorange,28951,TRIB2,13,16,GO,OTHER_ANNOTATION;SIGNALING_IMMEDIATE_EARLY;UBIQUITINATION,absent,absent,,False,0.7503798371909627,15.0,True,True,other
+dlPFC BA8/9,MEblue,10692,RRH,13,13,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,120775,OR2D3,13,13,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,olfactory_receptor
+dlPFC BA8/9,MEblue,120776,OR2D2,13,13,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,olfactory_receptor
+dlPFC BA8/9,MEblue,390260,OR6X1,13,13,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,olfactory_receptor
+dlPFC BA8/9,MEblue,8590,OR6A2,13,13,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,olfactory_receptor
+Ventral Striatum,MElightgreen,523,ATP6V1A,12,14,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.8797035736512988,44.0,True,True,other
+Ventral Striatum,MElightgreen,526,ATP6V1B2,12,14,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.8940571568815555,33.0,True,True,other
+Ventral Striatum,MElightgreen,528,ATP6V1C1,12,14,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElavenderblush3,6857,SYT1,11,19,GO;Reactome,CHOLESTEROL_LIPID;OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.7963775974248771,18.0,True,True,other
+Ventral Striatum,MElightgreen,4986,OPRK1,11,12,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,6860,SYT4,11,12,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.8863311010894699,40.0,True,True,other
+dlPFC BA8/9,MEorange,23237,ARC,10,13,GO;Reactome,NTRK_TRKA_SIGNALING;OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY;SIGNALING_IMMEDIATE_EARLY,absent,absent,,False,0.8927961579507786,5.0,True,True,other
+dlPFC BA8/9,MEblue,2841,GPR18,10,10,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,9934,P2RY14,10,10,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,2798,GNRHR,9,9,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,3357,HTR2B,9,9,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,7201,TRHR,9,9,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,2532,ACKR1,8,8,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,51554,ACKR4,8,8,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElavenderblush3,23312,DMXL2,7,9,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.8466856503109687,10.0,True,True,other
+Ventral Striatum,MElightgreen,2596,GAP43,7,8,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,6546,SLC8A1,7,8,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,6855,SYP,7,8,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,9522,SCAMP1,7,8,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,29909,GPR171,7,7,GO,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,0.9125756359030944,49.0,True,True,other
+Ventral Striatum,MElavenderblush3,1213,CLTC,6,13,GO;MSigDB Hallmark,CHOLESTEROL_LIPID;OTHER_ANNOTATION,absent,absent,,False,0.9449659481807544,2.0,True,True,other
+Ventral Striatum,MElavenderblush3,51606,ATP6V1H,6,13,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.7751029318982277,22.0,True,True,other
+Ventral Striatum,MElavenderblush3,781,CACNA2D1,6,10,GO;Reactome,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.8930245175661967,6.0,True,True,other
+Ventral Striatum,MElightgreen,10396,ATP8A1,6,7,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,132204,SYNPR,6,7,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,222553,SLC35F1,6,7,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,Insula,True,,,False,False,other
+Ventral Striatum,MElightgreen,55530,SVOP,6,7,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.9006596398204832,22.0,True,True,other
+Ventral Striatum,MElightgreen,5604,MAP2K1,6,7,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,9143,SYNGR3,6,7,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Cingulate gyrus 25,MEwhite,100124536,SNORA38B,6,6,GO,OTHER_ANNOTATION;RNA_PROCESSING_NUCLEOLAR,absent,absent,Cingulate gyrus 25,True,0.8967242377556538,8.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,113839518,MIR1843,6,6,GO,OTHER_ANNOTATION;RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.820506918407066,24.0,True,True,other
+Cingulate gyrus 25,MEwhite,677679,SCARNA3,6,6,GO,OTHER_ANNOTATION;RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.8369088509174103,22.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,677771,SCARNA4,6,6,GO,OTHER_ANNOTATION;RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.860079104334584,15.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,677776,SCARNA8,6,6,GO,OTHER_ANNOTATION;RNA_PROCESSING_NUCLEOLAR,absent,absent,Cingulate gyrus 25,True,0.8376508765030731,21.0,True,True,small_nuclear_nucleolar_RNA
+Ventral Striatum,MElightgreen,22876,INPP5F,6,6,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,57282,SLC4A10,6,6,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.9396059029058786,4.0,True,True,other
+Ventral Striatum,MElightgreen,7976,FZD3,6,6,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,2045,EPHA7,5,6,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,257194,NEGR1,5,6,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,2891,GRIA2,5,6,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.9472354277447692,1.0,True,True,other
+Ventral Striatum,MElightgreen,40,ASIC2,5,6,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,6252,RTN1,5,6,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,53836,GPR87,5,5,GO,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElavenderblush3,1183,CLCN4,4,7,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.9077293788361264,5.0,True,True,other
+Ventral Striatum,MElightgreen,2566,GABRG2,4,7,GO,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,100628315,DNM3OS,4,4,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,101927356,CACNA2D1-AS1,4,4,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,114614,MIR155HG,4,4,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,400765,MIR137HG,4,4,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,5132,PDC,4,4,GO,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,84944,MAEL,4,4,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEorange,90632,LINC00473,4,4,GO,OTHER_ANNOTATION,absent,absent,dlPFC BA8/9,True,0.7020078238261255,18.0,True,True,other
+Ventral Striatum,MElightgreen,2554,GABRA1,3,6,GO,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,2557,GABRA4,3,6,GO,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElavenderblush3,7184,HSP90B1,3,5,GO;MSigDB Hallmark,CHOLESTEROL_LIPID;OTHER_ANNOTATION,absent,absent,,False,0.6610682465147316,32.0,True,True,other
+Ventral Striatum,MElightgreen,9495,AKAP5,3,5,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,3092,HIP1,3,4,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,4642,MYO1D,3,4,GO,ACTIN_CELL_CORTEX;OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,4646,MYO6,3,4,GO,ACTIN_CELL_CORTEX;OTHER_ANNOTATION,absent,absent,,False,0.8664267517319229,46.0,True,True,other
+Hippocampal Formation,MEgreen,4650,MYO9B,3,4,GO,ACTIN_CELL_CORTEX;OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,8826,IQGAP1,3,4,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,9026,HIP1R,3,4,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,115827,RAB3C,3,4,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.8902110389493896,38.0,True,True,other
+Cingulate gyrus 25,MEwhite,23409,SIRT4,3,3,Reactome,OTHER_ANNOTATION,absent,absent,,False,0.88505762703714,11.0,True,True,other
+Cingulate gyrus 25,MEwhite,6043,SNORA63,3,3,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.7455567549367185,38.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,6080,SNORA73A,3,3,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.736253715905327,41.0,True,True,small_nuclear_nucleolar_RNA
+Ventral Striatum,MElightgreen,127933,UHMK1,3,3,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,2571,GAD1,3,3,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,2572,GAD2,3,3,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,7345,UCHL1,3,3,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,90167,FRMD7,3,3,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,101243555,PTENP1-AS,3,3,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,10846,PDE10A,3,3,Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,27115,PDE7B,3,3,Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,50937,CDON,3,3,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,8809,IL18R1,3,3,GO,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElavenderblush3,4905,NSF,2,7,GO;Reactome,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.807209223003458,16.0,True,True,other
+Ventral Striatum,MElavenderblush3,22854,NTNG1,2,4,GO,SYNAPTIC_PRESYNAPTIC,absent,absent,Ventral Striatum,True,0.6485265222835136,35.0,True,True,other
+Ventral Striatum,MElavenderblush3,2743,GLRB,2,4,GO;Reactome,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.8793162581539474,7.0,True,True,other
+Hippocampal Formation,MEgreen,2037,EPB41L2,2,3,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,1176,AP3S1,2,3,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.8912181687341989,36.0,True,True,other
+Ventral Striatum,MElightgreen,53616,ADAM22,2,3,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Cingulate gyrus 25,MEwhite,109616960,SNORA10B,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,Cingulate gyrus 25,True,0.8404006905056326,19.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,109616972,SNORA68B,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.7479010161259868,37.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,109617007,SNORA63E,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.7410751304912415,40.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,109617010,SNORA77B,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.816691563211942,26.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,26776,SNORA71B,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.820370563684874,25.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,26780,SNORA68,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.9312834203271118,3.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,26781,SNORA67,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.7550724833125677,35.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,26783,SNORA65,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.8153930696115781,27.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,574040,SNORA6,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.8508796855856997,17.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,574042,SNORA10,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.9070607596380744,7.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,594839,SNORA33,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.853549416078209,16.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,619505,SNORA21,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.9418885962476536,2.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,652966,SNORD10,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.7787734673998509,34.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,654321,SNORA75,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.7513427774902465,36.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,677792,SNORA1,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.6427206158115599,45.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,677798,SNORA9,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.6983955650829623,43.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,677799,SNORA11,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.9192538399713004,5.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,677804,SNORA17A,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.648820514980883,44.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,677821,SNORA71E,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.6078519920656579,47.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,677823,SNORA80E,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.8436905378375701,18.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,677825,SNORA44,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.8368997469978158,23.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,677833,SNORA54,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.791186715725944,31.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,677836,SNORA58,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.5201564578889832,48.0,True,False,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,692086,SNORD17,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.7420692100255225,39.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,692108,SNORD67,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.7823342822772351,32.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,692205,SNORD89,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.8378178285477642,20.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,692206,SNORD90,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,,False,0.735309151216078,42.0,True,True,small_nuclear_nucleolar_RNA
+Cingulate gyrus 25,MEwhite,9304,SNORD22,2,2,GO,RNA_PROCESSING_NUCLEOLAR,absent,absent,Cingulate gyrus 25,True,0.8822487024482271,12.0,True,True,small_nuclear_nucleolar_RNA
+Hippocampal Formation,MEgreen,10755,GIPC1,2,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,114793,FMNL2,2,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,161176,SYNE3,2,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,274,BIN1,2,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,29119,CTNNA3,2,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,51421,AMOTL2,2,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,51474,LIMA1,2,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,57698,SHTN1,2,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,0.8718245674063789,39.0,True,True,other
+Hippocampal Formation,MEgreen,65108,MARCKSL1,2,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,79789,CLMN,2,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,83543,AIF1L,2,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElavenderblush3,5563,PRKAA2,2,2,MSigDB Hallmark;Reactome,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,Ventral Striatum,True,0.8395984596114264,12.0,True,True,other
+Ventral Striatum,MElightgreen,10752,CHL1,2,2,GO,OTHER_ANNOTATION,absent,absent,,False,0.8826967070191162,42.0,True,True,other
+Ventral Striatum,MElightgreen,10857,PGRMC1,2,2,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,114134,SLC2A13,2,2,GO,OTHER_ANNOTATION,absent,absent,,False,0.9457508763644752,3.0,True,True,other
+Ventral Striatum,MElightgreen,1272,CNTN1,2,2,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,1525,CXADR,2,2,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,22920,KIFAP3,2,2,GO,OTHER_ANNOTATION,absent,absent,,False,0.8979319690414291,27.0,True,True,other
+Ventral Striatum,MElightgreen,25977,NECAP1,2,2,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.9111287095785956,17.0,True,True,other
+Ventral Striatum,MElightgreen,27065,NSG1,2,2,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,30820,KCNIP1,2,2,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,3358,HTR2C,2,2,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,445,ASS1,2,2,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,481,ATP1B1,2,2,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,5274,SERPINI1,2,2,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,63908,NAPB,2,2,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,6515,SLC2A3,2,2,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,7422,VEGFA,2,2,GO;Reactome,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,10507,SEMA4D,1,3,GO,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,54910,SEMA4C,1,3,GO,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,57556,SEMA6A,1,3,GO,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,0.8830365686079519,26.0,True,True,other
+Hippocampal Formation,MEgreen,7869,SEMA3B,1,3,GO,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,0.8733585988557747,36.0,True,True,other
+Hippocampal Formation,MEgreen,80031,SEMA6D,1,3,GO,OTHER_ANNOTATION;RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,10411,RAPGEF3,1,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,3993,LLGL2,1,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,6242,RTKN,1,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,63895,PIEZO2,1,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,0.871760880168651,40.0,True,True,other
+Hippocampal Formation,MEgreen,999,CDH1,1,2,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightcyan1,1595,CYP51A1,1,2,MSigDB Hallmark;Reactome,CHOLESTEROL_LIPID,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightcyan1,3157,HMGCS1,1,2,MSigDB Hallmark;Reactome,CHOLESTEROL_LIPID,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightcyan1,3422,IDI1,1,2,MSigDB Hallmark;Reactome,CHOLESTEROL_LIPID,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightcyan1,39,ACAT2,1,2,MSigDB Hallmark;Reactome,CHOLESTEROL_LIPID,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightcyan1,6713,SQLE,1,2,MSigDB Hallmark;Reactome,CHOLESTEROL_LIPID,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,23362,PSD3,1,2,GO,SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,5063,PAK3,1,2,GO,SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.8921438889698963,35.0,True,True,other
+Ventral Striatum,MElightgreen,7533,YWHAH,1,2,GO,SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,94122,SYTL5,1,2,GO,OTHER_ANNOTATION;SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,9867,PJA2,1,2,GO,SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.8784924243011373,46.0,True,True,other
+dlPFC BA8/9,MEblue,122402,TDRD9,1,2,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,100528032,KLRC4-KLRK1,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,10163,WASF2,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,10256,CNKSR1,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,11155,LDB3,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,0.894155870968816,17.0,True,True,other
+Hippocampal Formation,MEgreen,114780,PKD1L2,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,124404,SEPTIN12,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,1731,SEPTIN1,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,2246,FGF1,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,22914,KLRK1,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,23048,FNBP1,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,0.9194087843377986,6.0,True,True,other
+Hippocampal Formation,MEgreen,23187,PHLDB1,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,0.912886422497998,9.0,True,True,other
+Hippocampal Formation,MEgreen,23500,DAAM2,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,2584,GALK1,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,2595,GANC,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,26030,PLEKHG3,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,0.9110967007760564,10.0,True,True,other
+Hippocampal Formation,MEgreen,26290,GALNT8,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,286262,TPRN,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,29899,GPSM2,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,3822,KLRC2,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,3823,KLRC3,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,4122,MAN2A2,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,4124,MAN2A1,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,5167,ENPP1,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,5304,PIP,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,5364,PLXNB1,1,1,GO,RECEPTOR_GPCR_FAMILY,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,5414,SEPTIN4,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,54961,SSH3,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,55075,UACA,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,55704,CCDC88A,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,5764,PTN,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,6900,CNTN2,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,729238,SFTPA2,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,79695,GALNT12,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,83992,CTTNBP2,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,8605,PLA2G4C,1,1,GO,ACTIN_CELL_CORTEX,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,8985,PLOD3,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,933,CD22,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,0.8790747117787308,29.0,True,True,other
+OFC BA11,MEtan,10631,POSTN,1,1,MSigDB Hallmark,ANGIOGENESIS_VASCULAR,absent,absent,,False,0.2296923567122787,41.0,True,False,other
+OFC BA11,MEtan,1290,COL5A2,1,1,MSigDB Hallmark,ANGIOGENESIS_VASCULAR,absent,absent,,False,0.4766238898630581,30.0,True,False,other
+Ventral Striatum,MElightcyan1,10957,PNRC1,1,1,MSigDB Hallmark,CHOLESTEROL_LIPID,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightcyan1,2731,GLDC,1,1,MSigDB Hallmark,CHOLESTEROL_LIPID,absent,absent,Ventral Striatum,True,,,False,False,other
+Ventral Striatum,MElightcyan1,27346,TMEM97,1,1,MSigDB Hallmark,CHOLESTEROL_LIPID,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightcyan1,5468,PPARG,1,1,MSigDB Hallmark,CHOLESTEROL_LIPID,moderate,absent,OFC BA11,True,,,False,False,other
+Ventral Striatum,MElightgreen,134829,CLVS2,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,29887,SNX10,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,51062,ATL1,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,58,ACTA1,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,6441,SFTPD,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,8618,CADPS,1,1,GO,SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,1026,CDKN1A,1,1,Reactome,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,1290,COL5A2,1,1,Reactome,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,152831,KLB,1,1,Reactome,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,163589,TDRD5,1,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,70,ACTC1,1,1,Reactome,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MEdarkred,10855,HPSE,0,3,GO,EXTRACELLULAR_MATRIX_WOUND,absent,absent,,False,,,False,False,other
+Ventral Striatum,MEdarkred,4921,DDR2,0,3,GO,EXTRACELLULAR_MATRIX_WOUND,absent,absent,,False,0.8098812787444101,41.0,True,True,other
+Hippocampal Formation,MEgreen,1906,EDN1,0,2,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,30812,SOX8,0,2,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,6663,SOX10,0,2,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MEdarkred,1803,DPP4,0,2,GO,EXTRACELLULAR_MATRIX_WOUND,moderate,absent,Insula,True,,,False,False,other
+Ventral Striatum,MEdarkred,7042,TGFB2,0,2,GO,EXTRACELLULAR_MATRIX_WOUND,absent,absent,,False,0.8828352481364617,11.0,True,True,other
+dlPFC BA8/9,MEorange,2827,GPR3,0,2,GO,OTHER_ANNOTATION,absent,absent,,False,0.8148457487904608,9.0,True,True,other
+Hippocampal Formation,MEgreen,124602,KIF19,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,144132,DNHD1,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,221458,KIF6,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,23303,KIF13B,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,0.9084674509632992,12.0,True,True,other
+Hippocampal Formation,MEgreen,55137,FIGN,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,57519,STARD9,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Hippocampal Formation,MEgreen,63971,KIF13A,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MEdarkred,196527,ANO6,0,1,GO,EXTRACELLULAR_MATRIX_WOUND,absent,absent,,False,0.894417818459066,8.0,True,True,other
+Ventral Striatum,MEdarkred,2149,F2R,0,1,GO,EXTRACELLULAR_MATRIX_WOUND,absent,absent,,False,,,False,False,other
+Ventral Striatum,MEdarkred,3913,LAMB2,0,1,GO,EXTRACELLULAR_MATRIX_WOUND,absent,absent,,False,,,False,False,other
+Ventral Striatum,MEdarkred,7133,TNFRSF1B,0,1,GO,EXTRACELLULAR_MATRIX_WOUND,absent,absent,,False,,,False,False,other
+Ventral Striatum,MEdarkred,84034,EMILIN2,0,1,GO,EXTRACELLULAR_MATRIX_WOUND,absent,absent,,False,,,False,False,other
+Ventral Striatum,MEdarkred,8578,SCARF1,0,1,GO,EXTRACELLULAR_MATRIX_WOUND,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElavenderblush3,10486,CAP2,0,1,GO,SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.8663495376462507,8.0,True,True,other
+Ventral Striatum,MElavenderblush3,214,ALCAM,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,0.7288177971152103,26.0,True,True,other
+Ventral Striatum,MElavenderblush3,51439,FAM8A1,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,0.7699266511414514,23.0,True,True,other
+Ventral Striatum,MElavenderblush3,6326,SCN2A,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,0.9623127564394416,1.0,True,True,other
+Ventral Striatum,MElightcyan1,3017,H2BC5,0,1,Reactome,UBIQUITINATION,absent,absent,,False,,,False,False,histone
+Ventral Striatum,MElightcyan1,3018,H2BC3,0,1,Reactome,UBIQUITINATION,absent,absent,,False,,,False,False,histone
+Ventral Striatum,MElightcyan1,3105,HLA-A,0,1,Reactome,UBIQUITINATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightcyan1,55284,UBE2W,0,1,Reactome,UBIQUITINATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightcyan1,6307,MSMO1,0,1,Reactome,CHOLESTEROL_LIPID,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightcyan1,7323,UBE2D3,0,1,Reactome,UBIQUITINATION,absent,absent,,False,0.8824709680002991,38.0,True,True,other
+Ventral Striatum,MElightcyan1,8915,BCL10,0,1,Reactome,UBIQUITINATION,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightcyan1,8970,H2BC11,0,1,Reactome,UBIQUITINATION,absent,absent,,False,,,False,False,histone
+Ventral Striatum,MElightgreen,11069,RAPGEF4,0,1,GO,SYNAPTIC_PRESYNAPTIC,absent,absent,,False,,,False,False,other
+Ventral Striatum,MElightgreen,7534,YWHAZ,0,1,GO,SYNAPTIC_PRESYNAPTIC,absent,absent,,False,0.8826596415387629,43.0,True,True,other
+dlPFC BA8/9,MEblue,136242,PRSS37,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,246777,SPESP1,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,256710,GLIPR1L1,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,,,False,False,other
+dlPFC BA8/9,MEblue,8748,ADAM20,0,1,GO,OTHER_ANNOTATION,absent,absent,,False,0.9365631103543832,20.0,True,True,other

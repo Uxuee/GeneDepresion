@@ -1,0 +1,7 @@
+region,reconstruction_status,old_modules,reconstructed_modules,adjusted_rand_index,median_best_jaccard,median_abs_eigengene_correlation,ML_enrichment_conclusion_stable,annotation_coverage_old,annotation_coverage_new,recommended_action
+Ventral Striatum,EXACT,50,50,1,1,1,TRUE,0.7035745422842197,0.979075850043592,retain existing canonical modules; independently verified
+Insula,EXACT,29,29,1,1,1,TRUE,0.6476190476190476,1,retain existing canonical modules; independently verified
+Hippocampal Formation,EXACT,69,69,1,1,1,TRUE,0.43990665110851807,0.9288214702450408,retain existing canonical modules; independently verified
+Cingulate gyrus 25,EXACT,27,27,1,1,1,TRUE,NA,1,retain existing canonical modules; independently verified
+dlPFC BA8/9,EXACT,21,21,1,1,1,TRUE,NA,0.8732782369146006,retain existing canonical modules; independently verified
+OFC BA11,EXACT,18,18,1,1,1,TRUE,NA,0.9512195121951219,retain existing canonical modules; independently verified

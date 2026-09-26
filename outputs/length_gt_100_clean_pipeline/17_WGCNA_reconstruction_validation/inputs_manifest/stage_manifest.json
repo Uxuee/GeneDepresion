@@ -1,0 +1,33 @@
+{
+  "stage": "freeze_reconstruction_inputs",
+  "status": "validation_candidate",
+  "git_baseline_requested": "a483b4f6267befbb98ef49f23a27ffe6fa48ed69",
+  "script": "code/phase3b_inventory.R",
+  "script_sha256": "25a101fb05161373d73d02a6a210fd38faadb7f546750e1bf095e0e3d013480d",
+  "outputs": [
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/inputs_manifest/canonical_reference_file_manifest.csv",
+      "sha256": "03cae2986acfa82cd8629ebb1cb1c90adf7ba9b3ccf24d3d95725e26166cb678"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/inputs_manifest/historical_selected_parameter_rows.csv",
+      "sha256": "ed4ab24c9fd190bf9d70621a0a03e3beebcdf1b791c4effadb9cdf45a0eee69b"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/inputs_manifest/wgcna_reconstruction_input_manifest.csv",
+      "sha256": "e131e789dae8baedd5075961c69968169295de6233b2372ad3977e7ac7d686a7"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/inputs_manifest/wgcna_reconstruction_input_manifest.json",
+      "sha256": "5c2409a5c46595102a916ef7efee5af680fcf992bb2155c935ba962f031a1c80"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/inputs_manifest/wgcna_reconstruction_metadata_manifest.csv",
+      "sha256": "a144d95732aef07b50bb41e272e51adc7de2c60e88020e7fc3a9073bbb95c053"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/inputs_manifest/wgcna_reconstruction_sample_ids.csv",
+      "sha256": "16a5f80cb7ac33425de31dfe558d9a2ba4897a9210c5eefdbb50911f24732e84"
+    }
+  ]
+}

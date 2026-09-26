@@ -1,0 +1,6 @@
+# Copy to project_paths.local.yaml (ignored by Git) and edit for this machine.
+project_root: /path/to/GeneDepresion
+raw_data_root: /path/to/external/raw_data
+output_root: /path/to/GeneDepresion/outputs/length_gt_100_clean_pipeline
+external_resource_root: /path/to/external/resources
+r_library_path: /path/to/R/library

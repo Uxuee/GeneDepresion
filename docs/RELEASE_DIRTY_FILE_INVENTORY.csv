@@ -1,0 +1,57 @@
+path,git_status,scientific_current,historical,generated,manuscript,user_local,recommended_action,reason
+audit/canonical_pipeline_validation.json,modified,yes,no,yes,no,no,UPDATE_TO_CANONICAL,Validator output updated for registered Phase 3C stage
+docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md,modified,no,yes,no,no,no,UPDATE_TO_CANONICAL,Adds explicit legacy-ranking warning to a historical report
+docs/Main_Workflow_Length_gt_100_Report.md,modified,no,yes,no,no,no,UPDATE_TO_CANONICAL,Adds explicit legacy-count warning to a historical report
+docs/Step_by_step_MDD_Length_gt_100_clean_report.md,modified,no,yes,no,no,no,UPDATE_TO_CANONICAL,Adds explicit legacy-count warning to a historical report
+docs/ahba_modules/AHBA_gene_module_analysis_report.md,modified,no,yes,no,no,no,UPDATE_TO_CANONICAL,Adds explicit legacy-input warning to a historical report
+outputs/length_gt_100_clean_pipeline/01_inputs/sample_metadata_used.csv,deleted,yes,no,yes,no,no,KEEP_CANONICAL,Tracked scientific input snapshot should not be removed during release preparation
+outputs/length_gt_100_clean_pipeline/08_Tier2_enrichment/selected_report_ready_enrichment_plots/HF_up_MDD_KEGG_barplot_largefont.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked generated historical figure; deletion is outside release scope
+outputs/length_gt_100_clean_pipeline/08_Tier2_enrichment/selected_report_ready_enrichment_plots/HF_up_MDD_KEGG_dotplot_largefont.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked generated historical figure; deletion is outside release scope
+outputs/length_gt_100_clean_pipeline/08_Tier2_enrichment/selected_report_ready_enrichment_plots/Insula_down_MDD_GO_MF_dotplot_largefont.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked generated historical figure; deletion is outside release scope
+outputs/length_gt_100_clean_pipeline/08_Tier2_enrichment/selected_report_ready_enrichment_plots/Insula_down_MDD_Hallmark_dotplot_largefont.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked generated historical figure; deletion is outside release scope
+outputs/length_gt_100_clean_pipeline/08_Tier2_enrichment/selected_report_ready_enrichment_plots/Insula_down_MDD_MSigDB_C2_barplot_largefont.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked generated historical figure; deletion is outside release scope
+outputs/length_gt_100_clean_pipeline/08_Tier2_enrichment/selected_report_ready_enrichment_plots/Insula_down_MDD_MSigDB_C2_dotplot_largefont.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked generated historical figure; deletion is outside release scope
+outputs/length_gt_100_clean_pipeline/08_Tier2_enrichment/top_enrichment_terms_all_sets.csv,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked historical enrichment output; deletion is outside release scope
+outputs/length_gt_100_clean_pipeline/09_ML_v1_Tier2_fixed_only/plots/MLv1_Tier2FixedOnly_performance_summary_exploratory.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked exploratory ML-v1 figure
+outputs/length_gt_100_clean_pipeline/09_ML_v1_extended_prioritization/plots/MLv1_extended_performance_summary_exploratory.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked exploratory ML-v1 figure
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/ML_prioritized_Tier2_extended_all_ranked.csv,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy ranking remains historical provenance and must not become current
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/Cingulate_gyrus_25_top20_ML_priority_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/Hippocampal_Formation_top20_ML_priority_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/Insula_top20_ML_priority_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/MLprioritized_top_genes_Cg25.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/MLprioritized_top_genes_by_region.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/MLpriority_model_support_heatmap.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/MLpriority_sign_agreement.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/MLpriority_vs_neglog10p.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/MLpriority_vs_standardized_effect_size.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/OFC_BA11_top20_ML_priority_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/Ventral_Striatum_top20_ML_priority_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/dlPFC_BA8_9_top20_ML_priority_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/heatmap_top_stable_ML_prioritized_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/MDD_WGCNA_Report_Section.md,modified,no,yes,no,yes,yes,EXCLUDE_FROM_RELEASE,User report edit points to an ignored local supervisor companion and is outside release scope
+outputs/length_gt_100_clean_pipeline/14_Preliminary_Manuscript_Package/02_figures_main/Figure_3_AHBA_context_summary.pdf,modified,no,yes,yes,yes,yes,EXCLUDE_FROM_RELEASE,Preliminary manuscript package is explicitly noncanonical
+outputs/length_gt_100_clean_pipeline/images/enrichment/HF_up_MDD_KEGG_dotplot_largefont.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked duplicate historical figure
+outputs/length_gt_100_clean_pipeline/images/enrichment/Insula_down_MDD_GO_MF_barplot_largefont.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked duplicate historical figure
+outputs/length_gt_100_clean_pipeline/images/enrichment/Insula_down_MDD_Hallmark_barplot_largefont.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked duplicate historical figure
+outputs/length_gt_100_clean_pipeline/images/ml_prioritized/Cingulate_gyrus_25_top20_ML_priority_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked duplicate legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/images/ml_prioritized/Hippocampal_Formation_top20_ML_priority_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked duplicate legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/images/ml_prioritized/Insula_top20_ML_priority_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked duplicate legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/images/ml_prioritized/MLprioritized_counts_by_region.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked duplicate legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/images/ml_prioritized/MLprioritized_top_genes_Cg25.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked duplicate legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/images/ml_prioritized/MLpriority_model_support_heatmap.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked duplicate legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/images/ml_prioritized/OFC_BA11_top20_ML_priority_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked duplicate legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/images/ml_prioritized/Ventral_Striatum_top20_ML_priority_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked duplicate legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/images/ml_prioritized/dlPFC_BA8_9_top20_ML_priority_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked duplicate legacy-ranking figure
+outputs/length_gt_100_clean_pipeline/images/ml_prioritized/heatmap_top_stable_ML_prioritized_genes.png,deleted,no,yes,yes,no,no,KEEP_HISTORICAL,Tracked duplicate legacy-ranking figure
+provenance/canonical_pipeline.json,modified,yes,no,no,no,no,UPDATE_TO_CANONICAL,Registers Phase 3C as interpretation audit
+code/phase3c_audit_wgcna_interpretation.py,untracked,yes,no,no,no,no,KEEP_CANONICAL,Reproducible Phase-3C audit implementation
+code/phase3c_export_go_relations.R,untracked,yes,no,no,no,no,KEEP_CANONICAL,Exports installed GO hierarchy relations without rerunning enrichment
+docs/MDD_Transcriptomic_Module_Analysis_Report_v2_NOTION_READY.md,untracked,no,no,no,yes,yes,EXCLUDE_FROM_RELEASE,Unapproved report draft and registry stage 18 remains pending recovery
+docs/MDD_Transcriptomic_Module_Analysis_Report_v2_clean_supervisor.md,untracked,no,no,no,yes,yes,EXCLUDE_FROM_RELEASE,Supervisor/report draft outside canonical release boundary
+docs/Supervisor_Explanation_PreExternalValidation.md,untracked,no,no,no,yes,yes,EXCLUDE_FROM_RELEASE,Supervisor-facing draft outside canonical release boundary
+docs/WGCNA_FUNCTIONAL_ENRICHMENT_INTERPRETATION_AUDIT.md,untracked,yes,no,yes,no,no,KEEP_CANONICAL,Canonical Phase-3C audit report
+docs/WGCNA_Module_Analysis_Pseudocode_Walkthrough.md,untracked,no,no,no,no,yes,EXCLUDE_FROM_RELEASE,Unapproved explanatory draft
+docs/WGCNA_Module_Analysis_Supervisor_Deep_Dive.md,untracked,no,no,no,no,yes,EXCLUDE_FROM_RELEASE,Unapproved supervisor draft
+docs/WGCNA_Module_Analysis_Technical_Audit_Tables.md,untracked,no,no,no,no,yes,EXCLUDE_FROM_RELEASE,Unapproved technical draft
+environment/phase3b/sessionInfo_after_install.txt,untracked,no,no,yes,no,yes,IGNORE_LOCAL,Post-install local session trace; canonical sessionInfo.txt is already tracked
+tests/test_phase3c_interpretation_audit.py,untracked,yes,no,no,no,no,KEEP_CANONICAL,Phase-3C regression and provenance checks

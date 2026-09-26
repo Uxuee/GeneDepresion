@@ -50,7 +50,7 @@ input_files <- list(
   enrichment = file.path(wgcna_root, "module_enrichment_for_Tier2_and_ML_genes.csv"),
   ahba_overlap = file.path(wgcna_root, "mdd_modules_vs_published_AHBA_modules_enrichment.csv"),
   tier2 = file.path(pipeline_root, "07_Tier2_candidate_gene_sets", "Tier2_candidate_genes_all_regions.csv"),
-  ml = file.path(pipeline_root, "10_ML_prioritized_Tier2_extended", "final_ranked_ML_prioritized_Tier2_genes.csv"),
+  ml = file.path(pipeline_root, "10_ML_prioritized_Tier2_corrected", "ML_prioritized_Tier2_genes_all_ranked.csv"),
   ahba_annotation_summary = file.path(ahba_root, "published_modules", "annotations", "published_ahba_module_annotation_summary.csv"),
   ahba_corrected_annotations = file.path(ahba_root, "published_modules", "annotations", "published_ahba_corrected_suggestive_hits_with_annotations.csv")
 )

@@ -1,0 +1,7 @@
+{
+  "exact_ari": 1,
+  "effectively_equivalent_ari_min": 0.9,
+  "effectively_equivalent_median_best_jaccard_min": 0.9,
+  "effectively_equivalent_gene_agreement_min": 0.9,
+  "effectively_equivalent_median_abs_eigengene_correlation_min": 0.95
+}

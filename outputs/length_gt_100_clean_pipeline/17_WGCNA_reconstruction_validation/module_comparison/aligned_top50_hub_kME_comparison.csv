@@ -1,0 +1,215 @@
+region,old_module,reconstructed_module,common_top50_hubs,kME_spearman
+Ventral Striatum,MEantiquewhite4,MEantiquewhite4,50,1
+Ventral Striatum,MEbisque4,MEbisque4,46,0.9999999999999999
+Ventral Striatum,MEblack,MEblack,50,1
+Ventral Striatum,MEbrown,MEbrown,50,1
+Ventral Striatum,MEbrown2,MEbrown2,21,1
+Ventral Striatum,MEbrown4,MEbrown4,49,0.9999999999999999
+Ventral Striatum,MEcoral1,MEcoral1,50,1
+Ventral Striatum,MEdarkgreen,MEdarkgreen,50,1
+Ventral Striatum,MEdarkgrey,MEdarkgrey,50,1
+Ventral Striatum,MEdarkolivegreen,MEdarkolivegreen,50,1
+Ventral Striatum,MEdarkolivegreen4,MEdarkolivegreen4,22,0.9999999999999998
+Ventral Striatum,MEdarkorange2,MEdarkorange2,50,1
+Ventral Striatum,MEdarkred,MEdarkred,50,1
+Ventral Striatum,MEdarkseagreen4,MEdarkseagreen4,33,1
+Ventral Striatum,MEdarkslateblue,MEdarkslateblue,45,0.9999999999999999
+Ventral Striatum,MEdarkturquoise,MEdarkturquoise,50,1
+Ventral Striatum,MEfirebrick4,MEfirebrick4,23,1
+Ventral Striatum,MEgreen,MEgreen,50,1
+Ventral Striatum,MEgreenyellow,MEgreenyellow,50,1
+Ventral Striatum,MEhoneydew1,MEhoneydew1,35,1
+Ventral Striatum,MEivory,MEivory,49,0.9999999999999999
+Ventral Striatum,MElavenderblush3,MElavenderblush3,35,1
+Ventral Striatum,MElightcoral,MElightcoral,23,1
+Ventral Striatum,MElightcyan1,MElightcyan1,50,1
+Ventral Striatum,MElightgreen,MElightgreen,50,1
+Ventral Striatum,MElightpink4,MElightpink4,36,1
+Ventral Striatum,MElightsteelblue,MElightsteelblue,24,0.9999999999999999
+Ventral Striatum,MElightsteelblue1,MElightsteelblue1,50,1
+Ventral Striatum,MEmediumorchid,MEmediumorchid,28,1
+Ventral Striatum,MEmediumpurple2,MEmediumpurple2,50,1
+Ventral Striatum,MEorangered3,MEorangered3,25,1
+Ventral Striatum,MEpaleturquoise,MEpaleturquoise,50,1
+Ventral Striatum,MEpalevioletred3,MEpalevioletred3,40,0.9999999999999998
+Ventral Striatum,MEplum,MEplum,25,1
+Ventral Striatum,MEplum1,MEplum1,50,1
+Ventral Striatum,MEplum2,MEplum2,44,1
+Ventral Striatum,MEpurple,MEpurple,50,1
+Ventral Striatum,MEroyalblue,MEroyalblue,50,1
+Ventral Striatum,MEsalmon,MEsalmon,50,1
+Ventral Striatum,MEsalmon4,MEsalmon4,50,1
+Ventral Striatum,MEsienna3,MEsienna3,50,1
+Ventral Striatum,MEskyblue,MEskyblue,50,1
+Ventral Striatum,MEskyblue1,MEskyblue1,50,1
+Ventral Striatum,MEskyblue2,MEskyblue2,27,0.9999999999999999
+Ventral Striatum,MEskyblue3,MEskyblue3,50,1
+Ventral Striatum,MEsteelblue,MEsteelblue,50,1
+Ventral Striatum,MEthistle1,MEthistle1,43,1
+Ventral Striatum,MEturquoise,MEturquoise,50,1
+Ventral Striatum,MEyellow4,MEyellow4,27,0.9999999999999999
+Ventral Striatum,MEyellowgreen,MEyellowgreen,50,1
+Insula,MEblack,MEblack,50,1
+Insula,MEblue,MEblue,50,1
+Insula,MEbrown,MEbrown,50,1
+Insula,MEcyan,MEcyan,50,1
+Insula,MEdarkgreen,MEdarkgreen,50,1
+Insula,MEdarkgrey,MEdarkgrey,50,1
+Insula,MEdarkmagenta,MEdarkmagenta,30,1
+Insula,MEdarkolivegreen,MEdarkolivegreen,31,1
+Insula,MEdarkorange,MEdarkorange,50,1
+Insula,MEdarkturquoise,MEdarkturquoise,50,1
+Insula,MEgreenyellow,MEgreenyellow,50,1
+Insula,MEgrey60,MEgrey60,50,1
+Insula,MElightgreen,MElightgreen,50,1
+Insula,MElightyellow,MElightyellow,50,1
+Insula,MEmagenta,MEmagenta,50,1
+Insula,MEmediumpurple3,MEmediumpurple3,24,0.9999999999999999
+Insula,MEmidnightblue,MEmidnightblue,50,1
+Insula,MEorange,MEorange,50,1
+Insula,MEplum1,MEplum1,25,1
+Insula,MEpurple,MEpurple,50,1
+Insula,MEroyalblue,MEroyalblue,50,1
+Insula,MEsaddlebrown,MEsaddlebrown,40,0.9999999999999998
+Insula,MEsalmon,MEsalmon,50,1
+Insula,MEsienna3,MEsienna3,26,0.9999999999999999
+Insula,MEskyblue,MEskyblue,43,1
+Insula,MEskyblue3,MEskyblue3,25,1
+Insula,MEturquoise,MEturquoise,50,1
+Insula,MEviolet,MEviolet,33,1
+Insula,MEyellowgreen,MEyellowgreen,25,1
+Hippocampal Formation,MEantiquewhite2,MEantiquewhite2,22,0.9999999999999998
+Hippocampal Formation,MEantiquewhite4,MEantiquewhite4,50,1
+Hippocampal Formation,MEbisque4,MEbisque4,50,1
+Hippocampal Formation,MEblack,MEblack,50,1
+Hippocampal Formation,MEblue,MEblue,50,1
+Hippocampal Formation,MEblue2,MEblue2,31,1
+Hippocampal Formation,MEbrown,MEbrown,50,1
+Hippocampal Formation,MEbrown2,MEbrown2,31,1
+Hippocampal Formation,MEbrown4,MEbrown4,50,1
+Hippocampal Formation,MEcoral,MEcoral,22,0.9999999999999998
+Hippocampal Formation,MEcoral1,MEcoral1,43,1
+Hippocampal Formation,MEcoral2,MEcoral2,40,0.9999999999999998
+Hippocampal Formation,MEcoral3,MEcoral3,21,1
+Hippocampal Formation,MEcyan,MEcyan,50,1
+Hippocampal Formation,MEdarkgreen,MEdarkgreen,50,1
+Hippocampal Formation,MEdarkmagenta,MEdarkmagenta,50,1
+Hippocampal Formation,MEdarkolivegreen,MEdarkolivegreen,50,1
+Hippocampal Formation,MEdarkolivegreen4,MEdarkolivegreen4,31,1
+Hippocampal Formation,MEdarkorange,MEdarkorange,50,1
+Hippocampal Formation,MEdarkorange2,MEdarkorange2,50,1
+Hippocampal Formation,MEdarkred,MEdarkred,50,1
+Hippocampal Formation,MEdarkseagreen3,MEdarkseagreen3,22,0.9999999999999998
+Hippocampal Formation,MEdarkseagreen4,MEdarkseagreen4,45,0.9999999999999999
+Hippocampal Formation,MEdarkslateblue,MEdarkslateblue,50,1
+Hippocampal Formation,MEdarkviolet,MEdarkviolet,50,1
+Hippocampal Formation,MEfirebrick4,MEfirebrick4,50,1
+Hippocampal Formation,MEfloralwhite,MEfloralwhite,50,1
+Hippocampal Formation,MEgreen,MEgreen,50,1
+Hippocampal Formation,MEgreenyellow,MEgreenyellow,50,1
+Hippocampal Formation,MEgrey60,MEgrey60,50,1
+Hippocampal Formation,MEhoneydew,MEhoneydew,23,1
+Hippocampal Formation,MEhoneydew1,MEhoneydew1,45,0.9999999999999999
+Hippocampal Formation,MEindianred4,MEindianred4,33,1
+Hippocampal Formation,MEivory,MEivory,50,1
+Hippocampal Formation,MElavenderblush2,MElavenderblush2,23,1
+Hippocampal Formation,MElavenderblush3,MElavenderblush3,47,1
+Hippocampal Formation,MElightcoral,MElightcoral,50,1
+Hippocampal Formation,MElightcyan,MElightcyan,50,1
+Hippocampal Formation,MElightcyan1,MElightcyan1,50,1
+Hippocampal Formation,MElightpink3,MElightpink3,24,0.9999999999999999
+Hippocampal Formation,MElightpink4,MElightpink4,48,1
+Hippocampal Formation,MElightsteelblue,MElightsteelblue,34,1
+Hippocampal Formation,MElightyellow,MElightyellow,50,1
+Hippocampal Formation,MEmagenta,MEmagenta,50,1
+Hippocampal Formation,MEmagenta4,MEmagenta4,24,0.9999999999999999
+Hippocampal Formation,MEmaroon,MEmaroon,49,0.9999999999999999
+Hippocampal Formation,MEmediumpurple2,MEmediumpurple2,50,1
+Hippocampal Formation,MEmediumpurple4,MEmediumpurple4,20,1
+Hippocampal Formation,MEorangered4,MEorangered4,50,1
+Hippocampal Formation,MEpalevioletred2,MEpalevioletred2,26,0.9999999999999999
+Hippocampal Formation,MEpalevioletred3,MEpalevioletred3,50,1
+Hippocampal Formation,MEplum,MEplum,50,1
+Hippocampal Formation,MEplum1,MEplum1,50,1
+Hippocampal Formation,MEplum3,MEplum3,30,1
+Hippocampal Formation,MEred,MEred,50,1
+Hippocampal Formation,MEsalmon4,MEsalmon4,50,1
+Hippocampal Formation,MEsienna3,MEsienna3,50,1
+Hippocampal Formation,MEskyblue,MEskyblue,50,1
+Hippocampal Formation,MEskyblue2,MEskyblue2,39,1
+Hippocampal Formation,MEskyblue3,MEskyblue3,50,1
+Hippocampal Formation,MEsteelblue,MEsteelblue,50,1
+Hippocampal Formation,MEtan,MEtan,50,1
+Hippocampal Formation,MEthistle,MEthistle,28,1
+Hippocampal Formation,MEthistle1,MEthistle1,50,1
+Hippocampal Formation,MEthistle2,MEthistle2,50,1
+Hippocampal Formation,MEthistle3,MEthistle3,29,0.9999999999999998
+Hippocampal Formation,MEwhite,MEwhite,50,1
+Hippocampal Formation,MEyellow,MEyellow,50,1
+Hippocampal Formation,MEyellowgreen,MEyellowgreen,50,1
+Cingulate gyrus 25,MEblack,MEblack,50,1
+Cingulate gyrus 25,MEblue,MEblue,50,1
+Cingulate gyrus 25,MEbrown,MEbrown,50,1
+Cingulate gyrus 25,MEdarkgreen,MEdarkgreen,50,1
+Cingulate gyrus 25,MEdarkgrey,MEdarkgrey,50,1
+Cingulate gyrus 25,MEdarkmagenta,MEdarkmagenta,50,1
+Cingulate gyrus 25,MEdarkolivegreen,MEdarkolivegreen,33,1
+Cingulate gyrus 25,MEdarkorange,MEdarkorange,50,1
+Cingulate gyrus 25,MEdarkorange2,MEdarkorange2,21,1
+Cingulate gyrus 25,MEdarkred,MEdarkred,50,1
+Cingulate gyrus 25,MEfloralwhite,MEfloralwhite,50,1
+Cingulate gyrus 25,MEgreen,MEgreen,50,1
+Cingulate gyrus 25,MEgrey60,MEgrey60,50,1
+Cingulate gyrus 25,MElightcyan1,MElightcyan1,23,1
+Cingulate gyrus 25,MElightgreen,MElightgreen,50,1
+Cingulate gyrus 25,MElightsteelblue1,MElightsteelblue1,24,0.9999999999999999
+Cingulate gyrus 25,MEmediumpurple3,MEmediumpurple3,25,1
+Cingulate gyrus 25,MEorange,MEorange,50,1
+Cingulate gyrus 25,MEorangered4,MEorangered4,25,1
+Cingulate gyrus 25,MEplum1,MEplum1,26,0.9999999999999999
+Cingulate gyrus 25,MEred,MEred,50,1
+Cingulate gyrus 25,MEsaddlebrown,MEsaddlebrown,40,0.9999999999999998
+Cingulate gyrus 25,MEskyblue,MEskyblue,44,1
+Cingulate gyrus 25,MEskyblue3,MEskyblue3,28,1
+Cingulate gyrus 25,MEsteelblue,MEsteelblue,36,1
+Cingulate gyrus 25,MEwhite,MEwhite,50,1
+Cingulate gyrus 25,MEyellowgreen,MEyellowgreen,29,0.9999999999999998
+dlPFC BA8/9,MEblack,MEblack,50,1
+dlPFC BA8/9,MEblue,MEblue,50,1
+dlPFC BA8/9,MEbrown,MEbrown,50,1
+dlPFC BA8/9,MEcyan,MEcyan,45,0.9999999999999999
+dlPFC BA8/9,MEdarkgreen,MEdarkgreen,26,0.9999999999999999
+dlPFC BA8/9,MEdarkgrey,MEdarkgrey,24,0.9999999999999999
+dlPFC BA8/9,MEdarkred,MEdarkred,50,1
+dlPFC BA8/9,MEdarkturquoise,MEdarkturquoise,26,0.9999999999999999
+dlPFC BA8/9,MEgreen,MEgreen,50,1
+dlPFC BA8/9,MEgreenyellow,MEgreenyellow,50,1
+dlPFC BA8/9,MEgrey60,MEgrey60,36,1
+dlPFC BA8/9,MElightcyan,MElightcyan,43,1
+dlPFC BA8/9,MElightgreen,MElightgreen,35,1
+dlPFC BA8/9,MElightyellow,MElightyellow,35,1
+dlPFC BA8/9,MEmagenta,MEmagenta,50,1
+dlPFC BA8/9,MEmidnightblue,MEmidnightblue,45,0.9999999999999999
+dlPFC BA8/9,MEorange,MEorange,23,1
+dlPFC BA8/9,MEpurple,MEpurple,50,1
+dlPFC BA8/9,MEsalmon,MEsalmon,50,1
+dlPFC BA8/9,MEtan,MEtan,50,1
+dlPFC BA8/9,MEturquoise,MEturquoise,50,1
+OFC BA11,MEblack,MEblack,50,1
+OFC BA11,MEblue,MEblue,50,1
+OFC BA11,MEbrown,MEbrown,50,1
+OFC BA11,MEcyan,MEcyan,36,1
+OFC BA11,MEgreen,MEgreen,50,1
+OFC BA11,MEgreenyellow,MEgreenyellow,50,1
+OFC BA11,MEgrey60,MEgrey60,25,1
+OFC BA11,MElightcyan,MElightcyan,29,0.9999999999999998
+OFC BA11,MElightgreen,MElightgreen,23,1
+OFC BA11,MElightyellow,MElightyellow,20,1
+OFC BA11,MEmagenta,MEmagenta,50,1
+OFC BA11,MEmidnightblue,MEmidnightblue,31,1
+OFC BA11,MEpink,MEpink,50,1
+OFC BA11,MEpurple,MEpurple,50,1
+OFC BA11,MEred,MEred,50,1
+OFC BA11,MEsalmon,MEsalmon,40,0.9999999999999998
+OFC BA11,MEtan,MEtan,41,1
+OFC BA11,MEyellow,MEyellow,50,1

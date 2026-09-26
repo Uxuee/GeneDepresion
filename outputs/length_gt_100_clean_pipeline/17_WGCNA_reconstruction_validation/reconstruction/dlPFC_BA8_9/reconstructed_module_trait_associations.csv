@@ -1,0 +1,23 @@
+region,reconstructed_module,n_module_genes,beta_diagnosis,p_diagnosis,model_formula,n_samples,notes,fdr_diagnosis_BH
+dlPFC BA8/9,MElightyellow,35,0.005822736452077121,0.8992555531653511,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.9442183308236187
+dlPFC BA8/9,MEbrown,541,0.024757812850320634,0.5830218988321099,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.6993946828970325
+dlPFC BA8/9,MEtan,84,0.02390637410617243,0.5862334990536368,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.6993946828970325
+dlPFC BA8/9,MEdarkgreen,26,-0.031071887627389903,0.49827669025543786,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.6993946828970325
+dlPFC BA8/9,MEorange,23,-0.10686142192372586,0.015407352197724005,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.2723941494602633
+dlPFC BA8/9,MEsalmon,53,0.05003363800875344,0.22078534875542502,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.5795615404829907
+dlPFC BA8/9,MEcyan,45,0.01312862209523555,0.7672773060227207,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.8480433382356387
+dlPFC BA8/9,MElightgreen,35,-4.556029426330065e-4,0.991899614752408,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.991899614752408
+dlPFC BA8/9,MEdarkturquoise,26,0.04073697305464322,0.3682120871160842,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.6993946828970325
+dlPFC BA8/9,MEgrey60,36,0.059619783271355795,0.1862057147621454,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.5586171442864362
+dlPFC BA8/9,MEblue,703,-0.09456553648983482,0.02897931355942739,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.2723941494602633
+dlPFC BA8/9,MEgreen,774,-0.09205158660941981,0.038913449922894756,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.2723941494602633
+dlPFC BA8/9,MEgreenyellow,91,-0.07445822768472646,0.07702376472419735,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.4043747648020361
+dlPFC BA8/9,MEturquoise,742,-0.022424840303468405,0.599481156768885,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.6993946828970325
+dlPFC BA8/9,MEdarkgrey,24,-0.04531731266817854,0.3138320125454559,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.6993946828970325
+dlPFC BA8/9,MEdarkred,971,-0.03583192007033484,0.4334240632638261,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.6993946828970325
+dlPFC BA8/9,MElightcyan,43,0.028883898336898396,0.5290195487754699,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.6993946828970325
+dlPFC BA8/9,MEblack,272,0.0628800786024298,0.1556740576085943,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.5448592016300801
+dlPFC BA8/9,MEpurple,203,0.06703432613108837,0.13002969429041675,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.5448592016300801
+dlPFC BA8/9,MEmagenta,199,0.042226142438423944,0.3469163618156599,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.6993946828970325
+dlPFC BA8/9,MEmidnightblue,45,0.02761871341597922,0.5465344930478897,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,0.6993946828970325
+dlPFC BA8/9,MEgrey,29,5.587486033668567e-4,0.9900715962845337,.ME ~ Diagnosis_numeric + Age + age + Sex + gender + RIN + rin + PMI + pmi,48,full_or_available_covariate_model,NA

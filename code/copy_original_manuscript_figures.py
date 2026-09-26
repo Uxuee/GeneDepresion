@@ -171,7 +171,7 @@ copy_record(
 
 # Figure 2: original Tier2 + ML #1 candidate summary.
 fig2_candidates = find_files(
-    [CLEAN / "10_ML_prioritized_Tier2_extended", CLEAN / "07_Tier2_candidate_gene_sets"],
+    [CLEAN / "10_ML_prioritized_Tier2_corrected", CLEAN / "07_Tier2_candidate_gene_sets"],
     ["Tier2", "ML", "count", "high_moderate", "candidate", "MLpriority", "counts_by_region", "summary"],
 )
 fig2 = choose_first(fig2_candidates, ["barplot_high_moderate", "mlprioritized_count", "counts_by_region", "summary"])
@@ -229,21 +229,10 @@ fig5_files = [
 for i, name in enumerate(fig5_files, 1):
     copy_png_pdf("Figure 5", f"panel_{i}", front_dir / name, f"Figure_5_original_panel_{i}_{Path(name).stem}", "Exact original frontal subregion orange-overlap network requested for manuscript package.")
 
-# Figure 6: exact original module-level ML #2 figures.
-ml2_dir = CLEAN / "13_Module_Level_ML2/plots"
-fig6_files = [
-    "module_level_ml2_balanced_accuracy_barplot.png",
-    "module_level_ml2_broad_frontal_vs_subregions_comparison.png",
-    "module_level_ml2_roc_auc_heatmap.png",
-]
-for i, name in enumerate(fig6_files, 1):
-    copy_png_pdf("Figure 6", f"panel_{i}", ml2_dir / name, f"Figure_6_original_panel_{i}_{Path(name).stem}", "Exact original Step 13 ML #2 performance figure requested for manuscript package.")
-
 # Supplementary original copies: keep useful originals separate from main.
 for src_root in [
     CLEAN / "12_MDD_WGCNA_modules/plots_cluster_visualization",
     CLEAN / "12_MDD_WGCNA_modules/frontal_subregion_wgcna/plots/cluster_visualizations_orange_overlap",
-    CLEAN / "13_Module_Level_ML2/plots",
     CLEAN / "11_AHBA_modules_enrichment/published_modules/figures",
     CLEAN / "12_MDD_WGCNA_modules/biological_annotation/plots",
 ]:
