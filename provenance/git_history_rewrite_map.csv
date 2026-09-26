@@ -1,0 +1,10 @@
+old_commit,new_commit,old_message,scientific_stage,reason_for_rewrite,scientific_content_changed
+c895ea4e27fafce09899ae58e90092e0831953f4,1ed14c54af600ddeeed3ee73a9581f707a2648ab,Add p-value correction sensitivity audit,local-main sensitivity audit,remove two reproducible generated full-detail CSV artifacts,FALSE
+dabae4f268388fe79a07a9a8dfd9591570a9e385,59f4fdb33ebe6ece42e8c37b316723d3ad565f73,Add AHBA module analysis stage,old local-main tip,descendant identity changed after targeted local-main rewrite,FALSE
+fa3b53f71a9373cd9856df127991abce89bf52df,fa3b53f71a9373cd9856df127991abce89bf52df,Freeze corrected ML prioritization and publication provenance,canonical corrected ML prioritization,release lineage did not contain target blobs,FALSE
+ca25ec35af359a4d409abf0f728833d2ff54761c,ca25ec35af359a4d409abf0f728833d2ff54761c,Freeze corrected ML-dependent downstream analyses,Phase 2 corrected downstream,release lineage did not contain target blobs,FALSE
+a483b4f6267befbb98ef49f23a27ffe6fa48ed69,a483b4f6267befbb98ef49f23a27ffe6fa48ed69,Establish canonical pipeline provenance and publication boundaries,Phase 3A provenance stabilization,release lineage did not contain target blobs,FALSE
+df46778d1b62d92c8ba2b0a3b9002e3c3f7bdadc,df46778d1b62d92c8ba2b0a3b9002e3c3f7bdadc,Preserve end-to-end publication audit evidence,publication audit evidence,release lineage did not contain target blobs,FALSE
+dd59b1dc2b64d681ec9e7b8f0092b41b005471ef,dd59b1dc2b64d681ec9e7b8f0092b41b005471ef,Validate canonical WGCNA reconstruction and module annotation,Phase 3B WGCNA validation,release lineage did not contain target blobs,FALSE
+0de77ca9dfe1edb535b8c76932a6d67860ddf254,0de77ca9dfe1edb535b8c76932a6d67860ddf254,Audit WGCNA functional enrichment interpretation,Phase 3C functional interpretation audit,release lineage did not contain target blobs,FALSE
+bcdfa135a1772caeb23db6ae2531243b0a76de27,bcdfa135a1772caeb23db6ae2531243b0a76de27,Document-GitHub-release-readiness-blockers,pre-rewrite release-readiness record,release lineage did not contain target blobs,FALSE

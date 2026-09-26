@@ -1,0 +1,19 @@
+Pre-rewrite release lineage captured 2026-09-26
+Branch: codex/clean-work-path-review-images
+Upstream: origin/codex/clean-work-path-review-images
+Merge base: f4f60c2d12cae1e9ee600fc3ef0e6c74bfb450ef
+
+* bcdfa13 (HEAD -> codex/clean-work-path-review-images) Document-GitHub-release-readiness-blockers
+* 9483973 Keep verification commands read only by default
+* 95e4513 Preserve canonical artifact line endings in fresh clones
+* ebefabb Harden fresh-clone validation on Windows
+* 01a20ae Prepare canonical repository navigation and data preflight
+* 0de77ca Audit WGCNA functional enrichment interpretation
+* dd59b1d Validate canonical WGCNA reconstruction and module annotation
+* df46778 Preserve end-to-end publication audit evidence
+* a483b4f Establish canonical pipeline provenance and publication boundaries
+* ca25ec3 Freeze corrected ML-dependent downstream analyses
+* fa3b53f Freeze corrected ML prioritization and publication provenance
+* f4f60c2 (origin/codex/clean-work-path-review-images) Replace WGCNA bubble plot with prioritization strategy
+
+The release lineage was not rewritten because neither large blob was reachable from it.
