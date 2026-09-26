@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "assessment_date": "2026-09-26",
+  "status": "NOT_READY_TO_PUSH",
+  "assessed_head": "9483973ffa11119663a77fe6d804f0e1061d3c70",
+  "branch": "codex/clean-work-path-review-images",
+  "remote": "https://github.com/Uxuee/GeneDepresion.git",
+  "push_blocked": true,
+  "canonical_ml": {
+    "total": 671,
+    "high": 30,
+    "moderate": 119,
+    "low": 522,
+    "high_plus_moderate": 149,
+    "v1_denominator": 125,
+    "v2_denominator": 150,
+    "ranking_sha256": "6f59e2ed6f652061fcb81a7c5eccbc1211a8dcb9d0bafcc85a1f9fc3edf280f1"
+  },
+  "validation": {
+    "fresh_clone_commit": "9483973ffa11119663a77fe6d804f0e1061d3c70",
+    "fresh_clone_clean": true,
+    "python_tests_passed": 54,
+    "python_tests_failed": 0,
+    "phase3b_r_checks_passed_in_configured_source_environment": 38,
+    "phase3b_r_checks_failed": 0,
+    "phase3b_r_checks_run_in_fresh_clone": false,
+    "phase3b_r_fresh_clone_note": "No system Rscript; the project-local R runtime/library is intentionally uncommitted.",
+    "canonical_validator_fresh_clone": {
+      "passed": true,
+      "errors": 0,
+      "warnings": 0,
+      "local_artifact_notices": 5
+    },
+    "tier4_git_artifacts_verified": 7,
+    "canonical_status_passed": true,
+    "canonical_dry_run_passed": true,
+    "external_data_preflight_actionable": true
+  },
+  "publication_exclusions": [
+    "Tier4 GSEA without recoverable ranked-signature provenance",
+    "Step 13 module-level ML2 without recoverable canonical provenance",
+    "Broad pooled Frontal Cortex as a main report analysis"
+  ],
+  "large_file_blockers": [
+    {
+      "introduced_by_commit": "c895ea4",
+      "size_bytes": 442234871,
+      "blob": "b0116e8471f0d549c8569a695e0e18c32d4a9167",
+      "path": "outputs/length_gt_100_elisa_style/pvalue_correction_sensitivity/four_group_pvalue_correction_sensitivity_full.csv"
+    },
+    {
+      "introduced_by_commit": "c895ea4",
+      "size_bytes": 248786630,
+      "blob": "1a1302695ea66f91aaf7bc203dcf317609e795c7",
+      "path": "outputs/length_gt_100_elisa_style/pvalue_correction_sensitivity/frontal_subregion_pvalue_correction_sensitivity_full.csv"
+    }
+  ],
+  "required_next_decision": "Approve either a targeted history rewrite that removes the two generated CSV blobs or a Git LFS migration, then repeat all release checks before pushing.",
+  "history_rewritten": false,
+  "push_performed": false
+}
