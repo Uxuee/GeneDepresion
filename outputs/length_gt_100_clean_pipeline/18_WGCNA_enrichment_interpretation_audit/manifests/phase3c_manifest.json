@@ -1,0 +1,168 @@
+{
+  "stage": "WGCNA functional-enrichment and biological-interpretation audit",
+  "status": "interpretation_audit",
+  "git_baseline": "dd59b1dc2b64d681ec9e7b8f0092b41b005471ef",
+  "phase3b_source_files": [
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/functional_enrichment_GO_Reactome_Hallmark.csv",
+      "sha256": "9ee35040483204f46e17a0947d3b624e5114d756db0cce72a907648490bd4708"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/prioritized_module_evidence_table.csv",
+      "sha256": "a3de7ca83777b103fb4f4a05df36c7abf6f89f3c6fb5a48f48295b6db1117a66"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/functional_annotation/prioritized_module_gene_id_mapping.csv",
+      "sha256": "78e2a87844b8d92632f8f11fdf0b648b97925d89f6416f5587b686e98deddf44"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/ml_gene_enrichment_validation/aligned_corrected_ML_enrichment_comparison.csv",
+      "sha256": "d99c193c1c3989518ef88c6ba63ec3091694302ead59ee74c65fa590a2a6aa2b"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/ML_prioritized_Tier2_genes_all_ranked.csv",
+      "sha256": "6f59e2ed6f652061fcb81a7c5eccbc1211a8dcb9d0bafcc85a1f9fc3edf280f1"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/16_corrected_ML_downstream/stable_core_annotations_corrected/broad_structural_core_with_corrected_ML_annotations.csv",
+      "sha256": "9a3e6370979662001b3fb7e84c2865d9643adaaadbb57a3eb8d180b3098ecdf4"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/16_corrected_ML_downstream/stable_core_annotations_corrected/frontal_structural_core_with_corrected_ML_annotations.csv",
+      "sha256": "6d4bea5863a055c0310409c4301e6fc3f96389372271f315fe737ee4202aba11"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "code/phase3c_export_go_relations.R",
+      "sha256": "53bd97559f7daf31835491cb61363f3fb5b430cfcdd8f4cf50d0258f7f7c9723"
+    },
+    {
+      "path": "code/phase3c_audit_wgcna_interpretation.py",
+      "sha256": "74407b0c06956ce93b604dc9c3842b6f1fb974bf6f056fe2bcad5fd226157a98"
+    }
+  ],
+  "commands": [
+    "Rscript code/phase3c_export_go_relations.R",
+    "python code/phase3c_audit_wgcna_interpretation.py"
+  ],
+  "no_new_enrichment": true,
+  "no_WGCNA_rerun": true,
+  "thresholds": {
+    "FDR_supported": "BH_q < 0.05",
+    "suggestive": "0.05 <= BH_q < 0.10",
+    "redundancy_gene_set_jaccard": 0.8
+  },
+  "databases_already_present_in_phase3b": [
+    "GO",
+    "MSigDB Hallmark",
+    "Reactome"
+  ],
+  "prioritized_module_count": 10,
+  "term_counts": {
+    "BH_q_lt_0_05": 200,
+    "BH_q_0_05_to_0_10": 51
+  },
+  "outputs": [
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/all_prioritized_module_enrichment_terms.csv",
+      "relative_path": "functional_annotation/all_prioritized_module_enrichment_terms.csv",
+      "bytes": 7898699,
+      "sha256": "4e2d5b82a315e28767fa4bf83580d40fb8846725113cadc61e4a61e91bbd28f3"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/background_universe_audit.csv",
+      "relative_path": "functional_annotation/background_universe_audit.csv",
+      "bytes": 2006,
+      "sha256": "c034ff08e9edd5015b050ef668fe652d7d663158960cdce88476d47e87f40a88"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/cross_database_theme_support.csv",
+      "relative_path": "functional_annotation/cross_database_theme_support.csv",
+      "bytes": 1603,
+      "sha256": "7f1fd313bdada72f8ab02e7b742cd4b107241630c831950c1a9c240119f3ce99"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/fdr05_terms_with_overlap_genes.csv",
+      "relative_path": "functional_annotation/fdr05_terms_with_overlap_genes.csv",
+      "bytes": 120322,
+      "sha256": "2e8f8655c5225b19c283ca36e09f28d4326d420698e765ccb9d19fc0068a05e1"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/fdr10_suggestive_terms.csv",
+      "relative_path": "functional_annotation/fdr10_suggestive_terms.csv",
+      "bytes": 25695,
+      "sha256": "28743800e4cab1829b624907eefb62307a76438c79f53fa8ea88456ab799905f"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/gene_driver_recurrence.csv",
+      "relative_path": "functional_annotation/gene_driver_recurrence.csv",
+      "bytes": 39072,
+      "sha256": "2d8f50bc03e4649aee52655c12cd8a6db4cd376765c04454395e04aad16348bb"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/gene_drivers_by_term.csv",
+      "relative_path": "functional_annotation/gene_drivers_by_term.csv",
+      "bytes": 629678,
+      "sha256": "beb55489b22caeead33f1cec04d1ce47564bc6933314c3439e6effe1da82ed75"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/hub_function_overlap.csv",
+      "relative_path": "functional_annotation/hub_function_overlap.csv",
+      "bytes": 39122,
+      "sha256": "5c8af56e0a73d4cafbddf70c916102cd6069da75862fff2a7daa79a7ac0aa28d"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/ml_gene_function_overlap.csv",
+      "relative_path": "functional_annotation/ml_gene_function_overlap.csv",
+      "bytes": 1485,
+      "sha256": "55df36f023c4b7725ffcd2d93b411524ae5016689e47a7ee72ebe947275f9b16"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/module_mapping_quality.csv",
+      "relative_path": "functional_annotation/module_mapping_quality.csv",
+      "bytes": 3238,
+      "sha256": "3b71816e100b7d33c44af841128b20c615acc22e64dfe8f14bb44d08c29e5a97"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/module_theme_summary.csv",
+      "relative_path": "functional_annotation/module_theme_summary.csv",
+      "bytes": 19102,
+      "sha256": "776549fa9779ffce85b26d35234592eea121380d97a73912315cbee645f8982c"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/phase3c_final_decision_table.csv",
+      "relative_path": "functional_annotation/phase3c_final_decision_table.csv",
+      "bytes": 3449,
+      "sha256": "3914aea151f583e3b8b35afb42c771c52de0c8a272a4168fc1380f5eddcf8c78"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/phase3c_go_immediate_parent_relations.csv",
+      "relative_path": "functional_annotation/phase3c_go_immediate_parent_relations.csv",
+      "bytes": 10573,
+      "sha256": "22ee334f5e28d7ab2ac752145a2c0fb3798755a656ddda3f80f7f3fd2daa5607"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/phase3c_term_clusters.csv",
+      "relative_path": "functional_annotation/phase3c_term_clusters.csv",
+      "bytes": 26543,
+      "sha256": "3f560e68492db938157851a00101ca07d497170ca300f9757d207d5a63d6e152"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/prioritized_modules_audited.csv",
+      "relative_path": "functional_annotation/prioritized_modules_audited.csv",
+      "bytes": 3888,
+      "sha256": "ee9cc691fcf0cb993aaa8f6f3dfd4336b9dfba5e2e5b33388e3533dc35b3dff8"
+    },
+    {
+      "path": "D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/publication_interpretation_categories.csv",
+      "relative_path": "functional_annotation/publication_interpretation_categories.csv",
+      "bytes": 6731,
+      "sha256": "044737885fea8274647c91014f5e7950fa28fc8723d03d70797586505225e648"
+    }
+  ],
+  "report": {
+    "path": "D:/genes/GeneDepresion/docs/WGCNA_FUNCTIONAL_ENRICHMENT_INTERPRETATION_AUDIT.md",
+    "sha256": "f279a8417d58cda75bea8160d00d8b8706f1e5b126c1ed407e7a2bd25a7e8837"
+  }
+}

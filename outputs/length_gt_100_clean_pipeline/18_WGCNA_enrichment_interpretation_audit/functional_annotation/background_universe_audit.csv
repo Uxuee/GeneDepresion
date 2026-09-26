@@ -1,0 +1,30 @@
+region,database,ontology,universe_genes,universe_mapped,universe_genes_unique_values,universe_mapped_unique_values,database_eligible_background_denominators,term_count,expected_region_network_genes,region_network_background_confirmed
+Cingulate gyrus 25,GO,BP,5000,4767,1,1,2709,139,5000,True
+Cingulate gyrus 25,GO,CC,5000,4767,1,1,2904,19,5000,True
+Cingulate gyrus 25,GO,MF,5000,4767,1,1,2675,24,5000,True
+Cingulate gyrus 25,Reactome,Pathway,5000,4767,1,1,1679,4,5000,True
+Hippocampal Formation,GO,BP,15000,14288,1,1,8176,3000,15000,True
+Hippocampal Formation,GO,CC,15000,14288,1,1,8723,337,15000,True
+Hippocampal Formation,GO,MF,15000,14288,1,1,8351,530,15000,True
+Hippocampal Formation,MSigDB Hallmark,Hallmark,15000,14288,1,1,2408,42,15000,True
+Hippocampal Formation,Reactome,Pathway,15000,14288,1,1,5206,669,15000,True
+Insula,GO,BP,15000,14307,1,1,8406,680,15000,True
+Insula,GO,CC,15000,14307,1,1,8957,123,15000,True
+Insula,GO,MF,15000,14307,1,1,8637,187,15000,True
+Insula,MSigDB Hallmark,Hallmark,15000,14307,1,1,2457,16,15000,True
+Insula,Reactome,Pathway,15000,14307,1,1,5472,99,15000,True
+OFC BA11,GO,BP,5000,4682,1,1,2108,402,5000,True
+OFC BA11,GO,CC,5000,4682,1,1,2247,79,5000,True
+OFC BA11,GO,MF,5000,4682,1,1,2024,116,5000,True
+OFC BA11,MSigDB Hallmark,Hallmark,5000,4682,1,1,669,10,5000,True
+OFC BA11,Reactome,Pathway,5000,4682,1,1,1341,184,5000,True
+Ventral Striatum,GO,BP,15000,14286,1,1,8153,7964,15000,True
+Ventral Striatum,GO,CC,15000,14286,1,1,8718,1160,15000,True
+Ventral Striatum,GO,MF,15000,14286,1,1,8372,1558,15000,True
+Ventral Striatum,MSigDB Hallmark,Hallmark,15000,14286,1,1,2386,137,15000,True
+Ventral Striatum,Reactome,Pathway,15000,14286,1,1,5188,1882,15000,True
+dlPFC BA8/9,GO,BP,5000,4672,1,1,2074,1851,5000,True
+dlPFC BA8/9,GO,CC,5000,4672,1,1,2221,220,5000,True
+dlPFC BA8/9,GO,MF,5000,4672,1,1,2007,273,5000,True
+dlPFC BA8/9,MSigDB Hallmark,Hallmark,5000,4672,1,1,655,37,5000,True
+dlPFC BA8/9,Reactome,Pathway,5000,4672,1,1,1289,206,5000,True
