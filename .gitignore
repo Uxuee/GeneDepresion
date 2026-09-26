@@ -30,6 +30,15 @@ Thumbs.db
 config/project_paths.local.yaml
 __pycache__/
 *.pyc
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.Renviron
+.Rprofile
+.pytest_cache/
+.coverage
 
 # Phase-3B uses a recorded private R installation/library; binaries are local.
 environment/phase3b/R-*/

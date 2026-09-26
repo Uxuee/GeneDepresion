@@ -28,6 +28,8 @@ dependencies, seeds, environment references, and replacements.
 | 17 module/pathway ML2 | EXCLUDED | retained outputs; exact generator missing | none |
 | 18 figures/tables | UNDER RECOVERY | verified canonical stages → controlled assembly not yet frozen | none |
 | 19 manuscript/report | UNDER RECOVERY | stage 18 → publication refresh not yet performed | none |
+| 20 WGCNA reconstruction validation | VALIDATION EVIDENCE | frozen expression/metadata and canonical assignments → exact reconstruction + reproducible annotation | `dd59b1d` |
+| 21 WGCNA interpretation audit | INTERPRETATION AUDIT | fixed Phase-3B enrichment tables → gene-driver/redundancy/publication audit | `0de77ca` |
 
 The registry contains full paths and SHA-256 values; abbreviated commit labels
 above are for readability only.
@@ -45,6 +47,7 @@ above are for readability only.
                                                                   ├─> 15 structural core/network
                                                                   └─> 15b annotation (pending)
 01 + 02 ─> 16 AHBA all-32 module-score ML
+13 WGCNA ─> 20 exact reconstruction/annotation validation ─> 21 interpretation audit
 17 module/pathway ML2 (excluded)     18 figures/tables (pending) ─> 19 report (pending)
 ```
 
@@ -65,7 +68,8 @@ above are for readability only.
 
 - Tier4 ranked signatures: exactly recoverable from Git objects; the recovery manifest records every object and SHA-256.
 - Tier4 GSEA: excluded from publication because no exact generator, settings, or result artifacts were recovered.
-- WGCNA biological annotation: pending controlled recovery. Historical identifier mapping covered 1,796/4,267 rows (42.1%), so it remains limited supportive interpretation.
+- Historical WGCNA biological annotation remains noncanonical. Phase 3B separately reconstructed all six networks exactly (ARI=1) and produced a reproducible 93.8%-mapped annotation layer without replacing the canonical module assignments.
+- Phase 3C audited only those fixed Phase-3B enrichment tables. It did not rerun WGCNA, add databases, change thresholds, or establish MDD association.
 - MDD module-level ML2 (historical Step 13): excluded from publication because its exact generator was not recovered.
 - Independent external validation: not complete.
 

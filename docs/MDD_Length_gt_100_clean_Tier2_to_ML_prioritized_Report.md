@@ -1,5 +1,7 @@
 # Length > 100 MDD transcriptomics: Tier 2 candidate genes, enrichment, and Tier2-only ML prioritization
 
+> **Superseded ML section:** this report uses the legacy 35/130 ranking and must be regenerated before publication. Current method/counts are in `ML_PRIORITY_SCORE_FINAL.md`.
+
 ## 1. Executive summary
 This clean pipeline organizes the completed Length > 100 analysis into a reproducible path from filtered/normalized gene expression through LMM-derived Tier 2 candidate genes, enrichment, extended ML v1 prioritization, and stable ML-prioritized Tier 2 genes.
 

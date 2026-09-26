@@ -1,32 +1,56 @@
 # Environment provenance
 
-The repository does not yet have one fully pinned, end-to-end environment lock.
-No package versions were invented during Phase 3A.
+The repository contains different levels of environment recovery. Do not treat
+the older root `environment.yml` as a fully pinned publication environment.
 
-## Recovered exact information
+## Python
 
-- Historical WGCNA annotation manifest: R 4.4.2 and `msigdbr` 26.1.0; `org.Hs.eg.db`, `clusterProfiler`, and `ReactomePA` were recorded as unavailable for that run.
-- Historical dream run documentation: R 4.4.2, `variancePartition` 1.36.3, `lmerTest` 3.2.1, and `lme4` 1.1.37.
-- Python scoring tests are runnable with the temporary recovered runtime at `C:/Users/palom/AppData/Local/Temp/codex-python-ml-audit/python.exe`. That runtime is not a project artifact and must not be committed.
+Canonical Python validation uses the standard-library `unittest` runner plus
+the numerical packages imported by the project scripts (`pandas`, `numpy`,
+`scipy`, and scikit-learn where required). The exact original end-to-end Python
+environment is not fully recovered.
 
-`environment.yml` is a historical, incomplete environment description rather
-than a publication-grade lock. A future controlled rerun should capture R
-`sessionInfo()`, Python package versions, operating system, and database release
-identifiers in a new run manifest. Until then, stages with insufficient
-environment recovery are marked `pending_recovery` or excluded.
+On the audited Windows machine, the bundled runtime was blocked by a local ACL,
+so validation used an ACL-safe temporary Python copy. That temporary path is
+machine-local evidence, not a dependency to commit or assume on a new machine.
+A normal supported Python installation may be used instead.
 
-## Stage requirements
+Run the test suite with:
 
-| Area | Runtime/dependencies evidenced in repository | Version status |
-|---|---|---|
-| Python scoring/downstream | Python with pandas, numpy, scipy, scikit-learn, matplotlib/seaborn and network utilities used by the scripts | exact full historical set unknown; temporary test runtime currently works |
-| Python tests | standard-library `unittest`; scoring tests import the project scorer and installed numerical stack | currently tested with temporary runtime; not locked |
-| R gene models | R/Bioconductor, limma/edgeR, variancePartition/dream where applicable | selected exact historical versions above; full dependency graph unknown |
-| WGCNA | R, WGCNA and dynamic tree-cut dependencies | saved run manifest is the environment reference; complete lock unavailable |
-| Enrichment | R/Python enrichment scripts plus MSigDB/GO/KEGG/Reactome resources | resource snapshots partly unknown |
-| AHBA | Python data processing/ML and R WGCNA for de novo branch | full historical package set unknown |
+```text
+python -m unittest discover -s tests -p "test*.py" -v
+```
 
-`Rscript` was not available in the audited command environment, so no new
-`sessionInfo()` was captured. A requirements or `renv.lock` file was not created
-because doing so without a fully usable environment would falsely imply exact
-reproducibility.
+## Phase‑3B R/WGCNA environment
+
+Phase 3B captured a genuine reconstructed-current R environment under
+`environment/phase3b/`:
+
+- `renv.lock` — R 4.6.1, Bioconductor 3.23, and the exact recorded package set;
+- `package_versions.csv` — compact package-version inventory;
+- `sessionInfo.txt` — the session used for the approved Phase‑3B validation;
+- `install_phase3b_packages.R` and `snapshot_environment.R` — reconstruction
+  helpers.
+
+The recorded session includes WGCNA 1.74, dynamicTreeCut 1.63-1,
+clusterProfiler 4.20.0, ReactomePA 1.56.0, org.Hs.eg.db 3.23.1, GO.db 3.23.1,
+and msigdbr 26.1.1. These are reconstructed-current versions used by Phase 3B;
+they are not claims about unknown historical runs.
+
+Typical restoration from the repository root is:
+
+```text
+Rscript -e "renv::restore(lockfile='environment/phase3b/renv.lock', prompt=FALSE)"
+Rscript audit/validate_phase3b_wgcna.R
+```
+
+The committed `sessionInfo.txt` is canonical evidence. A local
+`sessionInfo_after_install.txt`, if produced during troubleshooting, is not a
+canonical artifact and should remain untracked.
+
+## Historical/partly recovered R stages
+
+Older gene-model and enrichment stages retain recorded versions where known,
+but their complete historical dependency graphs were not reconstructed. The
+canonical registry marks stages with insufficient provenance as historical,
+pending recovery, or excluded rather than inventing package versions.

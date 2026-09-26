@@ -1,5 +1,7 @@
 # Main Workflow Report: Length > 100 Clean MDD Transcriptomics Pipeline
 
+> **Superseded ML counts:** this saved report uses the legacy 35/130 ranking. Current canonical ML counts are 30 high, 119 moderate, and 522 low; see `ML_PRIORITY_SCORE_FINAL.md`.
+
 Generated for the current main workflow in:
 
 `D:\genes\GeneDepresion\outputs\length_gt_100_clean_pipeline`

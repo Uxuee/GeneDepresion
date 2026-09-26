@@ -26,6 +26,7 @@ def main() -> int:
     parser.add_argument("--status", action="store_true", help="Print the canonical stage table.")
     parser.add_argument("--validate", action="store_true", help="Run the canonical registry validator.")
     parser.add_argument("--dry-run", action="store_true", help="Show commands without executing them.")
+    parser.add_argument("--check-external-data", action="store_true", help="Check configured external inputs and known checksums.")
     parser.add_argument("--config", help="Optional local project-path YAML file.")
     for key in ("project_root", "raw_data_root", "output_root", "external_resource_root", "r_library_path"):
         parser.add_argument(f"--{key.replace('_', '-')}", dest=key)
@@ -38,12 +39,20 @@ def main() -> int:
     if args.stage and len(selected) != len(set(args.stage)):
         found = {s["stage_id"] for s in selected}
         parser.error(f"unknown stage(s): {sorted(set(args.stage) - found)}")
-    if args.status or (not args.validate and not args.dry_run and not args.stage):
+    show_status = args.status or not any((args.validate, args.dry_run, args.stage, args.check_external_data))
+    if show_status:
         print(f"project_root={paths.get('project_root', ROOT)}")
         for stage in stages:
             print(f"{stage['stage_id']:>3}  {stage['status']:<37} {stage['stage_name']}")
+    if show_status and not any((args.validate, args.dry_run, args.stage, args.check_external_data)):
+        return 0
     if args.validate:
         return subprocess.call([sys.executable, str(ROOT / "audit" / "validate_canonical_pipeline.py")])
+    if args.check_external_data:
+        command = [sys.executable, str(ROOT / "audit" / "check_external_data.py")]
+        if args.config:
+            command.extend(["--config", args.config])
+        return subprocess.call(command)
     for stage in selected:
         status = stage["status"]
         command = stage.get("execution", {}).get("command")
