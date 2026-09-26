@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import hashlib
 import io
@@ -15,6 +16,9 @@ REPORT = ROOT / "audit/tier4_git_artifact_verification.json"
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--write-report", action="store_true", help="Update the versioned verification report.")
+    args = parser.parse_args()
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     checks = []
     ok = True
@@ -36,7 +40,8 @@ def main() -> int:
         record["ok"] = record["hash_matches"] and record["row_count_matches"] and record["gene_ids_unique"]
         ok &= record["ok"]
         checks.append(record)
-    REPORT.write_text(json.dumps({"ok": ok, "checks": checks}, indent=2) + "\n", encoding="utf-8")
+    if args.write_report:
+        REPORT.write_text(json.dumps({"ok": ok, "checks": checks}, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"ok": ok, "artifacts_verified": len(checks)}, indent=2))
     return 0 if ok else 1
 

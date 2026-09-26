@@ -108,6 +108,19 @@ class ReleaseReadinessTests(unittest.TestCase):
         active = [stage for stage in registry["stages"] if stage["status"] in {"canonical", "canonical_external_input"}]
         self.assertTrue(all("10_ML_prioritized_Tier2_extended" not in json.dumps(stage["canonical_outputs"]) for stage in active))
 
+    def test_tier4_verifier_is_read_only_by_default(self):
+        report = ROOT / "audit/tier4_git_artifact_verification.json"
+        before = report.read_bytes()
+        result = subprocess.run(
+            [sys.executable, str(ROOT / "audit/verify_tier4_git_artifacts.py")],
+            cwd=ROOT,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertEqual(report.read_bytes(), before)
+
 
 if __name__ == "__main__":
     unittest.main()
