@@ -38,6 +38,23 @@ class ReleaseReadinessTests(unittest.TestCase):
         self.assertNotIn("NO-OP", result.stdout)
         self.assertNotIn("REFUSE", result.stdout)
 
+    def test_fresh_clone_validator_mode_is_explicit(self):
+        result = subprocess.run(
+            [
+                sys.executable,
+                str(ROOT / "audit/validate_canonical_pipeline.py"),
+                "--allow-missing-local-artifacts",
+            ],
+            cwd=ROOT,
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        payload = json.loads(result.stdout)
+        self.assertEqual(payload["errors"], [])
+        self.assertEqual(payload["warnings"], [])
+
     def test_external_manifest_has_acquisition_and_destination_fields(self):
         with (ROOT / "provenance/external_data_manifest.csv").open(encoding="utf-8", newline="") as handle:
             rows = list(csv.DictReader(handle))

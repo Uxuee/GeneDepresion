@@ -21,6 +21,18 @@ python code/run_canonical_pipeline.py --dry-run
 python code/run_canonical_pipeline.py --check-external-data
 ```
 
+In a fresh clone that intentionally lacks large/local canonical artifacts, use
+`--validate --allow-missing-local-artifacts`. This still validates every
+available checksum and reports absent artifacts as explicit notices. Strict
+`--validate` remains the full local-artifact check.
+
+On Windows, enable long paths or clone near the drive root because several
+provenance-preserving output names are deeply nested:
+
+```text
+git config --global core.longpaths true
+```
+
 Copy `config/project_paths.example.yaml` to
 `config/project_paths.local.yaml`, edit the local paths, and keep that local
 file untracked. Large or restricted source data are not redistributed through
@@ -86,6 +98,7 @@ The canonical validator and Python suite are intentionally lightweight:
 
 ```text
 python audit/validate_canonical_pipeline.py
+python audit/validate_canonical_pipeline.py --allow-missing-local-artifacts
 python -m unittest discover -s tests -p "test*.py" -v
 ```
 

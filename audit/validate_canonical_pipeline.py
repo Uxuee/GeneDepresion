@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import argparse
 import csv
 import json
 import subprocess
@@ -29,9 +30,17 @@ def git_spec_exists(spec: str) -> bool:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--allow-missing-local-artifacts",
+        action="store_true",
+        help="Fresh-clone mode: record intentionally uncommitted artifacts as notices while still checking every available checksum.",
+    )
+    args = parser.parse_args()
     data = json.loads(REGISTRY.read_text(encoding="utf-8"))
     errors: list[str] = []
     warnings: list[str] = []
+    notices: list[str] = []
     ids: list[str] = []
     allowed = set(data["allowed_statuses"])
     for stage in data["stages"]:
@@ -55,7 +64,11 @@ def main() -> int:
                     continue
                 output_path = ROOT / output
                 if not output_path.exists():
-                    errors.append(f"{stage['stage_id']}: canonical output is missing: {output}")
+                    message = f"{stage['stage_id']}: local canonical artifact is unavailable in this checkout: {output}"
+                    if args.allow_missing_local_artifacts:
+                        notices.append(message)
+                    else:
+                        errors.append(message)
                 elif output_path.is_file():
                     recorded = stage["output_sha256"].get(output_path.name) or stage["output_sha256"].get(output)
                     if recorded and sha256(output_path) != recorded:
@@ -103,8 +116,9 @@ def main() -> int:
     for stale in ("35 high", "130 moderate", "165 high+moderate", "v2 denominator = 180"):
         if stale.lower() in current_readme.lower():
             errors.append(f"current README contains stale value: {stale}")
-    result = {"ok": not errors, "errors": errors, "warnings": warnings, "stage_count": len(ids), "canonical_ranking_sha256": expected}
-    REPORT.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
+    result = {"ok": not errors, "errors": errors, "warnings": warnings, "notices": notices, "stage_count": len(ids), "canonical_ranking_sha256": expected}
+    if not args.allow_missing_local_artifacts:
+        REPORT.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2))
     return 0 if not errors else 1
 

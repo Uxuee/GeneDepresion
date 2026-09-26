@@ -27,6 +27,7 @@ def main() -> int:
     parser.add_argument("--validate", action="store_true", help="Run the canonical registry validator.")
     parser.add_argument("--dry-run", action="store_true", help="Show commands without executing them.")
     parser.add_argument("--check-external-data", action="store_true", help="Check configured external inputs and known checksums.")
+    parser.add_argument("--allow-missing-local-artifacts", action="store_true", help="With --validate, permit intentionally uncommitted artifacts in a fresh clone.")
     parser.add_argument("--config", help="Optional local project-path YAML file.")
     for key in ("project_root", "raw_data_root", "output_root", "external_resource_root", "r_library_path"):
         parser.add_argument(f"--{key.replace('_', '-')}", dest=key)
@@ -47,7 +48,10 @@ def main() -> int:
     if show_status and not any((args.validate, args.dry_run, args.stage, args.check_external_data)):
         return 0
     if args.validate:
-        return subprocess.call([sys.executable, str(ROOT / "audit" / "validate_canonical_pipeline.py")])
+        command = [sys.executable, str(ROOT / "audit" / "validate_canonical_pipeline.py")]
+        if args.allow_missing_local_artifacts:
+            command.append("--allow-missing-local-artifacts")
+        return subprocess.call(command)
     if args.check_external_data:
         command = [sys.executable, str(ROOT / "audit" / "check_external_data.py")]
         if args.config:
