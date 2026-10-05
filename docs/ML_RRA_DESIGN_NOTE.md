@@ -23,7 +23,7 @@ The preserved strict-v2 loader defines six independent analysis units:
 | dlPFC BA8/9 | `outputs/length_gt_100_elisa_style/frontal_subregion_sensitivity/subregion_normalized_expression_matrices/Dorsolateral_prefrontal_cortex_dlPFC_BA8_9_normalized_GeTMM_log2_length_gt_100.csv` |
 | OFC BA11 | `outputs/length_gt_100_elisa_style/frontal_subregion_sensitivity/subregion_normalized_expression_matrices/Orbitofrontal_OFC_BA11_normalized_GeTMM_log2_length_gt_100.csv` |
 
-Metadata comes from `step1_from_raw/Length_gt_100/01_metadata/keep_all_samples/`: the three region-specific metadata files and `metadata_frontal_cortex.csv`, filtered by `OriginalRegion` for each frontal subregion.
+Metadata comes from the canonical combined table `outputs/length_gt_100_clean_pipeline/01_inputs/sample_metadata_used.csv`, filtered by the exact `OriginalRegion` value for each unit and aligned to the expression sample IDs.
 
 The clean release clone intentionally omits these local canonical inputs. For this experiment they will be restored byte-for-byte from the preserved unpublished local-main Git objects into ignored paths in this isolated clone. Their blob IDs and SHA-256 values will be recorded in the run manifest. This is an input-availability constraint, not a change in scientific data.
 
