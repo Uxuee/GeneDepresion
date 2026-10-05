@@ -34,6 +34,14 @@ def save_figure(fig: plt.Figure, base: Path) -> None:
     plt.close(fig)
 
 
+def markdown_table(frame: pd.DataFrame) -> str:
+    values = frame.astype(str)
+    header = "| " + " | ".join(values.columns) + " |"
+    rule = "| " + " | ".join(["---"] * len(values.columns)) + " |"
+    rows = ["| " + " | ".join(row) + " |" for row in values.to_numpy()]
+    return "\n".join([header, rule, *rows])
+
+
 def main() -> int:
     args = arguments()
     out = args.output_dir.resolve()
@@ -138,17 +146,51 @@ def main() -> int:
     )
     atomic_write_json(manifest, manifest_path)
 
+    sample_table = pd.DataFrame(manifest["analysis_units"])[["region", "n_samples", "n_mdd", "n_control", "n_genes"]]
+    sample_table.columns = ["Region", "Samples", "MDD", "Control", "Genes"]
+    performance_report = summary.copy()
+    for column in [c for c in performance_report.columns if c.endswith("_mean") or c.endswith("_sd")]:
+        performance_report[column] = performance_report[column].map(lambda value: f"{value:.3f}")
+    top_sections = []
+    model_rank_columns = [f"{model}_rank" for model in MODEL_ORDER]
+    for region, part in consensus.groupby("region", sort=False):
+        region_top = part.nsmallest(20, "consensus_rank")[
+            ["consensus_rank", "gene_id", "gene_symbol", "consensus_rra_score", "model_appearance_count", *model_rank_columns]
+        ].copy()
+        region_top["consensus_rra_score"] = region_top["consensus_rra_score"].map(lambda value: f"{value:.4g}")
+        for column in model_rank_columns:
+            region_top[column] = region_top[column].map(lambda value: "" if pd.isna(value) else str(int(value)))
+        top_sections.append(f"### {region}\n\n{markdown_table(region_top)}")
+
     report = f"""# Experimental whole-transcriptome ML–RRA prioritisation
 
 ## Status and boundary
 
-This analysis is an experimental prioritisation redesign. It does not replace or alter the canonical corrected 671-row ML priority result. The six original analysis units are Ventral Striatum, Insula, Hippocampal Formation, CG25, dlPFC BA8/9, and OFC BA11; pooled broad Frontal Cortex is excluded.
+This analysis is an experimental prioritisation redesign. It does not replace or alter the canonical corrected 671-row ML priority result. The old final score combined hand-specified, correlated components as `0.40F + 0.15M + 0.10S + 0.15R + 0.10D + 0.05L + 0.05V`. This branch replaces only the experimental aggregation strategy with a literature-established rank-aggregation framework. It does not delete, relabel, benchmark against, or make current changes to the frozen legacy results. The six original analysis units are Ventral Striatum, Insula, Hippocampal Formation, CG25, dlPFC BA8/9, and OFC BA11; pooled broad Frontal Cortex is excluded.
 
 ## What was done
 
 Each normalized whole-transcriptome matrix was analysed independently. Five repeats of stratified five-fold outer cross-validation produced 25 held-out evaluations per model family. Within every outer-training split, three-fold inner cross-validation jointly selected the feature-selection method (ANOVA F or absolute standardized mean difference), the number of retained genes (25, 50, 100, 250, or 500), and compact model hyperparameters. Median imputation, scaling for linear models, feature selection, and tuning were all fit only on training data.
 
 The five model families were L1 logistic regression, Elastic Net logistic regression, L2 logistic regression, linear SVM, and Random Forest. Fold rankings used absolute linear coefficients or Random Forest feature importance. Signs were exported for linear models as annotation but did not enter aggregation.
+
+## Exact settings
+
+{markdown_table(sample_table)}
+
+- Outer CV: five stratified folds × five repeats; seeds 2026, 2027, 2028, 2029, and 2030.
+- Inner CV: three stratified folds, balanced-accuracy tuning.
+- Selectors: ANOVA F and absolute standardized mean difference, fit on inner-training samples only.
+- Candidate k: 25, 50, 100, 250, and 500.
+- L1/L2 logistic and linear SVM: `C ∈ {{0.01, 0.1, 1}}`.
+- Elastic Net logistic: `C ∈ {{0.01, 0.1, 1}}`, `l1_ratio = 0.5`.
+- Random Forest: 200 trees, `max_depth ∈ {{3, None}}`, `min_samples_leaf = 2`.
+- Median imputation for all models; standard scaling for linear models; balanced class weights.
+- Python {manifest['python']}, NumPy {manifest['numpy']}, pandas {manifest['pandas']}, scikit-learn {manifest['scikit_learn']}; R 4.6.1 and RobustRankAggreg 1.2.1.
+
+## Leakage controls
+
+The outer test samples were never used to fit imputation, scaling, supervised selection, selector choice, k choice, or model parameters. Those operations were repeated inside each inner-training fold. After tuning, the selected pipeline was refit only on the full outer-training partition and evaluated once on the held-out outer fold. Tier2, Tier4, the legacy 671 pairs, and old confidence labels were not available to fitting or aggregation.
 
 ## Robust rank aggregation
 
@@ -164,9 +206,25 @@ Level 1 used `RobustRankAggreg::aggregateRanks(method = "RRA")` to aggregate the
 
 No high/moderate confidence threshold was invented for the new consensus. The main result is the continuous within-region `consensus_rank` and `consensus_rra_score`, accompanied by transparent per-model ranks.
 
+## Held-out prediction results
+
+{markdown_table(performance_report)}
+
+These metrics describe MDD/control classification on held-out folds. Good F1, balanced accuracy, or ROC-AUC does not by itself establish a biologically valid gene ranking.
+
+## Top 20 consensus genes per region
+
+{chr(10).join(top_sections)}
+
 ## Interpretation cautions
 
 This is internal resampling-based prioritisation, not external validation and not biomarker validation. Small regional sample sizes limit performance estimates and ranking stability. Genes missing from sparse fold/model rankings are handled by the RRA partial-list procedure rather than being assigned fabricated coefficients. Model performance is reported descriptively and is never used to up-weight a model's gene evidence.
+
+The same cohort is reused across correlated outer resamples and model families, so the rankings are not independent. There is no external validation, empirical label-permutation calibration, or current benchmark against the handmade legacy score, Stability Selection, or simpler baselines.
+
+## Next step
+
+The next phase is a separate benchmark against the old handmade score, Stability Selection, simpler baseline rankings, and label-permutation/null analyses. None of those comparisons was performed in this implementation phase.
 """
     report_path = Path(__file__).resolve().parents[2] / "docs/ML_RRA_REDESIGN_REPORT.md"
     report_path.write_text(report, encoding="utf-8")

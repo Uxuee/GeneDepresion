@@ -36,6 +36,13 @@ from common import (
 )
 
 
+RESTORED_GIT_BLOBS = {
+    "CG25": "6d88e81b74951f717e2cc1b27f98e1dbffb2e6d9",
+    "dlPFC BA8/9": "5182c60f3d3762918a67b8142ec5c90b32c46456",
+    "OFC BA11": "b15c0a9286a0930099c95fe8252449f2d273aa5e",
+}
+
+
 def arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input-root", type=Path, default=Path(__file__).resolve().parents[2])
@@ -187,6 +194,12 @@ def main() -> int:
                 "original_region": spec.original_region,
                 "expression_path": spec.expression_relpath,
                 "expression_sha256": sha256_file(expression_path),
+                "restored_git_blob": RESTORED_GIT_BLOBS.get(spec.region),
+                "restoration_source": (
+                    "local source repository Git object database (rewritten local main)"
+                    if spec.region in RESTORED_GIT_BLOBS
+                    else "preserved local canonical normalized-expression output"
+                ),
                 "metadata_path": str(metadata_path.relative_to(root)).replace("\\", "/"),
                 "metadata_sha256": sha256_file(metadata_path),
                 "n_samples": len(y),

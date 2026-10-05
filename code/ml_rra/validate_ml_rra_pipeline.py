@@ -49,7 +49,12 @@ def main() -> int:
         consensus["rra_score_interpretation"].str.contains("not an MDD-association p-value", regex=False).all()
     )
     checks["no_predictive_metric_weighting"] = manifest["rra"]["predictive_performance_weighting"] is False
+    canonical_files = {
+        Path(__file__).resolve().parents[2] / "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/ML_prioritized_Tier2_genes_all_ranked.csv": "6f59e2ed6f652061fcb81a7c5eccbc1211a8dcb9d0bafcc85a1f9fc3edf280f1",
+        Path(__file__).resolve().parents[2] / "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/best_solution_gene_to_module_assignments.csv": "b7c0a1bd65c07be12f1cca561ad6f6e07eb0619cc2e69067a2a1936390b8b92a",
+    }
     checks["canonical_outputs_declared_unchanged"] = manifest["canonical_outputs_modified"] is False
+    checks["canonical_file_hashes_unchanged"] = all(path.exists() and sha256_file(path) == expected for path, expected in canonical_files.items())
 
     checksum_ok = True
     for line in (out / "checksums.sha256").read_text(encoding="utf-8").splitlines():

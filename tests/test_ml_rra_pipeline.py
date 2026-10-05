@@ -74,6 +74,18 @@ class TestMLRRAPipeline(unittest.TestCase):
             ["logistic_l1", "elastic_net", "logistic_l2", "linear_svm", "random_forest"],
         )
 
+    def test_training_code_has_no_legacy_priority_fields(self):
+        source = (ROOT / "code" / "ml_rra" / "01_run_nested_ml_rankings.py").read_text(encoding="utf-8")
+        common = (ROOT / "code" / "ml_rra" / "common.py").read_text(encoding="utf-8")
+        forbidden = ["Tier2", "Tier4", "confidence_label", "priority_score"]
+        executable_training_section = source.split("    manifest = {", 1)[0] + common
+        self.assertFalse(any(term in executable_training_section for term in forbidden))
+
+    def test_rra_does_not_use_sign_or_performance_weights(self):
+        source = (ROOT / "code" / "ml_rra" / "02_run_rra.R").read_text(encoding="utf-8")
+        self.assertNotIn("balanced_accuracy", source)
+        self.assertNotIn("$sign", source)
+
 
 if __name__ == "__main__":
     unittest.main()
