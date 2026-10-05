@@ -101,7 +101,9 @@ def main() -> int:
     # built-in bool so the validation record is portable.
     checks = {name: bool(passed) for name, passed in checks.items()}
     result = {"passed": all(checks.values()), "checks": checks}
-    (output / "Tier2_validation_results.json").write_text(json.dumps(result, indent=2, sort_keys=True), encoding="utf-8")
+    (output / "Tier2_validation_results.json").write_bytes(
+        json.dumps(result, indent=2, sort_keys=True).encode("utf-8")
+    )
     for name, passed in checks.items():
         print(f"{'PASS' if passed else 'FAIL'} {name}")
     return 0 if result["passed"] else 1

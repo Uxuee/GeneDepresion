@@ -260,7 +260,14 @@ This is a **within-study convergence/sensitivity comparison**. Neither ranking i
 
 The primary output is a continuous region-specific ranking of ML-prioritized exploratory Tier2 candidates. No High/Moderate/Low thresholds were created. Label permutations, Stability Selection, handmade-score benchmarking, LASSO-only baselines, limma/voom, DESeq2, and external validation remain later phases and were not run here.
 """
-    (REPO_ROOT / "docs/TIER2_ML_RRA_PRIORITIZATION_REPORT.md").write_text(report, encoding="utf-8")
+    (REPO_ROOT / "docs/TIER2_ML_RRA_PRIORITIZATION_REPORT.md").write_bytes(report.encode("utf-8"))
+
+    # Canonicalize generated text bytes before hashing.  This keeps the
+    # publication manifest identical on Windows and POSIX checkouts even when
+    # a producing library used the platform-native line separator.
+    for path in output.rglob("*"):
+        if path.is_file() and path.suffix.lower() in {".csv", ".json", ".txt", ".sha256"}:
+            path.write_bytes(path.read_bytes().replace(b"\r\n", b"\n"))
 
     hash_targets = sorted(
         path
@@ -271,7 +278,7 @@ The primary output is a continuous region-specific ranking of ML-prioritized exp
         and path.name != "Tier2_validation_results.json"
     )
     lines = [f"{sha256_file(path)}  {path.relative_to(output).as_posix()}" for path in hash_targets]
-    (output / "checksums.sha256").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (output / "checksums.sha256").write_bytes(("\n".join(lines) + "\n").encode("utf-8"))
     print(f"Built Tier2 report outputs with {len(lines)} checksums")
     return 0
 
