@@ -60,8 +60,14 @@ def main() -> int:
         .set_index("gene_id")["gene_symbol"]
         .to_dict()
     )
-    level1.insert(2, "gene_symbol", level1["gene_id"].map(symbol_map).fillna(""))
-    consensus.insert(2, "gene_symbol", consensus["gene_id"].map(symbol_map).fillna(""))
+    level1["gene_symbol"] = level1["gene_id"].map(symbol_map).fillna("")
+    consensus["gene_symbol"] = consensus["gene_id"].map(symbol_map).fillna("")
+    level1_columns = list(level1.columns)
+    level1_columns.insert(2, level1_columns.pop(level1_columns.index("gene_symbol")))
+    level1 = level1[level1_columns]
+    consensus_columns = list(consensus.columns)
+    consensus_columns.insert(2, consensus_columns.pop(consensus_columns.index("gene_symbol")))
+    consensus = consensus[consensus_columns]
     consensus["rra_score_interpretation"] = "rank aggregation score; not an MDD-association p-value"
     atomic_write_csv(level1, out / "model_level_rra_rankings.csv")
     atomic_write_csv(consensus, out / "consensus_rra_rankings.csv")
@@ -118,6 +124,8 @@ def main() -> int:
             legend=False,
         )
         ax.set_title(region)
+        ax.set_xlabel("")
+        ax.set_ylabel("")
     fig.suptitle("Outer-list appearance versus model-level RRA score", y=1.01)
     fig.supxlabel("Outer-fold list appearance proportion (descriptive)")
     fig.supylabel("-log10(RRA score; not an MDD-association p-value)")
