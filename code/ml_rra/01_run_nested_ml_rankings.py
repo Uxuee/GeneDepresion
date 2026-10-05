@@ -207,7 +207,9 @@ def main() -> int:
                 "n_control": int((y == 0).sum()),
                 "n_genes": len(gene_ids),
                 "n_unique_brain_ids": int(metadata["BrainID"].nunique()) if "BrainID" in metadata else None,
-                "elapsed_seconds": time.time() - region_start,
+                "cumulative_outer_fit_elapsed_seconds": float(
+                    pd.DataFrame(performance_rows)["elapsed_seconds"].sum()
+                ),
             }
         )
 
@@ -253,7 +255,8 @@ def main() -> int:
         "numpy": np.__version__,
         "pandas": pd.__version__,
         "scikit_learn": sklearn.__version__,
-        "runtime_seconds": time.time() - start_all,
+        "cumulative_outer_fit_elapsed_seconds": float(performance["elapsed_seconds"].sum()),
+        "assembly_runtime_seconds": time.time() - start_all,
         "canonical_outputs_modified": False,
         "notes": [
             "Tier2, Tier4, legacy candidate lists, and old confidence labels were not used for training or aggregation.",
