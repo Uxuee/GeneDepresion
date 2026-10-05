@@ -1,0 +1,164 @@
+{
+  "analysis_units": [
+    {
+      "cumulative_outer_fit_elapsed_seconds": 1271.0451447963715,
+      "expression_path": "outputs/length_gt_100_elisa_style/normalized_expression_length_gt_100_by_region/normalized_GeTMM_log2_ventral_striatum.csv",
+      "expression_sha256": "3d06852622a1837c68298593300ea414ad9ab50ea3b447d91576a5c854aa6554",
+      "metadata_path": "outputs/length_gt_100_clean_pipeline/01_inputs/sample_metadata_used.csv",
+      "metadata_sha256": "64bfcd58c7f65dc7369e444da191ced545f1c4e8b703db7e0a7d6e8dc2571a00",
+      "n_control": 22,
+      "n_genes": 23917,
+      "n_mdd": 26,
+      "n_samples": 48,
+      "n_unique_brain_ids": 48,
+      "original_region": "Nucleus Accumbens (Nac)",
+      "region": "Ventral Striatum",
+      "restoration_source": "preserved local canonical normalized-expression output",
+      "restored_git_blob": null
+    },
+    {
+      "cumulative_outer_fit_elapsed_seconds": 1312.4207060337067,
+      "expression_path": "outputs/length_gt_100_elisa_style/normalized_expression_length_gt_100_by_region/normalized_GeTMM_log2_insula.csv",
+      "expression_sha256": "b994c61f7ceed7b933789c31e78cb06f616a366ac6a3f8f86474e833eaed3e8b",
+      "metadata_path": "outputs/length_gt_100_clean_pipeline/01_inputs/sample_metadata_used.csv",
+      "metadata_sha256": "64bfcd58c7f65dc7369e444da191ced545f1c4e8b703db7e0a7d6e8dc2571a00",
+      "n_control": 22,
+      "n_genes": 23090,
+      "n_mdd": 26,
+      "n_samples": 48,
+      "n_unique_brain_ids": 48,
+      "original_region": "Anterior Insula (aINS)",
+      "region": "Insula",
+      "restoration_source": "preserved local canonical normalized-expression output",
+      "restored_git_blob": null
+    },
+    {
+      "cumulative_outer_fit_elapsed_seconds": 1331.0184378623962,
+      "expression_path": "outputs/length_gt_100_elisa_style/normalized_expression_length_gt_100_by_region/normalized_GeTMM_log2_hippocampal_formation.csv",
+      "expression_sha256": "96bd833b44a9b1f9256519dd55c1c4cf30befb37468751b5bd04b7b2a28ef569",
+      "metadata_path": "outputs/length_gt_100_clean_pipeline/01_inputs/sample_metadata_used.csv",
+      "metadata_sha256": "64bfcd58c7f65dc7369e444da191ced545f1c4e8b703db7e0a7d6e8dc2571a00",
+      "n_control": 19,
+      "n_genes": 24371,
+      "n_mdd": 24,
+      "n_samples": 43,
+      "n_unique_brain_ids": 43,
+      "original_region": "Subiculum (Sub)",
+      "region": "Hippocampal Formation",
+      "restoration_source": "preserved local canonical normalized-expression output",
+      "restored_git_blob": null
+    },
+    {
+      "cumulative_outer_fit_elapsed_seconds": 1075.0164911746979,
+      "expression_path": "outputs/length_gt_100_elisa_style/frontal_subregion_sensitivity/subregion_normalized_expression_matrices/Cingulate_gyrus_25_Cg25_normalized_GeTMM_log2_length_gt_100.csv",
+      "expression_sha256": "bbd5b005776be3280aca78aa7d602a71b9b3a44f0d0cd7fcd8876a0ebfd0b91d",
+      "metadata_path": "outputs/length_gt_100_clean_pipeline/01_inputs/sample_metadata_used.csv",
+      "metadata_sha256": "64bfcd58c7f65dc7369e444da191ced545f1c4e8b703db7e0a7d6e8dc2571a00",
+      "n_control": 15,
+      "n_genes": 23941,
+      "n_mdd": 12,
+      "n_samples": 27,
+      "n_unique_brain_ids": 27,
+      "original_region": "Cingulate gyrus 25 (Cg25)",
+      "region": "CG25",
+      "restoration_source": "local source repository Git object database (rewritten local main)",
+      "restored_git_blob": "6d88e81b74951f717e2cc1b27f98e1dbffb2e6d9"
+    },
+    {
+      "cumulative_outer_fit_elapsed_seconds": 1395.4525351524353,
+      "expression_path": "outputs/length_gt_100_elisa_style/frontal_subregion_sensitivity/subregion_normalized_expression_matrices/Dorsolateral_prefrontal_cortex_dlPFC_BA8_9_normalized_GeTMM_log2_length_gt_100.csv",
+      "expression_sha256": "4e49e445e55586ef37fac782f5802d7091ff5561105d2becb90cae436bced582",
+      "metadata_path": "outputs/length_gt_100_clean_pipeline/01_inputs/sample_metadata_used.csv",
+      "metadata_sha256": "64bfcd58c7f65dc7369e444da191ced545f1c4e8b703db7e0a7d6e8dc2571a00",
+      "n_control": 22,
+      "n_genes": 23941,
+      "n_mdd": 26,
+      "n_samples": 48,
+      "n_unique_brain_ids": 48,
+      "original_region": "Dorsolateral prefrontal cortex (dlPFC; BA8/9)",
+      "region": "dlPFC BA8/9",
+      "restoration_source": "local source repository Git object database (rewritten local main)",
+      "restored_git_blob": "5182c60f3d3762918a67b8142ec5c90b32c46456"
+    },
+    {
+      "cumulative_outer_fit_elapsed_seconds": 1338.5387909412384,
+      "expression_path": "outputs/length_gt_100_elisa_style/frontal_subregion_sensitivity/subregion_normalized_expression_matrices/Orbitofrontal_OFC_BA11_normalized_GeTMM_log2_length_gt_100.csv",
+      "expression_sha256": "b6d438ed25c713ae4404b0a4d215aad3af72fd41129631038f3da06854ec649e",
+      "metadata_path": "outputs/length_gt_100_clean_pipeline/01_inputs/sample_metadata_used.csv",
+      "metadata_sha256": "64bfcd58c7f65dc7369e444da191ced545f1c4e8b703db7e0a7d6e8dc2571a00",
+      "n_control": 22,
+      "n_genes": 23941,
+      "n_mdd": 25,
+      "n_samples": 47,
+      "n_unique_brain_ids": 47,
+      "original_region": "Orbitofrontal (OFC; BA11)",
+      "region": "OFC BA11",
+      "restoration_source": "local source repository Git object database (rewritten local main)",
+      "restored_git_blob": "b15c0a9286a0930099c95fe8252449f2d273aa5e"
+    }
+  ],
+  "assembly_runtime_seconds": 3.467471122741699,
+  "branch": "codex/rra-prioritization-redesign",
+  "canonical_outputs_modified": false,
+  "cumulative_outer_fit_elapsed_seconds": 7723.492105960846,
+  "experimental": true,
+  "inner_cv": {
+    "fallback_folds": 2,
+    "folds": 3,
+    "metric": "balanced_accuracy"
+  },
+  "k_grid": [
+    25,
+    50,
+    100,
+    250,
+    500
+  ],
+  "models": [
+    "logistic_l1",
+    "elastic_net",
+    "logistic_l2",
+    "linear_svm",
+    "random_forest"
+  ],
+  "n_completed_outer_model_fits": 750,
+  "notes": [
+    "Tier2, Tier4, legacy candidate lists, and old confidence labels were not used for training or aggregation.",
+    "All selection, imputation, scaling, and tuning were confined to training data.",
+    "Outer-fold predictive metrics are descriptive and do not weight gene rankings."
+  ],
+  "numpy": "2.3.5",
+  "outer_cv": {
+    "folds": 5,
+    "seeds": [
+      2026,
+      2027,
+      2028,
+      2029,
+      2030
+    ]
+  },
+  "pandas": "3.0.1",
+  "python": "3.12.14",
+  "result_counts": {
+    "consensus_rra_rows": 11792,
+    "fold_ranking_rows": 67907,
+    "model_level_rra_rows": 27916
+  },
+  "rra": {
+    "function": "RobustRankAggreg::aggregateRanks",
+    "level1_lists_per_region_model": 25,
+    "level2_lists_per_region": 5,
+    "method": "RRA",
+    "package": "RobustRankAggreg",
+    "predictive_performance_weighting": false,
+    "version": "1.2.1"
+  },
+  "scikit_learn": "1.7.2",
+  "selectors": [
+    "anova_f",
+    "absolute_standardized_mean_difference"
+  ],
+  "source_commit": "11d0c63167090aef2c6aa014859bca8e27128eed",
+  "status": "complete"
+}

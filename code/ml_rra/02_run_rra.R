@@ -97,16 +97,16 @@ rownames(level2) <- NULL
 write.csv(level1, file.path(input_dir, "model_level_rra_rankings.csv"), row.names = FALSE, na = "")
 write.csv(level2, file.path(input_dir, "consensus_rra_rankings.csv"), row.names = FALSE, na = "")
 
-metadata <- list(
-  package = "RobustRankAggreg",
-  package_version = as.character(utils::packageVersion("RobustRankAggreg")),
-  function_name = "RobustRankAggreg::aggregateRanks",
-  method = "RRA",
-  exact = FALSE,
-  level1 = "25 outer-fold gene lists per region/model",
-  level2 = "five complete model-level RRA lists per region",
-  predictive_metric_weighting = FALSE,
-  r_version = R.version.string
+metadata_lines <- c(
+  "package=RobustRankAggreg",
+  paste0("package_version=", as.character(utils::packageVersion("RobustRankAggreg"))),
+  "function=RobustRankAggreg::aggregateRanks",
+  "method=RRA",
+  "exact=FALSE",
+  "level1=25 outer-fold gene lists per region/model",
+  "level2=five complete model-level RRA lists per region",
+  "predictive_metric_weighting=FALSE",
+  paste0("r_version=", R.version.string)
 )
-writeLines(capture.output(dput(metadata)), file.path(input_dir, "rra_run_metadata.dput"))
+writeLines(metadata_lines, file.path(input_dir, "rra_run_metadata.txt"))
 cat("RRA complete:", nrow(level1), "model-level rows and", nrow(level2), "consensus rows\n")
