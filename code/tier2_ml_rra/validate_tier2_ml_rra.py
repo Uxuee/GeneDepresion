@@ -96,6 +96,10 @@ def main() -> int:
         "not an MDD-association p-value", regex=False
     ).all()
     checks["no_pooled_frontal"] = "Frontal Cortex" not in regions and "Frontal Cortex" not in set(consensus["region"])
+    # pandas/numpy comparisons return numpy.bool_, which the standard JSON
+    # encoder does not serialize.  Normalize every published check to a
+    # built-in bool so the validation record is portable.
+    checks = {name: bool(passed) for name, passed in checks.items()}
     result = {"passed": all(checks.values()), "checks": checks}
     (output / "Tier2_validation_results.json").write_text(json.dumps(result, indent=2, sort_keys=True), encoding="utf-8")
     for name, passed in checks.items():

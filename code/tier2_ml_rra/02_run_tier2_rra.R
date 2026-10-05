@@ -20,6 +20,11 @@ rankings <- read.csv(rank_path, stringsAsFactors = FALSE, check.names = FALSE)
 performance <- read.csv(performance_path, stringsAsFactors = FALSE, check.names = FALSE)
 units <- read.csv(unit_path, stringsAsFactors = FALSE, check.names = FALSE)
 tier2 <- read.csv(tier2_path, stringsAsFactors = FALSE, check.names = FALSE)
+ranking_flag <- tolower(trimws(as.character(performance$contributes_gene_ranking)))
+if (any(!ranking_flag %in% c("true", "false"))) {
+  stop("contributes_gene_ranking contains values other than True/False")
+}
+performance$contributes_gene_ranking <- ranking_flag == "true"
 rankings$gene_id <- as.character(rankings$gene_id)
 tier2$gene_id <- as.character(tier2$gene_id)
 tier2$region <- tier2$region_or_subregion
