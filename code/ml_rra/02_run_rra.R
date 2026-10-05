@@ -9,13 +9,16 @@ suppressPackageStartupMessages({
 args <- commandArgs(trailingOnly = TRUE)
 input_dir <- if (length(args) >= 1) args[[1]] else file.path("outputs", "length_gt_100_clean_pipeline", "17_ML_RRA_consensus")
 rank_path <- file.path(input_dir, "fold_gene_rankings.csv")
+performance_path <- file.path(input_dir, "outer_fold_performance.csv")
 manifest_path <- file.path(input_dir, "run_manifest.json")
 unit_manifest_path <- file.path(input_dir, "analysis_unit_manifest.csv")
 if (!file.exists(rank_path)) stop("Missing fold rankings: ", rank_path)
+if (!file.exists(performance_path)) stop("Missing performance ledger: ", performance_path)
 if (!file.exists(manifest_path)) stop("Missing run manifest: ", manifest_path)
 if (!file.exists(unit_manifest_path)) stop("Missing analysis-unit manifest: ", unit_manifest_path)
 
 rankings <- read.csv(rank_path, stringsAsFactors = FALSE, check.names = FALSE)
+performance <- read.csv(performance_path, stringsAsFactors = FALSE, check.names = FALSE)
 required <- c("fit_id", "region", "model", "gene_id", "within_fit_rank")
 if (!all(required %in% colnames(rankings))) stop("Fold-ranking schema is incomplete")
 if (any(duplicated(rankings[c("fit_id", "gene_id")]))) stop("Duplicate gene within a fit ranking")
@@ -37,7 +40,8 @@ for (region in regions) {
   model_tables <- list()
   for (model in models_expected) {
     model_data <- region_data[region_data$model == model, , drop = FALSE]
-    fit_ids <- unique(model_data$fit_id)
+    fit_ids <- performance$fit_id[performance$region == region & performance$model == model]
+    fit_ids <- unique(as.character(fit_ids))
     if (length(fit_ids) != 25) stop(region, " / ", model, ": expected 25 outer lists, found ", length(fit_ids))
     gene_lists <- lapply(fit_ids, function(fit_id) {
       part <- model_data[model_data$fit_id == fit_id, , drop = FALSE]
