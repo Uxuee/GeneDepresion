@@ -90,6 +90,8 @@ def main() -> int:
     output = args.output_dir.resolve()
     checkpoints = output / "logs/checkpoints"
     checkpoints.mkdir(parents=True, exist_ok=True)
+    runtime_path = output / "stability_selection_runtime.csv"
+    prior_runtime = pd.read_csv(runtime_path) if runtime_path.exists() else pd.DataFrame()
     tier2 = pd.read_csv(TIER2, dtype={"gene_id": str}, usecols=["region_or_subregion", "gene_id", "gene_symbol"])
     tier2["region"] = tier2["region_or_subregion"].replace({"Cingulate gyrus 25": "CG25"})
     all_paths: list[Path] = []
@@ -100,7 +102,10 @@ def main() -> int:
         if args.resume and checkpoint.exists():
             saved = pd.read_csv(checkpoint)
             if saved["subsample_id"].nunique() == 100:
-                runtime_rows.append({"region": spec.region, "n_subsamples": 100, "runtime_seconds": np.nan, "status": "resumed"})
+                previous = prior_runtime.loc[prior_runtime.get("region", pd.Series(dtype=str)).eq(spec.region)]
+                elapsed = float(previous["runtime_seconds"].iloc[0]) if len(previous) else np.nan
+                prior_status = str(previous["status"].iloc[0]) if len(previous) else "resumed"
+                runtime_rows.append({"region": spec.region, "n_subsamples": 100, "runtime_seconds": elapsed, "status": prior_status})
                 print(f"[{spec.region}] resumed 100 complete subsamples")
                 continue
         expression, metadata, y = load_dataset(ROOT, spec)
@@ -171,7 +176,7 @@ def main() -> int:
         final_tables.append(part)
     final = pd.concat(final_tables, ignore_index=True)
     write_csv(final, output / "stability_selection_gene_rankings.csv")
-    write_csv(pd.DataFrame(runtime_rows), output / "stability_selection_runtime.csv")
+    write_csv(pd.DataFrame(runtime_rows), runtime_path)
     metadata = {
         "implementation": "transparent classical stratified half-sampling with L1 logistic regression",
         "package": "scikit-learn", "package_version": __import__("sklearn").__version__,
