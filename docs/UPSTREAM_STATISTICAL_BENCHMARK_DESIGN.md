@@ -68,6 +68,8 @@ For each region: raw counts → `edgeR::DGEList` → `edgeR::calcNormFactors(met
 
 For each region: raw integer counts → `DESeqDataSetFromMatrix` with design `~ Age + Sex + RIN + Diagnosis` → standard `DESeq` fitting → explicit `Diagnosis: MDD versus CTRL` contrast. Native `padj` will be retained, and a separate BH adjustment of raw p-values across the full shared eligible regional universe will be stored.
 
+The documented denominator for the explicit comparison is the same eligible tested gene universe used by the frozen LM and limma-voom; DESeq2's method-native independent-filtering `padj` remains a separate field.
+
 ## Prospective comparison definitions
 
 - **Primary genome-wide rank:** two-sided raw-p rank, ascending raw p with GeneID as deterministic tie-breaker.
