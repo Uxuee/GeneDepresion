@@ -1,0 +1,23 @@
+{
+  "c_grid": [
+    0.01,
+    0.1,
+    1.0
+  ],
+  "descriptive_threshold": 0.6,
+  "frozen_primary_sha256": "2e1ed5fc91aae752f57e46e61022a9077d7f1ab285cfc05a6973c3c6df23d358",
+  "implementation": "transparent classical stratified half-sampling with L1 logistic regression",
+  "inner_folds": 3,
+  "n_subsamples_per_region": 100,
+  "package": "scikit-learn",
+  "package_version": "1.7.2",
+  "seeds": [
+    31001,
+    31100
+  ],
+  "selection_tolerance": 1e-12,
+  "subsample_fraction": "floor(n per diagnosis class / 2)",
+  "threshold_role": "descriptive only; continuous selection probability is primary",
+  "tier2_source_sha256": "1672ddf95a4f4c9e44ae42e7accc208c311e2e1da8533e1808dcf91bbf7b67a1",
+  "tuning_metric": "balanced_accuracy"
+}

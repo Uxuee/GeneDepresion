@@ -1,0 +1,7 @@
+region,n_subsamples,runtime_seconds,status
+Ventral Striatum,100,3.7087831497192383,computed
+Insula,100,3.3026297092437744,computed
+Hippocampal Formation,100,3.361170530319214,computed
+CG25,100,3.2413880825042725,computed
+dlPFC BA8/9,100,3.0001652240753174,computed
+OFC BA11,100,3.4364421367645264,computed
