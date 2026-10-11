@@ -39,7 +39,7 @@ The benchmark methods will instead receive the matching **raw integer counts** a
 - Broad-region all-gene LM and standardized effects: `D:/genes/GeneDepresion/outputs/length_gt_100_clean_pipeline/04_standardized_effect_size/LMM_all_genes_with_standardized_effect_size_4groups.csv`.
 - Frontal-subregion all-gene LM and standardized effects: immutable Git blob `f700cb323a47b24825b11bc1bba33cc07e6430bb` from historical commit `ac37ec9` in `D:/genes/GeneDepresion`.
 - Frozen Tier2: `outputs/length_gt_100_clean_pipeline/07_Tier2_candidate_gene_sets/Tier2_candidate_genes_all_regions.csv`.
-- Raw counts: `D:/genes/genedata/GSE102556_raw_counts_GRCh38.p13_NCBI.tsv` and the frozen region-filtered count matrices under `D:/genes/genedata/Step1_GSE102556_GeTMM_brain_area_groups/03_filtered_raw_counts/keep_all_samples/`.
+- Raw counts: `D:/genes/genedata/GSE102556_raw_counts_GRCh38.p13_NCBI.tsv` and the exact frozen region-filtered count matrices under `D:/genes/GeneDepresion/outputs/step1_length_sensitivity/Length_gt_100/03_filtered_raw_counts/keep_all_samples/`.
 - Metadata: the corresponding frozen regional metadata plus `metadata_clean_matched_all_samples_with_brain_area.csv` under the same Step1 output root.
 - Annotation: `D:/genes/genedata/Human.GRCh38.p13.annot.tsv`.
 
