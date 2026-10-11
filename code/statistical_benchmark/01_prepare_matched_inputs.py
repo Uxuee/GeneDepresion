@@ -7,7 +7,7 @@ import subprocess
 import numpy as np
 import pandas as pd
 
-from common import (
+from benchmark_common import (
     ANNOTATION,
     BROAD_LM,
     EXPECTED_GENES,
@@ -186,6 +186,7 @@ def main():
         "raw_master_source": str(STEP1.parent / "GSE102556_raw_counts_GRCh38.p13_NCBI.tsv"),
         "annotation_source": str(ANNOTATION),
         "broad_lm_source": str(BROAD_LM),
+        "broad_lm_sha256": sha256(BROAD_LM),
         "frontal_lm_git_blob": FRONTAL_BLOB,
         "tier2_source": str(TIER2),
         "tier2_sha256": sha256(TIER2),
@@ -193,6 +194,15 @@ def main():
         "matched_gene_universes": True,
         "count_input_integer": True,
         "n_tier2_pairs": 671,
+        "frozen_checksum_ledgers": {
+            str(path.relative_to(OUT.parents[2])): sha256(path)
+            for path in [
+                OUT.parent / "18_Tier2_ML_RRA_prioritization" / "checksums.sha256",
+                OUT.parent / "19_Tier2_ML_benchmark" / "checksums.sha256",
+                OUT.parent / "20_Tier2_ML_conditional_null" / "checksums.sha256",
+            ]
+            if path.exists()
+        },
     }
     (INPUTS / "input_provenance.json").write_text(json.dumps(source_manifest, indent=2) + "\n", encoding="utf-8")
     print("Prepared exact matched inputs for six regions")
