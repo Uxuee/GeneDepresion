@@ -1,0 +1,672 @@
+gene_id,consensus_rra_score,consensus_rank,region,gene_symbol,model_appearance_count,tier2_universe_size,logistic_l1_rank,logistic_l1_rra_score,elastic_net_rank,elastic_net_rra_score,logistic_l2_rank,logistic_l2_rra_score,linear_svm_rank,linear_svm_rra_score,random_forest_rank,random_forest_rra_score,rra_score_interpretation
+254956,2.4118800416170603e-09,1,Ventral Striatum,MORN5,5,146,1.0,1.96638731323554e-38,1.0,1.6487316768324998e-41,1,1.17593202635138e-42,2,1.6487316768324998e-41,1,1.07771698967196e-21,rank aggregation score; not an MDD-association p-value
+79983,2.35535160314167e-07,2,Ventral Striatum,POF1B,5,146,3.0,3.1776297351146797e-28,3.0,3.1776297351146797e-28,5,2.4667104885618e-23,4,2.4667104885618e-23,4,1.24605530207467e-11,rank aggregation score; not an MDD-association p-value
+2488,5.86086850112947e-07,3,Ventral Striatum,FSHB,5,146,6.0,1.12290146520336e-22,5.0,1.37310080491665e-25,4,6.635489909034359e-26,6,1.1366687227788e-21,5,7.587542049016479e-11,rank aggregation score; not an MDD-association p-value
+51069,8.70688695023761e-07,4,Ventral Striatum,MRPL2,5,146,2.0,2.60957398624716e-32,2.0,2.19087902358856e-38,2,1.96638731323554e-38,1,1.17593202635138e-42,19,4.72085466453316e-05,rank aggregation score; not an MDD-association p-value
+64598,2.46976516261588e-06,5,Ventral Striatum,MOSPD3,5,146,4.0,2.10831618635505e-27,4.0,2.10831618635505e-27,3,2.10831618635505e-27,3,1.29807666001608e-29,8,3.96688457072779e-09,rank aggregation score; not an MDD-association p-value
+3852,7.53712513005332e-06,6,Ventral Striatum,KRT5,5,146,9.0,3.5767412596163e-12,8.0,3.1801638313700503e-17,9,7.64130688988367e-18,9,4.824531251647811e-15,10,8.72948617635547e-08,rank aggregation score; not an MDD-association p-value
+107985657,1.21386153932022e-05,7,Ventral Striatum,LOC107985657,5,146,7.0,4.77968853081945e-14,6.0,6.014912130623151e-20,7,8.53468831189901e-20,5,1.1366687227788e-21,11,2.41073625205787e-07,rank aggregation score; not an MDD-association p-value
+594840,2.79848180091289e-05,8,Ventral Striatum,ZFAT-AS1,5,146,13.0,0.004278653431218,11.0,8.27690693521335e-16,6,9.05960526005782e-21,7,2.14143914717018e-20,3,1.29727173632965e-12,rank aggregation score; not an MDD-association p-value
+101927498,7.9032485203708e-05,9,Ventral Striatum,LINC01361,5,146,8.0,1.12502269354376e-13,10.0,3.69226603679905e-16,8,1.96115867684704e-18,8,2.21106231404598e-20,16,5.17121233622537e-06,rank aggregation score; not an MDD-association p-value
+642826,0.0001070163987578,10,Ventral Striatum,BMS1P2,5,146,5.0,4.91360329637673e-24,7.0,1.72829880977778e-18,13,1.58017543345962e-12,17,8.255961131644361e-10,7,2.3811383194320903e-09,rank aggregation score; not an MDD-association p-value
+101928161,0.0003884356925824,11,Ventral Striatum,NCKAP5-AS2,5,146,18.0,0.382489250323833,15.0,1.91825706384693e-09,12,1.21719383652141e-12,11,2.99797212893913e-14,22,0.0001589733788822,rank aggregation score; not an MDD-association p-value
+96626,0.0004851152257094,12,Ventral Striatum,LIMS3,5,146,16.0,0.20640279812687,16.0,1.49116392323458e-08,17,1.71402163046472e-10,18,1.07727051553197e-09,23,0.0005679718548015,rank aggregation score; not an MDD-association p-value
+26683,0.0010814950753849,13,Ventral Striatum,OR4F3,5,146,10.0,1.12027328719619e-11,13.0,1.58017543345962e-12,19,5.99400364362375e-08,27,1.72928290081423e-06,21,9.34179869729897e-05,rank aggregation score; not an MDD-association p-value
+105372764,0.0012971669715026,14,Ventral Striatum,LOC105372764,5,146,28.0,1.0,19.0,2.13091796184239e-05,18,4.525782063785561e-09,21,1.14793952556726e-07,26,0.0011370530893326,rank aggregation score; not an MDD-association p-value
+113939912,0.0014595158930914,15,Ventral Striatum,BMS1P2-AGAP9,5,146,37.0,1.0,9.0,7.97796778509723e-17,10,3.83384920193245e-15,12,1.16341267162289e-13,13,9.1424036866539e-07,rank aggregation score; not an MDD-association p-value
+105371067,0.0015459509657416,16,Ventral Striatum,LOC105371067,5,146,15.0,0.0224570321503631,14.0,2.47783249874309e-10,11,1.0718264767550198e-12,10,4.90834476053587e-15,29,0.0024410998280012,rank aggregation score; not an MDD-association p-value
+125,0.0059720537591679,17,Ventral Striatum,ADH1B,5,146,38.0,1.0,21.0,0.0001181750739324,15,2.09001569975199e-11,15,3.49961778364748e-11,31,0.0065894791902482,rank aggregation score; not an MDD-association p-value
+151,0.0087322268402961,18,Ventral Striatum,ADRA2B,5,146,41.0,1.0,28.0,0.0425811898482853,39,0.0025026661794136,40,0.0008332754057991,36,0.0436628958745835,rank aggregation score; not an MDD-association p-value
+6103,0.0113352597562703,19,Ventral Striatum,RPGR,5,146,59.0,1.0,22.0,0.000721992246143,14,3.5767412596163e-12,20,1.0564656896942e-07,9,4.46117910928174e-08,rank aggregation score; not an MDD-association p-value
+441509,0.0134566745218528,20,Ventral Striatum,GLRA4,5,146,11.0,8.215063132803679e-11,12.0,7.02923864664796e-14,23,1.46436789523862e-06,14,1.23471027553001e-11,114,1.0,rank aggregation score; not an MDD-association p-value
+2355,0.015854040020122,21,Ventral Striatum,FOSL2,5,146,48.0,1.0,24.0,0.001832126452785,16,2.09001569975199e-11,13,3.1405988620106e-13,18,2.31420026810152e-05,rank aggregation score; not an MDD-association p-value
+112268145,0.0212905129785597,22,Ventral Striatum,LOC112268145,5,146,35.0,1.0,49.0,1.0,31,2.82961555477217e-05,39,0.0005679718548015,17,1.9371509552002e-05,rank aggregation score; not an MDD-association p-value
+2731,0.024914442107017,23,Ventral Striatum,GLDC,5,146,12.0,0.0009893497346896,20.0,2.66694659164391e-05,27,2.8273966778504e-06,19,8.72948617635547e-08,102,1.0,rank aggregation score; not an MDD-association p-value
+4001,0.0346078424123194,24,Ventral Striatum,LMNB1,5,146,20.0,0.631403601304164,30.0,0.221974033419763,41,0.008622884985359,54,0.102068610152604,40,0.0871393883860512,rank aggregation score; not an MDD-association p-value
+101927157,0.0372409352675935,25,Ventral Striatum,LOC101927157,5,146,25.0,1.0,17.0,2.70095421349186e-08,30,1.9371509552002e-05,26,4.36326040290661e-07,62,1.0,rank aggregation score; not an MDD-association p-value
+105374758,0.0372409352675935,26,Ventral Striatum,C2orf74-AS1,5,146,29.0,1.0,27.0,0.0425811898482853,20,2.60957398624717e-07,30,1.36290292517499e-05,69,1.0,rank aggregation score; not an MDD-association p-value
+1846,0.0494704309037339,27,Ventral Striatum,DUSP4,5,146,43.0,1.0,57.0,1.0,52,0.0669040728645869,58,0.294793192126434,6,3.99176507175159e-10,rank aggregation score; not an MDD-association p-value
+107984839,0.059828461987902,28,Ventral Striatum,LOC107984839,5,146,32.0,1.0,29.0,0.189207859485695,33,0.0002112214861482,34,0.0001117576613514,73,1.0,rank aggregation score; not an MDD-association p-value
+100288801,0.0636582800501719,29,Ventral Striatum,FRG2C,5,146,24.0,1.0,38.0,1.0,44,0.0105611948725804,49,0.0148705979574986,61,1.0,rank aggregation score; not an MDD-association p-value
+23349,0.0636582800501719,30,Ventral Striatum,PHF24,5,146,47.0,1.0,61.0,1.0,38,0.0021146408314302,57,0.228429859148433,2,4.68411580828217e-13,rank aggregation score; not an MDD-association p-value
+100131208,0.080929264848597,31,Ventral Striatum,SNAP25-AS1,5,146,22.0,1.0,36.0,1.0,51,0.0640567090687961,64,1.0,59,1.0,rank aggregation score; not an MDD-association p-value
+283673,0.080929264848597,32,Ventral Striatum,EWSAT1,5,146,50.0,1.0,64.0,1.0,35,0.0014991534768626,35,0.0001489478952132,32,0.0069282186127283,rank aggregation score; not an MDD-association p-value
+100131564,0.0874525562785279,33,Ventral Striatum,CCDC18-AS1,5,146,23.0,1.0,37.0,1.0,61,0.412839498550901,65,1.0,60,1.0,rank aggregation score; not an MDD-association p-value
+101928768,0.0874525562785279,34,Ventral Striatum,LOC101928768,5,146,14.0,0.0175190336891451,18.0,9.83760631801118e-06,47,0.0147977244353313,52,0.0522693025916181,65,1.0,rank aggregation score; not an MDD-association p-value
+8218,0.0874525562785279,35,Ventral Striatum,CLTCL1,5,146,65.0,1.0,25.0,0.0121774473787148,34,0.0007472901456589,36,0.0002738139606904,44,0.21583774661871,rank aggregation score; not an MDD-association p-value
+402573,0.117882999847391,36,Ventral Striatum,SPACDR,5,146,52.0,1.0,69.0,1.0,62,0.504711595092222,63,0.805235204403084,27,0.0015722171146646,rank aggregation score; not an MDD-association p-value
+10252,0.126676462060806,37,Ventral Striatum,SPRY1,5,146,26.0,1.0,40.0,1.0,64,0.593831063251206,70,1.0,43,0.150588791795893,rank aggregation score; not an MDD-association p-value
+105374989,0.126676462060806,38,Ventral Striatum,LOC105374989,5,146,30.0,1.0,26.0,0.0233880822475618,53,0.0676002562775891,51,0.0215154184500151,70,1.0,rank aggregation score; not an MDD-association p-value
+102723385,0.15625,39,Ventral Striatum,COQ7-DT,5,146,17.0,0.244497660535882,41.0,1.0,73,1.0,71,1.0,28,0.0019076496627208,rank aggregation score; not an MDD-association p-value
+5241,0.15625,40,Ventral Striatum,PGR,5,146,57.0,1.0,73.0,1.0,28,5.36779468936141e-06,38,0.0004842543512461,35,0.0276940765629458,rank aggregation score; not an MDD-association p-value
+102724334,0.167249305895052,41,Ventral Striatum,LOC102724334,5,146,27.0,1.0,42.0,1.0,74,1.0,72,1.0,68,1.0,rank aggregation score; not an MDD-association p-value
+105376527,0.167249305895052,42,Ventral Striatum,STIM1-AS1,5,146,31.0,1.0,44.0,1.0,55,0.0871393883860512,74,1.0,39,0.0669040728645869,rank aggregation score; not an MDD-association p-value
+107984961,0.231921591114943,43,Ventral Striatum,LOC107984961,5,146,33.0,1.0,45.0,1.0,79,1.0,76,1.0,74,1.0,rank aggregation score; not an MDD-association p-value
+283383,0.232023141439814,44,Ventral Striatum,ADGRD1,5,146,49.0,1.0,34.0,0.966339601892008,29,1.02171405574659e-05,37,0.0003500900576079,104,1.0,rank aggregation score; not an MDD-association p-value
+107987240,0.279431258889475,45,Ventral Striatum,LOC107987240,5,146,34.0,1.0,47.0,1.0,82,1.0,78,1.0,77,1.0,rank aggregation score; not an MDD-association p-value
+4147,0.308062590840538,46,Ventral Striatum,MATN2,5,146,53.0,1.0,23.0,0.0011535653518444,22,6.35769225234469e-07,47,0.0088087025800794,112,1.0,rank aggregation score; not an MDD-association p-value
+80233,0.315211574075146,47,Ventral Striatum,FAAP100,5,146,64.0,1.0,84.0,1.0,48,0.0155531773120115,31,2.65124262935418e-05,33,0.0079844182264803,rank aggregation score; not an MDD-association p-value
+7691,0.339133960929732,48,Ventral Striatum,ZNF132,5,146,63.0,1.0,31.0,0.550177281168724,25,2.25910453310782e-06,23,1.81043622016614e-07,132,1.0,rank aggregation score; not an MDD-association p-value
+4007,0.368548236626191,49,Ventral Striatum,PRICKLE3,5,146,19.0,0.521802852704356,32.0,0.646189201121285,66,0.614003464832065,112,1.0,25,0.0009790750761855,rank aggregation score; not an MDD-association p-value
+112268307,0.39775814920445,50,Ventral Striatum,LOC112268307,5,146,36.0,1.0,50.0,1.0,88,1.0,84,1.0,83,1.0,rank aggregation score; not an MDD-association p-value
+440279,0.424763355001025,51,Ventral Striatum,UNC13C,5,146,54.0,1.0,33.0,0.646189201121285,58,0.183208220306587,115,1.0,37,0.0542341146677149,rank aggregation score; not an MDD-association p-value
+150221,0.496757991126455,52,Ventral Striatum,RIMBP3C,5,146,40.0,1.0,55.0,1.0,60,0.36082183048377,92,1.0,90,1.0,rank aggregation score; not an MDD-association p-value
+149986,0.524349029093685,53,Ventral Striatum,LSM14B,5,146,39.0,1.0,54.0,1.0,93,1.0,91,1.0,89,1.0,rank aggregation score; not an MDD-association p-value
+9764,0.524349029093685,54,Ventral Striatum,KIAA0513,5,146,70.0,1.0,93.0,1.0,40,0.0035580781988423,55,0.121817394543768,14,1.92700753563106e-06,rank aggregation score; not an MDD-association p-value
+728975,0.53580251521492,55,Ventral Striatum,CAPN1-AS1,5,146,62.0,1.0,35.0,0.966339601892008,37,0.0017972340941002,22,1.43113743516235e-07,131,1.0,rank aggregation score; not an MDD-association p-value
+153657,0.583208374918748,56,Ventral Striatum,TTC23L,5,146,42.0,1.0,56.0,1.0,95,1.0,93,1.0,92,1.0,rank aggregation score; not an MDD-association p-value
+221150,0.614556604944034,57,Ventral Striatum,SKA3,5,146,44.0,1.0,58.0,1.0,96,1.0,94,1.0,45,0.245404306696068,rank aggregation score; not an MDD-association p-value
+221303,0.647238580513534,58,Ventral Striatum,FAM162B,5,146,45.0,1.0,59.0,1.0,97,1.0,95,1.0,51,0.527712900300162,rank aggregation score; not an MDD-association p-value
+3909,0.701692624653846,59,Ventral Striatum,LAMA3,5,146,51.0,1.0,67.0,1.0,42,0.0089485045733211,42,0.001277456008186,109,1.0,rank aggregation score; not an MDD-association p-value
+80705,0.767727588104816,60,Ventral Striatum,TSGA10,5,146,21.0,0.905107133683266,85.0,1.0,137,1.0,138,1.0,15,2.46881908616386e-06,rank aggregation score; not an MDD-association p-value
+4641,0.854228346800515,61,Ventral Striatum,MYO1C,5,146,55.0,1.0,71.0,1.0,24,1.66773421228557e-06,44,0.003287209753692,116,1.0,rank aggregation score; not an MDD-association p-value
+102191832,0.895278140063733,62,Ventral Striatum,FBXW7-AS1,4,146,,,39.0,1.0,72,1.0,69,1.0,67,1.0,rank aggregation score; not an MDD-association p-value
+101928118,1.0,63,Ventral Striatum,RWDD3-DT,3,146,,,,,69,1.0,66,1.0,63,1.0,rank aggregation score; not an MDD-association p-value
+101928304,1.0,64,Ventral Striatum,LINC03002,3,146,,,,,70,1.0,67,1.0,64,1.0,rank aggregation score; not an MDD-association p-value
+101929609,1.0,65,Ventral Striatum,LOC101929609,3,146,,,,,71,1.0,68,1.0,66,1.0,rank aggregation score; not an MDD-association p-value
+105372633,1.0,66,Ventral Striatum,LOC105372633,3,146,,,,,75,1.0,46,0.0073732333027601,24,0.0006338678244203,rank aggregation score; not an MDD-association p-value
+105376520,1.0,67,Ventral Striatum,LOC105376520,4,146,,,43.0,1.0,76,1.0,73,1.0,48,0.421367216312219,rank aggregation score; not an MDD-association p-value
+105378688,1.0,68,Ventral Striatum,LINC02918,3,146,,,,,77,1.0,53,0.0575605010955816,71,1.0,rank aggregation score; not an MDD-association p-value
+105379203,1.0,69,Ventral Striatum,LOC105379203,3,146,,,,,78,1.0,75,1.0,72,1.0,rank aggregation score; not an MDD-association p-value
+107986970,1.0,70,Ventral Striatum,LOC107986970,4,146,,,46.0,1.0,80,1.0,77,1.0,75,1.0,rank aggregation score; not an MDD-association p-value
+107987147,1.0,71,Ventral Striatum,LOC107987147,3,146,,,,,81,1.0,50,0.0194774775479349,76,1.0,rank aggregation score; not an MDD-association p-value
+107987295,1.0,72,Ventral Striatum,LINC02246,3,146,,,,,83,1.0,79,1.0,78,1.0,rank aggregation score; not an MDD-association p-value
+10861,1.0,73,Ventral Striatum,SLC26A1,4,146,,,48.0,1.0,84,1.0,80,1.0,79,1.0,rank aggregation score; not an MDD-association p-value
+10962,1.0,74,Ventral Striatum,MLLT11,3,146,,,,,36,0.0015398642960336,16,9.51421620993669e-11,80,1.0,rank aggregation score; not an MDD-association p-value
+11025,1.0,75,Ventral Striatum,LILRB3,3,146,,,,,85,1.0,81,1.0,81,1.0,rank aggregation score; not an MDD-association p-value
+11165,1.0,76,Ventral Striatum,NUDT3,3,146,,,,,86,1.0,82,1.0,52,0.686542589057795,rank aggregation score; not an MDD-association p-value
+112268055,1.0,77,Ventral Striatum,LOC112268055,3,146,,,,,87,1.0,83,1.0,82,1.0,rank aggregation score; not an MDD-association p-value
+119385,1.0,78,Ventral Striatum,AGAP11,3,146,,,,,89,1.0,85,1.0,84,1.0,rank aggregation score; not an MDD-association p-value
+130872,1.0,79,Ventral Striatum,AHSA2P,3,146,,,,,90,1.0,86,1.0,85,1.0,rank aggregation score; not an MDD-association p-value
+136288,1.0,80,Ventral Striatum,C7orf57,4,146,,,51.0,1.0,57,0.150588791795893,87,1.0,86,1.0,rank aggregation score; not an MDD-association p-value
+1392,1.0,81,Ventral Striatum,CRH,4,146,,,52.0,1.0,50,0.0423892006473457,88,1.0,56,0.845356882984088,rank aggregation score; not an MDD-association p-value
+145581,1.0,82,Ventral Striatum,LRFN5,4,146,,,53.0,1.0,91,1.0,89,1.0,87,1.0,rank aggregation score; not an MDD-association p-value
+146802,1.0,83,Ventral Striatum,SLC47A2,3,146,,,,,92,1.0,90,1.0,88,1.0,rank aggregation score; not an MDD-association p-value
+152519,1.0,84,Ventral Striatum,NIPAL1,3,146,,,,,94,1.0,48,0.0140681033615981,91,1.0,rank aggregation score; not an MDD-association p-value
+221476,1.0,85,Ventral Striatum,PI16,3,146,,,,,98,1.0,96,1.0,47,0.417419789263716,rank aggregation score; not an MDD-association p-value
+222235,1.0,86,Ventral Striatum,FBXL13,3,146,,,,,99,1.0,97,1.0,20,7.33006840866481e-05,rank aggregation score; not an MDD-association p-value
+2257,1.0,87,Ventral Striatum,FGF12,3,146,,,,,59,0.342928907611437,33,7.91824146273677e-05,93,1.0,rank aggregation score; not an MDD-association p-value
+22854,1.0,88,Ventral Striatum,NTNG1,4,146,46.0,1.0,,,100,1.0,98,1.0,94,1.0,rank aggregation score; not an MDD-association p-value
+23035,1.0,89,Ventral Striatum,PHLPP2,4,146,,,60.0,1.0,54,0.0763932077979985,29,9.83760631801118e-06,95,1.0,rank aggregation score; not an MDD-association p-value
+23276,1.0,90,Ventral Striatum,KLHL18,3,146,,,,,101,1.0,99,1.0,96,1.0,rank aggregation score; not an MDD-association p-value
+2567,1.0,91,Ventral Striatum,GABRG3,3,146,,,,,102,1.0,100,1.0,97,1.0,rank aggregation score; not an MDD-association p-value
+25830,1.0,92,Ventral Striatum,SULT4A1,4,146,,,62.0,1.0,103,1.0,101,1.0,55,0.836975441327741,rank aggregation score; not an MDD-association p-value
+26122,1.0,93,Ventral Striatum,EPC2,3,146,,,,,104,1.0,102,1.0,98,1.0,rank aggregation score; not an MDD-association p-value
+26576,1.0,94,Ventral Striatum,SRPK3,3,146,,,,,105,1.0,103,1.0,99,1.0,rank aggregation score; not an MDD-association p-value
+27012,1.0,95,Ventral Striatum,KCNV1,3,146,,,,,106,1.0,104,1.0,100,1.0,rank aggregation score; not an MDD-association p-value
+27253,1.0,96,Ventral Striatum,PCDH17,3,146,,,,,107,1.0,45,0.0070030795264254,101,1.0,rank aggregation score; not an MDD-association p-value
+27338,1.0,97,Ventral Striatum,UBE2S,4,146,,,63.0,1.0,108,1.0,105,1.0,103,1.0,rank aggregation score; not an MDD-association p-value
+2845,1.0,98,Ventral Striatum,GPR22,4,146,,,65.0,1.0,68,0.813663719348325,43,0.001945891468925,105,1.0,rank aggregation score; not an MDD-association p-value
+286151,1.0,99,Ventral Striatum,FBXO43,3,146,,,,,63,0.521607443819597,106,1.0,106,1.0,rank aggregation score; not an MDD-association p-value
+324,1.0,100,Ventral Striatum,APC,3,146,,,,,109,1.0,107,1.0,50,0.519940101590766,rank aggregation score; not an MDD-association p-value
+342357,1.0,101,Ventral Striatum,ZKSCAN2,4,146,,,66.0,1.0,67,0.739208179001314,108,1.0,42,0.150466691790542,rank aggregation score; not an MDD-association p-value
+3800,1.0,102,Ventral Striatum,KIF5C,3,146,,,,,65,0.593831063251206,28,7.35137012172281e-06,107,1.0,rank aggregation score; not an MDD-association p-value
+387856,1.0,103,Ventral Striatum,CCDC184,3,146,,,,,110,1.0,109,1.0,58,0.931896874730181,rank aggregation score; not an MDD-association p-value
+390616,1.0,104,Ventral Striatum,ANKRD34C,3,146,,,,,111,1.0,110,1.0,108,1.0,rank aggregation score; not an MDD-association p-value
+399761,1.0,105,Ventral Striatum,BMS1P1,4,146,,,68.0,1.0,112,1.0,111,1.0,30,0.0061439811446896,rank aggregation score; not an MDD-association p-value
+402160,1.0,106,Ventral Striatum,CFAP99,3,146,,,,,113,1.0,113,1.0,110,1.0,rank aggregation score; not an MDD-association p-value
+408050,1.0,107,Ventral Striatum,NOMO3,4,146,,,70.0,1.0,114,1.0,114,1.0,111,1.0,rank aggregation score; not an MDD-association p-value
+441054,1.0,108,Ventral Striatum,C4orf47,3,146,,,,,115,1.0,116,1.0,113,1.0,rank aggregation score; not an MDD-association p-value
+441549,1.0,109,Ventral Striatum,CDNF,3,146,,,,,32,5.98549303159712e-05,25,3.72029460168602e-07,115,1.0,rank aggregation score; not an MDD-association p-value
+4885,1.0,110,Ventral Striatum,NPTX2,4,146,56.0,1.0,,,116,1.0,117,1.0,12,4.37899905667678e-07,rank aggregation score; not an MDD-association p-value
+5119,1.0,111,Ventral Striatum,CHMP1A,4,146,,,72.0,1.0,117,1.0,118,1.0,117,1.0,rank aggregation score; not an MDD-association p-value
+53353,1.0,112,Ventral Striatum,LRP1B,3,146,,,,,118,1.0,119,1.0,118,1.0,rank aggregation score; not an MDD-association p-value
+53358,1.0,113,Ventral Striatum,SHC3,3,146,,,,,119,1.0,120,1.0,38,0.0542341146677149,rank aggregation score; not an MDD-association p-value
+54769,1.0,114,Ventral Striatum,DIRAS2,3,146,,,,,120,1.0,121,1.0,119,1.0,rank aggregation score; not an MDD-association p-value
+54946,1.0,115,Ventral Striatum,SLC41A3,3,146,,,,,121,1.0,122,1.0,120,1.0,rank aggregation score; not an MDD-association p-value
+55149,1.0,116,Ventral Striatum,MTPAP,3,146,,,,,122,1.0,123,1.0,121,1.0,rank aggregation score; not an MDD-association p-value
+55253,1.0,117,Ventral Striatum,TYW1,3,146,,,,,123,1.0,124,1.0,122,1.0,rank aggregation score; not an MDD-association p-value
+5563,1.0,118,Ventral Striatum,PRKAA2,4,146,,,74.0,1.0,124,1.0,125,1.0,123,1.0,rank aggregation score; not an MDD-association p-value
+57630,1.0,119,Ventral Striatum,SH3RF1,3,146,,,,,125,1.0,126,1.0,124,1.0,rank aggregation score; not an MDD-association p-value
+57727,1.0,120,Ventral Striatum,NCOA5,4,146,,,75.0,1.0,43,0.010243324836183,60,0.486217349524707,57,0.871030794676779,rank aggregation score; not an MDD-association p-value
+5775,1.0,121,Ventral Striatum,PTPN4,4,146,,,76.0,1.0,49,0.0243236433615629,32,6.61684261491743e-05,125,1.0,rank aggregation score; not an MDD-association p-value
+5877,1.0,122,Ventral Striatum,RABIF,4,146,,,77.0,1.0,126,1.0,127,1.0,126,1.0,rank aggregation score; not an MDD-association p-value
+60386,1.0,123,Ventral Striatum,SLC25A19,5,146,58.0,1.0,78.0,1.0,127,1.0,128,1.0,54,0.806632163900693,rank aggregation score; not an MDD-association p-value
+642517,1.0,124,Ventral Striatum,AGAP9,3,146,,,,,128,1.0,129,1.0,127,1.0,rank aggregation score; not an MDD-association p-value
+643236,1.0,125,Ventral Striatum,TMEM72,5,146,60.0,1.0,79.0,1.0,129,1.0,130,1.0,49,0.486217349524707,rank aggregation score; not an MDD-association p-value
+64866,1.0,126,Ventral Striatum,CDCP1,3,146,,,,,130,1.0,131,1.0,53,0.745671777718792,rank aggregation score; not an MDD-association p-value
+648987,1.0,127,Ventral Striatum,ANXA2R-OT1,3,146,,,,,131,1.0,132,1.0,46,0.280617260743342,rank aggregation score; not an MDD-association p-value
+6992,1.0,128,Ventral Striatum,PPP1R11,3,146,,,,,132,1.0,133,1.0,128,1.0,rank aggregation score; not an MDD-association p-value
+7027,1.0,129,Ventral Striatum,TFDP1,4,146,,,80.0,1.0,133,1.0,134,1.0,129,1.0,rank aggregation score; not an MDD-association p-value
+728378,1.0,130,Ventral Striatum,POTEF,5,146,61.0,1.0,81.0,1.0,26,2.50793733115149e-06,24,3.266606387165e-07,130,1.0,rank aggregation score; not an MDD-association p-value
+79183,1.0,131,Ventral Striatum,TTPAL,4,146,,,82.0,1.0,134,1.0,135,1.0,41,0.0985746304747723,rank aggregation score; not an MDD-association p-value
+79714,1.0,132,Ventral Striatum,CCDC51,3,146,,,,,135,1.0,136,1.0,133,1.0,rank aggregation score; not an MDD-association p-value
+79827,1.0,133,Ventral Striatum,CLMP,4,146,,,83.0,1.0,136,1.0,137,1.0,134,1.0,rank aggregation score; not an MDD-association p-value
+80975,1.0,134,Ventral Striatum,TMPRSS5,4,146,,,86.0,1.0,138,1.0,139,1.0,135,1.0,rank aggregation score; not an MDD-association p-value
+81566,1.0,135,Ventral Striatum,CSRNP2,3,146,,,,,139,1.0,140,1.0,136,1.0,rank aggregation score; not an MDD-association p-value
+84073,1.0,136,Ventral Striatum,MYCBPAP,3,146,,,,,140,1.0,141,1.0,137,1.0,rank aggregation score; not an MDD-association p-value
+84230,1.0,137,Ventral Striatum,LRRC8C,3,146,,,,,141,1.0,142,1.0,138,1.0,rank aggregation score; not an MDD-association p-value
+84262,1.0,138,Ventral Striatum,PSMG3,3,146,,,,,142,1.0,143,1.0,139,1.0,rank aggregation score; not an MDD-association p-value
+84539,1.0,139,Ventral Striatum,MCHR2,4,146,,,87.0,1.0,143,1.0,144,1.0,140,1.0,rank aggregation score; not an MDD-association p-value
+84651,1.0,140,Ventral Striatum,SPINK7,5,146,66.0,1.0,88.0,1.0,46,0.0140681033615981,56,0.182916224002838,141,1.0,rank aggregation score; not an MDD-association p-value
+8608,1.0,141,Ventral Striatum,RDH16,5,146,67.0,1.0,89.0,1.0,144,1.0,59,0.344148911320363,142,1.0,rank aggregation score; not an MDD-association p-value
+8795,1.0,142,Ventral Striatum,TNFRSF10B,4,146,,,90.0,1.0,21,3.72029460168602e-07,41,0.0011433237443281,143,1.0,rank aggregation score; not an MDD-association p-value
+9100,1.0,143,Ventral Striatum,USP10,5,146,68.0,1.0,91.0,1.0,56,0.121817394543768,61,0.709400332134687,144,1.0,rank aggregation score; not an MDD-association p-value
+9209,1.0,144,Ventral Striatum,LRRFIP2,3,146,,,,,145,1.0,62,0.765969784091416,145,1.0,rank aggregation score; not an MDD-association p-value
+9655,1.0,145,Ventral Striatum,SOCS5,3,146,,,,,146,1.0,145,1.0,146,1.0,rank aggregation score; not an MDD-association p-value
+9683,1.0,146,Ventral Striatum,N4BP1,5,146,69.0,1.0,92.0,1.0,45,0.0111542223991742,146,1.0,34,0.0169962387769777,rank aggregation score; not an MDD-association p-value
+100505894,7.22913071934312e-07,1,Insula,TMEM161B-DT,5,70,1.0,2.03561433944183e-19,1.0,4.71271247327534e-22,1,5.01149127277763e-24,3,3.5181719753626204e-20,2,1.0509684213888902e-09,rank aggregation score; not an MDD-association p-value
+101929710,2.3133218301898e-05,2,Insula,LOC101929710,5,70,2.0,3.67036507061841e-14,2.0,1.7783619578685797e-18,3,1.26800171532626e-14,1,1.41861503538338e-23,6,0.0002326290685887,rank aggregation score; not an MDD-association p-value
+642826,5e-05,3,Insula,BMS1P2,5,70,6.0,6.49474356233607e-07,5.0,8.49211051218162e-13,2,2.16663765200322e-16,7,3.22172373886225e-11,1,8.47249408000005e-15,rank aggregation score; not an MDD-association p-value
+105376607,9.74831915273396e-05,4,Insula,ARL14EP-DT,5,70,3.0,3.28809639550925e-12,3.0,9.77060206694741e-16,5,2.61977879585909e-10,5,9.77060206694741e-16,8,0.0007265675431551,rank aggregation score; not an MDD-association p-value
+54718,0.0011045784494555,5,Insula,BTN2A3P,5,70,8.0,6.67238983813564e-06,10.0,3.58544296562629e-09,10,4.30999775260421e-07,13,5.90748735173124e-08,12,0.0152195302229768,rank aggregation score; not an MDD-association p-value
+105379042,0.0022591033497947,6,Insula,LOC105379042,5,70,15.0,0.014178798527683,7.0,1.18170672620982e-11,9,3.32785276694214e-07,4,2.04146898962262e-16,14,0.0201929067532236,rank aggregation score; not an MDD-association p-value
+26063,0.0023,7,Insula,DECR2,5,70,4.0,1.19671294926642e-09,4.0,8.49211051218162e-13,7,1.2125640977323502e-09,2,1.37156422729407e-20,52,1.0,rank aggregation score; not an MDD-association p-value
+107985195,0.0038749568632117,8,Insula,LINC01691,5,70,5.0,1.77071784155135e-08,8.0,1.25681143734045e-10,6,7.8197457278658e-10,8,5.967192538668801e-11,36,1.0,rank aggregation score; not an MDD-association p-value
+101929741,0.0042240048789195,9,Insula,METTL14-DT,5,70,10.0,9.66373041502235e-05,14.0,1.68553200409925e-07,11,7.45058059692383e-07,17,4.96808564972255e-06,13,0.0201929067532236,rank aggregation score; not an MDD-association p-value
+113939912,0.0042240048789195,10,Insula,BMS1P2-AGAP9,5,70,17.0,0.130323539243999,12.0,2.36920700364768e-08,4,2.4030770043967e-11,14,1.71952362332589e-07,3,2.10111286037749e-09,rank aggregation score; not an MDD-association p-value
+100689074,0.01215,11,Insula,POU6F2-AS2,5,70,12.0,0.0009161535915004,21.0,0.0068559676246386,12,2.9890426366026e-06,19,3.70836734918543e-05,16,0.0249447921352631,rank aggregation score; not an MDD-association p-value
+80054,0.0236884155411436,12,Insula,CEBPA-DT,5,70,18.0,0.14586594438684,16.0,2.38578190259952e-05,24,0.014810598171279,20,0.0002274080951835,18,0.0940067370773966,rank aggregation score; not an MDD-association p-value
+101928268,0.0353465103825787,13,Insula,LOC101928268,5,70,14.0,0.014178798527683,25.0,0.118462480956936,23,0.0073217702186343,26,0.014810598171279,20,0.138873012186871,rank aggregation score; not an MDD-association p-value
+80036,0.0353465103825787,14,Insula,TRPM3,5,70,13.0,0.0015627174471601,9.0,2.8147497671065603e-09,19,0.0021372552199956,10,1.13392181949976e-09,26,0.291822430385824,rank aggregation score; not an MDD-association p-value
+116143,0.0426872939846493,15,Insula,DNAAF10,5,70,16.0,0.0385012872916644,6.0,2.11822152360749e-12,8,4.84824808685569e-09,6,6.77728936623163e-12,27,0.348168358040362,rank aggregation score; not an MDD-association p-value
+171177,0.0436759980960314,16,Insula,RHOV,5,70,11.0,0.0001205799288377,13.0,7.92936603717103e-08,15,2.09888571385098e-05,11,6.7676666025802115e-09,48,1.0,rank aggregation score; not an MDD-association p-value
+388569,0.0436759980960314,17,Insula,ZNF324B,5,70,9.0,1.67352449132503e-05,15.0,1.12220543054433e-05,13,9.91584874687516e-06,12,1.00550889612832e-08,29,0.6847431400161,rank aggregation score; not an MDD-association p-value
+401288,0.0557603855536384,18,Insula,LINC00242,5,70,7.0,7.26368394076491e-07,11.0,7.616352867246141e-09,16,0.0007209497199606,9,1.65572888418394e-10,55,1.0,rank aggregation score; not an MDD-association p-value
+10090,0.0610196614505861,19,Insula,UST,5,70,20.0,1.0,29.0,1.0,28,0.0661269478357952,29,0.0238443642928867,22,0.224013196978562,rank aggregation score; not an MDD-association p-value
+102724078,0.0610196614505861,20,Insula,LOC102724078,5,70,23.0,1.0,26.0,0.182916224002838,29,0.100634084085757,21,0.0003903280225553,28,0.419459714412772,rank aggregation score; not an MDD-association p-value
+101930048,0.0998227881239959,21,Insula,LOC101930048,5,70,22.0,1.0,22.0,0.0068559676246386,27,0.0428682245201695,22,0.0006909311936861,32,1.0,rank aggregation score; not an MDD-association p-value
+100507098,0.135168156125424,22,Insula,ADAMTS9-AS2,5,70,19.0,1.0,28.0,1.0,33,1.0,34,1.0,11,0.0150971741661411,rank aggregation score; not an MDD-association p-value
+100996279,0.135168156125424,23,Insula,LINC00269,5,70,21.0,1.0,30.0,1.0,34,1.0,31,0.039274152433016,31,1.0,rank aggregation score; not an MDD-association p-value
+105369793,0.15625,24,Insula,LOC105369793,5,70,24.0,1.0,31.0,1.0,35,1.0,35,1.0,33,1.0,rank aggregation score; not an MDD-association p-value
+105374200,0.179883905515559,25,Insula,LOC105374200,5,70,25.0,1.0,32.0,1.0,36,1.0,36,1.0,34,1.0,rank aggregation score; not an MDD-association p-value
+107985988,0.206294868209674,26,Insula,LOC107985988,5,70,26.0,1.0,27.0,0.36180124616533,26,0.038048102585721,32,0.227085208814949,37,1.0,rank aggregation score; not an MDD-association p-value
+26153,0.235720735407866,27,Insula,KIF26A,5,70,38.0,1.0,24.0,0.0323782593773062,21,0.0039563995706091,16,1.5067858303688e-06,24,0.236770773129752,rank aggregation score; not an MDD-association p-value
+107986284,0.268412563217707,28,Insula,LOC107986284,5,70,27.0,1.0,35.0,1.0,38,1.0,39,1.0,17,0.0509664416313171,rank aggregation score; not an MDD-association p-value
+112268239,0.304634973522937,29,Insula,LOC112268239,5,70,28.0,1.0,36.0,1.0,39,1.0,40,1.0,38,1.0,rank aggregation score; not an MDD-association p-value
+11248,0.344666510977569,30,Insula,NXPH3,5,70,29.0,1.0,37.0,1.0,40,1.0,41,1.0,39,1.0,rank aggregation score; not an MDD-association p-value
+128153,0.3888,31,Insula,SPATA17,5,70,30.0,1.0,38.0,1.0,20,0.0039563995706091,42,1.0,40,1.0,rank aggregation score; not an MDD-association p-value
+129852,0.437342901767121,32,Insula,C2orf73,5,70,31.0,1.0,39.0,1.0,41,1.0,43,1.0,41,1.0,rank aggregation score; not an MDD-association p-value
+144920,0.437342901767121,33,Insula,LINC00343,5,70,32.0,1.0,41.0,1.0,43,1.0,30,0.0238443642928867,42,1.0,rank aggregation score; not an MDD-association p-value
+153768,0.490617671208425,34,Insula,PRELID2,5,70,33.0,1.0,23.0,0.0070178811900253,17,0.0011168279448059,28,0.0201562724597171,44,1.0,rank aggregation score; not an MDD-association p-value
+163175,0.548962114000119,35,Insula,LGI4,5,70,34.0,1.0,42.0,1.0,45,1.0,45,1.0,45,1.0,rank aggregation score; not an MDD-association p-value
+4188,0.555960635449515,36,Insula,MDFI,5,70,41.0,1.0,17.0,0.0003413769405644,14,1.9371509552002e-05,18,1.11456187653066e-05,56,1.0,rank aggregation score; not an MDD-association p-value
+1803,0.758029297316594,37,Insula,DPP4,5,70,35.0,1.0,43.0,1.0,48,1.0,48,1.0,19,0.120153460333352,rank aggregation score; not an MDD-association p-value
+200765,0.84035,38,Insula,TIGD1,5,70,36.0,1.0,44.0,1.0,49,1.0,49,1.0,49,1.0,rank aggregation score; not an MDD-association p-value
+644538,0.912432296067115,39,Insula,SMIM10,5,70,46.0,1.0,20.0,0.0056604380782215,22,0.0042629064181573,15,5.42295931598789e-07,62,1.0,rank aggregation score; not an MDD-association p-value
+105375222,1.0,40,Insula,LOC105375222,4,70,,,33.0,1.0,25,0.0295865152257698,37,1.0,10,0.0021372552199956,rank aggregation score; not an MDD-association p-value
+105376380,1.0,41,Insula,LOC105376380,4,70,,,34.0,1.0,37,1.0,38,1.0,35,1.0,rank aggregation score; not an MDD-association p-value
+144195,1.0,42,Insula,SLC2A14,4,70,,,40.0,1.0,42,1.0,25,0.0097030771982879,15,0.0243221500128194,rank aggregation score; not an MDD-association p-value
+150538,1.0,43,Insula,SATB2-AS1,3,70,,,,,44,1.0,44,1.0,43,1.0,rank aggregation score; not an MDD-association p-value
+163933,1.0,44,Insula,FAM43B,3,70,,,,,46,1.0,46,1.0,46,1.0,rank aggregation score; not an MDD-association p-value
+171024,1.0,45,Insula,SYNPO2,3,70,,,,,47,1.0,47,1.0,47,1.0,rank aggregation score; not an MDD-association p-value
+222553,1.0,46,Insula,SLC35F1,3,70,,,,,50,1.0,50,1.0,7,0.0006909311936861,rank aggregation score; not an MDD-association p-value
+23235,1.0,47,Insula,SIK2,3,70,,,,,51,1.0,51,1.0,50,1.0,rank aggregation score; not an MDD-association p-value
+255167,1.0,48,Insula,LINC01018,4,70,,,45.0,1.0,52,1.0,52,1.0,25,0.247503146497679,rank aggregation score; not an MDD-association p-value
+2567,1.0,49,Insula,GABRG3,4,70,,,46.0,1.0,53,1.0,53,1.0,30,0.939470336833732,rank aggregation score; not an MDD-association p-value
+2587,1.0,50,Insula,GALR1,5,70,37.0,1.0,47.0,1.0,54,1.0,54,1.0,51,1.0,rank aggregation score; not an MDD-association p-value
+342357,1.0,51,Insula,ZKSCAN2,5,70,39.0,1.0,48.0,1.0,55,1.0,55,1.0,9,0.0011879388803367,rank aggregation score; not an MDD-association p-value
+353189,1.0,52,Insula,SLCO4C1,4,70,,,49.0,1.0,56,1.0,56,1.0,53,1.0,rank aggregation score; not an MDD-association p-value
+3736,1.0,53,Insula,KCNA1,4,70,,,50.0,1.0,57,1.0,57,1.0,21,0.221598744913406,rank aggregation score; not an MDD-association p-value
+3786,1.0,54,Insula,KCNQ3,3,70,,,,,58,1.0,58,1.0,54,1.0,rank aggregation score; not an MDD-association p-value
+3909,1.0,55,Insula,LAMA3,5,70,40.0,1.0,51.0,1.0,32,0.529993163904125,59,1.0,5,9.32275233288716e-05,rank aggregation score; not an MDD-association p-value
+442245,1.0,56,Insula,GSTM2P1,5,70,42.0,1.0,19.0,0.0033597892927404,31,0.348168358040362,23,0.0006909311936861,57,1.0,rank aggregation score; not an MDD-association p-value
+4602,1.0,57,Insula,MYB,5,70,43.0,1.0,52.0,1.0,59,1.0,60,1.0,23,0.227085208814949,rank aggregation score; not an MDD-association p-value
+54716,1.0,58,Insula,SLC6A20,5,70,44.0,1.0,53.0,1.0,60,1.0,61,1.0,58,1.0,rank aggregation score; not an MDD-association p-value
+57154,1.0,59,Insula,SMURF1,3,70,,,,,61,1.0,62,1.0,59,1.0,rank aggregation score; not an MDD-association p-value
+57604,1.0,60,Insula,TRMT9B,5,70,45.0,1.0,54.0,1.0,62,1.0,33,0.529993163904125,60,1.0,rank aggregation score; not an MDD-association p-value
+5791,1.0,61,Insula,PTPRE,4,70,,,55.0,1.0,63,1.0,63,1.0,61,1.0,rank aggregation score; not an MDD-association p-value
+650,1.0,62,Insula,BMP2,5,70,47.0,1.0,56.0,1.0,64,1.0,64,1.0,63,1.0,rank aggregation score; not an MDD-association p-value
+7010,1.0,63,Insula,TEK,5,70,48.0,1.0,57.0,1.0,30,0.327786549303237,65,1.0,64,1.0,rank aggregation score; not an MDD-association p-value
+705,1.0,64,Insula,BYSL,5,70,49.0,1.0,58.0,1.0,18,0.0020022575626967,27,0.014810598171279,65,1.0,rank aggregation score; not an MDD-association p-value
+79183,1.0,65,Insula,TTPAL,5,70,50.0,1.0,59.0,1.0,65,1.0,66,1.0,66,1.0,rank aggregation score; not an MDD-association p-value
+79825,1.0,66,Insula,EFCC1,5,70,51.0,1.0,60.0,1.0,66,1.0,67,1.0,67,1.0,rank aggregation score; not an MDD-association p-value
+83593,1.0,67,Insula,RASSF5,4,70,,,61.0,1.0,67,1.0,68,1.0,68,1.0,rank aggregation score; not an MDD-association p-value
+85443,1.0,68,Insula,DCLK3,5,70,52.0,1.0,62.0,1.0,68,1.0,69,1.0,4,4.13936652421184e-05,rank aggregation score; not an MDD-association p-value
+8853,1.0,69,Insula,ASAP2,5,70,53.0,1.0,18.0,0.0023360120767227,69,1.0,24,0.0007829457671511,69,1.0,rank aggregation score; not an MDD-association p-value
+9111,1.0,70,Insula,NMI,5,70,54.0,1.0,63.0,1.0,70,1.0,70,1.0,70,1.0,rank aggregation score; not an MDD-association p-value
+27433,9.54950276490199e-08,1,Hippocampal Formation,TOR2A,5,127,1.0,1.86403941118563e-24,1.0,7.54564889217312e-26,1,1.89276672829724e-34,1,5.56594452708486e-37,7,5.80018891481155e-08,rank aggregation score; not an MDD-association p-value
+100505894,1.17681352614703e-06,2,Hippocampal Formation,TMEM161B-DT,5,127,3.0,1.26897776940591e-14,6.0,2.3302784509478704e-15,3,6.793721986839131e-20,4,1.09529632879141e-17,3,3.19548335886869e-10,rank aggregation score; not an MDD-association p-value
+105376607,8.93642771417904e-06,3,Hippocampal Formation,ARL14EP-DT,5,127,4.0,6.41081849990211e-14,5.0,2.2015221804281404e-15,6,5.607781125864781e-15,6,2.42211895718843e-14,9,9.14892801446737e-07,rank aggregation score; not an MDD-association p-value
+105370868,5.61911811424525e-05,4,Hippocampal Formation,DIS3L-AS1,5,127,11.0,3.69023407726395e-06,13.0,5.1527206161283115e-09,13,8.53235535597194e-12,10,1.69342877104405e-11,8,4.92656325784084e-07,rank aggregation score; not an MDD-association p-value
+259307,5.81710004003044e-05,5,Hippocampal Formation,IL4I1,5,127,2.0,1.8791814127363e-19,2.0,5.79542424850495e-21,5,7.21654548249814e-19,3,2.30894721889929e-18,22,0.0006288569097979,rank aggregation score; not an MDD-association p-value
+79918,8.1393847464828e-05,6,Hippocampal Formation,SETD6,5,127,12.0,3.69023407726395e-06,9.0,1.73175673337869e-11,7,2.55518404878506e-14,14,4.02989223979185e-10,5,1.66357764396951e-09,rank aggregation score; not an MDD-association p-value
+151,0.0001198388440793,7,Hippocampal Formation,ADRA2B,5,127,6.0,1.4898969962955e-10,4.0,1.21160572161158e-15,4,6.27294329982535e-19,5,5.462591867686179e-16,34,0.0100320770173546,rank aggregation score; not an MDD-association p-value
+101929077,0.0001586906404312,8,Hippocampal Formation,LINC02334,5,127,10.0,3.0775868814678e-07,16.0,3.59226114014775e-07,11,3.68216802781571e-12,15,4.3568476630062e-10,6,3.3822804378914e-09,rank aggregation score; not an MDD-association p-value
+100130934,0.0002859656868537,9,Hippocampal Formation,ZNF663P,5,127,15.0,0.006411568253161,12.0,3.24544083713407e-09,18,6.01788474315936e-09,16,5.43083487518948e-10,17,0.000101906030662,rank aggregation score; not an MDD-association p-value
+27037,0.0002859656868537,10,Hippocampal Formation,TRMT2A,5,127,8.0,8.86592855911103e-10,10.0,1.94432733712414e-11,17,2.17997567188761e-10,18,1.11462425998504e-08,4,3.72566673051167e-10,rank aggregation score; not an MDD-association p-value
+150468,0.00037473081215,11,Hippocampal Formation,CKAP2L,5,127,19.0,0.018931811521261,17.0,1.46769587255397e-06,14,8.96445151917846e-12,9,4.96976093303932e-13,10,5.33290043964736e-06,rank aggregation score; not an MDD-association p-value
+51117,0.0005947689111992,12,Hippocampal Formation,COQ4,5,127,9.0,2.3363811168160203e-09,3.0,1.17649256258101e-17,2,3.0096472834342e-20,2,2.36630079877282e-23,29,0.0030636355770121,rank aggregation score; not an MDD-association p-value
+126208,0.000618084529186,13,Hippocampal Formation,ZNF787,5,127,7.0,3.72566673051167e-10,15.0,9.90355314905569e-08,19,6.01788474315936e-09,17,1.8705048171933303e-09,21,0.0003221082342827,rank aggregation score; not an MDD-association p-value
+107987272,0.0014779217581378,14,Hippocampal Formation,LOC107987272,5,127,18.0,0.0134882161118973,7.0,2.87511366390965e-13,9,5.13345198132123e-13,13,3.95968380381754e-10,25,0.0010255495870651,rank aggregation score; not an MDD-association p-value
+79713,0.0025199583543115,15,Hippocampal Formation,IGFLR1,5,127,13.0,7.17508585496448e-06,11.0,7.345941264928549e-11,8,2.53833006366344e-13,7,1.22975872023334e-13,117,1.0,rank aggregation score; not an MDD-association p-value
+285830,0.0056632722303891,16,Hippocampal Formation,HLA-F-AS1,5,127,5.0,2.29226020008768e-12,8.0,1.53555013987617e-12,16,7.345941264928549e-11,11,1.73175673337869e-11,33,0.0068198239335061,rank aggregation score; not an MDD-association p-value
+3430,0.0059227185999845,17,Hippocampal Formation,IFI35,5,127,14.0,0.0044666522743585,21.0,1.67612212830231e-05,33,0.0005085636824772,27,0.0004464311490947,15,6.6636356973968e-05,rank aggregation score; not an MDD-association p-value
+80758,0.0068761601761092,18,Hippocampal Formation,PRR7,5,127,16.0,0.0065789071144314,30.0,0.146018978295773,23,8.51722235147507e-06,34,0.0034482373439649,24,0.0008067947549932,rank aggregation score; not an MDD-association p-value
+154092,0.0079486179164871,19,Hippocampal Formation,LINC01010,5,127,20.0,0.018931811521261,24.0,8.0279146147147e-05,35,0.0012325541227227,35,0.0037382547870874,18,0.0001673987012752,rank aggregation score; not an MDD-association p-value
+54496,0.0079486179164871,20,Hippocampal Formation,PRMT7,5,127,21.0,0.0608423111513999,14.0,7.875648121260751e-09,20,2.05075709205297e-08,21,6.91664437410594e-07,35,0.0162209266910986,rank aggregation score; not an MDD-association p-value
+107984435,0.0104944581473969,21,Hippocampal Formation,LOC107984435,5,127,17.0,0.0074797631678522,22.0,1.81451170173576e-05,37,0.0041009807681076,28,0.0010470522356075,14,6.0367775181371e-05,rank aggregation score; not an MDD-association p-value
+101927789,0.0154971328546112,22,Hippocampal Formation,FAUP4,5,127,31.0,1.0,19.0,1.66848692881238e-05,15,9.09912663636952e-12,8,1.9709493378030002e-13,40,0.0514201398600224,rank aggregation score; not an MDD-association p-value
+105370015,0.0154971328546112,23,Hippocampal Formation,LINC02440,5,127,37.0,1.0,26.0,0.0017926716496181,25,0.0001035172754658,40,0.010349531688678,32,0.0068198239335061,rank aggregation score; not an MDD-association p-value
+105378228,0.0222481383976614,24,Hippocampal Formation,LOC105378228,5,127,43.0,1.0,25.0,0.0003221082342827,21,7.47642857677407e-08,22,1.95634467837847e-06,27,0.0010922451567493,rank aggregation score; not an MDD-association p-value
+11341,0.0249582874336798,25,Hippocampal Formation,SCRG1,5,127,22.0,0.136659935210601,31.0,0.207372544789265,34,0.0007521106974466,31,0.0021284422200433,44,0.132199856140534,rank aggregation score; not an MDD-association p-value
+101927931,0.0347088871388743,26,Hippocampal Formation,LINC01480,5,127,32.0,1.0,42.0,1.0,28,0.0001819035345065,47,0.056432129589746,19,0.0001819035345065,rank aggregation score; not an MDD-association p-value
+101927152,0.0427495748231677,27,Hippocampal Formation,SAMMSON,5,127,29.0,1.0,41.0,1.0,43,0.0296578962392143,49,0.059361634141751,11,1.31517900755122e-05,rank aggregation score; not an MDD-association p-value
+1847,0.0427495748231677,28,Hippocampal Formation,DUSP5,5,127,49.0,1.0,28.0,0.0472239260344923,32,0.000474024215062,41,0.0112107143338322,45,0.169309164758536,rank aggregation score; not an MDD-association p-value
+221416,0.0472934962604101,29,Hippocampal Formation,LINC03040,5,127,50.0,1.0,18.0,6.24397429343599e-06,22,4.12638553544768e-06,32,0.00251770847658,38,0.0296578962392143,rank aggregation score; not an MDD-association p-value
+101927691,0.0631311422880961,30,Hippocampal Formation,LOC101927691,5,127,30.0,1.0,27.0,0.0332957453702407,27,0.0001751960325604,29,0.0013908027826018,55,0.862822485446753,rank aggregation score; not an MDD-association p-value
+101928404,0.0632893663498107,31,Hippocampal Formation,RGS5-AS1,5,127,34.0,1.0,43.0,1.0,47,0.063510712476512,52,0.34470011389248,53,0.790316535689397,rank aggregation score; not an MDD-association p-value
+339201,0.0632893663498107,32,Hippocampal Formation,ASB16-AS1,5,127,53.0,1.0,20.0,1.66848692881238e-05,12,3.79718853075554e-12,19,3.10029807698689e-08,46,0.184581399520305,rank aggregation score; not an MDD-association p-value
+105373029,0.076166648662353,33,Hippocampal Formation,LOC105373029,5,127,39.0,1.0,49.0,1.0,29,0.0002054447811927,55,0.434951539089609,26,0.0010470522356075,rank aggregation score; not an MDD-association p-value
+90835,0.099332500329289,34,Hippocampal Formation,CFAP119,5,127,58.0,1.0,29.0,0.112038474086201,30,0.0003143747339243,36,0.0050678561126958,31,0.0060101013099796,rank aggregation score; not an MDD-association p-value
+100507547,0.117681352614704,35,Hippocampal Formation,LOC100507547,5,127,24.0,1.0,36.0,1.0,55,0.140967373382851,59,0.550912863440091,60,1.0,rank aggregation score; not an MDD-association p-value
+101928283,0.12480813532905,36,Hippocampal Formation,LOC101928283,5,127,33.0,1.0,33.0,0.969168200308189,36,0.0037640067917732,72,1.0,13,5.58982271298727e-05,rank aggregation score; not an MDD-association p-value
+100873970,0.138646798925539,37,Hippocampal Formation,GPC5-AS2,5,127,26.0,1.0,38.0,1.0,41,0.0132636939270339,39,0.0101743929449608,62,1.0,rank aggregation score; not an MDD-association p-value
+100874044,0.150194540592207,38,Hippocampal Formation,HHATL-AS1,5,127,27.0,1.0,39.0,1.0,52,0.118672783927169,51,0.228839587531798,63,1.0,rank aggregation score; not an MDD-association p-value
+282679,0.193774701049368,39,Hippocampal Formation,AQP11,5,127,52.0,1.0,73.0,1.0,58,0.282599684912143,54,0.425964636333879,1,9.58953985208364e-16,rank aggregation score; not an MDD-association p-value
+100507650,0.204326837436768,40,Hippocampal Formation,RNF212B,5,127,25.0,1.0,37.0,1.0,65,1.0,67,1.0,61,1.0,rank aggregation score; not an MDD-association p-value
+102724591,0.219920362003718,41,Hippocampal Formation,LOC102724591,5,127,36.0,1.0,32.0,0.266690736811505,42,0.0221593902542269,26,0.0001519909516167,73,1.0,rank aggregation score; not an MDD-association p-value
+100874120,0.220037125635497,42,Hippocampal Formation,ZNF630-AS1,5,127,28.0,1.0,40.0,1.0,66,1.0,68,1.0,64,1.0,rank aggregation score; not an MDD-association p-value
+5345,0.222156300287777,43,Hippocampal Formation,SERPINF2,5,127,55.0,1.0,23.0,2.68170814315976e-05,10,5.13345198132123e-13,12,2.4214708466739097e-11,110,1.0,rank aggregation score; not an MDD-association p-value
+101928705,0.254355773327588,44,Hippocampal Formation,LOC101928705,5,127,35.0,1.0,44.0,1.0,59,0.421226969339051,50,0.222312144635837,70,1.0,rank aggregation score; not an MDD-association p-value
+148203,0.254355773327588,45,Hippocampal Formation,ZNF738,5,127,47.0,1.0,70.0,1.0,26,0.000104287199176,30,0.0017830993984916,56,0.907602540196062,rank aggregation score; not an MDD-association p-value
+158055,0.27305060500621,46,Hippocampal Formation,C9orf163,5,127,48.0,1.0,71.0,1.0,24,4.77945711975972e-05,25,0.0001308527747457,52,0.741512697556512,rank aggregation score; not an MDD-association p-value
+65083,0.381494505819332,47,Hippocampal Formation,NOL6,5,127,23.0,0.456118684525131,84.0,1.0,115,1.0,113,1.0,2,2.70144694579283e-14,rank aggregation score; not an MDD-association p-value
+105371295,0.465679216957367,48,Hippocampal Formation,LINC02137,5,127,38.0,1.0,48.0,1.0,77,1.0,79,1.0,28,0.0019876214847137,rank aggregation score; not an MDD-association p-value
+105374362,0.561074668414854,49,Hippocampal Formation,LOC105374362,5,127,40.0,1.0,50.0,1.0,80,1.0,82,1.0,78,1.0,rank aggregation score; not an MDD-association p-value
+106144526,0.57471198536139,50,Hippocampal Formation,PLA2G4C-AS1,5,127,44.0,1.0,55.0,1.0,50,0.095215349555223,37,0.0065476689304647,86,1.0,rank aggregation score; not an MDD-association p-value
+105376162,0.596131212541835,51,Hippocampal Formation,HSD17B3-AS1,5,127,41.0,1.0,51.0,1.0,81,1.0,83,1.0,79,1.0,rank aggregation score; not an MDD-association p-value
+105377432,0.632918557886503,52,Hippocampal Formation,LOC105377432,5,127,42.0,1.0,52.0,1.0,84,1.0,61,0.846153062220044,82,1.0,rank aggregation score; not an MDD-association p-value
+107984851,0.690189614356956,53,Hippocampal Formation,LOC107984851,5,127,45.0,1.0,58.0,1.0,48,0.0713776964074627,46,0.0314025113245346,89,1.0,rank aggregation score; not an MDD-association p-value
+100271722,1.0,54,Hippocampal Formation,LINC00899,3,127,,,,,61,1.0,60,0.618653574251685,57,1.0,rank aggregation score; not an MDD-association p-value
+100505591,1.0,55,Hippocampal Formation,LRRC3C,3,127,,,,,62,1.0,64,1.0,58,1.0,rank aggregation score; not an MDD-association p-value
+100506686,1.0,56,Hippocampal Formation,IQCH-AS1,4,127,,,34.0,1.0,63,1.0,65,1.0,54,0.846153062220044,rank aggregation score; not an MDD-association p-value
+100507297,1.0,57,Hippocampal Formation,TMEM44-AS1,4,127,,,35.0,1.0,64,1.0,66,1.0,59,1.0,rank aggregation score; not an MDD-association p-value
+10126,1.0,58,Hippocampal Formation,DNAL4,3,127,,,,,67,1.0,69,1.0,65,1.0,rank aggregation score; not an MDD-association p-value
+101927057,1.0,59,Hippocampal Formation,LOC101927057,3,127,,,,,68,1.0,33,0.0027365751518626,66,1.0,rank aggregation score; not an MDD-association p-value
+101927190,1.0,60,Hippocampal Formation,LOC101927190,3,127,,,,,69,1.0,70,1.0,67,1.0,rank aggregation score; not an MDD-association p-value
+101927237,1.0,61,Hippocampal Formation,LOC101927237,3,127,,,,,70,1.0,71,1.0,68,1.0,rank aggregation score; not an MDD-association p-value
+101928554,1.0,62,Hippocampal Formation,LOC101928554,3,127,,,,,71,1.0,73,1.0,69,1.0,rank aggregation score; not an MDD-association p-value
+101929110,1.0,63,Hippocampal Formation,CASC18,4,127,,,45.0,1.0,72,1.0,74,1.0,71,1.0,rank aggregation score; not an MDD-association p-value
+101930370,1.0,64,Hippocampal Formation,GALNT7-DT,3,127,,,,,73,1.0,75,1.0,72,1.0,rank aggregation score; not an MDD-association p-value
+10336,1.0,65,Hippocampal Formation,PCGF3,4,127,,,46.0,1.0,74,1.0,76,1.0,74,1.0,rank aggregation score; not an MDD-association p-value
+105370516,1.0,66,Hippocampal Formation,LOC105370516,3,127,,,,,75,1.0,77,1.0,75,1.0,rank aggregation score; not an MDD-association p-value
+105370941,1.0,67,Hippocampal Formation,LOC105370941,4,127,,,47.0,1.0,76,1.0,78,1.0,20,0.0001819035345065,rank aggregation score; not an MDD-association p-value
+105371708,1.0,68,Hippocampal Formation,LINC01992,3,127,,,,,78,1.0,80,1.0,76,1.0,rank aggregation score; not an MDD-association p-value
+105371768,1.0,69,Hippocampal Formation,LOC105371768,3,127,,,,,79,1.0,81,1.0,77,1.0,rank aggregation score; not an MDD-association p-value
+105376387,1.0,70,Hippocampal Formation,LOC105376387,3,127,,,,,82,1.0,84,1.0,80,1.0,rank aggregation score; not an MDD-association p-value
+105376547,1.0,71,Hippocampal Formation,LOC105376547,3,127,,,,,83,1.0,23,2.8491614022054e-06,81,1.0,rank aggregation score; not an MDD-association p-value
+105377623,1.0,72,Hippocampal Formation,LOC105377623,3,127,,,,,85,1.0,57,0.515348464874892,83,1.0,rank aggregation score; not an MDD-association p-value
+105377663,1.0,73,Hippocampal Formation,LOC105377663,3,127,,,,,86,1.0,85,1.0,37,0.0286383490706076,rank aggregation score; not an MDD-association p-value
+105378447,1.0,74,Hippocampal Formation,LOC105378447,3,127,,,,,87,1.0,86,1.0,42,0.0921068587399534,rank aggregation score; not an MDD-association p-value
+105378481,1.0,75,Hippocampal Formation,DUSP5-DT,4,127,,,53.0,1.0,88,1.0,87,1.0,23,0.0007245581105757,rank aggregation score; not an MDD-association p-value
+105378561,1.0,76,Hippocampal Formation,LOC105378561,3,127,,,,,89,1.0,88,1.0,84,1.0,rank aggregation score; not an MDD-association p-value
+105378995,1.0,77,Hippocampal Formation,LOC105378995,4,127,,,54.0,1.0,51,0.104686382695965,24,4.12638553544768e-06,85,1.0,rank aggregation score; not an MDD-association p-value
+10732,1.0,78,Hippocampal Formation,TCFL5,4,127,,,56.0,1.0,90,1.0,89,1.0,87,1.0,rank aggregation score; not an MDD-association p-value
+107984293,1.0,79,Hippocampal Formation,LOC107984293,4,127,,,57.0,1.0,91,1.0,90,1.0,88,1.0,rank aggregation score; not an MDD-association p-value
+107985065,1.0,80,Hippocampal Formation,LOC107985065,3,127,,,,,92,1.0,91,1.0,90,1.0,rank aggregation score; not an MDD-association p-value
+107985188,1.0,81,Hippocampal Formation,LOC107985188,3,127,,,,,93,1.0,92,1.0,91,1.0,rank aggregation score; not an MDD-association p-value
+107985781,1.0,82,Hippocampal Formation,FSIP2-AS1,4,127,,,59.0,1.0,94,1.0,93,1.0,36,0.0233468221089489,rank aggregation score; not an MDD-association p-value
+107986295,1.0,83,Hippocampal Formation,LOC107986295,3,127,,,,,95,1.0,62,0.88689010475632,12,4.93097496244598e-05,rank aggregation score; not an MDD-association p-value
+107986465,1.0,84,Hippocampal Formation,LOC107986465,4,127,,,60.0,1.0,96,1.0,94,1.0,92,1.0,rank aggregation score; not an MDD-association p-value
+107987057,1.0,85,Hippocampal Formation,LOC107987057,4,127,,,61.0,1.0,97,1.0,95,1.0,93,1.0,rank aggregation score; not an MDD-association p-value
+10930,1.0,86,Hippocampal Formation,APOBEC2,4,127,,,62.0,1.0,98,1.0,96,1.0,94,1.0,rank aggregation score; not an MDD-association p-value
+10940,1.0,87,Hippocampal Formation,POP1,4,127,,,63.0,1.0,39,0.0060101013099796,43,0.0176172094225232,95,1.0,rank aggregation score; not an MDD-association p-value
+11072,1.0,88,Hippocampal Formation,DUSP14,3,127,,,,,40,0.0091119063329812,20,7.47642857677407e-08,96,1.0,rank aggregation score; not an MDD-association p-value
+112268213,1.0,89,Hippocampal Formation,LOC112268213,4,127,,,64.0,1.0,99,1.0,97,1.0,97,1.0,rank aggregation score; not an MDD-association p-value
+11284,1.0,90,Hippocampal Formation,PNKP,5,127,46.0,1.0,65.0,1.0,46,0.059361634141751,98,1.0,98,1.0,rank aggregation score; not an MDD-association p-value
+11313,1.0,91,Hippocampal Formation,LYPLA2,3,127,,,,,100,1.0,99,1.0,99,1.0,rank aggregation score; not an MDD-association p-value
+116159,1.0,92,Hippocampal Formation,CYYR1,4,127,,,66.0,1.0,101,1.0,100,1.0,100,1.0,rank aggregation score; not an MDD-association p-value
+118424,1.0,93,Hippocampal Formation,UBE2J2,4,127,,,67.0,1.0,102,1.0,101,1.0,30,0.0038955257267362,rank aggregation score; not an MDD-association p-value
+121273,1.0,94,Hippocampal Formation,C12orf54,4,127,,,68.0,1.0,103,1.0,102,1.0,43,0.118672783927169,rank aggregation score; not an MDD-association p-value
+124044,1.0,95,Hippocampal Formation,SPATA2L,4,127,,,69.0,1.0,104,1.0,103,1.0,39,0.0314025113245346,rank aggregation score; not an MDD-association p-value
+26205,1.0,96,Hippocampal Formation,GMEB2,5,127,51.0,1.0,72.0,1.0,44,0.0366438184791512,53,0.34470011389248,101,1.0,rank aggregation score; not an MDD-association p-value
+2781,1.0,97,Hippocampal Formation,GNAZ,3,127,,,,,105,1.0,104,1.0,102,1.0,rank aggregation score; not an MDD-association p-value
+286467,1.0,98,Hippocampal Formation,FIRRE,4,127,,,74.0,1.0,45,0.0368069788069232,63,0.923698433270143,50,0.584992003963601,rank aggregation score; not an MDD-association p-value
+3174,1.0,99,Hippocampal Formation,HNF4G,4,127,,,75.0,1.0,106,1.0,105,1.0,103,1.0,rank aggregation score; not an MDD-association p-value
+348180,1.0,100,Hippocampal Formation,CTU2,4,127,,,76.0,1.0,107,1.0,106,1.0,104,1.0,rank aggregation score; not an MDD-association p-value
+400804,1.0,101,Hippocampal Formation,LINC02817,4,127,,,77.0,1.0,108,1.0,107,1.0,51,0.605619558904658,rank aggregation score; not an MDD-association p-value
+407,1.0,102,Hippocampal Formation,ARR3,3,127,,,,,109,1.0,108,1.0,105,1.0,rank aggregation score; not an MDD-association p-value
+4257,1.0,103,Hippocampal Formation,MGST1,4,127,,,78.0,1.0,38,0.0045594212683763,38,0.007898464461447,106,1.0,rank aggregation score; not an MDD-association p-value
+4308,1.0,104,Hippocampal Formation,TRPM1,5,127,54.0,1.0,79.0,1.0,60,0.492263225696609,48,0.056432129589746,107,1.0,rank aggregation score; not an MDD-association p-value
+4885,1.0,105,Hippocampal Formation,NPTX2,4,127,,,80.0,1.0,110,1.0,45,0.028608701023926,108,1.0,rank aggregation score; not an MDD-association p-value
+51115,1.0,106,Hippocampal Formation,RMDN1,3,127,,,,,111,1.0,109,1.0,109,1.0,rank aggregation score; not an MDD-association p-value
+51250,1.0,107,Hippocampal Formation,MTRES1,4,127,,,81.0,1.0,53,0.132977328079935,44,0.0210210236619494,48,0.272579767267988,rank aggregation score; not an MDD-association p-value
+54555,1.0,108,Hippocampal Formation,DDX49,3,127,,,,,112,1.0,110,1.0,49,0.5021052242733,rank aggregation score; not an MDD-association p-value
+54619,1.0,109,Hippocampal Formation,CCNJ,3,127,,,,,113,1.0,111,1.0,111,1.0,rank aggregation score; not an MDD-association p-value
+57821,1.0,110,Hippocampal Formation,CCDC181,4,127,,,82.0,1.0,114,1.0,112,1.0,112,1.0,rank aggregation score; not an MDD-association p-value
+642826,1.0,111,Hippocampal Formation,BMS1P2,5,127,56.0,1.0,83.0,1.0,57,0.228839587531798,56,0.492208021692968,113,1.0,rank aggregation score; not an MDD-association p-value
+654841,1.0,112,Hippocampal Formation,MFF-DT,4,127,,,85.0,1.0,54,0.132977328079935,114,1.0,41,0.0654506637163714,rank aggregation score; not an MDD-association p-value
+65996,1.0,113,Hippocampal Formation,CENPBD2P,4,127,,,86.0,1.0,116,1.0,115,1.0,114,1.0,rank aggregation score; not an MDD-association p-value
+684959,1.0,114,Hippocampal Formation,SNORA25,4,127,,,87.0,1.0,31,0.0003273199353606,42,0.0112107143338322,115,1.0,rank aggregation score; not an MDD-association p-value
+7264,1.0,115,Hippocampal Formation,GFUS,3,127,,,,,117,1.0,116,1.0,116,1.0,rank aggregation score; not an MDD-association p-value
+78992,1.0,116,Hippocampal Formation,YIPF2,4,127,,,88.0,1.0,118,1.0,117,1.0,47,0.203614202112737,rank aggregation score; not an MDD-association p-value
+79803,1.0,117,Hippocampal Formation,HPS6,3,127,,,,,119,1.0,118,1.0,118,1.0,rank aggregation score; not an MDD-association p-value
+79839,1.0,118,Hippocampal Formation,CCDC102B,5,127,57.0,1.0,89.0,1.0,120,1.0,119,1.0,119,1.0,rank aggregation score; not an MDD-association p-value
+79917,1.0,119,Hippocampal Formation,MAGIX,4,127,,,90.0,1.0,56,0.215069814994876,120,1.0,120,1.0,rank aggregation score; not an MDD-association p-value
+80342,1.0,120,Hippocampal Formation,TRAF3IP3,3,127,,,,,121,1.0,121,1.0,16,7.47432052194826e-05,rank aggregation score; not an MDD-association p-value
+8192,1.0,121,Hippocampal Formation,CLPP,4,127,,,91.0,1.0,122,1.0,122,1.0,121,1.0,rank aggregation score; not an MDD-association p-value
+83861,1.0,122,Hippocampal Formation,RSPH3,3,127,,,,,123,1.0,123,1.0,122,1.0,rank aggregation score; not an MDD-association p-value
+84236,1.0,123,Hippocampal Formation,RHBDD1,4,127,,,92.0,1.0,124,1.0,124,1.0,123,1.0,rank aggregation score; not an MDD-association p-value
+84327,1.0,124,Hippocampal Formation,ZBED3,3,127,,,,,125,1.0,125,1.0,124,1.0,rank aggregation score; not an MDD-association p-value
+85417,1.0,125,Hippocampal Formation,CCNB3,3,127,,,,,126,1.0,58,0.547657996484636,125,1.0,rank aggregation score; not an MDD-association p-value
+90075,1.0,126,Hippocampal Formation,ZNF30,3,127,,,,,127,1.0,126,1.0,126,1.0,rank aggregation score; not an MDD-association p-value
+993,1.0,127,Hippocampal Formation,CDC25A,3,127,,,,,49,0.0750853932542552,127,1.0,127,1.0,rank aggregation score; not an MDD-association p-value
+107985795,3.77481335880658e-07,1,CG25,LOC107985795,5,186,1.0,1.44963689712161e-17,2.0,9.95680839810262e-20,2,1.02567264899281e-20,7,1.10797329829507e-16,6,6.462145499551121e-09,rank aggregation score; not an MDD-association p-value
+79760,3.61716824090651e-06,2,CG25,GEMIN7,5,186,5.0,1.47944483587107e-09,6.0,1.86575451728169e-12,7,2.73357868173481e-16,11,9.54361302493895e-16,10,1.03360140853126e-06,rank aggregation score; not an MDD-association p-value
+105372507,5.25522656599629e-06,3,CG25,LOC105372507,5,186,3.0,4.41079324216056e-13,3.0,2.5064455478773e-18,4,4.1972506029712e-18,3,4.1972506029712e-18,52,0.187836054814728,rank aggregation score; not an MDD-association p-value
+401010,5.25522656599629e-06,4,CG25,NOC2LP2,5,186,4.0,2.61985594308854e-12,4.0,3.11974206122763e-17,3,6.9034659446015e-20,2,7.88816791525796e-21,14,1.65007487857968e-05,rank aggregation score; not an MDD-association p-value
+919,8.33915497370958e-06,5,CG25,CD247,5,186,9.0,6.7673899481591e-05,10.0,2.80430543559295e-10,13,2.9011010191247e-14,6,1.82733222041422e-17,2,3.67509128463896e-13,rank aggregation score; not an MDD-association p-value
+105377644,1.2079402748181e-05,6,CG25,LOC105377644,5,186,2.0,5.97971081347374e-16,1.0,5.19515813527471e-23,5,9.80785268843749e-18,14,6.705876486347791e-15,8,2.24030939150328e-08,rank aggregation score; not an MDD-association p-value
+100861412,4.24392605984019e-05,7,CG25,FSBP,5,186,12.0,0.0003052044078583,12.0,7.328231283290481e-10,8,9.54361302493895e-16,16,4.91074448532824e-14,18,6.16032725890077e-05,rank aggregation score; not an MDD-association p-value
+26071,4.8641166423479e-05,8,CG25,RTL8A,5,186,7.0,6.77883799149281e-07,5.0,2.09950483821594e-13,1,2.58085200381178e-22,5,9.80785268843749e-18,128,1.0,rank aggregation score; not an MDD-association p-value
+23783,0.0001998919431985,9,CG25,ANKRD62P1-PARP4P3,5,186,8.0,8.60037785761643e-06,7.0,8.98257310306686e-12,10,2.8988172135528e-15,1,3.55209279373946e-28,71,0.976111762553233,rank aggregation score; not an MDD-association p-value
+5092,0.0004107701272734,10,CG25,PCBD1,5,186,10.0,8.69683888134532e-05,8.0,1.7882705175113197e-11,11,3.886485316739881e-15,12,2.5635862732849203e-15,41,0.0601383255850651,rank aggregation score; not an MDD-association p-value
+101926987,0.000460675666387,11,CG25,DLGAP4-AS1,5,186,15.0,0.0065952507918968,16.0,2.05829167850337e-08,29,1.40636392828886e-07,27,1.24002035448064e-09,5,4.55910138557594e-09,rank aggregation score; not an MDD-association p-value
+64773,0.000460675666387,12,CG25,PCED1A,5,186,23.0,0.318992548802381,18.0,7.61355364494953e-06,24,2.4598543702063404e-09,29,3.440709352991e-09,11,3.0619778563351e-06,rank aggregation score; not an MDD-association p-value
+4223,0.0007540998572793,13,CG25,MEOX2,5,186,14.0,0.0052156174313333,13.0,1.43836077918222e-09,9,1.05548227263941e-15,9,2.35923614875649e-16,44,0.0738437728566517,rank aggregation score; not an MDD-association p-value
+27098,0.0016169933527592,14,CG25,CLUL1,5,186,17.0,0.0198259405705461,14.0,1.98936022842902e-09,12,2.75577599382486e-14,4,4.1972506029712e-18,129,1.0,rank aggregation score; not an MDD-association p-value
+101927947,0.0017796035619306,15,CG25,LOC101927947,5,186,32.0,1.0,38.0,0.417689558951314,37,4.39673742469422e-07,33,4.33579472460588e-08,34,0.039906163146563,rank aggregation score; not an MDD-association p-value
+101927655,0.0020264146586114,16,CG25,ZASP,5,186,31.0,1.0,39.0,0.702385534977218,36,4.39673742469422e-07,32,2.57802238344865e-08,19,8.30989146213674e-05,rank aggregation score; not an MDD-association p-value
+115290,0.0020264146586114,17,CG25,FBXO17,5,186,11.0,0.0001595432960501,24.0,0.0009328982275869,20,7.82973413003726e-11,22,8.93851111640338e-11,39,0.0598827503640062,rank aggregation score; not an MDD-association p-value
+339448,0.0020264146586114,18,CG25,C1orf174,5,186,6.0,3.07978903981441e-09,15.0,4.33218275518213e-09,19,3.48591405721398e-11,39,2.8153720110158e-07,7,7.88652828341459e-09,rank aggregation score; not an MDD-association p-value
+101927051,0.0026021034999427,19,CG25,PDXP-DT,5,186,20.0,0.0488790295835572,17.0,1.65288872133058e-07,26,1.1658556301395e-08,41,5.68606849393265e-07,12,1.26721502542988e-05,rank aggregation score; not an MDD-association p-value
+116349,0.0041444590428126,20,CG25,EXOC3-AS1,5,186,18.0,0.0440128270884732,23.0,0.0009256411206397,35,4.32664448524439e-07,45,4.57210718618274e-06,4,9.50576920877391e-10,rank aggregation score; not an MDD-association p-value
+342346,0.0044300445946811,21,CG25,C16orf96,5,186,51.0,1.0,9.0,2.95873975960767e-11,6,1.82733222041422e-17,10,5.14773505499764e-16,22,0.001361630365902,rank aggregation score; not an MDD-association p-value
+83547,0.00621464464664,22,CG25,RILP,5,186,24.0,0.355169376529878,21.0,0.0002184475692893,15,1.51160846128927e-13,13,3.886485316739881e-15,178,1.0,rank aggregation score; not an MDD-association p-value
+79812,0.0072818781976293,23,CG25,MMRN2,5,186,25.0,0.428975647296242,19.0,1.99096468172686e-05,23,1.75060395877308e-09,20,1.9649987502294e-11,63,0.554261928943431,rank aggregation score; not an MDD-association p-value
+79798,0.0085392946930786,24,CG25,ARMC5,5,186,13.0,0.0005380368276054,20.0,0.0001922400384143,33,4.07124209851124e-07,52,4.85269740919872e-05,36,0.0458173840470223,rank aggregation score; not an MDD-association p-value
+645,0.009811426559593,25,CG25,BLVRB,5,186,27.0,0.682175387284693,26.0,0.001305680222244,27,9.55354251347705e-08,26,8.74128180051179e-10,55,0.201372298031581,rank aggregation score; not an MDD-association p-value
+10137,0.0103127403254117,26,CG25,RBM12,5,186,30.0,1.0,50.0,1.0,52,5.8773971988106e-05,54,7.77261166391808e-05,38,0.0492849254592065,rank aggregation score; not an MDD-association p-value
+441389,0.0123693084141374,27,CG25,LINC01239,5,186,56.0,1.0,33.0,0.0247571792961767,21,1.36751437617802e-10,30,9.312598466065431e-09,33,0.0363364921338135,rank aggregation score; not an MDD-association p-value
+80759,0.0129306893944504,28,CG25,KHDC1,5,186,19.0,0.0471128151622427,29.0,0.0048918767611402,14,8.22277494558668e-14,8,1.10797329829507e-16,176,1.0,rank aggregation score; not an MDD-association p-value
+4500,0.0135138645484108,29,CG25,MT1L,5,186,57.0,1.0,31.0,0.0097746167838608,31,3.28230654847206e-07,17,5.84807782170372e-13,43,0.0736513506129411,rank aggregation score; not an MDD-association p-value
+51542,0.0147358543744451,30,CG25,VPS54,5,186,22.0,0.318992548802381,28.0,0.0018873000241182,30,1.78161875349091e-07,59,0.0006695121545791,15,4.13806418196689e-05,rank aggregation score; not an MDD-association p-value
+55049,0.0147416213243857,31,CG25,REX1BD,5,186,58.0,1.0,40.0,0.768053891050776,16,1.47633066487142e-12,15,2.9011010191247e-14,23,0.004414468858347,rank aggregation score; not an MDD-association p-value
+79177,0.0188877212554544,32,CG25,ZNF576,5,186,66.0,1.0,11.0,4.49072183719353e-10,18,2.95058846789345e-11,18,1.30630050531453e-12,32,0.0362900050536948,rank aggregation score; not an MDD-association p-value
+60468,0.0189694377331672,33,CG25,BACH2,5,186,61.0,1.0,34.0,0.0739624139726315,25,3.440709352991e-09,48,1.26659751382772e-05,60,0.377776916913128,rank aggregation score; not an MDD-association p-value
+7469,0.0260598592928424,34,CG25,NELFA,5,186,65.0,1.0,35.0,0.138989239048862,34,4.14673691714888e-07,35,6.94965790756766e-08,48,0.132314445247851,rank aggregation score; not an MDD-association p-value
+581,0.028127100241289,35,CG25,BAX,5,186,16.0,0.0117735279480413,30.0,0.0092522121253042,66,0.0019565224647522,63,0.0009724053486684,20,0.0003538265664471,rank aggregation score; not an MDD-association p-value
+79917,0.0303234978875692,36,CG25,MAGIX,5,186,67.0,1.0,37.0,0.244884387047315,22,4.68063416388383e-10,24,3.11832390359728e-10,65,0.60493440511428,rank aggregation score; not an MDD-association p-value
+105376527,0.0326550119313602,37,CG25,STIM1-AS1,5,186,35.0,1.0,56.0,1.0,68,0.003078228998783,60,0.0007357043135484,26,0.0114814357678923,rank aggregation score; not an MDD-association p-value
+390072,0.0326550119313602,38,CG25,OR52N4,5,186,54.0,1.0,36.0,0.169095512305074,41,1.81736065098725e-06,21,3.48591405721398e-11,68,0.717798579127148,rank aggregation score; not an MDD-association p-value
+6697,0.0364350413468958,39,CG25,SPR,5,186,21.0,0.162065579692769,27.0,0.0013397908871186,38,5.8943882448679e-07,38,1.8714714534596e-07,161,1.0,rank aggregation score; not an MDD-association p-value
+2021,0.0434578028527636,40,CG25,ENDOG,5,186,44.0,1.0,72.0,1.0,63,0.0004361617276529,58,0.0006593441694465,27,0.0118584859075508,rank aggregation score; not an MDD-association p-value
+23636,0.0569473139817806,41,CG25,NUP62,5,186,47.0,1.0,76.0,1.0,53,6.21141966809161e-05,61,0.0008086194608962,40,0.0601383255850651,rank aggregation score; not an MDD-association p-value
+1846,0.0582033941209803,42,CG25,DUSP4,5,186,43.0,1.0,25.0,0.001305680222244,32,3.60743545154326e-07,42,2.5272931849531e-06,118,1.0,rank aggregation score; not an MDD-association p-value
+105377576,0.0750197197525579,43,CG25,LOC105377576,5,186,36.0,1.0,22.0,0.0002231578706202,46,8.89654005825013e-06,37,7.43122703485582e-08,92,1.0,rank aggregation score; not an MDD-association p-value
+23350,0.0750197197525579,44,CG25,U2SURP,5,186,46.0,1.0,41.0,0.799363901217483,45,4.23546489189846e-06,43,2.75910542762992e-06,124,1.0,rank aggregation score; not an MDD-association p-value
+25915,0.0996551877788091,45,CG25,NDUFAF3,5,186,48.0,1.0,78.0,1.0,58,0.0002024266423686,85,0.212917799375405,66,0.660331704605877,rank aggregation score; not an MDD-association p-value
+105375038,0.118527368918025,46,CG25,LOC105375038,5,186,33.0,1.0,54.0,1.0,81,0.0362900050536948,66,0.0013545365860914,88,1.0,rank aggregation score; not an MDD-association p-value
+348926,0.118527368918025,47,CG25,FAM86EP,5,186,52.0,1.0,88.0,1.0,69,0.003743012692757,74,0.0234220643744182,42,0.0736513506129411,rank aggregation score; not an MDD-association p-value
+105376030,0.125416684741211,48,CG25,LOC105376030,5,186,34.0,1.0,55.0,1.0,65,0.0009051840743356,28,1.75060395877308e-09,89,1.0,rank aggregation score; not an MDD-association p-value
+375748,0.132622689370006,49,CG25,ERCC6L2,5,186,53.0,1.0,90.0,1.0,39,1.64777241902321e-06,55,7.94569239712226e-05,58,0.292977944913364,rank aggregation score; not an MDD-association p-value
+3107,0.132971097680496,50,CG25,HLA-C,5,186,49.0,1.0,85.0,1.0,98,0.345001148081011,89,0.307773598311221,1,2.60320800614439e-14,rank aggregation score; not an MDD-association p-value
+10974,0.148028186964833,51,CG25,ADIRF,5,186,28.0,0.901820977045702,65.0,1.0,89,0.101581222325823,92,0.630407021163138,35,0.0412395668790714,rank aggregation score; not an MDD-association p-value
+399888,0.148028186964833,52,CG25,FAM180B,5,186,55.0,1.0,92.0,1.0,47,9.57297711844285e-06,51,2.48148037764287e-05,62,0.547076061126174,rank aggregation score; not an MDD-association p-value
+100037417,0.164833147369394,53,CG25,DDTL,5,186,29.0,1.0,42.0,1.0,62,0.0004361617276529,94,1.0,9,9.42713733782042e-08,rank aggregation score; not an MDD-association p-value
+55337,0.183130823544156,54,CG25,SHFL,5,186,59.0,1.0,96.0,1.0,17,5.56950043622604e-12,25,4.68063416388383e-10,45,0.0830998512658721,rank aggregation score; not an MDD-association p-value
+58485,0.224597688987123,55,CG25,TRAPPC1,5,186,60.0,1.0,100.0,1.0,56,0.0001505089798345,80,0.0887883088389536,3,2.55262221141699e-10,rank aggregation score; not an MDD-association p-value
+64333,0.226337448559671,56,CG25,ARHGAP9,5,186,62.0,1.0,102.0,1.0,54,7.77261166391808e-05,49,1.96228929599066e-05,16,4.78322810975319e-05,rank aggregation score; not an MDD-association p-value
+677829,0.23988173147363,57,CG25,SNORA49,5,186,63.0,1.0,105.0,1.0,51,3.13119626590287e-05,44,2.75910542762992e-06,37,0.0460150622673909,rank aggregation score; not an MDD-association p-value
+80162,0.332950287715483,58,CG25,PGGHG,5,186,68.0,1.0,111.0,1.0,64,0.0007357043135484,31,1.85671983499633e-08,69,0.851746191055136,rank aggregation score; not an MDD-association p-value
+8971,0.350518383317753,59,CG25,H1-10,5,186,70.0,1.0,115.0,1.0,61,0.0003898661563543,68,0.0013750812506589,47,0.119327649138558,rank aggregation score; not an MDD-association p-value
+140825,0.406927839333579,60,CG25,NEURL2,5,186,40.0,1.0,32.0,0.0219394140316159,73,0.0099675658270649,67,0.0013750812506589,113,1.0,rank aggregation score; not an MDD-association p-value
+100505746,0.447703908945815,61,CG25,ITGB2-AS1,4,186,,,46.0,1.0,43,2.13505840565909e-06,40,3.28230654847206e-07,75,1.0,rank aggregation score; not an MDD-association p-value
+158572,0.451746176040139,62,CG25,USP27X-DT,5,186,41.0,1.0,69.0,1.0,111,0.790663638719903,86,0.22070329276655,115,1.0,rank aggregation score; not an MDD-association p-value
+100506119,0.469066033586772,63,CG25,LINC01503,4,186,,,47.0,1.0,70,0.0057069941503826,75,0.025547652014477,76,1.0,rank aggregation score; not an MDD-association p-value
+113230,0.469066033586772,64,CG25,MISP3,5,186,39.0,1.0,67.0,1.0,76,0.0143579872471745,124,1.0,17,5.43990473425066e-05,rank aggregation score; not an MDD-association p-value
+112268006,0.513774054983328,65,CG25,LOC112268006,4,186,,,66.0,1.0,44,2.75910542762992e-06,78,0.0460150622673909,30,0.0248449854356025,rank aggregation score; not an MDD-association p-value
+26512,0.53713322815752,66,CG25,INTS6,4,186,,,79.0,1.0,50,3.13119626590287e-05,65,0.0011173315541593,50,0.140393069593789,rank aggregation score; not an MDD-association p-value
+102724330,0.561170801795665,67,CG25,PCMTD1-DT,4,186,,,53.0,1.0,80,0.0349556465879816,64,0.0011113404919666,59,0.313521539434592,rank aggregation score; not an MDD-association p-value
+2671,0.561170801795665,68,CG25,GFER,4,186,,,80.0,1.0,49,1.9371509552002e-05,69,0.0014769984214689,24,0.0047099007082593,rank aggregation score; not an MDD-association p-value
+10105,0.59098175960407,69,CG25,PPIF,4,186,,,49.0,1.0,82,0.0379706725342812,46,5.60214587289306e-06,28,0.0128458550153281,rank aggregation score; not an MDD-association p-value
+100131564,0.691724244582322,70,CG25,CCDC18-AS1,4,186,,,45.0,1.0,85,0.0587405214935821,81,0.136313881865645,73,1.0,rank aggregation score; not an MDD-association p-value
+107986162,0.833915497370958,71,CG25,LOC107986162,5,186,37.0,1.0,60.0,1.0,130,1.0,116,1.0,99,1.0,rank aggregation score; not an MDD-association p-value
+100874047,0.839943699343372,72,CG25,LINC00499,4,186,,,48.0,1.0,84,0.0530565437968851,90,0.372260003598241,81,1.0,rank aggregation score; not an MDD-association p-value
+79172,0.858598330422024,73,CG25,CENPO,5,186,26.0,0.524877205833799,109.0,1.0,57,0.0001505089798345,57,0.0001868814236613,173,1.0,rank aggregation score; not an MDD-association p-value
+10204,0.871740621384786,74,CG25,NUTF2,4,186,,,52.0,1.0,42,1.83415079898314e-06,91,0.399148331881427,84,1.0,rank aggregation score; not an MDD-association p-value
+105377115,0.871740621384786,75,CG25,LOC105377115,4,186,,,57.0,1.0,86,0.0601490920542239,36,7.29765409007368e-08,91,1.0,rank aggregation score; not an MDD-association p-value
+107987063,0.900067207721249,76,CG25,LOC107987063,5,186,38.0,1.0,62.0,1.0,132,1.0,118,1.0,101,1.0,rank aggregation score; not an MDD-association p-value
+1652,0.934681158292759,77,CG25,DDT,5,186,42.0,1.0,70.0,1.0,93,0.160770403533584,133,1.0,13,1.62621194654529e-05,rank aggregation score; not an MDD-association p-value
+100124536,1.0,78,CG25,SNORA38B,4,186,,,43.0,1.0,112,1.0,95,1.0,67,0.7022821572229,rank aggregation score; not an MDD-association p-value
+100128511,1.0,79,CG25,NEBL-AS1,4,186,,,44.0,1.0,113,1.0,96,1.0,72,1.0,rank aggregation score; not an MDD-association p-value
+10046,1.0,80,CG25,MAMLD1,3,186,,,,,114,1.0,97,1.0,74,1.0,rank aggregation score; not an MDD-association p-value
+100506753,1.0,81,CG25,MAILR,3,186,,,,,115,1.0,98,1.0,77,1.0,rank aggregation score; not an MDD-association p-value
+100506874,1.0,82,CG25,LINC00933,3,186,,,,,116,1.0,99,1.0,78,1.0,rank aggregation score; not an MDD-association p-value
+100529262,1.0,83,CG25,MIA-RAB4B,3,186,,,,,92,0.119011004973527,100,1.0,79,1.0,rank aggregation score; not an MDD-association p-value
+100750326,1.0,84,CG25,HTT-AS,3,186,,,,,117,1.0,101,1.0,80,1.0,rank aggregation score; not an MDD-association p-value
+101447996,1.0,85,CG25,RNVU1-8,3,186,,,,,118,1.0,102,1.0,82,1.0,rank aggregation score; not an MDD-association p-value
+101929270,1.0,86,CG25,LOC101929270,4,186,,,51.0,1.0,119,1.0,103,1.0,83,1.0,rank aggregation score; not an MDD-association p-value
+101954273,1.0,87,CG25,RNVU1-1,3,186,,,,,96,0.222912500798563,104,1.0,31,0.0304927362211199,rank aggregation score; not an MDD-association p-value
+105371413,1.0,88,CG25,LOC105371413,3,186,,,,,120,1.0,105,1.0,85,1.0,rank aggregation score; not an MDD-association p-value
+105371743,1.0,89,CG25,SNHG30,3,186,,,,,121,1.0,106,1.0,86,1.0,rank aggregation score; not an MDD-association p-value
+105372817,1.0,90,CG25,LOC105372817,3,186,,,,,122,1.0,107,1.0,87,1.0,rank aggregation score; not an MDD-association p-value
+105377021,1.0,91,CG25,LOC105377021,3,186,,,,,123,1.0,108,1.0,90,1.0,rank aggregation score; not an MDD-association p-value
+105378683,1.0,92,CG25,TMEM269-DT,4,186,,,58.0,1.0,124,1.0,109,1.0,93,1.0,rank aggregation score; not an MDD-association p-value
+10607,1.0,93,CG25,TBL3,3,186,,,,,125,1.0,110,1.0,94,1.0,rank aggregation score; not an MDD-association p-value
+10641,1.0,94,CG25,NPRL2,4,186,,,59.0,1.0,105,0.531308221168691,111,1.0,95,1.0,rank aggregation score; not an MDD-association p-value
+10657,1.0,95,CG25,KHDRBS1,3,186,,,,,126,1.0,112,1.0,96,1.0,rank aggregation score; not an MDD-association p-value
+107984815,1.0,96,CG25,LOC107984815,3,186,,,,,127,1.0,113,1.0,97,1.0,rank aggregation score; not an MDD-association p-value
+107984836,1.0,97,CG25,KCTD13-DT,3,186,,,,,128,1.0,114,1.0,98,1.0,rank aggregation score; not an MDD-association p-value
+107985695,1.0,98,CG25,LOC107985695,3,186,,,,,129,1.0,115,1.0,21,0.0013545365860914,rank aggregation score; not an MDD-association p-value
+107986526,1.0,99,CG25,LOC107986526,4,186,,,61.0,1.0,131,1.0,117,1.0,100,1.0,rank aggregation score; not an MDD-association p-value
+107987254,1.0,100,CG25,LOC107987254,3,186,,,,,133,1.0,119,1.0,102,1.0,rank aggregation score; not an MDD-association p-value
+10901,1.0,101,CG25,DHRS4,4,186,,,63.0,1.0,72,0.0068823437811256,76,0.0416081786630364,103,1.0,rank aggregation score; not an MDD-association p-value
+109616960,1.0,102,CG25,SNORA10B,4,186,,,64.0,1.0,134,1.0,120,1.0,104,1.0,rank aggregation score; not an MDD-association p-value
+11017,1.0,103,CG25,SNRNP27,3,186,,,,,135,1.0,121,1.0,105,1.0,rank aggregation score; not an MDD-association p-value
+11186,1.0,104,CG25,RASSF1,3,186,,,,,136,1.0,122,1.0,106,1.0,rank aggregation score; not an MDD-association p-value
+11316,1.0,105,CG25,COPE,3,186,,,,,137,1.0,123,1.0,51,0.143396543875494,rank aggregation score; not an MDD-association p-value
+119385,1.0,106,CG25,AGAP11,4,186,,,68.0,1.0,87,0.069670635494089,73,0.0068823437811256,107,1.0,rank aggregation score; not an MDD-association p-value
+124751,1.0,107,CG25,KRBA2,3,186,,,,,94,0.162579945841854,125,1.0,56,0.212917799375405,rank aggregation score; not an MDD-association p-value
+130535,1.0,108,CG25,KCTD18,3,186,,,,,138,1.0,126,1.0,108,1.0,rank aggregation score; not an MDD-association p-value
+131616,1.0,109,CG25,TMEM42,3,186,,,,,139,1.0,127,1.0,109,1.0,rank aggregation score; not an MDD-association p-value
+132864,1.0,110,CG25,CPEB2,3,186,,,,,140,1.0,128,1.0,110,1.0,rank aggregation score; not an MDD-association p-value
+1355,1.0,111,CG25,COX15,3,186,,,,,141,1.0,129,1.0,111,1.0,rank aggregation score; not an MDD-association p-value
+137682,1.0,112,CG25,NDUFAF6,3,186,,,,,90,0.115451048016701,130,1.0,112,1.0,rank aggregation score; not an MDD-association p-value
+149345,1.0,113,CG25,SHISA4,3,186,,,,,101,0.423197971247707,131,1.0,114,1.0,rank aggregation score; not an MDD-association p-value
+161742,1.0,114,CG25,SPRED1,3,186,,,,,109,0.677272285052147,77,0.0416081786630364,116,1.0,rank aggregation score; not an MDD-association p-value
+1628,1.0,115,CG25,DBP,3,186,,,,,95,0.189409681443435,132,1.0,117,1.0,rank aggregation score; not an MDD-association p-value
+201292,1.0,116,CG25,TRIM65,4,186,,,71.0,1.0,142,1.0,134,1.0,119,1.0,rank aggregation score; not an MDD-association p-value
+2160,1.0,117,CG25,F11,3,186,,,,,143,1.0,135,1.0,120,1.0,rank aggregation score; not an MDD-association p-value
+221584,1.0,118,CG25,ZSCAN12P1,4,186,,,73.0,1.0,144,1.0,136,1.0,121,1.0,rank aggregation score; not an MDD-association p-value
+221756,1.0,119,CG25,SERPINB9P1,5,186,45.0,1.0,74.0,1.0,75,0.0137026525029944,137,1.0,122,1.0,rank aggregation score; not an MDD-association p-value
+22944,1.0,120,CG25,KIN,3,186,,,,,100,0.399148331881427,79,0.0625623870019394,25,0.0099675658270649,rank aggregation score; not an MDD-association p-value
+23344,1.0,121,CG25,ESYT1,3,186,,,,,145,1.0,138,1.0,123,1.0,rank aggregation score; not an MDD-association p-value
+23481,1.0,122,CG25,PES1,3,186,,,,,146,1.0,139,1.0,125,1.0,rank aggregation score; not an MDD-association p-value
+23616,1.0,123,CG25,SH3BP1,4,186,,,75.0,1.0,108,0.602729753456281,140,1.0,54,0.195282507785198,rank aggregation score; not an MDD-association p-value
+23642,1.0,124,CG25,SNHG1,4,186,,,77.0,1.0,59,0.0002212808459222,19,1.9649987502294e-11,126,1.0,rank aggregation score; not an MDD-association p-value
+246269,1.0,125,CG25,AFG1L,3,186,,,,,147,1.0,141,1.0,127,1.0,rank aggregation score; not an MDD-association p-value
+27129,1.0,126,CG25,HSPB7,4,186,,,81.0,1.0,28,1.05336209015085e-07,34,5.03241593860059e-08,130,1.0,rank aggregation score; not an MDD-association p-value
+27257,1.0,127,CG25,LSM1,4,186,,,82.0,1.0,148,1.0,142,1.0,131,1.0,rank aggregation score; not an MDD-association p-value
+282969,1.0,128,CG25,FUOM,3,186,,,,,149,1.0,143,1.0,132,1.0,rank aggregation score; not an MDD-association p-value
+286016,1.0,129,CG25,TPI1P2,3,186,,,,,150,1.0,144,1.0,133,1.0,rank aggregation score; not an MDD-association p-value
+28957,1.0,130,CG25,MRPS28,3,186,,,,,151,1.0,145,1.0,134,1.0,rank aggregation score; not an MDD-association p-value
+28976,1.0,131,CG25,ACAD9,4,186,,,83.0,1.0,104,0.481303925790285,146,1.0,70,0.85591754913757,rank aggregation score; not an MDD-association p-value
+29108,1.0,132,CG25,PYCARD,3,186,,,,,152,1.0,147,1.0,135,1.0,rank aggregation score; not an MDD-association p-value
+29774,1.0,133,CG25,POM121L9P,4,186,,,84.0,1.0,153,1.0,148,1.0,136,1.0,rank aggregation score; not an MDD-association p-value
+29797,1.0,134,CG25,POM121L8P,3,186,,,,,97,0.324710747032983,72,0.003006213246138,137,1.0,rank aggregation score; not an MDD-association p-value
+317749,1.0,135,CG25,DHRS4L2,4,186,,,86.0,1.0,79,0.0329602315716057,149,1.0,138,1.0,rank aggregation score; not an MDD-association p-value
+326625,1.0,136,CG25,MMAB,3,186,,,,,154,1.0,150,1.0,139,1.0,rank aggregation score; not an MDD-association p-value
+339855,1.0,137,CG25,KY,5,186,50.0,1.0,87.0,1.0,155,1.0,151,1.0,46,0.0949579224402272,rank aggregation score; not an MDD-association p-value
+339942,1.0,138,CG25,H1-10-AS1,3,186,,,,,156,1.0,88,0.297734108700431,140,1.0,rank aggregation score; not an MDD-association p-value
+342538,1.0,139,CG25,NACA2,3,186,,,,,157,1.0,152,1.0,141,1.0,rank aggregation score; not an MDD-association p-value
+374395,1.0,140,CG25,TMEM179B,4,186,,,89.0,1.0,103,0.46107286049072,153,1.0,142,1.0,rank aggregation score; not an MDD-association p-value
+388965,1.0,141,CG25,FUNDC2P2,4,186,,,91.0,1.0,158,1.0,154,1.0,29,0.0167214045659308,rank aggregation score; not an MDD-association p-value
+439931,1.0,142,CG25,THAP7-AS1,3,186,,,,,159,1.0,155,1.0,143,1.0,rank aggregation score; not an MDD-association p-value
+440730,1.0,143,CG25,TRIM67,3,186,,,,,160,1.0,156,1.0,144,1.0,rank aggregation score; not an MDD-association p-value
+4795,1.0,144,CG25,NFKBIL1,3,186,,,,,161,1.0,157,1.0,145,1.0,rank aggregation score; not an MDD-association p-value
+4817,1.0,145,CG25,NIT1,3,186,,,,,162,1.0,158,1.0,146,1.0,rank aggregation score; not an MDD-association p-value
+5031,1.0,146,CG25,P2RY6,3,186,,,,,163,1.0,159,1.0,147,1.0,rank aggregation score; not an MDD-association p-value
+51161,1.0,147,CG25,C3orf18,4,186,,,93.0,1.0,164,1.0,160,1.0,148,1.0,rank aggregation score; not an MDD-association p-value
+51279,1.0,148,CG25,C1RL,4,186,,,94.0,1.0,40,1.69243980357851e-06,23,1.98666009887556e-10,149,1.0,rank aggregation score; not an MDD-association p-value
+51347,1.0,149,CG25,TAOK3,3,186,,,,,165,1.0,161,1.0,53,0.187836054814728,rank aggregation score; not an MDD-association p-value
+53916,1.0,150,CG25,RAB4B,3,186,,,,,77,0.0227022142470871,162,1.0,57,0.250478845720717,rank aggregation score; not an MDD-association p-value
+54892,1.0,151,CG25,NCAPG2,4,186,,,95.0,1.0,166,1.0,163,1.0,150,1.0,rank aggregation score; not an MDD-association p-value
+55374,1.0,152,CG25,TMCO6,4,186,,,97.0,1.0,71,0.0057069941503826,56,9.70683148878548e-05,151,1.0,rank aggregation score; not an MDD-association p-value
+55683,1.0,153,CG25,KANSL3,4,186,,,98.0,1.0,60,0.0002865276816748,50,2.14197574210733e-05,152,1.0,rank aggregation score; not an MDD-association p-value
+56997,1.0,154,CG25,COQ8A,4,186,,,99.0,1.0,167,1.0,164,1.0,153,1.0,rank aggregation score; not an MDD-association p-value
+5782,1.0,155,CG25,PTPN12,3,186,,,,,168,1.0,165,1.0,154,1.0,rank aggregation score; not an MDD-association p-value
+5791,1.0,156,CG25,PTPRE,3,186,,,,,169,1.0,166,1.0,155,1.0,rank aggregation score; not an MDD-association p-value
+598,1.0,157,CG25,BCL2L1,4,186,,,101.0,1.0,83,0.0416081786630364,83,0.139210050266084,156,1.0,rank aggregation score; not an MDD-association p-value
+6271,1.0,158,CG25,S100A1,3,186,,,,,170,1.0,167,1.0,157,1.0,rank aggregation score; not an MDD-association p-value
+63894,1.0,159,CG25,VIPAS39,3,186,,,,,171,1.0,168,1.0,158,1.0,rank aggregation score; not an MDD-association p-value
+643542,1.0,160,CG25,DSEL-AS1,4,186,,,103.0,1.0,172,1.0,169,1.0,159,1.0,rank aggregation score; not an MDD-association p-value
+64852,1.0,161,CG25,TUT1,3,186,,,,,173,1.0,170,1.0,160,1.0,rank aggregation score; not an MDD-association p-value
+677766,1.0,162,CG25,SCARNA2,3,186,,,,,174,1.0,171,1.0,162,1.0,rank aggregation score; not an MDD-association p-value
+677776,1.0,163,CG25,SCARNA8,3,186,,,,,99,0.361083558207474,172,1.0,163,1.0,rank aggregation score; not an MDD-association p-value
+677781,1.0,164,CG25,SCARNA16,4,186,,,104.0,1.0,110,0.677272285052147,173,1.0,164,1.0,rank aggregation score; not an MDD-association p-value
+692148,1.0,165,CG25,SCARNA10,3,186,,,,,175,1.0,47,1.21884894483807e-05,165,1.0,rank aggregation score; not an MDD-association p-value
+7024,1.0,166,CG25,TFCP2,3,186,,,,,176,1.0,174,1.0,166,1.0,rank aggregation score; not an MDD-association p-value
+7029,1.0,167,CG25,TFDP2,3,186,,,,,88,0.087619708293735,82,0.136313881865645,167,1.0,rank aggregation score; not an MDD-association p-value
+7038,1.0,168,CG25,TG,3,186,,,,,177,1.0,175,1.0,168,1.0,rank aggregation score; not an MDD-association p-value
+7347,1.0,169,CG25,UCHL3,5,186,64.0,1.0,106.0,1.0,107,0.587159903355764,93,0.701675788570993,169,1.0,rank aggregation score; not an MDD-association p-value
+7727,1.0,170,CG25,ZNF174,3,186,,,,,178,1.0,176,1.0,170,1.0,rank aggregation score; not an MDD-association p-value
+7767,1.0,171,CG25,ZNF224,4,186,,,107.0,1.0,179,1.0,177,1.0,171,1.0,rank aggregation score; not an MDD-association p-value
+79002,1.0,172,CG25,TRIR,4,186,,,108.0,1.0,55,7.77261166391808e-05,62,0.0009051840743356,172,1.0,rank aggregation score; not an MDD-association p-value
+79759,1.0,173,CG25,ZNF668,4,186,,,110.0,1.0,67,0.0020313032751154,178,1.0,174,1.0,rank aggregation score; not an MDD-association p-value
+8013,1.0,174,CG25,NR4A3,3,186,,,,,106,0.579583441887237,179,1.0,175,1.0,rank aggregation score; not an MDD-association p-value
+80746,1.0,175,CG25,TSEN2,4,186,,,112.0,1.0,48,1.17247310995743e-05,71,0.0021896043359956,49,0.132314445247851,rank aggregation score; not an MDD-association p-value
+81848,1.0,176,CG25,SPRY4,4,186,,,113.0,1.0,180,1.0,180,1.0,177,1.0,rank aggregation score; not an MDD-association p-value
+84661,1.0,177,CG25,DPY30,3,186,,,,,181,1.0,181,1.0,179,1.0,rank aggregation score; not an MDD-association p-value
+84775,1.0,178,CG25,ZNF607,5,186,69.0,1.0,114.0,1.0,74,0.0119710041713459,53,6.21141966809161e-05,180,1.0,rank aggregation score; not an MDD-association p-value
+84836,1.0,179,CG25,ABHD14B,3,186,,,,,182,1.0,182,1.0,181,1.0,rank aggregation score; not an MDD-association p-value
+84984,1.0,180,CG25,CEP19,3,186,,,,,91,0.115451048016701,70,0.0017997385826342,64,0.578423563160989,rank aggregation score; not an MDD-association p-value
+8819,1.0,181,CG25,SAP30,3,186,,,,,102,0.423197971247707,84,0.162806259753239,182,1.0,rank aggregation score; not an MDD-association p-value
+89953,1.0,182,CG25,KLC4,3,186,,,,,183,1.0,183,1.0,183,1.0,rank aggregation score; not an MDD-association p-value
+9113,1.0,183,CG25,LATS1,5,186,71.0,1.0,116.0,1.0,78,0.0293308745768111,184,1.0,61,0.45177553598193,rank aggregation score; not an MDD-association p-value
+9304,1.0,184,CG25,SNORD22,3,186,,,,,184,1.0,185,1.0,184,1.0,rank aggregation score; not an MDD-association p-value
+9410,1.0,185,CG25,SNRNP40,3,186,,,,,185,1.0,186,1.0,185,1.0,rank aggregation score; not an MDD-association p-value
+9732,1.0,186,CG25,DOCK4,3,186,,,,,186,1.0,87,0.262064900259903,186,1.0,rank aggregation score; not an MDD-association p-value
+100996279,8.07527914449229e-06,1,dlPFC BA8/9,LINC00269,5,72,5.0,2.76368911018301e-10,4.0,5.31925281819907e-15,3,1.03411880340674e-13,5,1.04739372150278e-12,2,3.68407706738727e-07,rank aggregation score; not an MDD-association p-value
+65083,8.07527914449229e-06,2,dlPFC BA8/9,NOL6,5,72,2.0,1.29903156561859e-18,1.0,2.69864667610549e-22,1,5.90199465768029e-28,2,1.10833034193416e-21,5,7.20509222221662e-05,rank aggregation score; not an MDD-association p-value
+9374,1.45535910853698e-05,3,dlPFC BA8/9,PPT2,5,72,1.0,8.793438875357651e-19,2.0,6.99960173472016e-21,2,1.3945794373733502e-17,1,2.8820447019249e-22,7,0.0003593009703331,rank aggregation score; not an MDD-association p-value
+101929607,2.0093878600823e-05,4,dlPFC BA8/9,LINC01990,5,72,3.0,1.4499516117788e-13,3.0,2.09228196083555e-16,6,1.7575058507481002e-10,4,6.11539481418035e-13,6,0.00019577396223,rank aggregation score; not an MDD-association p-value
+107984015,8.46754390421513e-05,5,dlPFC BA8/9,LOC107984015,5,72,4.0,1.19625928381432e-10,6.0,1.19625928381432e-10,5,8.18705701210887e-11,8,1.19625928381432e-10,3,4.87352900988398e-06,rank aggregation score; not an MDD-association p-value
+388759,0.0004161701700798,6,dlPFC BA8/9,LINC02897,5,72,8.0,1.11680123129596e-06,5.0,2.90621269622818e-11,4,1.03411880340674e-13,11,1.02175241444604e-08,8,0.0004331873867706,rank aggregation score; not an MDD-association p-value
+83460,0.0013897852577943,7,dlPFC BA8/9,EMC6,5,72,10.0,1.22566414009833e-05,10.0,9.871775515487073e-09,13,4.91163186246561e-07,14,5.79820139825743e-07,4,9.90717776238744e-06,rank aggregation score; not an MDD-association p-value
+100287015,0.0034716930007282,8,dlPFC BA8/9,MCPH1-DT,5,72,6.0,1.04430218853268e-08,7.0,1.5048001186256702e-09,8,6.47670575324964e-10,7,6.463915538417189e-11,28,1.0,rank aggregation score; not an MDD-association p-value
+100532746,0.0036690373184836,9,dlPFC BA8/9,PPT2-EGFL8,5,72,17.0,1.0,15.0,5.1984715688322e-06,10,2.39227122677168e-08,15,5.1984715688322e-06,14,0.0207054103979763,rank aggregation score; not an MDD-association p-value
+105371009,0.0167181069958848,10,dlPFC BA8/9,LOC105371009,5,72,7.0,2.4192337022555e-08,11.0,7.02018707232201e-08,12,3.10865022612461e-07,9,3.92978736581227e-09,40,1.0,rank aggregation score; not an MDD-association p-value
+202781,0.0167181069958848,11,dlPFC BA8/9,PAXIP1-DT,5,72,12.0,0.00304379419955,12.0,7.02018707232201e-08,11,5.60698571641304e-08,3,2.2204460492503102e-14,59,1.0,rank aggregation score; not an MDD-association p-value
+100507283,0.0227316859759744,12,dlPFC BA8/9,MSANTD2-AS1,5,72,11.0,7.97336713516349e-05,8.0,3.3463976405519902e-09,9,1.39180496506706e-09,13,3.68407706738727e-07,29,1.0,rank aggregation score; not an MDD-association p-value
+107984438,0.037078857421875,13,dlPFC BA8/9,LOC107984438,5,72,14.0,0.0228957860327839,18.0,0.0014165185332157,27,0.007323373577037,20,0.008362679666556,22,0.192518203093286,rank aggregation score; not an MDD-association p-value
+3178,0.037078857421875,14,dlPFC BA8/9,HNRNPA1,5,72,13.0,0.0101944508938595,21.0,0.319886439145038,20,0.0006627286550731,27,0.179354480203547,13,0.0078045752837774,rank aggregation score; not an MDD-association p-value
+79800,0.0392458566422325,15,dlPFC BA8/9,CARF,5,72,15.0,0.0228957860327839,9.0,3.92978736581227e-09,15,1.41473157818506e-06,6,2.04136857552281e-11,70,1.0,rank aggregation score; not an MDD-association p-value
+105369340,0.0501278599129536,16,dlPFC BA8/9,PPP1R14B-AS1,5,72,9.0,1.0675127370871e-05,14.0,4.15356307452912e-07,16,2.58477465804656e-06,12,2.39227122677168e-08,38,1.0,rank aggregation score; not an MDD-association p-value
+147,0.117409194191477,17,dlPFC BA8/9,ADRA1B,5,72,34.0,1.0,23.0,0.916477693155808,34,0.171730595664535,28,0.259760662424069,20,0.117719044519128,rank aggregation score; not an MDD-association p-value
+101928942,0.179190979122774,18,dlPFC BA8/9,PRKG2-AS1,5,72,21.0,1.0,30.0,1.0,35,0.259760662424069,24,0.0329654457351517,37,1.0,rank aggregation score; not an MDD-association p-value
+105379086,0.179190979122774,19,dlPFC BA8/9,LOC105379086,5,72,26.0,1.0,37.0,1.0,26,0.007323373577037,30,0.445753743104185,27,0.730742837914725,rank aggregation score; not an MDD-association p-value
+101927003,0.204750751891438,20,dlPFC BA8/9,PKIA-AS1,5,72,16.0,0.739275710312388,25.0,1.0,33,0.13068718034922,38,1.0,11,0.0046021541378734,rank aggregation score; not an MDD-association p-value
+414062,0.220356558309558,21,dlPFC BA8/9,CCL3L3,5,72,43.0,1.0,13.0,2.40857761229792e-07,7,1.93757734976322e-10,10,4.4894869601799e-09,24,0.262064900259903,rank aggregation score; not an MDD-association p-value
+105377993,0.262446572195999,22,dlPFC BA8/9,LOC105377993,5,72,25.0,1.0,16.0,0.0007904377960547,25,0.0045069423236076,16,1.01048970991194e-05,48,1.0,rank aggregation score; not an MDD-association p-value
+101927659,0.264610747006723,23,dlPFC BA8/9,SMAD1-AS2,5,72,19.0,1.0,27.0,1.0,36,0.594866942552985,40,1.0,15,0.0244546880618514,rank aggregation score; not an MDD-association p-value
+101927790,0.29938277238253,24,dlPFC BA8/9,LOC101927790,5,72,20.0,1.0,28.0,1.0,30,0.0777404272023932,41,1.0,34,1.0,rank aggregation score; not an MDD-association p-value
+105373490,0.337710191996431,25,dlPFC BA8/9,LOC105373490,5,72,23.0,1.0,33.0,1.0,39,0.973688749058937,46,1.0,1,6.06894622658787e-12,rank aggregation score; not an MDD-association p-value
+101927078,0.379882948423098,26,dlPFC BA8/9,LOC101927078,5,72,18.0,1.0,26.0,1.0,43,1.0,39,1.0,33,1.0,rank aggregation score; not an MDD-association p-value
+1652,0.426158254161798,27,dlPFC BA8/9,DDT,5,72,36.0,1.0,44.0,1.0,32,0.123862281038618,25,0.0544200264284362,26,0.498411821237482,rank aggregation score; not an MDD-association p-value
+105369673,0.532226727881717,28,dlPFC BA8/9,LOC105369673,5,72,22.0,1.0,31.0,1.0,46,1.0,44,1.0,39,1.0,rank aggregation score; not an MDD-association p-value
+2830,0.592647984614572,29,dlPFC BA8/9,GPR6,5,72,40.0,1.0,47.0,1.0,38,0.789877251836965,34,0.887444769831426,23,0.224809980023533,rank aggregation score; not an MDD-association p-value
+121274,0.628630459448932,30,dlPFC BA8/9,ZNF641,5,72,32.0,1.0,22.0,0.916477693155808,19,0.0001972152263052,19,0.0016577903168836,55,1.0,rank aggregation score; not an MDD-association p-value
+432,0.674757404867144,31,dlPFC BA8/9,ASGR1,5,72,44.0,1.0,20.0,0.0203723288030137,14,7.45058059692383e-07,17,2.74255136201195e-05,64,1.0,rank aggregation score; not an MDD-association p-value
+101928419,0.698711881912294,32,dlPFC BA8/9,LOC101928419,4,72,,,29.0,1.0,28,0.0207054103979763,33,0.739210494540415,16,0.0487027382627426,rank aggregation score; not an MDD-association p-value
+107983974,0.729941275867189,33,dlPFC BA8/9,LOC107983974,5,72,27.0,1.0,38.0,1.0,29,0.0207054103979763,26,0.0777567812891184,49,1.0,rank aggregation score; not an MDD-association p-value
+57061,0.76115737726659,34,dlPFC BA8/9,HYMAI,5,72,48.0,1.0,53.0,1.0,21,0.0009900532010591,21,0.008362679666556,17,0.0544200264284362,rank aggregation score; not an MDD-association p-value
+105374505,0.891576068391525,35,dlPFC BA8/9,LOC105374505,5,72,24.0,1.0,34.0,1.0,51,1.0,50,1.0,44,1.0,rank aggregation score; not an MDD-association p-value
+112268140,0.982481180883674,36,dlPFC BA8/9,LOC112268140,5,72,30.0,1.0,40.0,1.0,18,7.20509222221662e-05,22,0.0182807314249828,52,1.0,rank aggregation score; not an MDD-association p-value
+100873984,1.0,37,dlPFC BA8/9,CHRM3-AS1,4,72,,,24.0,1.0,40,1.0,35,1.0,30,1.0,rank aggregation score; not an MDD-association p-value
+100874337,1.0,38,dlPFC BA8/9,PLCB1-IT1,3,72,,,,,41,1.0,36,1.0,31,1.0,rank aggregation score; not an MDD-association p-value
+101926953,1.0,39,dlPFC BA8/9,LOC101926953,3,72,,,,,42,1.0,37,1.0,32,1.0,rank aggregation score; not an MDD-association p-value
+101927972,1.0,40,dlPFC BA8/9,FARS2-AS1,3,72,,,,,44,1.0,42,1.0,35,1.0,rank aggregation score; not an MDD-association p-value
+101928937,1.0,41,dlPFC BA8/9,LOC101928937,3,72,,,,,45,1.0,43,1.0,36,1.0,rank aggregation score; not an MDD-association p-value
+105371658,1.0,42,dlPFC BA8/9,LOC105371658,4,72,,,32.0,1.0,47,1.0,45,1.0,41,1.0,rank aggregation score; not an MDD-association p-value
+105373769,1.0,43,dlPFC BA8/9,LOC105373769,3,72,,,,,48,1.0,47,1.0,42,1.0,rank aggregation score; not an MDD-association p-value
+105373894,1.0,44,dlPFC BA8/9,LOC105373894,3,72,,,,,49,1.0,48,1.0,18,0.0580081469119732,rank aggregation score; not an MDD-association p-value
+105374054,1.0,45,dlPFC BA8/9,LOC105374054,3,72,,,,,50,1.0,49,1.0,43,1.0,rank aggregation score; not an MDD-association p-value
+105374580,1.0,46,dlPFC BA8/9,PRKCE-AS1,4,72,,,35.0,1.0,52,1.0,51,1.0,45,1.0,rank aggregation score; not an MDD-association p-value
+105375097,1.0,47,dlPFC BA8/9,LOC105375097,3,72,,,,,53,1.0,52,1.0,12,0.007323373577037,rank aggregation score; not an MDD-association p-value
+105376998,1.0,48,dlPFC BA8/9,LOC105376998,4,72,,,36.0,1.0,54,1.0,53,1.0,46,1.0,rank aggregation score; not an MDD-association p-value
+105377973,1.0,49,dlPFC BA8/9,LOC105377973,3,72,,,,,55,1.0,54,1.0,47,1.0,rank aggregation score; not an MDD-association p-value
+107985726,1.0,50,dlPFC BA8/9,LOC107985726,4,72,28.0,1.0,,,56,1.0,55,1.0,50,1.0,rank aggregation score; not an MDD-association p-value
+107986698,1.0,51,dlPFC BA8/9,LOC107986698,5,72,29.0,1.0,39.0,1.0,57,1.0,56,1.0,51,1.0,rank aggregation score; not an MDD-association p-value
+112268455,1.0,52,dlPFC BA8/9,LOC112268455,3,72,,,,,58,1.0,57,1.0,53,1.0,rank aggregation score; not an MDD-association p-value
+114880,1.0,53,dlPFC BA8/9,OSBPL6,5,72,31.0,1.0,41.0,1.0,59,1.0,58,1.0,54,1.0,rank aggregation score; not an MDD-association p-value
+125061,1.0,54,dlPFC BA8/9,AFMID,5,72,33.0,1.0,42.0,1.0,60,1.0,59,1.0,56,1.0,rank aggregation score; not an MDD-association p-value
+147727,1.0,55,dlPFC BA8/9,ILF3-DT,5,72,35.0,1.0,43.0,1.0,22,0.0013058506863106,31,0.52995678385562,57,1.0,rank aggregation score; not an MDD-association p-value
+151258,1.0,56,dlPFC BA8/9,SLC38A11,3,72,,,,,61,1.0,60,1.0,58,1.0,rank aggregation score; not an MDD-association p-value
+196472,1.0,57,dlPFC BA8/9,GARIN6,3,72,,,,,62,1.0,23,0.018813586454125,19,0.0872348432246128,rank aggregation score; not an MDD-association p-value
+219557,1.0,58,dlPFC BA8/9,TEX47,5,72,37.0,1.0,45.0,1.0,63,1.0,61,1.0,60,1.0,rank aggregation score; not an MDD-association p-value
+23212,1.0,59,dlPFC BA8/9,RRS1,5,72,38.0,1.0,46.0,1.0,64,1.0,62,1.0,9,0.0007566010580349,rank aggregation score; not an MDD-association p-value
+25825,1.0,60,dlPFC BA8/9,BACE2,5,72,39.0,1.0,17.0,0.0008294544675905,17,6.11891617966462e-05,29,0.260463066529809,61,1.0,rank aggregation score; not an MDD-association p-value
+283738,1.0,61,dlPFC BA8/9,NTRK3-AS1,5,72,41.0,1.0,48.0,1.0,23,0.0027471204779293,32,0.52995678385562,62,1.0,rank aggregation score; not an MDD-association p-value
+4140,1.0,62,dlPFC BA8/9,MARK3,5,72,42.0,1.0,49.0,1.0,37,0.689219318782282,63,1.0,63,1.0,rank aggregation score; not an MDD-association p-value
+441177,1.0,63,dlPFC BA8/9,LINC00602,4,72,,,50.0,1.0,65,1.0,64,1.0,65,1.0,rank aggregation score; not an MDD-association p-value
+51542,1.0,64,dlPFC BA8/9,VPS54,5,72,45.0,1.0,51.0,1.0,31,0.0777404272023932,65,1.0,25,0.371084541342793,rank aggregation score; not an MDD-association p-value
+51604,1.0,65,dlPFC BA8/9,PIGT,3,72,,,,,66,1.0,66,1.0,66,1.0,rank aggregation score; not an MDD-association p-value
+54458,1.0,66,dlPFC BA8/9,PRR13,5,72,46.0,1.0,52.0,1.0,67,1.0,67,1.0,67,1.0,rank aggregation score; not an MDD-association p-value
+55702,1.0,67,dlPFC BA8/9,YJU2,5,72,47.0,1.0,19.0,0.0040232832248123,24,0.0036828408922691,18,0.0003829396340449,68,1.0,rank aggregation score; not an MDD-association p-value
+57529,1.0,68,dlPFC BA8/9,RTL9,4,72,,,54.0,1.0,68,1.0,68,1.0,21,0.118001422957455,rank aggregation score; not an MDD-association p-value
+57819,1.0,69,dlPFC BA8/9,LSM2,5,72,49.0,1.0,55.0,1.0,69,1.0,69,1.0,69,1.0,rank aggregation score; not an MDD-association p-value
+79648,1.0,70,dlPFC BA8/9,MCPH1,3,72,,,,,70,1.0,70,1.0,10,0.004541085639822,rank aggregation score; not an MDD-association p-value
+8727,1.0,71,dlPFC BA8/9,CTNNAL1,3,72,,,,,71,1.0,71,1.0,71,1.0,rank aggregation score; not an MDD-association p-value
+90632,1.0,72,dlPFC BA8/9,LINC00473,4,72,,,56.0,1.0,72,1.0,72,1.0,72,1.0,rank aggregation score; not an MDD-association p-value
+105373386,8.14482061045992e-05,1,OFC BA11,LOC105373386,5,70,3.0,1.77498533002661e-08,2.0,1.63950044355722e-13,2,2.10111286037749e-09,1,1.37156422729407e-20,39,1.0,rank aggregation score; not an MDD-association p-value
+105378913,8.14482061045992e-05,2,OFC BA11,LOC105378913,5,70,1.0,1.25681143734045e-10,3.0,6.2551668699115e-13,1,2.01752670235479e-13,3,8.47249408000005e-15,8,0.0055557042254786,rank aggregation score; not an MDD-association p-value
+53917,0.0006135836258701,3,OFC BA11,RAB24,5,70,4.0,2.20297003060475e-07,5.0,2.1722479967809003e-10,4,1.33007667956338e-08,4,1.94222575290973e-12,18,0.151128732284378,rank aggregation score; not an MDD-association p-value
+162514,0.0011045784494555,4,OFC BA11,TRPV3,5,70,12.0,0.014178798527683,8.0,9.09087987783144e-07,13,1.46891049102852e-05,8,2.6058485173525403e-09,7,0.0001205799288377,rank aggregation score; not an MDD-association p-value
+158055,0.0012569048610697,5,OFC BA11,C9orf163,5,70,6.0,5.14503269752068e-06,6.0,8.10489444911024e-09,3,4.27728903889909e-09,2,3.2906098472921e-15,17,0.147014577492855,rank aggregation score; not an MDD-association p-value
+23475,0.0012569048610697,6,OFC BA11,QPRT,5,70,2.0,2.1722479967809003e-10,1.0,1.26800171532626e-14,6,1.68553200409925e-07,5,2.18808073693542e-12,16,0.135326781546729,rank aggregation score; not an MDD-association p-value
+79571,0.0023,7,OFC BA11,GCC1,5,70,5.0,2.09719411614419e-06,7.0,3.05947663069094e-08,5,7.80205853138585e-08,7,2.84415838126082e-10,68,1.0,rank aggregation score; not an MDD-association p-value
+105377975,0.0031194621288748,8,OFC BA11,LOC105377975,5,70,8.0,0.0002141480109821,14.0,6.91847578778161e-05,14,3.89121678224672e-05,16,8.64361019897911e-06,11,0.0295865152257698,rank aggregation score; not an MDD-association p-value
+55620,0.0092223478312607,9,OFC BA11,STAP2,5,70,9.0,0.0015627174471601,10.0,1.12220543054433e-05,9,1.93139060116397e-06,6,2.62764566311895e-12,63,1.0,rank aggregation score; not an MDD-association p-value
+92283,0.0186299518057952,10,OFC BA11,ZNF461,5,70,10.0,0.0024656051868317,4.0,6.77728936623163e-12,12,1.1443857120376e-05,10,6.7676666025802115e-09,69,1.0,rank aggregation score; not an MDD-association p-value
+101929549,0.019147804486226,11,OFC BA11,GAU1,5,70,11.0,0.0037825642925382,17.0,0.0007829457671511,15,0.0001283924084791,23,0.0002041161533301,2,8.27702883796959e-12,rank aggregation score; not an MDD-association p-value
+388574,0.0557603855536384,12,OFC BA11,RPL23AP87,5,70,16.0,0.926041207510232,13.0,3.59782594302204e-05,11,9.91584874687516e-06,12,3.32785276694214e-07,58,1.0,rank aggregation score; not an MDD-association p-value
+100505894,0.0610196614505861,13,OFC BA11,TMEM161B-DT,5,70,18.0,1.0,9.0,1.03503951992426e-06,26,0.0715032842910928,11,1.71952362332589e-07,29,1.0,rank aggregation score; not an MDD-association p-value
+100873982,0.0610196614505861,14,OFC BA11,ABCC5-AS1,5,70,22.0,1.0,29.0,1.0,17,0.0002274080951835,21,6.9636614939228e-05,10,0.0256207644215112,rank aggregation score; not an MDD-association p-value
+100506380,0.0722913071934313,15,OFC BA11,RNF32-DT,5,70,19.0,1.0,19.0,0.0093636075312367,23,0.0323782593773062,15,4.30415548758107e-06,30,1.0,rank aggregation score; not an MDD-association p-value
+55718,0.0868189682870232,16,OFC BA11,POLR3E,5,70,7.0,9.66373041502235e-05,11.0,1.67352449132503e-05,18,0.0006171513532007,14,2.11471964278826e-06,64,1.0,rank aggregation score; not an MDD-association p-value
+100507283,0.0998227881239959,17,OFC BA11,MSANTD2-AS1,5,70,21.0,1.0,28.0,1.0,22,0.0238443642928867,18,2.38578190259952e-05,32,1.0,rank aggregation score; not an MDD-association p-value
+105371729,0.106229410364729,18,OFC BA11,LOC105371729,5,70,13.0,0.0743461696428325,12.0,2.38578190259952e-05,19,0.0007209497199606,9,4.84824808685569e-09,38,1.0,rank aggregation score; not an MDD-association p-value
+4814,0.106229410364729,19,OFC BA11,NINJ1,5,70,15.0,0.77069859664338,16.0,0.0003413769405644,8,7.45058059692383e-07,19,6.95088832818176e-05,60,1.0,rank aggregation score; not an MDD-association p-value
+100129482,0.116425873148093,20,OFC BA11,ZNF37BP,5,70,17.0,1.0,18.0,0.0013185298048191,33,0.67537204027788,20,6.9636614939228e-05,28,1.0,rank aggregation score; not an MDD-association p-value
+101927351,0.116425873148093,21,OFC BA11,LINC02302,5,70,23.0,1.0,23.0,0.177394309198827,29,0.147014577492855,13,1.5067858303688e-06,33,1.0,rank aggregation score; not an MDD-association p-value
+101927366,0.135168156125424,22,OFC BA11,LOC101927366,5,70,24.0,1.0,25.0,0.178587933238443,21,0.0119926577063132,25,0.0007265675431551,34,1.0,rank aggregation score; not an MDD-association p-value
+105371659,0.179883905515559,23,OFC BA11,LOC105371659,5,70,27.0,1.0,33.0,1.0,24,0.038048102585721,36,0.951007301242173,22,0.348168358040362,rank aggregation score; not an MDD-association p-value
+65083,0.182587826500863,24,OFC BA11,NOL6,5,70,58.0,1.0,15.0,0.0002428889274597,16,0.0001283924084791,22,0.0001279971789133,3,5.5314119411754e-11,rank aggregation score; not an MDD-association p-value
+100506474,0.206294868209674,25,OFC BA11,LOC100506474,5,70,20.0,1.0,27.0,1.0,30,0.319885899516988,37,1.0,31,1.0,rank aggregation score; not an MDD-association p-value
+102724881,0.206294868209674,26,OFC BA11,LOC102724881,5,70,25.0,1.0,31.0,1.0,37,1.0,33,0.6847431400161,37,1.0,rank aggregation score; not an MDD-association p-value
+105372697,0.268412563217707,27,OFC BA11,LOC105372697,5,70,28.0,1.0,34.0,1.0,39,1.0,26,0.0107324337312985,24,0.473523982491624,rank aggregation score; not an MDD-association p-value
+2273,0.290522550127923,28,OFC BA11,FHL1,5,70,43.0,1.0,22.0,0.108159705953471,10,4.10489411107776e-06,24,0.0002041161533301,25,0.603959999185245,rank aggregation score; not an MDD-association p-value
+105370472,0.304634973522937,29,OFC BA11,LOC105370472,5,70,26.0,1.0,32.0,1.0,38,1.0,40,1.0,19,0.182916224002838,rank aggregation score; not an MDD-association p-value
+105374681,0.344666510977569,30,OFC BA11,LOC105374681,5,70,29.0,1.0,35.0,1.0,40,1.0,41,1.0,40,1.0,rank aggregation score; not an MDD-association p-value
+51296,0.347083509847087,31,OFC BA11,SLC15A3,5,70,52.0,1.0,57.0,1.0,60,1.0,58,1.0,1,2.62764566311895e-12,rank aggregation score; not an MDD-association p-value
+105376380,0.3888,32,OFC BA11,LOC105376380,5,70,30.0,1.0,21.0,0.0464005371331419,42,1.0,42,1.0,42,1.0,rank aggregation score; not an MDD-association p-value
+5468,0.4352,33,OFC BA11,PPARG,5,70,55.0,1.0,24.0,0.177394309198827,7,3.98345533645595e-07,28,0.051662715670436,23,0.470610932442642,rank aggregation score; not an MDD-association p-value
+105376754,0.437342901767121,34,OFC BA11,LOC105376754,5,70,31.0,1.0,37.0,1.0,43,1.0,29,0.108330870586937,43,1.0,rank aggregation score; not an MDD-association p-value
+105378248,0.490617671208425,35,OFC BA11,LOC105378248,5,70,32.0,1.0,38.0,1.0,44,1.0,30,0.227085208814949,44,1.0,rank aggregation score; not an MDD-association p-value
+105378715,0.548962114000119,36,OFC BA11,FAF1-AS1,5,70,33.0,1.0,39.0,1.0,45,1.0,43,1.0,45,1.0,rank aggregation score; not an MDD-association p-value
+10629,0.612729743559231,37,OFC BA11,TAF6L,5,70,34.0,1.0,40.0,1.0,46,1.0,44,1.0,46,1.0,rank aggregation score; not an MDD-association p-value
+107985930,0.682290138037722,38,OFC BA11,LOC107985930,5,70,35.0,1.0,41.0,1.0,28,0.142979236191963,45,1.0,47,1.0,rank aggregation score; not an MDD-association p-value
+107986168,0.758029297316594,39,OFC BA11,LOC107986168,5,70,36.0,1.0,42.0,1.0,47,1.0,34,0.801188825867696,48,1.0,rank aggregation score; not an MDD-association p-value
+113939912,0.84035,40,OFC BA11,BMS1P2-AGAP9,5,70,37.0,1.0,20.0,0.0323782593773062,31,0.519538160032118,17,1.12220543054433e-05,49,1.0,rank aggregation score; not an MDD-association p-value
+116151,0.929672160409353,41,OFC BA11,FAM210B,5,70,38.0,1.0,44.0,1.0,49,1.0,47,1.0,50,1.0,rank aggregation score; not an MDD-association p-value
+138716,0.929672160409353,42,OFC BA11,RPP25L,5,70,39.0,1.0,45.0,1.0,50,1.0,48,1.0,15,0.0944473296573931,rank aggregation score; not an MDD-association p-value
+101929329,1.0,43,OFC BA11,LAMP5-AS1,4,70,,,30.0,1.0,35,1.0,38,1.0,35,1.0,rank aggregation score; not an MDD-association p-value
+10266,1.0,44,OFC BA11,RAMP2,3,70,,,,,36,1.0,39,1.0,36,1.0,rank aggregation score; not an MDD-association p-value
+105375097,1.0,45,OFC BA11,LOC105375097,4,70,,,36.0,1.0,41,1.0,32,0.529993163904125,41,1.0,rank aggregation score; not an MDD-association p-value
+112268008,1.0,46,OFC BA11,LOC112268008,4,70,,,43.0,1.0,48,1.0,46,1.0,6,4.937006453853e-05,rank aggregation score; not an MDD-association p-value
+158572,1.0,47,OFC BA11,USP27X-DT,5,70,40.0,1.0,46.0,1.0,51,1.0,49,1.0,51,1.0,rank aggregation score; not an MDD-association p-value
+163933,1.0,48,OFC BA11,FAM43B,5,70,41.0,1.0,47.0,1.0,52,1.0,50,1.0,52,1.0,rank aggregation score; not an MDD-association p-value
+2117,1.0,49,OFC BA11,ETV3,5,70,42.0,1.0,48.0,1.0,53,1.0,31,0.473523982491624,53,1.0,rank aggregation score; not an MDD-association p-value
+23649,1.0,50,OFC BA11,POLA2,5,70,44.0,1.0,49.0,1.0,54,1.0,51,1.0,54,1.0,rank aggregation score; not an MDD-association p-value
+26229,1.0,51,OFC BA11,B3GAT3,5,70,45.0,1.0,50.0,1.0,34,0.6847431400161,52,1.0,55,1.0,rank aggregation score; not an MDD-association p-value
+26249,1.0,52,OFC BA11,KLHL3,5,70,46.0,1.0,51.0,1.0,55,1.0,53,1.0,27,0.985255589513522,rank aggregation score; not an MDD-association p-value
+28955,1.0,53,OFC BA11,DEXI,5,70,47.0,1.0,52.0,1.0,20,0.0091147216557932,27,0.0156540956621102,56,1.0,rank aggregation score; not an MDD-association p-value
+377677,1.0,54,OFC BA11,CA13,5,70,48.0,1.0,53.0,1.0,27,0.0944473296573931,35,0.831012914771071,57,1.0,rank aggregation score; not an MDD-association p-value
+389493,1.0,55,OFC BA11,NUPR2,5,70,49.0,1.0,54.0,1.0,56,1.0,54,1.0,12,0.039274152433016,rank aggregation score; not an MDD-association p-value
+3953,1.0,56,OFC BA11,LEPR,5,70,50.0,1.0,55.0,1.0,57,1.0,55,1.0,59,1.0,rank aggregation score; not an MDD-association p-value
+4604,1.0,57,OFC BA11,MYBPC1,5,70,14.0,0.422055993063658,26.0,0.477574107514938,58,1.0,56,1.0,4,1.1316473081984502e-09,rank aggregation score; not an MDD-association p-value
+51181,1.0,58,OFC BA11,DCXR,5,70,51.0,1.0,56.0,1.0,59,1.0,57,1.0,26,0.859787952266965,rank aggregation score; not an MDD-association p-value
+51326,1.0,59,OFC BA11,ARL17A,5,70,53.0,1.0,58.0,1.0,61,1.0,59,1.0,61,1.0,rank aggregation score; not an MDD-association p-value
+51705,1.0,60,OFC BA11,EMCN,5,70,54.0,1.0,59.0,1.0,62,1.0,60,1.0,62,1.0,rank aggregation score; not an MDD-association p-value
+55374,1.0,61,OFC BA11,TMCO6,5,70,56.0,1.0,60.0,1.0,63,1.0,61,1.0,13,0.051662715670436,rank aggregation score; not an MDD-association p-value
+6134,1.0,62,OFC BA11,RPL10,4,70,,,61.0,1.0,64,1.0,62,1.0,65,1.0,rank aggregation score; not an MDD-association p-value
+644297,1.0,63,OFC BA11,FAM215B,5,70,57.0,1.0,62.0,1.0,65,1.0,63,1.0,21,0.319885899516988,rank aggregation score; not an MDD-association p-value
+6834,1.0,64,OFC BA11,SURF1,5,70,59.0,1.0,63.0,1.0,66,1.0,64,1.0,14,0.051662715670436,rank aggregation score; not an MDD-association p-value
+6948,1.0,65,OFC BA11,TCN2,5,70,60.0,1.0,64.0,1.0,67,1.0,65,1.0,5,3.50681331632578e-09,rank aggregation score; not an MDD-association p-value
+706,1.0,66,OFC BA11,TSPO,5,70,61.0,1.0,65.0,1.0,68,1.0,66,1.0,66,1.0,rank aggregation score; not an MDD-association p-value
+728392,1.0,67,OFC BA11,LOC728392,4,70,,,66.0,1.0,25,0.0601944215915007,67,1.0,20,0.200162230563878,rank aggregation score; not an MDD-association p-value
+753,1.0,68,OFC BA11,LDLRAD4,5,70,62.0,1.0,67.0,1.0,69,1.0,68,1.0,67,1.0,rank aggregation score; not an MDD-association p-value
+956,1.0,69,OFC BA11,ENTPD3,5,70,63.0,1.0,68.0,1.0,32,0.527456558981942,69,1.0,70,1.0,rank aggregation score; not an MDD-association p-value
+9943,1.0,70,OFC BA11,OXSR1,5,70,64.0,1.0,69.0,1.0,70,1.0,70,1.0,9,0.0201929067532236,rank aggregation score; not an MDD-association p-value

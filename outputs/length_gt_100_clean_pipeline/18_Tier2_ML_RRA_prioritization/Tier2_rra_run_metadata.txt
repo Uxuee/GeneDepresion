@@ -1,0 +1,10 @@
+package=RobustRankAggreg
+package_version=1.2.1
+function=RobustRankAggreg::aggregateRanks
+method=RRA
+exact=FALSE
+level1=25 outer-fit Tier2 rankings per region/model
+level2=five model-level Tier2 rankings per region
+dummy_contributes_gene_evidence=FALSE
+predictive_metric_weighting=FALSE
+r_version=R version 4.6.1 (2026-06-24 ucrt)

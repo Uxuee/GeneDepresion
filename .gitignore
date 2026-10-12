@@ -44,6 +44,8 @@ venv/
 .Rprofile
 .pytest_cache/
 .coverage
+.runtime/
+environment/ml_rra/library/
 
 # Phase-3B uses a recorded private R installation/library; binaries are local.
 environment/phase3b/R-*/

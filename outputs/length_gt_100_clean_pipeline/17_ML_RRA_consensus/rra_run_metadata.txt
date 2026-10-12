@@ -1,0 +1,9 @@
+package=RobustRankAggreg
+package_version=1.2.1
+function=RobustRankAggreg::aggregateRanks
+method=RRA
+exact=FALSE
+level1=25 outer-fold gene lists per region/model
+level2=five complete model-level RRA lists per region
+predictive_metric_weighting=FALSE
+r_version=R version 4.6.1 (2026-06-24 ucrt)

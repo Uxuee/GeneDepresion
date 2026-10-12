@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "regions": [
+    "Ventral Striatum",
+    "Insula",
+    "Hippocampal Formation",
+    "CG25",
+    "dlPFC BA8/9",
+    "OFC BA11"
+  ],
+  "n_regions": 6,
+  "n_frozen_tier2_pairs": 671,
+  "candidate_tier_changed": false,
+  "same_samples_all_methods": true,
+  "same_eligible_genes_all_methods": true,
+  "limma_input": "raw integer counts; DGEList; TMM; voom; lmFit; eBayes",
+  "deseq2_input": "raw integer counts; standard DESeq2 median-of-ratios and DESeq defaults",
+  "design": "Diagnosis + Age + Sex + RIN; explicit MDD minus CTRL",
+  "primary_rank": "two-sided raw p ascending; GeneID deterministic tie-break; missing p last",
+  "software": {
+    "R": "R version 4.4.2 (2024-10-31 ucrt)",
+    "limma": "3.62.2",
+    "edgeR": "4.4.2",
+    "DESeq2": "1.46.0",
+    "limma_normalization": "TMM via edgeR::calcNormFactors; standard voom",
+    "DESeq2_size_factors": "DESeq2 median-of-ratios estimateSizeFactors",
+    "DESeq2_dispersion_fit": "standard DESeq() defaults",
+    "contrast": "Diagnosis MDD - CTRL"
+  },
+  "tier2_sha256": "1672ddf95a4f4c9e44ae42e7accc208c311e2e1da8533e1808dcf91bbf7b67a1",
+  "report": "D:\\genes\\GeneDepresion_RRA\\docs\\UPSTREAM_STATISTICAL_METHOD_BENCHMARK_REPORT.md",
+  "overall_interpretation": "Scenario A with same-cohort limitation",
+  "recommendation": "retain frozen Tier2 unchanged",
+  "frozen_LM_BH005_total": 0,
+  "limma_BH005_total": 1,
+  "DESeq2_same_universe_BH005_total": 9
+}

@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "25_fits_per_region_model": true,
+    "25_lists_per_level1_ranking": true,
+    "all_671_candidates_in_consensus": true,
+    "all_output_checksums_match": true,
+    "allgene_frozen_hash_unchanged": true,
+    "candidate_accounting_totals_671": true,
+    "dummy_marked_noncontributing": true,
+    "dummy_never_enters_rankings": true,
+    "dummy_no_gene_evidence_manifest": true,
+    "exact_150_dummy_reference_fits": true,
+    "exact_750_feature_model_fits": true,
+    "exact_six_regions": true,
+    "five_rra_models_only": true,
+    "fixed_tier2_feature_counts": true,
+    "linear_sign_stored": true,
+    "no_performance_weighting": true,
+    "no_pooled_frontal": true,
+    "no_selector_or_topk_layer": true,
+    "no_tier4_or_external_candidate_pair": true,
+    "old_corrected_hash_unchanged": true,
+    "only_tier2_pairs_in_fold_rankings": true,
+    "prediction_coverage_once_per_repeat": true,
+    "regional_candidate_counts": true,
+    "rf_is_nondirectional": true,
+    "rra_scores_labeled_as_ranking_not_mdd_p": true,
+    "tier2_source_671_unique_pairs": true,
+    "tier2_source_sha256": true,
+    "unique_gene_per_fit": true
+  },
+  "passed": true
+}

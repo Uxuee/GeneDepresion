@@ -1,0 +1,55 @@
+region,method_A,method_B,scope,n_compared,same_sign_n,opposite_sign_n,same_sign_proportion
+Ventral Striatum,Frozen LM,limma-voom,full_shared,23917,22965,952,0.9601956767153071
+Ventral Striatum,Frozen LM,limma-voom,frozen_Tier2,146,146,0,1.0
+Ventral Striatum,Frozen LM,limma-voom,top50_union,62,62,0,1.0
+Ventral Striatum,Frozen LM,DESeq2,full_shared,23917,22794,1123,0.953045950579086
+Ventral Striatum,Frozen LM,DESeq2,frozen_Tier2,146,146,0,1.0
+Ventral Striatum,Frozen LM,DESeq2,top50_union,62,62,0,1.0
+Ventral Striatum,limma-voom,DESeq2,full_shared,23917,22652,1265,0.9471087510975457
+Ventral Striatum,limma-voom,DESeq2,frozen_Tier2,146,146,0,1.0
+Ventral Striatum,limma-voom,DESeq2,top50_union,65,65,0,1.0
+Insula,Frozen LM,limma-voom,full_shared,23090,22019,1071,0.9536162841056735
+Insula,Frozen LM,limma-voom,frozen_Tier2,70,70,0,1.0
+Insula,Frozen LM,limma-voom,top50_union,64,64,0,1.0
+Insula,Frozen LM,DESeq2,full_shared,23090,21937,1153,0.9500649631875271
+Insula,Frozen LM,DESeq2,frozen_Tier2,70,70,0,1.0
+Insula,Frozen LM,DESeq2,top50_union,67,67,0,1.0
+Insula,limma-voom,DESeq2,full_shared,23090,21712,1378,0.9403204850584669
+Insula,limma-voom,DESeq2,frozen_Tier2,70,70,0,1.0
+Insula,limma-voom,DESeq2,top50_union,69,69,0,1.0
+Hippocampal Formation,Frozen LM,limma-voom,full_shared,24371,22654,1717,0.9295474129087851
+Hippocampal Formation,Frozen LM,limma-voom,frozen_Tier2,127,127,0,1.0
+Hippocampal Formation,Frozen LM,limma-voom,top50_union,65,65,0,1.0
+Hippocampal Formation,Frozen LM,DESeq2,full_shared,24371,22752,1619,0.9335685856140495
+Hippocampal Formation,Frozen LM,DESeq2,frozen_Tier2,127,127,0,1.0
+Hippocampal Formation,Frozen LM,DESeq2,top50_union,85,85,0,1.0
+Hippocampal Formation,limma-voom,DESeq2,full_shared,24371,22863,1508,0.9381231791883796
+Hippocampal Formation,limma-voom,DESeq2,frozen_Tier2,127,127,0,1.0
+Hippocampal Formation,limma-voom,DESeq2,top50_union,80,80,0,1.0
+CG25,Frozen LM,limma-voom,full_shared,23941,23205,736,0.9692577586566977
+CG25,Frozen LM,limma-voom,frozen_Tier2,186,186,0,1.0
+CG25,Frozen LM,limma-voom,top50_union,65,65,0,1.0
+CG25,Frozen LM,DESeq2,full_shared,23941,22985,956,0.9600685017334281
+CG25,Frozen LM,DESeq2,frozen_Tier2,186,186,0,1.0
+CG25,Frozen LM,DESeq2,top50_union,71,71,0,1.0
+CG25,limma-voom,DESeq2,full_shared,23941,22623,1318,0.9449479971596842
+CG25,limma-voom,DESeq2,frozen_Tier2,186,186,0,1.0
+CG25,limma-voom,DESeq2,top50_union,65,65,0,1.0
+dlPFC BA8/9,Frozen LM,limma-voom,full_shared,23941,22385,1556,0.9350068919426925
+dlPFC BA8/9,Frozen LM,limma-voom,frozen_Tier2,72,72,0,1.0
+dlPFC BA8/9,Frozen LM,limma-voom,top50_union,66,66,0,1.0
+dlPFC BA8/9,Frozen LM,DESeq2,full_shared,23941,22314,1627,0.9320412681174554
+dlPFC BA8/9,Frozen LM,DESeq2,frozen_Tier2,72,72,0,1.0
+dlPFC BA8/9,Frozen LM,DESeq2,top50_union,68,68,0,1.0
+dlPFC BA8/9,limma-voom,DESeq2,full_shared,23941,22772,1169,0.9511716302577169
+dlPFC BA8/9,limma-voom,DESeq2,frozen_Tier2,72,72,0,1.0
+dlPFC BA8/9,limma-voom,DESeq2,top50_union,69,69,0,1.0
+OFC BA11,Frozen LM,limma-voom,full_shared,23941,22859,1082,0.9548055636773736
+OFC BA11,Frozen LM,limma-voom,frozen_Tier2,70,70,0,1.0
+OFC BA11,Frozen LM,limma-voom,top50_union,62,62,0,1.0
+OFC BA11,Frozen LM,DESeq2,full_shared,23941,22979,962,0.9598178856355206
+OFC BA11,Frozen LM,DESeq2,frozen_Tier2,70,70,0,1.0
+OFC BA11,Frozen LM,DESeq2,top50_union,65,65,0,1.0
+OFC BA11,limma-voom,DESeq2,full_shared,23941,22735,1206,0.9496261643206215
+OFC BA11,limma-voom,DESeq2,frozen_Tier2,70,70,0,1.0
+OFC BA11,limma-voom,DESeq2,top50_union,63,63,0,1.0

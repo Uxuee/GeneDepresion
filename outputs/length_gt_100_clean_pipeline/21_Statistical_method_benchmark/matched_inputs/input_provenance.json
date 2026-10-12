@@ -1,0 +1,19 @@
+{
+  "raw_counts_source": "D:\\genes\\GeneDepresion\\outputs\\step1_length_sensitivity\\Length_gt_100\\03_filtered_raw_counts\\keep_all_samples",
+  "raw_master_source": "D:\\genes\\genedata\\GSE102556_raw_counts_GRCh38.p13_NCBI.tsv",
+  "annotation_source": "D:\\genes\\genedata\\Human.GRCh38.p13.annot.tsv",
+  "broad_lm_source": "D:\\genes\\GeneDepresion\\outputs\\length_gt_100_clean_pipeline\\04_standardized_effect_size\\LMM_all_genes_with_standardized_effect_size_4groups.csv",
+  "broad_lm_sha256": "ea8a8d4b5d7042e18a8a231cf524a378e01e124abb481eaac64b1792dfee1df3",
+  "frontal_lm_git_blob": "f700cb323a47b24825b11bc1bba33cc07e6430bb",
+  "tier2_source": "D:\\genes\\GeneDepresion_RRA\\outputs\\length_gt_100_clean_pipeline\\07_Tier2_candidate_gene_sets\\Tier2_candidate_genes_all_regions.csv",
+  "tier2_sha256": "1672ddf95a4f4c9e44ae42e7accc208c311e2e1da8533e1808dcf91bbf7b67a1",
+  "matched_sample_sets": true,
+  "matched_gene_universes": true,
+  "count_input_integer": true,
+  "n_tier2_pairs": 671,
+  "frozen_checksum_ledgers": {
+    "outputs\\length_gt_100_clean_pipeline\\18_Tier2_ML_RRA_prioritization\\checksums.sha256": "3c45b0a92e4a5a3b8c9fc126097c312d492141734ea8e3fe72534a91152e950e",
+    "outputs\\length_gt_100_clean_pipeline\\19_Tier2_ML_benchmark\\checksums.sha256": "4e17dc8234317efc9bce92aa03fb7ae63ff72a128392d202f2f31a105c09cf10",
+    "outputs\\length_gt_100_clean_pipeline\\20_Tier2_ML_conditional_null\\checksums.sha256": "d95f66712ed0ba80b7acefee7c3ee992cc14923128a47a5ddcaf9cff12e0d545"
+  }
+}

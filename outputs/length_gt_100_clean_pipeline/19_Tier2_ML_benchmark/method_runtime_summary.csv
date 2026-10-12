@@ -1,0 +1,4 @@
+method,final_fits,inner_evaluation_fits,runtime_seconds,models,tuning_burden,interpretability
+Tier2-RRA,750,6300,489.81344985961914,5,five model families; 14 parameter settings total per split,consensus ranking; model-level ranks retained
+LASSO,150,1350,6.94862508773803,1,three C values in 3-fold CV per outer split,selection frequency with transparent tie-breakers; exact frozen events reused
+Stability Selection,600,5400,20.050578832626343,1,three C values in 3-fold CV per half-sample,continuous selection probability
