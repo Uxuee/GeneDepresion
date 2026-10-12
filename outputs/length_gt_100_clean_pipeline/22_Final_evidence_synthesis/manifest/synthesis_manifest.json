@@ -1,0 +1,25 @@
+{
+  "frozen_start_commit": "437b2b63d3337896cf71085160d1545df687b1ed",
+  "primary_rows": 671,
+  "regional_counts": {
+    "CG25": 186,
+    "Hippocampal Formation": 127,
+    "Insula": 70,
+    "OFC BA11": 70,
+    "Ventral Striatum": 146,
+    "dlPFC BA8/9": 72
+  },
+  "primary_order": "frozen Tier2-RRA consensus rank",
+  "new_weighted_score": false,
+  "new_confidence_category": false,
+  "allgene_role": "within-study sensitivity",
+  "conditional_null_role": "20-permutation conditional pilot",
+  "wgcna_ahba_role": "context only",
+  "source_ledger_hashes": {
+    "outputs/length_gt_100_clean_pipeline/17_ML_RRA_consensus/checksums.sha256": "117c65e6cc796a9c6757b9d9e92ed493cc8bb6300d0873ea3d5cd2801ba3634c",
+    "outputs/length_gt_100_clean_pipeline/18_Tier2_ML_RRA_prioritization/checksums.sha256": "3c45b0a92e4a5a3b8c9fc126097c312d492141734ea8e3fe72534a91152e950e",
+    "outputs/length_gt_100_clean_pipeline/19_Tier2_ML_benchmark/checksums.sha256": "4e17dc8234317efc9bce92aa03fb7ae63ff72a128392d202f2f31a105c09cf10",
+    "outputs/length_gt_100_clean_pipeline/20_Tier2_ML_conditional_null/checksums.sha256": "d95f66712ed0ba80b7acefee7c3ee992cc14923128a47a5ddcaf9cff12e0d545",
+    "outputs/length_gt_100_clean_pipeline/21_Statistical_method_benchmark/checksums.sha256": "5626960b44eb446c023fd621f2808916f591667666be631a89691237a1b025ed"
+  }
+}
