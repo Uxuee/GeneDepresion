@@ -1,3 +1,5 @@
+> **Historical scope notice (2026-11-21):** This document preserves its original method/phase claims. Current workflow designation and completed literature work are described in [PIPELINE.md](PIPELINE.md). Tier2-RRA is the current primary exploratory ranking; corrected weighted v1 + strict-v2 results and confidence labels remain method-specific historical benchmarks. Earlier references to planned validation or canonical weighted ranking are not current project-wide status.
+
 # Step-by-step report: Length > 100 MDD transcriptomics to ML-prioritized Tier 2 genes
 
 > **Superseded ML counts:** this report documents the legacy 35/130 result. Use `ML_PRIORITY_SCORE_FINAL.md` for the canonical 30/119 result.

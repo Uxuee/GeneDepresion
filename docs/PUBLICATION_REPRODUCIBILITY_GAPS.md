@@ -1,3 +1,5 @@
+> **Historical scope notice (2026-11-21):** This document preserves its original method/phase claims. Current workflow designation and completed literature work are described in [PIPELINE.md](PIPELINE.md). Tier2-RRA is the current primary exploratory ranking; corrected weighted v1 + strict-v2 results and confidence labels remain method-specific historical benchmarks. Earlier references to planned validation or canonical weighted ranking are not current project-wide status.
+
 # Publication reproducibility gaps
 
 Baseline assessed: `ca25ec35af359a4d409abf0f728833d2ff54761c`. This is a dry-run assessment; no expensive pipeline stage was rerun.

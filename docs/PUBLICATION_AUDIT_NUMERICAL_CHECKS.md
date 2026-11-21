@@ -1,3 +1,5 @@
+> **Historical scope notice (2026-11-21):** This document preserves its original method/phase claims. Current workflow designation and completed literature work are described in [PIPELINE.md](PIPELINE.md). Tier2-RRA is the current primary exploratory ranking; corrected weighted v1 + strict-v2 results and confidence labels remain method-specific historical benchmarks. Earlier references to planned validation or canonical weighted ranking are not current project-wide status.
+
 # Publication audit numerical checks
 
 Machine-readable evidence: `docs/PUBLICATION_AUDIT_VERIFICATION.json`. Verification code: `audit/publication_audit_verification.py`. Canonical baseline files were read from commit `ca25ec35af359a4d409abf0f728833d2ff54761c` when the working-tree copy was deleted or modified.

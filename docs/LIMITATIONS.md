@@ -1,0 +1,13 @@
+# Scientific and technical limitations
+
+1. **Limited gene-level FDR support.** The frozen regional LM has no BH-significant genes. Later limma-voom/DESeq2 findings are method-specific sensitivities. Nominal Tier2 membership is not FDR significance.
+2. **Feature-selection leakage.** Tier2 membership used diagnosis across the complete cohort before subsequent ML resampling. Train-only ML preprocessing does not undo that upstream selection. Tier2 classifier performance is descriptive and can be optimistic.
+3. **Dependent rankings.** Weighted ML, Tier2-RRA, LASSO, Stability Selection, all-gene RRA and the null pilot share subjects and/or features. Agreement is not replication. Tier2-RRA is primary by approved workflow designation, not proven superiority.
+4. **Labonte disagreement.** Only 300/671 gene-region pairs match the mapped sex-union list; 371 do not. Different models, sex stratification, covariates and normalization prevent treating the nominal thresholds as nested selections. Mapping losses and selected-list coverage also matter.
+5. **LM versus count-based models.** Effect scales and variances differ between log2-GeTMM OLS, limma-voom and DESeq2. Direction/rank concordance does not make coefficients or BH values interchangeable. The current dream scripts are not certified generators of the frozen LM.
+6. **Network context.** WGCNA functional annotations, module-level diagnosis tests and ML-overlap enrichment are distinct. No module-eigengene diagnosis result survived BH in the frozen analysis. AHBA is healthy-brain context, not disease replication. Corrected weighted downstream annotations cannot silently be relabeled Tier2-RRA annotations.
+7. **Conditional null.** Twenty conditional permutations provide limited resolution and do not repeat the entire upstream screen. They do not constitute independent-cohort validation.
+8. **Reference-study limitations.** Respect anatomy, sex, statistical criteria, mapping ambiguity and significance-versus-coverage distinctions. Labonte is the source cohort. Lanz criteria/FDR provenance require caution. Same-cohort or selected-list matches do not establish independently validated biomarkers.
+9. **Reproducibility gaps.** Large inputs and local intermediates are intentionally not public. Some scripts contain historical absolute paths; environments differ by stage. Exact historical LM generator recovery remains incomplete. Tier4 GSEA and historical module-level ML2 remain excluded due to unresolved provenance.
+
+An independent cohort with prespecified preprocessing, candidate definitions and validation endpoints is still needed. No current list is a validated biomarker panel.

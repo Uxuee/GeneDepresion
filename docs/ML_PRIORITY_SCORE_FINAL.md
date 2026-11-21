@@ -1,3 +1,5 @@
+> **Method scope, 2026-11-21:** This unchanged scoring specification describes the historical canonical corrected weighted **v1 + strict-v2** benchmark, not v2 alone. Tier2-RRA is now the current primary exploratory ranking; the weighted confidence labels do not transfer. See [PIPELINE.md](PIPELINE.md).
+
 # Final ML-Priority Score Specification
 
 ## Status
@@ -10,7 +12,7 @@ The candidate population contains 671 Tier 2 gene-region pairs: 30 high-confiden
 
 Only `Tier2_fixed` contributes to the final v1 score. Historical Tier4 top-k and strict-univariate v1 runs are sensitivity/performance analyses and do not contribute.
 
-One v1 event is one region × `Tier2_fixed` × feature-using model × repeat × fold combination. The five models are L1 logistic, L2 logistic, elastic-net logistic, linear SVM, and exploratory random forest. Thus `5 models × 5 repeats × 5 folds = 125 events` per region.
+One v1 event is one region Ã— `Tier2_fixed` Ã— feature-using model Ã— repeat Ã— fold combination. The five models are L1 logistic, L2 logistic, elastic-net logistic, linear SVM, and exploratory random forest. Thus `5 models Ã— 5 repeats Ã— 5 folds = 125 events` per region.
 
 For L1 and elastic-net, a gene is selected when its coefficient is nonzero above tolerance. For L2 logistic, linear SVM, and random forest, selection is conservative top-20%-within-event importance support. Random-forest importance is unsigned.
 
@@ -18,7 +20,7 @@ For L1 and elastic-net, a gene is selected when its coefficient is nonzero above
 
 v2 performs feature selection in each outer training fold only. The selectors are train-only ANOVA F and train-only standardised effect, each at top-k 25, 50, 100, 250, and 500.
 
-One v2 event is one region × selector × top-k × non-baseline model × outer fold. The denominator is dynamically obtained from the non-baseline grid: `2 selectors × 5 top-k values × 5 models × 3 folds = 150 events` per region.
+One v2 event is one region Ã— selector Ã— top-k Ã— non-baseline model Ã— outer fold. The denominator is dynamically obtained from the non-baseline grid: `2 selectors Ã— 5 top-k values Ã— 5 models Ã— 3 folds = 150 events` per region.
 
 This is a global-grid frequency: nested top-k settings can repeatedly select the same high-ranked gene. It is an internal stability/support measure, not a selection probability for an arbitrary model. The majority baseline uses no expression features and contributes no gene evidence or denominator event.
 
@@ -26,33 +28,33 @@ This is a global-grid frequency: nested top-k settings can repeatedly select the
 
 - `selection_frequency_v1`: selected v1 events divided by 125.
 - `selection_frequency_v2`: selected v2 events divided by 150 here.
-- `combined_selection_frequency = 0.60 × v2_selection_frequency + 0.40 × v1_selection_frequency`.
+- `combined_selection_frequency = 0.60 Ã— v2_selection_frequency + 0.40 Ã— v1_selection_frequency`.
 - `model_support_scaled`: distinct supported model families, counted once across v1/v2, divided by the regional maximum.
 - `sparse_model_support_binary`: 1 when L1 or elastic-net supports the gene, otherwise 0.
-- `importance_rank_score = 1 - ((mean_rank - 1) / regional_max_mean_rank)`, clipped to 0–1.
+- `importance_rank_score = 1 - ((mean_rank - 1) / regional_max_mean_rank)`, clipped to 0â€“1.
 - `sign_consistency`: the larger positive/negative coefficient fraction among L1, L2, elastic-net, and linear SVM. Random forest is excluded.
 - `sign_consistency_score`: observed consistency, or neutral 0.5 when missing. Missing evidence cannot pass the high gate.
-- `lmm_evidence_scaled`: within-region min-max scaling of `-log10(Diagnosis p) × abs(standardised Diagnosis effect)`.
+- `lmm_evidence_scaled`: within-region min-max scaling of `-log10(Diagnosis p) Ã— abs(standardised Diagnosis effect)`.
 - `v2_support_score`: 1 for any v2 support, otherwise 0.
 
 ```text
 ML_priority_score =
-    0.40 × combined_selection_frequency
-  + 0.15 × model_support_scaled
-  + 0.10 × sparse_model_support_binary
-  + 0.15 × importance_rank_score
-  + 0.10 × sign_consistency_score
-  + 0.05 × lmm_evidence_scaled
-  + 0.05 × v2_support_score
+    0.40 Ã— combined_selection_frequency
+  + 0.15 Ã— model_support_scaled
+  + 0.10 Ã— sparse_model_support_binary
+  + 0.15 Ã— importance_rank_score
+  + 0.10 Ã— sign_consistency_score
+  + 0.05 Ã— lmm_evidence_scaled
+  + 0.05 Ã— v2_support_score
 ```
 
 ROC-AUC, balanced accuracy, permutation performance, and other predictive metrics do not enter the gene score.
 
 ## Confidence gates
 
-High confidence requires score ≥0.70, combined frequency ≥0.50, at least two model families, sparse support, observed sign consistency ≥0.70, and no observed disagreement with the gene-wise Diagnosis direction.
+High confidence requires score â‰¥0.70, combined frequency â‰¥0.50, at least two model families, sparse support, observed sign consistency â‰¥0.70, and no observed disagreement with the gene-wise Diagnosis direction.
 
-Moderate confidence requires score ≥0.45, combined frequency ≥0.25, at least one model family, and no observed direction disagreement. Remaining pairs are exploratory/low confidence.
+Moderate confidence requires score â‰¥0.45, combined frequency â‰¥0.25, at least one model family, and no observed direction disagreement. Remaining pairs are exploratory/low confidence.
 
 ## Worked examples
 
