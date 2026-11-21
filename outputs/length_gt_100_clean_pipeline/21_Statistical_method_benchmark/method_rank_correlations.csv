@@ -1,0 +1,19 @@
+region,method_A,method_B,rank_definition,n_genes,spearman_rho,kendall_tau
+Ventral Striatum,Frozen LM,limma-voom,two_sided_raw_p_GeneID_tiebreak,23917,0.9646550447698564,0.8426336542437004
+Ventral Striatum,Frozen LM,DESeq2,two_sided_raw_p_GeneID_tiebreak,23917,0.954667248524221,0.8164909918754191
+Ventral Striatum,limma-voom,DESeq2,two_sided_raw_p_GeneID_tiebreak,23917,0.9379009767205492,0.7901139584565549
+Insula,Frozen LM,limma-voom,two_sided_raw_p_GeneID_tiebreak,23090,0.9477110352609007,0.8077479651536138
+Insula,Frozen LM,DESeq2,two_sided_raw_p_GeneID_tiebreak,23090,0.9461610148447444,0.8002158780733246
+Insula,limma-voom,DESeq2,two_sided_raw_p_GeneID_tiebreak,23090,0.9287048057476065,0.7739490480853637
+Hippocampal Formation,Frozen LM,limma-voom,two_sided_raw_p_GeneID_tiebreak,24371,0.9009515504499421,0.7326166749340364
+Hippocampal Formation,Frozen LM,DESeq2,two_sided_raw_p_GeneID_tiebreak,24371,0.9037369489913895,0.7348850900726287
+Hippocampal Formation,limma-voom,DESeq2,two_sided_raw_p_GeneID_tiebreak,24371,0.9029770801076452,0.741926488000674
+CG25,Frozen LM,limma-voom,two_sided_raw_p_GeneID_tiebreak,23941,0.9660027518310716,0.8524184750055805
+CG25,Frozen LM,DESeq2,two_sided_raw_p_GeneID_tiebreak,23941,0.9538855284420564,0.8187118032470313
+CG25,limma-voom,DESeq2,two_sided_raw_p_GeneID_tiebreak,23941,0.9221691778727524,0.769199016364966
+dlPFC BA8/9,Frozen LM,limma-voom,two_sided_raw_p_GeneID_tiebreak,23941,0.9271029212983274,0.7682276504231353
+dlPFC BA8/9,Frozen LM,DESeq2,two_sided_raw_p_GeneID_tiebreak,23941,0.9116082479763659,0.7396656993415692
+dlPFC BA8/9,limma-voom,DESeq2,two_sided_raw_p_GeneID_tiebreak,23941,0.9382039386269003,0.7911058712735642
+OFC BA11,Frozen LM,limma-voom,two_sided_raw_p_GeneID_tiebreak,23941,0.9521898756607807,0.818605994540254
+OFC BA11,Frozen LM,DESeq2,two_sided_raw_p_GeneID_tiebreak,23941,0.9647816476658447,0.8386454140586558
+OFC BA11,limma-voom,DESeq2,two_sided_raw_p_GeneID_tiebreak,23941,0.9362742037519594,0.7942425784467295

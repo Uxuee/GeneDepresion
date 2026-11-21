@@ -1,0 +1,7 @@
+region,total_raw_count_samples,samples_in_frozen_LM,samples_available_limma,samples_available_DESeq2,excluded_samples,exclusion_reason,exact_matched_set
+Ventral Striatum,48,48,48,48,0,none,True
+Insula,48,48,48,48,0,none,True
+Hippocampal Formation,43,43,43,43,0,none,True
+CG25,27,27,27,27,0,none,True
+dlPFC BA8/9,48,48,48,48,0,none,True
+OFC BA11,47,47,47,47,0,none,True

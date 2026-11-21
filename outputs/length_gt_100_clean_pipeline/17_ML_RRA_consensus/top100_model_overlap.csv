@@ -1,0 +1,61 @@
+region,model_pair,jaccard
+CG25,logistic_l1 | elastic_net,0.4222222222222222
+CG25,logistic_l1 | logistic_l2,0.2972972972972973
+CG25,logistic_l1 | linear_svm,0.2972972972972973
+CG25,logistic_l1 | random_forest,0.28
+CG25,elastic_net | logistic_l2,0.4492753623188406
+CG25,elastic_net | linear_svm,0.4492753623188406
+CG25,elastic_net | random_forest,0.3793103448275862
+CG25,logistic_l2 | linear_svm,0.6528925619834711
+CG25,logistic_l2 | random_forest,0.639344262295082
+CG25,linear_svm | random_forest,0.6129032258064516
+Hippocampal Formation,logistic_l1 | elastic_net,0.5151515151515151
+Hippocampal Formation,logistic_l1 | logistic_l2,0.3793103448275862
+Hippocampal Formation,logistic_l1 | linear_svm,0.4084507042253521
+Hippocampal Formation,logistic_l1 | random_forest,0.3986013986013986
+Hippocampal Formation,elastic_net | logistic_l2,0.5151515151515151
+Hippocampal Formation,elastic_net | linear_svm,0.4925373134328358
+Hippocampal Formation,elastic_net | random_forest,0.4925373134328358
+Hippocampal Formation,logistic_l2 | linear_svm,0.6666666666666666
+Hippocampal Formation,logistic_l2 | random_forest,0.7094017094017094
+Hippocampal Formation,linear_svm | random_forest,0.680672268907563
+Insula,logistic_l1 | elastic_net,0.48148148148148145
+Insula,logistic_l1 | logistic_l2,0.3698630136986301
+Insula,logistic_l1 | linear_svm,0.3698630136986301
+Insula,logistic_l1 | random_forest,0.28205128205128205
+Insula,elastic_net | logistic_l2,0.4084507042253521
+Insula,elastic_net | linear_svm,0.41843971631205673
+Insula,elastic_net | random_forest,0.3157894736842105
+Insula,logistic_l2 | linear_svm,0.8867924528301887
+Insula,logistic_l2 | random_forest,0.6129032258064516
+Insula,linear_svm | random_forest,0.6129032258064516
+OFC BA11,logistic_l1 | elastic_net,0.5151515151515151
+OFC BA11,logistic_l1 | logistic_l2,0.3793103448275862
+OFC BA11,logistic_l1 | linear_svm,0.3698630136986301
+OFC BA11,logistic_l1 | random_forest,0.36054421768707484
+OFC BA11,elastic_net | logistic_l2,0.4925373134328358
+OFC BA11,elastic_net | linear_svm,0.5267175572519084
+OFC BA11,elastic_net | random_forest,0.4492753623188406
+OFC BA11,logistic_l2 | linear_svm,0.6528925619834711
+OFC BA11,logistic_l2 | random_forest,0.6260162601626016
+OFC BA11,linear_svm | random_forest,0.5625
+Ventral Striatum,logistic_l1 | elastic_net,0.5037593984962406
+Ventral Striatum,logistic_l1 | logistic_l2,0.4084507042253521
+Ventral Striatum,logistic_l1 | linear_svm,0.3888888888888889
+Ventral Striatum,logistic_l1 | random_forest,0.4084507042253521
+Ventral Striatum,elastic_net | logistic_l2,0.5384615384615384
+Ventral Striatum,elastic_net | linear_svm,0.5748031496062992
+Ventral Striatum,elastic_net | random_forest,0.5503875968992248
+Ventral Striatum,logistic_l2 | linear_svm,0.6666666666666666
+Ventral Striatum,logistic_l2 | random_forest,0.6129032258064516
+Ventral Striatum,linear_svm | random_forest,0.6666666666666666
+dlPFC BA8/9,logistic_l1 | elastic_net,0.47058823529411764
+dlPFC BA8/9,logistic_l1 | logistic_l2,0.3333333333333333
+dlPFC BA8/9,logistic_l1 | linear_svm,0.2987012987012987
+dlPFC BA8/9,logistic_l1 | random_forest,0.28205128205128205
+dlPFC BA8/9,elastic_net | logistic_l2,0.43884892086330934
+dlPFC BA8/9,elastic_net | linear_svm,0.3793103448275862
+dlPFC BA8/9,elastic_net | random_forest,0.36054421768707484
+dlPFC BA8/9,logistic_l2 | linear_svm,0.6666666666666666
+dlPFC BA8/9,logistic_l2 | random_forest,0.6260162601626016
+dlPFC BA8/9,linear_svm | random_forest,0.7094017094017094

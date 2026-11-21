@@ -1,0 +1,7 @@
+region,frozen_LM_eligible_genes,matched_raw_count_genes,genes_tested_limma,genes_tested_DESeq2,unmatched_genes,unmatched_reason,exact_matched_universe
+Ventral Striatum,23917,23917,23917,23917,0,none,True
+Insula,23090,23090,23090,23090,0,none,True
+Hippocampal Formation,24371,24371,24371,24371,0,none,True
+CG25,23941,23941,23941,23941,0,none,True
+dlPFC BA8/9,23941,23941,23941,23941,0,none,True
+OFC BA11,23941,23941,23941,23941,0,none,True

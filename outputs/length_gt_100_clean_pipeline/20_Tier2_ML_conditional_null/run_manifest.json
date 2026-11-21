@@ -1,0 +1,26 @@
+{
+  "candidate_pairs": 671,
+  "conditional_null": true,
+  "frozen_benchmark_checksum_ledger_sha256": "4e17dc8234317efc9bce92aa03fb7ae63ff72a128392d202f2f31a105c09cf10",
+  "frozen_observed_rra_sha256": "2e1ed5fc91aae752f57e46e61022a9077d7f1ab285cfc05a6973c3c6df23d358",
+  "interpretation_warning": "Tier2 was selected using observed Diagnosis; this conditional null does not test the complete discovery pipeline.",
+  "minimum_empirical_pilot_probability": 0.047619047619047616,
+  "n_failed_permutations": 0,
+  "n_successful_permutations": 20,
+  "permutation_indices": [
+    1,
+    20
+  ],
+  "permutation_seeds": [
+    41001,
+    41020
+  ],
+  "runtime_seconds_ml": {
+    "maximum": 957.5896515846252,
+    "mean": 792.8229899048805,
+    "median": 800.2465107440948,
+    "minimum": 515.1404538154602,
+    "sum_permutation_wall_times": 15856.45979809761
+  },
+  "status": "20_permutation_pilot_complete"
+}

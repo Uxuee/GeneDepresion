@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "all_output_checksums_match": true,
+    "coverage_summary_reproduces": true,
+    "exact_671_unique_tier2_pairs": true,
+    "exact_six_regions": true,
+    "frozen_allgene_hash_unchanged": true,
+    "frozen_primary_hash_unchanged": true,
+    "lasso_25_outer_fits_per_region": true,
+    "lasso_denominator_exactly_25": true,
+    "lasso_selection_counts_reproduce": true,
+    "lasso_uses_exact_tier2_pairs": true,
+    "manifest_rejects_composite_and_metric_weighting": true,
+    "never_selected_shared_worst_rank": true,
+    "no_metric_or_weighted_priority_score": true,
+    "no_tier4_or_external_pairs": true,
+    "rank_correlation_grid_complete": true,
+    "resampling_summary_complete": true,
+    "stability_100_subsamples_per_region": true,
+    "stability_balanced_half_samples": true,
+    "stability_denominator_exactly_100": true,
+    "stability_one_event_per_gene_subsample": true,
+    "stability_preserves_sample_mapping": true,
+    "stability_seed_grid_exact": true,
+    "stability_selection_counts_reproduce": true,
+    "stability_uses_exact_tier2_pairs": true,
+    "topset_definitions_exact": true
+  },
+  "passed": true
+}

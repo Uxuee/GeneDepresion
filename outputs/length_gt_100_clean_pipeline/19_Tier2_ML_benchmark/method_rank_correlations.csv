@@ -1,0 +1,19 @@
+region,method_left,method_right,n_common,spearman_rho,kendall_tau,never_selected_rule
+Ventral Striatum,Tier2-RRA,LASSO,146,0.7537270039232126,0.5980010461338474,shared worst-rank block
+Ventral Striatum,Tier2-RRA,Stability Selection,146,0.6615369472061995,0.49963058203902755,shared worst-rank block
+Ventral Striatum,LASSO,Stability Selection,146,0.808958364223107,0.6696209898683162,shared worst-rank block
+Insula,Tier2-RRA,LASSO,70,0.6537475154003636,0.48890604960230927,shared worst-rank block
+Insula,Tier2-RRA,Stability Selection,70,0.6266348231787608,0.47131912379393326,shared worst-rank block
+Insula,LASSO,Stability Selection,70,0.8720288756489594,0.7167292107445298,shared worst-rank block
+Hippocampal Formation,Tier2-RRA,LASSO,127,0.8339991051941802,0.6860934378430753,shared worst-rank block
+Hippocampal Formation,Tier2-RRA,Stability Selection,127,0.6884659828535222,0.520989193099003,shared worst-rank block
+Hippocampal Formation,LASSO,Stability Selection,127,0.8253501129721461,0.6969030158809507,shared worst-rank block
+CG25,Tier2-RRA,LASSO,186,0.7872071463881288,0.6424175380587909,shared worst-rank block
+CG25,Tier2-RRA,Stability Selection,186,0.6023014780059511,0.4389310715699563,shared worst-rank block
+CG25,LASSO,Stability Selection,186,0.6740657689030022,0.5521412872242576,shared worst-rank block
+dlPFC BA8/9,Tier2-RRA,LASSO,72,0.7021750321978582,0.5452961739192564,shared worst-rank block
+dlPFC BA8/9,Tier2-RRA,Stability Selection,72,0.6494669667723428,0.4723857550499917,shared worst-rank block
+dlPFC BA8/9,LASSO,Stability Selection,72,0.896670944534884,0.7481363300186006,shared worst-rank block
+OFC BA11,Tier2-RRA,LASSO,70,0.7353839767365402,0.5557659367013379,shared worst-rank block
+OFC BA11,Tier2-RRA,Stability Selection,70,0.6188609920391916,0.44596273291925465,shared worst-rank block
+OFC BA11,LASSO,Stability Selection,70,0.8171166430071775,0.6421630329897372,shared worst-rank block

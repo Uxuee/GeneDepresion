@@ -19,3 +19,9 @@ outputs/length_gt_100_clean_pipeline/07_Tier2_candidate_gene_sets/*.csv text eol
 outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/*.csv text eol=crlf
 outputs/length_gt_100_clean_pipeline/16_corrected_ML_downstream/**/*.csv text eol=crlf
 docs/DOWNSTREAM_CORRECTED_RESULT_COMPARISON.md text eol=crlf
+
+# Statistical-method benchmark checksums were recorded from Windows CRLF outputs.
+outputs/length_gt_100_clean_pipeline/21_Statistical_method_benchmark/**/*.csv text eol=crlf
+outputs/length_gt_100_clean_pipeline/21_Statistical_method_benchmark/**/*.json text eol=crlf
+outputs/length_gt_100_clean_pipeline/21_Statistical_method_benchmark/**/*.txt text eol=crlf
+outputs/length_gt_100_clean_pipeline/21_Statistical_method_benchmark/**/*.sha256 text eol=crlf
