@@ -1,0 +1,27 @@
+[
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_Tier2_ML_RRA_prioritization/checksums.sha256",
+    "sha256": "3c45b0a92e4a5a3b8c9fc126097c312d492141734ea8e3fe72534a91152e950e",
+    "reason": "restore source CRLF bytes after Git checkout normalization; content unchanged"
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/19_Tier2_ML_benchmark/checksums.sha256",
+    "sha256": "4e17dc8234317efc9bce92aa03fb7ae63ff72a128392d202f2f31a105c09cf10",
+    "reason": "restore source CRLF bytes after Git checkout normalization; content unchanged"
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/20_Tier2_ML_conditional_null/run_manifest.json",
+    "sha256": "f329a4d844a0ed386820f8116ef53bfa6ba732021e9d5279ff5e2cf15d659dfc",
+    "reason": "restore source CRLF bytes after Git checkout normalization; content unchanged"
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/20_Tier2_ML_conditional_null/observed_reference/observed_reference_manifest.json",
+    "sha256": "ffee15ee98de69bde9a864fbb296bf41b6b01015f27727f7b551806ebf8a4283",
+    "reason": "restore source CRLF bytes after Git checkout normalization; content unchanged"
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/22_Final_evidence_synthesis/checksums.sha256",
+    "sha256": "9c915701501a49d45de6ab95c530f5c57399d5f8798bca7fc0f11a2626121b98",
+    "reason": "restore source CRLF bytes after Git checkout normalization; content unchanged"
+  }
+]

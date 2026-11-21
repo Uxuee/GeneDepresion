@@ -1,0 +1,1802 @@
+[
+  {
+    "path": "code/Step1_GSE102556_GeTMM_brain_area_groups.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "code/Step1_length_cutoff_sensitivity_GeTMM.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "code/Step3_run_all_DGE_methods_on_length_cutoffs.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "code/Step6_Frontal_Subregion_WGCNA_modules.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "code/Step7_Annotate_MDD_WGCNA_Modules.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "code/Step8_Define_WGCNA_Module_ML2_Stable_Core_Genes.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/01_inputs/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/01_inputs/gene_filter_length_gt_100_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/01_inputs/tested_gene_universe_by_region.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/02_normalized_expression/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/02_normalized_expression/frontal_subregion_wgcna_inputs/frontal_subregion_wgcna_input_manifest.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/02_normalized_expression/frontal_subregion_wgcna_inputs/frontal_subregion_wgcna_input_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/03_broad_region_LMM/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/03_broad_region_LMM/summary_by_region_length_gt_100.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/04_standardized_effect_size/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/04_standardized_effect_size/sign_check_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/04_standardized_effect_size/standardized_effect_size_4groups_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/05_evidence_tiers/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/05_evidence_tiers/Tier1_genes.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/05_evidence_tiers/Tier2_genes_broad_regions.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/05_evidence_tiers/Tier3_genes.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/05_evidence_tiers/evidence_tier_summary_by_region.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/06_frontal_subregion_sensitivity/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/06_frontal_subregion_sensitivity/frontal_subregion_Tier2_genes.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/06_frontal_subregion_sensitivity/frontal_subregion_model_feasibility.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/06_frontal_subregion_sensitivity/frontal_subregion_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/07_Tier2_candidate_gene_sets/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/07_Tier2_candidate_gene_sets/Tier2_gene_symbols_by_region/Cingulate_gyrus_25_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/07_Tier2_candidate_gene_sets/Tier2_gene_symbols_by_region/Hippocampal_Formation_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/07_Tier2_candidate_gene_sets/Tier2_gene_symbols_by_region/Insula_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/07_Tier2_candidate_gene_sets/Tier2_gene_symbols_by_region/OFC_BA11_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/07_Tier2_candidate_gene_sets/Tier2_gene_symbols_by_region/Ventral_Striatum_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/07_Tier2_candidate_gene_sets/Tier2_gene_symbols_by_region/dlPFC_BA8_9_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/08_Tier2_enrichment/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/08_Tier2_enrichment/README_clean_pipeline.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/08_Tier2_enrichment/Tier2_Enrichment_Report.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/08_Tier2_enrichment/enrichment_summary_by_gene_set.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/08_Tier2_enrichment/selected_report_ready_enrichment_plots/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/09_ML_v1_Tier2_fixed_only/ML_Tier2FixedOnly_best_model_by_region.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/09_ML_v1_Tier2_fixed_only/ML_Tier2FixedOnly_cross_validated_predictions.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/09_ML_v1_Tier2_fixed_only/ML_Tier2FixedOnly_feature_importance.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/09_ML_v1_Tier2_fixed_only/ML_Tier2FixedOnly_performance_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/09_ML_v1_Tier2_fixed_only/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/09_ML_v1_extended_prioritization/ML_v1_exact_model_settings.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/09_ML_v1_extended_prioritization/ML_v1_exact_model_settings.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/09_ML_v1_extended_prioritization/ML_v1_extended_best_model_by_region.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/09_ML_v1_extended_prioritization/ML_v1_extended_feature_importance.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/09_ML_v1_extended_prioritization/ML_v1_extended_feature_set_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/09_ML_v1_extended_prioritization/ML_v1_extended_performance_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/09_ML_v1_extended_prioritization/ML_v1_methods_report_snippet.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/09_ML_v1_extended_prioritization/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2FixedOnly/ML_prioritized_Tier2FixedOnly_all_ranked.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2FixedOnly/ML_prioritized_Tier2FixedOnly_high_confidence.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2FixedOnly/ML_prioritized_Tier2FixedOnly_moderate_confidence.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2FixedOnly/ML_prioritized_Tier2FixedOnly_summary_by_region.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2FixedOnly/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2FixedOnly/gene_lists/Cingulate_gyrus_25_prioritized_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2FixedOnly/gene_lists/Hippocampal_Formation_prioritized_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2FixedOnly/gene_lists/Insula_prioritized_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2FixedOnly/gene_lists/OFC_BA11_prioritized_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2FixedOnly/gene_lists/Ventral_Striatum_prioritized_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2FixedOnly/gene_lists/dlPFC_BA8_9_prioritized_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/ML_Prioritized_Tier2_Report.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/corrected_regeneration_report.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/gene_lists/Cingulate_gyrus_25_high_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/gene_lists/Cingulate_gyrus_25_moderate_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/gene_lists/Hippocampal_Formation_high_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/gene_lists/Hippocampal_Formation_moderate_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/gene_lists/Insula_high_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/gene_lists/Insula_moderate_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/gene_lists/OFC_BA11_high_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/gene_lists/OFC_BA11_moderate_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/gene_lists/Ventral_Striatum_high_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/gene_lists/Ventral_Striatum_moderate_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/gene_lists/dlPFC_BA8_9_high_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/gene_lists/dlPFC_BA8_9_moderate_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_corrected/run_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/ML_Prioritized_Tier2_Report.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/ML_prioritized_Tier2_extended_high_confidence.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/ML_prioritized_Tier2_extended_moderate_confidence.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/ML_prioritized_Tier2_extended_summary_by_region.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/ML_prioritized_Tier2_gene_summary_by_region.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/ML_prioritized_Tier2_genes_all_ranked.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/ML_prioritized_Tier2_genes_high_confidence.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/ML_prioritized_Tier2_genes_moderate_confidence.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/count_definition_audit/high_moderate_count_audit_by_region.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/count_definition_audit/high_moderate_count_definition_report.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/count_definition_audit/high_moderate_gene_membership_audit.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/final_clean_high_moderate_summary_by_region.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/final_gene_ranking_method.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/final_high_confidence_ML_prioritized_Tier2_genes.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/final_moderate_confidence_ML_prioritized_Tier2_genes.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/final_ranked_ML_prioritized_Tier2_genes.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/final_ranking_summary_by_region.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/final_top_genes_by_region.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/final_top_report_table.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/Cingulate_gyrus_25_high_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/Cingulate_gyrus_25_moderate_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/Cingulate_gyrus_25_prioritized_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/Hippocampal_Formation_high_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/Hippocampal_Formation_moderate_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/Hippocampal_Formation_prioritized_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/Insula_high_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/Insula_moderate_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/Insula_prioritized_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/OFC_BA11_high_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/OFC_BA11_moderate_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/OFC_BA11_prioritized_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/Ventral_Striatum_high_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/Ventral_Striatum_moderate_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/Ventral_Striatum_prioritized_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/dlPFC_BA8_9_high_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/dlPFC_BA8_9_moderate_confidence_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists/dlPFC_BA8_9_prioritized_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Cingulate_gyrus_25_all_ranked_Tier2_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Cingulate_gyrus_25_high_confidence_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Cingulate_gyrus_25_high_plus_moderate_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Cingulate_gyrus_25_moderate_confidence_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Hippocampal_Formation_all_ranked_Tier2_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Hippocampal_Formation_high_confidence_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Hippocampal_Formation_high_plus_moderate_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Hippocampal_Formation_moderate_confidence_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Insula_all_ranked_Tier2_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Insula_high_confidence_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Insula_high_plus_moderate_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Insula_moderate_confidence_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/OFC_BA11_all_ranked_Tier2_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/OFC_BA11_high_confidence_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/OFC_BA11_high_plus_moderate_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/OFC_BA11_moderate_confidence_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Ventral_Striatum_all_ranked_Tier2_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Ventral_Striatum_high_confidence_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Ventral_Striatum_high_plus_moderate_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/Ventral_Striatum_moderate_confidence_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/dlPFC_BA8_9_all_ranked_Tier2_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/dlPFC_BA8_9_high_confidence_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/dlPFC_BA8_9_high_plus_moderate_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/gene_lists_final/dlPFC_BA8_9_moderate_confidence_gene_symbols.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/heatmap_count_audit/heatmap_count_audit_report.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/heatmap_count_audit/heatmap_gene_list.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/heatmap_count_audit/heatmap_vs_final_counts_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/model_support_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/plots/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/priority_score_code_audit/ML_priority_relevant_code_excerpt.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/priority_score_code_audit/ML_priority_score_code_audit.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/priority_score_code_audit/ML_priority_score_report_snippet.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/priority_score_code_audit/ML_priority_score_thresholds.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/10_ML_prioritized_Tier2_extended/run_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/ahba_step01_preprocess_audit_counts.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/Module_Score_ML_Report.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/feature_importance/module_score_ml_feature_importance_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/module_score_matrices/Frontal_Cortex_module_score_sample_metadata.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/module_score_matrices/Frontal_Cortex_published_AHBA_module_scores_descriptive.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/module_score_matrices/Hippocampal_Formation_module_score_sample_metadata.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/module_score_matrices/Hippocampal_Formation_published_AHBA_module_scores_descriptive.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/module_score_matrices/Insula_module_score_sample_metadata.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/module_score_matrices/Insula_published_AHBA_module_scores_descriptive.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/module_score_matrices/Ventral_Striatum_module_score_sample_metadata.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/module_score_matrices/Ventral_Striatum_published_AHBA_module_scores_descriptive.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/module_score_ml_best_model_by_region_feature_set.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/module_score_ml_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/module_score_ml_performance_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/plots/representative_logistic_L2_curves_all32_modules.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/module_score_ml/published_module_gene_coverage_by_region.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/modules/AHBA_NO_USABLE_MULTIMODULE_SOLUTION.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/modules/AHBA_module_construction_summary.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/modules/ahba_gene_to_module_assignments.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/modules/ahba_module_eigengenes.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/modules/ahba_module_size_table.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/modules/ahba_wgcna_gene_selection_audit.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/modules/ahba_wgcna_parameter_sensitivity.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/modules/ahba_wgcna_soft_threshold_fit.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/modules/module_parameters.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/ahba_published_module_size_table.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/annotations/published_ahba_corrected_suggestive_hits_with_annotations.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/annotations/published_ahba_module_annotation_notes.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/annotations/published_ahba_module_annotation_report.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/annotations/published_ahba_module_annotation_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/enrichment/ahba_M26_evidence_across_gene_sets_plot_data.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/enrichment/ahba_enrichment_evidence_ladder_plot_data.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/enrichment/published_ahba_candidate_set_audit.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/enrichment/published_ahba_enrichment_corrected_results_table.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/enrichment/published_ahba_enrichment_interpretation_notes.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/enrichment/published_ahba_enrichment_nominal_results_table.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/enrichment/published_ahba_enrichment_region_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/enrichment/published_ahba_module_enrichment_barplot_colored_plot_data.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/enrichment/published_ahba_module_enrichment_report.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/enrichment/published_ahba_module_enrichment_results.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/enrichment/published_ahba_module_size_table.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/published_ahba_module_enrichment_summary.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/11_AHBA_modules_enrichment/published_modules/published_module_load_report.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/MDD_WGCNA_Module_Report.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/MDD_WGCNA_Module_Report_FULL.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/MDD_WGCNA_Report_Figure_Index.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/MDD_WGCNA_Top_Module_Interpretation.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/MDD_WGCNA_Biological_Annotation_Report.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/cell_type_annotation_notes.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/mdd_wgcna_biological_annotation_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Frontal_Cortex_MEblack.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Frontal_Cortex_MEdarkgreen.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Frontal_Cortex_MEsalmon.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Hippocampal_Formation_MEgreen.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Insula_MEdarkorange.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Insula_MEorange.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Ventral_Striatum_MEdarkred.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Ventral_Striatum_MElavenderblush3.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Ventral_Striatum_MElightcyan1.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/biological_annotation/module_cards/Ventral_Striatum_MElightgreen.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/important_modules_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/mdd_wgcna_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/mdd_wgcna_module_triage_table.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/mdd_wgcna_top_priority_modules_for_report.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/module_level_ml2/Stable_Core_Genes_for_Module_Level_ML2.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/module_level_ml2/stable_core_gene_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/module_level_ml2/stable_core_gene_summary_by_module.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/module_level_ml2/stable_core_genes_by_module.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/plots_cluster_visualization/README_cluster_plots.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/plots_cluster_visualization/best_modules_summary_for_plotting.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/12_MDD_WGCNA_modules/plots_cluster_visualization/cluster_visualization_plot_inventory.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/15_External_Validation/External_Validation_Reference_and_Plan.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/16_corrected_ML_downstream/WGCNA_ML_annotations_corrected/network_figures_broad/README_cluster_plots.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/16_corrected_ML_downstream/WGCNA_ML_annotations_corrected/network_figures_frontal_subregions/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/16_corrected_ML_downstream/phase2_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/inputs_manifest/stage_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/inputs_manifest/wgcna_reconstruction_input_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/manifests/functional_annotation_stage_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/manifests/ml_enrichment_stage_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/manifests/module_comparison_stage_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/manifests/phase3b_comparison_annotation_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/manifests/phase3b_sessionInfo.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/manifests/phase3b_test_execution.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/manifests/phase3b_validation_checks.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/manifests/reconstruction_stage_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/module_comparison/predeclared_equivalence_thresholds.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/reconstruction/Cingulate_gyrus_25/COMPLETE.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/reconstruction/Cingulate_gyrus_25/reconstruction_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/reconstruction/Hippocampal_Formation/COMPLETE.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/reconstruction/Hippocampal_Formation/reconstruction_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/reconstruction/Insula/COMPLETE.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/reconstruction/Insula/reconstruction_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/reconstruction/OFC_BA11/COMPLETE.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/reconstruction/OFC_BA11/reconstruction_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/reconstruction/Ventral_Striatum/COMPLETE.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/reconstruction/Ventral_Striatum/reconstruction_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/reconstruction/dlPFC_BA8_9/COMPLETE.txt",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/17_WGCNA_reconstruction_validation/reconstruction/dlPFC_BA8_9/reconstruction_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/all_prioritized_module_enrichment_terms.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/background_universe_audit.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/cross_database_theme_support.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/fdr05_terms_with_overlap_genes.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/fdr10_suggestive_terms.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/gene_driver_recurrence.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/gene_drivers_by_term.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/hub_function_overlap.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/ml_gene_function_overlap.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/module_mapping_quality.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/module_theme_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/phase3c_final_decision_table.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/phase3c_term_clusters.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/prioritized_modules_audited.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/functional_annotation/publication_interpretation_categories.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/manifests/phase3c_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/18_WGCNA_enrichment_interpretation_audit/manifests/phase3c_output_file_manifest.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/MAIN_WORKFLOW_REPORT.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/SNAPSHOT_MANIFEST.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/Step1_GSE102556_GeTMM_brain_area_groups.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/Step1_length_cutoff_sensitivity_GeTMM.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/Step2_Covariate_Exploration_FrontalCortex.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/Step3_all_regions_combined_simple.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/Step3_frontal_dream_simple.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/Step3_run_all_DGE_methods_on_length_cutoffs.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/Step3_small_groups_limma_voom_simple.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/assemble_length_gt_100_elisa_style_outputs.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/assemble_length_gt_50_elisa_style_outputs.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/compute_expression_filter_covariates_length_gt_100.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/create_DE_candidate_gene_sets_length_gt_100.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/create_length_gt_100_report_figures.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/create_report_ready_enrichment_plots.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/extract_stable_ML_prioritized_Tier2_genes.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/frontal_subregion_sensitivity_length_gt_100.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/00_pipeline_config.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/01_prepare_length_gt_100_inputs.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/02_run_getmm_log2_normalization.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/03_run_broad_region_LMM.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/04_compute_standardized_effect_sizes.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/05_create_evidence_tiers.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/06_run_frontal_subregion_sensitivity.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/07_package_Tier2_candidate_gene_sets.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/08_run_Tier2_enrichment.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/09_run_ML_v1_Tier2_fixed_only.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/09_run_ML_v1_extended_prioritization.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/10_extract_Tier2FixedOnly_ML_prioritized_genes.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/10_extract_extended_ML_prioritized_Tier2_genes.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/11_collect_report_images.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/12_write_integrated_clean_report.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/pipeline_lib.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/run_length_gt_100_clean_pipeline.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/upstream_R_scripts/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/upstream_R_scripts/Step1_GSE102556_GeTMM_brain_area_groups.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/upstream_R_scripts/Step1_length_cutoff_sensitivity_GeTMM.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/upstream_R_scripts/Step2_Covariate_Exploration_FrontalCortex.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/upstream_R_scripts/Step3_all_regions_combined_simple.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/upstream_R_scripts/Step3_frontal_dream_simple.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/upstream_R_scripts/Step3_run_all_DGE_methods_on_length_cutoffs.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/upstream_R_scripts/Step3_small_groups_limma_voom_simple.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/upstream_R_scripts/frontal_subregion_sensitivity_length_gt_100.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/upstream_R_scripts/pvalue_correction_sensitivity_length_gt_100.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/upstream_R_scripts/run_Tier2_enrichment_length_gt_100.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/upstream_R_scripts/run_pvalue_correction_audit_length_gt_100.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/length_gt_100_clean_pipeline/upstream_R_scripts/setup_pvalue_audit_R_packages.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/make_all_area_Tier2_volcano_plots.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/make_evidence_tiers_4groups_length_gt_100.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/make_exploratory_DE_p001_absbeta02_length_gt_100.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/make_pvalue_correction_audit_length_gt_100.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/make_standardized_effect_size_4groups_length_gt_100.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/pvalue_correction_sensitivity_length_gt_100.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/run_ML_pilot_Tier2_length_gt_100.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/run_ML_strict_v2_length_gt_100.py",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/run_Tier2_enrichment_length_gt_100.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/run_pvalue_correction_audit_length_gt_100.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/code_snapshot_2026-06-27_tier4_score_export/code/setup_pvalue_audit_R_packages.R",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/images/inventory/README.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/images/inventory/image_inventory.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/frontal_subregion_wgcna/Frontal_Subregion_WGCNA_Report.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/frontal_subregion_wgcna/Frontal_Subregion_WGCNA_Report_FULL.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/frontal_subregion_wgcna/biological_annotation/Frontal_Subregion_WGCNA_Biological_Annotation_Report.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/frontal_subregion_wgcna/biological_annotation/frontal_subregion_prioritized_modules_biological_summary.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/frontal_subregion_wgcna/frontal_broad_vs_subregion_comparison.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/frontal_subregion_wgcna/frontal_subregion_followup_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/frontal_subregion_wgcna/frontal_subregion_prioritized_modules_for_plots.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/mdd_wgcna_modules/frontal_subregion_wgcna/frontal_subregion_wgcna_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/notebooks/01_clear_length_gt_100_workflow_notebook.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_clean_pipeline/pipeline_manifest.json",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/Exploratory_DE_p001_absbeta02_report.md",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/LMM_exploratory_DE_p001_absbeta02_length_gt_100.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/exploratory_DE_by_region/Frontal_Cortex_exploratory_DE_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/exploratory_DE_by_region/Hippocampal_Formation_exploratory_DE_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/exploratory_DE_by_region/Insula_exploratory_DE_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/exploratory_DE_by_region/Ventral_Striatum_exploratory_DE_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/summary_exploratory_DE_p001_absbeta02_by_region.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_abs_beta_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_pvalue_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_region/Frontal_Cortex_top100_exploratory_by_abs_beta_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_region/Frontal_Cortex_top100_exploratory_by_pvalue_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_region/Frontal_Cortex_top100_exploratory_by_signed_logp_score_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_region/Hippocampal_Formation_top100_exploratory_by_abs_beta_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_region/Hippocampal_Formation_top100_exploratory_by_pvalue_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_region/Hippocampal_Formation_top100_exploratory_by_signed_logp_score_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_region/Insula_top100_exploratory_by_abs_beta_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_region/Insula_top100_exploratory_by_pvalue_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_region/Insula_top100_exploratory_by_signed_logp_score_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_region/Ventral_Striatum_top100_exploratory_by_abs_beta_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_region/Ventral_Striatum_top100_exploratory_by_pvalue_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_region/Ventral_Striatum_top100_exploratory_by_signed_logp_score_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  },
+  {
+    "path": "outputs/length_gt_100_elisa_style/top100_exploratory_DE_by_signed_logp_score_p001_absbeta02.csv",
+    "classification": "line_endings_only",
+    "destination_preserved": true
+  }
+]
