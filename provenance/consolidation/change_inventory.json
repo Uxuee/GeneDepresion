@@ -1,0 +1,267 @@
+{
+  "comparison_base": "276e17803c9964d9c944cbaccf25184e59c492ae",
+  "reviewed_head": "dd9de9a271939b04e89c6281f14010113bfb89ed",
+  "moves_performed": 0,
+  "files": [
+    {
+      "status": "M",
+      "path": ".gitattributes"
+    },
+    {
+      "status": "M",
+      "path": "README.md"
+    },
+    {
+      "status": "M",
+      "path": "audit/validate_canonical_pipeline.py"
+    },
+    {
+      "status": "A",
+      "path": "audit/verify_consolidation.py"
+    },
+    {
+      "status": "M",
+      "path": "code/canonical_downstream_paths.py"
+    },
+    {
+      "status": "M",
+      "path": "docs/CANONICALIZATION_AUDIT.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/CANONICAL_PIPELINE_MAP.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/CANONICAL_RESULTS_INDEX.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/CHANGELOG_RESEARCH.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/CONSOLIDATION_PHASE2.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/CONSOLIDATION_PR_BODY.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/DATA_AND_RESULT_PROVENANCE.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/FINAL_CROSS_METHOD_EVIDENCE_SYNTHESIS.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/FINAL_SYNTHESIS_DATA_AND_GIT_AUDIT.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/GITHUB_RELEASE_READINESS.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/GIT_HISTORY_REWRITE_NOTICE.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/LIMITATIONS.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/MDD_Length_gt_100_clean_Tier2_to_ML_prioritized_Report.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/MDD_WGCNA_Module_Report.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/METHODS.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/ML_PRIORITY_SCORE_CODE_AUDIT.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/ML_PRIORITY_SCORE_FINAL.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/ML_PRIORITY_SCORING_CORRECTNESS_FIX_CHANGELOG.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/ML_RRA_DESIGN_NOTE.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/ML_RRA_REDESIGN_REPORT.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/Main_Workflow_Length_gt_100_Report.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/PHASE3A_PROVENANCE_RECOVERY_REPORT.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/PIPELINE.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/PUBLICATION_AUDIT_NUMERICAL_CHECKS.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/PUBLICATION_CHANGELOG.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/PUBLICATION_CLAIM_SUPPORT_MATRIX.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/PUBLICATION_END_TO_END_AUDIT.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/PUBLICATION_PIPELINE.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/PUBLICATION_REPRODUCIBILITY_GAPS.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/REPRODUCIBILITY.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/REPRODUCIBILITY_CHECKLIST.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/RESULTS.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/ROADMAP.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/STALE_PUBLICATION_REFERENCE_INVENTORY.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/STEP13_MODULE_ML2_PROVENANCE_SEARCH.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/STEP3_PROVENANCE_RECONCILIATION.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/Step_by_step_MDD_Length_gt_100_clean_report.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/TIER2_ML_CONDITIONAL_NULL_REPORT.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/TIER2_ML_PRIORITIZATION_BENCHMARK_REPORT.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/TIER2_ML_RRA_INPUT_AUDIT.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/TIER2_ML_RRA_PRIORITIZATION_REPORT.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/TIER2_PRIORITIZATION_BENCHMARK_DESIGN.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/UPSTREAM_STATISTICAL_BENCHMARK_DESIGN.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/UPSTREAM_STATISTICAL_METHOD_BENCHMARK_REPORT.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/WGCNA_CANONICAL_PARAMETER_AUDIT.md"
+    },
+    {
+      "status": "M",
+      "path": "docs/WGCNA_RECONSTRUCTION_AND_ANNOTATION_VALIDATION.md"
+    },
+    {
+      "status": "A",
+      "path": "provenance/canonical_outputs_manifest.json"
+    },
+    {
+      "status": "M",
+      "path": "provenance/canonical_pipeline.json"
+    },
+    {
+      "status": "A",
+      "path": "provenance/consolidation/canonical_pipeline.before.json"
+    },
+    {
+      "status": "A",
+      "path": "provenance/consolidation/checkout_byte_restorations.json"
+    },
+    {
+      "status": "A",
+      "path": "provenance/consolidation/external_validation_inventory.csv"
+    },
+    {
+      "status": "A",
+      "path": "provenance/consolidation/frozen_baseline.json"
+    },
+    {
+      "status": "A",
+      "path": "provenance/consolidation/historical_document_scope.json"
+    },
+    {
+      "status": "A",
+      "path": "provenance/consolidation/historical_validation_comparison.json"
+    },
+    {
+      "status": "A",
+      "path": "provenance/consolidation/local_input_copies.json"
+    },
+    {
+      "status": "A",
+      "path": "provenance/consolidation/local_stage_copies.json"
+    },
+    {
+      "status": "A",
+      "path": "provenance/consolidation/preexisting_checkout_differences.json"
+    },
+    {
+      "status": "A",
+      "path": "provenance/consolidation/protection_summary.json"
+    },
+    {
+      "status": "A",
+      "path": "provenance/consolidation/publication_review.json"
+    },
+    {
+      "status": "M",
+      "path": "tests/test_release_readiness.py"
+    }
+  ]
+}
