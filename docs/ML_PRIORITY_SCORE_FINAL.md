@@ -1,3 +1,5 @@
+> **Method scope, 2026-11-21:** This unchanged scoring specification describes the historical canonical corrected weighted **v1 + strict-v2** benchmark, not v2 alone. Tier2-RRA is now the current primary exploratory ranking; the weighted confidence labels do not transfer. See [PIPELINE.md](PIPELINE.md).
+
 # Final ML-Priority Score Specification
 
 ## Status

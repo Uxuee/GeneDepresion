@@ -1,4 +1,4 @@
-"""Canonical paths shared by corrected ML-dependent downstream regeneration."""
+"""Historical corrected-weighted paths; existing aliases intentionally do not switch to RRA."""
 
 from pathlib import Path
 
@@ -8,3 +8,7 @@ CANONICAL_ML_DIR = CLEAN_ROOT / "10_ML_prioritized_Tier2_corrected"
 CANONICAL_RANKING = CANONICAL_ML_DIR / "ML_prioritized_Tier2_genes_all_ranked.csv"
 PHASE2_ROOT = CLEAN_ROOT / "16_corrected_ML_downstream"
 CANONICAL_RANKING_SHA256 = "6f59e2ed6f652061fcb81a7c5eccbc1211a8dcb9d0bafcc85a1f9fc3edf280f1"
+
+# Current presentation ranking; never substituted into weighted downstream regeneration.
+CURRENT_PRIMARY_RANKING = CLEAN_ROOT / "18_Tier2_ML_RRA_prioritization" / "Tier2_consensus_rra_rankings.csv"
+CURRENT_PRIMARY_RANKING_SHA256 = "2e1ed5fc91aae752f57e46e61022a9077d7f1ab285cfc05a6973c3c6df23d358"

@@ -1,3 +1,5 @@
+> **Historical scope notice (2026-11-21):** This document preserves its original method/phase claims. Current workflow designation and completed literature work are described in [PIPELINE.md](PIPELINE.md). Tier2-RRA is the current primary exploratory ranking; corrected weighted v1 + strict-v2 results and confidence labels remain method-specific historical benchmarks. Earlier references to planned validation or canonical weighted ranking are not current project-wide status.
+
 # Main Workflow Report: Length > 100 Clean MDD Transcriptomics Pipeline
 
 > **Superseded ML counts:** this saved report uses the legacy 35/130 ranking. Current canonical ML counts are 30 high, 119 moderate, and 522 low; see `ML_PRIORITY_SCORE_FINAL.md`.

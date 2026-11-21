@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-21",
+  "test_canonical_ml_priority_result": {
+    "tests": 5,
+    "passed": 5
+  },
+  "test_phase3a_guardrails_unittest": {
+    "tests": 11,
+    "passed": 11
+  },
+  "test_release_readiness": {
+    "tests": 8,
+    "passed": 8
+  },
+  "total_passed": 24,
+  "canonical_registry_validator": {
+    "ok": true,
+    "stages": 30,
+    "errors": 0,
+    "warnings": 0,
+    "notices": 0
+  },
+  "expensive_analyses_run": false,
+  "test_note": "Release-readiness expectation updated from former weighted-stage display name to both primary Tier2-RRA and historical weighted labels; rerun passed."
+}

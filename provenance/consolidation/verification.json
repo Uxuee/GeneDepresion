@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-21",
+  "ok": true,
+  "errors": [],
+  "warnings": [
+    "Frozen LM direct generator recovery remains incomplete; current Step3 scripts are separate branches.",
+    "External-reference redistribution review remains pending; existing files preserved untracked.",
+    "R packages and cross-platform end-to-end execution were not revalidated; no analyses run."
+  ],
+  "checks": {
+    "frozen_source_comparisons": 1113,
+    "preexisting_shared_checkout_byte_differences": 360,
+    "external_validation_preserved": 227,
+    "local_stage_copies_verified": 717,
+    "primary_regional_counts": {
+      "Ventral Striatum": 146,
+      "Insula": 70,
+      "Hippocampal Formation": 127,
+      "CG25": 186,
+      "dlPFC BA8/9": 72,
+      "OFC BA11": 70
+    },
+    "output_manifest_records": 32,
+    "ml_expression_input_paths_checked": 8,
+    "missing_ml_expression_inputs": [],
+    "python_executable": "D:\\genes\\GeneDepresion_RRA\\.runtime\\python\\python.exe",
+    "python_dependencies": {
+      "numpy": true,
+      "pandas": true,
+      "scipy": true,
+      "sklearn": true,
+      "matplotlib": true
+    }
+  }
+}

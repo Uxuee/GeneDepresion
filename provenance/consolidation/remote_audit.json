@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-21",
+  "intended_repository": "Uxuee/GeneDepresion",
+  "origin": "https://github.com/Uxuee/GeneDepresion.git",
+  "authenticated_account": "Uxuee",
+  "authenticated_transport": "HTTPS via Windows keyring; checked outside network-restricted sandbox",
+  "remote_main_observed": "276e17803c9964d9c944cbaccf25184e59c492ae",
+  "remote_main_contains_rra_synthesis": true,
+  "local_main_unchanged": "59f4fdb33ebe6ece42e8c37b316723d3ad565f73",
+  "asd_repository_excluded": "Uxuee/DGEAnalysis",
+  "publication_performed": false
+}

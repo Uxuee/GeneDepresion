@@ -1,0 +1,427 @@
+[
+  {
+    "path": "add_mdd_association_counts.py",
+    "sha256": "412cc7e58097f7cb2f30c30f5cabb560755ab2e9c2903b5bb9d70b846f72625c",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "add_tier2_reference_counts.py",
+    "sha256": "cb957b212f1d87ce602488ee7ab4b04cba274c5589b8ab1e6381084a84581d22",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "audit_rra_validation.py",
+    "sha256": "68cb2458d4dccf29b2549ebd6a8901b9e627cd373b8333eec1e5a12885e142a8",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "build_rra_validation.py",
+    "sha256": "1de2428b3f40f3ed5a09689baee27ce5935a056c83dd54d75adb0e5ebd9ee39d",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "clean_intersections.py",
+    "sha256": "41cea6a4af8eaa0f7b432ad8fc6ba7940ea60a630d2f4fbfbeeb851b0704736e",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "consolidate_to_D.py",
+    "sha256": "43bf693b0070e9b638b9c3af48f73739add25f828373f5e6dfe381442568066b",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "extract_validation.py",
+    "sha256": "97bb0ce3eb6bc965694d88e722022dec4e412e621b7f4f5d5d1fb77a9bb58a37",
+    "current_same_path": "different"
+  },
+  {
+    "path": "finish_validation.py",
+    "sha256": "812df7e1924640de00feebef01cf32f649113a329d2d65e62a956a55d0d2f963",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "MDD_external_validation_summary.md",
+    "sha256": "2dfcf8cf95d04f548a7de158c7a66555e6925d8b1d4d3be96ed80a5868556678",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "MDD_top100_genes_by_region.csv",
+    "sha256": "6df18071f008096bfec3412d73c67ab416d82e18f28c4517354abf972e2998e7",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "MDD_top100_unique_genes.csv",
+    "sha256": "72ceeb3130f8988e0d31d571371c727f2ead2e4cbb6dd8c4ed834fa41a2ab8cf",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "patch_identifier_conflicts.py",
+    "sha256": "1dad54068eb35e797a3cad72f04337b1adf7e9646b938383ee934604b470492e",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "tier2_rra_priority_intersections.py",
+    "sha256": "aa5f07759f1c9955272ef4df14892ed8a3fad71d1b6fdf08674fd9a6147e82f6",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "tier2_vs_labonte_direct.py",
+    "sha256": "eb26a939191062abb82f0f5812a1f38ba571a716f94371dd98bfc660d45caa1c",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "verify_intersection_delivery.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/canonical_candidates_with_mapping.csv",
+    "sha256": "316543de83fcd5615df1b38b3ed765984bbc13e387a52a6fedb6e8c8b7b5d9fc",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/comparison_universes.csv",
+    "sha256": "81ab8b6121dfbc512f6c5d06738a6fd660b928c0fd0c30fd522fc2e280bfbd7b",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/cumulative_support.csv",
+    "sha256": "833abc4039ed19b7a920fb5e5f8bb005c90861308e8791f0427a103328780a87",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/external_study_comparison.csv",
+    "sha256": "a4b168bec9f2c17c82ea9c65cd6aa6edf11a6b49ba1f82ff35b64be60722081d",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/gene_level_evidence_long.csv",
+    "sha256": "fb009241bd4ad56d4ecb265e5f6a8961cf3f20c97a9897c6c5bba39c761f89ae",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/gene_level_evidence_matrix.csv",
+    "sha256": "95972e92bfaffdc93587469a642fb65582b849a121a1d13d26b268fd8a86bfb3",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/original_study_comparison.csv",
+    "sha256": "f4f1e80d6eb1c8ee586cc86f9ef463852886ca3f2c7923eca8229775dfad04bf",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/overlap_enrichment_results.csv",
+    "sha256": "057da25f3140fef3a2cadfc0dd9a0f3b91b2d55580cb51a336fbd5a71ec765ec",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/ramaker_BH_our_correction.csv",
+    "sha256": "2c6dbc9697f924d0f8eed28fdcf0a203c40b617a305aa5f49ec3cf2755f8334d",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/reference_identifier_audit.csv",
+    "sha256": "3cc965a2bb21598f3210ac09f461b88ec2d10108a83273120af2d071f7ec4c3d",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/run_comparisons.py",
+    "sha256": "c732d501a0d08feadcc4b8e3f2949c30ca20db5ae00a8e1d61da968921532368",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/verification.json",
+    "sha256": "b01c279b8dac3f440fb83e34207e6c963e5abf6a88d14e129195f72a821bb67a",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/figures/01_overlap_fraction_heatmap.pdf",
+    "sha256": "035fe8cceae9a65be99cd7825008d0abb5e9f03b8c829abbdbf2ec4047edf2e1",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/figures/01_overlap_fraction_heatmap.png",
+    "sha256": "938d118688009a9e192f07e2205f816bd67f7419a79ca4f1c053bf8fd99162c6",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/figures/02_cumulative_external_support.pdf",
+    "sha256": "562cfb9770009ba7b0696207c147f07cd9f4814b10274151f0699904e85fdf74",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/figures/02_cumulative_external_support.png",
+    "sha256": "fdfad8895d9261870ff1c3a694872e0eb40347e5971af95357461887e4657d47",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/figures/03_external_support_by_confidence.pdf",
+    "sha256": "328e3dfb9b4d575a60160c1abfa5724fc7ed180e89241b960b510badb5e49a82",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/figures/03_external_support_by_confidence.png",
+    "sha256": "2db4fcd3fb62d51aa03bc1a72398e8b2e69942fb49d2a5a27ce17ee773f7c9d9",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/figures/04_original_study_cumulative_membership.pdf",
+    "sha256": "38ba373a994994c42faad469d98ab50fac503cea8e893b0f7f6bdca78e5e3226",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/figures/04_original_study_cumulative_membership.png",
+    "sha256": "5f2d1b115efb83054c341b3d9fe2f1727bb77965f54f5e3b008925020944d0e9",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/figures/05_original_study_support_by_confidence.pdf",
+    "sha256": "41f2a8ec073cd4216705013c65185a9388e4d2ff20a7356e4e4c0b129f3f759c",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/figures/05_original_study_support_by_confidence.png",
+    "sha256": "1002d6e6f433d5c1f36c6801c6a53ef3509b42274e9d4ba846240bf16e5b1de5",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/figures/06_ranked_gene_evidence_all_candidates.pdf",
+    "sha256": "00b678cbec430b6be6a03eef629b39fc448d3c3a35ccc49ae6d855f29f89028e",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/figures/06_ranked_gene_evidence_first_page.png",
+    "sha256": "e17eaa16f5d0dbf078a12e5ab368aa138685688dabc953c584342297c9d6217b",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "comparisons/_plot_cache/fontlist-v3.11.0.json",
+    "sha256": "675733d41daa94fc1a73985ed052ddc8c84531383a2785a2c0986003d236a9f2",
+    "current_same_path": "absent"
+  },
+  {
+    "path": "reference_studies/download_integrity_verification.json",
+    "sha256": "5af20b5abc8eb87dedccb80131f9d01f83f400d893898461c7d8b521cc3f084a",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/download_log.jsonl",
+    "sha256": "c8a327af042776ba1562c0652fef09a031da8751e3d1360cc2360b8383a84303",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/jobs1.json",
+    "sha256": "2379bf5ca9937e63d5255e883759b0da87fe6ccfeebf2846baf030280e5be58a",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/jobs2.json",
+    "sha256": "9a941862502dc0c563d756cf108e6d19f19318d5e82e8deb935861296252a2dc",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/jobs3.json",
+    "sha256": "bd5d2eb7ceb7fefe7b4b95c761ae72c96087baf0cdcd513a5afb49760fe32f0b",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/jobs4.json",
+    "sha256": "14c25e74b973bb9248ed21233d46f6458ab1415ef639f2a040d8993671550aae",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/jobs5.json",
+    "sha256": "463ab196a9225c42b505f367c7a86afa07e6e41cddcbcdbc3ab4ee1028c3cb61",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/reference_dataset_manifest.csv",
+    "sha256": "e5cfe360f76670b1a4b9f5aac9b40d94f2affa71cdaa9b482b2e63cfe5a42cd6",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/retrieval_report.md",
+    "sha256": "927d5d689ade088183d2864f9d19f7cb5dd6df042c72cf6c0c33cbd020cadf03",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/retrieve.py",
+    "sha256": "2327f46b5e0725da48289726536a67f8e6f7bf978eaac7ffb29ebaf585c20cbf",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/sample_accession_audit.json",
+    "sha256": "074745ef89d21bfceae7a84d6918d6806fb505f7a32359866452804239558119",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/standardize.py",
+    "sha256": "b85edb880d10549c896405b7e5ce719c457a1315902bfbd37f9ec0f9ca722164",
+    "current_same_path": "different"
+  },
+  {
+    "path": "reference_studies/verification.json",
+    "sha256": "dbb30262f3048182e071820b583e1610c57c18cad8bfa8dac0d89d4eee504abb",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/workbook_inspection.json",
+    "sha256": "636b5f065604f2348629168358da7b7e718f11f4c5cd3b0cadc70324c4396c28",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/goes_2025/Goes_2025_sACC_transcripts_separate.csv",
+    "sha256": "cbaaa48cc0d6503c19f8a750eb699a2ad7fbabe4c26873adb0c24711c7cc17c9",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/goes_2025/Goes_2025_standardized.csv",
+    "sha256": "82fe619c1eb58e49cb9371579d2c7062e7727b8077ef878e1daaae85026fb9fa",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/goes_2025/originals/41467_2025_59115_MOESM4_ESM.xlsx",
+    "sha256": "6945c0090f3180d4b5f6c5beb45f2c3f28f601e52a408abdc7e4919a87f1d3f7",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/goes_2025/originals/article.xml",
+    "sha256": "0683ac94d2c2d7483722ebfebe1bab04a208369eecd1321d466ad9188c70b3a4",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/lanz_GSE53987/Lanz_GSE53987_standardized.csv",
+    "sha256": "94aefc8bdd233e22be713d60664108978522396c694bdbcda7a304b9d530bec4",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/lanz_GSE53987/originals/41398_2019_492_MOESM1_ESM.docx",
+    "sha256": "08ac0b55315370da035dc2c917df42d8634c370599957167790abbacd797ca97",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/lanz_GSE53987/originals/41398_2019_492_MOESM8_ESM.xlsx",
+    "sha256": "7713f23d09e90e9feff28c1194bb5ee9bdf5d4a772d22666df99822ef058df18",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/lanz_GSE53987/originals/article.xml",
+    "sha256": "91ed05e75f3b35a114942beba98a5432b4d16424a991c4457a9cff478aa9ff7a",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/lanz_GSE53987/originals/GSE53987_record.txt",
+    "sha256": "87f9da53432ef087ded24aa12b003fc5ccb6a9b12221bbdadfd5c5ad402672c9",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/lanz_GSE53987/originals/publication_record.xml",
+    "sha256": "164eef69d4b1be2c0f8563d14ff7c32412b2d4c8c0a9f7732d135257994922b0",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/lanz_GSE53987/originals/series_matrix_listing.html",
+    "sha256": "4928e7333cbc4ffc67917b29a4c3519a019fb0d5f0bf98078e2fb46042a7e950",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/lanz_GSE53987/originals/supplementary_listing.html",
+    "sha256": "0e2f7433ed263059bfe8cb2a43a1d0cdee77a32737509e6300148fc5911e774f",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/mapping/hgnc_complete_set.txt",
+    "sha256": "6df77ac3cbaeb86a6dce5e17d851ebb27b6b3cdcd2471a211a3d8464f00c54c4",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/mapping/identifier_mapping_audit.csv",
+    "sha256": "3cd4525e140c6ac782b8b50cfb2d09e26d7126ae24c345e3586a750e6ed59be0",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/mapping/README.md",
+    "sha256": "6e4834151c639bb283fa1aa17e2e301ddc856cab73c8327cfe9ac5decf5d9c30",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/original_labonte/Labonte_2017_standardized.csv",
+    "sha256": "ff808aa11ee8722c68c0c55f5dbf4f01627fcd3b9a2e2713c0478b36f384ba67",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/original_labonte/originals/41591_2017_BFnm4386_MOESM3_ESM.xlsx",
+    "sha256": "984345d1aa054dcab86404cac16de6862dbd65b0966086d3d10dccf17dd2b674",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/original_labonte/originals/41591_2017_BFnm4386_MOESM4_ESM.xlsx",
+    "sha256": "cc7f9d553c873b7ba0b94b823e5f3b7f497b2dec462775ab6106ce56835fd453",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/original_labonte/originals/article.html",
+    "sha256": "c8270227653cac94d5ea134bb0b79282f56c07bd4b216acf0c692d4c41f74df1",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/original_labonte/originals/article_bioc.json",
+    "sha256": "15cbecc7e00ce4fa3e416a848cf9cd101615ec8b4f58aeb8e5493f1aab25ba47",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/original_labonte/originals/download_response.html",
+    "sha256": "05728bca3acf8bc05936937af815c2131521368ea8dd4774f9e467bf0b5521ad",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/original_labonte/originals/GSE102556_record.txt",
+    "sha256": "c560cc90d840b1fa1b75eb177259b14a9b7748872251e28fc01f49b6557106d9",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/original_labonte/originals/publisher.html",
+    "sha256": "c64cbbd01127dfa0c5b8427cca42505da3445852e8647cc856d00d1321a89881",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/ramaker_GSE80655/Ramaker_GSE80655_standardized.csv",
+    "sha256": "33a50c016932445c9cd758b5cd10e7881597ccd393f95fc4edf4f1e876fccc2e",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/ramaker_GSE80655/originals/article.html",
+    "sha256": "c4ca6df2c673fa98141139260ece9bf9a448d3b7464c4294109021a490b8b5e7",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/ramaker_GSE80655/originals/CompleteRamakerTable.csv",
+    "sha256": "84bf78f176fd6889cbc9aac45f9052ec5d9c773bf12c415d2bf37f251ac4163a",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/ramaker_GSE80655/originals/GSE80655-metadata.txt.txt",
+    "sha256": "73cbdea011f90f75b825679e1df6a760596c9257b0a0b55b71f8de56108cf716",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/ramaker_GSE80655/originals/GSE80655_record.txt",
+    "sha256": "a166d2151fd172f99ebec5aa8eb7a9e9c9ea646d3f85d439b7d4b6350b3dd72b",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/ramaker_GSE80655/originals/RamakerEtAl.R",
+    "sha256": "65fd7ae28e473619156a52970fcc47091e35c84d9b630c086f23a06f19394fc0",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/ramaker_GSE80655/originals/Ramaker_Meta_Analysis.R",
+    "sha256": "a494cb08abe7014cc5a1fcf120a3efe3ae5ff9589a26c56939c5158d4cdd65f6",
+    "current_same_path": "identical"
+  },
+  {
+    "path": "reference_studies/ramaker_GSE80655/originals/README.md",
+    "sha256": "095d1a3ba82d9cd8ba27de850800bea81868115e351f6cfde93233df3615892d",
+    "current_same_path": "identical"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-21",
+  "new_documentation": "Current aggregate research guides and consolidation manifests are suitable for review/publication; no sample-level values included.",
+  "existing_files": [
+    {
+      "path": "external_validation/rra_validation/tier2_branch_primary/simple_matching/tier2_vs_labonte_direct_comparison.md",
+      "decision": "public_release_candidate_reviewed",
+      "reason": "Author-generated aggregate counts, gene symbols, methods and provenance. No sample-level rows; original supplements are not embedded.",
+      "staged": false
+    }
+  ],
+  "remaining_files": "Local pending individual review; scripts/reports are candidates, not blanket approval. Original supplements, mapping resources, standardized tables and intermediates require license/privacy/size review.",
+  "external_files_staged": 0
+}
