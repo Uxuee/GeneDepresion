@@ -34,7 +34,8 @@ class ReleaseReadinessTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("Corrected ML-priority scoring", result.stdout)
+        self.assertIn("Current primary exploratory Tier2-RRA", result.stdout)
+        self.assertIn("Corrected weighted ML benchmark (historical canonical)", result.stdout)
         self.assertNotIn("NO-OP", result.stdout)
         self.assertNotIn("REFUSE", result.stdout)
 

@@ -87,6 +87,13 @@ def main() -> int:
         classes = {name: sum(r["ML_priority_class"] == name for r in rows) for name in ("High-confidence ML-prioritized Tier 2", "Moderate-confidence ML-prioritized Tier 2", "Exploratory ML-prioritized Tier 2")}
         if (len(rows), classes["High-confidence ML-prioritized Tier 2"], classes["Moderate-confidence ML-prioritized Tier 2"], classes["Exploratory ML-prioritized Tier 2"]) != (671, 30, 119, 522):
             errors.append(f"canonical corrected ranking counts differ: rows={len(rows)}, classes={classes}")
+    primary = data.get("current_primary_ranking")
+    if primary:
+        primary_path = ROOT / primary["path"]
+        if not primary_path.is_file() or sha256(primary_path) != primary["sha256"]:
+            errors.append("current primary Tier2-RRA ranking missing or checksum differs")
+        elif primary.get("confidence_labels") is not None:
+            errors.append("Tier2-RRA must not inherit weighted confidence labels")
     tier4 = json.loads((ROOT / "provenance/tier4_ranked_signature_recovery_manifest.json").read_text(encoding="utf-8"))
     for record in tier4["files"]:
         if subprocess.run(["git", "cat-file", "-e", record["blob"]], cwd=ROOT, capture_output=True).returncode:
@@ -116,7 +123,7 @@ def main() -> int:
     for stale in ("35 high", "130 moderate", "165 high+moderate", "v2 denominator = 180"):
         if stale.lower() in current_readme.lower():
             errors.append(f"current README contains stale value: {stale}")
-    result = {"ok": not errors, "errors": errors, "warnings": warnings, "notices": notices, "stage_count": len(ids), "canonical_ranking_sha256": expected}
+    result = {"ok": not errors, "errors": errors, "warnings": warnings, "notices": notices, "stage_count": len(ids), "historical_weighted_ranking_sha256": expected, "current_primary_ranking": primary}
     if not args.allow_missing_local_artifacts:
         REPORT.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2))
